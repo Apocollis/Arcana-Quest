@@ -1,0 +1,9 @@
+{
+	"name" : "arcanaquest:layout",
+	"num_Rooms" : [15, 20, 25, 30, 25],
+	"scatter" : [15, 15, 17, 12, 12],
+	"layouts" : [
+		{"level" : [0, 1, 3, 4], "type" : "classic"},
+		{"level" : 2, "type" : "mst"}
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    94
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"I\u0027m now one of the greatest threats to the Crimson Cult and I expect that they\u0027ll soon send some of their most powerful forces. I should be prepared. What shows up next will likely be very deadly.\"\n§c\nDo not complete this quest until you are prepared to fight the Greater Crimson Portal. Claiming the quest reward for this quests will spawn the Greater Crimson Portal so that it can be battled.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "minecraft:spawn_egg",
+        "tag:10": {
+          "EntityTag:10": {
+            "id:8": "thaumcraft:cultistportallesser"
+          }
+        }
+      },
+      "name:8": "Enemy of the Cult"
+    }
+  },
+  "questID:3": 97,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

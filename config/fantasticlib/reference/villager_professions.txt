@@ -1,0 +1,13 @@
+minecraft:farmer
+minecraft:librarian
+minecraft:priest
+minecraft:smith
+minecraft:butcher
+minecraft:nitwit
+vtt:brewer
+vtt:redstoner
+vtt:tinkerer
+oreberries:tinker
+bewitchment:hedge_witch
+bewitchment:alchemist
+sophisticatedwolves:pets_seller

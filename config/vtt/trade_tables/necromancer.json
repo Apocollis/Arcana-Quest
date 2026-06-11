@@ -1,0 +1,112 @@
+{ 
+	Profession:"vtt:necromancer", 
+	Career:"necromancer",
+
+	Offers:{
+		Recipes:[
+	
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"minecraft:bone",Count:{min:18,max:22},Damage:0},
+				sell: {id:"ordinarycoins:coinbronze",Count:8}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"minecraft:rotten_flesh",Count:{min:18,max:22},Damage:0},
+				sell: {id:"ordinarycoins:coinbronze",Count:8}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"xreliquary:mob_ingredient",Count:{min:4,max:5},Damage:0},
+				sell: {id:"ordinarycoins:coinbronze",Count:8}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"xreliquary:mob_ingredient",Count:{min:4,max:5},Damage:6},
+				sell: {id:"ordinarycoins:coinbronze",Count:8}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"xreliquary:mob_ingredient",Count:{min:4,max:5},Damage:2},
+				sell: {id:"ordinarycoins:coinbronze",Count:8}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"attaineddrops2:essence",Count:{min:12,max:16},Damage:0},
+				sell: {id:"ordinarycoins:coinbronze",Count:8}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"minecraft:skull",Count:{min:3,max:4},Damage:0},
+				sell: {id:"ordinarycoins:coinbronze",Count:8}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:42,max:48}},
+				sell: {id:"quark:soul_bead",Count:2,Damage:0}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buy: {id:"contenttweaker:life_crystal",Count:1,Damage:0},
+				sell: {id:"ordinarycoins:coingold",Count:1}
+			},
+			
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, 
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell:{id:"corpsecomplex:scroll",Count:1}, 
+				CareerLevel:3
+			},
+			
+			{
+				action:"add", 
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},
+				sell:{id:"minecraft:splash_potion",Count:1,tag:[{Potion:"minecraft:harming"},{Potion:"minecraft:long_weakness"}]}, 
+				CareerLevel:3
+			},
+			
+			{
+				action:"add", 
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:24}},
+				sell:{id:"minecraft:potion",Count:1,tag:{Potion:"extraalchemy:leech_normal"}}, 
+				CareerLevel:3
+			},
+			
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, 
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell:{id:"minecraft:potion",Count:1,tag:{Potion:"extraalchemy:cheat_death_normal"}}, 
+				CareerLevel:4
+			},
+
+			
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect:"quark:curse"}}, 
+				CareerLevel:4
+			}
+		
+		]
+	}
+
+}

@@ -1,0 +1,91 @@
+{
+  "preRequisites:11": [
+    92
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "embers:stamp_bar"
+      },
+      "name:8": "Item Stamping"
+    }
+  },
+  "questID:3": 101,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "embers:stamp_gear"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "soot:stamp_nugget"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "soot:stamp_text"
+        }
+      }
+    },
+    "1:10": {
+      "amount:3": 5,
+      "index:3": 1,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "embers:stamp_bar"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "embers:stamp_plate"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "embers:stamp_flat"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

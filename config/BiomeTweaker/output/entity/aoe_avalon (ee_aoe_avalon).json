@@ -1,0 +1,6 @@
+
+{
+  "Name": "aoe_avalon",
+  "Registry ID": "ee:aoe_avalon",
+  "Class": "com.example.structure.entity.trader.EntityAOEArena"
+}

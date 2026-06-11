@@ -1,0 +1,161 @@
+{
+	"populate": {
+	
+		"thaum_urn_common": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"structure": "thaum_urn_common.nbt",
+				"ignored-block": [],
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:sandstone", "minecraft:red_sandstone", "minecraft:stonebrick"],
+				"ignore-entities": false,
+				"integrity": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 5,	
+			"min-height": 1,
+			"max-height": 56,
+			"retrogen": "true",
+			"ground-level": 56,
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"thaum_urn_uncommon": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"structure": "thaum_urn_uncommon.nbt",
+				"ignored-block": [],
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:sandstone", "minecraft:red_sandstone", "minecraft:stonebrick"],
+				"ignore-entities": false,
+				"integrity": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": 1,
+			"max-height": 56,
+			"retrogen": "true",
+			"ground-level": 56,
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"thaum_urn_rare": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"structure": "thaum_urn_rare.nbt",
+				"ignored-block": [],
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:sandstone", "minecraft:red_sandstone", "minecraft:stonebrick"],
+				"ignore-entities": false,
+				"integrity": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 16,	
+			"min-height": 1,
+			"max-height": 24,
+			"retrogen": "true",
+			"ground-level": 24,
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"thaum_crate_common": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"structure": "thaum_crate_common.nbt",
+				"ignored-block": [],
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:sandstone", "minecraft:red_sandstone", "minecraft:stonebrick"],
+				"ignore-entities": false,
+				"integrity": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 5,	
+			"min-height": 1,
+			"max-height": 56,
+			"retrogen": "true",
+			"ground-level": 56,
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"thaum_crate_uncommon": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"structure": "thaum_crate_uncommon.nbt",
+				"ignored-block": [],
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:sandstone", "minecraft:red_sandstone", "minecraft:stonebrick"],
+				"ignore-entities": false,
+				"integrity": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": 1,
+			"max-height": 56,
+			"retrogen": "true",
+			"ground-level": 56,
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"thaum_crate_rare": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"structure": "thaum_crate_rare.nbt",
+				"ignored-block": [],
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:mossy_cobblestone", "minecraft:sandstone", "minecraft:red_sandstone", "minecraft:stonebrick"],
+				"ignore-entities": false,
+				"integrity": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 16,	
+			"min-height": 1,
+			"max-height": 24,
+			"retrogen": "true",
+			"ground-level": 24,
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+		
+	}
+}

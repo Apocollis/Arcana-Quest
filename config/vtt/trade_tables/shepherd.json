@@ -1,0 +1,30 @@
+{
+	Profession:"minecraft:farmer",
+	Career:"shepherd",
+
+	Offers:{
+		Recipes:[
+
+			{action:"clear"},
+		
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21},Damage:0},sell:{id:"minecraft:wool",Count:16,Damage:0}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:wool",Count:16,Damage:0},sell:{id:"ordinarycoins:coinbronze",Count:{min:13,max:15}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:wool",Count:16,Damage:12},sell:{id:"ordinarycoins:coinbronze",Count:{min:13,max:15}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:wool",Count:16,Damage:15},sell:{id:"ordinarycoins:coinbronze",Count:{min:13,max:15}}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27},Damage:0},sell:{id:"minecraft:cooked_mutton",Count:{min:5,max:6}}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:mutton",Count:8,Damage:0},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
+			{action:"add", buy:{id:"animania:raw_prime_mutton",Count:4,Damage:0},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:15,max:18},Damage:0},sell:{id:"minecraft:shears",Count:1,Damage:0}, CareerLevel:2},
+			
+			{action:"add", buyB:{id:"ordinarycoins:coinbronze",Count:{min:4,max:12}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"toughasnails:wool_helmet",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinbronze",Count:{min:14,max:24}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"toughasnails:wool_chestplate",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinbronze",Count:{min:12,max:18}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"toughasnails:wool_leggings",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinbronze",Count:{min:3,max:8}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"toughasnails:wool_boots",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+		
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},sell:{id:"animania:entity_egg_sheep_random",Count:1}, CareerLevel:4}
+			
+		]
+	}
+
+}

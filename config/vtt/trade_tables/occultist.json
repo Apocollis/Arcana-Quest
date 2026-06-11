@@ -1,0 +1,152 @@
+{ 
+	Profession:"vtt:occultist", 
+	Career:"occultist",
+
+	Offers:{
+		Recipes:[
+		
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"minecraft:ender_pearl",Count:{min:6,max:7}},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:23,max:25}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"quark:biotite",Count:{min:15,max:18}},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:13,max:15}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:36,max:38}},
+				sell: {id:"minecraft:ender_pearl",Count:1}
+			},
+			
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},
+				sell: {id:"contenttweaker:cracked_pearl",Count:5}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},
+				sell: {id:"minecraft:obsidian",Count:{min:5,max:6}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"minecraft:chorus_fruit",Count:{min:16,max:18}},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:11,max:12}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"minecraft:shulker_shell",Count:3},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:14,max:15}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:36,max:38}},
+				sell: {id:"quark:arrow_ender",Count:12}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buy: {id:"xreliquary:mob_ingredient",Damage:11,Count:3},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:42,max:45}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:48,max:52}},
+				sell: {id:"minecraft:dragon_breath",Count:2}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell: {id:"thaumcraft:void_seed",Count:3}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
+				buy:{id:"ordinarycoins:coingold",Count:3},
+				sell: {id:"botania:manaresource",Damage:15,Count:3}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:5,max:6}},
+				buy:{id:"ordinarycoins:coingold",Count:5},
+				sell: {id:"botania:enderdagger",Count:1,tag:{ench:"30"}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell: {id:"endercompass:ender_compass",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell: {id:"thaumcraft:curio",Damage:[0,3,4],Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell: {id:"thaumcraft:curio",Damage:[1,2,5],Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 5,
+				buy: {id:"quark:enderdragon_scale",Count:1},
+				sell: {id:"ordinarycoins:coingold",Count:12}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 5,
+				buyB:{id:"ordinarycoins:coingold",Count:{min:5,max:7}},
+				buy:{id:"ordinarycoins:coinplatinum",Count:1},
+				sell: {id:"contenttweaker:cracked_pearl_2",Count:1}
+			},
+			
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:2,max:2}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect:"extraalchemy:effect.dislocation"}}, 
+				CareerLevel:5
+			}
+		
+		]
+	}
+
+}

@@ -1,0 +1,355 @@
+{
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"In my travels I\u0027ve seen many ancient looking structures that are inhabited by strange golems. These are much different than the ones I find in villages and must be animated by another means. Perhaps if I can gather materials from one I can try to learn more about the ancient technology that created them.\"\n\n§9§aRefer to the Ancient Codex for additional info as you progress through Embers. You can right click the nodes in the book to mark them complete and view the next entry.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "embers:codex"
+      },
+      "name:8": "Ancient Technology"
+    }
+  },
+  "questID:3": 86,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "embers:codex"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "embers:ember_detector"
+        }
+      }
+    },
+    "1:10": {
+      "amount:3": 10,
+      "index:3": 1,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "target:8": "embers:ancient_golem",
+      "targetNBT:10": {
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 300,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": -2.0,
+            "Name:8": "tc.mobmod"
+          },
+          "1:10": {
+            "Base:6": 0.0,
+            "Name:8": "tc.mobmodtaint"
+          },
+          "2:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGen"
+          },
+          "3:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenTargetSpotted"
+          },
+          "4:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenAttackedBySame"
+          },
+          "5:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenDamageDealt"
+          },
+          "6:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenWarned"
+          },
+          "7:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenAllyKilled"
+          },
+          "8:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenTargetVisible"
+          },
+          "9:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatDeg"
+          },
+          "10:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatDegTargetNotVisible"
+          },
+          "11:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatDegFlee"
+          },
+          "12:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.visibilityReduction"
+          },
+          "13:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.sight"
+          },
+          "14:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.noiseReduction"
+          },
+          "15:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.hearing"
+          },
+          "16:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.scentReduction"
+          },
+          "17:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.smelling"
+          },
+          "18:10": {
+            "Base:6": 1.0,
+            "Name:8": "potioncore.projectileDamage"
+          },
+          "19:10": {
+            "Base:6": 1.0,
+            "Name:8": "potioncore.magicDamage"
+          },
+          "20:10": {
+            "Base:6": 1.0,
+            "Name:8": "potioncore.jumpHeight"
+          },
+          "21:10": {
+            "Base:6": 1.0,
+            "Name:8": "potioncore.damageResistance"
+          },
+          "22:10": {
+            "Base:6": 0.0,
+            "Name:8": "potioncore.magicShielding"
+          },
+          "23:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.scales"
+          },
+          "24:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.spears"
+          },
+          "25:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.physicalDamageRate"
+          },
+          "26:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.experienceRate"
+          },
+          "27:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.fireDamageRate"
+          },
+          "28:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.fireAspect"
+          },
+          "29:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.barehandedPower"
+          },
+          "30:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.witchburn"
+          },
+          "31:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.attraction"
+          },
+          "32:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.attraction_generation"
+          },
+          "33:10": {
+            "Base:6": 40.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "34:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "35:10": {
+            "Base:6": 0.5,
+            "Name:8": "generic.movementSpeed"
+          },
+          "36:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armor"
+          },
+          "37:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "38:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "39:10": {
+            "Base:6": 32.0,
+            "Name:8": "generic.followRange"
+          },
+          "40:10": {
+            "Base:6": 6.0,
+            "Name:8": "generic.attackDamage"
+          }
+        },
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": -1,
+        "ForgeCaps:10": {
+          "champions:championship:10": {},
+          "dsurround:data:10": {
+            "a:1": 0,
+            "f:1": 0
+          },
+          "dsurround:entityfx:10": {},
+          "dsurround:speech:10": {},
+          "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore:9": {},
+          "llibrary:extendedentitydatacapability:10": {
+            "Ice And Fire - Chain Property Tracker:10": {
+              "ConnectedEntities:9": {}
+            },
+            "Ice And Fire - Frozen Property Tracker:10": {
+              "IsFrozen:1": 0,
+              "TicksUntilUnfrozen:3": 0
+            },
+            "Ice And Fire - Siren Property Tracker:10": {
+              "CharmedBySiren:1": 0,
+              "SirenID:3": 0
+            },
+            "Ice And Fire - Stone Property Tracker:10": {
+              "StoneBreakLvl:3": 0,
+              "TurnedToStone:1": 0
+            },
+            "Ice and Fire - Player Property Tracker:10": {
+              "DismountedDragon:1": 0,
+              "DreadPortalX:3": 0,
+              "DreadPortalY:3": 0,
+              "DreadPortalZ:3": 0,
+              "GauntletDamage:3": 0
+            }
+          },
+          "thaumicaugmentation:portal_state:10": {
+            "inPortal:1": 0
+          },
+          "thebetweenlands:custom_step_sound:10": {},
+          "thebetweenlands:entity_gems:10": {
+            "gems:9": {}
+          },
+          "thebetweenlands:equipment:10": {
+            "amuletSlots:3": 1
+          },
+          "thebetweenlands:puppet:10": {
+            "guard:1": 0,
+            "recruitmentCost:3": 0,
+            "stay:1": 0,
+            "ticks:3": 0
+          },
+          "twilightforest:cap_shield:10": {
+            "permshields:3": 0,
+            "tempshields:3": 0
+          }
+        },
+        "ForgeData:10": {},
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 40.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "RelativeAABB:9": {
+          "0:6": -0.30000001192092896,
+          "1:6": 0.0,
+          "2:6": -0.30000001192092896,
+          "3:6": 0.30000001192092896,
+          "4:6": 1.7999999523162842,
+          "5:6": 0.30000001192092896
+        },
+        "Rotation:9": {
+          "0:5": 4.360544,
+          "1:5": 0.0
+        },
+        "SurgeAABB:9": {
+          "0:6": -0.30000001192092896,
+          "1:6": 0.0,
+          "2:6": -0.30000001192092896,
+          "3:6": 0.30000001192092896,
+          "4:6": 1.7999999523162842,
+          "5:6": 0.30000001192092896
+        },
+        "UUIDLeast:4": -6536575645937277208,
+        "UUIDMost:4": -2387606111995673894,
+        "UpdateBlocked:1": 0,
+        "id:8": "embers:ancient_golem",
+        "lastPickaxeHit:4": 0
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+			"minecraft:leaves:*",
+			"minecraft:leaves2:*",
+			"rustic:leaves:*",
+			"twilightforest:twilight_leaves:*",
+			"twilightforest:twilight_leaves_3:*",
+			"thaumcraft:leaves_silverwood:*",
+			"thaumcraft:leaves_greatwood:*",
+			"quark:variant_leaves:*"
+          ]
+        }
+        },
+      "replaceStrategy": "ADD",
+	  "dropCount": {
+		  "fixed": 1
+		},
+      "drops": [
+        {
+        "selector": {
+			"weight": {
+              "value": 3
+				},
+			"silktouch": "EXCLUDED"
+            },
+        "item": {
+            "items": [
+				"minecraft:stick"
+					],
+			"quantity": {
+				"fixed": 1
+					}
+			},
+		"xp": {
+			"fixed": 1
+			}
+		},
+		{
+        "selector": {
+			"weight": {
+              "value": 5
+				},
+			"silktouch": "EXCLUDED"
+            },
+		"xp": {
+			"fixed": 1
+			}
+		},
+		{
+		"selector": {
+			"weight": {
+				"value": 92
+				}
+			}
+		}
+		]
+	}
+	]
+}

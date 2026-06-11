@@ -1,0 +1,21 @@
+{
+	"name" : "arcanaquest:main_jungle",
+	"exclusive" : true,
+	"criteria" : {
+		"dimensionWL" : 0,
+		"biomeTypes" : [
+			"JUNGLE"
+		],
+		"weight" : 5
+	},
+	"inherit" : [
+		"arcanaquest:tower_jungle",
+		"arcanaquest:layout",
+		"arcanaquest:rooms_swamp",
+		"arcanaquest:segments_swamp",
+		"arcanaquest:spawners_swamp",
+		"arcanaquest:theme_jungle",
+		"arcanaquest:loot",
+		"arcanaquest:filters_swamp"
+	]
+}

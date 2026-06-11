@@ -1,0 +1,265 @@
+{
+	"populate": {
+	
+		"copper_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:copper_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 10,	
+			"min-height": 16,
+			"max-height": 56,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+		"tin_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:tin_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 13,	
+			"min-height": 16,
+			"max-height": 56,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+		"lead_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:lead_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 16,	
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+		"aluminum_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:aluminum_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 15,	
+			"min-height": 16,
+			"max-height": 56,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+		"silver_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:silver_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 18,	
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+		"iron_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:iron_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 15,	
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+		"gold_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:gold_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 24,	
+			"min-height": 16,
+			"max-height": 32,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+		"nickel_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:nickel_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 18,	
+			"min-height": 16,
+			"max-height": 32,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+		"platinum_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:platinum_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 36,	
+			"min-height": 16,
+			"max-height": 24,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+		"essence_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:essence_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 60,	
+			"min-height": 16,
+			"max-height": 24,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					10
+				]
+			}
+		},
+		
+	}
+}

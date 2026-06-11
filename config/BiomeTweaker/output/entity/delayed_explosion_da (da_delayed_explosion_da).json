@@ -1,0 +1,6 @@
+
+{
+  "Name": "delayed_explosion_da",
+  "Registry ID": "da:delayed_explosion_da",
+  "Class": "com.dungeon_additions.da.entity.generic.EntityDelayedExplosion"
+}

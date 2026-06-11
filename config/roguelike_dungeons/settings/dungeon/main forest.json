@@ -1,0 +1,21 @@
+{
+	"name" : "arcanaquest:main_forest",
+	"exclusive" : true,
+	"criteria" : {
+		"dimensionWL" : 0,
+		"biomeTypes" : [
+			"FOREST"
+		],
+		"weight" : 5
+	},
+	"inherit" : [
+		"arcanaquest:tower_forest",
+		"arcanaquest:layout",
+		"arcanaquest:rooms",
+		"arcanaquest:segments_forest",
+		"arcanaquest:spawners",
+		"arcanaquest:theme_forest",
+		"arcanaquest:loot",
+		"arcanaquest:filters"
+	]
+}

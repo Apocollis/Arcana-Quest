@@ -1,0 +1,110 @@
+{ 
+	Profession: "vtt:gambler", 
+	Career:"gambler",
+
+	Offers:{
+		Recipes:[
+	
+			
+			{
+				action: "add",
+				CareerLevel:1,
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:37,max:42}},
+				sell:{id:"thaumcraft:loot_bag",Count:1,Damage:0}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:1,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
+				buy:{id:"ordinarycoins:coingold",Count:2},
+				sell:{id:"lootchests:loot_crate",Count:1,Damage:0}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:1,
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},
+				sell:{id:"immersiveengineering:shader_bag",Count:1,Damage:0,tag:[{rarity: "COMMON"}]}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:1,
+				buy:{id:"atum:coin_gold",Count:{min:12,max:13}},
+				sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:15},Damage:0}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:2,
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:58,max:63}},
+				sell:{id:"thaumcraft:loot_bag",Count:1,Damage:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:2,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},
+				buy:{id:"ordinarycoins:coingold",Count:5},
+				sell:{id:"lootchests:loot_crate",Count:1,Damage:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:2,
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:54,max:58}},
+				sell:{id:"immersiveengineering:shader_bag",Count:1,Damage:0,tag:[{rarity: "UNCOMMON"}]}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buyB:{id:"ordinarycoins:coingold",Count:{min:2,max:4}},
+				buy:{id:"ordinarycoins:coinplatinum",Count:1},
+				sell: {id:"recall:item_recall",Count:1,Damage:0}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:3,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell:{id:"thaumcraft:loot_bag",Count:1,Damage:2}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:3,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:5}},
+				buy:{id:"ordinarycoins:coinplatinum",Count:2},
+				sell:{id:"lootchests:loot_crate",Count:1,Damage:2}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:3,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell:{id:"immersiveengineering:shader_bag",Count:1,Damage:0,tag:[{rarity: "RARE"}]}
+			},
+			
+			{
+				action: "add",
+				CareerLevel:4,
+				buyB:{id:"ordinarycoins:coingold",Count:{min:1,max:2}},
+				buy:{id:"ordinarycoins:coinplatinum",Count:4},
+				sell:{id:"lootchests:loot_crate",Count:1,Damage:3}
+			},
+		
+			{
+				action: "add",
+				CareerLevel:4,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}},
+				buy:{id:"ordinarycoins:coingold",Count:2},
+				sell:{id:"immersiveengineering:shader_bag",Count:1,Damage:0,tag:[{rarity: "EPIC"}]}
+			}
+		
+		]
+	}
+}

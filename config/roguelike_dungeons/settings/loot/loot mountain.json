@@ -1,0 +1,12 @@
+{
+	"name" : "arcanaquest:loot_mountain",
+	"inherit" : [
+		"arcanaquest:loot0",
+		"arcanaquest:loot1",
+		"arcanaquest:loot2",
+		"arcanaquest:loot3",
+		"arcanaquest:loot4",
+		"arcanaquest:loot_all",
+		"arcanaquest:loot_treasure"
+	]
+}

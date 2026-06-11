@@ -1,0 +1,21 @@
+{
+	"name" : "arcanaquest:main_plains",
+	"exclusive" : false,
+	"criteria" : {
+		"dimensionWL" : 0,
+		"biomeTypes" : [
+			"PLAINS"
+		],
+		"weight" : 3
+	},
+	"inherit" : [
+		"arcanaquest:tower_plains",
+		"arcanaquest:layout",
+		"arcanaquest:rooms",
+		"arcanaquest:segments",
+		"arcanaquest:spawners",
+		"arcanaquest:theme",
+		"arcanaquest:loot",
+		"arcanaquest:filters"
+	]
+}

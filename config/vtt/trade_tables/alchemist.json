@@ -1,0 +1,33 @@
+{ 
+	Profession:"vtt:alchemist",
+	Career:"alchemist",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:nether_wart",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:nether_wart",Count:{min:18,max:22}},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:13}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:sugar",Count:{min:16,max:19}},sell:{id:"ordinarycoins:coinbronze",Count:{min:5,max:6}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"random"}}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"minecraft:gunpowder",Count:{min:17,max:19}},sell:{id:"ordinarycoins:coinbronze",Count:{min:7,max:8}}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:spider_eye",Count:{min:14,max:16}},sell:{id:"ordinarycoins:coinbronze",Count:{min:7,max:8}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"random"}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"random"}}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"minecraft:magma_cream",Count:5},sell:{id:"ordinarycoins:coinbronze",Count:{min:7,max:8}}, CareerLevel:3},
+			{action:"add", buy:{id:"minecraft:ghast_tear",Count:3},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:11}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"random"}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:splash_potion",Count:1,tag:[{Potion:"minecraft:harming"},{Potion:"minecraft:long_poison"},{Potion:"minecraft:weakness"},{Potion:"minecraft:mining_fatigue"},{Potion:"minecraft:slowness"},{Potion:"extraalchemy:freezing"},{Potion:"extraalchemy:fuse_normal"},{Potion:"extraalchemy:combustion_long"},{Potion:"extraalchemy:beheading_normal"}]}, CareerLevel:3},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"random"}}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:lingering_potion",Count:1,tag:{Potion:"random"}}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"minecraft:tipped_arrow",Count:16,tag:[{Potion:"minecraft:harming"},{Potion:"minecraft:long_poison"},{Potion:"minecraft:weakness"},{Potion:"minecraft:slowness"},{Potion:"potioncore:vulnerable"},{Potion:"potioncore:broken_armor"},{Potion:"potioncore:fire"}]}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:45,max:48}},sell:{id:"minecraft:tipped_arrow",Count:16,tag:[{Potion:"extraalchemy:freezing"},{Potion:"potioncore:burst"},{Potion:"potioncore:teleport"},{Potion:"potioncore:lightning"},{Potion:"potioncore:levitation"},{Potion:"potioncore:wither"},{Potion:"potioncore:strong_launch"}]}, CareerLevel:4},
+			
+			{action:"add", buyB:{id:"ordinarycoins:coingold",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coinplatinum",Count:3},sell:{id:"potionfingers:ring",Count:1,Damage:0}, CareerLevel:5}
+			
+
+		]
+	}
+}

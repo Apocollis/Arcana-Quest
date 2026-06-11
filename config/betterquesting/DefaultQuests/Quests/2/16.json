@@ -1,0 +1,60 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"I\u0027ve discovered some mysterious crystals that seem to hold some kind of energy. I should study these to see if I can find some way to harness they power they contain.\"",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "OreDict:8": "CrystalEssence",
+        "id:8": "thaumcraft:crystal_essence",
+        "tag:10": {
+          "Aspects:9": {
+            "0:10": {
+              "amount:3": 1,
+              "key:8": "aer"
+            }
+          }
+        }
+      },
+      "name:8": "Crystals of Magic"
+    }
+  },
+  "questID:3": 16,
+  "rewards:9": {
+    "0:10": {
+      "amount:3": 25,
+      "index:3": 0,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "OreDict:8": "PrimalEssence",
+          "id:8": "thaumcraft:crystal_essence",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 1,
+                "key:8": "terra"
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

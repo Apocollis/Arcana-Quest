@@ -1,0 +1,58 @@
+{
+  "preRequisites:11": [
+    32
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thaumcraft:ingot"
+      },
+      "name:8": "Alchemical Metals - Part 2"
+    }
+  },
+  "questID:3": 35,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:ingot"
+        }
+      }
+    },
+    "1:10": {
+      "amount:3": 25,
+      "index:3": 1,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+			"embers:ore_copper",
+			"gravelores:copper_gravel_ore"
+          ]
+        },
+		"harvester": {
+		  "heldItemMainHand": {
+			 "type": "BLACKLIST",
+			 "items": [
+				"thaumcraft:elemental_pick:*"
+					]
+				}
+			}
+        },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+	  "dropCount": {
+		  "fixed": 1,
+		  "fortuneModifier": 0
+		},
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 5,
+              "fortuneModifier": -2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_copper_ore"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          },
+		  "xp": {
+			"min": 0,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 0,
+              "fortuneModifier": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_copper_ore"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 2
+            }
+          },
+		  "xp": {
+			"min": 0,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": -4,
+              "fortuneModifier": 2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_copper_ore"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 3
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    },
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+			"embers:ore_copper"
+          ]
+        },
+		"harvester": {
+		  "heldItemMainHand": {
+		     "type": "WHITELIST",
+			 "items": [
+				"thaumcraft:elemental_pick:*"
+					]
+				}
+			}
+        },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+	  "dropCount": {
+		  "fixed": 1,
+		  "fortuneModifier": 0
+		},
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 5,
+              "fortuneModifier": -2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_copper_ore",
+              "contenttweaker:du_copper_ore",
+              "contenttweaker:du_copper_ore",
+              "thaumcraft:cluster:2"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 0,
+              "fortuneModifier": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_copper_ore",
+              "contenttweaker:du_copper_ore",
+              "contenttweaker:du_copper_ore",
+              "thaumcraft:cluster:2"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 2
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": -4,
+              "fortuneModifier": 2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_copper_ore",
+              "contenttweaker:du_copper_ore",
+              "contenttweaker:du_copper_ore",
+              "thaumcraft:cluster:2"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 3
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 2,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{ 
+	Profession:"vtt:wizard", 
+	Career:"wizard",
+
+	Offers:{
+		Recipes:[
+	
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},
+				sell: {id:"minecraft:experience_bottle",Count:3}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"minecraft:dye",Damage:4,Count:{min:27,max:32}},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}
+			},
+			   
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"ebwizardry:magic_crystal",Count:{min:17,max:19}},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:4,max:5}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:13,max:15},Damage:0},
+				sell: {id:"ebwizardry:magic_crystal",Count:8}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:18,max:21},Damage:0},
+				sell: {id:"waystones:return_scroll",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:14,max:15},Damage:0},
+				sell: {id:"botania:manabottle",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"botania:manaresource",Damage:0,Count:{min:8,max:9},Damage:0},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"thaumcraft:ingot",Damage:0,Count:{min:8,max:9},Damage:0},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"astralsorcery:itemcraftingcomponent",Damage:0,Count:{min:11,max:12},Damage:0},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:13,max:14}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:32,max:34},Damage:0},
+				sell: {id:"astralsorcery:itemusabledust",Damage:0,Count:{min:7,max:8}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:34,max:36},Damage:0},
+				sell: {id:"astralsorcery:itemusabledust",Damage:1,Count:{min:7,max:8}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:27,max:30},Damage:0},
+				sell: {id:"astralsorcery:itemconstellationpaper",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell: {id:"contenttweaker:reforge_rune",Count:5}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buy: {id:"astralsorcery:itemcraftingcomponent",Count:{min:6,max:7},Damage:1},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:25,max:27},Damage:0},
+				sell: {id:"waystones:warp_scroll",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:34,max:37},Damage:0},
+				sell: {id:"botania:spellcloth",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:42,max:45},Damage:0},
+				sell: {id:"quark:rune",Damage:[0,1,2,3,4,5,6,7,8],Count:3}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:42,max:45},Damage:0},
+				sell: {id:"quark:rune",Damage:[9,10,11,12,13,14,15,16],Count:3}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:9,max:12},Damage:0},
+				sell: {id:"waystones:waystone",Count:1}
+			},
+		
+			{
+				action: "add",
+				CareerLevel: 5,
+				buyB:{id:"ordinarycoins:coingold",Count:{min:3,max:5}},
+				buy:{id:"ordinarycoins:coinplatinum",Count:2},
+				sell: {id:"t3s4ebw:magic_seed",Count:3}
+			},
+		
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coingold",Count:{min:3,max:3}},
+				buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "potioncore:magic_focus"}}, 
+				CareerLevel:5
+			}
+		
+		]
+	}
+
+}

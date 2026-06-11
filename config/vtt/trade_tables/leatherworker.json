@@ -1,0 +1,43 @@
+{ 
+	Profession:"minecraft:butcher", 
+	Career:"leather",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+		
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:25}},sell:{id:"minecraft:leather",Count:3}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:leather",Count:{min:11,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},sell:{id:"minecraft:leather_helmet",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:36,max:42}},sell:{id:"minecraft:leather_chestplate",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:33,max:38}},sell:{id:"minecraft:leather_leggings",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},sell:{id:"minecraft:leather_boots",Count:1}, CareerLevel:1},
+			
+			{
+				action:"add",
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}}, 
+				sell:{id:"vanillasatchels:satchel",Count:1,Damage:2}, 
+				CareerLevel:2
+			},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},sell:{id:"harvestcraft:hardenedleatheritem",Count:3}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:24}},sell:{id:"minecraft:saddle",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},sell:{id:["spartanweaponry:longbow_leather","spartanweaponry:crossbow_leather","spartanweaponry:caestus_studded"],Count:1}, CareerLevel:2},
+			
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"harvestcraft:hardenedleatherhelmetitem",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:5,max:6}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"harvestcraft:hardenedleatherchestplateitem",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:5,max:6}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"harvestcraft:hardenedleatherleggingsitem",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"harvestcraft:hardenedleatherbootsitem",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:["spartanweaponry:longbow_leather","spartanweaponry:crossbow_leather","spartanweaponry:caestus_studded"],Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},sell:{id:"animania:entity_egg_cow_random",Count:1}, CareerLevel:4},
+			{
+				action:"add", 
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:48,max:52}}, 
+				sell:{id:"vanillasatchels:satchel",Count:1,Damage:3}, 
+				CareerLevel:4
+			}
+			
+		]
+	}
+}

@@ -1,0 +1,34 @@
+{
+   "entries":[
+      {
+         "key":"EMBERS",
+         "name":"Ember Smithing",
+         "icons":[
+            "thaumcraft:textures/items/thaumonomicon.png",
+            "minecraft:logs;1;1"
+         ],
+         "category":"EMBERSMITHING",
+         "meta":[
+            "ROUND"
+         ],
+         "location":[
+            0,
+            0
+         ],
+         "reward_item":[
+            "minecraft:stick"
+         ],
+         "reward_knowledge":[
+            "OBSERVATION;AUROMANCY;1"
+         ],
+         "stages":[
+            {
+               "text":"Embers sample research"
+            },
+            {
+               "text":"Stage 2 sample text"
+            }
+         ]
+      }
+   ]
+}

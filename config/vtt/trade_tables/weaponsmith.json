@@ -1,0 +1,39 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"weapon",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:iron_sword",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:29}},sell:{id:"spartanweaponry:hammer_iron",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:29}},sell:{id:"spartanweaponry:longbow_iron",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},sell:{id:"minecraft:arrow",Count:24}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},sell:{id:"dynamicswordskills:skillorb",Damage:0,Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:45,max:48}},sell:{id:"dynamicswordskills:skillsword_iron",Damage:0,Count:1,tag:[{ItemSkillName: "spinattack", ItemSkillLevel: 2, grantsBasicSword: 1},{ItemSkillName: "leapingblow", ItemSkillLevel: 2, grantsBasicSword: 1},{ItemSkillName: "armorbreak", ItemSkillLevel: 2, grantsBasicSword: 1},{ItemSkillName: "dodge", ItemSkillLevel: 2, grantsBasicSword: 1},{ItemSkillName: "parry", ItemSkillLevel: 2, grantsBasicSword: 1},{ItemSkillName: "dash", ItemSkillLevel: 2, grantsBasicSword: 1}]}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"minecraft:strength"}}, CareerLevel:2},
+			
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"dynamicswordskills:skillorb",Damage:[1,2,3],Count:1}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"dynamicswordskills:skillorb",Damage:[4,5,6],Count:1}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:2},sell:{id:"dynamicswordskills:skillsword_iron",Damage:0,Count:1,tag:[{ItemSkillName: "spinattack", ItemSkillLevel: 3, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "backslice", ItemSkillLevel: 3, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "endingblow", ItemSkillLevel: 3, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "mortaldraw", ItemSkillLevel: 3, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "swordbreak", ItemSkillLevel: 3, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "risingcut", ItemSkillLevel: 3, grantsBasicSword: 1, ench:"random"}]}, CareerLevel:3},
+			
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:3},sell:{id:"dynamicswordskills:skillorb",Damage:[9,10,11],Count:1}, CareerLevel:4},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:6}}, buy:{id:"ordinarycoins:coingold",Count:5},sell:{id:"dynamicswordskills:skillsword_diamond",Damage:0,Count:1,tag:[{ItemSkillName: "superspinattack", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "backslice", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "endingblow", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "mortaldraw", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "swordbreak", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "risingcut", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"}]}, CareerLevel:4},
+			
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:6}}, buy:{id:"ordinarycoins:coingold",Count:5},sell:{id:"dynamicswordskills:skillorb",Damage:[7,8,12],Count:1}, CareerLevel:5},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:6},sell:{id:"dynamicswordskills:skillsword_diamond",Damage:0,Count:1,tag:[{ItemSkillName: "superspinattack", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "backslice", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "swordbeam", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "mortaldraw", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "swordbreak", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "risingcut", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"}]}, CareerLevel:5},
+			
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "minecraft:strength"}}, 
+				CareerLevel:5
+			}
+			
+		]
+	}
+
+}

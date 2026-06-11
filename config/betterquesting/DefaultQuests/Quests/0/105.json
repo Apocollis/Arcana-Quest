@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    4
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"As I keep collecting coins, it\u0027ll be nice to have somewhere to spend them. I\u0027ve heard rumors of a mysterious trader who will show up simply by creating a red-carpet-topped market stall for him to work from. Here I should be able to trade my coins for useful items.\"\n\n§r§a§fCraft and place a Market if you don\u0027t have one. Then right click it to complete the quest.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "farmingforblockheads:market"
+      },
+      "name:8": "Spend That Coin!"
+    }
+  },
+  "questID:3": 105,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "lootchests:loot_crate"
+        }
+      }
+    },
+    "1:10": {
+      "amount:3": 10,
+      "index:3": 1,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "allowMainHand:1": 0,
+      "block:10": {
+        "blockID:8": "farmingforblockheads:market"
+      },
+      "ignoreNbt:1": 1,
+      "index:3": 0,
+      "item:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "minecraft:air"
+      },
+      "taskID:8": "bq_standard:interact_item"
+    }
+  }
+}

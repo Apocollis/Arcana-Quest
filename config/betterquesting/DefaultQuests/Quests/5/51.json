@@ -1,0 +1,21 @@
+{
+  "preRequisites:11": [
+    50
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "The End"
+    }
+  },
+  "questID:3": 51,
+  "tasks:9": {}
+}

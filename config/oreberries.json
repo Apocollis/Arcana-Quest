@@ -1,0 +1,136 @@
+{
+  "Iron": {
+    "bushName": "Iron Oreberry Bush",
+	"berryName": "Iron Oreberry",
+    "color": "#FFC7A3",
+    "tooltip": "Grows in darkness",
+    "rarity": 0
+  },
+  
+  
+  "Gold": {
+    "bushName": "Gold Oreberry Bush",
+	"berryName": "Gold Oreberry",
+    "color": "#E8DB47",
+    "tooltip": "Grows in darkness",
+    "rarity": 0
+  },
+  
+  
+  "Copper": {
+    "bushName": "Copper Oreberry Bush",
+	"berryName": "Copper Oreberry",
+    "color": "#DA8148",
+    "tooltip": "Grows in darkness",
+    "rarity": 0
+  },
+  
+  
+  "Tin": {
+    "bushName": "Tin Oreberry Bush",
+	"berryName": "Tin Oreberry",
+    "color": "#D1D8DA",
+    "tooltip": "Grows in darkness",
+    "rarity": 0
+  },
+  
+  
+  "Aluminum": {
+    "bushName": "Aluminum Oreberry Bush",
+	"berryName": "Aluminum Oreberry",
+    "color": "#EBA094",
+    "tooltip": "Grows in darkness",
+    "oredictNames": [
+      "nuggetAluminum",
+      "nuggetAluminium"
+    ],
+    "smeltingResult": {
+      "ingotNames": [
+        "ingotAluminum",
+        "ingotAluminium"
+      ]
+    },
+    "rarity": 0
+  },
+  
+  
+  "Silver": {
+    "bushName": "Silver Oreberry Bush",
+	"berryName": "Silver Oreberry",
+    "color": "#CEE6F3",
+    "tooltip": "Grows in darkness",
+    "oredictNames": [
+      "nuggetSilver"
+    ],
+    "smeltingResult": {
+      "ingotNames": [
+        "ingotSilver"
+      ]
+    },
+    "rarity": 0
+  },
+  
+  
+  "Nickel": {
+    "bushName": "Nickel Oreberry Bush",
+	"berryName": "Nickel Oreberry",
+    "color": "#DCE8C9",
+    "tooltip": "Grows in darkness",
+    "oredictNames": [
+      "nuggetNickel"
+    ],
+    "smeltingResult": {
+      "ingotNames": [
+        "ingotNickel"
+      ]
+    },
+    "rarity": 0
+  },
+  
+  
+  "Lead": {
+    "bushName": "Lead Oreberry Bush",
+	"berryName": "Lead Oreberry",
+    "color": "#827695",
+    "tooltip": "Grows in darkness",
+    "oredictNames": [
+      "nuggetLead"
+    ],
+    "smeltingResult": {
+      "ingotNames": [
+        "ingotLead"
+      ]
+    },
+    "rarity": 0
+  },
+  
+  
+  "Platinum": {
+    "bushName": "Platinum Oreberry Bush",
+	"berryName": "Platinum Oreberry",
+    "color": "#32E9F6",
+    "tooltip": "Grows in darkness",
+    "oredictNames": [
+      "nuggetPlatinum"
+    ],
+    "smeltingResult": {
+      "ingotNames": [
+        "ingotPlatinum"
+      ]
+    },
+    "rarity": 0
+  },
+  
+  
+  "Essence": {
+    "bushName": "Essence Berry Bush",
+    "berryName": "Concentrated Essence Berry",
+    "tooltip": "Grows in light",
+    "oredictNames": [],
+    "smeltingResult": null,
+    "special": "essence",
+    "growsInLight": true,
+    "tradeable": false,
+    "rarity": 0
+  }
+}

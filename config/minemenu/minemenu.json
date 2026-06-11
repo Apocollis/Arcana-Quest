@@ -1,0 +1,123 @@
+{
+  "Tools": {
+    "0": {
+      "title": "Chunk Pregenerator Config",
+      "icon": {
+        "name": "minecraft:wool",
+        "damage": 14
+      },
+      "action": {
+        "key": {
+          "key": "Options Gui",
+          "toggle": false
+        }
+      }
+    }
+  },
+  "main": {
+    "0": {
+      "title": "Open Backpack",
+      "icon": {
+        "name": "wearablebackpacks:backpack",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.wearablebackpacks.open",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Open Quiver",
+      "icon": {
+        "name": "spartanweaponry:quiver_arrow",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.spartanweaponry.access_quiver",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "Baubles",
+      "icon": {
+        "name": "botania:baublebox",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "keybind.baublesinventory",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "Cosmetic Armor",
+      "icon": {
+        "name": "bibliocraft:armorstand",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "cos.key.opencosarmorinventory",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "WAILA Config",
+      "icon": {
+        "name": "botania:cosmetic",
+        "damage": 4
+      },
+      "action": {
+        "key": {
+          "key": "waila.keybind.wailaconfig",
+          "toggle": true
+        }
+      }
+    },
+    "7": {
+      "title": "Caster Glove",
+      "icon": {
+        "name": "minecraft:stone",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Change Caster Focus",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Open Quests",
+      "icon": {
+        "name": "betterquesting:quest_book",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.betterquesting.quests",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Reskillable Levels",
+      "icon": {
+        "name": "grimoireofgaia:misc_experience",
+        "damage": 2
+      },
+      "action": {
+        "key": {
+          "key": "Open Skill GUI",
+          "toggle": false
+        }
+      }
+    }
+  }
+}

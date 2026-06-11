@@ -1,0 +1,21 @@
+{
+	"name" : "arcanaquest:main_desert",
+	"exclusive" : true,
+	"criteria" : {
+		"dimensionWL" : 0,
+		"biomeTypes" : [
+			"SANDY"
+		],
+		"weight" : 5
+	},
+	"inherit" : [
+		"arcanaquest:tower_desert",
+		"arcanaquest:layout",
+		"arcanaquest:rooms_desert",
+		"arcanaquest:segments_desert",
+		"arcanaquest:spawners_desert",
+		"arcanaquest:theme_desert",
+		"arcanaquest:loot",
+		"arcanaquest:filters_desert"
+	]
+}

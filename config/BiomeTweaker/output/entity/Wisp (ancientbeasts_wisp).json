@@ -1,0 +1,6 @@
+
+{
+  "Name": "Wisp",
+  "Registry ID": "ancientbeasts:wisp",
+  "Class": "com.unoriginal.beastslayer.entity.Entities.EntityWisp"
+}

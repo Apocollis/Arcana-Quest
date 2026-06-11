@@ -1,0 +1,18 @@
+{
+	"name" : "arcanaquest:main",
+	"exclusive" : true,
+	"criteria" : {
+		"dimensionWL" : 0,
+		"weight" : 1
+	},
+	"inherit" : [
+		"arcanaquest:tower",
+		"arcanaquest:layout",
+		"arcanaquest:rooms",
+		"arcanaquest:segments",
+		"arcanaquest:spawners",
+		"arcanaquest:theme",
+		"arcanaquest:loot",
+		"arcanaquest:filters"
+	]
+}

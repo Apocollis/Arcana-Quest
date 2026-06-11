@@ -1,0 +1,134 @@
+{ 
+	Profession:"minecraft:nitwit", 
+	Career:"nitwit",
+
+	Offers:{
+		Recipes:[
+		
+			{
+				action:"add", 
+				buy:{id:"minecraft:poisonous_potato",Count:{min:15,max:17}},
+				sell:{id:"ordinarycoins:coinbronze",Count:{min:8,max:9}}, 
+				CareerLevel:1
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				sell: {id:"farmingforblockheads:fertilizer",Damage:0,Count:8},
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				sell: {id:"farmingforblockheads:fertilizer",Damage:1,Count:8},
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				sell: {id:"farmingforblockheads:fertilizer",Damage:2,Count:8},
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 1,
+				buy: {id:"botania:fertilizer",Count:12},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:16,max:17}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"botania:manaresource",Damage:1,Count:6},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:32,max:35}}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},
+				sell: {id:"botania:grassseeds",Count:7,Damage:[0,1,2,3,4]}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},
+				sell: {id:"botania:grassseeds",Count:7,Damage:[5,6,7,8]}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 2,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:23}},
+				sell: {id:"botania:worldseed",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buy: {id:"xreliquary:mob_ingredient",Damage:3,Count:8},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}
+			},
+			
+			{
+				action: "add",   
+				CareerLevel: 3,
+				buy: {id:"xreliquary:mob_ingredient",Damage:4,Count:7},
+				sell: {id:"ordinarycoins:coinbronze",Count:{min:25,max:27}}
+			},
+			
+			
+			{
+				action: "add",
+				CareerLevel: 3,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:42,max:45}},
+				sell: {id:"botania:keepivy",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},
+				buy:{id:"ordinarycoins:coingold",Count:2},
+				sell: {id:"twilightforest:twilight_sapling:",Damage:9,Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:5,max:6}},
+				buy:{id:"ordinarycoins:coingold",Count:1},
+				sell: {id:"xreliquary:mob_ingredient",Damage:9,Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},
+				sell: {id:"botania:blacklotus",Count:1}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 5,
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
+				buy:{id:"ordinarycoins:coingold",Count:12},
+				sell: {id:"botania:overgrowthseed",Count:1}
+			},
+			
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect:"extraalchemy:effect.photosynthesis"}}, 
+				CareerLevel:5
+			}
+			
+		]
+	}
+
+}

@@ -1,0 +1,17 @@
+[
+    { "item": "botania:manaring" },
+    { "item": "botania:manaringgreater" },
+    { "item": "botania:manatablet" },
+    { "item": "botania:slimebottle" },
+    { "item": "endercompass:ender_compass" },
+    { "item": "minecraft:clock" },
+    { "item": "minecraft:compass" },
+    { "item": "naturescompass:naturescompass" },
+    { "item": "quark:slime_bucket" },
+    { "item": "quark:soul_compass" },
+    { "item": "inspirations:north_compass" },
+    { "item": "inspirations:barometer" },
+    { "item": "sereneseasons:season_clock" },
+    { "item": "toughasnails:thermometer" },
+	{ "item": "biomesoplenty:biome_finder" }
+]

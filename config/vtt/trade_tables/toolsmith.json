@@ -1,0 +1,40 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"tool",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+			
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:13,max:14}},sell:{id:"ordinarycoins:coinbronze",Count:{min:17,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"embers:ingot_copper",Damage:0,Count:{min:14,max:15}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:17}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}},sell:{id:"minecraft:iron_pickaxe",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}},sell:{id:"minecraft:iron_shovel",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}},sell:{id:"minecraft:iron_axe",Count:1}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:15,max:18}},sell:{id:"minecraft:bucket",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:25,max:29}},sell:{id:"thermalfoundation:tool.hammer_iron",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"chiselsandbits:chisel_iron",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"embers:ingot_bronze",Damage:0,Count:{min:9,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
+			{action:"add", buy:{id:"embers:ingot_lead",Damage:0,Count:{min:9,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
+			
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:6}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"minecraft:iron_pickaxe",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"minecraft:iron_shovel",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:6}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"minecraft:iron_axe",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"quark:haste"}}, CareerLevel:3},
+			
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:6}}, buy:{id:"ordinarycoins:coingold",Count:4},sell:{id:"minecraft:diamond_pickaxe",Count:1,tag:{ench:"random"}}, CareerLevel:4},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:4},sell:{id:"minecraft:diamond_shovel",Count:1,tag:{ench:"random"}}, CareerLevel:4},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:6}}, buy:{id:"ordinarycoins:coingold",Count:4},sell:{id:"minecraft:diamond_axe",Count:1,tag:{ench:"random"}}, CareerLevel:4},
+			
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "minecraft:haste"}}, 
+				CareerLevel:5
+			}
+		]
+	}
+
+}

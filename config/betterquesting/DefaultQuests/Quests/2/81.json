@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    59
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"By studying mundane projectiles, I have learned a way to project vis in a similar manner.\"§r\n\n§6This quest will allow you to complete Focus Medium - Projectile without needing to be hit by the various projectile types in the normal research. Llamas will not spit making this research impossible to complete in normal circumstances.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "minecraft:arrow"
+      },
+      "name:8": "Projectile Focus Medium"
+    }
+  },
+  "questID:3": 81,
+  "rewards:9": {
+    "0:10": {
+      "command:8": "#Execute /thaumcraft research to add Focus Projectile to player\ntc research @s FOCUSPROJECTILE",
+      "description:8": "A command will run to complete \u0027Focus Medium - Projectile\u0027",
+      "index:3": 0,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "minecraft:arrow"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "minecraft:fire_charge"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

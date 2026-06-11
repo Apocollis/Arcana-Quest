@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    26
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"I have invented a device that will allow a person or object to be levitated using ambient vis. This will make moving between floors much faster.\"",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thaumcraft:levitator"
+      },
+      "name:8": "Arcane Levitator"
+    }
+  },
+  "questID:3": 38,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "lootchests:loot_crate"
+        }
+      }
+    },
+    "1:10": {
+      "amount:3": 25,
+      "index:3": 1,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:levitator"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "preRequisites:11": [
+    17,
+    31
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"My studies into Thaumaturgy has lead to a new technique called Infusion. Using a set of altars and a Runix Matrix, I can infuse an item with essentia and other ingredients to create unique tools and objects. To get started I will need to assemble the altars and the Runix Matrix. These will need to be set up with some Arcane Stone and activated with Salis Mundus to create the Infusion Altar. My Thaumonicon will have detailed instructions for how to do this.\"",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thaumcraft:infusion_matrix"
+      },
+      "ismain:1": 1,
+      "name:8": "Arcane Infusion"
+    }
+  },
+  "questID:3": 21,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:curio"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "lootchests:loot_crate"
+        }
+      }
+    },
+    "1:10": {
+      "amount:3": 25,
+      "index:3": 1,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 5,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:stone_arcane"
+        },
+        "1:10": {
+          "Count:3": 30,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:slab_arcane_stone"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:stone_arcane_brick"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:nitor_yellow"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:infusion_matrix"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:pedestal_arcane"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:stone_arcane"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

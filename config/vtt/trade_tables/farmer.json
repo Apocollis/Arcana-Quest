@@ -1,0 +1,44 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"farmer",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+		
+			{action:"add", buy:{id:"minecraft:wheat",Count:{min:16,max:19}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:potato",Count:{min:16,max:19}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:carrot",Count:{min:16,max:19}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:beetroot",Count:{min:15,max:18}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"harvestcraft:freshmilkitem",Count:{min:9,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:9,max:12}},sell:{id:"minecraft:bread",Count:4}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:1},sell:{id:"harvestcraft:shippingbin",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:apple",Count:{min:15,max:18}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:pumpkin",Count:{min:7,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:melon",Count:{min:16,max:19}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:2},
+			{action:"add", buy:{id:"minecraft:egg",Count:{min:14,max:15}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:2},
+			{action:"add", buy:{id:"animania:brown_egg",Count:{min:14,max:15}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"animania:truffle",Count:{min:10,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:8}, CareerLevel:3},
+			{action:"add", buy:{id:"harvestcraft:honeyitem",Count:{min:12,max:15}},sell:{id:"ordinarycoins:coinbronze",Count:12}, CareerLevel:3},
+			{action:"add", buy:{id:"harvestcraft:beeswaxitem",Count:{min:18,max:21}},sell:{id:"ordinarycoins:coinbronze",Count:12}, CareerLevel:3},
+			{action:"add", buy:{id:"harvestcraft:cheeseitem",Count:{min:7,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:16}, CareerLevel:3},
+			{action:"add", buy:{id:"animania:peacock_egg_blue",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:12}, CareerLevel:3},
+			{action:"add", buy:{id:"animania:peacock_egg_white",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:12}, CareerLevel:3},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},sell:{id:"animania:entity_egg_pig_random",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},sell:{id:"animania:entity_egg_cow_random",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},sell:{id:"animania:entity_egg_chicken_random",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},sell:{id:"animania:entity_egg_sheep_random",Count:1}, CareerLevel:4},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:40,max:42}},sell:{id:"animania:entity_egg_rabbit_random",Count:1}, CareerLevel:5},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:40,max:42}},sell:{id:"animania:entity_egg_peacock_random",Count:1}, CareerLevel:5},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:40,max:42}},sell:{id:"animania:entity_egg_goat_random",Count:1}, CareerLevel:5}
+			
+			
+		]
+	}
+
+}

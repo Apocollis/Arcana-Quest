@@ -1,0 +1,75 @@
+{
+  "preRequisites:11": [
+    67
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"Sometimes I need things crushed and ground more finely than I can do by hand. Fortunately I know just the tool for the job.\"\n\n§rCraft a Quern and a Hand Crank. \n\nTo use the quern, attach the hand crank to the top. Then you\u0027ll need to feed items into it using a hopper or Embers item pipes. \nRight click and hold on the crank to turn the quern and grind the items fed to it.\n\nThe quern can also be used to ground down ores into multiple ore dusts, but this requires more power than the hand crank can produce. You\u0027ll need to find another way to spin the quern to grind ores...",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "rustichromia:quern"
+      },
+      "name:8": "The Grind Don\u0027t Stop"
+    }
+  },
+  "questID:3": 102,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "minecraft:hopper"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "lootchests:loot_crate"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "amount:3": 15,
+      "index:3": 1,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "rustichromia:quern"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "rustichromia:crank"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

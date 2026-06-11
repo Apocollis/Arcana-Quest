@@ -1,0 +1,21 @@
+{
+	"name" : "arcanaquest:main_swamp",
+	"exclusive" : true,
+	"criteria" : {
+		"dimensionWL" : 0,
+		"biomeTypes" : [
+			"SWAMP"
+		],
+		"weight" : 5
+	},
+	"inherit" : [
+		"arcanaquest:tower_swamp",
+		"arcanaquest:layout",
+		"arcanaquest:rooms_swamp",
+		"arcanaquest:segments_swamp",
+		"arcanaquest:spawners_swamp",
+		"arcanaquest:theme_swamp",
+		"arcanaquest:loot",
+		"arcanaquest:filters_swamp"
+	]
+}

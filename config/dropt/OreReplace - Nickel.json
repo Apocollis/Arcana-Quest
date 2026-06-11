@@ -1,0 +1,203 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+			"gravelores:nickel_gravel_ore",
+			"embers:ore_nickel"
+          ]
+        },
+		"harvester": {
+		  "heldItemMainHand": {
+			 "type": "BLACKLIST",
+			 "items": [
+				"thaumcraft:elemental_pick:*"
+					]
+				}
+			}
+        },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+	  "dropCount": {
+		  "min": 1,
+		  "max": 1,
+		  "fortuneModifier": 0
+		},
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 5,
+              "fortuneModifier": -2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_nickel_ore"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 0,
+              "fortuneModifier": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_nickel_ore"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 2
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 2,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": -4,
+              "fortuneModifier": 2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_nickel_ore"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 3
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 2,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    },
+	{
+      "match": {
+        "blocks": {
+          "blocks": [
+			"gravelores:nickel_gravel_ore",
+			"embers:ore_nickel"
+          ]
+        },
+		"harvester": {
+		  "heldItemMainHand": {
+			 "type": "WHITELIST",
+			 "items": [
+				"thaumcraft:elemental_pick:*"
+					]
+				}
+			}
+        },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+	  "dropCount": {
+		  "min": 1,
+		  "max": 1,
+		  "fortuneModifier": 0
+		},
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 5,
+              "fortuneModifier": -2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_nickel_ore",
+              "contenttweaker:du_nickel_ore",
+              "contenttweaker:du_nickel_ore",
+              "ea:cluster_nickel"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 0,
+              "fortuneModifier": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_nickel_ore",
+              "contenttweaker:du_nickel_ore",
+              "contenttweaker:du_nickel_ore",
+              "ea:cluster_nickel"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 2
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 2,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": -4,
+              "fortuneModifier": 2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "contenttweaker:du_nickel_ore",
+              "contenttweaker:du_nickel_ore",
+              "contenttweaker:du_nickel_ore",
+              "ea:cluster_nickel"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 3
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 2,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    }
+  ]
+}

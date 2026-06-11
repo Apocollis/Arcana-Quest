@@ -1,0 +1,290 @@
+
+{
+  "ID": 110,
+  "Name": "Phantasmagoric Inferno",
+  "Resource Location": "biomesoplenty:phantasmagoric_inferno",
+  "Class": "biomesoplenty.common.biome.nether.BiomePhantasmagoricInferno",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "biomesoplenty:ash_block",
+  "Filler Block": "biomesoplenty:ash_block",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "4159204",
+  "Temperature": 2.0,
+  "Humidity": 0.0,
+  "Water Tint": 4159204,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "DRY",
+    "SPOOKY",
+    "WASTELAND",
+    "NETHER",
+    "HOT",
+    "MAGICAL"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowJersey$EntityCowJersey",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.animania.addons.farm.common.entity.cows.CowMooshroom$EntityCowMooshroom",
+      "Weight": 9,
+      "Min Group Count": 2,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+      "Weight": 2,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.living.EntityRaven",
+      "Weight": 20,
+      "Min Group Count": 0,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "ladysnake.lumen.common.entities.EntityPsiFirefly",
+      "Weight": 50,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "ladysnake.lumen.common.entities.EntityWillOWisp",
+      "Weight": 50,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "ladysnake.lumen.common.entities.EntityFaerie",
+      "Weight": 50,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityGhast",
+      "Weight": 50,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityPigZombie",
+      "Weight": 100,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityMagmaCube",
+      "Weight": 2,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+      "Weight": 1,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityHellSprout",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "epicsquid.mysticalworld.entity.EntityLavaCat",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+      "Weight": 3,
+      "Min Group Count": 0,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityGhost",
+      "Weight": 3,
+      "Min Group Count": 0,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityHellhound",
+      "Weight": 6,
+      "Min Group Count": 0,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityFeuerwurm",
+      "Weight": 3,
+      "Min Group Count": 0,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityCleaver",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityBafometyr",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
+      "Weight": 1,
+      "Min Group Count": 0,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityBlaze",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "vazkii.quark.world.entity.EntityFoxhound",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityFireBat",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityWisp",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityZealot",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityGhost",
+      "Weight": 50,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityNetherhound",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityNekros",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "gaia.entity.prop.EntityGaiaPropVaseNether",
+      "Weight": 6,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaSuccubus",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaWitherCow",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaBaphomet",
+      "Weight": 8,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "ladysnake.lumen.common.entities.EntityEmber",
+      "Weight": 50,
+      "Min Group Count": 0,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawn Biome": true,
+  "Tweaked": true,
+  "BOP Generators": {
+    "PRE Generators": [
+      {
+        "ID": "hive",
+        "Name": "hive"
+      }
+    ],
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "blue_fire"
+      },
+      {
+        "ID": "flora",
+        "Name": "fire"
+      }
+    ],
+    "SAND Generators": [
+      {
+        "ID": "lakes",
+        "Name": "lava_lakes"
+      }
+    ]
+  },
+  "BOP Owner": "BIOMESOPLENTY",
+  "BOP Weight Map": {
+    "HELL": 5
+  },
+  "BOP Climate Weights": {
+    "HELL": [
+      5
+    ]
+  },
+  "BOP Island Weight": 0
+}

@@ -1,0 +1,19 @@
+{
+  "inventory": {
+    "0:27": "farmersdelight:hamburger,4",
+    "0:8": "betterquesting:quest_book",
+    "0:17": "minecraft:potion,3,0,{Potion:\"potioncore:teleport_spawn\"}",
+    "0:1": "spartanweaponry:dagger_wood,1,0,{Quality:{}}",
+    "0:11": "dynamicswordskills:skillorb",
+    "0:0": "minecraft:wooden_sword,1,0,{Quality:{}}",
+    "0:16": "contenttweaker:cracked_pearl,3",
+    "0:10": "comforts:sleeping_bag",
+    "0:28": "simpledifficulty:purified_water_bottle,10",
+    "0:33": "simpledifficulty:thermometer",
+    "0:3": "minecraft:wooden_shovel,1,0,{Quality:{}}",
+    "0:35": "inspirations:north_compass",
+    "0:34": "sereneseasons:season_clock",
+    "0:2": "minecraft:wooden_axe,1,0,{Quality:{}}",
+    "0:9": "wearablebackpacks:backpack"
+  }
+}

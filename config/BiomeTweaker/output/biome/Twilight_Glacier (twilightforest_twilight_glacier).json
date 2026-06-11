@@ -1,0 +1,184 @@
+
+{
+  "ID": 124,
+  "Name": "Twilight Glacier",
+  "Resource Location": "twilightforest:twilight_glacier",
+  "Class": "twilightforest.biomes.TFBiomeGlacier",
+  "Root Height": 0.1,
+  "Height Variation": 0.2,
+  "Top Block": "minecraft:grass[snowy\u003dfalse]",
+  "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "4159204",
+  "Temperature": 0.0,
+  "Humidity": 0.1,
+  "Water Tint": 4159204,
+  "Enable Rain": true,
+  "Enable Snow": true,
+  "Dictionary Types": [
+    "WASTELAND",
+    "COLD",
+    "SNOWY",
+    "TWILIGHT"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "twilightforest.entity.passive.EntityTFPenguin",
+      "Weight": 10,
+      "Min Group Count": 4,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.girafi.waddles.entity.EntityAdeliePenguin",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityFrostashFox",
+      "Weight": 7,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityFrostWalker",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityDamcell",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityBoulderer",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityRiftedEnderman",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityBonepile",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaSelkie",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaKobold",
+      "Weight": 30,
+      "Min Group Count": 4,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaYeti",
+      "Weight": 30,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaCreep",
+      "Weight": 30,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaEnderEye",
+      "Weight": 30,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "gaia.entity.prop.EntityGaiaPropVase",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "gaia.entity.prop.EntityGaiaPropChestMimic",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaArachne",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaDeathword",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaBoneKnight",
+      "Weight": 25,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "gaia.entity.monster.EntityGaiaFleshLich",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "net.minecraft.entity.passive.EntityBat",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "twilightforest.entity.passive.EntityTFMobileFirefly",
+      "Weight": 10,
+      "Min Group Count": 8,
+      "Max Group Count": 8
+    }
+  ],
+  "Spawn Biome": true,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

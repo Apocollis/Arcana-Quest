@@ -1,0 +1,577 @@
+{
+  "preRequisites:11": [
+    104
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"While making my Diamond Chestplate, I came across a Diamond Sword that appeared from nowhere. It\u0027s chipped and damaged, but I can feel some kind of energy in it waiting to be released. Maybe if I use it in battle, that may bring the magic in this weapon back to life.\"\n\n§U§rUsing the Hero\u0027s Trial, attack and kill at least 10 zombies.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "minecraft:diamond_sword",
+        "tag:10": {
+          "Quality:10": {
+            "AttributeModifiers:9": {
+              "0:10": {
+                "Amount:6": 0.10000000149011612,
+                "AttributeName:8": "potioncore.digSpeed",
+                "Name:8": "qualitytools",
+                "Operation:3": 2,
+                "UUIDLeast:4": -8635309599162807451,
+                "UUIDMost:4": -7960451600222040113
+              },
+              "1:10": {
+                "Amount:6": 0.10000000149011612,
+                "AttributeName:8": "generic.attackSpeed",
+                "Name:8": "qualitytools",
+                "Operation:3": 2,
+                "UUIDLeast:4": -6413133827102790353,
+                "UUIDMost:4": -4576067238957529463
+              },
+              "2:10": {
+                "Amount:6": 0.15000000596046448,
+                "AttributeName:8": "generic.attackDamage",
+                "Name:8": "qualitytools",
+                "Operation:3": 2,
+                "UUIDLeast:4": -8609289703097756187,
+                "UUIDMost:4": 2514668039375897578
+              },
+              "3:10": {
+                "Amount:6": 0.5,
+                "AttributeName:8": "generic.reachDistance",
+                "Name:8": "qualitytools",
+                "Operation:3": 0,
+                "UUIDLeast:4": -8637505612846142706,
+                "UUIDMost:4": 3351685416137343396
+              }
+            },
+            "Color:8": "light_purple",
+            "Name:8": "quality.legendary.name",
+            "Slots:9": {
+              "0:8": "mainhand"
+            }
+          },
+          "display:10": {
+            "Name:8": "Hero\u0027s Wrath"
+          },
+          "ench:9": {
+            "0:10": {
+              "id:2": 79,
+              "lvl:2": 1
+            }
+          }
+        }
+      },
+      "name:8": "Trial of Heroes"
+    }
+  },
+  "questID:3": 58,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "minecraft:diamond_sword",
+          "tag:10": {
+            "Quality:10": {
+              "AttributeModifiers:9": {
+                "0:10": {
+                  "Amount:6": 0.10000000149011612,
+                  "AttributeName:8": "potioncore.digSpeed",
+                  "Name:8": "qualitytools",
+                  "Operation:3": 2,
+                  "UUIDLeast:4": -8635309599162807451,
+                  "UUIDMost:4": -7960451600222040113
+                },
+                "1:10": {
+                  "Amount:6": 0.10000000149011612,
+                  "AttributeName:8": "generic.attackSpeed",
+                  "Name:8": "qualitytools",
+                  "Operation:3": 2,
+                  "UUIDLeast:4": -6413133827102790353,
+                  "UUIDMost:4": -4576067238957529463
+                },
+                "2:10": {
+                  "Amount:6": 0.15000000596046448,
+                  "AttributeName:8": "generic.attackDamage",
+                  "Name:8": "qualitytools",
+                  "Operation:3": 2,
+                  "UUIDLeast:4": -8609289703097756187,
+                  "UUIDMost:4": 2514668039375897578
+                },
+                "3:10": {
+                  "Amount:6": 0.5,
+                  "AttributeName:8": "generic.reachDistance",
+                  "Name:8": "qualitytools",
+                  "Operation:3": 0,
+                  "UUIDLeast:4": -8637505612846142706,
+                  "UUIDMost:4": 3351685416137343396
+                }
+              },
+              "Color:8": "light_purple",
+              "Name:8": "quality.legendary.name",
+              "Slots:9": {
+                "0:8": "mainhand"
+              }
+            },
+            "display:10": {
+              "Name:8": "Hero\u0027s Wrath"
+            },
+            "ench:9": {
+              "0:10": {
+                "id:2": 79,
+                "lvl:2": 2
+              },
+              "1:10": {
+                "id:2": 70,
+                "lvl:2": 1
+              },
+              "2:10": {
+                "id:2": 34,
+                "lvl:2": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "partialMatch:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {
+              "AS_Amulet_HolderLeast:4": -4643505464917225582,
+              "AS_Amulet_HolderMost:4": 164828171567841785
+            },
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "minecraft:diamond_sword",
+          "tag:10": {
+            "Quality:10": {
+              "AttributeModifiers:9": {
+                "0:10": {
+                  "Amount:6": -0.10000000149011612,
+                  "AttributeName:8": "potioncore.digSpeed",
+                  "Name:8": "qualitytools",
+                  "Operation:3": 2,
+                  "UUIDLeast:4": -8895228456284645191,
+                  "UUIDMost:4": -6184959092370813350
+                },
+                "1:10": {
+                  "Amount:6": -0.10000000149011612,
+                  "AttributeName:8": "generic.attackSpeed",
+                  "Name:8": "qualitytools",
+                  "Operation:3": 2,
+                  "UUIDLeast:4": -6860595329249585333,
+                  "UUIDMost:4": 7706098898782340025
+                },
+                "2:10": {
+                  "Amount:6": -0.10000000149011612,
+                  "AttributeName:8": "generic.attackDamage",
+                  "Name:8": "qualitytools",
+                  "Operation:3": 2,
+                  "UUIDLeast:4": -5304751917626841982,
+                  "UUIDMost:4": -1155684637612422791
+                },
+                "3:10": {
+                  "Amount:6": -1.0,
+                  "AttributeName:8": "generic.reachDistance",
+                  "Name:8": "qualitytools",
+                  "Operation:3": 0,
+                  "UUIDLeast:4": -7778812531749111664,
+                  "UUIDMost:4": -2212831337554885663
+                }
+              },
+              "Color:8": "dark_red",
+              "Name:8": "quality.worthless.name",
+              "Slots:9": {
+                "0:8": "mainhand"
+              }
+            },
+            "display:10": {
+              "Name:8": "Hero\u0027s Trial"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "allowOffHand:1": 0,
+      "index:3": 1,
+      "item:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {
+            "AS_Amulet_HolderLeast:4": -4643505464917225582,
+            "AS_Amulet_HolderMost:4": 164828171567841785
+          },
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "minecraft:diamond_sword",
+        "tag:10": {
+          "Quality:10": {
+            "AttributeModifiers:9": {
+              "0:10": {
+                "Amount:6": -0.10000000149011612,
+                "AttributeName:8": "potioncore.digSpeed",
+                "Name:8": "qualitytools",
+                "Operation:3": 2,
+                "UUIDLeast:4": -8895228456284645191,
+                "UUIDMost:4": -6184959092370813350
+              },
+              "1:10": {
+                "Amount:6": -0.10000000149011612,
+                "AttributeName:8": "generic.attackSpeed",
+                "Name:8": "qualitytools",
+                "Operation:3": 2,
+                "UUIDLeast:4": -6860595329249585333,
+                "UUIDMost:4": 7706098898782340025
+              },
+              "2:10": {
+                "Amount:6": -0.10000000149011612,
+                "AttributeName:8": "generic.attackDamage",
+                "Name:8": "qualitytools",
+                "Operation:3": 2,
+                "UUIDLeast:4": -5304751917626841982,
+                "UUIDMost:4": -1155684637612422791
+              },
+              "3:10": {
+                "Amount:6": -1.0,
+                "AttributeName:8": "generic.reachDistance",
+                "Name:8": "qualitytools",
+                "Operation:3": 0,
+                "UUIDLeast:4": -7778812531749111664,
+                "UUIDMost:4": -2212831337554885663
+              }
+            },
+            "Color:8": "dark_red",
+            "Name:8": "quality.worthless.name",
+            "Slots:9": {
+              "0:8": "mainhand"
+            }
+          },
+          "display:10": {
+            "Name:8": "Hero\u0027s Trial"
+          }
+        }
+      },
+      "onHit:1": 1,
+      "onInteract:1": 0,
+      "requiredUses:3": 25,
+      "targetID:8": "minecraft:zombie",
+      "taskID:8": "bq_standard:interact_entity"
+    },
+    "2:10": {
+      "index:3": 2,
+      "required:3": 10,
+      "targetNBT:10": {
+        "AbsorptionAmount:5": 0.0,
+        "Air:2": 0,
+        "ArmorDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085,
+          "2:5": 0.085,
+          "3:5": 0.085
+        },
+        "ArmorItems:9": {
+          "0:10": {},
+          "1:10": {},
+          "2:10": {},
+          "3:10": {}
+        },
+        "Attributes:9": {
+          "0:10": {
+            "Base:6": -2.0,
+            "Name:8": "tc.mobmod"
+          },
+          "1:10": {
+            "Base:6": 0.0,
+            "Name:8": "tc.mobmodtaint"
+          },
+          "2:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGen"
+          },
+          "3:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenTargetSpotted"
+          },
+          "4:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenAttackedBySame"
+          },
+          "5:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenDamageDealt"
+          },
+          "6:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenWarned"
+          },
+          "7:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenAllyKilled"
+          },
+          "8:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatGenTargetVisible"
+          },
+          "9:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatDeg"
+          },
+          "10:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatDegTargetNotVisible"
+          },
+          "11:10": {
+            "Base:6": 1.0,
+            "Name:8": "dynamicstealth.threatDegFlee"
+          },
+          "12:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.visibilityReduction"
+          },
+          "13:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.sight"
+          },
+          "14:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.noiseReduction"
+          },
+          "15:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.hearing"
+          },
+          "16:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.scentReduction"
+          },
+          "17:10": {
+            "Base:6": 100.0,
+            "Name:8": "dynamicstealth.smelling"
+          },
+          "18:10": {
+            "Base:6": 1.0,
+            "Name:8": "potioncore.projectileDamage"
+          },
+          "19:10": {
+            "Base:6": 1.0,
+            "Name:8": "potioncore.magicDamage"
+          },
+          "20:10": {
+            "Base:6": 1.0,
+            "Name:8": "potioncore.jumpHeight"
+          },
+          "21:10": {
+            "Base:6": 1.0,
+            "Name:8": "potioncore.damageResistance"
+          },
+          "22:10": {
+            "Base:6": 0.0,
+            "Name:8": "potioncore.magicShielding"
+          },
+          "23:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.scales"
+          },
+          "24:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.spears"
+          },
+          "25:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.physicalDamageRate"
+          },
+          "26:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.experienceRate"
+          },
+          "27:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.fireDamageRate"
+          },
+          "28:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.fireAspect"
+          },
+          "29:10": {
+            "Base:6": 1.0,
+            "Name:8": "generic.barehandedPower"
+          },
+          "30:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.witchburn"
+          },
+          "31:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.attraction"
+          },
+          "32:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.attraction_generation"
+          },
+          "33:10": {
+            "Base:6": 20.0,
+            "Name:8": "generic.maxHealth"
+          },
+          "34:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.knockbackResistance"
+          },
+          "35:10": {
+            "Base:6": 0.23000000417232513,
+            "Name:8": "generic.movementSpeed"
+          },
+          "36:10": {
+            "Base:6": 2.0,
+            "Name:8": "generic.armor"
+          },
+          "37:10": {
+            "Base:6": 0.0,
+            "Name:8": "generic.armorToughness"
+          },
+          "38:10": {
+            "Base:6": 1.0,
+            "Name:8": "forge.swimSpeed"
+          },
+          "39:10": {
+            "Base:6": 35.0,
+            "Name:8": "generic.followRange"
+          },
+          "40:10": {
+            "Base:6": 3.0,
+            "Name:8": "generic.attackDamage"
+          },
+          "41:10": {
+            "Base:6": 0.03766642983326766,
+            "Name:8": "zombie.spawnReinforcements"
+          }
+        },
+        "CanBreakDoors:1": 0,
+        "CanPickUpLoot:1": 0,
+        "DeathTime:2": 0,
+        "Dimension:3": 0,
+        "FallDistance:5": 0.0,
+        "FallFlying:1": 0,
+        "Fire:2": 0,
+        "ForgeCaps:10": {
+          "ancientspellcraft:deathmarkcapability:10": {},
+          "champions:championship:10": {},
+          "dsurround:data:10": {
+            "a:1": 0,
+            "f:1": 0
+          },
+          "dsurround:entityfx:10": {},
+          "dsurround:speech:10": {},
+          "everlastingabilities:org.cyclops.everlastingabilities.api.capability.imutableabilitystore:9": {},
+          "llibrary:extendedentitydatacapability:10": {},
+          "metallurgy:punch_effect:10": {
+            "hasAiDisabled:1": 1,
+            "knockbackTicks:3": 0,
+            "ticks:3": 0
+          },
+          "spellbundle:summonedcreaturedata:10": {},
+          "thaumicaugmentation:portal_state:10": {
+            "inPortal:1": 0
+          },
+          "thebetweenlands:custom_step_sound:10": {},
+          "thebetweenlands:entity_gems:10": {
+            "gems:9": {}
+          },
+          "thebetweenlands:equipment:10": {
+            "amuletSlots:3": 1
+          },
+          "thebetweenlands:puppet:10": {
+            "guard:1": 0,
+            "recruitmentCost:3": 0,
+            "stay:1": 0,
+            "ticks:3": 0
+          },
+          "twilightforest:cap_shield:10": {
+            "permshields:3": 0,
+            "tempshields:3": 0
+          },
+          "wearablebackpacks:backpack:10": {},
+          "wizardryutils:summonedcreaturedata:10": {
+            "followOwner:1": 0
+          }
+        },
+        "ForgeData:10": {},
+        "HandDropChances:9": {
+          "0:5": 0.085,
+          "1:5": 0.085
+        },
+        "HandItems:9": {
+          "0:10": {},
+          "1:10": {}
+        },
+        "Health:5": 20.0,
+        "HurtByTimestamp:3": 0,
+        "HurtTime:2": 0,
+        "Invulnerable:1": 0,
+        "Leashed:1": 0,
+        "LeftHanded:1": 0,
+        "Motion:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "OnGround:1": 0,
+        "PersistenceRequired:1": 0,
+        "PortalCooldown:3": 0,
+        "Pos:9": {
+          "0:6": 0.0,
+          "1:6": 0.0,
+          "2:6": 0.0
+        },
+        "RelativeAABB:9": {
+          "0:6": -0.30000001192092896,
+          "1:6": 0.0,
+          "2:6": -0.30000001192092896,
+          "3:6": 0.30000001192092896,
+          "4:6": 1.9500000476837158,
+          "5:6": 0.30000001192092896
+        },
+        "Rotation:9": {
+          "0:5": 0.0,
+          "1:5": 0.0
+        },
+        "SurgeAABB:9": {
+          "0:6": -0.30000001192092896,
+          "1:6": 0.0,
+          "2:6": -0.30000001192092896,
+          "3:6": 0.30000001192092896,
+          "4:6": 1.9500000476837158,
+          "5:6": 0.30000001192092896
+        },
+        "UUIDLeast:4": -5309263935545516976,
+        "UUIDMost:4": -4365614743279091345,
+        "UpdateBlocked:1": 0,
+        "id:8": "minecraft:zombie"
+      },
+      "taskID:8": "bq_standard:hunt"
+    }
+  }
+}

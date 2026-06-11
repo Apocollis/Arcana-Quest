@@ -1,0 +1,21 @@
+{
+  "preRequisites:11": [
+    66
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "embers:mech_accessor"
+      },
+      "name:8": "Accessing the Machine"
+    }
+  },
+  "questID:3": 95,
+  "tasks:9": {}
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "ghost_king_phase",
+  "Registry ID": "ee:ghost_king_phase",
+  "Class": "com.example.structure.entity.endking.ghosts.EntityGhostPhase"
+}

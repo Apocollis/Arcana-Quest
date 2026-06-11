@@ -1,0 +1,6 @@
+
+{
+  "Name": "lich_spawn",
+  "Registry ID": "da:lich_spawn",
+  "Class": "com.dungeon_additions.da.entity.night_lich.EntityLichSpawn"
+}

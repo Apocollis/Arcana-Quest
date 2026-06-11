@@ -1,0 +1,6 @@
+
+{
+  "Name": "sword_attack",
+  "Registry ID": "ee:sword_attack",
+  "Class": "com.example.structure.entity.endking.EntityGroundSword"
+}

@@ -1,0 +1,112 @@
+{
+	// a list of foods and their food values
+	// these values will take precedence over HO's default values
+	"foods": [
+	
+		// SALTYMOD
+		
+		{
+			"name": "saltmod:salt_porkchop_cooked",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_beef_cooked",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_mutton_cooked",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_potato_baked",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_chicken_cooked",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_rabbit_cooked",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_fish_cod_cooked",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "saltmod:salt_fish_cod",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "saltmod:salt_fish_salmon",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_fish_salmon_cooked",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_fish_clownfish",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_beetroot",
+			"meta": 0,
+			"hunger": 3,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "saltmod:salt_bread",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "saltmod:salt_egg",
+			"meta": 0,
+			"hunger": 3,
+			"saturationModifier": 0.75
+		},
+		
+		// STEWS
+		
+		// PICKLES
+		
+		{
+			"name": "saltmod:pickled_mushroom",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 1.5
+		},
+		{
+			"name": "saltmod:pickled_fern",
+			"meta": 0,
+			"hunger": 3,
+			"saturationModifier": 1.5
+		}
+		
+		
+	]
+}

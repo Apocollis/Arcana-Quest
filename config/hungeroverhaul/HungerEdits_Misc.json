@@ -1,0 +1,94 @@
+{
+	// a list of foods and their food values
+	// these values will take precedence over HO's default values
+	"foods": [
+	
+		// MISC FOODS
+		
+		{
+			"name": "minecraft:beetroot_soup",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "minecraft:chorus_fruit",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "minecraft:cooked_fish",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.5
+		},
+				{
+			"name": "minecraft:cooked_porkchop",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.5
+		},
+				{
+			"name": "minecraft:cooked_chicken",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.5
+		},
+				{
+			"name": "minecraft:cooked_rabbit",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.5
+		},
+				{
+			"name": "minecraft:cooked_mutton",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.5
+		},
+				{
+			"name": "minecraft:cooked_beef",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "combustfish:cooled_cod",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "combustfish:tempered_swordfish",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "rootsclassic:blackcurrant",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "rootsclassic:whitecurrant",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "rootsclassic:redcurrant",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "xreliquary:glowing_bread",
+			"meta": 0,
+			"hunger": 20,
+			"saturationModifier": 0.25
+		}
+		
+	]
+}

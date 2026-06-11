@@ -1,0 +1,39 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"fletcher",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+			
+			{action:"add", buy:{id:"minecraft:feather",Count:{min:32,max:36}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:flint",Count:21},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:string",Count:16},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:arrow",Count:24}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:15,max:18}},sell:{id:"minecraft:bow",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:30}},sell:{id:"quark:arrow_torch",Count:24}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:35,max:38}},sell:{id:"quark:arrow_explosive",Count:16}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:42,max:45}},sell:{id:"quark:arrow_ender",Count:12}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"minecraft:bow",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}},sell:{id:"minecraft:potion",Count:1,tag:{Potion:"potioncore:archery"}}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:30,max:32}},sell:{id:"minecraft:spectral_arrow",Count:24}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"minecraft:tipped_arrow",Count:16,tag:[{Potion:"minecraft:harming"},{Potion:"minecraft:long_poison"},{Potion:"minecraft:weakness"},{Potion:"minecraft:slowness"},{Potion:"potioncore:vulnerable"},{Potion:"potioncore:broken_armor"},{Potion:"potioncore:fire"}]}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:45,max:48}},sell:{id:"minecraft:tipped_arrow",Count:16,tag:[{Potion:"extraalchemy:freezing"},{Potion:"potioncore:burst"},{Potion:"potioncore:teleport"},{Potion:"potioncore:lightning"},{Potion:"potioncore:levitation"},{Potion:"potioncore:wither"},{Potion:"potioncore:strong_launch"}]}, CareerLevel:4},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},sell:{id:"grimoireofgaia:bag_arrow",Count:1}, CareerLevel:5},
+			
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "potioncore:archery"}}, 
+				CareerLevel:5
+			}
+			
+		]
+	}
+
+}

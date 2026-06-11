@@ -1,0 +1,104 @@
+{
+  "preRequisites:11": [
+    11
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"Certain crops won\u0027t grow well when it gets too cold. If I want to be able to grow in any season, I should build something to keep them warm. Greenhouse glass should be perfect for creating the perfect environment for my plants.\"\n\n§r§a§rCraft Greenhouse Glass.\n\nFor the greenhouse glass to work, it only needs to be placed above the crop being grown with a clear view of the sky. Any other materials can be used for walls, etc, to build a greenhouse of your own aesthetics.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "sereneseasons:greenhouse_glass"
+      },
+      "name:8": "Greenhouse Grown"
+    }
+  },
+  "questID:3": 65,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:onionseeditem",
+            "orig_meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:lettuceseeditem",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:riceseeditem",
+            "orig_meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:cornseeditem",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "2:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:teaseeditem",
+            "orig_meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:grapeseeditem",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "index:3": 2,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "sereneseasons:greenhouse_glass"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

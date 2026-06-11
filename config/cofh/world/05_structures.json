@@ -1,0 +1,31 @@
+{
+	"populate": {
+	
+		"embers_bigsphere": {
+			"distribution": "cave",
+			"generator": {
+				"type": "structure",
+				"structure": ["embers_bigsphere1.nbt", "embers_bigsphere2.nbt", "embers_bigsphere3.nbt"],
+				"ignored-block": [],
+				"ignore-entities": false,
+				"integrity": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 40,	
+			"min-height": 1,
+			"max-height": 56,
+			"retrogen": "false",
+			"ground-level": 56,
+			"ceiling": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+		
+		
+	}
+}

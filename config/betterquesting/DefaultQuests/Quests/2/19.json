@@ -1,0 +1,73 @@
+{
+  "preRequisites:11": [
+    17
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"I\u0027ve studied the basics of what Thaumaturgy refers to as Artifice. Using this knowledge I can create new tools to help my research and exploration. First I should make some goggles that will show me some of the same information as my Thaumometer without needing to be held. I should remember though, that these goggles will not allow me to scan things for new knowledge.\"\n\n§o§rCraft Goggles of Revealing on the Arcane Workbench.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thaumcraft:goggles"
+      },
+      "ismain:1": 1,
+      "name:8": "Artifice"
+    }
+  },
+  "questID:3": 19,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:nugget"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:curio"
+        }
+      }
+    },
+    "1:10": {
+      "amount:3": 50,
+      "index:3": 1,
+      "isLevels:1": 0,
+      "rewardID:8": "bq_standard:xp"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "astralsorcery:cap_item_amulet_holder:10": {},
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:goggles"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

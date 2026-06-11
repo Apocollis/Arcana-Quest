@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    70
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "embers:copper_cell",
+        "tag:10": {
+          "ember:6": 0.0,
+          "emberCapacity:6": 24000.0
+        }
+      },
+      "name:8": "Ember Storage - Basic"
+    }
+  },
+  "questID:3": 72,
+  "tasks:9": {}
+}

@@ -1,0 +1,275 @@
+{
+	// a list of foods and their food values
+	// these values will take precedence over HO's default values
+	"foods": [
+	
+		// MISC FOODS
+		
+		{
+			"name": "animania:milk_bottle",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "animania:truffle_soup",
+			"meta": 0,
+			"hunger": 3,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:chocolate_truffle",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 1.0
+		},
+		
+		// STEAK
+		
+		{
+			"name": "animania:cooked_prime_beef",
+			"meta": 0,
+			"hunger": 12,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "animania:cooked_prime_steak",
+			"meta": 0,
+			"hunger": 8,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "animania:cooked_longhorn_roast",
+			"meta": 0,
+			"hunger": 12,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_longhorn_steak",
+			"meta": 0,
+			"hunger": 8,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_hereford_roast",
+			"meta": 0,
+			"hunger": 12,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_hereford_steak",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_angus_roast",
+			"meta": 0,
+			"hunger": 14,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_angus_steak",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.75
+		},
+		
+		// PORK
+		
+		{
+			"name": "animania:cooked_prime_pork",
+			"meta": 0,
+			"hunger": 12,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "animania:cooked_prime_bacon",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "animania:cooked_hampshire_roast",
+			"meta": 0,
+			"hunger": 10,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_hampshire_bacon",
+			"meta": 0,
+			"hunger": 3,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_old_spot_roast",
+			"meta": 0,
+			"hunger": 12,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_old_spot_bacon",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_duroc_roast",
+			"meta": 0,
+			"hunger": 13,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_duroc_bacon",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_large_black_roast",
+			"meta": 0,
+			"hunger": 14,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_large_black_bacon",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.75
+		},
+		
+		// CHICKEN
+		
+		{
+			"name": "animania:cooked_prime_chicken",
+			"meta": 0,
+			"hunger": 10,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "animania:cooked_wyandotte_chicken",
+			"meta": 0,
+			"hunger": 8,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_plymouth_rock_chicken",
+			"meta": 0,
+			"hunger": 9,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_rhode_island_red_chicken",
+			"meta": 0,
+			"hunger": 10,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_orpington_chicken",
+			"meta": 0,
+			"hunger": 10,
+			"saturationModifier": 0.75
+		},
+		
+		// OTHER MEATS
+		
+		{
+			"name": "animania:cooked_chevon",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "animania:cooked_prime_chevon",
+			"meta": 0,
+			"hunger": 8,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_prime_mutton",
+			"meta": 0,
+			"hunger": 8,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:cooked_horse",
+			"meta": 0,
+			"hunger": 12,
+			"saturationModifier": 0.75
+		},
+		
+		// CHEESE
+		
+		{
+			"name": "animania:friesian_cheese_wedge",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 1.5
+		},
+		{
+			"name": "animania:friesian_cheese_wedge",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 1.5
+		},
+		{
+			"name": "animania:holstein_cheese_wedge",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 1.5
+		},
+		{
+			"name": "animania:jersey_cheese_wedge",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 1.5
+		},
+		{
+			"name": "animania:sheep_cheese_wedge",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 1.5
+		},
+		{
+			"name": "animania:goat_cheese_wedge",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 1.5
+		},
+		
+		// OMELETTE
+		
+		
+		{
+			"name": "animania:plain_omelette",
+			"meta": 0,
+			"hunger": 3,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "animania:cheese_omelette",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:bacon_omelette",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "animania:truffle_omelette",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "animania:super_omelette",
+			"meta": 0,
+			"hunger": 8,
+			"saturationModifier": 0.75
+		}
+		
+	]
+}

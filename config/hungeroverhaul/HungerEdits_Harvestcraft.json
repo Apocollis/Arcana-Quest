@@ -1,0 +1,706 @@
+{
+	// a list of foods and their food values
+	// these values will take precedence over HO's default values
+	"foods": [
+	
+		// MISC ITEMS
+		
+		{
+			"name": "harvestcraft:stockitem",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:gravyitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:tortillaitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.5
+		},
+	
+		// JUICES
+		
+		{
+			"name": "harvestcraft:applejuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:melonjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:carrotjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:strawberryjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:grapejuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:blueberryjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:cherryjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:papayajuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:starfruitjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:orangejuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:peachjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:limejuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:mangojuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:pomegranatejuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:blackberryjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:raspberryjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:kiwijuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:cranberryjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:cactusfruitjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:plumjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:pearjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:apricotjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:figjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:grapefruitjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:persimmonjuiceitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		
+		// SMOOTHIE
+		
+		{
+			"name": "harvestcraft:melonsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:strawberrysmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:lemonsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:blueberrysmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:cherrysmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:papayasmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:starfruitsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:bananasmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:orangesmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:peachsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:limesmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:mangosmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:pomegranatesmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:blackberrysmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:raspberrysmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:kiwismoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:apricotsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:figsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:grapefruitsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:persimmonsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:gooseberrysmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:applesmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:coconutsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:cranberrysmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:grapesmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:pearsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:plumsmoothieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:cherryslushieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		
+		// MILKSHAKE
+		
+		{
+			"name": "harvestcraft:strawberrymilkshakeitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:bananamilkshakeitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:chocolatemilkshakeitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:gooseberrymilkshakeitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:durianmilkshakeitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		
+		// SODAS
+		
+		{
+			"name": "harvestcraft:gingersodaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:rootbeersodaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:cherrysodaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:colasodaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:grapesodaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:lemonlimesodaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:orangesodaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:strawberrysodaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:grapefruitsodaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:applecideritem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		
+		// TEAS
+		
+		
+		{
+			"name": "harvestcraft:teaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:raspberryicedteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:chaiteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:sweetteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:bubbleteaitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:earlgreyteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:greenteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:rosepetalteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:dandelionteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:lycheeteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		
+		// COFFEE
+		
+		{
+			"name": "harvestcraft:coffeeitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:espressoitem",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 3.0
+		},
+		{
+			"name": "harvestcraft:coffeeconlecheitem",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 2.0
+		},
+		{
+			"name": "harvestcraft:pumpkinspicelatteeitem",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 2.0
+		},
+		
+		// MILKS
+		
+		{
+			"name": "harvestcraft:chocolatemilkitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:coconutmilkitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:soymilkitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		
+		// MISC DRINKS
+		
+		
+		{
+			"name": "harvestcraft:cookiesandmilkitem",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:lemonaideitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:fruitpunchitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:pinacoladaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:eggnogitem",
+			"meta": 0,
+			"hunger": 3,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:energydrinkitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:ironbrewitem",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:seedenergygelitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:hotcocoaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		
+		// FOODS
+		
+		
+		{
+			"name": "harvestcraft:poutineitem",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:caesarsaladitem",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:driedsoupitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:suaderoitem",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:lemonbaritem",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:chorusfruitsoupitem",
+			"meta": 0,
+			"hunger": 3,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "harvestcraft:toastitem",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:southernstylebreakfastitem",
+			"meta": 0,
+			"hunger": 20,
+			"saturationModifier": 1.0
+		},
+		{
+			"name": "harvestcraft:meatfeastpizzaitem",
+			"meta": 0,
+			"hunger": 20,
+			"saturationModifier": 1.0
+		},
+		{
+			"name": "harvestcraft:thankfuldinneritem",
+			"meta": 0,
+			"hunger": 20,
+			"saturationModifier": 1.0
+		},
+		{
+			"name": "harvestcraft:koreandinneritem",
+			"meta": 0,
+			"hunger": 20,
+			"saturationModifier": 1.0
+		},
+		{
+			"name": "harvestcraft:beefwellingtonitem",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:cornedbeefitem",
+			"meta": 0,
+			"hunger": 8,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:cornedbeefbreakfastitem",
+			"meta": 0,
+			"hunger": 20,
+			"saturationModifier": 1.0
+		}
+		
+	]
+}

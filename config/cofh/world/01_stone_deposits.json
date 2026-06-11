@@ -1,0 +1,364 @@
+{
+	"populate": {
+		
+		"granite_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "minecraft:stone",
+					"metadata": 1
+				},
+				"material": ["minecraft:stone"],
+				"radius": 12,
+				"height": {"min": 4, "max": 8}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": 32,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "MOUNTAIN"},
+					{"type": "dictionary", "entry": "HILLS"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"andesite_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "minecraft:stone",
+					"metadata": 5
+				},
+				"material": ["minecraft:stone"],
+				"radius": 12,
+				"height": {"min": 4, "max": 8}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": 32,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "FOREST"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"diorite_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "minecraft:stone",
+					"metadata": 3
+				},
+				"material": ["minecraft:stone"],
+				"radius": 12,
+				"height": {"min": 4, "max": 8}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": 32,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SANDY"},
+					{"type": "dictionary", "entry": "SAVANNA"},
+					{"type": "dictionary", "entry": "WASTELAND"},
+					{"type": "dictionary", "entry": "MUSHROOM"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"limestone_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "quark:limestone",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone"],
+				"radius": 12,
+				"height": {"min": 4, "max": 8}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": 32,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SWAMP"},
+					{"type": "dictionary", "entry": "JUNGLE"},
+					{"type": "dictionary", "entry": "OCEAN"},
+					{"type": "dictionary", "entry": "RIVER"},
+					{"type": "dictionary", "entry": "BEACH"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"slate_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "rustic:slate",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone"],
+				"radius": 12,
+				"height": {"min": 4, "max": 8}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 24,	
+			"min-height": 32,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"blue_slate_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "earthworks:block_slate",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone"],
+				"radius": 9,
+				"height": {"min": 4, "max": 6}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 21,	
+			"min-height": 32,
+			"max-height":90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "COLD"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"purple_slate_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "earthworks:block_slate_purple",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone"],
+				"radius": 9,
+				"height": {"min": 4, "max": 6}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 21,	
+			"min-height": 32,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "HOT"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"green_slate_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "earthworks:block_slate_green",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone"],
+				"radius": 9,
+				"height": {"min": 4, "max": 6}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 21,	
+			"min-height": 32,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{"type": "dictionary", "entry": "HOT"},
+					{"type": "dictionary", "entry": "COLD"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"chalk_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "earthworks:block_chalk",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone", "minecraft:gravel"],
+				"radius": 5,
+				"height": {"min": 3, "max": 5}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": 48,
+			"max-height": 70,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SANDY"},
+					{"type": "dictionary", "entry": "OCEAN"},
+					{"type": "dictionary", "entry": "RIVER"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"marble_surface": {
+			"distribution": "surface",
+			"generator": {
+				"type": "boulder",
+				"block": {
+					"name": "astralsorcery:blockmarble",
+					"metadata": 0
+				},
+				"material": ["minecraft:grass"],
+				"diameter": 3,
+				"size-variance": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 70,	
+			"min-height": 56,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SNOWY"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"marble_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"block": {
+					"name": "astralsorcery:blockmarble",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone"],
+				"radius": 12,
+				"height": {"min": 4, "max": 8}
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": 24,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SNOWY"},
+					{"type": "dictionary", "entry": "PLAINS"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	
+	}
+}

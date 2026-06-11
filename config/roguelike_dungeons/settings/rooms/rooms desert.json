@@ -1,0 +1,36 @@
+{
+	"name" : "arcanaquest:rooms_desert",
+	"rooms" : [
+		{"level" : [0, 1, 2, 3], "frequency" : "random", "type" : "PYRAMIDSPAWNER", "weight" : 10},
+		{"level" : [0, 1, 2, 3], "frequency" : "random", "type" : "PYRAMIDCORNER", "weight" : 3},
+		{"level" : [1, 2, 3], "frequency" : "single", "type" : "PYRAMIDTOMB"},
+		
+		{"level" : 0, "frequency" : "single", "type" : "FIRE"},
+		{"level" : 0, "frequency" : "single", "type" : "STORAGE"},
+		
+		{"level" : 1, "frequency" : "single", "type" : "LAB"},
+		{"level" : 1, "frequency" : "single", "type" : "MESS"},
+		
+		{"level" : [2, 3], "frequency" : "single", "type" : "OSSUARY"},
+		{"level" : 2, "frequency" : "single", "type" : "CREEPER"},
+		{"level" : 2, "frequency" : "single", "type" : "SPIDER"},
+		{"level" : 2, "frequency" : "random", "type" : "CRYPT", "weight" : 2},
+		{"level" : 2, "frequency" : "random", "type" : "PRISON", "weight" : 2},
+		
+		{"level" : 3, "frequency" : "single", "type" : "ENDER"},
+		{"level" : 3, "frequency" : "random", "type" : "SPIDER", "weight" : 2},
+		{"level" : 3, "frequency" : "random", "type" : "CREEPER", "weight" : 1},
+		
+		{"level" : 4, "frequency" : "single", "type" : "REWARD"},
+		{"level" : 4, "frequency" : "single", "type" : "OBSIDIAN"},
+		{"level" : 4, "frequency" : "single", "type" : "DARKHALL"},
+		{"level" : 4, "frequency" : "random", "type" : "NETHER", "weight" : 10},
+		{"level" : 4, "frequency" : "random", "type" : "NETHERFORT", "weight" : 1},
+		{"level" : 4, "frequency" : "random", "type" : "REWARD", "weight" : 1},
+		{"level" : 4, "frequency" : "random", "type" : "BLAZE", "weight" : 2},
+		
+		{"level": 0, "frequency" : "secret", "type" : "SMITH", "count" : "1"},
+		{"level": 0, "frequency" : "secret", "type" : "BEDROOM", "count" : "1"},
+		{"level": 1, "frequency" : "secret", "type" : "BTEAM", "count" : "1"}
+	]
+}

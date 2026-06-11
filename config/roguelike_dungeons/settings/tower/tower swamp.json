@@ -1,0 +1,9 @@
+{
+	"name" : "arcanaquest:tower_swamp",
+	"tower" : {
+        "type" : "WITCH",
+        "theme" : {
+            "base" : "DARKOAK"
+        }
+    }
+}

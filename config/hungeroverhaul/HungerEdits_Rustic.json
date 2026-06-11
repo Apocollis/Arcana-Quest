@@ -1,0 +1,46 @@
+{
+	// a list of foods and their food values
+	// these values will take precedence over HO's default values
+	"foods": [
+	
+		// FORAGE
+		
+		{
+			"name": "rustic:wildberries",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "rustic:cloudsbluff",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "rustic:core_root",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "rustic:ginseng",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "rustic:marsh_mallow",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
+		{
+			"name": "rustic:ironberries",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.25
+		}
+		
+	]
+}

@@ -1,0 +1,110 @@
+{
+  "preRequisites:11": [
+    87
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§o\"To further study the golems I can do something unthinkable: carve one of my creations up to see just how it works. Perhaps I can find something useful, though I\u0027m sure to suffer some mental harm in the process.\"\n\n§rAs with the previous quest, any golem will work for this quest.\n\n§4§c§cThis quest will give warp each time it\u0027s completed. This will also destroy one golem in your inventory. Be sure to only have one that you want to sacrifice.",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thaumcraft:golem"
+      },
+      "name:8": "Golem Autopsy",
+      "repeattime:3": 60
+    }
+  },
+  "questID:3": 89,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:curio"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:curio"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:curio"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:phial",
+          "tag:10": {
+            "Aspects:9": {
+              "0:10": {
+                "amount:3": 10,
+                "key:8": "machina"
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:mind"
+        }
+      }
+    },
+    "2:10": {
+      "command:8": "#Add 5 normal warp\nthaumcraft warp @s add 5",
+      "description:8": "Gain warp",
+      "index:3": 2,
+      "rewardID:8": "bq_standard:command"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:golem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

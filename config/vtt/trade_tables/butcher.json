@@ -1,0 +1,36 @@
+{ 
+	Profession:"minecraft:butcher", 
+	Career:"butcher",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+		
+			{action:"add", buy:{id:"minecraft:porkchop",Count:12},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"animania:raw_prime_pork",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:13,max:15}},sell:{id:"minecraft:cooked_porkchop",Count:5}, CareerLevel:1},
+		
+			{action:"add", buy:{id:"minecraft:beef",Count:12},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"animania:raw_prime_beef",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:13,max:15}},sell:{id:"minecraft:cooked_beef",Count:5}, CareerLevel:1},	
+			
+			{action:"add", buy:{id:"minecraft:mutton",Count:12},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
+			{action:"add", buy:{id:"animania:raw_prime_mutton",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:2},sell:{id:"minecraft:cooked_mutton",Count:5}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"animania:raw_chevon",Count:12},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
+			{action:"add", buy:{id:"animania:raw_prime_chevon",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:2},sell:{id:"animania:cooked_chevon",Count:5}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"minecraft:rabbit",Count:10},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:3},
+			{action:"add", buy:{id:"animania:raw_prime_rabbit",Count:5},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:2},sell:{id:"minecraft:cooked_rabbit",Count:4}, CareerLevel:3},
+			
+			{action:"add", buy:{id:"animania:raw_frog_legs",Count:8},sell:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}},sell:{id:"animania:cooked_frog_legs",Count:4}, CareerLevel:3}
+			
+		]
+	}
+
+}

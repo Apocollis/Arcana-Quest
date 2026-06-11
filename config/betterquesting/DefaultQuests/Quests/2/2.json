@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    43
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thaumcraft:sanity_soap"
+      },
+      "name:8": "Purifying Bath Salts"
+    }
+  },
+  "questID:3": 2,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "customnpcs:itemscripteddata:10": {},
+            "wizardryutils:summoneditemdata:10": {}
+          },
+          "id:8": "thaumcraft:sanity_soap"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+
+{
+  "ID": 150,
+  "Name": "Oasis",
+  "Resource Location": "atum:oasis",
+  "Class": "com.teammetallurgy.atum.world.biome.BiomeOasis",
+  "Root Height": 0.135,
+  "Height Variation": 0.0,
+  "Top Block": "atum:fertile_soil",
+  "Filler Block": "atum:limestone[contains_scarab\u003dfalse]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "2761238",
+  "Temperature": 2.0,
+  "Humidity": 0.0,
+  "Water Tint": 2761238,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "OASIS",
+    "WET",
+    "RARE",
+    "LUSH"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.teammetallurgy.atum.entity.animal.EntityCamel",
+      "Weight": 6,
+      "Min Group Count": 2,
+      "Max Group Count": 6
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityDamcell",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityBoulderer",
+      "Weight": 60,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityRiftedEnderman",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.unoriginal.beastslayer.entity.Entities.EntityBonepile",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "ladysnake.lumen.common.entities.EntityFirefly",
+      "Weight": 50,
+      "Min Group Count": 0,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "ladysnake.lumen.common.entities.EntityLightningBug",
+      "Weight": 50,
+      "Min Group Count": 0,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawn Biome": true,
+  "Tweaked": true,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

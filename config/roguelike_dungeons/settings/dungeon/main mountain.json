@@ -1,0 +1,21 @@
+{
+	"name" : "arcanaquest:main_mountain",
+	"exclusive" : true,
+	"criteria" : {
+		"dimensionWL" : 0,
+		"biomeTypes" : [
+			"MOUNTAIN"
+		],
+		"weight" : 7
+	},
+	"inherit" : [
+		"arcanaquest:tower_mountain",
+		"arcanaquest:layout",
+		"arcanaquest:rooms_mountain",
+		"arcanaquest:segments_mountain",
+		"arcanaquest:spawners_mountain",
+		"arcanaquest:theme_mountain",
+		"arcanaquest:loot_mountain",
+		"arcanaquest:filters_none"
+	]
+}

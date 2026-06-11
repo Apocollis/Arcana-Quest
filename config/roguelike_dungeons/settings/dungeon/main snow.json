@@ -1,0 +1,21 @@
+{
+	"name" : "arcanaquest:main_snow",
+	"exclusive" : true,
+	"criteria" : {
+		"dimensionWL" : 0,
+		"biomeTypes" : [
+			"SNOWY"
+		],
+		"weight" : 5
+	},
+	"inherit" : [
+		"arcanaquest:tower_snow",
+		"arcanaquest:layout",
+		"arcanaquest:rooms_snow",
+		"arcanaquest:segments_snow",
+		"arcanaquest:spawners_mountain",
+		"arcanaquest:theme_snow",
+		"arcanaquest:loot_mountain",
+		"arcanaquest:filters_none"
+	]
+}

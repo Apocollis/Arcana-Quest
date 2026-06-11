@@ -1,0 +1,64 @@
+{
+	// a list of foods and their food values
+	// these values will take precedence over HO's default values
+	"foods": [
+	
+		// FOODS
+		
+		{
+			"name": "mysticalworld:venison",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "mysticalworld:raw_squid",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "mysticalworld:cooked_venison",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "mysticalworld:cooked_squid",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "mysticalworld:epic_squid",
+			"meta": 0,
+			"hunger": 20,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "mysticalworld:cooked_seeds",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "mysticalworld:aubergine",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "mysticalworld:cooked_aubergine",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "mysticalworld:stuffed_aubergine",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.75
+		}
+		
+	]
+}

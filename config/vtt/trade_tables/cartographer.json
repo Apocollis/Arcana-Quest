@@ -1,0 +1,29 @@
+{ 
+	Profession:"minecraft:librarian", 
+	Career:"cartographer",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear", CareerLevel:1},
+			{action:"clear", CareerLevel:2},
+			{action:"clear", CareerLevel:3},
+		
+			{action:"add", buy:{id:"minecraft:paper",Count:{min:24,max:27}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:15}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:dye",Damage:0,Count:{min:20,max:24}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:feather",Count:{min:32,max:36}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:8,max:9}},sell:{id:"minecraft:map",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"minecraft:compass",Count:1}, CareerLevel:1},
+			
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:15,max:18}},sell:{id:"minecraft:clock",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"antiqueatlas:empty_antique_atlas",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:15,max:18}},sell:{id:"toughasnails:thermometer",Count:1}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:42,max:45}},sell:{id:"magicalmap:map",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"naturescompass:naturescompass",Count:1}, CareerLevel:3}
+			
+		]
+	}
+
+}

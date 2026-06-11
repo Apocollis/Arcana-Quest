@@ -1,0 +1,39 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"fisherman",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+
+			{action:"add", buy:{id:"minecraft:fish",Damage:0,Count:16},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:13}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:string",Count:16},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}},sell:{id:"minecraft:cooked_fish",Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"minecraft:fishing_rod",Count:1}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:25}}, sell:{id:"harvestcraft:watertrap",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:15,max:18}}, sell:{id:"harvestcraft:fishtrapbaititem",Count:16}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:15,max:18}}, sell:{id:"waterstrainer:worm",Count:16}, CareerLevel:2},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}},sell:{id:"minecraft:potion",Count:1,tag:{Potion: "minecraft:luck"}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:45,max:48}},sell:{id:"combustfish:golden_rod",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}},sell:{id:"harvestcraft:fishdinneritem",Count:3}, CareerLevel:3},
+			
+			{action:"add", buy:{id:"combustfish:combustive_cod",Damage:0,Count:8},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:4},
+			{action:"add", buy:{id:"combustfish:bone_fish",Damage:0,Count:8},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:4},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"combustfish:golden_rod",Count:1,tag:{ench:"random"}}, CareerLevel:4},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:42,max:48}},sell:{id:"combustfish:searing_swordfish",Count:1,tag:{ench:"random"}}, CareerLevel:5},
+			{
+				action:"add", 
+				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "minecraft:luck"}}, 
+				CareerLevel:5
+			}
+			
+			
+		]
+	}
+
+}

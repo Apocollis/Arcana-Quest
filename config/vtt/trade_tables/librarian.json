@@ -1,0 +1,53 @@
+{ 
+	Profession:"minecraft:librarian", 
+	Career:"librarian",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+			
+			
+			{action:"add", 
+			buy:{id:"ordinarycoins:coinbronze",Count:{min:22,max:24}},
+			sell:{id:"minecraft:book",Count:6}, 
+			CareerLevel:1}
+			
+			{action:"add", 
+			buy:{id:"minecraft:paper",Count:{min:24,max:27}},
+			sell:{id:"ordinarycoins:coinbronze",Count:7}, 
+			CareerLevel:1},
+			
+			{action:"add", 
+			buy:{id:"minecraft:dye",Damage:0,Count:{min:13,max:14}},
+			sell:{id:"ordinarycoins:coinbronze",Count:8}, 
+			CareerLevel:1},
+			
+			{action:"add", 
+			buy:{id:"ordinarycoins:coinbronze",Count:8},
+			sell:{id:"antiqueatlas:empty_antique_atlas",Count:1}, 
+			CareerLevel:1},
+			
+			{action:"add", 
+			buy:{id:"ordinarycoins:coinbronze",Count:7},
+			sell:{id:"minecraft:writable_book",Count:1}, 
+			CareerLevel:1},
+			
+			
+			{action:"add", 
+			buy:{id:"ordinarycoins:coinbronze",Count:{min:9,max:11}},
+			sell:{id:"minecraft:compass",Count:1}, 
+			CareerLevel:2},
+			
+			{action:"add", 
+			buy:{id:"ordinarycoins:coinbronze",Count:{min:9,max:11}},
+			sell:{id:"minecraft:clock",Count:1}, 
+			CareerLevel:2},
+			
+			{action:"add", 
+			buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:25}},
+			sell:{id:"minecraft:book",Count:1,tag:{ench:"random"}}, 
+			CareerLevel:2}
+			
+		]
+	}

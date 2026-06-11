@@ -1,0 +1,218 @@
+{
+	"populate": {
+	
+		"overworld_mandrake_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": false,
+				"block": [
+					{ "name": "bewitchment:crop_mandrake", "properties": { "age": "7" } }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } },
+					{ "name": "minecraft:dirt", "properties": { "variant": "podzol" } }
+				]
+			},
+			"cluster-count": 2,
+			"chunkChance": 10,
+			"retrogen": true,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		},
+		
+		"overworld_belladonna_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": false,
+				"block": [
+					{ "name": "bewitchment:crop_belladonna", "properties": { "age": "7" } }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } },
+					{ "name": "minecraft:dirt", "properties": { "variant": "podzol" } }
+				]
+			},
+			"cluster-count": 2,
+			"chunkChance": 10,
+			"retrogen": true,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		},
+		
+		"overworld_aconite_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": false,
+				"block": [
+					{ "name": "bewitchment:crop_aconitum", "properties": { "age": "7" } }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } },
+					{ "name": "minecraft:dirt", "properties": { "variant": "podzol" } }
+				]
+			},
+			"cluster-count": 1,
+			"chunkChance": 20,
+			"retrogen": true,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		},
+
+		"overworld_garlic_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": false,
+				"block": [
+					{ "name": "bewitchment:garlic", "properties": { "age": "7" } }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } }
+				]
+			},
+			"cluster-count": 2,
+			"chunkChance": 12,
+			"retrogen": true,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		},
+
+		"overworld_hellebore_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": false,
+				"block": [
+					{ "name": "bewitchment:crop_hellebore", "properties": { "age": "7" } }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } }
+				]
+			},
+			"cluster-count": 1,
+			"chunkChance": 15,
+			"retrogen": true,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		},
+
+		"overworld_wormwood_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": false,
+				"block": [
+					{ "name": "bewitchment:crop_wormwood", "properties": { "age": "7" } }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } }
+				]
+			},
+			"cluster-count": 1,
+			"chunkChance": 15,
+			"retrogen": true,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		},
+
+		"overworld_white_sage_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": false,
+				"block": [
+					{ "name": "bewitchment:crop_white_sage", "properties": { "age": "7" } }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } }
+				]
+			},
+			"cluster-count": 1,
+			"chunkChance": 18,
+			"retrogen": true,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		}
+		
+	}
+}

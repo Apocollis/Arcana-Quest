@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    86
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "embers:tinker_hammer",
+        "tag:10": {}
+      },
+      "name:8": "Tinker\u0027s Tools"
+    }
+  },
+  "questID:3": 100,
+  "tasks:9": {}
+}

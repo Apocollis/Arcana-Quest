@@ -1,0 +1,6 @@
+
+{
+  "Name": "lich_staff",
+  "Registry ID": "da:lich_staff",
+  "Class": "com.dungeon_additions.da.entity.night_lich.EntityLichStaffAOE"
+}
