@@ -249,7 +249,7 @@ key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_key.carbon_config.key:0
 key_key.carbon_config.dep:0
 key_Open Skill GUI:21
-soundCategory_master:0.50993377
+soundCategory_master:0.5
 soundCategory_music:0.85211265
 soundCategory_record:1.0
 soundCategory_weather:1.0

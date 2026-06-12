@@ -8,12 +8,13 @@
 				"type": "decoration",
 				"cluster-size": 1,
 				"see-sky": false,
-				"check-stay": false,
+				"check-stay": true,
 				"block": [
-					{ "name": "bewitchment:crop_mandrake", "properties": { "age": "7" } }
+					{ "name": "contenttweaker:wild_mandrake" }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" }
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
 				]
 			},
 			"cluster-count": 2,
@@ -37,12 +38,13 @@
 				"type": "decoration",
 				"cluster-size": 1,
 				"see-sky": false,
-				"check-stay": false,
+				"check-stay": true,
 				"block": [
-					{ "name": "bewitchment:crop_belladonna", "properties": { "age": "7" } }
+					{ "name": "contenttweaker:wild_belladonna" }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" }
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
 				]
 			},
 			"cluster-count": 2,
@@ -66,12 +68,13 @@
 				"type": "decoration",
 				"cluster-size": 1,
 				"see-sky": false,
-				"check-stay": false,
+				"check-stay": true,
 				"block": [
-					{ "name": "bewitchment:crop_aconitum", "properties": { "age": "7" } }
+					{ "name": "contenttweaker:wild_aconitum" }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" }
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
 				]
 			},
 			"cluster-count": 1,
@@ -95,12 +98,13 @@
 				"type": "decoration",
 				"cluster-size": 1,
 				"see-sky": false,
-				"check-stay": false,
+				"check-stay": true,
 				"block": [
-					{ "name": "bewitchment:garlic", "properties": { "age": "7" } }
+					{ "name": "contenttweaker:wild_garlic" }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" }
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
 				]
 			},
 			"cluster-count": 2,
@@ -124,12 +128,13 @@
 				"type": "decoration",
 				"cluster-size": 1,
 				"see-sky": false,
-				"check-stay": false,
+				"check-stay": true,
 				"block": [
-					{ "name": "bewitchment:crop_hellebore", "properties": { "age": "7" } }
+					{ "name": "contenttweaker:wild_hellebore" }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" }
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
 				]
 			},
 			"cluster-count": 1,
@@ -153,12 +158,13 @@
 				"type": "decoration",
 				"cluster-size": 1,
 				"see-sky": false,
-				"check-stay": false,
+				"check-stay": true,
 				"block": [
-					{ "name": "bewitchment:crop_wormwood", "properties": { "age": "7" } }
+					{ "name": "contenttweaker:wild_wormwood" }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" }
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
 				]
 			},
 			"cluster-count": 1,
@@ -182,12 +188,13 @@
 				"type": "decoration",
 				"cluster-size": 1,
 				"see-sky": false,
-				"check-stay": false,
+				"check-stay": true,
 				"block": [
-					{ "name": "bewitchment:crop_white_sage", "properties": { "age": "7" } }
+					{ "name": "contenttweaker:wild_white_sage" }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" }
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
 				]
 			},
 			"cluster-count": 1,
