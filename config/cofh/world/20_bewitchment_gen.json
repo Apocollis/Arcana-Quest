@@ -13,14 +13,12 @@
 					{ "name": "bewitchment:crop_mandrake", "properties": { "age": "7" } }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" },
-					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } },
-					{ "name": "minecraft:dirt", "properties": { "variant": "podzol" } }
+					{ "name": "minecraft:grass" }
 				]
 			},
 			"cluster-count": 2,
-			"chunkChance": 10,
-			"retrogen": true,
+			"chunkChance": 15,
+			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
 			"biomes": [
@@ -44,14 +42,12 @@
 					{ "name": "bewitchment:crop_belladonna", "properties": { "age": "7" } }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" },
-					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } },
-					{ "name": "minecraft:dirt", "properties": { "variant": "podzol" } }
+					{ "name": "minecraft:grass" }
 				]
 			},
 			"cluster-count": 2,
-			"chunkChance": 10,
-			"retrogen": true,
+			"chunkChance": 15,
+			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
 			"biomes": [
@@ -75,14 +71,12 @@
 					{ "name": "bewitchment:crop_aconitum", "properties": { "age": "7" } }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" },
-					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } },
-					{ "name": "minecraft:dirt", "properties": { "variant": "podzol" } }
+					{ "name": "minecraft:grass" }
 				]
 			},
 			"cluster-count": 1,
 			"chunkChance": 20,
-			"retrogen": true,
+			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
 			"biomes": [
@@ -106,13 +100,12 @@
 					{ "name": "bewitchment:garlic", "properties": { "age": "7" } }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" },
-					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } }
+					{ "name": "minecraft:grass" }
 				]
 			},
 			"cluster-count": 2,
-			"chunkChance": 12,
-			"retrogen": true,
+			"chunkChance": 15,
+			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
 			"biomes": [
@@ -136,13 +129,12 @@
 					{ "name": "bewitchment:crop_hellebore", "properties": { "age": "7" } }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" },
-					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } }
+					{ "name": "minecraft:grass" }
 				]
 			},
 			"cluster-count": 1,
 			"chunkChance": 15,
-			"retrogen": true,
+			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
 			"biomes": [
@@ -166,13 +158,12 @@
 					{ "name": "bewitchment:crop_wormwood", "properties": { "age": "7" } }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" },
-					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } }
+					{ "name": "minecraft:grass" }
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 15,
-			"retrogen": true,
+			"chunkChance": 20,
+			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
 			"biomes": [
@@ -196,13 +187,12 @@
 					{ "name": "bewitchment:crop_white_sage", "properties": { "age": "7" } }
 				],
 				"surface": [
-					{ "name": "minecraft:grass" },
-					{ "name": "minecraft:dirt", "properties": { "variant": "dirt" } }
+					{ "name": "minecraft:grass" }
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 18,
-			"retrogen": true,
+			"chunkChance": 20,
+			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
 			"biomes": [
