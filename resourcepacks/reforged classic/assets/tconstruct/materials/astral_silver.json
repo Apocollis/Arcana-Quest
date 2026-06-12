@@ -1,0 +1,9 @@
+{
+    "type": "metal",
+    "parameters": {
+        "color": "AFDADE",
+        "shinyness": 0.15,
+        "brightness": 0.3,
+        "hueshift": 0.0
+    }
+}

@@ -1,0 +1,338 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "quark:arrow_explosive",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "quark:arrow_explosive"
+        },
+        {
+          "entryName": "quark:arrow_ender",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "quark:arrow_ender"
+        },
+        {
+          "entryName": "minecraft:spectral_arrow",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:spectral_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"minecraft:long_poison\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#2",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"minecraft:harming\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#3",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"minecraft:weakness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#4",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"minecraft:slowness\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#5",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"potioncore:vulnerable\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#6",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"potioncore:long_broken_armor\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#7",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"potioncore:fire\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#8",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"potioncore:teleport\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#9",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"potioncore:burst\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#10",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"extraalchemy:freezing\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#11",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"potioncore:lightning\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#12",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"potioncore:levitation\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#13",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"potioncore:wither\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        },
+        {
+          "entryName": "minecraft:tipped_arrow-lt#14",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Potion:\"potioncore:strong_launch\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:tipped_arrow"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

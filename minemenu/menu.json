@@ -1,0 +1,84 @@
+{
+  "Hotbar": {
+    "0": {
+      "title": "Use Elixer of Healing",
+      "icon": {
+        "name": "rustic:elixir",
+        "damage": 0
+      },
+      "action": {
+        "item": {
+          "name": "betterquesting:quest_book",
+          "damage": 0
+        }
+      }
+    }
+  },
+  "main": {
+    "0": {
+      "title": "Open Backpack",
+      "icon": {
+        "name": "wearablebackpacks:backpack",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.wearablebackpacks.open",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "Open Quiver",
+      "icon": {
+        "name": "spartanweaponry:quiver_arrow",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.spartanweaponry.access_quiver",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "test",
+      "icon": {
+        "name": "minecraft:stone",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.aether.accessory_menu",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "Skills",
+      "icon": {
+        "name": "minecraft:stone",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.dss.skills_gui.desc",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "Skill Levels",
+      "icon": {
+        "name": "grimoireofgaia:misc_experience",
+        "damage": 2
+      },
+      "action": {
+        "key": {
+          "key": "Open Skill GUI",
+          "toggle": false
+        }
+      }
+    }
+  }
+}
