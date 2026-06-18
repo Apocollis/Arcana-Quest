@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["reforged classic","STONEBORN Gear-HIGH_EYES-1.12 - V1.1.zip","STONEBORN+Gear-HIGH_EYES-1.12+-+V1.0","Sonomagy TC6 v1.7.zip","Better_Enderdragon.zip"]
+resourcePacks:["STONEBORN Gear-HIGH_EYES-1.12 - V1.1.zip","STONEBORN+Gear-HIGH_EYES-1.12+-+V1.0","Sonomagy TC6 v1.7.zip","Better_Enderdragon.zip","Lycanites Redux 1.12.2-v8.2.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -105,6 +105,7 @@ key_key.dss.togglehud.desc:47
 key_keybind.baublesinventory:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_arcanearchives.gui.keybinds.socket:0
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -123,7 +124,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
@@ -138,14 +138,19 @@ key_keybind.openSelectionWheel:56
 key_keybind.openBaubleBag:19:CONTROL
 key_cos.key.opencosarmorinventory:0
 key_key.wearablebackpacks.open:48
-key_Scene1 start/pause:0
-key_Scene2 start/pause:0
-key_Scene3 start/pause:0
-key_Scene reset:0
-key_Quest Log:38
 key_Toggle Magnetism Suppressor:49
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
+key_ingameinfoxml.key.toggle:0
+key_key.mount.dismount:46
+key_key.mount.descend:42
+key_key.mount.ability:45
+key_key.mount.inventory:0
+key_key.index:34
+key_key.beastiary:0
+key_key.pets:0
+key_key.summoning:0
+key_key.minions:19
 key_key.open_menu:19
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
@@ -203,7 +208,6 @@ key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
 key_key.carry.desc:42
-key_Options Gui:0
 key_key.colytra.toggle.desc:34
 key_key.elenaidodge2.dodge:56
 key_key.radial_menu:0
@@ -249,17 +253,17 @@ key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_key.carbon_config.key:0
 key_key.carbon_config.dep:0
 key_Open Skill GUI:21
-soundCategory_master:0.5
-soundCategory_music:0.85211265
+soundCategory_master:0.70198673
+soundCategory_music:0.8028169
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.90140843
 soundCategory_block:1.0
 soundCategory_hostile:1.0
-soundCategory_neutral:0.90140843
+soundCategory_neutral:0.85211265
 soundCategory_player:1.0
 soundCategory_ambient:1.0
-soundCategory_voice:1.0
-soundCategory_ds_footsteps:0.9084507
+soundCategory_voice:0.9084507
+soundCategory_ds_footsteps:0.85915494
 soundCategory_ds_biome:1.0
 modelPart_cape:true
 modelPart_jacket:true

@@ -181,7 +181,6 @@
 				{"data" : {"name" : "xreliquary:witherless_rose", "meta" : 0}, "weight" : 3},
 				{"data" : {"name" : "grapplemod:repeller", "meta" : 0}, "weight" : 3},
 				{"data" : {"name" : "waystones:warp_stone", "meta" : 0}, "weight" : 3},
-				{"data" : {"name" : "endercompass:ender_compass", "meta" : 0}, "weight" : 3},
 				{"data" : {"name" : "botania:thornchakram", "min" : 3, "max" : 4, "meta" : 1}, "weight" : 3},
 				{"data" : {"name" : "botania:blacklotus", "min" : 1, "max" : 2, "meta" : 1}, "weight" : 3},
 				{"data" : {"name" : "botania:thirdeye"}, "weight" : 3},

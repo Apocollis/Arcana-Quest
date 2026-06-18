@@ -11,7 +11,9 @@
     { "item": "quark:soul_compass" },
     { "item": "inspirations:north_compass" },
     { "item": "inspirations:barometer" },
+	{ "item": "inspirations:photometer" },
     { "item": "sereneseasons:season_clock" },
-    { "item": "toughasnails:thermometer" },
+    { "item": "simpledifficulty:thermometer" },
+	{ "item": "thaumicaugmentation:fracture_locator" },
 	{ "item": "biomesoplenty:biome_finder" }
 ]
