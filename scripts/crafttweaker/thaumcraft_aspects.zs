@@ -46,3 +46,24 @@
 <astralsorcery:itemcraftingcomponent:2>.setAspects(<aspect:lux>*5,<aspect:tenebrae>*5,<aspect:praecantatio>*5,<aspect:perditio>*5);
 <astralsorcery:itemrockcrystalsimple:0>.setAspects(<aspect:vitreus>*15,<aspect:terra>*5,<aspect:ordo>*10);
 <astralsorcery:itemcelestialcrystal:0>.setAspects(<aspect:vitreus>*25,<aspect:praecantatio>*10,<aspect:ordo>*15);
+
+
+##############
+# THE BETWEENLANDS
+<thebetweenlands:swamp_talisman:1>.setAspects(<aspect:permutatio>*5, <aspect:tenebrae>*2, <aspect:mortuus>*2);
+<thebetweenlands:swamp_talisman:2>.setAspects(<aspect:permutatio>*5, <aspect:tenebrae>*2, <aspect:mortuus>*2);
+<thebetweenlands:swamp_talisman:3>.setAspects(<aspect:permutatio>*5, <aspect:tenebrae>*2, <aspect:mortuus>*2);
+<thebetweenlands:swamp_talisman:4>.setAspects(<aspect:permutatio>*5, <aspect:tenebrae>*2, <aspect:mortuus>*2);
+<thebetweenlands:swamp_talisman>.setAspects(<aspect:tenebrae>*15, <aspect:praecantatio>*10, <aspect:herba>*10);
+
+
+##############
+# BEWITCHMENT
+<bewitchment:mandrake_root>.setAspects(<aspect:herba>*5, <aspect:victus>*10, <aspect:mortuus>*5);
+<bewitchment:belladonna>.setAspects(<aspect:herba>*5, <aspect:alkimia>*5, <aspect:mortuus>*5);
+<bewitchment:aconitum>.setAspects(<aspect:herba>*5, <aspect:alkimia>*5, <aspect:tenebrae>*5);
+
+
+##############
+# ATUM 2
+<atum:scarab>.setAspects(<aspect:metallum>*10, <aspect:desiderium>*10, <aspect:praecantatio>*10, <aspect:sol>*10);

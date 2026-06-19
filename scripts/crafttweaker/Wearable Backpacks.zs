@@ -7,7 +7,7 @@ val gold = <ore:ingotGold>;
 val diamond = <ore:gemDiamond>;
 
 val backpack = <wearablebackpacks:backpack>;
-val backpack_1 = <wearablebackpacks:backpack>.withTag({backpack:{size:[9,3]}, display: {LocName: "Backpack"}});
+val backpack_1 = <wearablebackpacks:backpack>.withTag({backpack:{size:[9,2]}, display: {LocName: "Backpack"}});
 val backpack_2 = <wearablebackpacks:backpack>.withTag({backpack:{size:[9,4]}, display: {LocName: "Big Backpack", color: 16383998}});
 val backpack_3 = <wearablebackpacks:backpack>.withTag({backpack:{size:[9,6]}, display: {LocName: "Huge Backpack", color: 6932195}});
 	

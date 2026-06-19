@@ -1,6 +1,7 @@
 import crafttweaker.item.IItemCondition;
 import crafttweaker.item.IItemTransformer;
 import crafttweaker.item.IItemStack;
+import mods.astralsorcery.StarlightInfusion;
 
 #VANILLA
 recipes.remove(<minecraft:mossy_cobblestone>);
@@ -41,10 +42,11 @@ recipes.addShaped(<waystones:warp_scroll>*3,
 
 # BENEATH
 
+recipes.remove(<beneath:teleporterbeneath>);
 recipes.addShaped(<beneath:teleporterbeneath>,
- [[<minecraft:cobblestone>, <minecraft:obsidian>, <minecraft:cobblestone>],
-  [<minecraft:obsidian>, <minecraft:diamond>, <minecraft:obsidian>],
-  [<minecraft:cobblestone>, <minecraft:obsidian>, <minecraft:cobblestone>]]);
+ [[<minecraft:obsidian>, <thaumcraft:ingot:0>, <minecraft:obsidian>],
+  [<thaumcraft:ingot:0>, <ore:plateDawnstone>, <thaumcraft:ingot:0>],
+  [<minecraft:obsidian>, <thaumcraft:ingot:0>, <minecraft:obsidian>]]);
 
 # SOPHISTICATED WOLVES
 
@@ -70,13 +72,13 @@ recipes.remove(<witherskelefix:blade>);
 recipes.remove(<witherskelefix:blade2>);
 	
 	
-# ENDER COMPASS
+// # ENDER COMPASS
 
-recipes.remove(<endercompass:ender_compass>);
-recipes.addShaped(<endercompass:ender_compass>,
- [[<minecraft:ender_eye>, <quark:biotite>, <minecraft:ender_eye>],
-  [<quark:biotite>, <minecraft:compass>, <quark:biotite>],
-  [<minecraft:ender_eye>, <quark:biotite>, <minecraft:ender_eye>]]);
+// recipes.remove(<endercompass:ender_compass>);
+// recipes.addShaped(<endercompass:ender_compass>,
+ // [[<minecraft:ender_eye>, <quark:biotite>, <minecraft:ender_eye>],
+  // [<quark:biotite>, <minecraft:compass>, <quark:biotite>],
+  // [<minecraft:ender_eye>, <quark:biotite>, <minecraft:ender_eye>]]);
   
   
 # EFFORTLESS BUILDING
@@ -134,13 +136,13 @@ recipes.remove(<earthworks:tool_iron_hammer>);
 recipes.remove(<earthworks:tool_gold_hammer>);
 recipes.remove(<earthworks:tool_diamond_hammer>);
 
-# UNCRAFTING TABLE
+// # UNCRAFTING TABLE
 
-recipes.remove(<uncraftingtable:uncrafting_table>);
-recipes.addShaped(<uncraftingtable:uncrafting_table>,
- [[<minecraft:cobblestone>, <minecraft:diamond>, <minecraft:cobblestone>],
-  [<minecraft:cobblestone>, <minecraft:crafting_table>, <minecraft:cobblestone>],
-  [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
+// recipes.remove(<uncraftingtable:uncrafting_table>);
+// recipes.addShaped(<uncraftingtable:uncrafting_table>,
+ // [[<minecraft:cobblestone>, <minecraft:diamond>, <minecraft:cobblestone>],
+  // [<minecraft:cobblestone>, <minecraft:crafting_table>, <minecraft:cobblestone>],
+  // [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
 # INSPIRATIONS
   
@@ -201,56 +203,56 @@ print(<xreliquary:pedestal>.displayName);
 print(<xreliquary:pedestal_passive>.displayName);
 <xreliquary:pedestal_passive>.displayName = "Pedestal";
 
-#DIVERGENT UNDERGROUND
+// #DIVERGENT UNDERGROUND
 
-val IronChisel = <chisel:chisel_iron>;
-val DiamondChisel = <chisel:chisel_diamond>;
-val rawDiamond = <divergentunderground:gem_raw_diamond>;
-val rawEmerald = <divergentunderground:gem_raw_emerald>;
-val nuggetDiamond = <uncraftingtable:nugget>;
-val nuggetEmerald = <uncraftingtable:nugget:1>;
+// val IronChisel = <chisel:chisel_iron>;
+// val DiamondChisel = <chisel:chisel_diamond>;
+// val rawDiamond = <divergentunderground:gem_raw_diamond>;
+// val rawEmerald = <divergentunderground:gem_raw_emerald>;
+// val nuggetDiamond = <uncraftingtable:nugget>;
+// val nuggetEmerald = <uncraftingtable:nugget:1>;
 
-recipes.remove(<divergentunderground:chisel>);
-recipes.addShapeless("diamondcutting1",<minecraft:diamond>,
-	[IronChisel.anyDamage().transformDamage(5).reuse(),rawDiamond],
-	function(out, ins, cInfo){
-		return out;
-	},
-	function(out,cInfo,player){
-		player.xp += 1;
-		player.give(nuggetDiamond);
-	}
-);
-recipes.addShapeless("diamondcutting2",<minecraft:diamond>,
-	[DiamondChisel.anyDamage().transformDamage(5).reuse(),rawDiamond],
-	function(out, ins, cInfo){
-		return out;
-	},
-	function(out,cInfo,player){
-		player.xp += 1;
-		player.give(nuggetDiamond);
-	}
-);
-recipes.addShapeless("emeraldcutting1",<minecraft:emerald>,
-	[IronChisel.anyDamage().transformDamage(5).reuse(),rawEmerald],
-	function(out, ins, cInfo){
-		return out;
-	},
-	function(out,cInfo,player){
-		player.xp += 1;
-		player.give(nuggetEmerald);
-	}
-);
-recipes.addShapeless("emeraldcutting2",<minecraft:emerald>,
-	[DiamondChisel.anyDamage().transformDamage(5).reuse(),rawEmerald],
-	function(out, ins, cInfo){
-		return out;
-	},
-	function(out,cInfo,player){
-		player.xp += 1;
-		player.give(nuggetEmerald);
-	}
-);
+// recipes.remove(<divergentunderground:chisel>);
+// recipes.addShapeless("diamondcutting1",<minecraft:diamond>,
+	// [IronChisel.anyDamage().transformDamage(5).reuse(),rawDiamond],
+	// function(out, ins, cInfo){
+		// return out;
+	// },
+	// function(out,cInfo,player){
+		// player.xp += 1;
+		// player.give(nuggetDiamond);
+	// }
+// );
+// recipes.addShapeless("diamondcutting2",<minecraft:diamond>,
+	// [DiamondChisel.anyDamage().transformDamage(5).reuse(),rawDiamond],
+	// function(out, ins, cInfo){
+		// return out;
+	// },
+	// function(out,cInfo,player){
+		// player.xp += 1;
+		// player.give(nuggetDiamond);
+	// }
+// );
+// recipes.addShapeless("emeraldcutting1",<minecraft:emerald>,
+	// [IronChisel.anyDamage().transformDamage(5).reuse(),rawEmerald],
+	// function(out, ins, cInfo){
+		// return out;
+	// },
+	// function(out,cInfo,player){
+		// player.xp += 1;
+		// player.give(nuggetEmerald);
+	// }
+// );
+// recipes.addShapeless("emeraldcutting2",<minecraft:emerald>,
+	// [DiamondChisel.anyDamage().transformDamage(5).reuse(),rawEmerald],
+	// function(out, ins, cInfo){
+		// return out;
+	// },
+	// function(out,cInfo,player){
+		// player.xp += 1;
+		// player.give(nuggetEmerald);
+	// }
+// );
 
 furnace.addRecipe(<embers:ingot_aluminum>, <contenttweaker:du_aluminum_ore>, 0.7);
 furnace.addRecipe(<embers:ingot_copper>, <contenttweaker:du_copper_ore>, 0.7);
@@ -275,3 +277,12 @@ recipes.addShaped(<metallurgy:quicksilver_ingot>,
   [<metallurgy:quicksilver_nugget>, <metallurgy:quicksilver_nugget>, <metallurgy:quicksilver_nugget>]]);
 recipes.addShapeless(<metallurgy:quicksilver_ingot> * 9,
  [<metallurgy:quicksilver_block>]);
+
+# DIMENSION PROGRESSION GATES
+
+
+
+# Gating Atum Scarab with Embers Stamper (stamping molten gold onto a diamond)
+recipes.remove(<atum:scarab>);
+mods.embers.Stamper.add(<atum:scarab>, <liquid:gold> * 144, <embers:stamp_bar>, <minecraft:diamond>);
+

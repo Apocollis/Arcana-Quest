@@ -50,13 +50,11 @@ equipment.addItemEntry(<minecraft:map>, 8, 0);
 equipment.addItemEntry(<antiqueatlas:antique_atlas:0>, 4, 0);
 equipment.addItemEntry(<antiqueatlas:empty_antique_atlas>, 10, 0);
 equipment.addItemEntry(<simpledifficulty:thermometer>, 3, 0);
-equipment.addItemEntry(<endercompass:ender_compass>, 3, 0);
 equipment.addItemEntry(<naturescompass:naturescompass>, 3, 0);
 equipment.addItemEntry(<thaumcraft:scribing_tools>, 5, 0);
 equipment.addItemEntry(<astralsorcery:itemconstellationpaper>, 8, 0);
 equipment.addItemEntry(<thaumcraft:curio:4>, 2, 0);
 equipment.addItemEntry(<thaumcraft:curio:6>, 1, 0);
-
 equipment.addItemEntry(<thaumcraft:goggles>, 2, 0);
 
 // 1-2 treasures
