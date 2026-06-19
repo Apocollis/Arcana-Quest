@@ -1,4 +1,9 @@
 [
-
-
+  {
+    "mob": "thebetweenlands:dark_druid",
+    "dimension": 0,
+    "weight": 8,
+    "groupcountmin": 1,
+    "groupcountmax": 2
+  }
 ]

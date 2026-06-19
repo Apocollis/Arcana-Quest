@@ -1,19 +1,5 @@
 {
-  "Tools": {
-    "0": {
-      "title": "Chunk Pregenerator Config",
-      "icon": {
-        "name": "minecraft:wool",
-        "damage": 14
-      },
-      "action": {
-        "key": {
-          "key": "Options Gui",
-          "toggle": false
-        }
-      }
-    }
-  },
+  "Tools": {},
   "main": {
     "0": {
       "title": "Open Backpack",
@@ -37,19 +23,6 @@
       "action": {
         "key": {
           "key": "key.spartanweaponry.access_quiver",
-          "toggle": false
-        }
-      }
-    },
-    "2": {
-      "title": "Baubles",
-      "icon": {
-        "name": "botania:baublebox",
-        "damage": 0
-      },
-      "action": {
-        "key": {
-          "key": "keybind.baublesinventory",
           "toggle": false
         }
       }

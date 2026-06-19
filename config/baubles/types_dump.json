@@ -1,0 +1,141 @@
+{
+  "baubles:head": {
+    "name": "head",
+    "amount": 1,
+    "priority": 10,
+    "parent": [
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/head",
+    "translateKey": "baubles.head"
+  },
+  "baubles:amulet": {
+    "name": "amulet",
+    "amount": 1,
+    "priority": 10,
+    "parent": [
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/amulet",
+    "translateKey": "baubles.amulet"
+  },
+  "baubles:body": {
+    "name": "body",
+    "amount": 1,
+    "priority": 10,
+    "parent": [
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/body",
+    "translateKey": "baubles.body"
+  },
+  "baubles:elytra": {
+    "name": "elytra",
+    "amount": 1,
+    "priority": 5,
+    "parent": [
+      "baubles:body",
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/elytra",
+    "translateKey": "baubles.elytra"
+  },
+  "baubles:bauble": {
+    "name": "bauble",
+    "amount": 0,
+    "priority": 0,
+    "texture": "baubles:gui/slots/bauble",
+    "translateKey": "baubles.bauble"
+  },
+  "baubles:ring": {
+    "name": "ring",
+    "amount": 4,
+    "priority": 0,
+    "parent": [
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/ring",
+    "translateKey": "baubles.ring"
+  },
+  "baubles:belt": {
+    "name": "belt",
+    "amount": 1,
+    "priority": 0,
+    "parent": [
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/belt",
+    "translateKey": "baubles.belt"
+  },
+  "baubles:charm": {
+    "name": "charm",
+    "amount": 1,
+    "priority": 0,
+    "parent": [
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/charm",
+    "translateKey": "baubles.charm"
+  },
+  "baubles:trinket": {
+    "name": "trinket",
+    "amount": 1,
+    "priority": 0,
+    "texture": "baubles:gui/slots/trinket",
+    "translateKey": "baubles.trinket"
+  },
+  "baubles:pendant": {
+    "name": "pendant",
+    "amount": 0,
+    "priority": 0,
+    "parent": [
+      "baubles:amulet",
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/pendant",
+    "translateKey": "baubles.pendant"
+  },
+  "baubles:cape": {
+    "name": "cape",
+    "amount": 0,
+    "priority": 0,
+    "parent": [
+      "baubles:body",
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/cape",
+    "translateKey": "baubles.cape"
+  },
+  "baubles:shield": {
+    "name": "shield",
+    "amount": 0,
+    "priority": 0,
+    "parent": [
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/shield",
+    "translateKey": "baubles.shield"
+  },
+  "baubles:glove": {
+    "name": "glove",
+    "amount": 0,
+    "priority": 0,
+    "parent": [
+      "baubles:ring",
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/glove",
+    "translateKey": "baubles.glove"
+  },
+  "baubles:misc": {
+    "name": "misc",
+    "amount": 0,
+    "priority": 0,
+    "parent": [
+      "baubles:charm",
+      "baubles:bauble"
+    ],
+    "texture": "baubles:gui/slots/misc",
+    "translateKey": "baubles.misc"
+  }
+}

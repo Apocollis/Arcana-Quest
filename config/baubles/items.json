@@ -1,0 +1,339 @@
+{
+  "Glove": {
+    "content": [
+      "aether_legacy:obsidian_gloves",
+      "aether_legacy:zanite_gloves",
+      "aether_legacy:valkyrie_gloves",
+      "aether_legacy:neptune_gloves",
+      "aether_legacy:gravitite_gloves",
+      "aether_legacy:iron_gloves",
+      "aether_legacy:leather_gloves",
+      "aether_legacy:chain_gloves",
+      "aether_legacy:diamond_gloves",
+      "aether_legacy:golden_gloves",
+      "aether_legacy:phoenix_gloves"
+    ],
+    "types": [
+      "baubles:glove"
+    ]
+  },
+  "Ring": {
+    "content": [
+      "crimsonrevelations:runic_ring",
+      "botania:pixiering",
+      "da:vampire_trinket",
+      "botania:auraring",
+      "da:void_trinket",
+      "thaumicwonders:warp_ring",
+      "thaumcraft:cloud_ring",
+      "extraalchemy:potion_ring:*",
+      "crimsonrevelations:runic_ring_charged",
+      "da:charm_trinket",
+      "da:death_trinket",
+      "grimoireofgaia:accessory_ring_night",
+      "botania:miningring",
+      "grimoireofgaia:accessory_ring_jump",
+      "botania:auraringgreater",
+      "botania:swapring",
+      "da:gamble_trinket",
+      "crimsonrevelations:runic_ring_regen",
+      "botania:magnetring",
+      "da:confetti_trinket",
+      "botania:thorring",
+      "crimsonrevelations:nutrition_ring",
+      "crimsonrevelations:protection_ring",
+      "botania:lokiring",
+      "da:arrow_trinket",
+      "artifacts:power_glove",
+      "da:poison_trinket",
+      "artifacts:magma_stone",
+      "aether_legacy:ice_ring",
+      "qualitytools:emerald_ring",
+      "botania:odinring",
+      "artifacts:mechanical_glove",
+      "aether_legacy:golden_ring",
+      "botania:manaringgreater",
+      "grimoireofgaia:accessory_ring_haste",
+      "potionfingers:ring:*",
+      "artifacts:pocket_piston",
+      "aether_legacy:iron_ring",
+      "crimsonrevelations:verdant_ring",
+      "da:void_hand_trinket",
+      "da:golden_mark_trinket",
+      "artifacts:fire_gauntlet",
+      "botania:waterring",
+      "thaumictinkerer:goliath_ring",
+      "botania:manaring",
+      "embers:ember_ring",
+      "da:creeper_trinket",
+      "grimoireofgaia:accessory_ring_speed",
+      "baubles:ring:*",
+      "da:dagger_trinket",
+      "artifacts:feral_claws",
+      "aether_legacy:zanite_ring",
+      "botania:dodgering",
+      "botania:magnetringgreater",
+      "da:crystal_trinket",
+      "botania:reachring",
+      "da:victory_trinket",
+      "da:weakness_trinket"
+    ],
+    "types": [
+      "baubles:ring"
+    ]
+  },
+  "Belt": {
+    "content": [
+      "crimsonrevelations:runic_girdle",
+      "xreliquary:mob_charm_belt",
+      "embers:ember_belt",
+      "botania:speedupbelt",
+      "artifacts:obsidian_skull",
+      "crimsonrevelations:runic_girdle_kinetic",
+      "artifacts:antidote_vessel",
+      "botania:knockbackbelt",
+      "buildersbag:builders_bag_tier_five",
+      "buildersbag:builders_bag_tier_one",
+      "buildersbag:builders_bag_tier_two",
+      "botania:supertravelbelt",
+      "artifacts:bottled_cloud",
+      "botania:travelbelt",
+      "thaumcraft:focus_pouch",
+      "bewitchment:gluttons_sash",
+      "buildersbag:builders_bag_tier_three",
+      "buildersbag:builders_bag_tier_four",
+      "artifacts:bottled_fart",
+      "kami:focus_pouch",
+      "artifacts:whoopie_cushion",
+      "artifacts:bubble_wrap",
+      "bewitchment:girdle_of_the_dryads"
+    ],
+    "types": [
+      "baubles:belt"
+    ]
+  },
+  "Body": {
+    "content": [
+      "arcanearchives:gemsocket",
+      "wings:evil_wings",
+      "botania:thirdeye",
+      "spartanweaponry:quiver_arrow_moderate",
+      "wings:bat_wings",
+      "wings:slime_wings",
+      "wings:angel_wings",
+      "wings:dragon_wings",
+      "grimoireofgaia:accessory_trinket_levitation",
+      "wings:monarch_butterfly_wings",
+      "grimoireofgaia:accessory_trinket_poison",
+      "spartanweaponry:quiver_arrow",
+      "botania:invisibilitycloak",
+      "wings:fire_wings",
+      "wings:fairy_wings",
+      "spartanweaponry:quiver_bolt",
+      "colytra:elytra_bauble",
+      "spartanweaponry:quiver_bolt_heavy",
+      "thaumicperiphery:pauldron_repulsion",
+      "botania:holycloak",
+      "xreliquary:twilight_cloak",
+      "wings:blue_butterfly_wings",
+      "spartanweaponry:quiver_bolt_moderate",
+      "wearablebackpacks:backpack",
+      "thaumicperiphery:pauldron",
+      "thaumicperiphery:magic_quiver",
+      "botania:unholycloak",
+      "thaumicaugmentation:thaumostatic_harness:0",
+      "grimoireofgaia:accessory_trinket_water_breathing:*",
+      "embers:dawnstone_mail",
+      "spartanweaponry:quiver_arrow_heavy",
+      "botania:balancecloak",
+      "thaumicaugmentation:elytra_harness:0",
+      "artifacts:star_cloak"
+    ],
+    "types": [
+      "baubles:body"
+    ]
+  },
+  "Head": {
+    "content": [
+      "bewitchment:hecates_visage",
+      "aetherworks:item_crown",
+      "grimoireofgaia:accessory_headgear",
+      "botania:flighttiara:*",
+      "grimoireofgaia:accessory_headgear_doll",
+      "thaumicwonders:night_vision_goggles",
+      "grimoireofgaia:accessory_headgear_ears_elf",
+      "thaumcraft:goggles",
+      "botania:itemfinder",
+      "artifacts:drinking_hat",
+      "grimoireofgaia:accessory_headgear_arrow",
+      "artifacts:snorkel",
+      "thaumcraft:curiosity_band",
+      "grimoireofgaia:accessory_headgear_mob",
+      "grimoireofgaia:accessory_headgear_bolt",
+      "artifacts:night_vision_goggles"
+    ],
+    "types": [
+      "baubles:head"
+    ]
+  },
+  "Trinket": {
+    "content": [
+      "twilightforest:charm_of_life_1",
+      "twilightforest:charm_of_keeping_3",
+      "botania:cosmetic:*",
+      "twilightforest:charm_of_keeping_1",
+      "minecraft:totem_of_undying",
+      "bewitchment:token_of_remedies",
+      "bewitchment:hellish_bauble",
+      "thaumictinkerer:consuming_sigil",
+      "bewitchment:horseshoe",
+      "twilightforest:charm_of_life_2",
+      "twilightforest:charm_of_keeping_2",
+      "grimoireofgaia:accessory_trinket_wither",
+      "embers:ember_bulb:*"
+    ],
+    "types": [
+      "baubles:trinket"
+    ]
+  },
+  "Misc": {
+    "content": [
+      "aether_legacy:regeneration_stone",
+      "aether_legacy:iron_bubble",
+      "aether_legacy:golden_feather"
+    ],
+    "types": [
+      "baubles:misc"
+    ]
+  },
+  "Amulet": {
+    "content": [
+      "botania:bloodpendant",
+      "da:magic_boost_trinket",
+      "crimsonrevelations:runic_amulet_emergency",
+      "artifacts:thorn_pendant",
+      "atum:isis_healing",
+      "botania:superlavapendant",
+      "botania:icependant",
+      "artifacts:panic_necklace",
+      "embers:nonbeliever_amulet",
+      "artifacts:sacrificial_amulet",
+      "thaumcraft:amulet_vis:*",
+      "da:endermen_trinket",
+      "da:shield_trinket",
+      "atum:nuits_vanishing",
+      "embers:ashen_amulet",
+      "embers:ember_amulet",
+      "atum:shus_swiftness",
+      "da:diamond_shield_trinket",
+      "botania:cloudpendant",
+      "da:flame_trinket",
+      "botania:lavapendant",
+      "bewitchment:vampiric_amulet",
+      "bewitchment:triskelion",
+      "botania:supercloudpendant",
+      "bewitchment:nazar",
+      "thaumcraft:baubles:*",
+      "artifacts:flame_pendant",
+      "thaumicperiphery:vis_phylactery",
+      "artifacts:shock_pendant",
+      "artifacts:ultimate_pendant",
+      "atum:atums_homecoming",
+      "grimoireofgaia:accessory_cursed",
+      "qualitytools:emerald_amulet",
+      "astralsorcery:itemenchantmentamulet",
+      "da:heart_trinket",
+      "atum:anubiss_mercy",
+      "xreliquary:fortune_coin",
+      "crimsonrevelations:runic_amulet"
+    ],
+    "types": [
+      "baubles:amulet"
+    ]
+  },
+  "Shield": {
+    "content": [
+      "aether_legacy:repulsion_shield"
+    ],
+    "types": [
+      "baubles:shield"
+    ]
+  },
+  "Pendant": {
+    "content": [
+      "aether_legacy:zanite_pendant",
+      "aether_legacy:ice_pendant",
+      "aether_legacy:iron_pendant",
+      "aether_legacy:golden_pendant"
+    ],
+    "types": [
+      "baubles:pendant"
+    ]
+  },
+  "Charm": {
+    "content": [
+      "da:glass_cannon_trinket",
+      "da:mace_trinket",
+      "thaumcraft:charm_undying",
+      "da:rally_trinket",
+      "thaumicperiphery:malignant_heart",
+      "embers:explosion_charm",
+      "botania:goddesscharm",
+      "bewitchment:fortunes_favor",
+      "da:sigil_trinket",
+      "thaumcraft:verdant_charm",
+      "da:blue_trinket",
+      "da:slam_trinket",
+      "artifacts:lucky_clover",
+      "artifacts:cobalt_shield",
+      "botania:divacharm",
+      "grimoireofgaia:accessory_charm_damage_iron",
+      "da:rotten_trinket",
+      "da:boots_trinket",
+      "da:stalwart_summoner",
+      "da:wind_trinket",
+      "thaumictinkerer:xp_talisman",
+      "thaumicwonders:cleansing_charm",
+      "da:teleport_trinket",
+      "thaumictinkerer:feline_charm",
+      "artifacts:shiny_red_balloon",
+      "botania:tinyplanet",
+      "da:petal_trinket",
+      "thaumcraft:voidseer_charm",
+      "da:dodge_trinket",
+      "artifacts:lucky_horseshoe",
+      "botania:monocle",
+      "da:flame_explosion_trinket"
+    ],
+    "types": [
+      "baubles:charm"
+    ]
+  },
+  "Elytra": {
+    "content": [
+      "minecraft:elytra"
+    ],
+    "types": [
+      "baubles:elytra"
+    ]
+  },
+  "Cape": {
+    "content": [
+      "aether_legacy:blue_cape",
+      "aether_legacy:yellow_cape",
+      "aether_legacy:valkyrie_cape",
+      "aether_legacy:swet_cape",
+      "aether_legacy:agility_cape",
+      "aether_legacy:red_cape",
+      "aether_legacy:invisibility_cape",
+      "aether_legacy:white_cape"
+    ],
+    "types": [
+      "baubles:cape"
+    ]
+  },
+  "Backpack": {
+    "content": "wearablebackpacks:backpack",
+    "types": "baubles:backpack"
+  }
+}

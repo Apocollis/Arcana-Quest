@@ -1,0 +1,6 @@
+
+{
+  "Name": "controller_lift",
+  "Registry ID": "ee:controller_lift",
+  "Class": "com.example.structure.entity.trader.EntityControllerLift"
+}

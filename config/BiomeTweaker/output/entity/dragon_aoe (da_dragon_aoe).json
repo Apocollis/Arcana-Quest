@@ -1,0 +1,6 @@
+
+{
+  "Name": "dragon_aoe",
+  "Registry ID": "da:dragon_aoe",
+  "Class": "com.dungeon_additions.da.entity.sky_dungeon.high_king_projectiles.EntityDragonAOE"
+}

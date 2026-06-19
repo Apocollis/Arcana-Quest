@@ -1,0 +1,6 @@
+
+{
+  "Name": "boss_spawner",
+  "Registry ID": "da:boss_spawner",
+  "Class": "com.dungeon_additions.da.entity.util.EntityBossSpawner"
+}
