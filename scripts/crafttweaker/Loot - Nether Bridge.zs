@@ -181,14 +181,14 @@ treasure.addItemEntry(<thaumcraft:elemental_hoe>, 1, 0, [Functions.enchantWithLe
 treasure.addItemEntry(<thaumcraft:elemental_sword>, 1, 0, [Functions.enchantWithLevels(15, 35, false)], []);
 treasure.addItemEntry(<astralsorcery:itemenchantmentamulet>, 2, 0);
 
-treasure.addItemEntry(<artifacts:shiny_red_balloon>, 1, 0);
-treasure.addItemEntry(<artifacts:obsidian_skull>, 1, 0);
+treasure.addItemEntry(<bountifulbaubles:trinketballoon>, 1, 0);
+treasure.addItemEntry(<bountifulbaubles:trinketobsidianskull>, 1, 0);
 treasure.addItemEntry(<artifacts:shock_pendant>, 1, 0);
 treasure.addItemEntry(<artifacts:flame_pendant>, 1, 0);
 treasure.addItemEntry(<artifacts:thorn_pendant>, 1, 0);
 treasure.addItemEntry(<artifacts:panic_necklace>, 1, 0);
-treasure.addItemEntry(<artifacts:lucky_horseshoe>, 1, 0);
-treasure.addItemEntry(<artifacts:cobalt_shield>, 1, 0);
+treasure.addItemEntry(<bountifulbaubles:trinketluckyhorseshoe>, 1, 0);
+treasure.addItemEntry(<bountifulbaubles:shieldcobalt>, 1, 0);
 treasure.addItemEntry(<artifacts:bottled_cloud>, 1, 0);
 treasure.addItemEntry(<artifacts:magma_stone>, 3, 0);
 treasure.addItemEntry(<artifacts:feral_claws>, 1, 0);
@@ -196,4 +196,4 @@ treasure.addItemEntry(<artifacts:power_glove>, 2, 0);
 treasure.addItemEntry(<artifacts:drinking_hat>, 1, 0);
 treasure.addItemEntry(<artifacts:star_cloak>, 1, 0);
 treasure.addItemEntry(<artifacts:pocket_piston>, 1, 0);
-treasure.addItemEntry(<artifacts:night_vision_goggles>, 1, 0);
+treasure.addItemEntry(<bountifulbaubles:trinketmagiclenses>, 1, 0);

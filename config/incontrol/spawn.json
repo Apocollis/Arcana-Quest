@@ -1,4 +1,54 @@
 [
+  // Gate Lycanites action-spawner mobs behind game stage 'lycanite_spawners'
+  {
+    "mob": [
+      "lycanitesmobs:geonach",
+      "lycanitesmobs:vapula",
+      "lycanitesmobs:spriggan",
+      "lycanitesmobs:ent",
+      "lycanitesmobs:reaper",
+      "lycanitesmobs:cinder",
+      "lycanitesmobs:abaia",
+      "lycanitesmobs:abtu",
+      "lycanitesmobs:roa",
+      "lycanitesmobs:skylus"
+    ],
+    "gamestage": "lycanite_spawners",
+    "result": "default",
+    "onjoin": true
+  },
+  {
+    "mob": [
+      "lycanitesmobs:geonach",
+      "lycanitesmobs:vapula",
+      "lycanitesmobs:spriggan",
+      "lycanitesmobs:ent",
+      "lycanitesmobs:reaper",
+      "lycanitesmobs:cinder",
+      "lycanitesmobs:abaia",
+      "lycanitesmobs:abtu",
+      "lycanitesmobs:roa",
+      "lycanitesmobs:skylus"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  // Gate hostile Grimoire of Gaia mobs behind game stage 'gaia_mobs'
+  {
+    "mod": "grimoireofgaia",
+    "hostile": true,
+    "gamestage": "gaia_mobs",
+    "result": "default",
+    "onjoin": true
+  },
+  {
+    "mod": "grimoireofgaia",
+    "hostile": true,
+    "result": "deny",
+    "onjoin": true
+  },
+
   // Spider Changes
   {
 	"mob": "minecraft:spider",

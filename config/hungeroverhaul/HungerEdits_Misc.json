@@ -88,6 +88,60 @@
 			"meta": 0,
 			"hunger": 20,
 			"saturationModifier": 0.25
+		},
+		{
+			"name": "contenttweaker:bottled_green_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_black_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_white_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_yellow_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_oolong_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_puerh_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_milk_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_matcha_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_lemon_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
 		}
 		
 	]

@@ -1,6 +1,8 @@
 # Pack Companion Report
 
-### Generated on: 19/06/2026 03:41:49
+###### House Approves this report!
+
+### Generated on: 20/06/2026 02:35:27
 
 ## Mod Analysis
 | Mod Name                  | Status          | Recommended Action                                                                                                                                     | Reason                                                                                                                                                                                                   |
@@ -13,6 +15,11 @@
 ## Mods and Patches to include
 | Mod Name                                                                                             | Patch for                                | Description                                                                      |
 | :---                                                                                                 | :---                                     | :---                                                                             |
+
+## Cleanroom incompatible mods
+| Mod Name                  | Status          | Recommended Action                                                                                                                                     | Reason                                                                                                                                                                                                   |
+| :---                      | :---            | :---                                                                                                                                                   | :---                                                                                                                                                                                                     |
+| RandomPortals             | PROBLEMATIC     | Replace with [Clean Portals](https://www.curseforge.com/minecraft/mc-mods/clean-portals-randomportals-cleanroom-edition)                               | Does not work with Cleanroom Launcher. Use the Cleanroom Edition replacement.                                                                                                                            |
 
 
 ## Config Analysis
