@@ -6,12 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTriffid",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelTriffid",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster",
       "beast"
     ],
     "disableSubspecies": false,
@@ -23,9 +22,9 @@
     "ignoreBiome": false,
     "biomeTags": [
       "swamp",
-      "spooky"
+      "jungle"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

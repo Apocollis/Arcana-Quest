@@ -6,14 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityLurker",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelLurker",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "monster",
-      "beast"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,

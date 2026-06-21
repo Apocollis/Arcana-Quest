@@ -6,12 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBeholder",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelBeholder",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "sky"
+      "underground"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -19,11 +19,9 @@
       1
     ],
     "dimensionListType": "blacklist",
-    "ignoreBiome": false,
-    "biomeTags": [
-      "mountain"
-    ],
-    "spawnWeight": 8,
+    "ignoreBiome": true,
+    "biomeTags": [],
+    "spawnWeight": 20,
     "dungeonWeight": 0,
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,

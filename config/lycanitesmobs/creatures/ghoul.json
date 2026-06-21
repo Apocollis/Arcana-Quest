@@ -6,12 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGhoul",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGhoul",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster",
       "beast"
     ],
     "disableSubspecies": false,
@@ -22,15 +21,17 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "swamp",
-      "spooky"
+      "spooky",
+      "plains",
+      "forest",
+      "swamp"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
     "spawnGroupMax": 3,
-    "spawnsInLight": false,
+    "spawnsInLight": true,
     "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": true,

@@ -6,12 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityZoataur",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelZoataur",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster",
       "beast"
     ],
     "disableSubspecies": false,
@@ -30,7 +29,7 @@
       "-snowy",
       "-cold"
     ],
-    "spawnWeight": 1,
+    "spawnWeight": 2,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
     "spawnGroupMin": 1,

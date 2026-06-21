@@ -285,4 +285,8 @@ recipes.addShapeless(<metallurgy:quicksilver_ingot> * 9,
 # Gating Atum Scarab with Embers Stamper (stamping molten gold onto a diamond)
 recipes.remove(<atum:scarab>);
 mods.embers.Stamper.add(<atum:scarab>, <liquid:gold> * 144, <embers:stamp_bar>, <minecraft:diamond>);
+
+# TEA THE STORY
+recipes.remove(<teastory:tea_table>);
+
 

@@ -6,12 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTpumpkyn",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelTpumpkyn",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster"
+      "beast"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -21,9 +21,9 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "spooky"
+      "forest"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
     "spawnGroupMin": 1,

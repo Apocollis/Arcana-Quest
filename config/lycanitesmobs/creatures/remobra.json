@@ -6,11 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityRemobra",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelRemobra",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
+      "beast",
       "sky"
     ],
     "disableSubspecies": false,
@@ -21,10 +22,9 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "swamp",
       "spooky"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

@@ -6,26 +6,27 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBanshee",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelBanshee",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "sky"
+      "underground"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
-    "dimensionListType": "blacklist",
-    "ignoreBiome": false,
-    "biomeTags": [
-      "spooky",
-      "magical"
+    "dimensionIds": [
+      10
     ],
-    "spawnWeight": 2,
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [
+      "spooky"
+    ],
+    "spawnWeight": 1,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
-    "spawnGroupMax": 3,
+    "spawnGroupMax": 1,
     "spawnsInLight": false,
     "spawnsInDark": true,
     "worldDayMin": -1,

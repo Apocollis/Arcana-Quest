@@ -6,13 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAbaia",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAbaia",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "water"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,

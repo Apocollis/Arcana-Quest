@@ -22,7 +22,6 @@
 			{
 				action: "add",
 				CareerLevel: 1,
-				buy: {id:"ebwizardry:magic_crystal",Count:{min:17,max:19}},
 				sell: {id:"ordinarycoins:coinbronze",Count:{min:4,max:5}}
 			},
 			
@@ -30,7 +29,6 @@
 				action: "add",
 				CareerLevel: 1,
 				buy: {id:"ordinarycoins:coinbronze",Count:{min:13,max:15},Damage:0},
-				sell: {id:"ebwizardry:magic_crystal",Count:8}
 			},
 			
 			{

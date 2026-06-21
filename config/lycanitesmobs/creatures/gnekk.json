@@ -6,21 +6,21 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGnekk",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGnekk",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "underground"
+      "nether"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
       -1
     ],
-    "dimensionListType": "blacklist",
+    "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [],
-    "spawnWeight": 8,
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 2,
     "spawnGroupMin": 1,

@@ -1,0 +1,91 @@
+{
+  "desert": [
+    "grimoireofgaia:anubis",
+    "grimoireofgaia:mummy",
+    "grimoireofgaia:sphinx",
+    "grimoireofgaia:ant_hill"
+  ],
+  "plains": [
+    "grimoireofgaia:centaur",
+    "grimoireofgaia:harpy",
+    "grimoireofgaia:harpy_wizard",
+    "grimoireofgaia:minotaur",
+    "grimoireofgaia:minotaurus",
+    "grimoireofgaia:satyress",
+    "grimoireofgaia:kobold"
+  ],
+  "savanna": [
+    "grimoireofgaia:goblin",
+    "grimoireofgaia:orc"
+  ],
+  "jungle": [
+    "grimoireofgaia:naga",
+    "grimoireofgaia:shaman",
+    "grimoireofgaia:hunter",
+    "grimoireofgaia:cobble_golem",
+    "grimoireofgaia:cobblestone_golem"
+  ],
+  "forest": [
+    "grimoireofgaia:dryad",
+    "grimoireofgaia:mandragora",
+    "grimoireofgaia:bee",
+    "grimoireofgaia:kikimora",
+    "grimoireofgaia:arachne",
+    "grimoireofgaia:werecat",
+    "grimoireofgaia:witch"
+  ],
+  "swamp": [
+    "grimoireofgaia:gelatinous_slime",
+    "grimoireofgaia:sludge_girl",
+    "grimoireofgaia:siren",
+    "grimoireofgaia:cecaelia",
+    "grimoireofgaia:naga"
+  ],
+  "spooky": [
+    "grimoireofgaia:dullahan",
+    "grimoireofgaia:flesh_lich",
+    "grimoireofgaia:dhampir",
+    "grimoireofgaia:bone_knight",
+    "grimoireofgaia:vampire"
+  ],
+  "mountain": [
+    "grimoireofgaia:cyclops",
+    "grimoireofgaia:gryphon",
+    "grimoireofgaia:valkyrie",
+    "grimoireofgaia:dwarf",
+    "grimoireofgaia:banshee"
+  ],
+  "snowy": [
+    "grimoireofgaia:yeti",
+    "grimoireofgaia:selkie",
+    "grimoireofgaia:yuki-onna"
+  ],
+  "ocean": [
+    "grimoireofgaia:mermaid",
+    "grimoireofgaia:sharko"
+  ],
+  "magical": [
+    "grimoireofgaia:nine_tails",
+    "grimoireofgaia:spriggan",
+    "grimoireofgaia:matango",
+    "grimoireofgaia:deathword"
+  ],
+  "nether": [
+    "grimoireofgaia:baphomet",
+    "grimoireofgaia:succubus",
+    "grimoireofgaia:oni",
+    "grimoireofgaia:wither_cow",
+    "grimoireofgaia:vase_nether"
+  ],
+  "underground": [
+    "grimoireofgaia:dwarf",
+    "grimoireofgaia:mimic",
+    "grimoireofgaia:vase"
+  ],
+  "end": [
+    "grimoireofgaia:ender_eye",
+    "grimoireofgaia:ender_dragon_girl",
+    "grimoireofgaia:beholder",
+    "grimoireofgaia:creep"
+  ]
+}

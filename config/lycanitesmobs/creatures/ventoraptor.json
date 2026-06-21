@@ -6,18 +6,16 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVentoraptor",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelVentoraptor",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "monster",
-      "beast"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
-      1
+      1,
+      0
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,

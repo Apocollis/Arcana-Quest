@@ -6,14 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityErepede",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelErepede",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "monster",
-      "beast"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,

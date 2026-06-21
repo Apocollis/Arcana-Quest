@@ -6,14 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTreant",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelTreant",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "monster",
-      "beast"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
@@ -24,7 +21,7 @@
     "biomeTags": [
       "forest"
     ],
-    "spawnWeight": 2,
+    "spawnWeight": 5,
     "dungeonWeight": 0,
     "spawnAreaLimit": 2,
     "spawnGroupMin": 1,

@@ -8,14 +8,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCalpod",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelCalpod",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "monster",
-      "beast"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,

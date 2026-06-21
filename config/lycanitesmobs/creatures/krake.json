@@ -8,14 +8,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityKrake",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelKrake",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "creature",
-      "animal",
-      "wateranimal"
+      "water"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -28,7 +26,7 @@
       "river",
       "-snowy"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 20,
     "dungeonWeight": 0,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

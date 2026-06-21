@@ -6,12 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySpectre",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSpectre",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "endsky"
+      "underground"
     ],
     "disableSubspecies": false,
     "dimensionIds": [],
@@ -20,7 +20,7 @@
     "biomeTags": [
       "end"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
     "spawnGroupMin": 1,

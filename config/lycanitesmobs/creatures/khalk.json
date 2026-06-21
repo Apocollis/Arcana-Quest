@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityKhalk",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelKhalk",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -14,7 +14,9 @@
       "lavaunderground"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
+    "dimensionIds": [
+      0
+    ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [

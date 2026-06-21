@@ -7,13 +7,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySerpix",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSerpix",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster",
-      "beast",
       "ooze"
     ],
     "disableSubspecies": false,
@@ -24,12 +22,9 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "cold",
-      "snowy",
-      "coniferous",
-      "-end"
+      "snowy"
     ],
-    "spawnWeight": 2,
+    "spawnWeight": 5,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

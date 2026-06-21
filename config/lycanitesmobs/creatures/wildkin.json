@@ -6,12 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityWildkin",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelWildkin",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster",
       "beast"
     ],
     "disableSubspecies": false,
@@ -22,11 +21,9 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "mountain",
-      "cold",
-      "snowy"
+      "forest"
     ],
-    "spawnWeight": 4,
+    "spawnWeight": 10,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

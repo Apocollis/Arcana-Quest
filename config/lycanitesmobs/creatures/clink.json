@@ -6,12 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityClink",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelClink",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster",
       "beast"
     ],
     "disableSubspecies": false,
@@ -28,7 +27,7 @@
       "-cold",
       "-snowy"
     ],
-    "spawnWeight": 6,
+    "spawnWeight": 15,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

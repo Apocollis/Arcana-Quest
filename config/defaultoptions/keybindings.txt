@@ -102,8 +102,6 @@ key_Scene reset:82:NONE
 key_Quest Log:38:NONE
 key_MoCreatures Dive:44:NONE
 key_MoCreatures GUI:100:NONE
-key_key.ebwizardry.next_spell:49:NONE
-key_key.ebwizardry.previous_spell:48:NONE
 key_Toggle Magnetism Suppressor:49:NONE
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211:NONE

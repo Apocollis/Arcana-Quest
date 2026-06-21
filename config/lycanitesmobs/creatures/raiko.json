@@ -6,11 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityRaiko",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelRaiko",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
+      "water",
       "sky"
     ],
     "disableSubspecies": false,
@@ -23,7 +24,7 @@
     "biomeTags": [
       "ocean"
     ],
-    "spawnWeight": 16,
+    "spawnWeight": 40,
     "dungeonWeight": 200,
     "spawnAreaLimit": 2,
     "spawnGroupMin": 1,

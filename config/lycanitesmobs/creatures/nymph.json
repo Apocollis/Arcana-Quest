@@ -6,11 +6,13 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityNymph",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelNymph",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+      "surface"
+    ],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
@@ -18,8 +20,10 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomeTags": [],
-    "spawnWeight": 2,
+    "biomeTags": [
+      "magical"
+    ],
+    "spawnWeight": 5,
     "dungeonWeight": 0,
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,

@@ -6,12 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTroll",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelTroll",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster",
       "beast"
     ],
     "disableSubspecies": false,
@@ -24,7 +23,7 @@
     "biomeTags": [
       "mountain"
     ],
-    "spawnWeight": 4,
+    "spawnWeight": 10,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

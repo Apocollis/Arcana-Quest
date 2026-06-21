@@ -6,31 +6,25 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityEyewig",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelEyewig",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster",
-      "beast"
+      "underground"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-      -1,
-      1
+      10
     ],
-    "dimensionListType": "blacklist",
-    "ignoreBiome": false,
-    "biomeTags": [
-      "swamp",
-      "spooky",
-      "jungle"
-    ],
-    "spawnWeight": 8,
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [],
+    "spawnWeight": 1,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
-    "spawnGroupMax": 3,
+    "spawnGroupMax": 1,
     "spawnsInLight": false,
     "spawnsInDark": true,
     "worldDayMin": -1,

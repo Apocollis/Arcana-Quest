@@ -6,18 +6,16 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityArisaur",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelArisaur",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "creature",
-      "animal"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
-      1
+      1,
+      0
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,

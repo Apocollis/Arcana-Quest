@@ -1,9 +1,578 @@
 [
   {
-    "mob": "thebetweenlands:dark_druid",
     "dimension": 0,
-    "weight": 8,
-    "groupcountmin": 1,
-    "groupcountmax": 2
+    "mobs": [
+      {
+        "mob": "thebetweenlands:dark_druid",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:anubis",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:mummy",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:sphinx",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:ant_hill",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mutated_desert",
+      "minecraft:mesa",
+      "minecraft:mesa_rock",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_rock",
+      "minecraft:mutated_mesa_clear_rock",
+      "biomesoplenty:brushland",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:outback",
+      "biomesoplenty:steppe",
+      "biomesoplenty:wasteland",
+      "biomesoplenty:xeric_shrubland",
+      "biomesoplenty:oasis"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:centaur",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:harpy",
+        "weight": 40,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:harpy_wizard",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:minotaur",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:minotaurus",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:satyress",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:kobold",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "minecraft:plains",
+      "minecraft:mutated_plains",
+      "minecraft:savanna",
+      "minecraft:savanna_rock",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "biomesoplenty:grassland",
+      "biomesoplenty:meadow",
+      "biomesoplenty:prairie",
+      "biomesoplenty:pasture",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:chaparral"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:goblin",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:orc",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "minecraft:savanna",
+      "minecraft:savanna_rock",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "biomesoplenty:brushland",
+      "biomesoplenty:outback",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:naga",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:shaman",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:hunter",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:cobble_golem",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:cobblestone_golem",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "minecraft:jungle",
+      "minecraft:jungle_hills",
+      "minecraft:jungle_edge",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_rainforest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:sacred_springs"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:dryad",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:mandragora",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:bee",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:kikimora",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:arachne",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:werecat",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:witch",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:roofed_forest",
+      "minecraft:mutated_roofed_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:orchard",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:shield"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:gelatinous_slime",
+        "weight": 40,
+        "groupcountmin": 1,
+        "groupcountmax": 4
+      },
+      {
+        "mob": "grimoireofgaia:sludge_girl",
+        "weight": 35,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:siren",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:cecaelia",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:naga",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "minecraft:swampland",
+      "minecraft:mutated_swampland",
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:dullahan",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:flesh_lich",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:dhampir",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:bone_knight",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:vampire",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "biomesoplenty:ominous_woods",
+      "thaumcraft:eerie",
+      "minecraft:roofed_forest",
+      "minecraft:mutated_roofed_forest",
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:dead_swamp"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:cyclops",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:valkyrie",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:banshee",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:yeti",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:selkie",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:yuki-onna",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_ice_flats",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:mutated_taiga_cold",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:mermaid",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:sharko",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "minecraft:ocean",
+      "minecraft:deep_ocean",
+      "minecraft:frozen_ocean",
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:nine_tails",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:spriggan",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:matango",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:deathword",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+    "dimension": 0,
+    "biome": [
+      "thaumcraft:magical_forest",
+      "biomesoplenty:mystic_grove"
+    ]
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:baphomet",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:succubus",
+        "weight": 8,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:oni",
+        "weight": 40,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:wither_cow",
+        "weight": 6,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:vase_nether",
+        "weight": 6,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ],
+    "dimension": -1
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+    "dimension": 0
+  },
+  {
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:ender_eye",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "grimoireofgaia:ender_dragon_girl",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:beholder",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:creep",
+        "weight": 30,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+    "dimension": 1
   }
 ]

@@ -6,23 +6,26 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityEpion",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelEpion",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
+      "beast",
       "sky"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
-    "dimensionListType": "blacklist",
+    "dimensionIds": [
+      10,
+      0
+    ],
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "spooky",
-      "end",
-      "sky_deadly"
+      "beneath:the_beneath"
     ],
-    "spawnWeight": 4,
+    "spawnWeight": 10,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

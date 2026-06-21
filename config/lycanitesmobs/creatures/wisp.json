@@ -6,20 +6,24 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityWisp",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelWisp",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+      "surface"
+    ],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
       1
     ],
     "dimensionListType": "blacklist",
-    "ignoreBiome": true,
-    "biomeTags": [],
-    "spawnWeight": 8,
+    "ignoreBiome": false,
+    "biomeTags": [
+      "magical"
+    ],
+    "spawnWeight": 20,
     "dungeonWeight": 0,
     "spawnAreaLimit": 2,
     "spawnGroupMin": 1,

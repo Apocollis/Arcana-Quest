@@ -6,13 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVespidQueen",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelVespidQueen",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "sky",
-      "underground"
+      "beast"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -24,7 +23,7 @@
     "biomeTags": [
       "jungle"
     ],
-    "spawnWeight": 2,
+    "spawnWeight": 5,
     "dungeonWeight": 200,
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,

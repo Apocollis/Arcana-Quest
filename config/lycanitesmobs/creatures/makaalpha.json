@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityMakaAlpha",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelMakaAlpha",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -14,7 +14,8 @@
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
-      1
+      1,
+      0
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,

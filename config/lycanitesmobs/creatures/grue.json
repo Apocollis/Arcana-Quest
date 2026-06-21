@@ -7,18 +7,16 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrue",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrue",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "underground"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
-      -1
+      10
     ],
-    "dimensionListType": "blacklist",
+    "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [],
     "spawnWeight": 8,

@@ -6,12 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySilex",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSilex",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "wateranimal"
+      "water"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -19,19 +19,15 @@
       1
     ],
     "dimensionListType": "blacklist",
-    "ignoreBiome": false,
-    "biomeTags": [
-      "all",
-      "-ocean",
-      "-beach"
-    ],
-    "spawnWeight": 8,
+    "ignoreBiome": true,
+    "biomeTags": [],
+    "spawnWeight": 20,
     "dungeonWeight": 0,
     "spawnAreaLimit": 6,
     "spawnGroupMin": 1,
     "spawnGroupMax": 6,
-    "spawnsInLight": true,
-    "spawnsInDark": false,
+    "spawnsInLight": false,
+    "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": false,
     "despawnForced": false

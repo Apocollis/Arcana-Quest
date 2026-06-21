@@ -6,12 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityRoa",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelRoa",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "water"
+      "waterfloor"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -24,7 +24,7 @@
       "ocean",
       "beach"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

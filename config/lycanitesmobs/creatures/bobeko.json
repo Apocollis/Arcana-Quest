@@ -6,13 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBobeko",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelBobeko",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "creature",
-      "animal"
+      "beast"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -22,12 +21,9 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "cold",
-      "snowy",
-      "coniferous",
-      "-end"
+      "snowy"
     ],
-    "spawnWeight": 10,
+    "spawnWeight": 25,
     "dungeonWeight": 0,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

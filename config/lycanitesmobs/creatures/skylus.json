@@ -6,12 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySkylus",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSkylus",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "water",
       "waterfloor"
     ],
     "disableSubspecies": false,
@@ -25,7 +24,7 @@
       "ocean",
       "beach"
     ],
-    "spawnWeight": 6,
+    "spawnWeight": 15,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

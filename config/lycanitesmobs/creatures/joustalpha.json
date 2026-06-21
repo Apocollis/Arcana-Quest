@@ -6,17 +6,16 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityJoustAlpha",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelJoustAlpha",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
-      -1,
-      1
+      17
     ],
-    "dimensionListType": "blacklist",
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "sandy",

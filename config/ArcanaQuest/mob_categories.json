@@ -1,0 +1,161 @@
+{
+  "desert": [
+    "lycanitesmobs:balayang",
+    "lycanitesmobs:clink",
+    "lycanitesmobs:cryptkeeper",
+    "lycanitesmobs:crusk",
+    "lycanitesmobs:gorgomite",
+    "lycanitesmobs:salamander"
+  ],
+  "plains": [
+    "lycanitesmobs:feradon",
+    "lycanitesmobs:kobold",
+    "lycanitesmobs:morock",
+    "lycanitesmobs:quillbeast",
+    "lycanitesmobs:roc",
+    "lycanitesmobs:cockatrice"
+  ],
+  "jungle": [
+    "lycanitesmobs:conba",
+    "lycanitesmobs:dawon",
+    "lycanitesmobs:vespid",
+    "lycanitesmobs:vespidqueen",
+    "lycanitesmobs:eechetik",
+    "lycanitesmobs:tarantula"
+  ],
+  "forest": [
+    "lycanitesmobs:ent",
+    "lycanitesmobs:shambler",
+    "lycanitesmobs:treant",
+    "lycanitesmobs:warg",
+    "lycanitesmobs:wildkin",
+    "lycanitesmobs:jabberwock",
+    "lycanitesmobs:tpumpkyn"
+  ],
+  "swamp": [
+    "lycanitesmobs:aglebemu",
+    "lycanitesmobs:dweller",
+    "lycanitesmobs:geken",
+    "lycanitesmobs:triffid"
+  ],
+  "spooky": [
+    "lycanitesmobs:ghoul",
+    "lycanitesmobs:remobra",
+    "lycanitesmobs:necrovore"
+  ],
+  "mountain": [
+    "lycanitesmobs:barghest",
+    "lycanitesmobs:troll",
+    "lycanitesmobs:ettin"
+  ],
+  "snowy": [
+    "lycanitesmobs:arix",
+    "lycanitesmobs:bobeko",
+    "lycanitesmobs:frostweaver",
+    "lycanitesmobs:maug",
+    "lycanitesmobs:serpix",
+    "lycanitesmobs:wendigo"
+  ],
+  "ocean": [
+    "lycanitesmobs:abtu",
+    "lycanitesmobs:herma",
+    "lycanitesmobs:ika",
+    "lycanitesmobs:ioray",
+    "lycanitesmobs:lacedon",
+    "lycanitesmobs:raiko",
+    "lycanitesmobs:roa",
+    "lycanitesmobs:skylus",
+    "lycanitesmobs:strider",
+    "lycanitesmobs:quetzodracl"
+  ],
+  "aberration": [
+    "lycanitesmobs:beholder",
+    "lycanitesmobs:grell",
+    "lycanitesmobs:grigori",
+    "lycanitesmobs:krake",
+    "lycanitesmobs:shade",
+    "lycanitesmobs:yale"
+  ],
+  "dragon": [
+    "lycanitesmobs:morock",
+    "lycanitesmobs:zoataur"
+  ],
+  "magical": [
+    "lycanitesmobs:pixen",
+    "lycanitesmobs:sylph",
+    "lycanitesmobs:wisp",
+    "lycanitesmobs:nymph"
+  ],
+  "elemental": [
+    "lycanitesmobs:jengu",
+    "lycanitesmobs:xaphan",
+    "lycanitesmobs:reiver",
+    "lycanitesmobs:zephyr",
+    "lycanitesmobs:tremor",
+    "lycanitesmobs:geonach",
+    "lycanitesmobs:spriggan",
+    "lycanitesmobs:argus",
+    "lycanitesmobs:djinn"
+  ],
+  "dark": [
+    "lycanitesmobs:banshee",
+    "lycanitesmobs:grue",
+    "lycanitesmobs:geist",
+    "lycanitesmobs:eyewig",
+    "lycanitesmobs:epion"
+  ],
+  "nether": [
+    "lycanitesmobs:afrit",
+    "lycanitesmobs:gnekk",
+    "lycanitesmobs:wraith",
+    "lycanitesmobs:grell",
+    "lycanitesmobs:grigori"
+  ],
+  "end": [
+    "lycanitesmobs:spectre",
+    "lycanitesmobs:wraamon"
+  ],
+  "underground": [
+    "lycanitesmobs:chupacabra",
+    "lycanitesmobs:darkling",
+    "lycanitesmobs:wraamon",
+    "lycanitesmobs:shade",
+    "lycanitesmobs:beholder",
+    "lycanitesmobs:silex"
+  ],
+  "spawner": [
+    "lycanitesmobs:aegis",
+    "lycanitesmobs:cinder",
+    "lycanitesmobs:vapula",
+    "lycanitesmobs:reaper",
+    "lycanitesmobs:abaia"
+  ],
+  "lava": [
+    "lycanitesmobs:cephignis",
+    "lycanitesmobs:gorger",
+    "lycanitesmobs:volcan",
+    "lycanitesmobs:lobber"
+  ],
+  "boss": [
+    "lycanitesmobs:amalgalich",
+    "lycanitesmobs:ignibus"
+  ],
+  "dinosaurs": [
+    "lycanitesmobs:arisaur",
+    "lycanitesmobs:aspid",
+    "lycanitesmobs:joust",
+    "lycanitesmobs:joustalpha",
+    "lycanitesmobs:khalk",
+    "lycanitesmobs:maka",
+    "lycanitesmobs:makaalpha",
+    "lycanitesmobs:sutiramu",
+    "lycanitesmobs:thresher",
+    "lycanitesmobs:uvaraptor",
+    "lycanitesmobs:ventoraptor",
+    "lycanitesmobs:calpod",
+    "lycanitesmobs:concapede",
+    "lycanitesmobs:concapedesegment",
+    "lycanitesmobs:erepede",
+    "lycanitesmobs:lurker"
+  ]
+}

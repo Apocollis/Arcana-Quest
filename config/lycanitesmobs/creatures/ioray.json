@@ -6,13 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityIoray",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelIoray",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "water",
-      "waterfloor"
+      "water"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -24,7 +23,7 @@
     "biomeTags": [
       "ocean"
     ],
-    "spawnWeight": 4,
+    "spawnWeight": 10,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
     "spawnGroupMin": 1,

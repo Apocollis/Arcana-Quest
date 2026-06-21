@@ -6,17 +6,21 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityEechetik",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelEechetik",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+      "beast"
+    ],
     "disableSubspecies": false,
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomeTags": [],
-    "spawnWeight": 8,
+    "biomeTags": [
+      "jungle"
+    ],
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
     "spawnGroupMin": 1,

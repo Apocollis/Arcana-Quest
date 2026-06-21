@@ -6,17 +6,16 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityQuetzodracl",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelQuetzodracl",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "sky"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
-      1
+      1,
+      0
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,

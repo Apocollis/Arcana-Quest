@@ -6,11 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCockatrice",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelCockatrice",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
+      "beast",
       "sky"
     ],
     "disableSubspecies": false,
@@ -21,10 +22,11 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "jungle",
-      "mountain"
+      "plains",
+      "savanna",
+      "-snowy"
     ],
-    "spawnWeight": 1,
+    "spawnWeight": 2,
     "dungeonWeight": 0,
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,

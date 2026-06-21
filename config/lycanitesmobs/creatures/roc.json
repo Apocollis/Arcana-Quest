@@ -6,11 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityRoc",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelRoc",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
+      "beast",
       "sky"
     ],
     "disableSubspecies": false,
@@ -26,7 +27,7 @@
       "forest",
       "-snowy"
     ],
-    "spawnWeight": 16,
+    "spawnWeight": 40,
     "dungeonWeight": 200,
     "spawnAreaLimit": 2,
     "spawnGroupMin": 1,

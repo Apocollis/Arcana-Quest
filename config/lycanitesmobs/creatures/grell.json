@@ -6,12 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrell",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrell",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "nethersky",
       "portal"
     ],
     "disableSubspecies": false,
@@ -23,7 +22,7 @@
     "biomeTags": [
       "nether"
     ],
-    "spawnWeight": 4,
+    "spawnWeight": 10,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

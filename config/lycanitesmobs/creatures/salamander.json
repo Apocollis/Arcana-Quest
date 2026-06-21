@@ -7,7 +7,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySalamander",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSalamander",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -19,9 +19,13 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "all"
+      "sandy",
+      "wasteland",
+      "mesa",
+      "-cold",
+      "-snowy"
     ],
-    "spawnWeight": 6,
+    "spawnWeight": 15,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

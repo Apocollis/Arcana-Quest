@@ -6,17 +6,16 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityThresher",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelThresher",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "water"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
-      1
+      1,
+      0
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,

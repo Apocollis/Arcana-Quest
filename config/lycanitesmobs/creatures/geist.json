@@ -6,27 +6,28 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGeist",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGeist",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "monster",
-      "beast"
+      "underground"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [],
-    "dimensionListType": "blacklist",
-    "ignoreBiome": false,
+    "dimensionIds": [
+      10
+    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
     "biomeTags": [
       "spooky",
       "end"
     ],
-    "spawnWeight": 10,
+    "spawnWeight": 2,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
-    "spawnGroupMax": 3,
+    "spawnGroupMax": 1,
     "spawnsInLight": false,
     "spawnsInDark": true,
     "worldDayMin": -1,

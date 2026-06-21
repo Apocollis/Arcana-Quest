@@ -1,7 +1,11 @@
 {
   "name": "fear",
   "entityClass": "com.lycanitesmobs.core.entity.FearEntity",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
-  "dummy": true
+  "dummy": true,
+  "spawning": {
+    "enabled": true,
+    "spawners": []
+  }
 }

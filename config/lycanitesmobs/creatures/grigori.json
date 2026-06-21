@@ -7,12 +7,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrigori",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrigori",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "nethersky"
+      "nether"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -21,7 +21,7 @@
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
     "biomeTags": [],
-    "spawnWeight": 8,
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 8,
     "spawnGroupMin": 3,

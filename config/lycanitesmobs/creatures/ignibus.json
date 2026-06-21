@@ -6,13 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityIgnibus",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelIgnibus",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "lava"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [],
     "dimensionListType": "blacklist",

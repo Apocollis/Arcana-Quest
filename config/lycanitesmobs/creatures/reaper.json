@@ -6,13 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityReaper",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelReaper",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "sky"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [],
     "dimensionListType": "blacklist",

@@ -1,4 +1,282 @@
 [
+  // Disable Grimoire of Gaia Mimic and Ancient Vase
+  {
+    "mob": ["grimoireofgaia:mimic", "grimoireofgaia:vase"],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  // Restrict Beholder spawning to only 1 active at a time per player
+  {
+    "mob": "lycanitesmobs:beholder",
+    "onjoin": true,
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:beholder",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict Shade spawning to only 1 active at a time per player
+  {
+    "mob": "lycanitesmobs:shade",
+    "onjoin": true,
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:shade",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict Chupacabra spawning to only 3 active at a time per player
+  {
+    "mob": "lycanitesmobs:chupacabra",
+    "onjoin": true,
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:chupacabra",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict Darkling spawning to only 3 active at a time per player
+  {
+    "mob": "lycanitesmobs:darkling",
+    "onjoin": true,
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:darkling",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict Banshee spawning in The Beneath to only 3 active at a time per player
+  {
+    "mob": "lycanitesmobs:banshee",
+    "dimension": 10,
+    "onjoin": true,
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:banshee",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict Geist spawning in The Beneath to only 4 active at a time per player
+  {
+    "mob": "lycanitesmobs:geist",
+    "dimension": 10,
+    "onjoin": true,
+    "mincount": {
+      "amount": 4,
+      "mob": "lycanitesmobs:geist",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict Eyewig spawning in The Beneath to only 3 active at a time per player
+  {
+    "mob": "lycanitesmobs:eyewig",
+    "dimension": 10,
+    "onjoin": true,
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:eyewig",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict Epion spawning in The Beneath to only 3 active at a time per player
+  {
+    "mob": "lycanitesmobs:epion",
+    "dimension": 10,
+    "onjoin": true,
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:epion",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict Spectre spawning in The Beneath to only 3 active at a time per player
+  {
+    "mob": "lycanitesmobs:spectre",
+    "dimension": 10,
+    "onjoin": true,
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:spectre",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Allow Grue spawning (e.g. from darkness event) without stage gating
+  {
+    "mob": "lycanitesmobs:grue",
+    "result": "allow"
+  },
+
+  // Restrict Silex spawning to underground only (height < 50, cannot see sky - onjoin omitted for summoning safety)
+  {
+    "mob": "lycanitesmobs:silex",
+    "minheight": 50,
+    "result": "deny"
+  },
+  {
+    "mob": "lycanitesmobs:silex",
+    "seesky": true,
+    "result": "deny"
+  },
+
+  // Restrict underground creatures to underground only (height < 50, cannot see sky - onjoin omitted for summoning safety)
+  {
+    "mob": [
+      "lycanitesmobs:chupacabra",
+      "lycanitesmobs:darkling",
+      "lycanitesmobs:shade",
+      "lycanitesmobs:beholder"
+    ],
+    "minheight": 50,
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "lycanitesmobs:chupacabra",
+      "lycanitesmobs:darkling",
+      "lycanitesmobs:shade",
+      "lycanitesmobs:beholder"
+    ],
+    "seesky": true,
+    "result": "deny"
+  },
+  {
+    "mob": "lycanitesmobs:wraamon",
+    "dimension": 0,
+    "minheight": 50,
+    "result": "deny"
+  },
+  {
+    "mob": "lycanitesmobs:wraamon",
+    "dimension": 0,
+    "seesky": true,
+    "result": "deny"
+  },
+
+  // Deny Dark Druid spawning during the day (make it night-only)
+  {
+    "mob": "thebetweenlands:dark_druid",
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": "thebetweenlands:dark_druid",
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "deny",
+    "onjoin": true
+  },
+
+  // Restrict spawn amount of dark druid to only 2 active at a time per player
+  {
+    "mob": "thebetweenlands:dark_druid",
+    "onjoin": true,
+    "mincount": {
+      "amount": 2,
+      "mob": "thebetweenlands:dark_druid",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Deny Arix spawning during the day (make it night-only)
+  {
+    "mob": "lycanitesmobs:arix",
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": "lycanitesmobs:arix",
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "deny",
+    "onjoin": true
+  },
+
+  // Deny Epion spawning in Overworld during the day (make it night-only in Overworld)
+  {
+    "mob": "lycanitesmobs:epion",
+    "dimension": 0,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": "lycanitesmobs:epion",
+    "dimension": 0,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "deny",
+    "onjoin": true
+  },
+
+  // Allow Ghoul to spawn in Ominous Woods any time of day
+  {
+    "mob": "lycanitesmobs:ghoul",
+    "biome": "biomesoplenty:ominous_woods",
+    "result": "default",
+    "onjoin": true
+  },
+
+  // Deny Ghoul spawning on surface during day
+  {
+    "mob": "lycanitesmobs:ghoul",
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": "lycanitesmobs:ghoul",
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "deny",
+    "onjoin": true
+  },
+
+  // Deny Eechetik spawning on surface during day
+  {
+    "mob": "lycanitesmobs:eechetik",
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": "lycanitesmobs:eechetik",
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "deny",
+    "onjoin": true
+  },
+
   // Gate Lycanites action-spawner mobs behind game stage 'lycanite_spawners'
   {
     "mob": [
@@ -11,7 +289,12 @@
       "lycanitesmobs:abaia",
       "lycanitesmobs:abtu",
       "lycanitesmobs:roa",
-      "lycanitesmobs:skylus"
+      "lycanitesmobs:skylus",
+      "lycanitesmobs:zephyr",
+      "lycanitesmobs:wraamon",
+      "lycanitesmobs:xaphan",
+      "lycanitesmobs:tremor",
+      "lycanitesmobs:argus"
     ],
     "gamestage": "lycanite_spawners",
     "result": "default",
@@ -28,8 +311,53 @@
       "lycanitesmobs:abaia",
       "lycanitesmobs:abtu",
       "lycanitesmobs:roa",
-      "lycanitesmobs:skylus"
+      "lycanitesmobs:skylus",
+      "lycanitesmobs:zephyr",
+      "lycanitesmobs:wraamon",
+      "lycanitesmobs:xaphan",
+      "lycanitesmobs:tremor",
+      "lycanitesmobs:argus"
     ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  // Allow Gaia spooky mobs in Ominous Woods anytime
+  {
+    "mob": ["grimoireofgaia:dullahan", "grimoireofgaia:flesh_lich", "grimoireofgaia:dhampir", "grimoireofgaia:bone_knight", "grimoireofgaia:vampire"],
+    "biome": "biomesoplenty:ominous_woods",
+    "result": "default",
+    "onjoin": true
+  },
+  // Deny Gaia spooky mobs during daytime (0-13000)
+  {
+    "mob": ["grimoireofgaia:dullahan", "grimoireofgaia:flesh_lich", "grimoireofgaia:dhampir", "grimoireofgaia:bone_knight", "grimoireofgaia:vampire"],
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "deny",
+    "onjoin": true
+  },
+  // Deny Gaia spooky mobs during dawn (23000-24000)
+  {
+    "mob": ["grimoireofgaia:dullahan", "grimoireofgaia:flesh_lich", "grimoireofgaia:dhampir", "grimoireofgaia:bone_knight", "grimoireofgaia:vampire"],
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "deny",
+    "onjoin": true
+  },
+
+  // Restrict Gaia underground mobs to below Y=50 and no sky
+  {
+    "mob": ["grimoireofgaia:mimic", "grimoireofgaia:vase"],
+    "minheight": 50,
+    "result": "deny",
+    "onjoin": true
+  },
+  {
+    "mob": ["grimoireofgaia:mimic", "grimoireofgaia:vase"],
+    "seesky": true,
     "result": "deny",
     "onjoin": true
   },
@@ -38,13 +366,1122 @@
   {
     "mod": "grimoireofgaia",
     "hostile": true,
-    "gamestage": "gaia_mobs",
+    "gamestage": "!gaia_mobs",
+    "result": "deny",
+    "onjoin": true
+  },
+
+  // Enforce Grimoire of Gaia biometypes and dimensions (sequential rule checks using biome registry whitelists)
+  {
+    "mob": [
+      "grimoireofgaia:mermaid",
+      "grimoireofgaia:sharko"
+    ],
+    "biome": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:frozen_ocean",
+      "minecraft:ocean"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:mermaid",
+      "grimoireofgaia:sharko"
+    ],
+    "biome": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:frozen_ocean",
+      "minecraft:ocean"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:anubis",
+      "grimoireofgaia:mummy",
+      "grimoireofgaia:sphinx",
+      "grimoireofgaia:ant_hill"
+    ],
+    "biome": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:steppe",
+      "biomesoplenty:wasteland",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:anubis",
+      "grimoireofgaia:mummy",
+      "grimoireofgaia:sphinx",
+      "grimoireofgaia:ant_hill"
+    ],
+    "biome": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:steppe",
+      "biomesoplenty:wasteland",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:centaur",
+      "grimoireofgaia:harpy",
+      "grimoireofgaia:harpy_wizard",
+      "grimoireofgaia:minotaur",
+      "grimoireofgaia:minotaurus",
+      "grimoireofgaia:satyress",
+      "grimoireofgaia:kobold"
+    ],
+    "biome": [
+      "biomesoplenty:chaparral",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shrubland",
+      "minecraft:mutated_plains",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:plains",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:centaur",
+      "grimoireofgaia:harpy",
+      "grimoireofgaia:harpy_wizard",
+      "grimoireofgaia:minotaur",
+      "grimoireofgaia:minotaurus",
+      "grimoireofgaia:satyress",
+      "grimoireofgaia:kobold"
+    ],
+    "biome": [
+      "biomesoplenty:chaparral",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shrubland",
+      "minecraft:mutated_plains",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:plains",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:goblin",
+      "grimoireofgaia:orc"
+    ],
+    "biome": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:outback",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:goblin",
+      "grimoireofgaia:orc"
+    ],
+    "biome": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:outback",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:naga"
+    ],
+    "biome": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:tropical_rainforest",
+      "biomesoplenty:wetland",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:naga"
+    ],
+    "biome": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:tropical_rainforest",
+      "biomesoplenty:wetland",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:shaman",
+      "grimoireofgaia:hunter",
+      "grimoireofgaia:cobble_golem",
+      "grimoireofgaia:cobblestone_golem"
+    ],
+    "biome": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:shaman",
+      "grimoireofgaia:hunter",
+      "grimoireofgaia:cobble_golem",
+      "grimoireofgaia:cobblestone_golem"
+    ],
+    "biome": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:dryad",
+      "grimoireofgaia:mandragora",
+      "grimoireofgaia:bee",
+      "grimoireofgaia:kikimora",
+      "grimoireofgaia:arachne",
+      "grimoireofgaia:werecat",
+      "grimoireofgaia:witch"
+    ],
+    "biome": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:orchard",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:shield",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:dryad",
+      "grimoireofgaia:mandragora",
+      "grimoireofgaia:bee",
+      "grimoireofgaia:kikimora",
+      "grimoireofgaia:arachne",
+      "grimoireofgaia:werecat",
+      "grimoireofgaia:witch"
+    ],
+    "biome": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:orchard",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:shield",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:gelatinous_slime",
+      "grimoireofgaia:sludge_girl",
+      "grimoireofgaia:siren",
+      "grimoireofgaia:cecaelia"
+    ],
+    "biome": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:gelatinous_slime",
+      "grimoireofgaia:sludge_girl",
+      "grimoireofgaia:siren",
+      "grimoireofgaia:cecaelia"
+    ],
+    "biome": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:cyclops",
+      "grimoireofgaia:gryphon",
+      "grimoireofgaia:valkyrie",
+      "grimoireofgaia:dwarf",
+      "grimoireofgaia:banshee"
+    ],
+    "biome": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:cyclops",
+      "grimoireofgaia:gryphon",
+      "grimoireofgaia:valkyrie",
+      "grimoireofgaia:dwarf",
+      "grimoireofgaia:banshee"
+    ],
+    "biome": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:yeti",
+      "grimoireofgaia:selkie",
+      "grimoireofgaia:yuki-onna"
+    ],
+    "biome": [
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:yeti",
+      "grimoireofgaia:selkie",
+      "grimoireofgaia:yuki-onna"
+    ],
+    "biome": [
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:nine_tails",
+      "grimoireofgaia:spriggan",
+      "grimoireofgaia:matango",
+      "grimoireofgaia:deathword"
+    ],
+    "biome": [
+      "biomesoplenty:mystic_grove",
+      "thaumcraft:magical_forest"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 0,
+    "maxtime": 13000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:nine_tails",
+      "grimoireofgaia:spriggan",
+      "grimoireofgaia:matango",
+      "grimoireofgaia:deathword"
+    ],
+    "biome": [
+      "biomesoplenty:mystic_grove",
+      "thaumcraft:magical_forest"
+    ],
+    "dimension": 0,
+    "seesky": true,
+    "mintime": 23000,
+    "maxtime": 24000,
+    "result": "allow"
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:mermaid",
+      "grimoireofgaia:sharko"
+    ],
+    "biome": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:frozen_ocean",
+      "minecraft:ocean"
+    ],
     "result": "default",
     "onjoin": true
   },
+
   {
-    "mod": "grimoireofgaia",
-    "hostile": true,
+    "mob": [
+      "grimoireofgaia:mermaid",
+      "grimoireofgaia:sharko"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:anubis",
+      "grimoireofgaia:mummy",
+      "grimoireofgaia:sphinx",
+      "grimoireofgaia:ant_hill"
+    ],
+    "biome": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:steppe",
+      "biomesoplenty:wasteland",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:anubis",
+      "grimoireofgaia:mummy",
+      "grimoireofgaia:sphinx",
+      "grimoireofgaia:ant_hill"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:centaur",
+      "grimoireofgaia:harpy",
+      "grimoireofgaia:harpy_wizard",
+      "grimoireofgaia:minotaur",
+      "grimoireofgaia:minotaurus",
+      "grimoireofgaia:satyress",
+      "grimoireofgaia:kobold"
+    ],
+    "biome": [
+      "biomesoplenty:chaparral",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shrubland",
+      "minecraft:mutated_plains",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:plains",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:centaur",
+      "grimoireofgaia:harpy",
+      "grimoireofgaia:harpy_wizard",
+      "grimoireofgaia:minotaur",
+      "grimoireofgaia:minotaurus",
+      "grimoireofgaia:satyress",
+      "grimoireofgaia:kobold"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:goblin",
+      "grimoireofgaia:orc"
+    ],
+    "biome": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:outback",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:goblin",
+      "grimoireofgaia:orc"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:naga"
+    ],
+    "biome": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:tropical_rainforest",
+      "biomesoplenty:wetland",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:naga"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:shaman",
+      "grimoireofgaia:hunter",
+      "grimoireofgaia:cobble_golem",
+      "grimoireofgaia:cobblestone_golem"
+    ],
+    "biome": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:shaman",
+      "grimoireofgaia:hunter",
+      "grimoireofgaia:cobble_golem",
+      "grimoireofgaia:cobblestone_golem"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:dryad",
+      "grimoireofgaia:mandragora",
+      "grimoireofgaia:bee",
+      "grimoireofgaia:kikimora",
+      "grimoireofgaia:arachne",
+      "grimoireofgaia:werecat",
+      "grimoireofgaia:witch"
+    ],
+    "biome": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:orchard",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:shield",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:dryad",
+      "grimoireofgaia:mandragora",
+      "grimoireofgaia:bee",
+      "grimoireofgaia:kikimora",
+      "grimoireofgaia:arachne",
+      "grimoireofgaia:werecat",
+      "grimoireofgaia:witch"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:gelatinous_slime",
+      "grimoireofgaia:sludge_girl",
+      "grimoireofgaia:siren",
+      "grimoireofgaia:cecaelia"
+    ],
+    "biome": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:gelatinous_slime",
+      "grimoireofgaia:sludge_girl",
+      "grimoireofgaia:siren",
+      "grimoireofgaia:cecaelia"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:dullahan",
+      "grimoireofgaia:flesh_lich",
+      "grimoireofgaia:dhampir",
+      "grimoireofgaia:bone_knight",
+      "grimoireofgaia:vampire"
+    ],
+    "biome": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:ominous_woods",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:dullahan",
+      "grimoireofgaia:flesh_lich",
+      "grimoireofgaia:dhampir",
+      "grimoireofgaia:bone_knight",
+      "grimoireofgaia:vampire"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:cyclops",
+      "grimoireofgaia:gryphon",
+      "grimoireofgaia:valkyrie",
+      "grimoireofgaia:dwarf",
+      "grimoireofgaia:banshee"
+    ],
+    "biome": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:cyclops",
+      "grimoireofgaia:gryphon",
+      "grimoireofgaia:valkyrie",
+      "grimoireofgaia:dwarf",
+      "grimoireofgaia:banshee"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:yeti",
+      "grimoireofgaia:selkie",
+      "grimoireofgaia:yuki-onna"
+    ],
+    "biome": [
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:yeti",
+      "grimoireofgaia:selkie",
+      "grimoireofgaia:yuki-onna"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:nine_tails",
+      "grimoireofgaia:spriggan",
+      "grimoireofgaia:matango",
+      "grimoireofgaia:deathword"
+    ],
+    "biome": [
+      "biomesoplenty:mystic_grove",
+      "thaumcraft:magical_forest"
+    ],
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:nine_tails",
+      "grimoireofgaia:spriggan",
+      "grimoireofgaia:matango",
+      "grimoireofgaia:deathword"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:baphomet",
+      "grimoireofgaia:succubus",
+      "grimoireofgaia:oni",
+      "grimoireofgaia:wither_cow",
+      "grimoireofgaia:vase_nether"
+    ],
+    "dimension": -1,
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:baphomet",
+      "grimoireofgaia:succubus",
+      "grimoireofgaia:oni",
+      "grimoireofgaia:wither_cow",
+      "grimoireofgaia:vase_nether"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:ender_eye",
+      "grimoireofgaia:ender_dragon_girl",
+      "grimoireofgaia:beholder",
+      "grimoireofgaia:creep"
+    ],
+    "dimension": 1,
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:ender_eye",
+      "grimoireofgaia:ender_dragon_girl",
+      "grimoireofgaia:beholder",
+      "grimoireofgaia:creep"
+    ],
+    "result": "deny",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:dwarf"
+    ],
+    "dimension": 0,
+    "result": "default",
+    "onjoin": true
+  },
+
+  {
+    "mob": [
+      "grimoireofgaia:dwarf"
+    ],
     "result": "deny",
     "onjoin": true
   },
@@ -150,6 +1587,19 @@
     "dimension": 0,
 	"mincount": {
 		"amount": 75,
+		"hostile": true,
+		"perplayer": true
+		},
+	"result": "deny" 
+  },
+  { 
+	"passive": false,
+	"spawner": true,
+	"onjoin": true,
+    "dimension": 10,
+	"mincount": {
+		"amount": 30,
+		"hostile": true,
 		"perplayer": true
 		},
 	"result": "deny" 
@@ -204,17 +1654,5 @@
 	"onjoin" : true,
 	"dimension": 0,
     "result": "default"
-  },
-  
-  // Grimoure of Gaia Limiters
-  {
-	"mod": "grimoireofgaia",
-	"onjoin": true,
-	"mincount": {
-		"amount": 10,
-		"mod": "grimoireofgaia",
-		"perplayer": true
-	},
-	"result": "deny"
   }
 ]

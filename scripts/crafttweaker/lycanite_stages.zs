@@ -11,3 +11,9 @@ mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:abaia");
 mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:abtu");
 mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:roa");
 mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:skylus");
+mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:zephyr");
+mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:wraamon");
+mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:xaphan");
+mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:tremor");
+mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:argus");
+

@@ -7,20 +7,24 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySylph",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSylph",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+      "surface"
+    ],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
       1
     ],
     "dimensionListType": "blacklist",
-    "ignoreBiome": true,
-    "biomeTags": [],
-    "spawnWeight": 8,
+    "ignoreBiome": false,
+    "biomeTags": [
+      "magical"
+    ],
+    "spawnWeight": 20,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

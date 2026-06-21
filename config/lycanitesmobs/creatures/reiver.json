@@ -6,12 +6,12 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityReiver",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelReiver",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
-      "sky"
+      "beast"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -21,12 +21,9 @@
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
-      "cold",
-      "snowy",
-      "coniferous",
-      "-end"
+      "snowy"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 5,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
