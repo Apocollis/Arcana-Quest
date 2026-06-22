@@ -1,0 +1,6 @@
+
+{
+  "Name": "frost_draugr_ranger",
+  "Registry ID": "da:frost_draugr_ranger",
+  "Class": "com.dungeon_additions.da.entity.frost_dungeon.draugr.EntityDraugrRanger"
+}

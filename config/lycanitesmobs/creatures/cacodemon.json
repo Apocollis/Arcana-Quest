@@ -10,9 +10,7 @@
   "enabled": false,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "portal"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1

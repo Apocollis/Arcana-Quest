@@ -11,9 +11,7 @@
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "nether"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1

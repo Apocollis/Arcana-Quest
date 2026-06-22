@@ -11,25 +11,6 @@ print(<contenttweaker:cracked_pearl>.displayName);
 
 <ordinarycoins:coinbronze>.displayName = "Copper Coin";
 
-print(<contenttweaker:du_aluminum_ore>.displayName);
-<contenttweaker:du_aluminum_ore>.displayName = "Aluminum Ore";
-
-print(<contenttweaker:du_copper_ore>.displayName);
-<contenttweaker:du_copper_ore>.displayName = "Copper Ore";
-
-print(<contenttweaker:du_lead_ore>.displayName);
-<contenttweaker:du_lead_ore>.displayName = "Lead Ore";
-
-print(<contenttweaker:du_nickel_ore>.displayName);
-<contenttweaker:du_nickel_ore>.displayName = "Nickel Ore";
-
-print(<contenttweaker:du_silver_ore>.displayName);
-<contenttweaker:du_silver_ore>.displayName = "Silver Ore";
-
-print(<contenttweaker:du_tin_ore>.displayName);
-<contenttweaker:du_tin_ore>.displayName = "Tin Ore";
-
-
 #Renames
 print(<embers:ore_aluminum>.displayName);
 <embers:ore_aluminum>.displayName = "Aluminum Ore";

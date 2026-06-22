@@ -70,15 +70,6 @@ recipes.addShaped(<everlastingabilities:ability_bottle>,
 
 recipes.remove(<witherskelefix:blade>);
 recipes.remove(<witherskelefix:blade2>);
-	
-	
-// # ENDER COMPASS
-
-// recipes.remove(<endercompass:ender_compass>);
-// recipes.addShaped(<endercompass:ender_compass>,
- // [[<minecraft:ender_eye>, <quark:biotite>, <minecraft:ender_eye>],
-  // [<quark:biotite>, <minecraft:compass>, <quark:biotite>],
-  // [<minecraft:ender_eye>, <quark:biotite>, <minecraft:ender_eye>]]);
   
   
 # EFFORTLESS BUILDING
@@ -136,13 +127,6 @@ recipes.remove(<earthworks:tool_iron_hammer>);
 recipes.remove(<earthworks:tool_gold_hammer>);
 recipes.remove(<earthworks:tool_diamond_hammer>);
 
-// # UNCRAFTING TABLE
-
-// recipes.remove(<uncraftingtable:uncrafting_table>);
-// recipes.addShaped(<uncraftingtable:uncrafting_table>,
- // [[<minecraft:cobblestone>, <minecraft:diamond>, <minecraft:cobblestone>],
-  // [<minecraft:cobblestone>, <minecraft:crafting_table>, <minecraft:cobblestone>],
-  // [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
 # INSPIRATIONS
   
@@ -202,65 +186,6 @@ print(<xreliquary:pedestal>.displayName);
 
 print(<xreliquary:pedestal_passive>.displayName);
 <xreliquary:pedestal_passive>.displayName = "Pedestal";
-
-// #DIVERGENT UNDERGROUND
-
-// val IronChisel = <chisel:chisel_iron>;
-// val DiamondChisel = <chisel:chisel_diamond>;
-// val rawDiamond = <divergentunderground:gem_raw_diamond>;
-// val rawEmerald = <divergentunderground:gem_raw_emerald>;
-// val nuggetDiamond = <uncraftingtable:nugget>;
-// val nuggetEmerald = <uncraftingtable:nugget:1>;
-
-// recipes.remove(<divergentunderground:chisel>);
-// recipes.addShapeless("diamondcutting1",<minecraft:diamond>,
-	// [IronChisel.anyDamage().transformDamage(5).reuse(),rawDiamond],
-	// function(out, ins, cInfo){
-		// return out;
-	// },
-	// function(out,cInfo,player){
-		// player.xp += 1;
-		// player.give(nuggetDiamond);
-	// }
-// );
-// recipes.addShapeless("diamondcutting2",<minecraft:diamond>,
-	// [DiamondChisel.anyDamage().transformDamage(5).reuse(),rawDiamond],
-	// function(out, ins, cInfo){
-		// return out;
-	// },
-	// function(out,cInfo,player){
-		// player.xp += 1;
-		// player.give(nuggetDiamond);
-	// }
-// );
-// recipes.addShapeless("emeraldcutting1",<minecraft:emerald>,
-	// [IronChisel.anyDamage().transformDamage(5).reuse(),rawEmerald],
-	// function(out, ins, cInfo){
-		// return out;
-	// },
-	// function(out,cInfo,player){
-		// player.xp += 1;
-		// player.give(nuggetEmerald);
-	// }
-// );
-// recipes.addShapeless("emeraldcutting2",<minecraft:emerald>,
-	// [DiamondChisel.anyDamage().transformDamage(5).reuse(),rawEmerald],
-	// function(out, ins, cInfo){
-		// return out;
-	// },
-	// function(out,cInfo,player){
-		// player.xp += 1;
-		// player.give(nuggetEmerald);
-	// }
-// );
-
-furnace.addRecipe(<embers:ingot_aluminum>, <contenttweaker:du_aluminum_ore>, 0.7);
-furnace.addRecipe(<embers:ingot_copper>, <contenttweaker:du_copper_ore>, 0.7);
-furnace.addRecipe(<embers:ingot_lead>, <contenttweaker:du_lead_ore>, 0.7);
-furnace.addRecipe(<embers:ingot_nickel>, <contenttweaker:du_nickel_ore>, 0.7);
-furnace.addRecipe(<embers:ingot_silver>, <contenttweaker:du_silver_ore>, 0.7);
-furnace.addRecipe(<embers:ingot_tin>, <contenttweaker:du_tin_ore>, 0.7);
-
 
 
 #ANIMALNET

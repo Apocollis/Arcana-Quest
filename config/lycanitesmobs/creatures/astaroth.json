@@ -10,10 +10,7 @@
   "enabled": false,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "portal",
-      "nether"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,

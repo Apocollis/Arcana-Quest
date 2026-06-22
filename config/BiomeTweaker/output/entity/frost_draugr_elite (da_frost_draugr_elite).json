@@ -1,0 +1,6 @@
+
+{
+  "Name": "frost_draugr_elite",
+  "Registry ID": "da:frost_draugr_elite",
+  "Class": "com.dungeon_additions.da.entity.frost_dungeon.draugr.EntityEliteDraugr"
+}

@@ -10,9 +10,7 @@
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "water"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [],
     "dimensionListType": "blacklist",

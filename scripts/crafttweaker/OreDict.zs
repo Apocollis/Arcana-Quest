@@ -7,24 +7,6 @@ itemPrimalEssence.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1
 itemPrimalEssence.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}));
 itemPrimalEssence.add(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}));
 
-#Divergent Underground
-val itemStone = <ore:cobblestone>;
-itemStone.add(<divergentunderground:rock_stone>);
-
-#Divergent Underground Compat
-val aluminumOre = <ore:oreAluminum>;
-val copperOre = <ore:oreCopper>;
-val leadOre = <ore:oreLead>;
-val nickelOre = <ore:oreNickel>;
-val silverOre = <ore:oreSilver>;
-val tinOre = <ore:oreTin>;
-aluminumOre.add(<contenttweaker:du_aluminum_ore>);
-copperOre.add(<contenttweaker:du_copper_ore>);
-leadOre.add(<contenttweaker:du_lead_ore>);
-nickelOre.add(<contenttweaker:du_nickel_ore>);
-silverOre.add(<contenttweaker:du_silver_ore>);
-tinOre.add(<contenttweaker:du_tin_ore>);
-
 #Salt Fix
 val salt = <ore:salt>;
 val allsalt = <ore:listAllsalt>;

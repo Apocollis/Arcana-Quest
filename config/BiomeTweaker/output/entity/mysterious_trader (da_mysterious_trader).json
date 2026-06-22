@@ -1,0 +1,6 @@
+
+{
+  "Name": "mysterious_trader",
+  "Registry ID": "da:mysterious_trader",
+  "Class": "com.dungeon_additions.da.entity.trader.EntityMysteriousTrader"
+}

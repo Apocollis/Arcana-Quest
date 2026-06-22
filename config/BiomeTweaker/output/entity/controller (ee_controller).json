@@ -1,0 +1,6 @@
+
+{
+  "Name": "controller",
+  "Registry ID": "ee:controller",
+  "Class": "com.example.structure.entity.EntityController"
+}

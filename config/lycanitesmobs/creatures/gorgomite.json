@@ -12,9 +12,7 @@
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [
-      "beast"
-    ],
+    "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,

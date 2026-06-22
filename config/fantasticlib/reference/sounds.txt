@@ -2644,7 +2644,6 @@ bibliocraft:copen
 bibliocraft:cclose
 bibliocraft:tapeopen
 bibliocraft:tapeclose
-divergentunderground:boulder_falling
 elevatorid:teleport
 farmersdelight:block.cabinet.open
 farmersdelight:block.cabinet.close
