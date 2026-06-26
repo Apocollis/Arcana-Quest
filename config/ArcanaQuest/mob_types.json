@@ -1,0 +1,162 @@
+{
+  "dark": [
+    "lycanitesmobs:banshee",
+    "lycanitesmobs:epion",
+    "lycanitesmobs:eyewig",
+    "lycanitesmobs:geist",
+    "lycanitesmobs:grue"
+  ],
+  "desert": [
+    "grimoireofgaia:ant_hill",
+    "grimoireofgaia:anubis",
+    "grimoireofgaia:mummy",
+    "grimoireofgaia:sphinx",
+    "lycanitesmobs:balayang",
+    "lycanitesmobs:clink",
+    "lycanitesmobs:crusk",
+    "lycanitesmobs:cryptkeeper",
+    "lycanitesmobs:gorgomite",
+    "lycanitesmobs:salamander"
+  ],
+  "end": [
+    "grimoireofgaia:beholder",
+    "grimoireofgaia:creep",
+    "grimoireofgaia:ender_dragon_girl",
+    "grimoireofgaia:ender_eye",
+    "lycanitesmobs:spectre",
+    "lycanitesmobs:wraamon"
+  ],
+  "forest": [
+    "grimoireofgaia:arachne",
+    "grimoireofgaia:bee",
+    "grimoireofgaia:dryad",
+    "grimoireofgaia:werecat",
+    "grimoireofgaia:witch",
+    "lycanitesmobs:ent",
+    "lycanitesmobs:jabberwock",
+    "lycanitesmobs:shambler",
+    "lycanitesmobs:treant",
+    "lycanitesmobs:warg",
+    "lycanitesmobs:wildkin"
+  ],
+  "jungle": [
+    "grimoireofgaia:cobble_golem",
+    "grimoireofgaia:cobblestone_golem",
+    "grimoireofgaia:hunter",
+    "grimoireofgaia:naga",
+    "grimoireofgaia:shaman",
+    "lycanitesmobs:conba",
+    "lycanitesmobs:dawon",
+    "lycanitesmobs:eechetik",
+    "lycanitesmobs:tarantula",
+    "lycanitesmobs:vespid",
+    "lycanitesmobs:vespidqueen"
+  ],
+  "magical": [
+    "grimoireofgaia:deathword",
+    "grimoireofgaia:matango",
+    "grimoireofgaia:nine_tails",
+    "grimoireofgaia:spriggan",
+    "lycanitesmobs:nymph",
+    "lycanitesmobs:pixen",
+    "lycanitesmobs:sylph",
+    "lycanitesmobs:wisp"
+  ],
+  "mountain": [
+    "grimoireofgaia:banshee",
+    "grimoireofgaia:cyclops",
+    "grimoireofgaia:dwarf",
+    "grimoireofgaia:gryphon",
+    "grimoireofgaia:valkyrie",
+    "lycanitesmobs:barghest",
+    "lycanitesmobs:ettin",
+    "lycanitesmobs:troll"
+  ],
+  "nether": [
+    "grimoireofgaia:baphomet",
+    "grimoireofgaia:oni",
+    "grimoireofgaia:succubus",
+    "grimoireofgaia:vase_nether",
+    "grimoireofgaia:wither_cow",
+    "lycanitesmobs:afrit",
+    "lycanitesmobs:gnekk",
+    "lycanitesmobs:grell",
+    "lycanitesmobs:grigori",
+    "lycanitesmobs:wraith"
+  ],
+  "ocean": [
+    "grimoireofgaia:mermaid",
+    "grimoireofgaia:sharko",
+    "lycanitesmobs:abtu",
+    "lycanitesmobs:herma",
+    "lycanitesmobs:ika",
+    "lycanitesmobs:ioray",
+    "lycanitesmobs:lacedon",
+    "lycanitesmobs:quetzodracl",
+    "lycanitesmobs:raiko",
+    "lycanitesmobs:roa",
+    "lycanitesmobs:skylus",
+    "lycanitesmobs:strider"
+  ],
+  "plains": [
+    "grimoireofgaia:centaur",
+    "grimoireofgaia:harpy",
+    "grimoireofgaia:harpy_wizard",
+    "grimoireofgaia:kobold",
+    "grimoireofgaia:minotaur",
+    "grimoireofgaia:minotaurus",
+    "grimoireofgaia:satyress",
+    "lycanitesmobs:cockatrice",
+    "lycanitesmobs:feradon",
+    "lycanitesmobs:kobold",
+    "lycanitesmobs:morock",
+    "lycanitesmobs:quillbeast",
+    "lycanitesmobs:roc"
+  ],
+  "savanna": [
+    "grimoireofgaia:goblin",
+    "grimoireofgaia:orc"
+  ],
+  "snowy": [
+    "grimoireofgaia:selkie",
+    "grimoireofgaia:yeti",
+    "grimoireofgaia:yuki-onna",
+    "lycanitesmobs:arix",
+    "lycanitesmobs:bobeko",
+    "lycanitesmobs:frostweaver",
+    "lycanitesmobs:maug",
+    "lycanitesmobs:serpix",
+    "lycanitesmobs:wendigo"
+  ],
+  "spooky": [
+    "grimoireofgaia:bone_knight",
+    "grimoireofgaia:dhampir",
+    "grimoireofgaia:dullahan",
+    "grimoireofgaia:flesh_lich",
+    "grimoireofgaia:vampire",
+    "lycanitesmobs:ghoul",
+    "lycanitesmobs:necrovore",
+    "lycanitesmobs:remobra",
+    "lycanitesmobs:tpumpkyn"
+  ],
+  "swamp": [
+    "grimoireofgaia:cecaelia",
+    "grimoireofgaia:gelatinous_slime",
+    "grimoireofgaia:naga",
+    "grimoireofgaia:siren",
+    "grimoireofgaia:sludge_girl",
+    "lycanitesmobs:aglebemu",
+    "lycanitesmobs:dweller",
+    "lycanitesmobs:geken",
+    "lycanitesmobs:triffid"
+  ],
+  "underground": [
+    "grimoireofgaia:dwarf",
+    "lycanitesmobs:beholder",
+    "lycanitesmobs:chupacabra",
+    "lycanitesmobs:darkling",
+    "lycanitesmobs:shade",
+    "lycanitesmobs:silex",
+    "lycanitesmobs:wraamon"
+  ]
+}

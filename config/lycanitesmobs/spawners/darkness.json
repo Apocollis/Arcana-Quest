@@ -2,7 +2,7 @@
   "name": "darkness",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "conditionsRequired": 0,
   "triggersRequired": 3,
   "multipleLocations": "combine",
@@ -17,8 +17,7 @@
     {
       "type": "world",
       "dimensionIds": [
-        0,
-        7
+        10
       ]
     }
   ],
@@ -76,14 +75,6 @@
     {
       "mobId": "lycanitesmobs:grue",
       "weight": 8
-    },
-    {
-      "mobId": "lycanitesmobs:darkling",
-      "weight": 2
-    },
-    {
-      "mobId": "lycanitesmobs:shade",
-      "weight": 1
     }
   ],
   "triggerCountMessages": [

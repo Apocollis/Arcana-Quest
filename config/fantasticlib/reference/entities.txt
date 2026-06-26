@@ -228,6 +228,7 @@ astralsorcery:entityliquidspark
 astralsorcery:entityobservatoryhelper
 astralsorcery:entityshootingstar
 astralsorcery:entityitemdamageresistant
+quark:chest_passenger
 quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
@@ -247,7 +248,6 @@ quark:dweller
 quark:ashen
 quark:pirate
 quark:crab
-quark:chest_passenger
 bibliocraft:biblioseat
 bountifulbaubles:grenade
 bountifulbaubles:beenade

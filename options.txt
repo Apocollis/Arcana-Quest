@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["STONEBORN+Gear-HIGH_EYES-1.12+-+V1.0","Sonomagy TC6 v1.7.zip","Better_Enderdragon.zip","Lycanites Redux 1.12.2-v8.2.1.zip"]
+resourcePacks:["Sonomagy TC6 v1.7.zip","Better_Enderdragon.zip","Lycanites Redux 1.12.2-v8.2.1.zip","STONEBORN Gear-HIGH_EYES-1.12 - V1.1.zip","STONEBORN-1.12.2-V3.1.zip","Stoneborn RL Edition.zip","Stoneborn-Vanilla-HUD.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -105,7 +105,13 @@ key_key.dss.togglehud.desc:47
 key_Open Baubles' Sidebar:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_arcanearchives.gui.keybinds.socket:0
-key_quark.keybind.toggleAutojump:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -125,13 +131,7 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.lockBuilding:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
 key_key.betterquesting.quests:0
 key_key.betterquesting.back:14
 key_keybind.openSelectionWheel:56
@@ -254,7 +254,7 @@ key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_key.carbon_config.key:0
 key_key.carbon_config.dep:0
 key_Open Skill GUI:21
-soundCategory_master:0.0
+soundCategory_master:0.70198673
 soundCategory_music:0.8028169
 soundCategory_record:1.0
 soundCategory_weather:0.90140843

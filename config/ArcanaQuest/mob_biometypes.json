@@ -1,0 +1,55 @@
+{
+  "aberration": [
+    "lycanitesmobs:beholder",
+    "lycanitesmobs:grell",
+    "lycanitesmobs:grigori",
+    "lycanitesmobs:krake",
+    "lycanitesmobs:shade",
+    "lycanitesmobs:yale"
+  ],
+  "boss": [
+    "lycanitesmobs:amalgalich"
+  ],
+  "dinosaur": [
+    "lycanitesmobs:arisaur",
+    "lycanitesmobs:aspid",
+    "lycanitesmobs:joust",
+    "lycanitesmobs:joustalpha",
+    "lycanitesmobs:khalk",
+    "lycanitesmobs:maka",
+    "lycanitesmobs:makaalpha",
+    "lycanitesmobs:sutiramu",
+    "lycanitesmobs:thresher",
+    "lycanitesmobs:uvaraptor",
+    "lycanitesmobs:ventoraptor"
+  ],
+  "dragon": [
+    "lycanitesmobs:ignibus",
+    "lycanitesmobs:morock",
+    "lycanitesmobs:zoataur"
+  ],
+  "elemental": [
+    "lycanitesmobs:argus",
+    "lycanitesmobs:djinn",
+    "lycanitesmobs:geonach",
+    "lycanitesmobs:jengu",
+    "lycanitesmobs:reiver",
+    "lycanitesmobs:spriggan",
+    "lycanitesmobs:tremor",
+    "lycanitesmobs:xaphan",
+    "lycanitesmobs:zephyr"
+  ],
+  "_comment_watercreature": "Note: The following entities must be specified in potentialspawn.json using the classification string -> 'type': 'waterCreature' to ensure water layer spawning behavior",
+  "watercreature": [
+    "lycanitesmobs:abtu",
+    "lycanitesmobs:herma",
+    "lycanitesmobs:ika",
+    "lycanitesmobs:ioray",
+    "lycanitesmobs:lacedon",
+    "lycanitesmobs:quetzodracl",
+    "lycanitesmobs:raiko",
+    "lycanitesmobs:roa",
+    "lycanitesmobs:skylus",
+    "lycanitesmobs:strider"
+  ]
+}

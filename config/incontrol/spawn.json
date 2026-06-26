@@ -4,12 +4,12 @@
     "mob": ["grimoireofgaia:mimic", "grimoireofgaia:vase"],
     "result": "deny",
     "onjoin": true
-  },
+  }
+,
 
   // Restrict Beholder spawning to only 1 active at a time per player
   {
     "mob": "lycanitesmobs:beholder",
-    "onjoin": true,
     "mincount": {
       "amount": 1,
       "mob": "lycanitesmobs:beholder",
@@ -21,7 +21,6 @@
   // Restrict Shade spawning to only 1 active at a time per player
   {
     "mob": "lycanitesmobs:shade",
-    "onjoin": true,
     "mincount": {
       "amount": 1,
       "mob": "lycanitesmobs:shade",
@@ -30,22 +29,20 @@
     "result": "deny"
   },
 
-  // Restrict Chupacabra spawning to only 3 active at a time per player
+  // Restrict Chupacabra spawning to only 2 active at a time per player (Rare)
   {
     "mob": "lycanitesmobs:chupacabra",
-    "onjoin": true,
     "mincount": {
-      "amount": 3,
+      "amount": 2,
       "mob": "lycanitesmobs:chupacabra",
       "perplayer": true
     },
     "result": "deny"
   },
 
-  // Restrict Darkling spawning to only 3 active at a time per player
+  // Restrict Darkling spawning to only 3 active at a time per player (Uncommon)
   {
     "mob": "lycanitesmobs:darkling",
-    "onjoin": true,
     "mincount": {
       "amount": 3,
       "mob": "lycanitesmobs:darkling",
@@ -54,66 +51,1788 @@
     "result": "deny"
   },
 
-  // Restrict Banshee spawning in The Beneath to only 3 active at a time per player
+  // Restrict Banshee spawning in The Beneath to only 2 active at a time per player (Rare)
   {
     "mob": "lycanitesmobs:banshee",
     "dimension": 10,
-    "onjoin": true,
     "mincount": {
-      "amount": 3,
+      "amount": 2,
       "mob": "lycanitesmobs:banshee",
       "perplayer": true
     },
     "result": "deny"
   },
 
-  // Restrict Geist spawning in The Beneath to only 4 active at a time per player
+  // Restrict Geist spawning in The Beneath to only 2 active at a time per player (Rare)
   {
     "mob": "lycanitesmobs:geist",
     "dimension": 10,
-    "onjoin": true,
     "mincount": {
-      "amount": 4,
+      "amount": 2,
       "mob": "lycanitesmobs:geist",
       "perplayer": true
     },
     "result": "deny"
   },
 
-  // Restrict Eyewig spawning in The Beneath to only 3 active at a time per player
+  // Restrict Eyewig spawning in The Beneath to only 2 active at a time per player (Rare)
   {
     "mob": "lycanitesmobs:eyewig",
     "dimension": 10,
-    "onjoin": true,
     "mincount": {
-      "amount": 3,
+      "amount": 2,
       "mob": "lycanitesmobs:eyewig",
       "perplayer": true
     },
     "result": "deny"
   },
 
-  // Restrict Epion spawning in The Beneath to only 3 active at a time per player
+  // Restrict Epion spawning in The Beneath to only 2 active at a time per player (Rare)
   {
     "mob": "lycanitesmobs:epion",
     "dimension": 10,
-    "onjoin": true,
     "mincount": {
-      "amount": 3,
+      "amount": 2,
       "mob": "lycanitesmobs:epion",
       "perplayer": true
     },
     "result": "deny"
   },
 
-  // Restrict Spectre spawning in The Beneath to only 3 active at a time per player
+  // Restrict Spectre spawning in The Beneath to only 2 active at a time per player (Rare)
   {
     "mob": "lycanitesmobs:spectre",
     "dimension": 10,
-    "onjoin": true,
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:spectre",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:ant spawning to 5 active per player (Common)
+  {
+    "mob": "grimoireofgaia:ant",
+    "mincount": {
+      "amount": 5,
+      "mob": "grimoireofgaia:ant",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:ant_ranger spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:ant_ranger",
     "mincount": {
       "amount": 3,
-      "mob": "lycanitesmobs:spectre",
+      "mob": "grimoireofgaia:ant_ranger",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:anubis spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:anubis",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:anubis",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:banshee spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:banshee",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:banshee",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:baphomet spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:baphomet",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:baphomet",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:bee spawning to 5 active per player (Common)
+  {
+    "mob": "grimoireofgaia:bee",
+    "mincount": {
+      "amount": 5,
+      "mob": "grimoireofgaia:bee",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:beholder spawning to 1 active per player (Elite)
+  {
+    "mob": "grimoireofgaia:beholder",
+    "mincount": {
+      "amount": 1,
+      "mob": "grimoireofgaia:beholder",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:bone_knight spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:bone_knight",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:bone_knight",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:cecaelia spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:cecaelia",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:cecaelia",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:centaur spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:centaur",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:centaur",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:chest spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:chest",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:chest",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:cobble_golem spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:cobble_golem",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:cobble_golem",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:cobblestone_golem spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:cobblestone_golem",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:cobblestone_golem",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:creep spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:creep",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:creep",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:cyan_flower spawning to 5 active per player (Common)
+  {
+    "mob": "grimoireofgaia:cyan_flower",
+    "mincount": {
+      "amount": 5,
+      "mob": "grimoireofgaia:cyan_flower",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:cyclops spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:cyclops",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:cyclops",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:deathword spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:deathword",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:deathword",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:dhampir spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:dhampir",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:dhampir",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:dryad spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:dryad",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:dryad",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:dullahan spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:dullahan",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:dullahan",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:dwarf spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:dwarf",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:dwarf",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:ender_dragon_girl spawning to 1 active per player (Elite)
+  {
+    "mob": "grimoireofgaia:ender_dragon_girl",
+    "mincount": {
+      "amount": 1,
+      "mob": "grimoireofgaia:ender_dragon_girl",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:ender_eye spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:ender_eye",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:ender_eye",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:ender_girl spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:ender_girl",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:ender_girl",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:flesh_lich spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:flesh_lich",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:flesh_lich",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:gelatinous_slime spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:gelatinous_slime",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:gelatinous_slime",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:goblin spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:goblin",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:goblin",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:goblin_feral spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:goblin_feral",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:goblin_feral",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:gorgon spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:gorgon",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:gorgon",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:gryphon spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:gryphon",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:gryphon",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:harpy spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:harpy",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:harpy",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:harpy_wizard spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:harpy_wizard",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:harpy_wizard",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:holstaurus spawning to 5 active per player (Common)
+  {
+    "mob": "grimoireofgaia:holstaurus",
+    "mincount": {
+      "amount": 5,
+      "mob": "grimoireofgaia:holstaurus",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:horse spawning to 5 active per player (Common)
+  {
+    "mob": "grimoireofgaia:horse",
+    "mincount": {
+      "amount": 5,
+      "mob": "grimoireofgaia:horse",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:hunter spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:hunter",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:hunter",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:illager_fire spawning to 1 active per player (Elite)
+  {
+    "mob": "grimoireofgaia:illager_fire",
+    "mincount": {
+      "amount": 1,
+      "mob": "grimoireofgaia:illager_fire",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:illager_inquisitor spawning to 1 active per player (Elite)
+  {
+    "mob": "grimoireofgaia:illager_inquisitor",
+    "mincount": {
+      "amount": 1,
+      "mob": "grimoireofgaia:illager_inquisitor",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:kikimora spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:kikimora",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:kikimora",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:mandragora spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:mandragora",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:mandragora",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:matango spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:matango",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:matango",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:mermaid spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:mermaid",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:mermaid",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:minotaur spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:minotaur",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:minotaur",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:minotaurus spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:minotaurus",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:minotaurus",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:mite spawning to 5 active per player (Common)
+  {
+    "mob": "grimoireofgaia:mite",
+    "mincount": {
+      "amount": 5,
+      "mob": "grimoireofgaia:mite",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:mummy spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:mummy",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:mummy",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:naga spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:naga",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:naga",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:nine_tails spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:nine_tails",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:nine_tails",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:oni spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:oni",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:oni",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:orc spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:orc",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:orc",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:satyress spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:satyress",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:satyress",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:selkie spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:selkie",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:selkie",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:shaman spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:shaman",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:shaman",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:sharko spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:sharko",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:sharko",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:siren spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:siren",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:siren",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:sludge_girl spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:sludge_girl",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:sludge_girl",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:sphinx spawning to 1 active per player (Elite)
+  {
+    "mob": "grimoireofgaia:sphinx",
+    "mincount": {
+      "amount": 1,
+      "mob": "grimoireofgaia:sphinx",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:sporeling spawning to 5 active per player (Common)
+  {
+    "mob": "grimoireofgaia:sporeling",
+    "mincount": {
+      "amount": 5,
+      "mob": "grimoireofgaia:sporeling",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:spriggan spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:spriggan",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:spriggan",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:succubus spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:succubus",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:succubus",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:toad spawning to 5 active per player (Common)
+  {
+    "mob": "grimoireofgaia:toad",
+    "mincount": {
+      "amount": 5,
+      "mob": "grimoireofgaia:toad",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:valkyrie spawning to 1 active per player (Elite)
+  {
+    "mob": "grimoireofgaia:valkyrie",
+    "mincount": {
+      "amount": 1,
+      "mob": "grimoireofgaia:valkyrie",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:vampire spawning to 1 active per player (Elite)
+  {
+    "mob": "grimoireofgaia:vampire",
+    "mincount": {
+      "amount": 1,
+      "mob": "grimoireofgaia:vampire",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:werecat spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:werecat",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:werecat",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:weresheep spawning to 5 active per player (Common)
+  {
+    "mob": "grimoireofgaia:weresheep",
+    "mincount": {
+      "amount": 5,
+      "mob": "grimoireofgaia:weresheep",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:witch spawning to 1 active per player (Elite)
+  {
+    "mob": "grimoireofgaia:witch",
+    "mincount": {
+      "amount": 1,
+      "mob": "grimoireofgaia:witch",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:wither_cow spawning to 2 active per player (Rare)
+  {
+    "mob": "grimoireofgaia:wither_cow",
+    "mincount": {
+      "amount": 2,
+      "mob": "grimoireofgaia:wither_cow",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:yeti spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:yeti",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:yeti",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict grimoireofgaia:yuki-onna spawning to 3 active per player (Uncommon)
+  {
+    "mob": "grimoireofgaia:yuki-onna",
+    "mincount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:yuki-onna",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:abaia spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:abaia",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:abaia",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:abtu spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:abtu",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:abtu",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:aegis spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:aegis",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:aegis",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:afrit spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:afrit",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:afrit",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:aglebemu spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:aglebemu",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:aglebemu",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:amalgalich spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:amalgalich",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:amalgalich",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:arisaur spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:arisaur",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:arisaur",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:aspid spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:aspid",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:aspid",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:balayang spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:balayang",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:balayang",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:barghest spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:barghest",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:barghest",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:bobeko spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:bobeko",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:bobeko",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:calpod spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:calpod",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:calpod",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:cephignis spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:cephignis",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:cephignis",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:cinder spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:cinder",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:cinder",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:clink spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:clink",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:clink",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:cockatrice spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:cockatrice",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:cockatrice",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:conba spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:conba",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:conba",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:concapede spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:concapede",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:concapede",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:concapedesegment spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:concapedesegment",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:concapedesegment",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:crusk spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:crusk",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:crusk",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:cryptkeeper spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:cryptkeeper",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:cryptkeeper",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:dawon spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:dawon",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:dawon",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:dweller spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:dweller",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:dweller",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:eechetik spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:eechetik",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:eechetik",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:ent spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:ent",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:ent",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:erepede spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:erepede",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:erepede",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:ettin spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:ettin",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:ettin",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:feradon spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:feradon",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:feradon",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:frostweaver spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:frostweaver",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:frostweaver",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:geken spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:geken",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:geken",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:gnekk spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:gnekk",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:gnekk",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:gorger spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:gorger",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:gorger",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:gorgomite spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:gorgomite",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:gorgomite",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:grell spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:grell",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:grell",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:grigori spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:grigori",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:grigori",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:grue spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:grue",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:grue",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:herma spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:herma",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:herma",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:ignibus spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:ignibus",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:ignibus",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:ika spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:ika",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:ika",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:ioray spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:ioray",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:ioray",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:jengu spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:jengu",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:jengu",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:joust spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:joust",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:joust",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:joustalpha spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:joustalpha",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:joustalpha",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:khalk spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:khalk",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:khalk",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:kobold spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:kobold",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:kobold",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:krake spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:krake",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:krake",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:lacedon spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:lacedon",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:lacedon",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:lobber spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:lobber",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:lobber",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:lurker spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:lurker",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:lurker",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:maka spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:maka",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:maka",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:makaalpha spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:makaalpha",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:makaalpha",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:maug spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:maug",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:maug",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:morock spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:morock",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:morock",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:nymph spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:nymph",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:nymph",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:pixen spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:pixen",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:pixen",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:quetzodracl spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:quetzodracl",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:quetzodracl",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:quillbeast spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:quillbeast",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:quillbeast",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:raiko spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:raiko",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:raiko",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:reaper spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:reaper",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:reaper",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:reiver spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:reiver",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:reiver",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:roa spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:roa",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:roa",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:roc spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:roc",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:roc",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:salamander spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:salamander",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:salamander",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:serpix spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:serpix",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:serpix",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:shambler spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:shambler",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:shambler",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:silex spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:silex",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:silex",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:skylus spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:skylus",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:skylus",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:strider spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:strider",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:strider",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:sutiramu spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:sutiramu",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:sutiramu",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:sylph spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:sylph",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:sylph",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:tarantula spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:tarantula",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:tarantula",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:thresher spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:thresher",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:thresher",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:tpumpkyn spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:tpumpkyn",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:tpumpkyn",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:treant spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:treant",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:treant",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:triffid spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:triffid",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:triffid",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:troll spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:troll",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:troll",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:uvaraptor spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:uvaraptor",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:uvaraptor",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:vapula spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:vapula",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:vapula",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:ventoraptor spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:ventoraptor",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:ventoraptor",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:vespid spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:vespid",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:vespid",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:vespidqueen spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:vespidqueen",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:vespidqueen",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:volcan spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:volcan",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:volcan",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:warg spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:warg",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:warg",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:wendigo spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:wendigo",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:wendigo",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:wildkin spawning to 3 active per player (Uncommon)
+  {
+    "mob": "lycanitesmobs:wildkin",
+    "mincount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:wildkin",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:wisp spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:wisp",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:wisp",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:wraamon spawning to 5 active per player (Common)
+  {
+    "mob": "lycanitesmobs:wraamon",
+    "mincount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:wraamon",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:wraith spawning to 2 active per player (Rare)
+  {
+    "mob": "lycanitesmobs:wraith",
+    "mincount": {
+      "amount": 2,
+      "mob": "lycanitesmobs:wraith",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+
+  // Restrict lycanitesmobs:zoataur spawning to 1 active per player (Elite)
+  {
+    "mob": "lycanitesmobs:zoataur",
+    "mincount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:zoataur",
       "perplayer": true
     },
     "result": "deny"

@@ -1,0 +1,15 @@
+{
+  "lava": [
+    "lycanitesmobs:cephignis",
+    "lycanitesmobs:gorger",
+    "lycanitesmobs:lobber",
+    "lycanitesmobs:volcan"
+  ],
+  "spawner": [
+    "lycanitesmobs:abaia",
+    "lycanitesmobs:aegis",
+    "lycanitesmobs:cinder",
+    "lycanitesmobs:reaper",
+    "lycanitesmobs:vapula"
+  ]
+}
