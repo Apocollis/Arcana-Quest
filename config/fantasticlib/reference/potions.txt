@@ -213,6 +213,9 @@ da:golden_vow
 da:hunters_mark
 da:poison_garnish
 da:fiery_respite
+da:degradation
+da:hemorrhage
+da:faltered
 aether_legacy:inebriation
 astralsorcery:potioncheatdeath
 astralsorcery:potionbleed

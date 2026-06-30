@@ -9,23 +9,23 @@ To inspect these events manually:
   3) Sort by Date and look for entries with Level = Error or Critical near the crash time.
 
 -----------------------
-Time: 2026-06-22 13:00:34.860 EDT
+Time: 2026-06-29 17:38:39.612 EDT
 Source: Application Hang
 Event ID: 1002
 Level: Error
 
 Message:
-  The program javaw.exe version 25.0.0.0 stopped interacting with Windows and was closed. To see if more information about the problem is available, check the problem history in the Security and Maintenance control panel.
+  The program javaw.exe version 25.0.3.0 stopped interacting with Windows and was closed. To see if more information about the problem is available, check the problem history in the Security and Maintenance control panel.
 
 
 Details:
   - AppName: javaw.exe
-  - AppVersion: 25.0.0.0
-  - Process ID: 28260 [0x6e64]
-  - Start Time: 2026-06-22 12:26:36.887 EDT [0x1dd0263e5a63504]
-  - TerminationTime: 40
-  - ExeFileName: C:\Users\hughe\.cleanroom\java\azul_zulu-25\zulu25.28.85-ca-jdk25.0.0-win_x64\bin\javaw.exe
-  - ReportId: 3ed435ab-eda0-45b7-8efb-35a02677da41
+  - AppVersion: 25.0.3.0
+  - Process ID: 35024 [0x88d0]
+  - Start Time: 2026-06-29 16:15:17.027 EDT [0x1dd08040061b872]
+  - TerminationTime: 59
+  - ExeFileName: C:\Program Files\Zulu\zulu-25\bin\javaw.exe
+  - ReportId: e9b2c066-fb27-4959-ae63-722c3a5de28e
   - HangType: Unknown
 -----------------------
 
