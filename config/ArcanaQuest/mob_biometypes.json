@@ -45,8 +45,9 @@
     "grimoireofgaia:shaman",
     "lycanitesmobs:conba",
     "lycanitesmobs:dawon",
-    "lycanitesmobs:eechetik",
+    "lycanitesmobs:triffid",
     "lycanitesmobs:tarantula",
+
     "lycanitesmobs:vespid",
     "lycanitesmobs:vespidqueen"
   ],
@@ -86,6 +87,7 @@
   ],
   "ocean": [
     "grimoireofgaia:mermaid",
+	"grimoireofgaia:cecaelia",
     "grimoireofgaia:sharko",
     "lycanitesmobs:abtu",
     "lycanitesmobs:herma",
@@ -139,7 +141,6 @@
     "lycanitesmobs:tpumpkyn"
   ],
   "swamp": [
-    "grimoireofgaia:cecaelia",
     "grimoireofgaia:gelatinous_slime",
     "grimoireofgaia:naga",
     "grimoireofgaia:siren",

@@ -749,33 +749,33 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:abaia spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:abaia spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:abaia",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:abaia",
         "perplayer": true
       },
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:abtu spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:abtu spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:abtu",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:abtu",
         "perplayer": true
       },
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:aegis spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:aegis spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:aegis",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:aegis",
         "perplayer": true
       },
@@ -793,11 +793,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:aglebemu spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:aglebemu spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:aglebemu",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:aglebemu",
         "perplayer": true
       },
@@ -881,11 +881,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:cinder spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:cinder spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:cinder",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:cinder",
         "perplayer": true
       },
@@ -914,11 +914,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:conba spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:conba spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:conba",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:conba",
         "perplayer": true
       },
@@ -958,11 +958,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:dweller spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:dweller spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:dweller",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:dweller",
         "perplayer": true
       },
@@ -1002,11 +1002,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:feradon spawning to 3 active per player (Uncommon)
+  // Restrict lycanitesmobs:feradon spawning to 2 active per player (Rare)
   {
       "mob": "lycanitesmobs:feradon",
       "mincount": {
-        "amount": 3,
+        "amount": 2,
         "mob": "lycanitesmobs:feradon",
         "perplayer": true
       },
@@ -1024,22 +1024,22 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:geken spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:geken spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:geken",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:geken",
         "perplayer": true
       },
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:gnekk spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:gnekk spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:gnekk",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:gnekk",
         "perplayer": true
       },
@@ -1101,11 +1101,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:herma spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:herma spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:herma",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:herma",
         "perplayer": true
       },
@@ -1123,22 +1123,22 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:ika spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:ika spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:ika",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:ika",
         "perplayer": true
       },
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:ioray spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:ioray spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:ioray",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:ioray",
         "perplayer": true
       },
@@ -1189,11 +1189,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:kobold spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:kobold spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:kobold",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:kobold",
         "perplayer": true
       },
@@ -1211,11 +1211,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:lacedon spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:lacedon spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:lacedon",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:lacedon",
         "perplayer": true
       },
@@ -1277,22 +1277,22 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:nymph spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:nymph spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:nymph",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:nymph",
         "perplayer": true
       },
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:pixen spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:pixen spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:pixen",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:pixen",
         "perplayer": true
       },
@@ -1310,11 +1310,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:quillbeast spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:quillbeast spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:quillbeast",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:quillbeast",
         "perplayer": true
       },
@@ -1332,11 +1332,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:reaper spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:reaper spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:reaper",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:reaper",
         "perplayer": true
       },
@@ -1354,11 +1354,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:roa spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:roa spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:roa",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:roa",
         "perplayer": true
       },
@@ -1409,11 +1409,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:silex spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:silex spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:silex",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:silex",
         "perplayer": true
       },
@@ -1486,11 +1486,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:tpumpkyn spawning to 3 active per player (Uncommon)
+  // Restrict lycanitesmobs:tpumpkyn spawning to 2 active per player (Rare)
   {
       "mob": "lycanitesmobs:tpumpkyn",
       "mincount": {
-        "amount": 3,
+        "amount": 2,
         "mob": "lycanitesmobs:tpumpkyn",
         "perplayer": true
       },
@@ -1519,11 +1519,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:troll spawning to 3 active per player (Uncommon)
+  // Restrict lycanitesmobs:troll spawning to 2 active per player (Rare)
   {
       "mob": "lycanitesmobs:troll",
       "mincount": {
-        "amount": 3,
+        "amount": 2,
         "mob": "lycanitesmobs:troll",
         "perplayer": true
       },
@@ -1541,11 +1541,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:vapula spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:vapula spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:vapula",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:vapula",
         "perplayer": true
       },
@@ -1596,11 +1596,11 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:warg spawning to 3 active per player (Uncommon)
+  // Restrict lycanitesmobs:warg spawning to 2 active per player (Rare)
   {
       "mob": "lycanitesmobs:warg",
       "mincount": {
-        "amount": 3,
+        "amount": 2,
         "mob": "lycanitesmobs:warg",
         "perplayer": true
       },
@@ -1618,33 +1618,33 @@
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:wildkin spawning to 3 active per player (Uncommon)
+  // Restrict lycanitesmobs:wildkin spawning to 2 active per player (Rare)
   {
       "mob": "lycanitesmobs:wildkin",
       "mincount": {
-        "amount": 3,
+        "amount": 2,
         "mob": "lycanitesmobs:wildkin",
         "perplayer": true
       },
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:wisp spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:wisp spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:wisp",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:wisp",
         "perplayer": true
       },
       "result": "deny"
     },
 
-  // Restrict lycanitesmobs:wraamon spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:wraamon spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:wraamon",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:wraamon",
         "perplayer": true
       },
@@ -2010,6 +2010,15 @@
     "healthmultiply": 0.25,
     "damagemultiply": 0.5
   },
+
+  // Hostile Grimoire of Gaia Mob Damage Reduction
+  {
+    "mod": "grimoireofgaia",
+    "hostile": true,
+    "result": "default",
+    "damagemultiply": 0.5
+  },
+
   
   // Deadlier Underground
     {
@@ -2197,11 +2206,11 @@
       },
       "result": "deny"
     },
-  // Restrict lycanitesmobs:ghoul spawning to 5 active per player (Common)
+  // Restrict lycanitesmobs:ghoul spawning to 3 active per player (Uncommon)
   {
       "mob": "lycanitesmobs:ghoul",
       "mincount": {
-        "amount": 5,
+        "amount": 3,
         "mob": "lycanitesmobs:ghoul",
         "perplayer": true
       },

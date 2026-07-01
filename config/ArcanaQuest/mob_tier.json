@@ -1,6 +1,13 @@
 {
   "common": [
-    "lycanitesmobs:abaia",
+
+  ],
+  "uncommon": [
+    "grimoireofgaia:dwarf",
+    "grimoireofgaia:goblin",
+    "grimoireofgaia:goblin_feral",
+    "grimoireofgaia:orc",
+	"lycanitesmobs:abaia",
     "lycanitesmobs:abtu",
     "lycanitesmobs:aegis",
     "lycanitesmobs:aglebemu",
@@ -23,13 +30,7 @@
     "lycanitesmobs:silex",
     "lycanitesmobs:vapula",
     "lycanitesmobs:wisp",
-    "lycanitesmobs:wraamon"
-  ],
-  "uncommon": [
-    "grimoireofgaia:dwarf",
-    "grimoireofgaia:goblin",
-    "grimoireofgaia:goblin_feral",
-    "grimoireofgaia:orc",
+    "lycanitesmobs:wraamon",
     "lycanitesmobs:arix",
     "lycanitesmobs:balayang",
     "lycanitesmobs:barghest",
@@ -39,7 +40,6 @@
     "lycanitesmobs:darkling",
     "lycanitesmobs:dawon",
     "lycanitesmobs:ent",
-    "lycanitesmobs:feradon",
     "lycanitesmobs:frostweaver",
     "lycanitesmobs:gorgomite",
     "lycanitesmobs:jabberwock",
@@ -51,12 +51,9 @@
     "lycanitesmobs:shambler",
     "lycanitesmobs:spriggan",
     "lycanitesmobs:sylph",
-    "lycanitesmobs:tpumpkyn",
-    "lycanitesmobs:troll",
-    "lycanitesmobs:vespid",
-    "lycanitesmobs:warg",
-    "lycanitesmobs:wildkin"
+    "lycanitesmobs:vespid"
   ],
+
   "rare": [
     "grimoireofgaia:anubis",
     "grimoireofgaia:arachne",
@@ -121,11 +118,15 @@
     "lycanitesmobs:strider",
     "lycanitesmobs:tarantula",
     "lycanitesmobs:triffid",
+	"lycanitesmobs:feradon",
     "lycanitesmobs:vespidqueen",
     "lycanitesmobs:wendigo",
     "lycanitesmobs:wraith",
-    "lycanitesmobs:yale",
-    "lycanitesmobs:zephyr"
+    "lycanitesmobs:zephyr",
+	"lycanitesmobs:tpumpkyn",
+    "lycanitesmobs:troll",
+	"lycanitesmobs:warg",
+    "lycanitesmobs:wildkin"
   ],
   "elite": [
     "grimoireofgaia:beholder",

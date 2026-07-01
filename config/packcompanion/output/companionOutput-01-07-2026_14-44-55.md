@@ -27,3 +27,7 @@
 | RandomPortals             | PROBLEMATIC     | Replace with [Clean Portals](https://www.curseforge.com/minecraft/mc-mods/clean-portals-randomportals-cleanroom-edition)                               | Does not work with Cleanroom Launcher. Use the Cleanroom Edition replacement.                                                                                                                            |
 
 
+## Config Analysis
+| Mod Name                  | Config Name                              | Reason                                                                                                                                                 |
+| :---                      | :---                                     | :---                                                                                                                                                   |
+

@@ -105,8 +105,6 @@ key_key.dss.togglehud.desc:47
 key_Open Baubles' Sidebar:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_arcanearchives.gui.keybinds.socket:0
-key_quark.keybind.lockBuilding:0
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -132,6 +130,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
 key_key.betterquesting.quests:0
 key_key.betterquesting.back:14
 key_keybind.openSelectionWheel:56
@@ -144,7 +144,7 @@ key_key.ftbutilities.trash:211
 key_ingameinfoxml.key.toggle:0
 key_key.mount.dismount:46
 key_key.mount.descend:42
-key_key.mount.ability:45
+key_key.mount.ability:0
 key_key.mount.inventory:0
 key_key.index:34
 key_key.beastiary:0
@@ -154,7 +154,7 @@ key_key.minions:19
 key_key.open_menu:19
 key_key.moreoverlays.lightoverlay.desc:65
 key_key.moreoverlays.chunkbounds.desc:67
-key_key.ability.nanohsbaublesability:45
+key_key.ability.nanohsbaublesability:0
 key_keys.servertabinfo.show:29
 key_keys.servertabinfo.show2:157
 key_key.spartanweaponry.access_quiver:0
