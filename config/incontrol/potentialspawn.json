@@ -7,49 +7,49 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:gryphon",
-        "weight": 20,
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:valkyrie",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -67,19 +67,19 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
-        "groupcountmin": 1,
-        "groupcountmax": 4
-      },
-      {
-        "mob": "lycanitesmobs:ettin",
         "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
+        "mob": "lycanitesmobs:ettin",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -87,11 +87,11 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -103,15 +103,15 @@
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:zoataur",
@@ -129,69 +129,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cecaelia",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:gelatinous_slime",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:siren",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sludge_girl",
-        "weight": 35,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:toad",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:aglebemu",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:aglebemu",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:dweller",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:geken",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:krake",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:triffid",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -203,123 +203,123 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:bone_knight",
-        "weight": 25,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cecaelia",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dhampir",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dullahan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:flesh_lich",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:gelatinous_slime",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:siren",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sludge_girl",
-        "weight": 35,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:toad",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:vampire",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:aglebemu",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:dweller",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:geken",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:ghoul",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:krake",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:necrovore",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:remobra",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:tpumpkyn",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:triffid",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -331,27 +331,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -361,7 +361,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -399,7 +399,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:goblin",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -411,7 +411,7 @@
       },
       {
         "mob": "grimoireofgaia:orc",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -425,27 +425,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -455,7 +455,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -493,37 +493,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:harpy",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:kobold",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:minotaur",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:minotaurus",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:satyress",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
@@ -553,15 +547,15 @@
       },
       {
         "mob": "lycanitesmobs:quillbeast",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:roc",
-        "weight": 40,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },
@@ -573,19 +567,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -597,13 +591,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -611,19 +605,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -635,19 +629,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -659,13 +653,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -673,19 +667,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -697,19 +691,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -721,13 +715,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -735,19 +729,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -759,31 +753,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:gryphon",
-        "weight": 20,
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:valkyrie",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -795,9 +789,9 @@
       },
       {
         "mob": "lycanitesmobs:ettin",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:troll",
@@ -807,9 +801,9 @@
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:zoataur",
@@ -827,57 +821,114 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:bone_knight",
-        "weight": 25,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dhampir",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dullahan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:flesh_lich",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:vampire",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ghoul",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:necrovore",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:remobra",
-        "weight": 20,
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:tpumpkyn",
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biome": [
+      "Deep Ocean"
+    ],
+    "type": "waterCreature",
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:abtu",
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:tpumpkyn",
-        "weight": 20,
+        "mob": "lycanitesmobs:herma",
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ika",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ioray",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:lacedon",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:roa",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:skylus",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:strider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       }
     ]
   },
@@ -889,75 +940,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:mermaid",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "grimoireofgaia:sharko",
-        "weight": 20,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
-        "mob": "lycanitesmobs:abtu",
-        "weight": 20,
+        "mob": "grimoireofgaia:sharko",
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:herma",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:ika",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:ioray",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:lacedon",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:quetzodracl",
-        "weight": 1,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:raiko",
-        "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:roa",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:skylus",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:strider",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -969,57 +972,57 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:anubis",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:mummy",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sphinx",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:balayang",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:clink",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:crusk",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:cryptkeeper",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:gorgomite",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:salamander",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -1031,57 +1034,57 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:anubis",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:mummy",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sphinx",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:balayang",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:clink",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:crusk",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:cryptkeeper",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:gorgomite",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:salamander",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -1093,57 +1096,57 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:anubis",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:mummy",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sphinx",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:balayang",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:clink",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:crusk",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:cryptkeeper",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:gorgomite",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:salamander",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -1155,55 +1158,55 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:bone_knight",
-        "weight": 25,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dhampir",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dullahan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:flesh_lich",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:vampire",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ghoul",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:necrovore",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:remobra",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:tpumpkyn",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1217,31 +1220,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:gryphon",
-        "weight": 20,
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:valkyrie",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -1253,9 +1256,9 @@
       },
       {
         "mob": "lycanitesmobs:ettin",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:troll",
@@ -1265,9 +1268,9 @@
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:zoataur",
@@ -1285,31 +1288,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:gryphon",
-        "weight": 20,
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:valkyrie",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -1321,9 +1324,9 @@
       },
       {
         "mob": "lycanitesmobs:ettin",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:troll",
@@ -1333,9 +1336,9 @@
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:zoataur",
@@ -1353,31 +1356,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:gryphon",
-        "weight": 20,
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:valkyrie",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -1389,9 +1392,9 @@
       },
       {
         "mob": "lycanitesmobs:ettin",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:troll",
@@ -1401,9 +1404,9 @@
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:zoataur",
@@ -1421,31 +1424,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:gryphon",
-        "weight": 20,
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:valkyrie",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -1457,9 +1460,9 @@
       },
       {
         "mob": "lycanitesmobs:ettin",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:troll",
@@ -1469,9 +1472,9 @@
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:zoataur",
@@ -1489,31 +1492,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:gryphon",
-        "weight": 20,
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:valkyrie",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -1525,9 +1528,9 @@
       },
       {
         "mob": "lycanitesmobs:ettin",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:troll",
@@ -1537,9 +1540,9 @@
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:zoataur",
@@ -1557,69 +1560,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cecaelia",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:gelatinous_slime",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:siren",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sludge_girl",
-        "weight": 35,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:toad",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:aglebemu",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:aglebemu",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:dweller",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:geken",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:krake",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:triffid",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -1631,27 +1634,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -1661,7 +1664,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -1699,27 +1702,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -1729,7 +1732,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -1767,27 +1770,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -1797,7 +1800,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -1832,78 +1835,87 @@
     "biome": [
       "Frozen Ocean"
     ],
+    "type": "waterCreature",
     "mobs": [
       {
-        "mob": "grimoireofgaia:mermaid",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "grimoireofgaia:sharko",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
         "mob": "lycanitesmobs:abtu",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:herma",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:ika",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:ioray",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:lacedon",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:quetzodracl",
-        "weight": 1,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "lycanitesmobs:raiko",
-        "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:roa",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:skylus",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
+        "mob": "lycanitesmobs:herma",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ika",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ioray",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:lacedon",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:roa",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:skylus",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
         "mob": "lycanitesmobs:strider",
         "weight": 5,
         "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biome": [
+      "Frozen Ocean"
+    ],
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:mermaid",
+        "weight": 2,
+        "groupcountmin": 1,
         "groupcountmax": 1
+      },
+      {
+        "mob": "grimoireofgaia:sharko",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:quetzodracl",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+      {
+        "mob": "lycanitesmobs:raiko",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       }
     ]
   },
@@ -1915,19 +1927,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -1939,13 +1951,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -1953,19 +1965,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -1977,39 +1989,39 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:deathword",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:matango",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:nine_tails",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sporeling",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:spriggan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:nymph",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:pixen",
@@ -2019,15 +2031,15 @@
       },
       {
         "mob": "lycanitesmobs:sylph",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 5
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wisp",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       }
     ]
   },
@@ -2039,37 +2051,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:harpy",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:kobold",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:minotaur",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:minotaurus",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:satyress",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
@@ -2099,13 +2105,70 @@
       },
       {
         "mob": "lycanitesmobs:quillbeast",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:roc",
-        "weight": 40,
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biome": [
+      "Gravel Beach"
+    ],
+    "type": "waterCreature",
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:abtu",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:herma",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ika",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ioray",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:lacedon",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:roa",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:skylus",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:strider",
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       }
@@ -2119,75 +2182,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:mermaid",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "grimoireofgaia:sharko",
-        "weight": 20,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
-        "mob": "lycanitesmobs:abtu",
-        "weight": 20,
+        "mob": "grimoireofgaia:sharko",
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:herma",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:ika",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:ioray",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:lacedon",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:quetzodracl",
-        "weight": 1,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:raiko",
-        "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:roa",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:skylus",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:strider",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -2199,31 +2214,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:gryphon",
-        "weight": 20,
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:valkyrie",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -2235,9 +2250,9 @@
       },
       {
         "mob": "lycanitesmobs:ettin",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:troll",
@@ -2247,9 +2262,9 @@
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:zoataur",
@@ -2267,19 +2282,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -2291,13 +2306,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -2305,19 +2320,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -2329,19 +2344,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -2353,13 +2368,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -2367,19 +2382,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -2391,19 +2406,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -2415,13 +2430,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -2429,19 +2444,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -2453,69 +2468,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cobble_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cobblestone_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:hunter",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:shaman",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:conba",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:dawon",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:eechetik",
-        "weight": 20,
+        "mob": "lycanitesmobs:dawon",
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:eechetik",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:tarantula",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:vespid",
-        "weight": 20,
-        "groupcountmin": 3,
-        "groupcountmax": 6
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:vespidqueen",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -2527,69 +2542,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cobble_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cobblestone_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:hunter",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:shaman",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:conba",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:dawon",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:eechetik",
-        "weight": 20,
+        "mob": "lycanitesmobs:dawon",
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:eechetik",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:tarantula",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:vespid",
-        "weight": 20,
-        "groupcountmin": 3,
-        "groupcountmax": 6
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:vespidqueen",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -2601,69 +2616,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cobble_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cobblestone_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:hunter",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:shaman",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:conba",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:dawon",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:eechetik",
-        "weight": 20,
+        "mob": "lycanitesmobs:dawon",
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:eechetik",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:tarantula",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:vespid",
-        "weight": 20,
-        "groupcountmin": 3,
-        "groupcountmax": 6
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:vespidqueen",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -2675,69 +2690,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cobble_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cobblestone_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:hunter",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:shaman",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:conba",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:dawon",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:eechetik",
-        "weight": 20,
+        "mob": "lycanitesmobs:dawon",
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:eechetik",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:tarantula",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:vespid",
-        "weight": 20,
-        "groupcountmin": 3,
-        "groupcountmax": 6
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:vespidqueen",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -2749,69 +2764,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cobble_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cobblestone_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:hunter",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:shaman",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:conba",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:dawon",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:eechetik",
-        "weight": 20,
+        "mob": "lycanitesmobs:dawon",
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:eechetik",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:tarantula",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:vespid",
-        "weight": 20,
-        "groupcountmin": 3,
-        "groupcountmax": 6
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:vespidqueen",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -2823,37 +2838,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:harpy",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:kobold",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:minotaur",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:minotaurus",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:satyress",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
@@ -2883,15 +2892,15 @@
       },
       {
         "mob": "lycanitesmobs:quillbeast",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:roc",
-        "weight": 40,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },
@@ -2903,57 +2912,57 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:deathword",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:matango",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:nine_tails",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sporeling",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:spriggan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -2963,15 +2972,15 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:nymph",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:pixen",
@@ -2987,9 +2996,9 @@
       },
       {
         "mob": "lycanitesmobs:sylph",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 5
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:treant",
@@ -3011,9 +3020,9 @@
       },
       {
         "mob": "lycanitesmobs:wisp",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       }
     ]
   },
@@ -3025,27 +3034,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -3055,7 +3064,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -3093,69 +3102,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cecaelia",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:gelatinous_slime",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:siren",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sludge_girl",
-        "weight": 35,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:toad",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:aglebemu",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:aglebemu",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:dweller",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:geken",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:krake",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:triffid",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -3167,37 +3176,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:harpy",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:kobold",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:minotaur",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:minotaurus",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:satyress",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
@@ -3227,15 +3230,15 @@
       },
       {
         "mob": "lycanitesmobs:quillbeast",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:roc",
-        "weight": 40,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },
@@ -3247,31 +3250,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:gryphon",
-        "weight": 20,
+        "mob": "grimoireofgaia:dwarf",
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
+      },
+      {
+        "mob": "grimoireofgaia:gryphon",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:valkyrie",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -3283,9 +3286,9 @@
       },
       {
         "mob": "lycanitesmobs:ettin",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:troll",
@@ -3295,9 +3298,9 @@
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:zoataur",
@@ -3315,39 +3318,39 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:deathword",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:matango",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:nine_tails",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sporeling",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:spriggan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:nymph",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:pixen",
@@ -3357,15 +3360,15 @@
       },
       {
         "mob": "lycanitesmobs:sylph",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 5
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wisp",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       }
     ]
   },
@@ -3377,39 +3380,39 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:deathword",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:matango",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:nine_tails",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sporeling",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:spriggan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:nymph",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:pixen",
@@ -3419,15 +3422,15 @@
       },
       {
         "mob": "lycanitesmobs:sylph",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 5
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wisp",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       }
     ]
   },
@@ -3439,19 +3442,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -3463,13 +3466,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -3477,19 +3480,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -3501,57 +3504,57 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:deathword",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:matango",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:nine_tails",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sporeling",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:spriggan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -3561,15 +3564,15 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:nymph",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:pixen",
@@ -3585,9 +3588,9 @@
       },
       {
         "mob": "lycanitesmobs:sylph",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 5
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:treant",
@@ -3609,9 +3612,9 @@
       },
       {
         "mob": "lycanitesmobs:wisp",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       }
     ]
   },
@@ -3623,57 +3626,114 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:anubis",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:mummy",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sphinx",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:balayang",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:clink",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:crusk",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:cryptkeeper",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:gorgomite",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:salamander",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biome": [
+      "Ocean"
+    ],
+    "type": "waterCreature",
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:abtu",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:herma",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ika",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ioray",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:lacedon",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:roa",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:skylus",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:strider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       }
     ]
   },
@@ -3685,75 +3745,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:mermaid",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "grimoireofgaia:sharko",
-        "weight": 20,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
-        "mob": "lycanitesmobs:abtu",
-        "weight": 20,
+        "mob": "grimoireofgaia:sharko",
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:herma",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:ika",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:ioray",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:lacedon",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:quetzodracl",
-        "weight": 1,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:raiko",
-        "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:roa",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:skylus",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:strider",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -3765,55 +3777,55 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:bone_knight",
-        "weight": 25,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dhampir",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dullahan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:flesh_lich",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:vampire",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ghoul",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:necrovore",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:remobra",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:tpumpkyn",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -3827,37 +3839,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:harpy",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:kobold",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:minotaur",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:minotaurus",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:satyress",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
@@ -3887,15 +3893,15 @@
       },
       {
         "mob": "lycanitesmobs:quillbeast",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:roc",
-        "weight": 40,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },
@@ -3907,13 +3913,13 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:anubis",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:goblin",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -3925,57 +3931,57 @@
       },
       {
         "mob": "grimoireofgaia:mummy",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:orc",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "grimoireofgaia:sphinx",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:balayang",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:clink",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:crusk",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:cryptkeeper",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:gorgomite",
-        "weight": 15,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:salamander",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -3987,37 +3993,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:harpy",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:kobold",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:minotaur",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:minotaurus",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:satyress",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
@@ -4047,15 +4047,15 @@
       },
       {
         "mob": "lycanitesmobs:quillbeast",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:roc",
-        "weight": 40,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },
@@ -4067,37 +4067,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:harpy",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:kobold",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:minotaur",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:minotaurus",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:satyress",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
@@ -4127,15 +4121,15 @@
       },
       {
         "mob": "lycanitesmobs:quillbeast",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:roc",
-        "weight": 40,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },
@@ -4147,69 +4141,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cecaelia",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:gelatinous_slime",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:siren",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sludge_girl",
-        "weight": 35,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:toad",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:aglebemu",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:aglebemu",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:dweller",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:geken",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:krake",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:triffid",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -4221,69 +4215,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cobble_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cobblestone_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:hunter",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:shaman",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:conba",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:dawon",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:eechetik",
-        "weight": 20,
+        "mob": "lycanitesmobs:dawon",
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:eechetik",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:tarantula",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:vespid",
-        "weight": 20,
-        "groupcountmin": 3,
-        "groupcountmax": 6
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:vespidqueen",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -4295,57 +4289,57 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:bone_knight",
-        "weight": 25,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dhampir",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dullahan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:flesh_lich",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:vampire",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -4355,27 +4349,27 @@
       },
       {
         "mob": "lycanitesmobs:ghoul",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:necrovore",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:remobra",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:shambler",
@@ -4385,7 +4379,7 @@
       },
       {
         "mob": "lycanitesmobs:tpumpkyn",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -4417,27 +4411,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -4447,7 +4441,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -4485,57 +4479,57 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:deathword",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:matango",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:nine_tails",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sporeling",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:spriggan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -4545,15 +4539,15 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:nymph",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:pixen",
@@ -4569,9 +4563,9 @@
       },
       {
         "mob": "lycanitesmobs:sylph",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 5
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:treant",
@@ -4593,9 +4587,9 @@
       },
       {
         "mob": "lycanitesmobs:wisp",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       }
     ]
   },
@@ -4607,7 +4601,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:goblin",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -4619,7 +4613,7 @@
       },
       {
         "mob": "grimoireofgaia:orc",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -4633,7 +4627,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:goblin",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -4645,7 +4639,7 @@
       },
       {
         "mob": "grimoireofgaia:orc",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -4659,7 +4653,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:goblin",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -4671,7 +4665,7 @@
       },
       {
         "mob": "grimoireofgaia:orc",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -4685,7 +4679,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:goblin",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -4697,7 +4691,7 @@
       },
       {
         "mob": "grimoireofgaia:orc",
-        "weight": 30,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -4711,19 +4705,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -4735,13 +4729,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -4749,19 +4743,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -4773,19 +4767,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -4797,13 +4791,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -4811,87 +4805,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  {
-    "dimension": 0,
-    "biome": [
-      "Stone Beach"
-    ],
-    "mobs": [
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "grimoireofgaia:gorgon",
         "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:beholder",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "lycanitesmobs:chupacabra",
-        "weight": 8,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:darkling",
-        "weight": 8,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:krake",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:shade",
-        "weight": 5,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:silex",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 6
-      },
-      {
-        "mob": "lycanitesmobs:wraamon",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 5
-      },
-      {
-        "mob": "lycanitesmobs:yale",
-        "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 3
       }
     ]
   },
@@ -4903,37 +4829,31 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
-        "weight": 15,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:harpy",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:kobold",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:minotaur",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:minotaurus",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:satyress",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
@@ -4963,15 +4883,15 @@
       },
       {
         "mob": "lycanitesmobs:quillbeast",
-        "weight": 5,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:roc",
-        "weight": 40,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       }
     ]
   },
@@ -4983,69 +4903,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cecaelia",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:gelatinous_slime",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:siren",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sludge_girl",
-        "weight": 35,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:toad",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:aglebemu",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:aglebemu",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:dweller",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:geken",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:krake",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:triffid",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -5057,69 +4977,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cecaelia",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:gelatinous_slime",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:siren",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sludge_girl",
-        "weight": 35,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:toad",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:aglebemu",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:aglebemu",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:dweller",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:geken",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:krake",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:triffid",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -5131,27 +5051,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -5161,7 +5081,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -5199,27 +5119,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -5229,7 +5149,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -5267,27 +5187,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -5297,7 +5217,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -5335,69 +5255,69 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cobble_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:cobblestone_golem",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:hunter",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:shaman",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:conba",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:dawon",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:eechetik",
-        "weight": 20,
+        "mob": "lycanitesmobs:dawon",
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:eechetik",
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:tarantula",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:vespid",
-        "weight": 20,
-        "groupcountmin": 3,
-        "groupcountmax": 6
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:vespidqueen",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -5409,19 +5329,19 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yeti",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:yuki-onna",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
@@ -5433,13 +5353,13 @@
       },
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 25,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -5447,87 +5367,19 @@
         "mob": "lycanitesmobs:maug",
         "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 5,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wendigo",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  {
-    "dimension": 0,
-    "biome": [
-      "Undergarden"
-    ],
-    "mobs": [
-      {
-        "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "grimoireofgaia:gorgon",
         "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:beholder",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      },
-      {
-        "mob": "lycanitesmobs:chupacabra",
-        "weight": 8,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:darkling",
-        "weight": 8,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:krake",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:shade",
-        "weight": 5,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:silex",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 6
-      },
-      {
-        "mob": "lycanitesmobs:wraamon",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 5
-      },
-      {
-        "mob": "lycanitesmobs:yale",
-        "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 3
       }
     ]
   },
@@ -5539,55 +5391,55 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:bone_knight",
-        "weight": 25,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dhampir",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dullahan",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:flesh_lich",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:vampire",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ghoul",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:necrovore",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:remobra",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:tpumpkyn",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -5601,69 +5453,126 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cecaelia",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:gelatinous_slime",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:naga",
-        "weight": 10,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:siren",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:sludge_girl",
-        "weight": 35,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:toad",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:aglebemu",
         "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:aglebemu",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:dweller",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:geken",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:krake",
-        "weight": 20,
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:triffid",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biome": [
+      "White Beach"
+    ],
+    "type": "waterCreature",
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:abtu",
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
-        "mob": "lycanitesmobs:triffid",
-        "weight": 20,
+        "mob": "lycanitesmobs:herma",
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ika",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:ioray",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:lacedon",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:roa",
+        "weight": 15,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:skylus",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      },
+      {
+        "mob": "lycanitesmobs:strider",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 2
       }
     ]
   },
@@ -5675,75 +5584,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:mermaid",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "grimoireofgaia:sharko",
-        "weight": 20,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
-        "mob": "lycanitesmobs:abtu",
-        "weight": 20,
+        "mob": "grimoireofgaia:sharko",
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:herma",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:ika",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:ioray",
-        "weight": 10,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:lacedon",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:quetzodracl",
-        "weight": 1,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:raiko",
-        "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 2
-      },
-      {
-        "mob": "lycanitesmobs:roa",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:skylus",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "lycanitesmobs:strider",
         "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       }
     ]
   },
@@ -5755,27 +5616,27 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:witch",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:ent",
@@ -5785,7 +5646,7 @@
       },
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -5820,57 +5681,57 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:baphomet",
-        "weight": 8,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:oni",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:succubus",
-        "weight": 8,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "grimoireofgaia:wither_cow",
-        "weight": 6,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:afrit",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:gnekk",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:grell",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:grigori",
-        "weight": 20,
-        "groupcountmin": 3,
-        "groupcountmax": 5
+        "weight": 2,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:wraith",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -5879,33 +5740,33 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:beholder",
-        "weight": 1,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:creep",
-        "weight": 30,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:ender_dragon_girl",
-        "weight": 1,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "grimoireofgaia:ender_eye",
-        "weight": 30,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:wraamon",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 5
+        "groupcountmax": 3
       }
     ]
   },
@@ -5914,27 +5775,27 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:banshee",
-        "weight": 1,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:epion",
-        "weight": 10,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:eyewig",
-        "weight": 1,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:geist",
-        "weight": 2,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 1
+        "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:grue",
@@ -5944,9 +5805,9 @@
       },
       {
         "mob": "lycanitesmobs:spectre",
-        "weight": 20,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   },
@@ -5955,9 +5816,9 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:dwarf",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
-        "groupcountmax": 2
+        "groupcountmax": 3
       },
       {
         "mob": "grimoireofgaia:gorgon",
@@ -5967,51 +5828,51 @@
       },
       {
         "mob": "lycanitesmobs:beholder",
-        "weight": 20,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:chupacabra",
-        "weight": 8,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
         "mob": "lycanitesmobs:darkling",
-        "weight": 8,
+        "weight": 10,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      },
+      {
+        "mob": "lycanitesmobs:krake",
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
       },
       {
-        "mob": "lycanitesmobs:krake",
-        "weight": 20,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:shade",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 1
       },
       {
         "mob": "lycanitesmobs:silex",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 6
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:wraamon",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 1,
-        "groupcountmax": 5
+        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:yale",
-        "weight": 40,
+        "weight": 5,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 2
       }
     ]
   }

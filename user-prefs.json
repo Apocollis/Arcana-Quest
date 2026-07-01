@@ -10062,11 +10062,7 @@
         "isSelected": true
       },
       {
-        "path": "config\\packcompanion\\output\\companionOutput-30-06-2026_18-49-36.html",
-        "isSelected": true
-      },
-      {
-        "path": "config\\packcompanion\\output\\companionOutput-30-06-2026_18-49-36.md",
+        "path": "config\\packcompanion\\output\\companionOutput-01-07-2026_14-44-55.md",
         "isSelected": true
       },
       {
@@ -16535,7 +16531,7 @@
       },
       {
         "path": "mods\\packcompanion-1.1.0.jar",
-        "isSelected": true
+        "isSelected": false
       },
       {
         "path": "mods\\Patchouli-1.0-28.jar",
@@ -23722,11 +23718,11 @@
         "isSelected": true
       },
       {
-        "path": "scripts\\crafttweaker\\lycanite_stages.zs",
+        "path": "scripts\\crafttweaker\\metallurgy_alchemical_brass.zs",
         "isSelected": true
       },
       {
-        "path": "scripts\\crafttweaker\\metallurgy_alchemical_brass.zs",
+        "path": "scripts\\crafttweaker\\mob_stages.zs",
         "isSelected": true
       },
       {
@@ -28386,7 +28382,7 @@
         "isSelected": false
       }
     ],
-    "exportFilterMode": "AllMods",
+    "exportFilterMode": "Custom",
     "recommendedRam": 8192,
     "enableRecommendedRam": true
   }

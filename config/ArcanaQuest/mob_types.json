@@ -17,13 +17,14 @@
   "aquatic": [
     "grimoireofgaia:cecaelia",
     "grimoireofgaia:mermaid",
-    "grimoireofgaia:sharko",
     "grimoireofgaia:selkie",
+    "grimoireofgaia:sharko",
     "grimoireofgaia:siren"
   ],
   "avian": [
     "grimoireofgaia:gryphon",
     "lycanitesmobs:cockatrice",
+    "lycanitesmobs:quetzodracl",
     "lycanitesmobs:raiko",
     "lycanitesmobs:roc"
   ],
@@ -173,7 +174,6 @@
     "lycanitesmobs:ika",
     "lycanitesmobs:ioray",
     "lycanitesmobs:lacedon",
-    "lycanitesmobs:quetzodracl",
     "lycanitesmobs:roa",
     "lycanitesmobs:skylus",
     "lycanitesmobs:strider"

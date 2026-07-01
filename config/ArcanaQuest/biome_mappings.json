@@ -127,9 +127,5 @@
     "biomesoplenty:marsh",
     "biomesoplenty:quagmire",
     "biomesoplenty:wetland"
-  ],
-  "underground": [
-    "minecraft:stone_beach",
-    "biomesoplenty:undergarden"
   ]
 }
