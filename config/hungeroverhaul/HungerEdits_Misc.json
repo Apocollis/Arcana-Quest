@@ -142,6 +142,30 @@
 			"meta": 0,
 			"hunger": 0,
 			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_white_infused_tea_base",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_black_infused_tea_base",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_green_infused_tea_base",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "contenttweaker:bottled_purifying_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
 		}
 		
 	]

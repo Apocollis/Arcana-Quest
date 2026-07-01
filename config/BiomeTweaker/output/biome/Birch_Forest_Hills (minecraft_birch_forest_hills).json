@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "FOREST",
     "BIRCH_TREES",
-    "THEMED_TREES",
-    "HILLS"
+    "HILLS",
+    "THEMED_TREES"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

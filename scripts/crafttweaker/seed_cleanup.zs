@@ -1,0 +1,11 @@
+vanilla.seeds.removeSeed(<bewitchment:mandrake_seeds>);
+vanilla.seeds.removeSeed(<bewitchment:belladonna_seeds>);
+vanilla.seeds.removeSeed(<bewitchment:aconitum_seeds>);
+vanilla.seeds.removeSeed(<bewitchment:white_sage_seeds>);
+vanilla.seeds.removeSeed(<bewitchment:hellebore_seeds>);
+vanilla.seeds.removeSeed(<bewitchment:wormwood_seeds>);
+vanilla.seeds.removeSeed(<bewitchment:garlic_seeds>);
+vanilla.seeds.removeSeed(<rustic:chili_pepper_seeds>);
+vanilla.seeds.removeSeed(<rustic:tomato_seeds>);
+vanilla.seeds.removeSeed(<teastory:tea_seeds>);
+vanilla.seeds.removeSeed(<rustic:grape_stem>);

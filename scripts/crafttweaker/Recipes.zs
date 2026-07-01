@@ -55,15 +55,6 @@ recipes.addShaped(<sophisticatedwolves:swdogtreat>,
  [[<ore:listAllgrain>, <ore:listAllmeatraw>, <ore:listAllgrain>]]);
 recipes.addShaped(<sophisticatedwolves:swdogtreat>*2,
  [[<ore:listAllgrain>, <ore:listAllmeatcooked>, <ore:listAllgrain>]]);
- 
-# EVERLASTING ABILITIES
-
-recipes.remove(<everlastingabilities:ability_bottle>);
-
-recipes.addShaped(<everlastingabilities:ability_bottle>,
- [[null, <minecraft:slime_ball>, null],
-  [<minecraft:quartz>, <minecraft:glass_bottle>, <minecraft:quartz>],
-  [<minecraft:gold_nugget>, <minecraft:gold_ingot>, <minecraft:gold_nugget>]]);
   
   
 # WITHER SKELE TWEAKS
@@ -165,9 +156,7 @@ recipes.addShapeless(<minecraft:ghast_tear> * 12,
  
  # RELIQUARY
 
-recipes.remove(<xreliquary:gun_part:0>);
-recipes.remove(<xreliquary:gun_part:1>);
-recipes.remove(<xreliquary:gun_part:2>);
+
 
 recipes.remove(<xreliquary:glowing_bread>);
 recipes.addShapeless(<xreliquary:glowing_bread>,

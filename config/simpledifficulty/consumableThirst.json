@@ -1,44 +1,4 @@
 {
-  "minecraft:milk_bucket": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "amount": 4,
-      "saturation": 1.0,
-      "thirstyChance": 0.2
-    }
-  ],
-  "contenttweaker:bottled_matcha_tea": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "amount": 6,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "contenttweaker:bottled_black_tea": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "amount": 6,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "contenttweaker:bottled_lemon_tea": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "amount": 6,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
   "rustic:elixir": [
     {
       "identity": {
@@ -46,16 +6,6 @@
       },
       "amount": 4,
       "saturation": 0.4,
-      "thirstyChance": 0.0
-    }
-  ],
-  "contenttweaker:bottled_yellow_tea": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "amount": 6,
-      "saturation": 5.0,
       "thirstyChance": 0.0
     }
   ],
@@ -69,7 +19,7 @@
       "thirstyChance": 0.0
     }
   ],
-  "contenttweaker:bottled_oolong_tea": [
+  "contenttweaker:bottled_purifying_tea": [
     {
       "identity": {
         "metadata": -1
@@ -198,6 +148,106 @@
       "thirstyChance": 0.25
     }
   ],
+  "contenttweaker:bottled_green_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_white_infused_tea_base": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_black_infused_tea_base": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_green_infused_tea_base": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "minecraft:milk_bucket": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 4,
+      "saturation": 1.0,
+      "thirstyChance": 0.2
+    }
+  ],
+  "contenttweaker:bottled_matcha_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_black_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_lemon_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_yellow_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_oolong_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
+      "thirstyChance": 0.0
+    }
+  ],
   "contenttweaker:bottled_milk_tea": [
     {
       "identity": {
@@ -209,16 +259,6 @@
     }
   ],
   "contenttweaker:bottled_puerh_tea": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "amount": 6,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "contenttweaker:bottled_green_tea": [
     {
       "identity": {
         "metadata": -1

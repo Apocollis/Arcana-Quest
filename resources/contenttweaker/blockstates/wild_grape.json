@@ -1,7 +1,5 @@
 {
-    "variants": {
-        "": {
-            "model": "teastory:block/wild_grape"
-        }
-    }
+  "variants": {
+    "normal": { "model": "contenttweaker:wild_grape" }
+  }
 }

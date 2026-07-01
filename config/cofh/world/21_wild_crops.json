@@ -1,0 +1,95 @@
+{
+	"populate": {
+	
+		"overworld_tea_plant_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 4,
+				"see-sky": false,
+				"check-stay": true,
+				"block": [
+					{ "name": "contenttweaker:wild_tea_plant" }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
+				]
+			},
+			"cluster-count": 2,
+			"chunkChance": 30,
+			"retrogen": false,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		},
+		
+		"overworld_grape_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 4,
+				"see-sky": false,
+				"check-stay": true,
+				"block": [
+					{ "name": "contenttweaker:wild_grape" }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
+				]
+			},
+			"cluster-count": 2,
+			"chunkChance": 30,
+			"retrogen": false,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		},
+		
+		"overworld_chili_garden": {
+			"distribution": "surface",
+			"follow-terrain": false,
+			"generator": {
+				"type": "decoration",
+				"cluster-size": 1,
+				"see-sky": false,
+				"check-stay": true,
+				"block": [
+					{ "name": "contenttweaker:wild_chili" }
+				],
+				"surface": [
+					{ "name": "minecraft:grass" },
+					{ "name": "biomesoplenty:grass:2" }
+				]
+			},
+			"cluster-count": 1,
+			"chunkChance": 30,
+			"retrogen": false,
+			"biome": "all",
+			"biomeRestriction": "blacklist",
+			"biomes": [
+				"cold_beach",
+				"desert",
+				"ocean"
+			],
+			"dimensionRestriction": "whitelist",
+			"dimensions": [0]
+		}
+		
+	}
+}

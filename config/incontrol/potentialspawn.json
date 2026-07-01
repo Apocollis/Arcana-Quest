@@ -504,12 +504,6 @@
         "groupcountmax": 3
       },
       {
-        "mob": "grimoireofgaia:horse",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "grimoireofgaia:kobold",
         "weight": 30,
         "groupcountmin": 1,
@@ -2056,12 +2050,6 @@
         "groupcountmax": 3
       },
       {
-        "mob": "grimoireofgaia:horse",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "grimoireofgaia:kobold",
         "weight": 30,
         "groupcountmin": 1,
@@ -2846,12 +2834,6 @@
         "groupcountmax": 3
       },
       {
-        "mob": "grimoireofgaia:horse",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "grimoireofgaia:kobold",
         "weight": 30,
         "groupcountmin": 1,
@@ -3192,12 +3174,6 @@
       {
         "mob": "grimoireofgaia:harpy",
         "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:horse",
-        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -3862,12 +3838,6 @@
         "groupcountmax": 3
       },
       {
-        "mob": "grimoireofgaia:horse",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "grimoireofgaia:kobold",
         "weight": 30,
         "groupcountmin": 1,
@@ -4028,12 +3998,6 @@
         "groupcountmax": 3
       },
       {
-        "mob": "grimoireofgaia:horse",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "grimoireofgaia:kobold",
         "weight": 30,
         "groupcountmin": 1,
@@ -4110,12 +4074,6 @@
       {
         "mob": "grimoireofgaia:harpy",
         "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:horse",
-        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -4888,12 +4846,6 @@
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:mite",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:beholder",
         "weight": 20,
         "groupcountmin": 1,
@@ -4958,12 +4910,6 @@
       {
         "mob": "grimoireofgaia:harpy",
         "weight": 40,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
-        "mob": "grimoireofgaia:horse",
-        "weight": 15,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
@@ -5536,12 +5482,6 @@
         "groupcountmax": 2
       },
       {
-        "mob": "grimoireofgaia:mite",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
-      },
-      {
         "mob": "lycanitesmobs:beholder",
         "weight": 20,
         "groupcountmin": 1,
@@ -6024,12 +5964,6 @@
         "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 2
-      },
-      {
-        "mob": "grimoireofgaia:mite",
-        "weight": 15,
-        "groupcountmin": 1,
-        "groupcountmax": 3
       },
       {
         "mob": "lycanitesmobs:beholder",

@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "COLD",
+    "RARE",
     "FOREST",
     "SNOWY",
-    "RARE",
-    "COLD",
     "CONIFEROUS",
     "MOUNTAIN"
   ],

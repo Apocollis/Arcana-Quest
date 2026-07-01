@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WASTELAND",
-    "DEAD",
+    "HOT",
     "WATER",
     "DRY",
-    "MOUNTAIN",
-    "HOT"
+    "WASTELAND",
+    "DEAD",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

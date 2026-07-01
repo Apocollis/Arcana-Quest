@@ -101,7 +101,6 @@
   "plains": [
     "grimoireofgaia:centaur",
     "grimoireofgaia:harpy",
-    "grimoireofgaia:horse",
     "grimoireofgaia:kobold",
     "grimoireofgaia:minotaur",
     "grimoireofgaia:minotaurus",
@@ -156,7 +155,6 @@
   "underground": [
     "grimoireofgaia:dwarf",
     "grimoireofgaia:gorgon",
-    "grimoireofgaia:mite",
     "lycanitesmobs:beholder",
     "lycanitesmobs:chupacabra",
     "lycanitesmobs:darkling",

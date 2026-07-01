@@ -229,7 +229,6 @@ xreliquary:inject/entities/magma_cube
 thebetweenlands:entities/freshwater_urchin
 xreliquary:inject/entities/zombie_villager
 minecraft:entities/sheep/purple
-everlastingabilities:inject/chests/ability_totem
 xreliquary:inject/entities/skeleton
 thebetweenlands:loot/sludge_worm_dungeon_barrishee_chest
 minecraft:entities/ocelot

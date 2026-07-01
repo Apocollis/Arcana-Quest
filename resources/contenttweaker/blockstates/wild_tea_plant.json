@@ -1,7 +1,5 @@
 {
-    "variants": {
-        "": {
-            "model": "teastory:block/wild_tea_plant"
-        }
-    }
+  "variants": {
+    "normal": { "model": "contenttweaker:wild_tea_plant" }
+  }
 }

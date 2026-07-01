@@ -474,17 +474,6 @@
     "result": "deny"
   },
 
-  // Restrict grimoireofgaia:horse spawning to 5 active per player (Common)
-  {
-    "mob": "grimoireofgaia:horse",
-    "mincount": {
-      "amount": 5,
-      "mob": "grimoireofgaia:horse",
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-
   // Restrict grimoireofgaia:hunter spawning to 3 active per player (Uncommon)
   {
     "mob": "grimoireofgaia:hunter",
@@ -579,17 +568,6 @@
     "mincount": {
       "amount": 2,
       "mob": "grimoireofgaia:minotaurus",
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-
-  // Restrict grimoireofgaia:mite spawning to 5 active per player (Common)
-  {
-    "mob": "grimoireofgaia:mite",
-    "mincount": {
-      "amount": 5,
-      "mob": "grimoireofgaia:mite",
       "perplayer": true
     },
     "result": "deny"
