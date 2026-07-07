@@ -17,8 +17,8 @@
 					{ "name": "biomesoplenty:grass:2" }
 				]
 			},
-			"cluster-count": 2,
-			"chunkChance": 30,
+			"cluster-count": 1,
+			"chunkChance": 35,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -47,8 +47,8 @@
 					{ "name": "biomesoplenty:grass:2" }
 				]
 			},
-			"cluster-count": 2,
-			"chunkChance": 30,
+			"cluster-count": 1,
+			"chunkChance": 35,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -78,7 +78,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 30,
+			"chunkChance": 35,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",

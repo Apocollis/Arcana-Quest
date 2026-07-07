@@ -1,10 +1,16 @@
 {
+  "beach": [
+	"minecraft:beaches",
+	"biomesoplenty:gravel_beach",
+    "biomesoplenty:white_beach"
+  ],
   "dark": [
     "beneath:the_beneath"
   ],
   "desert": [
     "minecraft:desert",
     "minecraft:desert_hills",
+	"minecraft:mesa",
     "minecraft:mutated_desert",
     "biomesoplenty:desert",
     "biomesoplenty:outback",
@@ -29,7 +35,6 @@
     "biomesoplenty:mystic_grove",
     "biomesoplenty:sacred_springs",
     "biomesoplenty:woodland",
-    "thaumcraft:magical_forest"
   ],
   "jungle": [
     "minecraft:jungle",
@@ -73,9 +78,8 @@
   "ocean": [
     "minecraft:ocean",
     "minecraft:deep_ocean",
-    "minecraft:frozen_ocean",
-    "biomesoplenty:gravel_beach",
-    "biomesoplenty:white_beach"
+    "biomesoplenty:kelp_forest",
+	"biomesoplenty:coral_reef"
   ],
   "plains": [
     "minecraft:plains",

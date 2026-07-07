@@ -11,6 +11,7 @@ bottled_green_tea.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
         // Applies the Excitement effect for 300 seconds (6000 ticks)
         player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
+		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
     }
 };
 bottled_green_tea.register();
@@ -23,6 +24,7 @@ bottled_black_tea.itemUseAction = "DRINK";
 bottled_black_tea.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
         player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
+		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
     }
 };
 bottled_black_tea.register();
@@ -35,6 +37,7 @@ bottled_white_tea.itemUseAction = "DRINK";
 bottled_white_tea.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
         player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
+		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
     }
 };
 bottled_white_tea.register();
@@ -47,6 +50,7 @@ bottled_yellow_tea.itemUseAction = "DRINK";
 bottled_yellow_tea.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
         player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
+		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
     }
 };
 bottled_yellow_tea.register();
@@ -59,6 +63,7 @@ bottled_oolong_tea.itemUseAction = "DRINK";
 bottled_oolong_tea.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
         player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
+		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
     }
 };
 bottled_oolong_tea.register();
@@ -71,6 +76,7 @@ bottled_puerh_tea.itemUseAction = "DRINK";
 bottled_puerh_tea.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
         player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
+		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
     }
 };
 bottled_puerh_tea.register();
@@ -83,6 +89,7 @@ bottled_milk_tea.itemUseAction = "DRINK";
 bottled_milk_tea.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
         player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
+		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
     }
 };
 bottled_milk_tea.register();
@@ -95,6 +102,7 @@ bottled_matcha_tea.itemUseAction = "DRINK";
 bottled_matcha_tea.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
         player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
+		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
     }
 };
 bottled_matcha_tea.register();
@@ -107,6 +115,7 @@ bottled_lemon_tea.itemUseAction = "DRINK";
 bottled_lemon_tea.onItemFoodEaten = function(stack, world, player) {
     if (!world.isRemote()) {
         player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
+		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
     }
 };
 bottled_lemon_tea.register();

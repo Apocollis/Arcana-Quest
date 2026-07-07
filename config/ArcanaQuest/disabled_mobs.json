@@ -5,6 +5,7 @@
   "grimoireofgaia:bee",
   "grimoireofgaia:chest",
   "grimoireofgaia:cyan_flower",
+  "grimoireofgaia:gorgon",
   "grimoireofgaia:harpy_wizard",
   "grimoireofgaia:horse",
   "grimoireofgaia:kikimora",
@@ -28,5 +29,7 @@
   "lycanitesmobs:pinky",
   "lycanitesmobs:rahovart",
   "lycanitesmobs:trite",
-  "lycanitesmobs:vorach"
+  "lycanitesmobs:vorach",
+  "lycanitesmobs:wraamon",
+  "lycanitesmobs:yale"
 ]

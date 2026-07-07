@@ -49,6 +49,12 @@
       "temperature": 12.5
     }
   ],
+  "minecraft:ice": [
+    {
+      "properties": {},
+      "temperature": -3.0
+    }
+  ],
   "minecraft:magma": [
     {
       "properties": {},

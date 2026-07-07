@@ -6,7 +6,7 @@
       },
       "amount": 4,
       "saturation": 0.4,
-      "thirstyChance": 0.0
+      "thirstyChance": 0.25
     }
   ],
   "contenttweaker:bottled_white_tea": [

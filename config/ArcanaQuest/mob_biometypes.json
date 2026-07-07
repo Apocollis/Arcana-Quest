@@ -4,6 +4,9 @@
     "lycanitesmobs:epion",
     "lycanitesmobs:eyewig",
     "lycanitesmobs:geist",
+    "lycanitesmobs:beholder",
+    "lycanitesmobs:darkling",
+    "lycanitesmobs:shade",
     "lycanitesmobs:grue"
   ],
   "desert": [
@@ -14,64 +17,70 @@
     "lycanitesmobs:clink",
     "lycanitesmobs:crusk",
     "lycanitesmobs:cryptkeeper",
+	"lycanitesmobs:ettin",
     "lycanitesmobs:gorgomite",
-    "lycanitesmobs:salamander"
+	"minecraft:husk"
   ],
   "end": [
     "grimoireofgaia:beholder",
     "grimoireofgaia:creep",
-    "grimoireofgaia:ender_dragon_girl",
     "grimoireofgaia:ender_eye",
-    "lycanitesmobs:spectre",
-    "lycanitesmobs:wraamon"
+    "lycanitesmobs:spectre"
   ],
   "forest": [
     "grimoireofgaia:arachne",
     "grimoireofgaia:dryad",
     "grimoireofgaia:werecat",
-    "grimoireofgaia:witch",
+	"grimoireofgaia:spriggan",
     "lycanitesmobs:ent",
     "lycanitesmobs:jabberwock",
     "lycanitesmobs:shambler",
     "lycanitesmobs:treant",
     "lycanitesmobs:warg",
-    "lycanitesmobs:wildkin"
+    "lycanitesmobs:wildkin",
+    "thebetweenlands:dark_druid",
+	"minecraft:vindication_illager",
+	"minecraft:witch"
   ],
   "jungle": [
-    "grimoireofgaia:cobble_golem",
-    "grimoireofgaia:cobblestone_golem",
     "grimoireofgaia:hunter",
     "grimoireofgaia:naga",
     "grimoireofgaia:shaman",
     "lycanitesmobs:conba",
+	"grimoireofgaia:cobble_golem",
+    "grimoireofgaia:cobblestone_golem",
     "lycanitesmobs:dawon",
     "lycanitesmobs:triffid",
     "lycanitesmobs:tarantula",
-
     "lycanitesmobs:vespid",
     "lycanitesmobs:vespidqueen"
   ],
   "magical": [
     "grimoireofgaia:deathword",
+	"grimoireofgaia:dryad",
     "grimoireofgaia:matango",
     "grimoireofgaia:nine_tails",
     "grimoireofgaia:sporeling",
     "grimoireofgaia:spriggan",
+	"grimoireofgaia:witch",
     "lycanitesmobs:nymph",
     "lycanitesmobs:pixen",
     "lycanitesmobs:sylph",
-    "lycanitesmobs:wisp"
+    "lycanitesmobs:wisp",
+    "thebetweenlands:dark_druid",
+	"minecraft:illusion_illager",
+	"minecraft:evocation_illager"
   ],
   "mountain": [
     "grimoireofgaia:banshee",
     "grimoireofgaia:cyclops",
-    "grimoireofgaia:dwarf",
+	"grimoireofgaia:cobble_golem",
+    "grimoireofgaia:cobblestone_golem",
+	"lycanitesmobs:ettin",
     "grimoireofgaia:gryphon",
     "grimoireofgaia:valkyrie",
     "lycanitesmobs:barghest",
-    "lycanitesmobs:ettin",
     "lycanitesmobs:troll",
-    "lycanitesmobs:yale",
     "lycanitesmobs:zoataur"
   ],
   "nether": [
@@ -83,7 +92,9 @@
     "lycanitesmobs:gnekk",
     "lycanitesmobs:grell",
     "lycanitesmobs:grigori",
-    "lycanitesmobs:wraith"
+    "lycanitesmobs:ignibus",
+    "lycanitesmobs:wraith",
+    "lycanitesmobs:salamander"
   ],
   "ocean": [
     "grimoireofgaia:mermaid",
@@ -107,16 +118,13 @@
     "grimoireofgaia:minotaurus",
     "grimoireofgaia:satyress",
     "lycanitesmobs:cockatrice",
-    "lycanitesmobs:feradon",
-    "lycanitesmobs:kobold",
-    "lycanitesmobs:morock",
-    "lycanitesmobs:quillbeast",
-    "lycanitesmobs:roc"
+    "lycanitesmobs:kobold"
   ],
   "savanna": [
-    "grimoireofgaia:goblin",
-    "grimoireofgaia:goblin_feral",
-    "grimoireofgaia:orc"
+    "lycanitesmobs:chupacabra",
+    "lycanitesmobs:feradon",
+	"lycanitesmobs:quillbeast",
+    "lycanitesmobs:roc"
   ],
   "snowy": [
     "grimoireofgaia:selkie",
@@ -127,10 +135,10 @@
     "lycanitesmobs:frostweaver",
     "lycanitesmobs:maug",
     "lycanitesmobs:serpix",
-    "lycanitesmobs:wendigo"
+    "lycanitesmobs:wendigo",
+	"minecraft:stray"
   ],
   "spooky": [
-    "grimoireofgaia:bone_knight",
     "grimoireofgaia:dhampir",
     "grimoireofgaia:dullahan",
     "grimoireofgaia:flesh_lich",
@@ -138,7 +146,14 @@
     "lycanitesmobs:ghoul",
     "lycanitesmobs:necrovore",
     "lycanitesmobs:remobra",
-    "lycanitesmobs:tpumpkyn"
+    "lycanitesmobs:tpumpkyn",
+    "lycanitesmobs:beholder",
+    "lycanitesmobs:darkling",
+    "lycanitesmobs:shade",
+    "thebetweenlands:dark_druid",
+	"minecraft:illusion_illager",
+	"minecraft:vindication_illager",
+	"minecraft:witch"
   ],
   "swamp": [
     "grimoireofgaia:gelatinous_slime",
@@ -148,20 +163,29 @@
     "grimoireofgaia:toad",
     "lycanitesmobs:aglebemu",
     "lycanitesmobs:dweller",
+	"lycanitesmobs:ettin",
     "lycanitesmobs:geken",
     "lycanitesmobs:krake",
-    "lycanitesmobs:triffid"
+    "lycanitesmobs:triffid",
+    "thebetweenlands:dark_druid",
+	"minecraft:slime",
+	"minecraft:witch"
   ],
-  "underground": [
-    "grimoireofgaia:dwarf",
-    "grimoireofgaia:gorgon",
-    "lycanitesmobs:beholder",
-    "lycanitesmobs:chupacabra",
-    "lycanitesmobs:darkling",
-    "lycanitesmobs:krake",
-    "lycanitesmobs:shade",
+  "any": [
+    "grimoireofgaia:bone_knight",
+	"grimoireofgaia:dwarf",
+    "grimoireofgaia:goblin",
+    "grimoireofgaia:goblin_feral",
+    "grimoireofgaia:orc",
+	"lycanitesmobs:beholder",
+	"lycanitesmobs:morock",
     "lycanitesmobs:silex",
-    "lycanitesmobs:wraamon",
-    "lycanitesmobs:yale"
+	"minecraft:zombie",
+	"minecraft:skeleton",
+	"minecraft:creeper",
+	"minecraft:spider",
+	"minecraft:cave_spider",
+	"minecraft:enderman",
+	"minecraft:zombie_villager"
   ]
 }

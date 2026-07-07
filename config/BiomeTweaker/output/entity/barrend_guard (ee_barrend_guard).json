@@ -1,0 +1,6 @@
+
+{
+  "Name": "barrend_guard",
+  "Registry ID": "ee:barrend_guard",
+  "Class": "com.example.structure.entity.barrend.guard.EntityBarrendGuard"
+}

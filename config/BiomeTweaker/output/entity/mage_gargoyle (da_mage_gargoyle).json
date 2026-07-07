@@ -1,0 +1,6 @@
+
+{
+  "Name": "mage_gargoyle",
+  "Registry ID": "da:mage_gargoyle",
+  "Class": "com.dungeon_additions.da.entity.sky_dungeon.EntityMageGargoyle"
+}

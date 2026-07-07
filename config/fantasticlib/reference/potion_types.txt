@@ -69,6 +69,10 @@ quark:long_danger_sight
 dynamicstealth:soulsight
 dynamicstealth:blindness
 dynamicstealth:glowing
+netherex:freezing
+netherex:frigid_health
+netherex:dispersal
+netherex:sorrow
 extraalchemy:fuse_normal
 extraalchemy:fuse_strong
 extraalchemy:fuse_quick
@@ -151,10 +155,6 @@ inspirations:blindness
 inspirations:long_blindness
 inspirations:decay
 inspirations:long_decay
-netherex:freezing
-netherex:frigid_health
-netherex:dispersal
-netherex:sorrow
 potioncore:saturation
 potioncore:strong_saturation
 potioncore:wither

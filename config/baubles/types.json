@@ -2,7 +2,7 @@
   "baubles:head": {
     "name": "head",
     "amount": 1,
-    "priority": 10,
+    "priority": 20,
     "parent": [
       "baubles:bauble"
     ],
@@ -12,7 +12,7 @@
   "baubles:amulet": {
     "name": "amulet",
     "amount": 1,
-    "priority": 10,
+    "priority": 19,
     "parent": [
       "baubles:bauble"
     ],
@@ -22,7 +22,7 @@
   "baubles:body": {
     "name": "body",
     "amount": 1,
-    "priority": 10,
+    "priority": 18,
     "parent": [
       "baubles:bauble"
     ],
@@ -32,7 +32,7 @@
   "baubles:elytra": {
     "name": "elytra",
     "amount": 1,
-    "priority": 5,
+    "priority": 10,
     "parent": [
       "baubles:body",
       "baubles:bauble"
@@ -50,7 +50,7 @@
   "baubles:ring": {
     "name": "ring",
     "amount": 4,
-    "priority": 0,
+    "priority": 16,
     "parent": [
       "baubles:bauble"
     ],
@@ -60,7 +60,7 @@
   "baubles:belt": {
     "name": "belt",
     "amount": 1,
-    "priority": 0,
+    "priority": 15,
     "parent": [
       "baubles:bauble"
     ],
@@ -70,7 +70,7 @@
   "baubles:charm": {
     "name": "charm",
     "amount": 1,
-    "priority": 0,
+    "priority": 14,
     "parent": [
       "baubles:bauble"
     ],
@@ -80,14 +80,14 @@
   "baubles:trinket": {
     "name": "trinket",
     "amount": 1,
-    "priority": 0,
+    "priority": 13,
     "texture": "baubles:gui/slots/trinket",
     "translateKey": "baubles.trinket"
   },
   "baubles:pendant": {
     "name": "pendant",
     "amount": 1,
-    "priority": 0,
+    "priority": 12,
     "parent": [
       "baubles:amulet",
       "baubles:bauble"
@@ -98,7 +98,7 @@
   "baubles:cape": {
     "name": "cape",
     "amount": 1,
-    "priority": 0,
+    "priority": 11,
     "parent": [
       "baubles:body",
       "baubles:bauble"
@@ -109,7 +109,7 @@
   "baubles:shield": {
     "name": "shield",
     "amount": 1,
-    "priority": 0,
+    "priority": 9,
     "parent": [
       "baubles:bauble"
     ],
@@ -119,7 +119,7 @@
   "baubles:glove": {
     "name": "glove",
     "amount": 1,
-    "priority": 0,
+    "priority": 10,
     "parent": [
       "baubles:ring",
       "baubles:bauble"
@@ -130,7 +130,7 @@
   "baubles:misc": {
     "name": "misc",
     "amount": 1,
-    "priority": 0,
+    "priority": 8,
     "parent": [
       "baubles:charm",
       "baubles:bauble"
@@ -138,14 +138,14 @@
     "texture": "baubles:gui/slots/misc",
     "translateKey": "baubles.misc"
   },
-	"baubles:backpack": { 
-	  "name": "backpack", 
+	"baubles:back": { 
+	  "name": "back", 
 	  "amount": 1, 
-	  "priority": 10, 
+	  "priority": 17, 
 	  "parent": [
 	    "baubles:bauble"
 	  ], 
-	  "texture": "baubles:gui/slots/backpack",
-	  "translateKey": "baubles.backpack" 
+	  "texture": "baubles:gui/slots/back",
+	  "translateKey": "baubles.back" 
 	}
 }

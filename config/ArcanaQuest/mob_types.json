@@ -11,8 +11,7 @@
     "lycanitesmobs:grigori",
     "lycanitesmobs:krake",
     "lycanitesmobs:serpix",
-    "lycanitesmobs:shade",
-    "lycanitesmobs:yale"
+    "lycanitesmobs:shade"
   ],
   "aquatic": [
     "grimoireofgaia:cecaelia",
@@ -53,6 +52,7 @@
     "grimoireofgaia:deathword"
   ],
   "creeper": [
+	"minecraft:creeper",
     "grimoireofgaia:creep"
   ],
   "demon": [
@@ -108,11 +108,17 @@
     "grimoireofgaia:dwarf",
     "grimoireofgaia:hunter",
     "grimoireofgaia:shaman",
-    "grimoireofgaia:valkyrie"
+    "grimoireofgaia:valkyrie",
+    "thebetweenlands:dark_druid",
+	"minecraft:witch",
+	"minecraft:enderman",
   ],
   "illager": [
     "grimoireofgaia:illager_fire",
-    "grimoireofgaia:illager_inquisitor"
+    "grimoireofgaia:illager_inquisitor",
+	"minecraft:vindication_illager",
+	"minecraft:illusion_illager",
+	"minecraft:evocation_illager"
   ],
   "insect": [
     "lycanitesmobs:eyewig",
@@ -120,7 +126,9 @@
     "lycanitesmobs:gorgomite",
     "lycanitesmobs:tarantula",
     "lycanitesmobs:vespid",
-    "lycanitesmobs:vespidqueen"
+    "lycanitesmobs:vespidqueen",
+	"minecraft:spider",
+	"minecraft:cave_spider"
   ],
   "monstrous": [
     "grimoireofgaia:goblin",
@@ -138,7 +146,8 @@
   ],
   "slime": [
     "grimoireofgaia:gelatinous_slime",
-    "grimoireofgaia:sludge_girl"
+    "grimoireofgaia:sludge_girl",
+	"minecraft:slime"
   ],
   "undead": [
     "grimoireofgaia:banshee",
@@ -157,11 +166,15 @@
     "lycanitesmobs:reaper",
     "lycanitesmobs:spectre",
     "lycanitesmobs:wendigo",
-    "lycanitesmobs:wraith"
+    "lycanitesmobs:wraith",
+	"minecraft:zombie",
+	"minecraft:skeleton",
+	"minecraft:zombie_villager",
+	"minecraft:husk",
+	"minecraft:stray"
   ],
   "villager": [
     "grimoireofgaia:creeper_girl",
-    "grimoireofgaia:ender_girl",
     "grimoireofgaia:holstaurus",
     "grimoireofgaia:slime_girl",
     "grimoireofgaia:trader",
@@ -175,6 +188,7 @@
     "lycanitesmobs:ioray",
     "lycanitesmobs:lacedon",
     "lycanitesmobs:roa",
+    "lycanitesmobs:silex",
     "lycanitesmobs:skylus",
     "lycanitesmobs:strider"
   ]

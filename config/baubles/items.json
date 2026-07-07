@@ -332,8 +332,8 @@
       "baubles:cape"
     ]
   },
-  "Backpack": {
+  "Back": {
     "content": "wearablebackpacks:backpack",
-    "types": "baubles:backpack"
+    "types": "baubles:back"
   }
 }

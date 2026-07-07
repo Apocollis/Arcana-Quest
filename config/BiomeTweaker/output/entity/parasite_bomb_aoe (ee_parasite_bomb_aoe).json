@@ -1,0 +1,6 @@
+
+{
+  "Name": "parasite_bomb_aoe",
+  "Registry ID": "ee:parasite_bomb_aoe",
+  "Class": "com.example.structure.entity.barrend.ultraparasite.EntityParasiteBombAOE"
+}

@@ -15,12 +15,76 @@
       "temperature": -2.0
     }
   ],
+  "bewitchment:cold_iron_helmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
   "simpledifficulty:wool_helmet": [
     {
       "identity": {
         "metadata": -1
       },
       "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:wool_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:wool_chestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:ice_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+  "twilightforest:arctic_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.5
+    }
+  ],
+  "twilightforest:arctic_chestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.5
+    }
+  ],
+  "bewitchment:cold_iron_chestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+  "twilightforest:arctic_helmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.5
     }
   ],
   "simpledifficulty:ice_boots": [
@@ -47,23 +111,23 @@
       "temperature": -0.25
     }
   ],
-  "simpledifficulty:wool_leggings": [
+  "bewitchment:cold_iron_leggings": [
     {
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
+      "temperature": -2.0
     }
   ],
-  "simpledifficulty:wool_chestplate": [
+  "twilightforest:arctic_boots": [
     {
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
+      "temperature": 2.5
     }
   ],
-  "simpledifficulty:ice_leggings": [
+  "bewitchment:cold_iron_boots": [
     {
       "identity": {
         "metadata": -1

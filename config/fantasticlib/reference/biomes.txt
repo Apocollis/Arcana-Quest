@@ -165,13 +165,13 @@ atum:oasis
 atum:sand_dunes
 atum:sand_hills
 atum:sand_plains
-thaumicaugmentation:emptiness
-thaumicaugmentation:tainted_lands
-thaumicaugmentation:emptiness_highlands
 netherex:ruthless_sands
 netherex:fungi_forest
 netherex:torrid_wasteland
 netherex:arctic_abyss
+thaumicaugmentation:emptiness
+thaumicaugmentation:tainted_lands
+thaumicaugmentation:emptiness_highlands
 aether_legacy:aether_highlands
 thebetweenlands:patchy_islands
 thebetweenlands:swamplands
@@ -190,3 +190,4 @@ nb:warped_forest
 nb:soul_sand_valley
 nb:basalt_deltas
 ee:ash_wastelands
+ee:barrend_low_lands
