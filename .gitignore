@@ -1,0 +1,5 @@
+# Gitignore for Arcana Quest
+
+# Exclude MusicTriggers songs contents
+config/MusicTriggers/songs/*
+!config/MusicTriggers/songs/.gitkeep
