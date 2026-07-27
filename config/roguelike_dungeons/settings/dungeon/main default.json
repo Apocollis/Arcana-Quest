@@ -1,17 +1,17 @@
 {
 	"name" : "arcanaquest:main",
-	"exclusive" : true,
+	"exclusive" : false,
 	"criteria" : {
 		"dimensionWL" : 0,
 		"weight" : 1
 	},
 	"inherit" : [
-		"arcanaquest:tower",
-		"arcanaquest:layout",
-		"arcanaquest:rooms",
+		"arcanaquest:tower_arcane",
+		"arcanaquest:layout_10level",
+		"arcanaquest:rooms_10level",
 		"arcanaquest:segments",
-		"arcanaquest:spawners",
-		"arcanaquest:theme",
+		"arcanaquest:spawners_10level",
+		"arcanaquest:theme_10level",
 		"arcanaquest:loot",
 		"arcanaquest:filters"
 	]

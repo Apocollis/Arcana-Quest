@@ -1,10 +1,8 @@
 {
-  "preRequisites:11": [
-    50
-  ],
+  "preRequisites:11": [],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "Begin your magical journey.",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,

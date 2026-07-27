@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
-    "MOUNTAIN",
     "THEMED_TREES",
+    "DENSE",
+    "RARE",
     "FOREST",
-    "SUPER_BIRCH_TREES",
-    "DENSE"
+    "MOUNTAIN",
+    "SUPER_BIRCH_TREES"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -246,12 +246,6 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "sophisticated_wolves.entity.EntitySophisticatedWolf",
-      "Weight": 5,
-      "Min Group Count": 4,
-      "Max Group Count": 6
-    },
-    {
       "Entity Class": "com.dungeon_additions.da.entity.dark_dungeon.EntityDarkAssassin",
       "Weight": 5,
       "Min Group Count": 1,
@@ -292,6 +286,12 @@
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [

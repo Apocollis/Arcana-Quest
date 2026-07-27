@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    404
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Travel to Betweenlands.",
+      "frame:8": "NORMAL",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thebetweenlands:weedwood_leaves"
+      },
+      "ismain:1": 0,
+      "name:8": "Entering the Betweenlands"
+    }
+  },
+  "questID:3": 405,
+  "tasks:9": {}
+}

@@ -20,15 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SPARSE",
     "RARE",
-    "MOUNTAIN",
-    "SPARSE"
+    "MOUNTAIN"
   ],
-  "BiomeManager Entries": {
-    "COOL Weights": [
-      1
-    ]
-  },
+  "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
       "Entity Class": "net.minecraft.entity.passive.EntitySheep",

@@ -1,0 +1,2300 @@
+{
+  "helmet": {
+    "twilightforest:arctic_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 2.5
+    },
+    "thaumicwonders:voidcaller_helm": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_praetor_helm": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "mysticalworld:antler_hat": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "quark:witch_hat": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:knightmetal_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:explorers_hat": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:mummy_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:wanderer_helmet": {
+      "weight": 0.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:phoenix_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:lich_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "embers:ashen_cloak_head": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:valkyrie_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:lamented_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:silver_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:yeti_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aetherworks:aetherium_ashen_cloak_head": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:besmirched_hood": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:obsidian_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:damascus_steel_helmet": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicwonders:void_fortress_helm": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:wither_bone_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "futuremc:netherite_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:spirit_tree_face_small_mask": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:deep_iron_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:alchemist_hood": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:cold_iron_helmet": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": -2.0
+    },
+    "mysticalworld:copper_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:chainmail_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:black_steel_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "congregamystica:viscap": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:manasteelhelm": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:ancient_crimson_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:ceruclase_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:void_robe_helm": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:green_witch_hood": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:atlarus_helmet": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "quark:archaeologist_hat": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:orichalcum_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "xreliquary:witch_hat": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:sanguinite_helmet": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:spirit_tree_face_large_mask": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:ironwood_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:enderphrite_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:flame_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicaugmentation:thaumium_robes_hood": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_helmet_iron": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:endfall_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ceramics:clay_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:draugr_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:novik_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:diamond_helmet": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:skull_mask": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "quark:pirate_hat": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:silk_mask": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:void_helm": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:elementiumhelm": {
+      "weight": 0.8,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:flighttiara": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:astral_silver_helmet": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:witches_hat": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:phantom_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:bone_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:ancient_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "simpledifficulty:wool_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 2.0
+    },
+    "bewitchment:besmirched_hat": {
+      "weight": 0.25,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:crimson_paladin_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:bronze_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:nightfall_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:golden_helmet": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:king_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:eximite_helmet": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:iron_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:fiery_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:amphibious_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:thaumium_helm": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:desichalkos_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:platinum_helmet": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:apathyr_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "kami:ichorweave_hood": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:amber_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:black_salamander_hide_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:incendium_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:crimson_ranger_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:kalendrite_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:shadow_iron_helmet": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:syrmorite_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:shadow_steel_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:green_witch_hat": {
+      "weight": 0.25,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:gravitite_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:manaweavehelm": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:dark_metal_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_plate_helm": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:celenegil_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:copper_helmet": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:crimson_archer_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:prometheum_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:alchemist_hat": {
+      "weight": 0.25,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:orange_salamander_hide_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:adventure_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:king_crown": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:tartarite_helmet": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_robe_helm": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:zanite_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:terrasteelhelm": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:witches_cowl": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:mithril_helmet": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aetherworks:item_crown": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "mysticalworld:silver_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:quicksilver_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "saltmod:mud_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:valonite_helmet": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:fortress_helm": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_helmet_diamond": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:warlord_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:brass_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_helmet_gold": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "mysticalworld:beetle_mask": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:ignatius_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:leather_helmet": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:steeleaf_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:dark_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:imperial_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "simpledifficulty:ice_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": -2.0
+    },
+    "metallurgy:silver_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:wyrk_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:steel_helmet": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:neptune_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "kami:awakened_ichorweave_hood": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:obsidian_helm": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:vulcanite_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:mage_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:amordrine_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:flower_crown": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:lurker_skin_helmet": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:lidoped_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:vyroxeres_helmet": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "grimoireofgaia:box_hat": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "artifacts:drinking_hat": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    }
+  },
+  "legs": {
+    "aether_legacy:neptune_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:steel_leggings": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:damascus_steel_leggings": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:orichalcum_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:obsidian_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:sanguinite_leggings": {
+      "weight": 3.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:amphibious_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:void_legs": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:yeti_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:copper_leggings": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_legs_iron": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicaugmentation:thaumium_robes_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:diamond_leggings": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:desichalkos_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:alchemist_pants": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:valkyrie_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:endfall_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:thaumium_legs": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:cloth_legs": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:wanderer_legs": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:lurker_skin_leggings": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "simpledifficulty:ice_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": -2.0
+    },
+    "metallurgy:brass_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:deep_iron_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:vyroxeres_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:incendium_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:shadow_steel_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:knightmetal_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:enderphrite_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:platinum_leggings": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:wither_bone_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:cold_iron_leggings": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": -2.0
+    },
+    "thebetweenlands:valonite_leggings": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:naga_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:iron_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:ceruclase_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:silver_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicwonders:voidcaller_legs": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:mithril_leggings": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:kalendrite_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:imperial_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:phoenix_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:crimson_archer_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:celenegil_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ceramics:clay_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "mysticalworld:silver_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:terrasteellegs": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:black_steel_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:vulcanite_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicwonders:void_fortress_legs": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:orange_salamander_hide_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:manaweavelegs": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_legs_gold": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:fortress_legs": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:manasteellegs": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:adventure_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:leather_leggings": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:crimson_ranger_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "mysticalworld:copper_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_plate_legs": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:ancient_crimson_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "kami:awakened_ichorweave_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:ancient_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "embers:ashen_cloak_legs": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:ironwood_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:novik_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:syrmorite_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:elementiumlegs": {
+      "weight": 1.2,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:dark_metal_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:golden_leggings": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:prometheum_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:chainmail_leggings": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:besmirched_pants": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:arctic_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 2.5
+    },
+    "metallurgy:tartarite_leggings": {
+      "weight": 3.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:silver_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:amber_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "saltmod:mud_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:fiery_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "futuremc:netherite_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:flame_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:ignatius_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:green_witch_pants": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:astral_silver_leggings": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:gravitite_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:witches_pants": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:mage_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:bone_leggings": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:void_robe_legs": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:crimson_paladin_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_praetor_legs": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:mummy_legs": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:bronze_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:steeleaf_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_robe_legs": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_legs_diamond": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:shadow_iron_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "simpledifficulty:wool_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 2.0
+    },
+    "aether_legacy:zanite_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:eximite_leggings": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:atlarus_leggings": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:black_salamander_hide_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aetherworks:aetherium_ashen_cloak_legs": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "kami:ichorweave_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:quicksilver_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:amordrine_leggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    }
+  },
+  "chest": {
+    "bewitchment:green_witch_robes": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:flame_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:void_chest": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:colossus_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:besmirched_robes": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "mysticalworld:silver_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_praetor_chest": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_chest_iron": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:thaumium_chest": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:desichalkos_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:fortress_chest": {
+      "weight": 3.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:black_steel_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:novik_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:steeleaf_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:mithril_chestplate": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "saltmod:mud_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:shadow_steel_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:amber_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:void_robe_chest": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "mysticalworld:copper_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:dark_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_plate_chest": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_chest_gold": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:leather_chestplate": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:adventure_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:manaweavechest": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:draugr_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:ceruclase_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:wither_bone_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:yeti_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:deep_iron_chestplate": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:silver_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:sanguinite_chestplate": {
+      "weight": 4.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:cold_iron_chestplate": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": -2.0
+    },
+    "twilightforest:naga_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "kami:ichorweave_robe": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:tartarite_chestplate": {
+      "weight": 5.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "simpledifficulty:ice_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": -2.0
+    },
+    "aetherworks:aetherium_ashen_cloak_chest": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:elementiumchest": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:vyroxeres_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:ancient_crimson_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:endfall_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicwonders:voidcaller_chest": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:ancient_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:ignatius_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:kalendrite_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicwonders:void_fortress_chest": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:bronze_chestplate": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:atlarus_chestplate": {
+      "weight": 4.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "kami:awakened_ichorweave_robe": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:nightfall_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:shadow_iron_chestplate": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:zanite_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:quicksilver_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:bone_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:eximite_chestplate": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:mage_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:voidiant_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:mummy_chest": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:neptune_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:amphibious_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:imperial_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:alchemist_robes": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:black_salamander_hide_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "embers:ashen_cloak_chest": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:crimson_paladin_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicaugmentation:thaumostatic_harness": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:manasteelchest": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:wanderer_chest": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:amordrine_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:arctic_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 2.5
+    },
+    "thebetweenlands:lurker_skin_chestplate": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:valkyrie_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:cloth_chest": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:astral_silver_chestplate": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ceramics:clay_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:brass_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "futuremc:netherite_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:enderphrite_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:orange_salamander_hide_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:copper_chestplate": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:crimson_archer_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:iron_chestplate": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_robe_chest": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:fiery_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:prometheum_chestplate": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:syrmorite_chestplate": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:phantom_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:diamond_chestplate": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:valonite_chestplate": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:celenegil_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:golden_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:damascus_steel_chestplate": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:steel_chestplate": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:phoenix_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:obsidian_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:silver_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:platinum_chestplate": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:chainmail_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_chest_diamond": {
+      "weight": 3.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "simpledifficulty:wool_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 2.0
+    },
+    "botania:terrasteelchest": {
+      "weight": 3.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:vulcanite_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:orichalcum_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:gravitite_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicaugmentation:thaumium_robes_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:lamented_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:crimson_ranger_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicaugmentation:elytra_harness": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:knightmetal_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:ironwood_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:dark_metal_chestplate": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:witches_robes": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    }
+  },
+  "boots": {
+    "aether_legacy:obsidian_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:prometheum_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:desichalkos_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:mithril_boots": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:ironwood_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:bone_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:orange_salamander_hide_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:elementiumboots": {
+      "weight": 0.8,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:thaumium_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:syrmorite_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:bronze_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:steeleaf_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:arctic_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 2.5
+    },
+    "metallurgy:ignatius_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:celenegil_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:marsh_runner_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:crimson_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "kami:awakened_ichorweave_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:mage_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:wanderer_boots": {
+      "weight": 0.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicwonders:void_walker_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:fiery_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:platinum_boots": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "nanohsbaubles:featherboots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_boots_diamond": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:endfall_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:damascus_steel_boots": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:wither_bone_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:eximite_boots": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:flame_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumicaugmentation:void_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:knightmetal_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:terrasteelboots": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "simpledifficulty:ice_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": -2.0
+    },
+    "metallurgy:silver_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "saltmod:mud_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:golden_boots": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:chainmail_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:mummy_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "twilightforest:yeti_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:silver_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:leather_boots": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:dark_metal_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:sentry_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "grapplemod:longfallboots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:deep_iron_boots": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ee:amber_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:astral_silver_boots": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:orichalcum_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:valkyrie_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:copper_boots": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:shadow_steel_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aetherworks:aetherium_ashen_cloak_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "simpledifficulty:wool_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 2.0
+    },
+    "metallurgy:vulcanite_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:meteor_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:iron_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "mysticalworld:copper_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:shadow_iron_boots": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:imperial_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_boots_iron": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "futuremc:netherite_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:ceruclase_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:gravitite_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:zanite_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:steel_boots": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "crimsonrevelations:comet_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:valonite_boots": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:cloth_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "mysticalworld:silver_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:phoenix_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:wyrk_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:ancient_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:atlarus_boots": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "aether_legacy:neptune_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "netherex:black_salamander_hide_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:adventure_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:amordrine_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:sanguinite_boots": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "bewitchment:cold_iron_boots": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": -2.0
+    },
+    "botania:manaweaveboots": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:vyroxeres_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "atum:desert_boots_gold": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "kami:ichorweave_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:amphibious_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:rubber_boots": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:traveller_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:novik_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:brass_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thebetweenlands:lurker_skin_boots": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "embers:ashen_cloak_boots": {
+      "weight": 0.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "ceramics:clay_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:kalendrite_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "thaumcraft:void_boots": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "botania:manasteelboots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "minecraft:diamond_boots": {
+      "weight": 2.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:quicksilver_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "da:enderphrite_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:black_steel_boots": {
+      "weight": 1.0,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    },
+    "metallurgy:tartarite_boots": {
+      "weight": 2.5,
+      "included_in_underarmor": true,
+      "temp": 0.0
+    }
+  }
+}

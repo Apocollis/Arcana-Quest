@@ -65,11 +65,6 @@ botania:bloodthirst
 botania:allure
 botania:clear
 twilightforest:frosted
-quark:blue
-quark:black
-quark:white
-quark:resilience
-quark:danger_sight
 bewitchment:wednesday
 bewitchment:absence
 bewitchment:purification
@@ -111,6 +106,12 @@ bewitchment:rhino_hide
 bewitchment:paper_skin
 bewitchment:rage
 bewitchment:friendship
+aqtweaks:homestead
+quark:blue
+quark:black
+quark:white
+quark:resilience
+quark:danger_sight
 dynamicstealth:soulsight
 netherex:frozen
 netherex:frostbitten
@@ -197,6 +198,9 @@ potioncore:spin
 potioncore:curse
 potioncore:burst
 potioncore:archery
+raids:hero_of_the_village
+raids:bad_omen
+raids:raid_omen
 xreliquary:flight_potion
 xreliquary:pacification_potion
 xreliquary:cure_potion
@@ -211,6 +215,7 @@ twilightdelight:fire_range
 twilightdelight:poison_range
 twilightdelight:frozen_range
 twilightdelight:temporal_sadness
+twilightdelight:aurora_glowing
 da:golden_devotion
 da:golden_vow
 da:hunters_mark
@@ -231,7 +236,6 @@ astralsorcery:potionbleed
 astralsorcery:potionspellplague
 astralsorcery:potiondropmodifier
 astralsorcery:potiontimefreeze
-bountifulbaubles:sinful
 charm:ender_sight
 thebetweenlands:effect_shocked
 thebetweenlands:effect_blessed

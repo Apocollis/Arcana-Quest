@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "DEAD",
     "WET",
-    "SWAMP",
-    "WASTELAND"
+    "WASTELAND",
+    "SWAMP"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -172,6 +172,12 @@
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [
@@ -212,6 +218,12 @@
       "Weight": 50,
       "Min Group Count": 0,
       "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawn Biome": true,

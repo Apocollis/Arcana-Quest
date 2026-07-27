@@ -80,6 +80,12 @@
       "Max Group Count": 8
     },
     {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "com.shinoow.beneath.common.entity.EntityShadow",
       "Weight": 50,
       "Min Group Count": 2,

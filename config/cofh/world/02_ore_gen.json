@@ -92,8 +92,8 @@
 			},
 			"cluster-count": 2,
 			"chunk-chance": 5,	
-			"min-height": 24,
-			"max-height": 48,
+			"min-height": 20,
+			"max-height": 40,
 			"retrogen": "true",
 			"ceiling": true,
 			"biome": "all",
@@ -116,10 +116,10 @@
 				"sparse": false,
 				"spindly": true
 			},
-			"cluster-count": 3,
+			"cluster-count": 2,
 			"chunk-chance": 1,	
-			"min-height": 24,
-			"max-height": 76,
+			"min-height": 20,
+			"max-height": 40,
 			"retrogen": "true",
 			"ceiling": true,
 			"biome": "all",
@@ -142,7 +142,7 @@
 				"sparse": false,
 				"spindly": true
 			},
-			"cluster-count": 1,
+			"cluster-count": 2,
 			"chunk-chance": 4,	
 			"min-height": 2,
 			"max-height": 36,
@@ -168,10 +168,10 @@
 				"sparse": false,
 				"spindly": false
 			},
-			"cluster-count": 1,
+			"cluster-count": 2,
 			"chunk-chance": 3,	
-			"min-height": 50,
-			"max-height": 120,
+			"min-height": 45,
+			"max-height": 160,
 			"retrogen": "true",
 			"ceiling": true,
 			"biome": "all",
@@ -181,7 +181,32 @@
 					0
 				]
 			}
-		},		
+		},	
+
+		"tin_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": {"name": "embers:ore_copper"},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 15,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 45,
+			"max-height": 160,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},	
 
 
 		"copper_amber_vein": {
@@ -196,7 +221,7 @@
 			},
 			"cluster-count": 2,
 			"chunk-chance": 3,	
-			"min-height": 40,
+			"min-height": 45,
 			"max-height": 120,
 			"retrogen": "true",
 			"ceiling": true,
@@ -208,58 +233,7 @@
 				]
 			}
 		},
-		
 
-		"copper_gold_vein": {
-			"distribution": "uniform",
-			"generator": {
-				"type": "large-vein",
-				"block": [{"name": "embers:ore_copper", "weight": 7}, {"name": "minecraft:gold_ore", "weight": 1}],
-				"material": ["minecraft:stone", "quark:biome_cobblestone"],
-				"cluster-size": 30,
-				"sparse": false,
-				"spindly": false
-			},
-			"cluster-count": 2,
-			"chunk-chance": 8,	
-			"min-height": 2,
-			"max-height": 36,
-			"retrogen": "true",
-			"ceiling": true,
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
-		},
-		
-
-		"tin_silver_vein": {
-			"distribution": "uniform",
-			"generator": {
-				"type": "large-vein",
-				"block": [{"name": "embers:ore_silver", "weight": 2}, {"name": "embers:ore_tin", "weight": 14}],
-				"material": ["minecraft:stone", "quark:biome_cobblestone"],
-				"cluster-size": 30,
-				"sparse": false,
-				"spindly": false
-			},
-			"cluster-count": 2,
-			"chunk-chance": 6,	
-			"min-height": 27,
-			"max-height": 56,
-			"retrogen": "true",
-			"ceiling": true,
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
-		},
 		
 
 		"silver_lead_vein": {
@@ -272,7 +246,7 @@
 				"sparse": false,
 				"spindly": false
 			},
-			"cluster-count": 1,
+			"cluster-count": 2,
 			"chunk-chance": 8,	
 			"min-height": 2,
 			"max-height": 36,
@@ -300,8 +274,8 @@
 			},
 			"cluster-count": 1,
 			"chunk-chance": 12,	
-			"min-height": 2,
-			"max-height": 24,
+			"min-height": 22,
+			"max-height": 44,
 			"retrogen": "true",
 			"ceiling": true,
 			"biome": "all",
@@ -326,8 +300,8 @@
 			},
 			"cluster-count": 1,
 			"chunk-chance": 9,	
-			"min-height": 18,
-			"max-height": 56,
+			"min-height": 12,
+			"max-height": 42,
 			"retrogen": "true",
 			"ceiling": true,
 			"biome": "all",
@@ -352,8 +326,8 @@
 			},
 			"cluster-count": 1,
 			"chunk-chance": 10,	
-			"min-height": 2,
-			"max-height": 52,
+			"min-height": 25,
+			"max-height": 50,
 			"retrogen": "true",
 			"ceiling": true,
 			"biome": "all",
@@ -405,7 +379,7 @@
 			"cluster-count": 1,
 			"chunk-chance": 4,	
 			"min-height": 2,
-			"max-height": 24,
+			"max-height": 35,
 			"retrogen": "true",
 			"ceiling": true,
 			"biome": "all",
@@ -431,7 +405,7 @@
 			"cluster-count": 1,
 			"chunk-chance": 18,	
 			"min-height": 2,
-			"max-height": 18,
+			"max-height": 24,
 			"retrogen": "true",
 			"ceiling": true,
 			"biome": "all",
@@ -586,32 +560,6 @@
 					{"type": "dictionary", "entry": "SPOOKY"}
 					]
 				},
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
-		},
-		
-		
-		"forestry_apatite": {
-			"distribution": "uniform",
-			"generator": {
-				"type": "large-vein",
-				"block": {"name": "forestry:resources", "metadata": 0},
-				"material": ["minecraft:stone", "quark:biome_cobblestone"],
-				"cluster-size": 40,
-				"sparse": false,
-				"spindly": false
-			},
-			"cluster-count": 1,
-			"chunk-chance": 4,	
-			"min-height": 60,
-			"max-height": 150,
-			"retrogen": "true",
-			"ceiling": true,
-			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [

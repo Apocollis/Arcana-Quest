@@ -1,9 +1,9 @@
 {
   "name": "disruption",
   "type": "spawner",
-  "enabled": true,
+  "enabled": false,
   "triggersRequired": 3,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

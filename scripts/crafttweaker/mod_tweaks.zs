@@ -18,9 +18,6 @@ game.setLocalization("item.botania.pestle_and_mortar","Floral Mortar and Pestle"
 <metallurgy:quicksilver_engraved_block>.displayName = "Mercurium Engraved Block";
 <metallurgy:quicksilver_large_bricks>.displayName = "Mercurium Large Bricks";
 <metallurgy:quicksilver_bricks>.displayName = "Mercurium Bricks";
-<metallurgy:quicksilver_crystals>.displayName = "Mercurium Crystals";
-<metallurgy:quicksilver_hazard_block>.displayName = "Mercurium Hazard Block";
-<metallurgy:quicksilver_reinforced_glass>.displayName = "Mercurium Reinforced Glass";
 <metallurgy:quicksilver_helmet>.displayName = "Mercurial Helmet";
 <metallurgy:quicksilver_chestplate>.displayName = "Mercurial Chestplate";
 <metallurgy:quicksilver_leggings>.displayName = "Mercurial Leggings";

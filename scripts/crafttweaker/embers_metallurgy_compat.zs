@@ -29,22 +29,23 @@ for dust in dusts
 
 
 ##Ores##
+#Disabled materials have been commented out. These may be removed later once these changes are determined to be permanent.
 
 #Adamantine
-mods.embers.Melter.add(<liquid:adamantine> * 288, <ore:oreAdamantine>);
-mods.embers.Melter.add(<liquid:adamantine> * 144, <ore:ingotAdamantine>);
-mods.embers.Melter.add(<liquid:adamantine> * 144, <ore:dustAdamantine>);
-mods.embers.Melter.add(<liquid:adamantine> * 16, <ore:nuggetAdamantine>);
-mods.embers.Stamper.add(<metallurgy:adamantine_ingot>, <liquid:adamantine> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:adamantine_nugget>, <liquid:adamantine> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:adamantine> * 288, <ore:oreAdamantine>);
+// mods.embers.Melter.add(<liquid:adamantine> * 144, <ore:ingotAdamantine>);
+// mods.embers.Melter.add(<liquid:adamantine> * 144, <ore:dustAdamantine>);
+// mods.embers.Melter.add(<liquid:adamantine> * 16, <ore:nuggetAdamantine>);
+// mods.embers.Stamper.add(<metallurgy:adamantine_ingot>, <liquid:adamantine> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:adamantine_nugget>, <liquid:adamantine> * 16, <soot:stamp_nugget>);
 
 #Alduorite
-mods.embers.Melter.add(<liquid:alduorite> * 288, <ore:oreAlduorite>);
-mods.embers.Melter.add(<liquid:alduorite> * 144, <ore:ingotAlduorite>);
-mods.embers.Melter.add(<liquid:alduorite> * 144, <ore:dustAlduorite>);
-mods.embers.Melter.add(<liquid:alduorite> * 16, <ore:nuggetAlduorite>);
-mods.embers.Stamper.add(<metallurgy:adamantine_ingot>, <liquid:alduorite> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:adamantine_nugget>, <liquid:alduorite> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:alduorite> * 288, <ore:oreAlduorite>);
+// mods.embers.Melter.add(<liquid:alduorite> * 144, <ore:ingotAlduorite>);
+// mods.embers.Melter.add(<liquid:alduorite> * 144, <ore:dustAlduorite>);
+// mods.embers.Melter.add(<liquid:alduorite> * 16, <ore:nuggetAlduorite>);
+// mods.embers.Stamper.add(<metallurgy:adamantine_ingot>, <liquid:alduorite> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:adamantine_nugget>, <liquid:alduorite> * 16, <soot:stamp_nugget>);
 
 #Astral Silver
 mods.embers.Melter.add(<liquid:astral_silver> * 288, <ore:oreAstralSilver>);
@@ -63,12 +64,12 @@ mods.embers.Stamper.add(<metallurgy:atlarus_ingot>, <liquid:atlarus> * 144, <emb
 mods.embers.Stamper.add(<metallurgy:atlarus_nugget>, <liquid:atlarus> * 16, <soot:stamp_nugget>);
 
 #Carmot
-mods.embers.Melter.add(<liquid:carmot> * 288, <ore:oreCarmot>);
-mods.embers.Melter.add(<liquid:carmot> * 144, <ore:ingotCarmot>);
-mods.embers.Melter.add(<liquid:carmot> * 144, <ore:dustCarmot>);
-mods.embers.Melter.add(<liquid:carmot> * 16, <ore:nuggetCarmot>);
-mods.embers.Stamper.add(<metallurgy:carmot_ingot>, <liquid:carmot> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:carmot_nugget>, <liquid:carmot> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:carmot> * 288, <ore:oreCarmot>);
+// mods.embers.Melter.add(<liquid:carmot> * 144, <ore:ingotCarmot>);
+// mods.embers.Melter.add(<liquid:carmot> * 144, <ore:dustCarmot>);
+// mods.embers.Melter.add(<liquid:carmot> * 16, <ore:nuggetCarmot>);
+// mods.embers.Stamper.add(<metallurgy:carmot_ingot>, <liquid:carmot> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:carmot_nugget>, <liquid:carmot> * 16, <soot:stamp_nugget>);
 
 #Ceruclase
 mods.embers.Melter.add(<liquid:ceruclase> * 288, <ore:oreCeruclase>);
@@ -119,20 +120,20 @@ mods.embers.Stamper.add(<metallurgy:kalendrite_ingot>, <liquid:kalendrite> * 144
 mods.embers.Stamper.add(<metallurgy:kalendrite_nugget>, <liquid:kalendrite> * 16, <soot:stamp_nugget>);
 
 #Lemurite
-mods.embers.Melter.add(<liquid:lemurite> * 288, <ore:oreLemurite>);
-mods.embers.Melter.add(<liquid:lemurite> * 144, <ore:ingotLemurite>);
-mods.embers.Melter.add(<liquid:lemurite> * 144, <ore:dustLemurite>);
-mods.embers.Melter.add(<liquid:lemurite> * 16, <ore:nuggetLemurite>);
-mods.embers.Stamper.add(<metallurgy:lemurite_ingot>, <liquid:lemurite> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:lemurite_nugget>, <liquid:lemurite> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:lemurite> * 288, <ore:oreLemurite>);
+// mods.embers.Melter.add(<liquid:lemurite> * 144, <ore:ingotLemurite>);
+// mods.embers.Melter.add(<liquid:lemurite> * 144, <ore:dustLemurite>);
+// mods.embers.Melter.add(<liquid:lemurite> * 16, <ore:nuggetLemurite>);
+// mods.embers.Stamper.add(<metallurgy:lemurite_ingot>, <liquid:lemurite> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:lemurite_nugget>, <liquid:lemurite> * 16, <soot:stamp_nugget>);
 
 #Lutetium
-mods.embers.Melter.add(<liquid:lutetium> * 288, <ore:oreLutetium>);
-mods.embers.Melter.add(<liquid:lutetium> * 144, <ore:ingotLutetium>);
-mods.embers.Melter.add(<liquid:lutetium> * 144, <ore:dustLutetium>);
-mods.embers.Melter.add(<liquid:lutetium> * 16, <ore:nuggetLutetium>);
-mods.embers.Stamper.add(<metallurgy:lutetium_ingot>, <liquid:lutetium> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:lutetium_nugget>, <liquid:lutetium> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:lutetium> * 288, <ore:oreLutetium>);
+// mods.embers.Melter.add(<liquid:lutetium> * 144, <ore:ingotLutetium>);
+// mods.embers.Melter.add(<liquid:lutetium> * 144, <ore:dustLutetium>);
+// mods.embers.Melter.add(<liquid:lutetium> * 16, <ore:nuggetLutetium>);
+// mods.embers.Stamper.add(<metallurgy:lutetium_ingot>, <liquid:lutetium> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:lutetium_nugget>, <liquid:lutetium> * 16, <soot:stamp_nugget>);
 
 #Manganese
 mods.embers.Melter.add(<liquid:manganese> * 288, <ore:oreManganese>);
@@ -151,12 +152,12 @@ mods.embers.Stamper.add(<metallurgy:meutoite_ingot>, <liquid:meutoite> * 144, <e
 mods.embers.Stamper.add(<metallurgy:meutoite_nugget>, <liquid:meutoite> * 16, <soot:stamp_nugget>);
 
 #Midasium
-mods.embers.Melter.add(<liquid:midasium> * 288, <ore:oreMidasium>);
-mods.embers.Melter.add(<liquid:midasium> * 144, <ore:ingotMidasium>);
-mods.embers.Melter.add(<liquid:midasium> * 144, <ore:dustMidasium>);
-mods.embers.Melter.add(<liquid:midasium> * 16, <ore:nuggetMidasium>);
-mods.embers.Stamper.add(<metallurgy:midasium_ingot>, <liquid:midasium> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:midasium_nugget>, <liquid:midasium> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:midasium> * 288, <ore:oreMidasium>);
+// mods.embers.Melter.add(<liquid:midasium> * 144, <ore:ingotMidasium>);
+// mods.embers.Melter.add(<liquid:midasium> * 144, <ore:dustMidasium>);
+// mods.embers.Melter.add(<liquid:midasium> * 16, <ore:nuggetMidasium>);
+// mods.embers.Stamper.add(<metallurgy:midasium_ingot>, <liquid:midasium> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:midasium_nugget>, <liquid:midasium> * 16, <soot:stamp_nugget>);
 
 #Mithril
 mods.embers.Melter.add(<liquid:mithril> * 288, <ore:oreMithril>);
@@ -175,20 +176,20 @@ mods.embers.Stamper.add(<metallurgy:orichalcum_ingot>, <liquid:orichalcum> * 144
 mods.embers.Stamper.add(<metallurgy:orichalcum_nugget>, <liquid:orichalcum> * 16, <soot:stamp_nugget>);
 
 #Osmium
-mods.embers.Melter.add(<liquid:osmium> * 288, <ore:oreOsmium>);
-mods.embers.Melter.add(<liquid:osmium> * 144, <ore:ingotOsmium>);
-mods.embers.Melter.add(<liquid:osmium> * 144, <ore:dustOsmium>);
-mods.embers.Melter.add(<liquid:osmium> * 16, <ore:nuggetOsmium>);
-mods.embers.Stamper.add(<metallurgy:osmium_ingot>, <liquid:osmium> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:osmium_nugget>, <liquid:osmium> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:osmium> * 288, <ore:oreOsmium>);
+// mods.embers.Melter.add(<liquid:osmium> * 144, <ore:ingotOsmium>);
+// mods.embers.Melter.add(<liquid:osmium> * 144, <ore:dustOsmium>);
+// mods.embers.Melter.add(<liquid:osmium> * 16, <ore:nuggetOsmium>);
+// mods.embers.Stamper.add(<metallurgy:osmium_ingot>, <liquid:osmium> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:osmium_nugget>, <liquid:osmium> * 16, <soot:stamp_nugget>);
 
 #Oureclase
-mods.embers.Melter.add(<liquid:oureclase> * 288, <ore:oreOureclase>);
-mods.embers.Melter.add(<liquid:oureclase> * 144, <ore:ingotOureclase>);
-mods.embers.Melter.add(<liquid:oureclase> * 144, <ore:dustOureclase>);
-mods.embers.Melter.add(<liquid:oureclase> * 16, <ore:nuggetOureclase>);
-mods.embers.Stamper.add(<metallurgy:oureclase_ingot>, <liquid:oureclase> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:oureclase_nugget>, <liquid:oureclase> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:oureclase> * 288, <ore:oreOureclase>);
+// mods.embers.Melter.add(<liquid:oureclase> * 144, <ore:ingotOureclase>);
+// mods.embers.Melter.add(<liquid:oureclase> * 144, <ore:dustOureclase>);
+// mods.embers.Melter.add(<liquid:oureclase> * 16, <ore:nuggetOureclase>);
+// mods.embers.Stamper.add(<metallurgy:oureclase_ingot>, <liquid:oureclase> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:oureclase_nugget>, <liquid:oureclase> * 16, <soot:stamp_nugget>);
 
 #Platinum
 mods.embers.Melter.add(<liquid:platinum> * 288, <ore:orePlatinum>);
@@ -207,12 +208,12 @@ mods.embers.Stamper.add(<metallurgy:prometheum_ingot>, <liquid:prometheum> * 144
 mods.embers.Stamper.add(<metallurgy:prometheum_nugget>, <liquid:prometheum> * 16, <soot:stamp_nugget>);
 
 #Rubracium
-mods.embers.Melter.add(<liquid:rubracium> * 288, <ore:oreRubracium>);
-mods.embers.Melter.add(<liquid:rubracium> * 144, <ore:ingotRubracium>);
-mods.embers.Melter.add(<liquid:rubracium> * 144, <ore:dustRubracium>);
-mods.embers.Melter.add(<liquid:rubracium> * 16, <ore:nuggetRubracium>);
-mods.embers.Stamper.add(<metallurgy:rubracium_ingot>, <liquid:rubracium> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:rubracium_nugget>, <liquid:rubracium> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:rubracium> * 288, <ore:oreRubracium>);
+// mods.embers.Melter.add(<liquid:rubracium> * 144, <ore:ingotRubracium>);
+// mods.embers.Melter.add(<liquid:rubracium> * 144, <ore:dustRubracium>);
+// mods.embers.Melter.add(<liquid:rubracium> * 16, <ore:nuggetRubracium>);
+// mods.embers.Stamper.add(<metallurgy:rubracium_ingot>, <liquid:rubracium> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:rubracium_nugget>, <liquid:rubracium> * 16, <soot:stamp_nugget>);
 
 #Sanguinite
 mods.embers.Melter.add(<liquid:sanguinite> * 288, <ore:oreSanguinite>);
@@ -256,6 +257,7 @@ mods.embers.Stamper.add(<metallurgy:zinc_nugget>, <liquid:zinc> * 16, <soot:stam
 
 
 ##Alloys##
+#Disabled materials have been commented out. These may be removed later once these changes are determined to be permanent.
 
 #Amordrine
 mods.embers.Melter.add(<liquid:amordrine> * 144, <ore:ingotAmordrine>);
@@ -266,12 +268,12 @@ mods.embers.Stamper.add(<metallurgy:amordrine_ingot>, <liquid:amordrine> * 144, 
 mods.embers.Stamper.add(<metallurgy:amordrine_nugget>, <liquid:amordrine> * 16, <soot:stamp_nugget>);
 
 #Angmallen
-mods.embers.Melter.add(<liquid:angmallen> * 144, <ore:ingotAngmallen>);
-mods.embers.Melter.add(<liquid:angmallen> * 144, <ore:dustAngmallen>);
-mods.embers.Melter.add(<liquid:angmallen> * 16, <ore:nuggetAngmallen>);
-mods.embers.Mixer.add(<liquid:angmallen> * 8, [<liquid:iron> * 4, <liquid:gold> * 4]);
-mods.embers.Stamper.add(<metallurgy:angmallen_ingot>, <liquid:angmallen> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:angmallen_nugget>, <liquid:angmallen> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:angmallen> * 144, <ore:ingotAngmallen>);
+// mods.embers.Melter.add(<liquid:angmallen> * 144, <ore:dustAngmallen>);
+// mods.embers.Melter.add(<liquid:angmallen> * 16, <ore:nuggetAngmallen>);
+// mods.embers.Mixer.add(<liquid:angmallen> * 8, [<liquid:iron> * 4, <liquid:gold> * 4]);
+// mods.embers.Stamper.add(<metallurgy:angmallen_ingot>, <liquid:angmallen> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:angmallen_nugget>, <liquid:angmallen> * 16, <soot:stamp_nugget>);
 
 #Black Steel
 mods.embers.Melter.add(<liquid:black_steel> * 144, <ore:ingotBlackSteel>);
@@ -314,44 +316,44 @@ mods.embers.Stamper.add(<metallurgy:desichalkos_ingot>, <liquid:desichalkos> * 1
 mods.embers.Stamper.add(<metallurgy:desichalkos_nugget>, <liquid:desichalkos> * 16, <soot:stamp_nugget>);
 
 #Etherium
-mods.embers.Melter.add(<liquid:etherium> * 144, <ore:ingotEtherium>);
-mods.embers.Melter.add(<liquid:etherium> * 144, <ore:dustEtherium>);
-mods.embers.Melter.add(<liquid:etherium> * 16, <ore:nuggetEtherium>);
-mods.embers.Mixer.add(<liquid:etherium> * 8, [<liquid:sanguinite> * 4, <liquid:carmot> * 4, <liquid:desichalkos> * 4]);
-mods.embers.Stamper.add(<metallurgy:etherium_ingot>, <liquid:etherium> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:etherium_nugget>, <liquid:etherium> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:etherium> * 144, <ore:ingotEtherium>);
+// mods.embers.Melter.add(<liquid:etherium> * 144, <ore:dustEtherium>);
+// mods.embers.Melter.add(<liquid:etherium> * 16, <ore:nuggetEtherium>);
+// mods.embers.Mixer.add(<liquid:etherium> * 8, [<liquid:sanguinite> * 4, <liquid:carmot> * 4, <liquid:desichalkos> * 4]);
+// mods.embers.Stamper.add(<metallurgy:etherium_ingot>, <liquid:etherium> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:etherium_nugget>, <liquid:etherium> * 16, <soot:stamp_nugget>);
 
 #Haderoth
-mods.embers.Melter.add(<liquid:haderoth> * 144, <ore:ingotHaderoth>);
-mods.embers.Melter.add(<liquid:haderoth> * 144, <ore:dustHaderoth>);
-mods.embers.Melter.add(<liquid:haderoth> * 16, <ore:nuggetHaderoth>);
-mods.embers.Mixer.add(<liquid:haderoth> * 6, [<liquid:mithril> * 2, <liquid:rubracium> * 4]);
-mods.embers.Stamper.add(<metallurgy:haderoth_ingot>, <liquid:haderoth> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:haderoth_nugget>, <liquid:haderoth> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:haderoth> * 144, <ore:ingotHaderoth>);
+// mods.embers.Melter.add(<liquid:haderoth> * 144, <ore:dustHaderoth>);
+// mods.embers.Melter.add(<liquid:haderoth> * 16, <ore:nuggetHaderoth>);
+// mods.embers.Mixer.add(<liquid:haderoth> * 6, [<liquid:mithril> * 2, <liquid:rubracium> * 4]);
+// mods.embers.Stamper.add(<metallurgy:haderoth_ingot>, <liquid:haderoth> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:haderoth_nugget>, <liquid:haderoth> * 16, <soot:stamp_nugget>);
 
 #Hepatizon
-mods.embers.Melter.add(<liquid:hepatizon> * 144, <ore:ingotHepatizon>);
-mods.embers.Melter.add(<liquid:hepatizon> * 144, <ore:dustHepatizon>);
-mods.embers.Melter.add(<liquid:hepatizon> * 16, <ore:nuggetHepatizon>);
-mods.embers.Mixer.add(<liquid:hepatizon> * 8, [<liquid:infuscolium> * 4, <liquid:steel> * 4]);
-mods.embers.Stamper.add(<metallurgy:hepatizon_ingot>, <liquid:hepatizon> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:hepatizon_nugget>, <liquid:hepatizon> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:hepatizon> * 144, <ore:ingotHepatizon>);
+// mods.embers.Melter.add(<liquid:hepatizon> * 144, <ore:dustHepatizon>);
+// mods.embers.Melter.add(<liquid:hepatizon> * 16, <ore:nuggetHepatizon>);
+// mods.embers.Mixer.add(<liquid:hepatizon> * 8, [<liquid:infuscolium> * 4, <liquid:steel> * 4]);
+// mods.embers.Stamper.add(<metallurgy:hepatizon_ingot>, <liquid:hepatizon> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:hepatizon_nugget>, <liquid:hepatizon> * 16, <soot:stamp_nugget>);
 
 #Inolashite
-mods.embers.Melter.add(<liquid:inolashite> * 144, <ore:ingotInolashite>);
-mods.embers.Melter.add(<liquid:inolashite> * 144, <ore:dustInolashite>);
-mods.embers.Melter.add(<liquid:inolashite> * 16, <ore:nuggetInolashite>);
-mods.embers.Mixer.add(<liquid:inolashite> * 8, [<liquid:alduorite> * 4, <liquid:ceruclase> * 4]);
-mods.embers.Stamper.add(<metallurgy:inolashite_ingot>, <liquid:inolashite> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:inolashite_nugget>, <liquid:inolashite> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:inolashite> * 144, <ore:ingotInolashite>);
+// mods.embers.Melter.add(<liquid:inolashite> * 144, <ore:dustInolashite>);
+// mods.embers.Melter.add(<liquid:inolashite> * 16, <ore:nuggetInolashite>);
+// mods.embers.Mixer.add(<liquid:inolashite> * 8, [<liquid:alduorite> * 4, <liquid:ceruclase> * 4]);
+// mods.embers.Stamper.add(<metallurgy:inolashite_ingot>, <liquid:inolashite> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:inolashite_nugget>, <liquid:inolashite> * 16, <soot:stamp_nugget>);
 
 #Krik
-mods.embers.Melter.add(<liquid:krik> * 144, <ore:ingotKrik>);
-mods.embers.Melter.add(<liquid:krik> * 144, <ore:dustKrik>);
-mods.embers.Melter.add(<liquid:krik> * 16, <ore:nuggetKrik>);
-mods.embers.Mixer.add(<liquid:krik> * 8, [<liquid:osmium> * 4, <liquid:lutetium> * 4]);
-mods.embers.Stamper.add(<metallurgy:krik_ingot>, <liquid:krik> * 144, <embers:stamp_bar>);
-mods.embers.Stamper.add(<metallurgy:krik_nugget>, <liquid:krik> * 16, <soot:stamp_nugget>);
+// mods.embers.Melter.add(<liquid:krik> * 144, <ore:ingotKrik>);
+// mods.embers.Melter.add(<liquid:krik> * 144, <ore:dustKrik>);
+// mods.embers.Melter.add(<liquid:krik> * 16, <ore:nuggetKrik>);
+// mods.embers.Mixer.add(<liquid:krik> * 8, [<liquid:osmium> * 4, <liquid:lutetium> * 4]);
+// mods.embers.Stamper.add(<metallurgy:krik_ingot>, <liquid:krik> * 144, <embers:stamp_bar>);
+// mods.embers.Stamper.add(<metallurgy:krik_nugget>, <liquid:krik> * 16, <soot:stamp_nugget>);
 
 #Quicksilver
 mods.embers.Melter.add(<liquid:quicksilver> * 144, <ore:ingotQuicksilver>);
@@ -378,6 +380,7 @@ mods.embers.Stamper.add(<metallurgy:steel_ingot>, <liquid:steel> * 144, <embers:
 mods.embers.Stamper.add(<metallurgy:steel_nugget>, <liquid:steel> * 16, <soot:stamp_nugget>);
 
 #Tartarite
+#Tartarite is renamed to Adamantine by language files. ID names have been maintained for compatability with Metallurgy's ability system since Adamantine will use Tartarite's abilities
 mods.embers.Melter.add(<liquid:tartarite> * 144, <ore:ingotTartarite>);
 mods.embers.Melter.add(<liquid:tartarite> * 144, <ore:dustTartarite>);
 mods.embers.Melter.add(<liquid:tartarite> * 16, <ore:nuggetTartarite>);

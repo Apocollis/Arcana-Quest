@@ -1,0 +1,142 @@
+{
+	"name" : "arcanaquest:theme_10level",
+	"themes" : [
+		{
+			"level" : [0, 1],
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta" : 0}, "weight" : 20},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta" : 1}, "weight" : 10},
+						{"type" : "METABLOCK", "data" : {"name" : "cobblestone", "meta" : 0}, "weight" : 10},
+						{"type" : "METABLOCK", "data" : {"name" : "stonebrick", "meta" : 3}, "weight" : 5}
+					]
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "log", "meta" : 0}},
+				"floor" : {"type" : "METABLOCK", "data" : {"name" : "planks", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "stone_brick_stairs"}},
+				"lightblock" : {"name" : "torch"}
+			},
+			"secondary" : {
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "planks", "meta" : 0}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "log", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "oak_stairs"}}
+			}
+		},
+		{
+			"level" : 2,
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "botania:livingrock", "meta" : 0}, "weight" : 20},
+						{"type" : "METABLOCK", "data" : {"name" : "botania:livingrock", "meta" : 1}, "weight" : 10},
+						{"type" : "METABLOCK", "data" : {"name" : "botania:custombrick", "meta" : 0}, "weight" : 5}
+					]
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "botania:livingwood", "meta" : 0}},
+				"floor" : {"type" : "METABLOCK", "data" : {"name" : "botania:shimmerwoodplanks", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "botania:livingrockstairs"}},
+				"lightblock" : {"name" : "botania:managlass"}
+			},
+			"secondary" : {
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "botania:livingwood", "meta" : 1}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "botania:livingwood", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "botania:livingwoodstairs"}}
+			}
+		},
+		{
+			"level" : 3,
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:bookshelf_oak", "meta" : 0}, "weight" : 12},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:marble", "meta" : 0}, "weight" : 20},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:marble", "meta" : 1}, "weight" : 10}
+					]
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:log_greatwood", "meta" : 0}},
+				"floor" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:plank_greatwood", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:stairs_greatwood"}},
+				"lightblock" : {"name" : "thaumcraft:nitor_yellow"}
+			},
+			"secondary" : {
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:plank_greatwood", "meta" : 0}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:log_greatwood", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:stairs_greatwood"}}
+			}
+		},
+		{
+			"level" : [4, 5],
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarble", "meta" : 0}, "weight" : 20},
+						{"type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarble", "meta" : 1}, "weight" : 10},
+						{"type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarble", "meta" : 2}, "weight" : 5}
+					]
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarble", "meta" : 3}},
+				"floor" : {"type" : "METABLOCK", "data" : {"name" : "minecraft:lapis_block", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "quartz_stairs"}},
+				"lightblock" : {"name" : "minecraft:sea_lantern"}
+			},
+			"secondary" : {
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarble", "meta" : 1}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarble", "meta" : 3}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "quartz_stairs"}}
+			}
+		},
+		{
+			"level" : [6, 7],
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "embers:caminite_brick", "meta" : 0}, "weight" : 20},
+						{"type" : "METABLOCK", "data" : {"name" : "embers:wildfire_stirling", "meta" : 0}, "weight" : 5},
+						{"type" : "METABLOCK", "data" : {"name" : "minecraft:copper_block", "meta" : 0}, "weight" : 3}
+					]
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "embers:caminite_brick", "meta" : 0}},
+				"floor" : {"type" : "METABLOCK", "data" : {"name" : "embers:caminite_tile", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "nether_brick_stairs"}},
+				"liquid" : {"name" : "minecraft:lava"},
+				"lightblock" : {"name" : "minecraft:magma"}
+			},
+			"secondary" : {
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "embers:caminite_brick", "meta" : 0}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "embers:caminite_brick", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "nether_brick_stairs"}}
+			}
+		},
+		{
+			"level" : [8, 9],
+			"primary" : {
+				"walls" : {
+					"type" : "WEIGHTED",
+					"data" : [
+						{"type" : "METABLOCK", "data" : {"name" : "thaumcraft:stone_arcane", "meta" : 0}, "weight" : 25},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:arcane_stone", "meta" : 1}, "weight" : 25},
+						{"type" : "METABLOCK", "data" : {"name" : "chisel:arcane_stone1", "meta" : 14}, "weight" : 20},
+						{"type" : "METABLOCK", "data" : {"name" : "thaumcraft:stone_ancient", "meta" : 0}, "weight" : 10},
+						{"type" : "METABLOCK", "data" : {"name" : "thaumcraft:stone_eldritch", "meta" : 0}, "weight" : 5}
+					]
+				},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:log_greatwood", "meta" : 0}},
+				"floor" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:plank_greatwood", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:stairs_greatwood"}},
+				"door" : {"name" : "minecraft:iron_door"},
+				"lightblock" : {"name" : "thaumcraft:nitor_white"}
+			},
+			"secondary" : {
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:plank_greatwood", "meta" : 0}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:log_greatwood", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:stairs_greatwood"}}
+			}
+		}
+	]
+}

@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
+    "COLD",
     "DRY",
+    "SPARSE",
     "MOUNTAIN",
     "FOREST",
-    "COLD",
-    "SNOWY",
-    "SPARSE"
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -212,12 +212,6 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "sophisticated_wolves.entity.EntitySophisticatedWolf",
-      "Weight": 5,
-      "Min Group Count": 4,
-      "Max Group Count": 6
-    },
-    {
       "Entity Class": "com.dungeon_additions.da.entity.dark_dungeon.EntityDarkAssassin",
       "Weight": 5,
       "Min Group Count": 1,
@@ -258,6 +252,12 @@
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [

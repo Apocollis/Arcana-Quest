@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    51
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Unlocks Chapter III.",
+      "frame:8": "NORMAL",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "minecraft:obsidian"
+      },
+      "ismain:1": 1,
+      "name:8": "Unlocking Stage III"
+    }
+  },
+  "questID:3": 52,
+  "tasks:9": {}
+}

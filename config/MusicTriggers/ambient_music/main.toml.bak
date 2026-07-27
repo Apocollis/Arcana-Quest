@@ -1,0 +1,200 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+[triggers]
+	[triggers.menu]
+	[triggers.underwater]
+		priority = "8"
+	[triggers.fishing]
+		priority = "8"
+	[triggers.dead]
+		priority = "9"
+	[triggers.lowhp]
+		level = 30
+		priority = "9"
+	[[triggers.height]]
+		identifier = "underground"
+		level = 59
+		priority = "5"
+	[[triggers.height]]
+		identifier = "deep_underground"
+		level = 20
+		priority = "5"
+	[[triggers.height]]
+		identifier = "high_up"
+		level = 128
+		check_above_level = true
+		priority = "5"
+	[triggers.structure]
+		identifier = "village"
+		resource_name = [ "Village" ]
+		priority = "6"
+	[[triggers.riding]]
+		identifier = "minecart"
+		resource_name = [ "minecart" ]
+		priority = "8"
+	[[triggers.riding]]
+		identifier = "boat"
+		resource_name = [ "boat" ]
+		priority = "8"
+	[triggers.mob]
+		identifier = "boss"
+		resource_name = [ "BOSS" ]
+		level = 1
+		priority = "10"
+	[[triggers.time]]
+		identifier = "day"
+		time_bundle = "day"
+		priority = "4"
+	[[triggers.time]]
+		identifier = "night"
+		time_bundle = "night"
+		priority = "4"
+	[[triggers.biome]]
+		identifier = "spooky"
+		biome_category = [ "SPOOKY" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "lush"
+		biome_category = [ "LUSH" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "nether"
+		biome_category = [ "NETHER" ]
+		priority = "10"
+	[[triggers.biome]]
+		identifier = "end"
+		biome_category = [ "END" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "mushroom"
+		biome_category = [ "MUSHROOM" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "magical"
+		biome_category = [ "MAGICAL" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "ocean"
+		biome_category = [ "OCEAN" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "river"
+		biome_category = [ "RIVER" ]
+		priority = "2"
+	[[triggers.biome]]
+		identifier = "mesa"
+		biome_category = [ "MESA" ]
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "forest"
+		biome_category = [ "FOREST" ]
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "plains"
+		biome_category = [ "PLAINS" ]
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "mountain"
+		biome_category = [ "MOUNTAIN" ]
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "hills"
+		biome_category = [ "HILLS" ]
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "swamp"
+		biome_category = [ "SWAMP" ]
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "desert"
+		biome_category = [ "DESERT" ]
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "snowy"
+		biome_category = [ "SNOWY" ]
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "wasteland"
+		biome_category = [ "WASTELAND" ]
+		priority = "1"
+	[[triggers.biome]]
+		identifier = "beach"
+		biome_category = [ "BEACH" ]
+		priority = "1"
+
+[songs]
+	[songs.universal]
+	[songs.FantasyWorldMenu2]
+		volume = "0.8"
+		triggers = [ "menu" ]
+	[songs.FaceEvil]
+		triggers = [ "mob-boss" ]
+	[songs.SuperiorConflictVoid]
+		triggers = [ "mob-boss" ]
+	[songs.Underground1]
+		triggers = [ "height-underground" ]
+	[songs.Underground2]
+		triggers = [ "height-underground" ]
+	[songs.CaveBackground]
+		triggers = [ "height-deep_underground" ]
+	[songs.HighAltitude]
+		triggers = [ "height-high_up" ]
+	[songs.LifeinaMysticalVillage]
+		triggers = [ "structure-village" ]
+	[songs.Zealot]
+		triggers = [ "underwater" ]
+	[songs.DwarfTheme]
+		triggers = [ "riding-minecart" ]
+	[songs.SeaShantyII]
+		triggers = [ "riding-boat" ]
+	[songs.ClippityClop_Looping]
+		triggers = [ "riding-horse_pig" ]
+	[songs.BiomeTypeForestNight1]
+		triggers = [ "time-night" ]
+	[songs.BiomeTypeForestNight2]
+		triggers = [ "time-night" ]
+	[songs.Forbidden]
+		triggers = [ "lowhp" ]
+	[songs.Day]
+		triggers = [ "generic" ]
+	[songs.HauntedHollow]
+		triggers = [ "biome-spooky_dead" ]
+	[songs.BiomeJungleNight]
+		triggers = [ "biome-lush" ]
+	[songs.Caverns]
+		triggers = [ "biome-nether" ]
+	[songs.Wonder]
+		triggers = [ "biome-end" ]
+	[songs.Wander]
+		triggers = [ "biome-mushroom" ]
+	[songs.MistyBog_Looping]
+		triggers = [ "biome-magical" ]
+	[songs.MagicOcean_v001_Looping]
+		triggers = [ "biome-ocean" ]
+	[songs.Greatness]
+		triggers = [ "biome-river" ]
+	[songs.DesertMystery]
+		triggers = [ "biome-mesa" ]
+	[songs.BiomeRoofedForest]
+		triggers = [ "biome-forest" ]
+	[songs.Harmony]
+		triggers = [ "biome-plains" ]
+	[songs.Adventure]
+		triggers = [ "biome-mountain" ]
+	[songs.Medieval]
+		triggers = [ "biome-hills" ]
+	[songs.Yesteryear]
+		triggers = [ "biome-swamp" ]
+	[songs.BiomeTypeSandyDay]
+		triggers = [ "biome-sandy" "time-day" ]
+	[songs.BiomeTypeSandyNight]
+		triggers = [ "biome-sandy" "time-night" ]
+	[songs.Snow]
+		triggers = [ "biome-snowy" ]
+	[songs.Snowstorm]
+		triggers = [ "biome-snowy" ]
+	[songs.Forever]
+		triggers = [ "biome-wasteland" ]
+	[songs.Attention]
+		triggers = [ "biome-beach" ]

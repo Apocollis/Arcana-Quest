@@ -1,0 +1,52 @@
+{
+  "category_limits": {
+    "hearth": 1,
+    "bedding": 1,
+    "seating": 2,
+    "lighting": 3,
+    "study": 2,
+    "decoration": 4,
+    "nature": 3,
+    "structure": 8,
+    "pets": 2
+  },
+  "pet_comfort_value": 3.0,
+  "categories": {
+    "hearth": {
+      "farmersdelight:stove": 4.0
+    },
+    "bedding": {
+      "comforts:hammock": 3.5,
+      "minecraft:bed": 3.0,
+      "comforts:sleeping_bag": 2.0
+    },
+    "seating": {
+      "bibliocraft:seat": 3.0
+    },
+    "lighting": {
+      "saltmod:salt_lamp": 2.0,
+      "fancylamps:gothic_lamp": 2.0,
+      "rustic:iron_lantern": 2.0
+    },
+    "study": {
+      "bibliocraft:bookcase": 1.5,
+      "inspirations:bookshelf": 1.5
+    },
+    "decoration": {
+      "minecraft:carpet": 1.0,
+      "minecraft:standing_banner": 1.5,
+      "minecraft:wall_banner": 1.5
+    },
+    "nature": {
+      "minecraft:flower_pot": 1.5,
+      "minecraft:red_flower": 1.0,
+      "minecraft:yellow_flower": 1.0
+    },
+    "structure": {
+      "rustic:slate_chiseled": 1.0,
+      "earthworks:block_plaster": 1.0,
+      "earthworks:block_adobe": 1.0,
+      "earthworks:block_cob": 1.0
+    }
+  }
+}

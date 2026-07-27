@@ -9,6 +9,10 @@ print(<contenttweaker:cracked_pearl>.displayName);
 <contenttweaker:cracked_pearl>.addTooltip("Teleports you to a random location. Use with caution.");
 <contenttweaker:cracked_pearl>.addTooltip("Breaks on use");
 
+print(<contenttweaker:arcane_blueprint>.displayName);
+<contenttweaker:arcane_blueprint>.displayName = "Arcane Blueprint";
+<contenttweaker:arcane_blueprint>.addTooltip("The text shifts and shimmers, but you feel like you can learn something from it...");
+
 <ordinarycoins:coinbronze>.displayName = "Copper Coin";
 
 #Renames

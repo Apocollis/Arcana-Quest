@@ -1,0 +1,76 @@
+{
+	"name" : "arcanaquest:spawners_10level",
+	"spawners" : [
+		{
+			"level" : [0, 1],
+			"potentials" : [
+				{"name" : "minecraft:zombie", "weight" : 10},
+				{"name" : "minecraft:skeleton", "weight" : 10},
+				{"name" : "minecraft:spider", "weight" : 8},
+				{"name" : "grimoireofgaia:cave_spider", "weight" : 5}
+			]
+		},
+		{
+			"level" : 2,
+			"potentials" : [
+				{"name" : "grimoireofgaia:spriggan", "weight" : 10},
+				{"name" : "grimoireofgaia:mandrake", "weight" : 8},
+				{"name" : "minecraft:zombie", "weight" : 10},
+				{"name" : "minecraft:skeleton", "weight" : 10}
+			]
+		},
+		{
+			"level" : 3,
+			"potentials" : [
+				{"name" : "thaumcraft:wisp", "weight" : 10},
+				{"name" : "thaumcraft:brainy_zombie", "weight" : 12},
+				{"name" : "minecraft:witch", "weight" : 8},
+				{"name" : "grimoireofgaia:harpy", "weight" : 5}
+			]
+		},
+		{
+			"level" : [4, 5],
+			"potentials" : [
+				{"name" : "astralsorcery:entityspectrelight", "weight" : 8},
+				{"name" : "grimoireofgaia:valkyrie", "weight" : 6},
+				{"name" : "grimoireofgaia:sphinx", "weight" : 4},
+				{"name" : "minecraft:enderman", "weight" : 8}
+			]
+		},
+		{
+			"level" : [6, 7],
+			"potentials" : [
+				{"name" : "thaumcraft:firebat", "weight" : 10},
+				{"name" : "grimoireofgaia:anubis", "weight" : 6},
+				{"name" : "minecraft:blaze", "weight" : 8},
+				{"name" : "minecraft:magma_cube", "weight" : 8}
+			]
+		},
+		{
+			"level" : [8, 9],
+			"potentials" : [
+				{"name" : "thaumcraft:brainy_zombie", "weight" : 15},
+				{"name" : "minecraft:husk", "weight" : 15},
+				{"name" : "thaumcraft:eldritchguardian", "weight" : 10},
+				{"name" : "grimoireofgaia:flesh_lich", "weight" : 4}
+			]
+		},
+		{
+			"level" : [8, 9],
+			"potentials" : [
+				{"name" : "thaumcraft:cultistknight", "weight" : 8},
+				{"name" : "crimsonrevelations:crimson_archer", "weight" : 6},
+				{"name" : "thaumcraft:cultistcleric", "weight" : 6}
+			]
+		},
+		{
+			"level" : [8, 9],
+			"potentials" : [
+				{"name" : "thaumcraft:firebat", "weight" : 4},
+				{"name" : "thaumcraft:thaumic_slime", "weight" : 4},
+				{"name" : "thaumcraft:taint_swarm", "weight" : 4},
+				{"name" : "thaumcraft:mind_spider", "weight" : 4}
+			]
+		}
+	]
+}

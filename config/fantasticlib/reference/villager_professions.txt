@@ -10,4 +10,3 @@ vtt:tinkerer
 oreberries:tinker
 bewitchment:hedge_witch
 bewitchment:alchemist
-sophisticatedwolves:pets_seller

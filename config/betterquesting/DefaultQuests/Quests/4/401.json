@@ -1,0 +1,21 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Hunt Dark Druids.",
+      "frame:8": "NORMAL",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "thebetweenlands:dark_druid"
+      },
+      "ismain:1": 0,
+      "name:8": "Dark Druids"
+    }
+  },
+  "questID:3": 401,
+  "tasks:9": {}
+}

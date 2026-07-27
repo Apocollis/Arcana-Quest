@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    502
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Defeat Ender Dragon.",
+      "frame:8": "NORMAL",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "endexpansion:lamented_stone"
+      },
+      "ismain:1": 0,
+      "name:8": "Lamented Islands"
+    }
+  },
+  "questID:3": 503,
+  "tasks:9": {}
+}

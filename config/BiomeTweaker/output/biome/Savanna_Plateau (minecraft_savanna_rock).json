@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "RARE",
     "PLAINS",
-    "HOT",
     "SAVANNA",
-    "SPARSE"
+    "SPARSE",
+    "RARE",
+    "HOT"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -279,6 +279,12 @@
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [

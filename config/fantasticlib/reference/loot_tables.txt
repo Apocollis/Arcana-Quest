@@ -9,6 +9,7 @@ farm/animania:goat_prime
 thaumcraft:pech
 xreliquary:inject/chests/igloo_chest
 minecraft:entities/elder_guardian
+raids:entities/pillager
 thebetweenlands:loot/sludge_worm_dungeon_urn
 netherex:entity/wither_skeleton
 minecraft:entities/creeper
@@ -66,6 +67,7 @@ thebetweenlands:loot/wight_fortress_pot
 minecraft:entities/stray
 minecraft:entities/sheep/magenta
 xreliquary:inject/chests/simple_dungeon
+raids:entities/ravager
 beneath:entities/shadow
 bewitchment:entities/lizard
 minecraft:chests/igloo_chest
@@ -206,6 +208,7 @@ lootchests:serious_loot
 twilightforest:structures/hill_3/hill_3
 minecraft:entities/ender_dragon
 twilightforest:entities/kobold
+eerieentities:entities/pumpkin_slime
 minecraft:entities/parrot
 netherex:entity/pigtificate/pigtificate_nincompoop
 thebetweenlands:entities/frog
@@ -231,6 +234,7 @@ xreliquary:inject/entities/zombie_villager
 minecraft:entities/sheep/purple
 xreliquary:inject/entities/skeleton
 thebetweenlands:loot/sludge_worm_dungeon_barrishee_chest
+eerieentities:entities/wisp
 minecraft:entities/ocelot
 bewitchment:chests/nether_materials
 minecraft:entities/llama
@@ -241,6 +245,7 @@ xreliquary:inject/entities/spider
 twilightforest:entities/snow_guardian
 minecraft:entities/sheep/brown
 farm/animania:pig_prime
+raids:chests/pillager_outpost
 spartantwilight:inject/labyrinth_vault
 spartantwilight:inject/hedge_maze
 minecraft:chests/nether_bridge
@@ -296,6 +301,7 @@ netherex:entity/salamander/orange_salamander
 netherex:entity/ghast/ghastling
 minecraft:gameplay/fishing/fish
 thebetweenlands:loot/lake_cavern_simulacrum_offerings
+eerieentities:entities/nether_knight
 netherex:entity/mogus/brown_mogus
 bewitchment:entities/owl
 xreliquary:inject/entities/creeper
@@ -421,6 +427,7 @@ thebetweenlands:entities/anadia
 twilightforest:entities/tiny_bird
 twilightforest:entities/bighorn_sheep/green
 minecraft:entities/vindication_illager
+eerieentities:entities/cursed_armor
 xreliquary:inject/entities/blaze
 minecraft:entities/husk
 twilightforest:structures/aurora_boss/aurora_boss

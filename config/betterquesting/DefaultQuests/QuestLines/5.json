@@ -1,69 +1,91 @@
 {
   "lineID:3": 5,
-  "order:3": 5,
+  "order:3": 3,
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Exploration Questline",
+      "desc:8": "Travel to new realms paired with magic mods.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
+          "astralsorcery:cap_item_amulet_holder:10": {},
           "customnpcs:itemscripteddata:10": {},
           "wizardryutils:summoneditemdata:10": {}
         },
-        "id:8": "minecraft:end_portal_frame"
+        "id:8": "minecraft:obsidian"
       },
-      "name:8": "Exploring Other Worlds"
+      "name:8": "Chapter III: Dimensional Gateways"
     }
   },
   "quests:9": {
     "0:10": {
-      "id:3": 51,
+      "id:3": 301,
       "sizeX:3": 24,
       "sizeY:3": 24,
-      "x:3": -132,
-      "y:3": -36
+      "x:3": 0,
+      "y:3": 0
     },
     "1:10": {
-      "id:3": 52,
+      "id:3": 302,
       "sizeX:3": 24,
       "sizeY:3": 24,
-      "x:3": -96,
-      "y:3": -36
+      "x:3": 36,
+      "y:3": -54
     },
     "2:10": {
-      "id:3": 53,
+      "id:3": 303,
       "sizeX:3": 24,
       "sizeY:3": 24,
-      "x:3": -60,
-      "y:3": -36
+      "x:3": 72,
+      "y:3": -54
     },
     "3:10": {
-      "id:3": 54,
+      "id:3": 304,
       "sizeX:3": 24,
       "sizeY:3": 24,
-      "x:3": -168,
-      "y:3": -36
+      "x:3": 36,
+      "y:3": -18
     },
     "4:10": {
-      "id:3": 55,
+      "id:3": 305,
       "sizeX:3": 24,
       "sizeY:3": 24,
-      "x:3": -24,
-      "y:3": -36
+      "x:3": 72,
+      "y:3": -18
     },
     "5:10": {
-      "id:3": 56,
+      "id:3": 306,
       "sizeX:3": 24,
       "sizeY:3": 24,
-      "x:3": 12,
-      "y:3": -36
+      "x:3": 36,
+      "y:3": 18
     },
     "6:10": {
-      "id:3": 57,
+      "id:3": 307,
       "sizeX:3": 24,
       "sizeY:3": 24,
-      "x:3": 48,
-      "y:3": -36
+      "x:3": 72,
+      "y:3": 18
+    },
+    "7:10": {
+      "id:3": 308,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 36,
+      "y:3": 54
+    },
+    "8:10": {
+      "id:3": 309,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 72,
+      "y:3": 54
+    },
+    "9:10": {
+      "id:3": 310,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 108,
+      "y:3": 0
     }
   }
 }

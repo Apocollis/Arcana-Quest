@@ -1,13 +1,21 @@
 [
   {
     "dimension": 0,
-    "biome": [
-      "Desert",
-      "Desert Hills",
-      "Desert M",
-      "Mesa",
-      "Oasis",
-      "Outback"
+    "biomereg": [
+      "biomesoplenty:desert",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
     ],
     "maxcount": {
       "amount": 1,
@@ -25,21 +33,30 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
     ],
     "maxcount": {
       "amount": 3,
@@ -49,7 +66,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -57,16 +74,34 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Crag",
-      "Extreme Hills",
-      "Extreme Hills Edge",
-      "Extreme Hills M",
-      "Extreme Hills+",
-      "Extreme Hills+ M",
-      "Highland",
-      "Mountain"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:crag",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:highland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:orchard",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "biomesoplenty:volcanic_island",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:mutated_plains",
+      "minecraft:plains",
+      "minecraft:smaller_extreme_hills",
+      "minecraft:sunflower_plains"
     ],
     "maxcount": {
       "amount": 1,
@@ -84,35 +119,11 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
-    ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:bone_knight",
-      "perplayer": true
-    },
-    "mobs": [
-      {
-        "mob": "grimoireofgaia:bone_knight",
-        "weight": 25,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  {
-    "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 3,
@@ -122,7 +133,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cecaelia",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -130,15 +141,22 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Clover Patch",
-      "Grassland",
-      "Lavender Fields",
-      "Meadow",
-      "Orchard",
-      "Plains",
-      "Prairie",
-      "Sunflower Plains"
+    "biomereg": [
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:orchard",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_plains",
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
     ],
     "maxcount": {
       "amount": 3,
@@ -148,7 +166,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -156,16 +174,99 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Crag",
-      "Extreme Hills",
-      "Extreme Hills Edge",
-      "Extreme Hills M",
-      "Extreme Hills+",
-      "Extreme Hills+ M",
-      "Highland",
-      "Mountain"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "biomesoplenty:volcanic_island",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "minecraft:smaller_extreme_hills"
+    ],
+    "maxcount": {
+      "amount": 3,
+      "mob": "grimoireofgaia:cobble_golem",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:cobble_golem",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "biomesoplenty:volcanic_island",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "minecraft:smaller_extreme_hills"
+    ],
+    "maxcount": {
+      "amount": 1,
+      "mob": "grimoireofgaia:cobblestone_golem",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:cobblestone_golem",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:volcanic_island",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills"
     ],
     "maxcount": {
       "amount": 3,
@@ -175,7 +276,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:cyclops",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -183,13 +284,13 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 3,
@@ -199,7 +300,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:deathword",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -207,13 +308,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 1,
@@ -231,25 +331,34 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Fungi Forest",
-      "Magical Forest",
-      "Maple Woods",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 3,
@@ -259,7 +368,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:dryad",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -267,13 +376,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 3,
@@ -283,7 +391,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:dullahan",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -291,13 +399,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 1,
@@ -315,15 +422,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Marsh",
-      "Quagmire",
-      "Swampland",
-      "Swampland M",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 3,
@@ -333,7 +444,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:gelatinous_slime",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -341,16 +452,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Crag",
-      "Extreme Hills",
-      "Extreme Hills Edge",
-      "Extreme Hills M",
-      "Extreme Hills+",
-      "Extreme Hills+ M",
-      "Highland",
-      "Mountain"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:volcanic_island",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills"
     ],
     "maxcount": {
       "amount": 3,
@@ -360,7 +474,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:gryphon",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -368,15 +482,22 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Clover Patch",
-      "Grassland",
-      "Lavender Fields",
-      "Meadow",
-      "Orchard",
-      "Plains",
-      "Prairie",
-      "Sunflower Plains"
+    "biomereg": [
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:orchard",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_plains",
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
     ],
     "maxcount": {
       "amount": 3,
@@ -386,7 +507,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:harpy",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -394,14 +515,17 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Jungle",
-      "Jungle Edge",
-      "Jungle Edge M",
-      "Jungle Hills",
-      "Jungle M",
-      "Rainforest",
-      "Tropical Rainforest"
+    "biomereg": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
     ],
     "maxcount": {
       "amount": 3,
@@ -411,7 +535,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:hunter",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -419,13 +543,13 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 3,
@@ -435,7 +559,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:matango",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -443,11 +567,11 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 1,
@@ -465,15 +589,22 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Clover Patch",
-      "Grassland",
-      "Lavender Fields",
-      "Meadow",
-      "Orchard",
-      "Plains",
-      "Prairie",
-      "Sunflower Plains"
+    "biomereg": [
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:orchard",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_plains",
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
     ],
     "maxcount": {
       "amount": 1,
@@ -491,15 +622,22 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Clover Patch",
-      "Grassland",
-      "Lavender Fields",
-      "Meadow",
-      "Orchard",
-      "Plains",
-      "Prairie",
-      "Sunflower Plains"
+    "biomereg": [
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:orchard",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_plains",
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
     ],
     "maxcount": {
       "amount": 1,
@@ -517,13 +655,21 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Desert",
-      "Desert Hills",
-      "Desert M",
-      "Mesa",
-      "Oasis",
-      "Outback"
+    "biomereg": [
+      "biomesoplenty:desert",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
     ],
     "maxcount": {
       "amount": 3,
@@ -533,7 +679,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:mummy",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -541,22 +687,29 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Jungle",
-      "Jungle Edge",
-      "Jungle Edge M",
-      "Jungle Hills",
-      "Jungle M",
-      "Marsh",
-      "Quagmire",
-      "Rainforest",
-      "Swampland",
-      "Swampland M",
-      "Tropical Rainforest",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "biomesoplenty:wetland",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 1,
@@ -574,13 +727,13 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 1,
@@ -598,15 +751,22 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Clover Patch",
-      "Grassland",
-      "Lavender Fields",
-      "Meadow",
-      "Orchard",
-      "Plains",
-      "Prairie",
-      "Sunflower Plains"
+    "biomereg": [
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:orchard",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_plains",
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
     ],
     "maxcount": {
       "amount": 3,
@@ -616,7 +776,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:satyress",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -624,19 +784,32 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 3,
@@ -646,7 +819,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -654,14 +827,17 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Jungle",
-      "Jungle Edge",
-      "Jungle Edge M",
-      "Jungle Hills",
-      "Jungle M",
-      "Rainforest",
-      "Tropical Rainforest"
+    "biomereg": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
     ],
     "maxcount": {
       "amount": 1,
@@ -679,11 +855,11 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 1,
@@ -701,15 +877,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Marsh",
-      "Quagmire",
-      "Swampland",
-      "Swampland M",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 3,
@@ -719,7 +899,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:siren",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -727,15 +907,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Marsh",
-      "Quagmire",
-      "Swampland",
-      "Swampland M",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 3,
@@ -745,7 +929,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:sludge_girl",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -753,13 +937,21 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Desert",
-      "Desert Hills",
-      "Desert M",
-      "Mesa",
-      "Oasis",
-      "Outback"
+    "biomereg": [
+      "biomesoplenty:desert",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
     ],
     "maxcount": {
       "amount": 1,
@@ -777,13 +969,13 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 5,
@@ -793,7 +985,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:sporeling",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -801,25 +993,34 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Fungi Forest",
-      "Magical Forest",
-      "Maple Woods",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 1,
@@ -837,15 +1038,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Marsh",
-      "Quagmire",
-      "Swampland",
-      "Swampland M",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 3,
@@ -855,7 +1060,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:toad",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -863,16 +1068,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Crag",
-      "Extreme Hills",
-      "Extreme Hills Edge",
-      "Extreme Hills M",
-      "Extreme Hills+",
-      "Extreme Hills+ M",
-      "Highland",
-      "Mountain"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:volcanic_island",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills"
     ],
     "maxcount": {
       "amount": 1,
@@ -890,13 +1098,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 1,
@@ -914,21 +1121,22 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:orchard",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_plains",
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
     ],
     "maxcount": {
       "amount": 3,
@@ -938,7 +1146,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:werecat",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -946,13 +1154,13 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 1,
@@ -970,19 +1178,32 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 1,
@@ -1000,19 +1221,32 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 1,
@@ -1030,11 +1264,50 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:kelp_forest",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:deep_ocean",
+      "minecraft:mutated_swampland",
+      "minecraft:ocean",
+      "minecraft:river",
+      "minecraft:swampland"
+    ],
+    "maxcount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:abaia",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:abaia",
+        "weight": 65,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ],
+    "type": "waterCreature",
+    "block": [
+      "minecraft:water"
+    ]
+  },
+  {
+    "dimension": 0,
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 5,
@@ -1044,26 +1317,31 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:abtu",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
     ],
+    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Marsh",
-      "Quagmire",
-      "Swampland",
-      "Swampland M",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 5,
@@ -1073,7 +1351,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:aglebemu",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1081,19 +1359,32 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 5,
@@ -1103,7 +1394,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:arix",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1111,13 +1402,21 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Desert",
-      "Desert Hills",
-      "Desert M",
-      "Mesa",
-      "Oasis",
-      "Outback"
+    "biomereg": [
+      "biomesoplenty:desert",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
     ],
     "maxcount": {
       "amount": 5,
@@ -1127,7 +1426,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:balayang",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1135,16 +1434,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Crag",
-      "Extreme Hills",
-      "Extreme Hills Edge",
-      "Extreme Hills M",
-      "Extreme Hills+",
-      "Extreme Hills+ M",
-      "Highland",
-      "Mountain"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:volcanic_island",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills"
     ],
     "maxcount": {
       "amount": 5,
@@ -1154,7 +1456,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:barghest",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1162,13 +1464,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 1,
@@ -1186,19 +1487,32 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 5,
@@ -1208,7 +1522,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:bobeko",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1216,12 +1530,14 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Brushland",
-      "Outback",
-      "Savanna",
-      "Savanna M",
-      "Savanna Plateau M"
+    "biomereg": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:chaparral",
+      "biomesoplenty:outback",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
     ],
     "maxcount": {
       "amount": 3,
@@ -1231,7 +1547,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:chupacabra",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1239,13 +1555,21 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Desert",
-      "Desert Hills",
-      "Desert M",
-      "Mesa",
-      "Oasis",
-      "Outback"
+    "biomereg": [
+      "biomesoplenty:desert",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
     ],
     "maxcount": {
       "amount": 5,
@@ -1255,7 +1579,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:clink",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1263,15 +1587,22 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Clover Patch",
-      "Grassland",
-      "Lavender Fields",
-      "Meadow",
-      "Orchard",
-      "Plains",
-      "Prairie",
-      "Sunflower Plains"
+    "biomereg": [
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:orchard",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_plains",
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
     ],
     "maxcount": {
       "amount": 1,
@@ -1289,14 +1620,17 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Jungle",
-      "Jungle Edge",
-      "Jungle Edge M",
-      "Jungle Hills",
-      "Jungle M",
-      "Rainforest",
-      "Tropical Rainforest"
+    "biomereg": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
     ],
     "maxcount": {
       "amount": 5,
@@ -1306,7 +1640,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:conba",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1314,13 +1648,21 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Desert",
-      "Desert Hills",
-      "Desert M",
-      "Mesa",
-      "Oasis",
-      "Outback"
+    "biomereg": [
+      "biomesoplenty:desert",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
     ],
     "maxcount": {
       "amount": 1,
@@ -1338,13 +1680,21 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Desert",
-      "Desert Hills",
-      "Desert M",
-      "Mesa",
-      "Oasis",
-      "Outback"
+    "biomereg": [
+      "biomesoplenty:desert",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
     ],
     "maxcount": {
       "amount": 5,
@@ -1354,7 +1704,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:cryptkeeper",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1362,13 +1712,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 5,
@@ -1378,7 +1727,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:darkling",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1386,14 +1735,17 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Jungle",
-      "Jungle Edge",
-      "Jungle Edge M",
-      "Jungle Hills",
-      "Jungle M",
-      "Rainforest",
-      "Tropical Rainforest"
+    "biomereg": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
     ],
     "maxcount": {
       "amount": 5,
@@ -1403,7 +1755,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:dawon",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1411,15 +1763,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Marsh",
-      "Quagmire",
-      "Swampland",
-      "Swampland M",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 5,
@@ -1429,7 +1785,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:dweller",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1437,21 +1793,30 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
     ],
     "maxcount": {
       "amount": 5,
@@ -1461,7 +1826,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:ent",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1469,12 +1834,85 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Brushland",
-      "Outback",
-      "Savanna",
-      "Savanna M",
-      "Savanna Plateau M"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:crag",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:desert",
+      "biomesoplenty:fen",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:highland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:meadow",
+      "biomesoplenty:moor",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:oasis",
+      "biomesoplenty:orchard",
+      "biomesoplenty:outback",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "biomesoplenty:volcanic_island",
+      "biomesoplenty:wetland",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock",
+      "minecraft:mutated_plains",
+      "minecraft:mutated_swampland",
+      "minecraft:plains",
+      "minecraft:smaller_extreme_hills",
+      "minecraft:sunflower_plains",
+      "minecraft:swampland"
+    ],
+    "maxcount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:ettin",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:ettin",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biomereg": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:chaparral",
+      "biomesoplenty:outback",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
     ],
     "maxcount": {
       "amount": 3,
@@ -1484,7 +1922,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:feradon",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1492,19 +1930,32 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 5,
@@ -1514,7 +1965,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:frostweaver",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1522,15 +1973,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Marsh",
-      "Quagmire",
-      "Swampland",
-      "Swampland M",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 5,
@@ -1540,7 +1995,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:geken",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1548,13 +2003,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 5,
@@ -1564,7 +2018,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:ghoul",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1572,13 +2026,21 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Desert",
-      "Desert Hills",
-      "Desert M",
-      "Mesa",
-      "Oasis",
-      "Outback"
+    "biomereg": [
+      "biomesoplenty:desert",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
     ],
     "maxcount": {
       "amount": 5,
@@ -1588,7 +2050,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:gorgomite",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1596,11 +2058,11 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 5,
@@ -1610,22 +2072,24 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:herma",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
     ],
+    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean",
+      "minecraft:river"
     ],
     "maxcount": {
       "amount": 5,
@@ -1635,22 +2099,23 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:ika",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
     ],
+    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 5,
@@ -1660,32 +2125,42 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:ioray",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
     ],
+    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
     ],
     "maxcount": {
       "amount": 5,
@@ -1695,7 +2170,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:jabberwock",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1703,15 +2178,22 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Clover Patch",
-      "Grassland",
-      "Lavender Fields",
-      "Meadow",
-      "Orchard",
-      "Plains",
-      "Prairie",
-      "Sunflower Plains"
+    "biomereg": [
+      "biomesoplenty:clover_patch",
+      "biomesoplenty:flower_field",
+      "biomesoplenty:flower_island",
+      "biomesoplenty:grassland",
+      "biomesoplenty:lavender_fields",
+      "biomesoplenty:meadow",
+      "biomesoplenty:orchard",
+      "biomesoplenty:pasture",
+      "biomesoplenty:prairie",
+      "biomesoplenty:shield",
+      "biomesoplenty:shrubland",
+      "biomesoplenty:steppe",
+      "minecraft:mutated_plains",
+      "minecraft:plains",
+      "minecraft:sunflower_plains"
     ],
     "maxcount": {
       "amount": 5,
@@ -1721,7 +2203,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:kobold",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1729,37 +2211,11 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Marsh",
-      "Quagmire",
-      "Swampland",
-      "Swampland M",
-      "Wetland"
-    ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:krake",
-      "perplayer": true
-    },
-    "mobs": [
-      {
-        "mob": "lycanitesmobs:krake",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  {
-    "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 5,
@@ -1769,30 +2225,44 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:lacedon",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
     ],
+    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 3,
@@ -1802,7 +2272,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:maug",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1810,13 +2280,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 3,
@@ -1826,7 +2295,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:necrovore",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1834,13 +2303,13 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 5,
@@ -1850,7 +2319,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:nymph",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1858,13 +2327,13 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 5,
@@ -1874,7 +2343,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:pixen",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1882,11 +2351,11 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 1,
@@ -1904,12 +2373,14 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Brushland",
-      "Outback",
-      "Savanna",
-      "Savanna M",
-      "Savanna Plateau M"
+    "biomereg": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:chaparral",
+      "biomesoplenty:outback",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
     ],
     "maxcount": {
       "amount": 5,
@@ -1919,7 +2390,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:quillbeast",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -1927,11 +2398,11 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 3,
@@ -1941,7 +2412,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:raiko",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1949,13 +2420,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 3,
@@ -1965,7 +2435,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:remobra",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -1973,11 +2443,11 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 5,
@@ -1987,23 +2457,26 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:roa",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
     ],
+    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
   },
   {
     "dimension": 0,
-    "biome": [
-      "Brushland",
-      "Outback",
-      "Savanna",
-      "Savanna M",
-      "Savanna Plateau M"
+    "biomereg": [
+      "biomesoplenty:brushland",
+      "biomesoplenty:chaparral",
+      "biomesoplenty:outback",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock",
+      "minecraft:savanna",
+      "minecraft:savanna_rock"
     ],
     "maxcount": {
       "amount": 1,
@@ -2021,19 +2494,32 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 3,
@@ -2043,7 +2529,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:serpix",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2051,13 +2537,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 1,
@@ -2075,21 +2560,30 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
     ],
     "maxcount": {
       "amount": 5,
@@ -2099,7 +2593,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:shambler",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -2107,11 +2601,34 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "minecraft:river"
+    ],
+    "maxcount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:silex",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:silex",
+        "weight": 65,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ],
+    "type": "waterCreature",
+    "block": [
+      "minecraft:water"
+    ]
+  },
+  {
+    "dimension": 0,
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 3,
@@ -2121,22 +2638,23 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:skylus",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
     ],
+    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
   },
   {
     "dimension": 0,
-    "biome": [
-      "Coral Reef",
-      "Deep Ocean",
-      "Kelp Forest",
-      "Ocean"
+    "biomereg": [
+      "biomesoplenty:coral_reef",
+      "biomesoplenty:kelp_forest",
+      "minecraft:deep_ocean",
+      "minecraft:ocean"
     ],
     "maxcount": {
       "amount": 3,
@@ -2146,24 +2664,25 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:strider",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
     ],
+    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 5,
@@ -2173,7 +2692,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:sylph",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -2181,14 +2700,17 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Jungle",
-      "Jungle Edge",
-      "Jungle Edge M",
-      "Jungle Hills",
-      "Jungle M",
-      "Rainforest",
-      "Tropical Rainforest"
+    "biomereg": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
     ],
     "maxcount": {
       "amount": 3,
@@ -2198,7 +2720,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:tarantula",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2206,13 +2728,12 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:wasteland",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 3,
@@ -2222,7 +2743,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:tpumpkyn",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2230,21 +2751,30 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
     ],
     "maxcount": {
       "amount": 1,
@@ -2262,22 +2792,29 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Jungle",
-      "Jungle Edge",
-      "Jungle Edge M",
-      "Jungle Hills",
-      "Jungle M",
-      "Marsh",
-      "Quagmire",
-      "Rainforest",
-      "Swampland",
-      "Swampland M",
-      "Tropical Rainforest",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "biomesoplenty:wetland",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 3,
@@ -2287,7 +2824,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:triffid",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2295,16 +2832,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Crag",
-      "Extreme Hills",
-      "Extreme Hills Edge",
-      "Extreme Hills M",
-      "Extreme Hills+",
-      "Extreme Hills+ M",
-      "Highland",
-      "Mountain"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:volcanic_island",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills"
     ],
     "maxcount": {
       "amount": 3,
@@ -2314,7 +2854,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:troll",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2322,14 +2862,17 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Jungle",
-      "Jungle Edge",
-      "Jungle Edge M",
-      "Jungle Hills",
-      "Jungle M",
-      "Rainforest",
-      "Tropical Rainforest"
+    "biomereg": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
     ],
     "maxcount": {
       "amount": 5,
@@ -2339,7 +2882,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:vespid",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -2347,14 +2890,17 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Jungle",
-      "Jungle Edge",
-      "Jungle Edge M",
-      "Jungle Hills",
-      "Jungle M",
-      "Rainforest",
-      "Tropical Rainforest"
+    "biomereg": [
+      "biomesoplenty:bamboo_forest",
+      "biomesoplenty:overgrown_cliffs",
+      "biomesoplenty:rainforest",
+      "biomesoplenty:tropical_island",
+      "biomesoplenty:tropical_rainforest",
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
     ],
     "maxcount": {
       "amount": 1,
@@ -2372,21 +2918,30 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
     ],
     "maxcount": {
       "amount": 3,
@@ -2396,7 +2951,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:warg",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2404,19 +2959,32 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 1,
@@ -2434,21 +3002,30 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Mystic Grove",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest"
     ],
     "maxcount": {
       "amount": 3,
@@ -2458,7 +3035,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:wildkin",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2466,13 +3043,13 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 5,
@@ -2482,7 +3059,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:wisp",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -2490,16 +3067,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Crag",
-      "Extreme Hills",
-      "Extreme Hills Edge",
-      "Extreme Hills M",
-      "Extreme Hills+",
-      "Extreme Hills+ M",
-      "Highland",
-      "Mountain"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:crag",
+      "biomesoplenty:highland",
+      "biomesoplenty:mountain",
+      "biomesoplenty:mountain_foothills",
+      "biomesoplenty:volcanic_island",
+      "minecraft:extreme_hills",
+      "minecraft:extreme_hills_edge",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees",
+      "minecraft:smaller_extreme_hills"
     ],
     "maxcount": {
       "amount": 1,
@@ -2517,13 +3097,13 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Sacred Springs"
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 3,
@@ -2533,7 +3113,7 @@
     "mobs": [
       {
         "mob": "minecraft:evocation_illager",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2541,13 +3121,21 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Desert",
-      "Desert Hills",
-      "Desert M",
-      "Mesa",
-      "Oasis",
-      "Outback"
+    "biomereg": [
+      "biomesoplenty:desert",
+      "biomesoplenty:lush_desert",
+      "biomesoplenty:oasis",
+      "biomesoplenty:outback",
+      "biomesoplenty:xeric_shrubland",
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_desert",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
     ],
     "maxcount": {
       "amount": 8,
@@ -2565,19 +3153,18 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Dead Forest",
-      "Eerie",
-      "Fungi Forest",
-      "Magical Forest",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Sacred Springs",
-      "Wasteland"
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:wasteland",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 3,
@@ -2587,7 +3174,7 @@
     "mobs": [
       {
         "mob": "minecraft:illusion_illager",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2595,15 +3182,19 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Fen",
-      "Marsh",
-      "Quagmire",
-      "Swampland",
-      "Swampland M",
-      "Wetland"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:fen",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:wetland",
+      "minecraft:mutated_swampland",
+      "minecraft:swampland"
     ],
     "maxcount": {
       "amount": 3,
@@ -2613,7 +3204,7 @@
     "mobs": [
       {
         "mob": "minecraft:slime",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2621,19 +3212,32 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Alps",
-      "Cold Desert",
-      "Cold Taiga",
-      "Cold Taiga Hills",
-      "Frozen River",
-      "Ice Mountains",
-      "Ice Plains",
-      "Ice Plains Spikes",
-      "Mutated Cold Taiga",
-      "Snowy Coniferous Forest",
-      "Snowy Forest",
-      "Tundra"
+    "biomereg": [
+      "biomesoplenty:alps",
+      "biomesoplenty:alps_foothills",
+      "biomesoplenty:cold_desert",
+      "biomesoplenty:glacier",
+      "biomesoplenty:snowy_coniferous_forest",
+      "biomesoplenty:snowy_forest",
+      "biomesoplenty:snowy_tundra",
+      "biomesoplenty:tundra",
+      "minecraft:cold_taiga",
+      "minecraft:cold_taiga_hills",
+      "minecraft:frozen_river",
+      "minecraft:ice_flats",
+      "minecraft:ice_mountains",
+      "minecraft:mutated_cold_taiga",
+      "minecraft:mutated_ice_flats",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga",
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:taiga_hills"
     ],
     "maxcount": {
       "amount": 8,
@@ -2651,26 +3255,34 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bog",
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Dead Forest",
-      "Eerie",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Mystic Grove",
-      "Ominous Woods",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Wasteland",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:wasteland",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 3,
@@ -2680,7 +3292,7 @@
     "mobs": [
       {
         "mob": "minecraft:vindication_illager",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2688,33 +3300,46 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Dead Forest",
-      "Eerie",
-      "Fen",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Maple Woods",
-      "Marsh",
-      "Mystic Grove",
-      "Ominous Woods",
-      "Quagmire",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Swampland",
-      "Swampland M",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Wasteland",
-      "Wetland",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:fen",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:wasteland",
+      "biomesoplenty:wetland",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:mutated_swampland",
+      "minecraft:roofed_forest",
+      "minecraft:swampland",
+      "thaumcraft:eerie"
     ],
     "maxcount": {
       "amount": 3,
@@ -2724,7 +3349,7 @@
     "mobs": [
       {
         "mob": "minecraft:witch",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2732,37 +3357,148 @@
   },
   {
     "dimension": 0,
-    "biome": [
-      "Bayou",
-      "Bog",
-      "Boreal Forest",
-      "Cherry Blossom Grove",
-      "Dead Forest",
-      "Eerie",
-      "Fen",
-      "Flower Forest",
-      "Forest",
-      "Forest Hills",
-      "Fungi Forest",
-      "Magical Forest",
-      "Maple Woods",
-      "Marsh",
-      "Mushroom Island",
-      "Mushroom Island Shore",
-      "Mystic Grove",
-      "Ominous Woods",
-      "Quagmire",
-      "Roofed Forest",
-      "Roofed Forest M",
-      "Sacred Springs",
-      "Swampland",
-      "Swampland M",
-      "Taiga",
-      "Taiga Hills",
-      "Taiga M",
-      "Wasteland",
-      "Wetland",
-      "Woodland"
+    "biomereg": [
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:roofed_forest",
+      "thaumcraft:magical_forest"
+    ],
+    "maxcount": {
+      "amount": 3,
+      "mob": "thaumcraft:pech",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "thaumcraft:pech",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biomereg": [
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:sacred_springs",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "thaumcraft:magical_forest"
+    ],
+    "maxcount": {
+      "amount": 5,
+      "mob": "thaumcraft:thaumslime",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "thaumcraft:thaumslime",
+        "weight": 65,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biomereg": [
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:wasteland",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "minecraft:roofed_forest",
+      "thaumcraft:eerie",
+      "thaumcraft:magical_forest"
+    ],
+    "maxcount": {
+      "amount": 5,
+      "mob": "thaumcraft:wisp",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "thaumcraft:wisp",
+        "weight": 65,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "biomereg": [
+      "biomesoplenty:bayou",
+      "biomesoplenty:bog",
+      "biomesoplenty:boreal_forest",
+      "biomesoplenty:cherry_blossom_grove",
+      "biomesoplenty:coniferous_forest",
+      "biomesoplenty:dead_forest",
+      "biomesoplenty:dead_swamp",
+      "biomesoplenty:eucalyptus_forest",
+      "biomesoplenty:fen",
+      "biomesoplenty:fungi_forest",
+      "biomesoplenty:grove",
+      "biomesoplenty:land_of_lakes",
+      "biomesoplenty:lush_swamp",
+      "biomesoplenty:mangrove",
+      "biomesoplenty:maple_woods",
+      "biomesoplenty:marsh",
+      "biomesoplenty:moor",
+      "biomesoplenty:mystic_grove",
+      "biomesoplenty:ominous_woods",
+      "biomesoplenty:quagmire",
+      "biomesoplenty:redwood_forest",
+      "biomesoplenty:redwood_forest_edge",
+      "biomesoplenty:sacred_springs",
+      "biomesoplenty:seasonal_forest",
+      "biomesoplenty:temperate_rainforest",
+      "biomesoplenty:wasteland",
+      "biomesoplenty:wetland",
+      "biomesoplenty:woodland",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:mutated_swampland",
+      "minecraft:roofed_forest",
+      "minecraft:swampland",
+      "thaumcraft:eerie",
+      "thaumcraft:magical_forest"
     ],
     "maxcount": {
       "amount": 1,
@@ -2804,7 +3540,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:oni",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2820,7 +3556,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:succubus",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2836,7 +3572,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:wither_cow",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2852,7 +3588,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:afrit",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2868,7 +3604,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:gnekk",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -2884,7 +3620,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:grell",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2932,7 +3668,7 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:salamander",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2948,9 +3684,25 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:wraith",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": -1,
+    "maxcount": {
+      "amount": 5,
+      "mob": "thaumcraft:firebat",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "thaumcraft:firebat",
+        "weight": 65,
+        "groupcountmin": 1,
+        "groupcountmax": 3
       }
     ]
   },
@@ -2980,7 +3732,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:creep",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -2996,7 +3748,23 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:ender_eye",
-        "weight": 30,
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 1,
+    "maxcount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:spectre",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:spectre",
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -3006,44 +3774,124 @@
     "dimension": 10,
     "maxcount": {
       "amount": 3,
-      "mob": "lycanitesmobs:spectre",
+      "mob": "lycanitesmobs:banshee",
       "perplayer": true
     },
     "mobs": [
       {
-        "mob": "lycanitesmobs:spectre",
-        "weight": 30,
+        "mob": "lycanitesmobs:banshee",
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
     ]
   },
   {
-    "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:cobble_golem",
-      "perplayer": true
-    },
-    "mobs": [
-      {
-        "mob": "grimoireofgaia:cobble_golem",
-        "weight": 30,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  {
-    "dimension": 0,
+    "dimension": 10,
     "maxcount": {
       "amount": 1,
-      "mob": "grimoireofgaia:cobblestone_golem",
+      "mob": "lycanitesmobs:beholder",
       "perplayer": true
     },
     "mobs": [
       {
-        "mob": "grimoireofgaia:cobblestone_golem",
+        "mob": "lycanitesmobs:beholder",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 10,
+    "maxcount": {
+      "amount": 5,
+      "mob": "lycanitesmobs:darkling",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:darkling",
+        "weight": 65,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": 10,
+    "maxcount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:epion",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:epion",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 10,
+    "maxcount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:eyewig",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:eyewig",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 10,
+    "maxcount": {
+      "amount": 3,
+      "mob": "lycanitesmobs:geist",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:geist",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 10,
+    "maxcount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:grue",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:grue",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 10,
+    "maxcount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:shade",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:shade",
         "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
@@ -3053,16 +3901,32 @@
   {
     "dimension": 0,
     "maxcount": {
-      "amount": 5,
+      "amount": 1,
+      "mob": "grimoireofgaia:bone_knight",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "grimoireofgaia:bone_knight",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxcount": {
+      "amount": 3,
       "mob": "grimoireofgaia:dwarf",
       "perplayer": true
     },
     "mobs": [
       {
         "mob": "grimoireofgaia:dwarf",
-        "weight": 80,
+        "weight": 25,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 1
       }
     ]
   },
@@ -3076,7 +3940,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:goblin",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -3092,7 +3956,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:goblin_feral",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -3108,7 +3972,7 @@
     "mobs": [
       {
         "mob": "grimoireofgaia:orc",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -3134,13 +3998,13 @@
     "dimension": 0,
     "maxcount": {
       "amount": 3,
-      "mob": "lycanitesmobs:ettin",
+      "mob": "lycanitesmobs:krake",
       "perplayer": true
     },
     "mobs": [
       {
-        "mob": "lycanitesmobs:ettin",
-        "weight": 30,
+        "mob": "lycanitesmobs:krake",
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -3172,11 +4036,12 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:silex",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
     ],
+    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -3191,7 +4056,7 @@
     "mobs": [
       {
         "mob": "minecraft:cave_spider",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -3207,7 +4072,7 @@
     "mobs": [
       {
         "mob": "minecraft:creeper",
-        "weight": 80,
+        "weight": 65,
         "groupcountmin": 1,
         "groupcountmax": 3
       }
@@ -3223,7 +4088,7 @@
     "mobs": [
       {
         "mob": "minecraft:enderman",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
@@ -3287,10 +4152,93 @@
     "mobs": [
       {
         "mob": "minecraft:zombie_villager",
-        "weight": 30,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1
       }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxcount": {
+      "amount": 3,
+      "mob": "thaumcraft:brainyzombie",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "thaumcraft:brainyzombie",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxcount": {
+      "amount": 3,
+      "mob": "thaumcraft:cultistcleric",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "thaumcraft:cultistcleric",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxcount": {
+      "amount": 3,
+      "mob": "thaumcraft:cultistknight",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "thaumcraft:cultistknight",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxcount": {
+      "amount": 1,
+      "mob": "thaumcraft:giantbrainyzombie",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "thaumcraft:giantbrainyzombie",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 10,
+    "remove": [
+      "minecraft:zombie",
+      "minecraft:skeleton",
+      "minecraft:creeper",
+      "minecraft:spider",
+      "minecraft:cave_spider",
+      "minecraft:slime",
+      "minecraft:witch",
+      "minecraft:enderman",
+      "minecraft:zombie_villager",
+      "minecraft:husk",
+      "minecraft:stray",
+      "minecraft:vindication_illager",
+      "minecraft:illusion_illager",
+      "minecraft:evocation_illager"
     ]
   }
 ]

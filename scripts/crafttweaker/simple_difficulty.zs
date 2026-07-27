@@ -9,3 +9,9 @@ val clay_pure = <ceramics:clay_bucket:0>.withTag({fluids: {FluidName:"purified_w
 	
 print(<simpledifficulty:purified_water_bottle>.maxStackSize);
 <simpledifficulty:purified_water_bottle>.maxStackSize = 16;
+
+// Remove Magma Chunk & Ice Chunk recipes and hide from JEI
+recipes.remove(<simpledifficulty:magma_chunk>);
+recipes.remove(<simpledifficulty:ice_chunk>);
+mods.jei.JEI.hide(<simpledifficulty:magma_chunk>);
+mods.jei.JEI.hide(<simpledifficulty:ice_chunk>);

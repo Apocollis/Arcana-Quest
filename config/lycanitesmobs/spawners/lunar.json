@@ -1,8 +1,8 @@
 {
   "name": "lunar",
   "type": "spawner",
-  "enabled": true,
-  "loadDefault": true,
+  "enabled": false,
+  "loadDefault": false,
   "mobCountMin": 3,
   "ignoreBiomes": true,
   "ignoreLightLevel": false,

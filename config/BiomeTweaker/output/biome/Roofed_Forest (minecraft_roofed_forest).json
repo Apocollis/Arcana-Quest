@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "BIRCH_TREES",
     "THEMED_TREES",
-    "SPOOKY",
+    "DENSE",
+    "BIRCH_TREES",
     "FOREST",
-    "DENSE"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -228,12 +228,6 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "sophisticated_wolves.entity.EntitySophisticatedWolf",
-      "Weight": 5,
-      "Min Group Count": 4,
-      "Max Group Count": 6
-    },
-    {
       "Entity Class": "com.dungeon_additions.da.entity.dark_dungeon.EntityDarkAssassin",
       "Weight": 5,
       "Min Group Count": 1,
@@ -290,6 +284,18 @@
     {
       "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
       "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

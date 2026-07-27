@@ -79,7 +79,7 @@
 				{"data" : {"name" : "spartanweaponry:halberd_diamond"}, "weight" : 1},
 				{"data" : {"name" : "spartanweaponry:pike_diamond"}, "weight" : 1},
 				{"data" : {"name" : "spartanweaponry:rapier_diamond"}, "weight" : 1},
-				{"data" : {"name" : "spartanweaponry:warhammer_diamond"}, "weight" : 1},
+				{"data" : {"name" : "spartanweaponry:warhammer_diamond"}, "weight" : 1}
 			],
 			"each" : true,
 			"quantity" : 2
@@ -189,7 +189,7 @@
 				{"data" : {"name" : "minecraft:gold_ore", "min" : 7, "max" : 9}, "weight" : 8},
 				{"data" : {"name" : "minecraft:iron_ore", "min" : 7, "max" : 9}, "weight" : 8},
 				{"data" : {"name" : "thaumcraft:ingot", "meta" : 1, "min" : 2, "max" : 3}, "weight" : 4},
-				{"data" : {"name" : "thaumcraft:void_seed", "meta" : 0, "min" : 3, "max" : 5}, "weight" : 6},
+				{"data" : {"name" : "thaumcraft:void_seed", "meta" : 0, "min" : 3, "max" : 5}, "weight" : 6}
 			],
 			"each" : true,
 			"quantity" : 4
@@ -257,7 +257,7 @@
 				{"data" : {"name" : "thaumcraft:sanity_soap", "meta" : 0}, "weight" : 1},
 				{"data" : {"name" : "thaumcraft:bath_salts", "meta" : 0}, "weight" : 1},
 				{"data" : {"name" : "thaumcraft:curio", "meta" : 3}, "weight" : 3},
-				{"data" : {"name" : "grimoireofgaia:spawn"}, "weight" : 1},
+				{"data" : {"name" : "grimoireofgaia:spawn"}, "weight" : 1}
 			],
 			"each" : true,
 			"quantity" : 1

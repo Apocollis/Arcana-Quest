@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DRY",
-    "SPOOKY",
+    "WASTELAND",
     "MAGICAL",
     "HOT",
     "NETHER",
-    "WASTELAND"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -190,6 +190,24 @@
     {
       "Entity Class": "thaumcraft.common.entities.monster.EntityWisp",
       "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityNetherKnight",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

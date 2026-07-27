@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
+    "TWILIGHT",
     "MAGICAL",
-    "TWILIGHT"
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -93,7 +93,20 @@
       "Max Group Count": 5
     }
   ],
-  "Spawnable Monsters": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [
     {

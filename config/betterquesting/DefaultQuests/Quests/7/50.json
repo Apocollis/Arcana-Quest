@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    49
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Unlocks Chapter I.",
+      "frame:8": "NORMAL",
+      "icon:10": {
+        "Count:3": 1,
+        "ForgeCaps:10": {
+          "customnpcs:itemscripteddata:10": {},
+          "wizardryutils:summoneditemdata:10": {}
+        },
+        "id:8": "minecraft:crafting_table"
+      },
+      "ismain:1": 1,
+      "name:8": "Unlocking Stage I"
+    }
+  },
+  "questID:3": 50,
+  "tasks:9": {}
+}

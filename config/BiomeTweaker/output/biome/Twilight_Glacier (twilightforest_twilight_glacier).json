@@ -40,7 +40,14 @@
       "Max Group Count": 4
     }
   ],
-  "Spawnable Monsters": [],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [
     {

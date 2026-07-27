@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "FOREST",
     "WET",
+    "DENSE",
     "SWAMP",
-    "DENSE"
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -234,12 +234,6 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "sophisticated_wolves.entity.EntitySophisticatedWolf",
-      "Weight": 5,
-      "Min Group Count": 4,
-      "Max Group Count": 6
-    },
-    {
       "Entity Class": "com.dungeon_additions.da.entity.dark_dungeon.EntityDarkAssassin",
       "Weight": 5,
       "Min Group Count": 1,
@@ -280,6 +274,12 @@
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [
@@ -320,6 +320,12 @@
       "Weight": 50,
       "Min Group Count": 0,
       "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawn Biome": true,

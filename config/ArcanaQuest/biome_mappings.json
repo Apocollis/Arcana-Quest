@@ -2,7 +2,9 @@
   "beach": [
 	"minecraft:beaches",
 	"biomesoplenty:gravel_beach",
-    "biomesoplenty:white_beach"
+    "biomesoplenty:white_beach",
+    "minecraft:cold_beach",
+    "minecraft:stone_beach"
   ],
   "dark": [
     "beneath:the_beneath"
@@ -14,20 +16,25 @@
     "minecraft:mutated_desert",
     "biomesoplenty:desert",
     "biomesoplenty:outback",
-    "biomesoplenty:oasis"
+    "biomesoplenty:oasis",
+    "biomesoplenty:lush_desert",
+    "biomesoplenty:xeric_shrubland",
+    "minecraft:mesa_rock",
+    "minecraft:mesa_clear_rock",
+    "minecraft:mutated_mesa_rock",
+    "minecraft:mutated_mesa_clear_rock",
+    "minecraft:mutated_mesa"
   ],
   "end": [
     "minecraft:sky",
-    "biomesoplenty:visceral_heap"
+    "biomesoplenty:visceral_heap",
+    "minecraft:void"
   ],
   "forest": [
     "minecraft:forest",
     "minecraft:forest_hills",
-    "minecraft:taiga",
-    "minecraft:taiga_hills",
     "minecraft:roofed_forest",
     "minecraft:mutated_forest",
-    "minecraft:mutated_taiga",
     "minecraft:mutated_roofed_forest",
     "biomesoplenty:boreal_forest",
     "biomesoplenty:cherry_blossom_grove",
@@ -35,6 +42,18 @@
     "biomesoplenty:mystic_grove",
     "biomesoplenty:sacred_springs",
     "biomesoplenty:woodland",
+    "biomesoplenty:coniferous_forest",
+    "biomesoplenty:eucalyptus_forest",
+    "biomesoplenty:grove",
+    "biomesoplenty:land_of_lakes",
+    "biomesoplenty:redwood_forest",
+    "biomesoplenty:redwood_forest_edge",
+    "biomesoplenty:seasonal_forest",
+    "biomesoplenty:temperate_rainforest",
+    "minecraft:birch_forest",
+    "minecraft:birch_forest_hills",
+    "minecraft:mutated_birch_forest",
+    "minecraft:mutated_birch_forest_hills"
   ],
   "jungle": [
     "minecraft:jungle",
@@ -43,7 +62,10 @@
     "minecraft:mutated_jungle",
     "minecraft:mutated_jungle_edge",
     "biomesoplenty:rainforest",
-    "biomesoplenty:tropical_rainforest"
+    "biomesoplenty:tropical_rainforest",
+    "biomesoplenty:bamboo_forest",
+    "biomesoplenty:overgrown_cliffs",
+    "biomesoplenty:tropical_island"
   ],
   "magical": [
     "minecraft:mushroom_island",
@@ -62,7 +84,10 @@
     "biomesoplenty:crag",
     "biomesoplenty:mountain",
     "biomesoplenty:highland",
-    "biomesoplenty:alps"
+    "biomesoplenty:alps",
+    "biomesoplenty:mountain_foothills",
+    "biomesoplenty:volcanic_island",
+    "minecraft:smaller_extreme_hills"
   ],
   "nether": [
     "minecraft:hell",
@@ -90,7 +115,16 @@
     "biomesoplenty:lavender_fields",
     "biomesoplenty:meadow",
     "biomesoplenty:orchard",
-    "biomesoplenty:prairie"
+    "biomesoplenty:prairie",
+    "biomesoplenty:flower_field",
+    "biomesoplenty:flower_island",
+    "biomesoplenty:pasture",
+    "biomesoplenty:shield",
+    "biomesoplenty:shrubland",
+    "biomesoplenty:steppe"
+  ],
+  "river": [
+    "minecraft:river"
   ],
   "savanna": [
     "minecraft:savanna",
@@ -98,7 +132,8 @@
     "minecraft:mutated_savanna",
     "minecraft:mutated_savanna_rock",
     "biomesoplenty:brushland",
-    "biomesoplenty:outback"
+    "biomesoplenty:outback",
+    "biomesoplenty:chaparral"
   ],
   "snowy": [
     "minecraft:ice_flats",
@@ -112,11 +147,23 @@
     "biomesoplenty:cold_desert",
     "biomesoplenty:snowy_coniferous_forest",
     "biomesoplenty:snowy_forest",
-    "biomesoplenty:tundra"
+    "biomesoplenty:tundra",
+    "biomesoplenty:alps_foothills",
+    "biomesoplenty:glacier",
+    "biomesoplenty:snowy_tundra",
+    "minecraft:taiga",
+    "minecraft:taiga_hills",
+    "minecraft:mutated_taiga",
+    "minecraft:redwood_taiga",
+    "minecraft:redwood_taiga_hills",
+    "minecraft:mutated_redwood_taiga",
+    "minecraft:mutated_redwood_taiga_hills",
+    "minecraft:taiga_cold",
+    "minecraft:taiga_cold_hills",
+    "minecraft:mutated_taiga_cold"
   ],
   "spooky": [
     "minecraft:roofed_forest",
-    "biomesoplenty:bog",
     "biomesoplenty:dead_forest",
     "biomesoplenty:ominous_woods",
     "biomesoplenty:wasteland",
@@ -130,6 +177,10 @@
     "biomesoplenty:fen",
     "biomesoplenty:marsh",
     "biomesoplenty:quagmire",
-    "biomesoplenty:wetland"
+    "biomesoplenty:wetland",
+    "biomesoplenty:dead_swamp",
+    "biomesoplenty:lush_swamp",
+    "biomesoplenty:mangrove",
+    "biomesoplenty:moor"
   ]
 }

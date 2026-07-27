@@ -1,0 +1,61 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "biomesoplenty:plant_1:11"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "minecraft:wheat"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "biomesoplenty:plant_1:11"
+          ]
+        }
+      },
+      "replaceStrategy": "ADD",
+      "drops": [
+        {
+          "selector": {
+            "weight": {
+              "value": 65
+            }
+          },
+          "item": {
+            "items": [
+              "minecraft:wheat_seeds"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        },
+        {
+          "selector": {
+            "weight": {
+              "value": 35
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

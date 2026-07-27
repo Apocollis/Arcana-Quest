@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
-    "RARE",
     "WET",
-    "SWAMP"
+    "RARE",
+    "SWAMP",
+    "HILLS"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [
@@ -270,6 +270,12 @@
       "Weight": 50,
       "Min Group Count": 0,
       "Max Group Count": 5
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawn Biome": true,

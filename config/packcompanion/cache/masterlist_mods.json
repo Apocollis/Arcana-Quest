@@ -25,18 +25,6 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
-    "modId": "actuallyadditions",
-    "status": "DEPRECATED",
-    "version": "1.12.2-r152",
-    "isMinVersion": false,
-    "isMaxVersion": true,
-    "isVersionExclusive": false,
-    "replacementModName": "Actually Additions V2 Coffee Edition",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/actually-additions-v2-coffee-edition",
-    "action": "REPLACE",
-    "message": "Outdated. Use #link:[Actually Additions V2 Coffee Edition](https://www.curseforge.com/minecraft/mc-mods/actually-additions-v2-coffee-edition)."
-  },
-  {
     "modId": "actuallybaubles",
     "status": "DEPRECATED",
     "replacementModName": "Possibly Baubles",
@@ -107,22 +95,18 @@
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
-    "modId": "alchemistry",
-    "status": "DEPRECATED",
-    "version": "1.12.2-42",
-    "isMinVersion": false,
-    "isMaxVersion": true,
-    "isVersionExclusive": false,
-    "replacementModName": "Alchemistry - Redox",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/alchemistry-redox",
-    "action": "REPLACE",
-    "message": "Outdated. Use #link:[Alchemistry - Redox](https://www.curseforge.com/minecraft/mc-mods/alchemistry-redox)."
-  },
-  {
     "modId": "alexsmobs",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
+  },
+  {
+    "modId": "allarrowsinfinityfix",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "appleskin",
@@ -130,7 +114,7 @@
     "replacementModName": "LemonSkin",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/lemonskin",
     "action": "REPLACE",
-    "message": "Outdated. Use #link:[LemonSkin](https://www.curseforge.com/minecraft/mc-mods/lemonskin)."
+    "message": "Recommended to instead use #link:[LemonSkin](https://www.curseforge.com/minecraft/mc-mods/lemonskin). Note that it uses a different mod id and package name, it will not be compatible with older mods that originally integrated with AppleSkin! Stick with AppleSkin if this is an issue."
   },
   {
     "modId": "appliedenergistics2",
@@ -142,6 +126,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/ae2-extended-life",
     "action": "REPLACE",
     "message": "Outdated. Use #link:[AE2 Unofficial Extended Life](https://www.curseforge.com/minecraft/mc-mods/ae2-extended-life)."
+  },
+  {
+    "modId": "aquaacrobaticsunofficial",
+    "status": "PROBLEMATIC",
+    "replacementModName": "Aqua Acrobatics",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/aqua-acrobatics",
+    "action": "REPLACE",
+    "message": "Has a different mod id and package name, which will mess up compatibility with all other mods that are trying to integrate with the original Aqua Acrobatics. Recommended to use #link:[Aqua Acrobatics](https://www.curseforge.com/minecraft/mc-mods/aqua-acrobatics) instead."
   },
   {
     "modId": "armorcurve",
@@ -358,7 +350,7 @@
     "modId": "better_weather",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded port. Highly not recommended for use."
+    "message": "AI generated port. Highly not recommended for use."
   },
   {
     "modId": "bibliocraft",
@@ -463,7 +455,7 @@
     "replacementModName": "Hyxcate",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/hyxcate",
     "action": "REPLACE",
-    "message": "Performance issues and OptiFine lighting bugs. Use #link:[Hyxcate](https://www.curseforge.com/minecraft/mc-mods/hyxcate)."
+    "message": "Performance issues and OptiFine lighting bugs. Use #link:[Hyxcate](https://www.curseforge.com/minecraft/mc-mods/hyxcate) instead."
   },
   {
     "modId": "bottlefix",
@@ -544,23 +536,10 @@
     "message": "MCreator mod with numerous bugs in 1.12.2. Use an alternative biome mod."
   },
   {
-    "modId": "cfm",
-    "version": "6.3.0",
-    "isMinVersion": false,
-    "isMaxVersion": true,
-    "isVersionExclusive": false,
-    "status": "DEPRECATED",
-    "replacementModName": "MrCrayfish's Furniture Mod: Refurbished",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture",
-    "action": "REPLACE",
-    "message": "Outdated. Use #link:[MrCrayfish's Furniture Mod: Refurbished](https://www.curseforge.com/minecraft/mc-mods/refurbished-furniture).",
-    "isCleanroom": true
-  },
-  {
     "modId": "chaospersists",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded port. Highly not recommended for use."
+    "message": "AI generated port. Highly not recommended for use."
   },
   {
     "modId": "chargefix",
@@ -636,7 +615,7 @@
     "modId": "citadel",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "classiccombat",
@@ -792,6 +771,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/paintings/files/7156791",
     "action": "REPLACE",
     "message": "Recommended to use #link:[Painting Selection Gui](https://www.curseforge.com/minecraft/mc-mods/paintings/files/7156791) instead to much more easily select what painting you want when placing it."
+  },
+  {
+    "modId": "damageindicatorsmod",
+    "status": "PROBLEMATIC",
+    "replacementModName": "ToroHealth Damage Indicators",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators",
+    "action": "REPLACE",
+    "message": "Abandoned and has a ton of issues, like randomly causing a NPE crash. Highly recommended to switch to #link:[ToroHealth Damage Indicators](https://www.curseforge.com/minecraft/mc-mods/torohealth-damage-indicators) instead for far more stability."
   },
   {
     "modId": "damagetilt",
@@ -982,13 +969,13 @@
     "modId": "easymagic",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "efficiententities",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "An AI generated/Vibe coded implementation of #link:[FastEntityRender](https://github.com/Meldexun/FastEntityRender). Causes numerous render issues."
+    "message": "An AI generated implementation of #link:[FastEntityRender](https://github.com/Meldexun/FastEntityRender). Causes numerous render issues."
   },
   {
     "modId": "embers",
@@ -1029,6 +1016,22 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Merged and improved in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "enderiozoo",
+    "status": "DEPRECATED",
+    "replacementModName": "Ender Safari",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/ender-safari",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Ender Safari](https://www.curseforge.com/minecraft/mc-mods/ender-safari), which no longer depends on Ender IO and EnderCore."
+  },
+  {
+    "modId": "enderzoo",
+    "status": "DEPRECATED",
+    "replacementModName": "Ender Safari",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/ender-safari",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Ender Safari](https://www.curseforge.com/minecraft/mc-mods/ender-safari), which no longer depends on Ender IO and EnderCore."
   },
   {
     "modId": "endportalparallax",
@@ -1106,7 +1109,7 @@
     "modId": "fallingleaves",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "farsight",
@@ -1161,6 +1164,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/future-fireproof",
     "action": "REPLACE",
     "message": "#link:[Future Fireproof](https://www.curseforge.com/minecraft/mc-mods/future-fireproof) has a better implementation and API features."
+  },
+  {
+    "modId": "fixedanvilrepaircost",
+    "status": "DEPRECATED",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "foamfix",
@@ -1394,6 +1405,14 @@
     "message": "Can cause invisible entities in your world, as noted on this #link:[issue report](https://github.com/iChun/iChunUtil/issues/178#issuecomment-2917948068)."
   },
   {
+    "modId": "ido",
+    "status": "DEPRECATED",
+    "replacementModName": "Aqua Acrobatics",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/aqua-acrobatics",
+    "action": "REPLACE",
+    "message": "Outdated and discontinued. Better implementation exists in #link:[Aqua Acrobatics](https://www.curseforge.com/minecraft/mc-mods/aqua-acrobatics)."
+  },
+  {
     "modId": "ihateghostblocks",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -1477,8 +1496,10 @@
   {
     "modId": "inventoryprofilesnext",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "replacementModName": "Inventory Bogo Sorter",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/inventory-bogosorter",
+    "action": "REPLACE",
+    "message": "AI generated backport. Use [Inventory Bogo Sorter](https://www.curseforge.com/minecraft/mc-mods/inventory-bogosorter) instead."
   },
   {
     "modId": "inventoryspam",
@@ -1493,6 +1514,12 @@
     "status": "PROBLEMATIC",
     "action": "REMOVE",
     "message": "Has several dupe issues and can void all bag contents on servers. You can try #link:[Retro Sophisticated Backpacks](https://www.curseforge.com/minecraft/mc-mods/retro-sophisticated-backpacks) as an alternative."
+  },
+  {
+    "modId": "isorropia",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Not recommended, it is unfinished and has several bugs. Breaking the Curative Vat during certain circumstances can produce a massive amount of flux on the area."
   },
   {
     "modId": "jecharacters",
@@ -1560,6 +1587,17 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/jei-utilities/download/6937116",
     "action": "UPGRADE",
     "message": "Outdated and may cause crashes."
+  },
+  {
+    "modId": "jeresources",
+    "status": "PROBLEMATIC",
+    "version": "0.9.3",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "replacementModVersion": "0.9.2",
+    "action": "DOWNGRADE",
+    "message": "Latest alpha version has #link:[issues with the villager tab](https://github.com/way2muchnoise/JustEnoughResources/issues/423). Use #link:[JER 0.9.2.60](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer/files/2728585) instead."
   },
   {
     "modId": "jeresources",
@@ -1897,7 +1935,7 @@
     "modId": "neonium",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "Outdated Vintagium fork. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium) or (Cleanroom Only) #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
+    "message": "Broken and abandoned fork of Vintagium. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium), or #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
   },
   {
     "modId": "nether_api",
@@ -2015,7 +2053,15 @@
     "replacementModName": "Chibi",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/chibi",
     "action": "REPLACE",
-    "message": "Uses deprecated methods that can cause crashes in older modpacks. Use #link:[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi)."
+    "message": "Uses deprecated methods that can cause crashes in older modpacks. The mod id and package name are also different, which will not work with mods that originally integrated with Chibi (unless additional support has been added for the forks). Use #link:[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi)."
+  },
+  {
+    "modId": "oculus",
+    "status": "PROBLEMATIC",
+    "replacementModName": "OptiFine",
+    "replacementModLink": "https://optifine.net/downloads",
+    "action": "REPLACE",
+    "message": "Broken and abandoned backport, other port attempts are AI generated backports and should not be used. Use #link:[OptiFine](https://optifine.net/downloads) and #link:[OptiNotFine](https://www.curseforge.com/minecraft/mc-mods/optinotfine) instead for shaders."
   },
   {
     "modId": "oldcombat",
@@ -2089,7 +2135,7 @@
     "modId": "particular",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "patchouli",
@@ -2258,8 +2304,10 @@
   {
     "modId": "randommobtextures",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "AI generated/Vibe coded mod that can impact overall performance. Use OptiFine instead."
+    "replacementModName": "OptiFine",
+    "replacementModLink": "https://optifine.net/downloads",
+    "action": "REPLACE",
+    "message": "AI generated mod that can impact overall performance. Use #link:[OptiFine](https://optifine.net/downloads) and #link:[OptiNotFine](https://www.curseforge.com/minecraft/mc-mods/optinotfine) instead for randomized entity textures."
   },
   {
     "modId": "randompatches",
@@ -2325,22 +2373,23 @@
     "message": "Outdated and may cause crashes."
   },
   {
-    "modId": "renaissance_core",
+    "modId": "reccomplex",
+    "version": "1.4.8.6",
+    "isMinVersion": false,
+    "isMaxVersion": true,
+    "isVersionExclusive": true,
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "Not recommended, it is specifically made for a modpack and will change major Thaumcraft features (such as tainted mobs) without having the ability to disable them."
+    "replacementModVersion": "1.4.8.6",
+    "action": "DOWNGRADE",
+    "message": "AI generated continuation, highly not recommended for use. Use #link:[Recurrent Complex 1.4.8.6](https://www.curseforge.com/minecraft/mc-mods/recurrent-complex/files/5615733) instead."
   },
   {
-    "modId": "rpgloot",
+    "modId": "reciperemover",
     "status": "DEPRECATED",
-    "version": "1.0",
-    "isMinVersion": true,
-    "isMaxVersion": false,
-    "isVersionExclusive": true,
-    "replacementModName": "RPGLoot Patched",
-    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched",
+    "replacementModName": "Universal Tweaks",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
-    "message": "Outdated. Use #link:[RPGLoot Patched](https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched)."
+    "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
   },
   {
     "modId": "redirectionor",
@@ -2355,6 +2404,18 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy",
     "action": "REPLACE",
     "message": "No longer being developed, it is recommended to instead use #link:[Balkon's WeaponMod: Legacy](https://www.curseforge.com/minecraft/mc-mods/balkons-weaponmod-legacy) and #link:[Balkon's Expansion](https://www.curseforge.com/minecraft/mc-mods/balkons-expansion). If you prefer Reforged, you can stick with it."
+  },
+  {
+    "modId": "relictium",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Broken and abandoned fork of Vintagium. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium), or #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
+  },
+  {
+    "modId": "renaissance_core",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Not recommended, it is specifically made for a modpack and will change major Thaumcraft features (such as tainted mobs) without having the ability to disable them."
   },
   {
     "modId": "replant",
@@ -2374,6 +2435,18 @@
     "replacementModVersion": "1.8.0",
     "action": "DOWNGRADE",
     "message": "Fnar's Edition is known to be worse in performance and includes unnecessary changes to some of the original content. Use #link:[Roguelike Dungeons 1.8.0](https://www.curseforge.com/minecraft/mc-mods/roguelike-dungeons/files/2492586) instead."
+  },
+  {
+    "modId": "rpgloot",
+    "status": "DEPRECATED",
+    "version": "1.0",
+    "isMinVersion": true,
+    "isMaxVersion": false,
+    "isVersionExclusive": true,
+    "replacementModName": "RPGLoot Patched",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched",
+    "action": "REPLACE",
+    "message": "Outdated. Use #link:[RPGLoot Patched](https://www.curseforge.com/minecraft/mc-mods/rpgloot-patched)."
   },
   {
     "modId": "rusticthaumaturgy",
@@ -2437,6 +2510,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "simplerpc",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Causes significant multiplayer lag for some users."
   },
   {
     "modId": "simplyjetpacks",
@@ -2605,6 +2684,30 @@
     "message": "If you plan on adding The Aurorian mod, make sure to disable `Acid` and `Rubber` in its config."
   },
   {
+    "modId": "suikecherry",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated backport. Highly not recommended for use."
+  },
+  {
+    "modId": "suikefoxfriend",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated backport. Highly not recommended for use."
+  },
+  {
+    "modId": "suikehappyghast",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated backport. Highly not recommended for use."
+  },
+  {
+    "modId": "suikerawore",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated backport. Highly not recommended for use."
+  },
+  {
     "modId": "superhot",
     "status": "DEPRECATED",
     "replacementModName": "Universal Tweaks",
@@ -2619,6 +2722,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/survival-tools",
     "action": "REPLACE",
     "message": "CRITICAL: Uses a library that has a known RCE exploit. Remove immediately and use #link:[Survival Tools](https://www.curseforge.com/minecraft/mc-mods/survival-tools)."
+  },
+  {
+    "modId": "tc6aspects4jei",
+    "status": "DEPRECATED",
+    "replacementModName": "Thaumic Information",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-information",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Thaumic Information](https://www.curseforge.com/minecraft/mc-mods/thaumic-information)."
   },
   {
     "modId": "tconstruct",
@@ -2649,6 +2760,14 @@
         "modDescription": "A Minecraft 1.12.2 port of Tinker's Planner for planning Tinkers' Construct tools and armor before crafting."
       }
     ]
+  },
+  {
+    "modId": "tcinventoryscan",
+    "status": "DEPRECATED",
+    "replacementModName": "ThaumicTweaker",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
+    "action": "REPLACE",
+    "message": "Merged and improved in #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker)."
   },
   {
     "modId": "techguns",
@@ -2702,6 +2821,12 @@
         "modDescription": "Augmenting Thaumcraft 6 with a variety of fresh and familiar content."
       },
       {
+        "modName": "Thaumic Information",
+        "modId": "thaumicinfo",
+        "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-information",
+        "modDescription": "Thaumic JEI + ThaumicWaila + VisualOres integration + Performance"
+      },
+      {
         "modName": "Thaumic Speedup",
         "modId": "thaumicspeedup",
         "modLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-speedup",
@@ -2724,6 +2849,18 @@
     "message": "Better implementation exists in #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker)."
   },
   {
+    "modId": "thaumic_arcana",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Notably unfinished, and contains lots of bugs and missing recipes."
+  },
+  {
+    "modId": "thaumicconcilium",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "Not recommended, a good portion of content is buggy or unbalanced, may also have issues on servers."
+  },
+  {
     "modId": "thaumicfixes",
     "status": "PROBLEMATIC",
     "replacementModName": "Thaumcraft Fix",
@@ -2738,12 +2875,20 @@
     "message": "Not recommended, some content is unfinished, it contains overlapping content with other addons, and it breaks some functionality with ThaumicTweaker and Thaumic Wonders Unofficial."
   },
   {
+    "modId": "thaumicjei",
+    "status": "DEPRECATED",
+    "replacementModName": "Thaumic Information",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-information",
+    "action": "REPLACE",
+    "message": "Merged and improved in #link:[Thaumic Information](https://www.curseforge.com/minecraft/mc-mods/thaumic-information)."
+  },
+  {
     "modId": "thaumicmeme",
     "status": "DEPRECATED",
     "replacementModName": "ThaumicTweaker",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
     "action": "REPLACE",
-    "message": "Use #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker) for a better implementation of subtitles."
+    "message": "Use #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker) for a better implementation of research subtitles."
   },
   {
     "modId": "thaumic_mercy",
@@ -2752,6 +2897,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker)."
+  },
+  {
+    "modId": "thaumiconeprobe",
+    "status": "DEPRECATED",
+    "replacementModName": "Thaumic Information",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-information",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Thaumic Information](https://www.curseforge.com/minecraft/mc-mods/thaumic-information)."
   },
   {
     "modId": "thaumicspeedup",
@@ -2772,7 +2925,7 @@
     "replacementModName": "Thaumic Tinkerer: Reborn",
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn",
     "action": "REPLACE",
-    "message": "No longer neccessary because #link:[Thaumic Tinkerer: Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn) adds a completely rewritten Essentia Funnel."
+    "message": "No longer necessary because #link:[Thaumic Tinkerer: Reborn](https://www.curseforge.com/minecraft/mc-mods/thaumic-tinkerer-reborn) adds a completely rewritten Essentia Funnel."
   },
   {
     "modId": "thaumictweaks",
@@ -2781,6 +2934,14 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumictweaker",
     "action": "REPLACE",
     "message": "A good portion of features overlap with both #link:[Thaumcraft Fix](https://www.curseforge.com/minecraft/mc-mods/thaumcraftfix) and #link:[ThaumicTweaker](https://www.curseforge.com/minecraft/mc-mods/thaumictweaker)."
+  },
+  {
+    "modId": "thaumicwaila",
+    "status": "DEPRECATED",
+    "replacementModName": "Thaumic Information",
+    "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/thaumic-information",
+    "action": "REPLACE",
+    "message": "Better implementation exists in #link:[Thaumic Information](https://www.curseforge.com/minecraft/mc-mods/thaumic-information)."
   },
   {
     "modId": "thaumicwands",
@@ -2919,7 +3080,7 @@
     "modId": "travelerstitles",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "trm",
@@ -2982,7 +3143,7 @@
     "modId": "unlockablebauble",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded, it poorly and invasively injects Baubles capabilities into every armor item. Highly not recommended for use."
+    "message": "AI generated, it poorly and invasively injects Baubles capabilities into every armor item. Highly not recommended for use."
   },
   {
     "modId": "unridekeybind",
@@ -2991,6 +3152,12 @@
     "replacementModLink": "https://www.curseforge.com/minecraft/mc-mods/universal-tweaks",
     "action": "REPLACE",
     "message": "Better implementation exists in #link:[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)."
+  },
+  {
+    "modId": "utilitymobs",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated port. Highly not recommended for use."
   },
   {
     "modId": "vanillafix",
@@ -3010,7 +3177,7 @@
     "modId": "vintagium",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "Broken and abandoned performance mod. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium) or (Cleanroom Only) #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
+    "message": "Broken and abandoned backport, other forks should not be used. Use #link:[Nothirium](https://www.curseforge.com/minecraft/mc-mods/nothirium) and #link:[Naughthirium](https://www.curseforge.com/minecraft/mc-mods/naughthirium), or #link:[Celeritas](https://github.com/kappa-maintainer/Celeritas-auto-build/releases)."
   },
   {
     "modId": "vintagefix",
@@ -3029,7 +3196,7 @@
     "modId": "visuality",
     "status": "PROBLEMATIC",
     "action": "REMOVE",
-    "message": "AI generated/Vibe coded backport. Highly not recommended for use."
+    "message": "AI generated backport. Highly not recommended for use."
   },
   {
     "modId": "voidfog",
@@ -3050,6 +3217,12 @@
         "modDescription": "Fixes various bugs in VoxelMap."
       }
     ]
+  },
+  {
+    "modId": "vulkanmod_legacy",
+    "status": "PROBLEMATIC",
+    "action": "REMOVE",
+    "message": "AI generated and has no performance gain. CRITICAL: WILL BREAK MODS THAT RELY ON OPENGL!"
   },
   {
     "modId": "warptheory",
@@ -3094,8 +3267,10 @@
   {
     "modId": "witcherywalls",
     "status": "PROBLEMATIC",
-    "action": "REMOVE",
-    "message": "AI generated/Vibe coded port. Highly not recommended for use."
+    "replacementModName": "Witchery: Resurrected",
+    "replacementModLink": "https://witchery.msrandom.net/home/downloads",
+    "action": "REPLACE",
+    "message": "AI generated port. Use [Witchery: Resurrected](https://witchery.msrandom.net/home/downloads) and [Witchery: Companion](https://www.curseforge.com/minecraft/mc-mods/witchery-companion) instead."
   },
   {
     "modId": "wizardry",

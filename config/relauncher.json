@@ -1,8 +1,12 @@
 {
   "selectedVersion": "0.5.14-alpha",
-  "latestVersion": "0.5.15-alpha",
+  "latestVersion": "0.6.7-alpha",
+  "targetJavaVersion": 0,
   "javaPath": "C:\\Program Files\\Zulu\\zulu-25\\bin\\javaw.exe",
   "args": "-XX:+UseCompactObjectHeaders ",
   "autoSetup": false,
-  "enableRelauncher": true
+  "enableRelauncher": true,
+  "FetchUpdates": true,
+  "clearCleanroomFolder": false,
+  "clearJavaProvisionFolder": false
 }

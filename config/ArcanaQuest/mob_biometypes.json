@@ -30,7 +30,6 @@
   "forest": [
     "grimoireofgaia:arachne",
     "grimoireofgaia:dryad",
-    "grimoireofgaia:werecat",
 	"grimoireofgaia:spriggan",
     "lycanitesmobs:ent",
     "lycanitesmobs:jabberwock",
@@ -40,7 +39,8 @@
     "lycanitesmobs:wildkin",
     "thebetweenlands:dark_druid",
 	"minecraft:vindication_illager",
-	"minecraft:witch"
+	"minecraft:witch",
+	"thaumcraft:pech"
   ],
   "jungle": [
     "grimoireofgaia:hunter",
@@ -69,7 +69,10 @@
     "lycanitesmobs:wisp",
     "thebetweenlands:dark_druid",
 	"minecraft:illusion_illager",
-	"minecraft:evocation_illager"
+	"minecraft:evocation_illager",
+	"thaumcraft:wisp",
+	"thaumcraft:pech",
+	"thaumcraft:thaumslime"
   ],
   "mountain": [
     "grimoireofgaia:banshee",
@@ -94,7 +97,8 @@
     "lycanitesmobs:grigori",
     "lycanitesmobs:ignibus",
     "lycanitesmobs:wraith",
-    "lycanitesmobs:salamander"
+    "lycanitesmobs:salamander",
+	"thaumcraft:firebat"
   ],
   "ocean": [
     "grimoireofgaia:mermaid",
@@ -109,16 +113,25 @@
     "lycanitesmobs:raiko",
     "lycanitesmobs:roa",
     "lycanitesmobs:skylus",
-    "lycanitesmobs:strider"
+    "lycanitesmobs:strider",
+    "lycanitesmobs:abaia"
   ],
   "plains": [
+    "grimoireofgaia:banshee",
     "grimoireofgaia:centaur",
     "grimoireofgaia:harpy",
     "grimoireofgaia:minotaur",
     "grimoireofgaia:minotaurus",
+	"grimoireofgaia:werecat",
     "grimoireofgaia:satyress",
     "lycanitesmobs:cockatrice",
+	"lycanitesmobs:ettin",
     "lycanitesmobs:kobold"
+  ],
+  "river": [
+    "lycanitesmobs:silex",
+    "lycanitesmobs:abaia",
+    "lycanitesmobs:ika"
   ],
   "savanna": [
     "lycanitesmobs:chupacabra",
@@ -153,7 +166,8 @@
     "thebetweenlands:dark_druid",
 	"minecraft:illusion_illager",
 	"minecraft:vindication_illager",
-	"minecraft:witch"
+	"minecraft:witch",
+	"thaumcraft:wisp"
   ],
   "swamp": [
     "grimoireofgaia:gelatinous_slime",
@@ -165,11 +179,10 @@
     "lycanitesmobs:dweller",
 	"lycanitesmobs:ettin",
     "lycanitesmobs:geken",
-    "lycanitesmobs:krake",
-    "lycanitesmobs:triffid",
     "thebetweenlands:dark_druid",
 	"minecraft:slime",
-	"minecraft:witch"
+	"minecraft:witch",
+    "lycanitesmobs:abaia"
   ],
   "any": [
     "grimoireofgaia:bone_knight",
@@ -177,6 +190,7 @@
     "grimoireofgaia:goblin",
     "grimoireofgaia:goblin_feral",
     "grimoireofgaia:orc",
+	"lycanitesmobs:krake",
 	"lycanitesmobs:beholder",
 	"lycanitesmobs:morock",
     "lycanitesmobs:silex",
@@ -186,6 +200,10 @@
 	"minecraft:spider",
 	"minecraft:cave_spider",
 	"minecraft:enderman",
-	"minecraft:zombie_villager"
+	"minecraft:zombie_villager",
+	"thaumcraft:brainyzombie",
+	"thaumcraft:giantbrainyzombie",
+	"thaumcraft:cultistknight",
+	"thaumcraft:cultistcleric"
   ]
 }

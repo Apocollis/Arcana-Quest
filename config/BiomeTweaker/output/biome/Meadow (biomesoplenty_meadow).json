@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "PLAINS",
-    "FOREST",
-    "WET",
-    "COLD",
     "LUSH",
-    "SPARSE"
+    "COLD",
+    "WET",
+    "SPARSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -266,12 +266,6 @@
       "Max Group Count": 2
     },
     {
-      "Entity Class": "sophisticated_wolves.entity.EntitySophisticatedWolf",
-      "Weight": 5,
-      "Min Group Count": 4,
-      "Max Group Count": 6
-    },
-    {
       "Entity Class": "com.dungeon_additions.da.entity.dark_dungeon.EntityDarkAssassin",
       "Weight": 5,
       "Min Group Count": 1,
@@ -312,6 +306,12 @@
       "Weight": 100,
       "Min Group Count": 4,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [
@@ -442,8 +442,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "BOREAL": 7,
-    "COOL_TEMPERATE": 3
+    "COOL_TEMPERATE": 3,
+    "BOREAL": 7
   },
   "BOP Climate Weights": {
     "BOREAL": [

@@ -10,7 +10,6 @@ key.forward
 
 key.categories.gameplay
 key.attack
-key.ability.nanohsbaublesability
 key.pickItem
 key.use
 
@@ -51,9 +50,6 @@ key.togglePerspective
 key.aether.category
 key.aether.accessory_menu
 
-key.aquaacrobatics.category
-key.aquaacrobatics.toggle_crawling
-
 arcanearchives.gui.keygroup
 arcanearchives.gui.keybinds.socket
 arcanearchives.gui.keybinds.manifest
@@ -74,10 +70,6 @@ nei.options.keys.gui.botania_corporea_request
 buildersbag.name
 keybind.openBaubleBag
 keybind.openSelectionWheel
-
-key.carbon_config
-key.carbon_config.dep
-key.carbon_config.key
 
 key.carry.category
 key.carry.desc
@@ -150,6 +142,10 @@ key.categories.ftbmods
 key.ftbutilities.nbt
 key.ftbutilities.trash
 
+FancyMenu
+Reload Menu | CTRL + ALT + 
+Toggle Customization Overlay | CTRL + ALT + 
+
 key.grapplemod.category
 key.climb.desc
 key.climbdown.desc
@@ -187,6 +183,9 @@ key.summoning
 key.moreoverlays.category
 key.moreoverlays.chunkbounds.desc
 key.moreoverlays.lightoverlay.desc
+
+key.categories.musictriggers
+key.musictriggers.gui
 
 key.categories.crimsonrevelations
 key.swap_chameleon.crimsonrevelations
@@ -285,7 +284,9 @@ key.hei.recipeBookmark
 key.hei.crafting
 key.jei.focusSearch
 key.jei.nextPage
+key.hei.nextCategory
 key.jei.previousPage
+key.hei.previousCategory
 key.jei.recipeBack
 key.jei.showRecipe
 key.jei.showUses
@@ -293,6 +294,4 @@ key.hei.toggleBookmarkOverlay
 key.jei.toggleOverlay
 key.jei.toggleCheatMode
 key.jei.toggleEditMode
-key.hei.nextCategory
-key.hei.previousCategory
 

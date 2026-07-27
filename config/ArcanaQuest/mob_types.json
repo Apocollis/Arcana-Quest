@@ -60,19 +60,7 @@
     "grimoireofgaia:oni",
     "grimoireofgaia:succubus"
   ],
-  "dinosaur": [
-    "lycanitesmobs:arisaur",
-    "lycanitesmobs:aspid",
-    "lycanitesmobs:joust",
-    "lycanitesmobs:joustalpha",
-    "lycanitesmobs:khalk",
-    "lycanitesmobs:maka",
-    "lycanitesmobs:makaalpha",
-    "lycanitesmobs:sutiramu",
-    "lycanitesmobs:thresher",
-    "lycanitesmobs:uvaraptor",
-    "lycanitesmobs:ventoraptor"
-  ],
+  "dinosaur": [],
   "dragon": [
     "lycanitesmobs:ignibus",
     "lycanitesmobs:morock",
@@ -182,6 +170,7 @@
   ],
   "_comment_watercreature": "Note: The following entities must be specified in potentialspawn.json using the classification string -> 'type': 'waterCreature' to ensure water layer spawning behavior",
   "watercreature": [
+    "lycanitesmobs:abaia",
     "lycanitesmobs:abtu",
     "lycanitesmobs:herma",
     "lycanitesmobs:ika",

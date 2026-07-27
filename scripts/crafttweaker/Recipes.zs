@@ -48,14 +48,6 @@ recipes.addShaped(<beneath:teleporterbeneath>,
   [<thaumcraft:ingot:0>, <ore:plateDawnstone>, <thaumcraft:ingot:0>],
   [<minecraft:obsidian>, <thaumcraft:ingot:0>, <minecraft:obsidian>]]);
 
-# SOPHISTICATED WOLVES
-
-recipes.remove(<sophisticatedwolves:swdogtreat>);
-recipes.addShaped(<sophisticatedwolves:swdogtreat>,
- [[<ore:listAllgrain>, <ore:listAllmeatraw>, <ore:listAllgrain>]]);
-recipes.addShaped(<sophisticatedwolves:swdogtreat>*2,
- [[<ore:listAllgrain>, <ore:listAllmeatcooked>, <ore:listAllgrain>]]);
-  
   
 # WITHER SKELE TWEAKS
 
@@ -118,11 +110,6 @@ recipes.remove(<earthworks:tool_iron_hammer>);
 recipes.remove(<earthworks:tool_gold_hammer>);
 recipes.remove(<earthworks:tool_diamond_hammer>);
 
-
-# INSPIRATIONS
-  
-recipes.remove(<inspirations:materials:8>);
-recipes.remove(<inspirations:stone_crook>);
   
 # FARMING FOR BLOCKHEADS
 
@@ -153,11 +140,17 @@ recipes.addShapeless(<minecraft:ghast_tear> * 12,
  # SIMPLE DIFFICULTY
  
  
+ # OPEN GLIDERS
+ 
+ recipes.remove(<openglider:hang_glider_part:2>);
+ recipes.addShaped(<openglider:hang_glider_part:2>,
+  [[null,<minecraft:iron_bars>,null],
+   [<minecraft:iron_bars>,null,<minecraft:iron_bars>],
+   [<minecraft:iron_bars>,<minecraft:iron_bars>,<minecraft:iron_bars>]]);
+ 
  
  # RELIQUARY
-
-
-
+ 
 recipes.remove(<xreliquary:glowing_bread>);
 recipes.addShapeless(<xreliquary:glowing_bread>,
  [<minecraft:bread>, <xreliquary:glowing_water>, <xreliquary:glowing_water>]);
@@ -194,13 +187,19 @@ recipes.addShapeless(<metallurgy:quicksilver_ingot> * 9,
 
 # DIMENSION PROGRESSION GATES
 
-
-
 # Gating Atum Scarab with Embers Stamper (stamping molten gold onto a diamond)
 recipes.remove(<atum:scarab>);
 mods.embers.Stamper.add(<atum:scarab>, <liquid:gold> * 144, <embers:stamp_bar>, <minecraft:diamond>);
 
+
+
 # TEA THE STORY
 recipes.remove(<teastory:tea_table>);
 
-
+# NETHER BACKPORT (UNSEEN'S)
+recipes.remove(<nb:chain_block>);
+recipes.addShaped(<nb:chain_block> * 12,
+ [[<ore:ingotSteel>],
+  [<ore:ingotSteel>],
+  [<ore:ingotSteel>]]);
+

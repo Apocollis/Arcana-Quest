@@ -27,6 +27,19 @@
         }
       }
     },
+    "2": {
+      "title": "Music Triggers GUI",
+      "icon": {
+        "name": "minecraft:record_13",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.musictriggers.gui",
+          "toggle": false
+        }
+      }
+    },
     "3": {
       "title": "Cosmetic Armor",
       "icon": {
