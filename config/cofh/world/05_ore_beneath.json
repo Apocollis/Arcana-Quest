@@ -1,0 +1,25 @@
+{
+    "populate": {
+        "shadow_iron_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:shadow_iron_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone"],
+                "cluster-size": 12,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 2,
+            "chunk-chance": 4,
+            "min-height": 4,
+            "max-height": 184,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [10]
+            }
+        }
+    }
+}

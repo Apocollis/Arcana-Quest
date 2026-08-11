@@ -23,7 +23,7 @@ recipes.remove(<animalnet:npc_net>);
 // Mob Net Infusion
 Infusion.registerRecipe(
     "aq_mob_net",
-    "",
+    "AQ_ANIMAL_NETS",
     <animalnet:mob_net_big>,
     4,
     [<aspect:instrumentum> * 40, <aspect:vinculum> * 40, <aspect:aversio> * 40],
@@ -39,7 +39,7 @@ Infusion.registerRecipe(
 // NPC Net Infusion
 Infusion.registerRecipe(
     "aq_npc_net",
-    "",
+    "AQ_ANIMAL_NETS",
     <animalnet:npc_net>,
     4,
     [<aspect:instrumentum> * 40, <aspect:vinculum> * 40, <aspect:humanus> * 40],

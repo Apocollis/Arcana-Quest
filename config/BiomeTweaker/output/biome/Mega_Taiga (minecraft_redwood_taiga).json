@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "THEMED_TREES",
     "MEGA_TAIGA_TREES",
     "CONIFEROUS",
-    "FOREST"
+    "FOREST",
+    "THEMED_TREES",
+    "COLD"
   ],
   "BiomeManager Entries": {
     "COOL Weights": [
@@ -192,7 +192,7 @@
     },
     {
       "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
-      "Weight": 80,
+      "Weight": 60,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
@@ -310,12 +310,6 @@
       {
         "ID": "weighted",
         "Name": "grass"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "tanzanite"
       }
     ]
   },

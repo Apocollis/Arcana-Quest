@@ -1,0 +1,48 @@
+{
+    "populate": {
+        "aetherium_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": {"name": "aetherworks:aether_ore"},
+				"material": ["aether_legacy:holystone", "minecraft:stone", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 5,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 4,	
+			"min-height": 5,
+			"max-height": 250,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [4]
+			}
+		},
+		"starmetal_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": {"name": "astralsorcery:blockcustomore", "metadata": 1},
+				"material": ["aether_legacy:holystone", "minecraft:stone", "quark:biome_cobblestone", "minecraft:cobblestone", "minecraft:sandstone", "minecraft:red_sandstone"],
+				"cluster-size": 6,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 2,	
+			"min-height": 5,
+			"max-height": 250,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [4]
+			}
+		}
+    }
+}

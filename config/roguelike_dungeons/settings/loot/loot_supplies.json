@@ -1,30 +1,29 @@
 {
-  "name": "loot:supplies",
-  "lootRules": [
-    {
-      "level": [0, 1, 2, 3, 4],
-      "type": "SUPPLIES",
-      "each": true,
-      "quantity": 5,
-      "loot": [
-        {"data": {"name": "minecraft:apple", "min": 1, "max": 3}},
-        {"data": {"name": "minecraft:bread", "min": 1, "max": 3}},
-        {"data": {"name": "minecraft:coal", "min": 1, "max": 4}},
-        {"data": {"name": "minecraft:flint"}},
-        {"data": {"name": "minecraft:glass_bottle"}},
-        {"data": {"name": "minecraft:iron_ingot"}},
-        {"data": {"name": "minecraft:lead"}},
-        {"data": {"name": "minecraft:gunpowder"}},
-        {"data": {"name": "minecraft:melon_seeds"}},
-        {"data": {"name": "minecraft:paper", "min": 1, "max": 3}},
-        {"data": {"name": "minecraft:pumpkin_seeds"}},
-        {"data": {"name": "minecraft:sapling"}},
-        {"data": {"name": "minecraft:stick", "min": 1, "max": 4}},
-        {"data": {"name": "minecraft:tnt"}},
-        {"data": {"name": "minecraft:torch", "min": 8, "max": 16}, "weight": 8},
-        {"data": {"name": "minecraft:wheat_seeds"}},
-        {"data": {"name": "minecraft:wooden_hoe"}}
-      ]
-    }
-  ]
+	"name" : "arcanaquest:loot_supplies",
+	"lootRules" : [
+		{
+			"level" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"type" : "SUPPLIES",
+			"loot" : [
+				{"data" : {"name" : "minecraft:torch", "min" : 5, "max" : 20}, "weight" : 5},
+				{"data" : {"name" : "grimoireofgaia:chest", "meta": 0}, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}'}, "weight" : 3},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:haste", Duration: 3600, Amplifier: 1}]}' }, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:speed", Duration: 3600, Amplifier: 1}]}' }, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "potioncore:archery", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "potioncore:magic_focus", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "potioncore:recoil", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "potioncore:repair", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:regeneration", Duration: 450, Amplifier: 0}]}' }, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:night_vision", Duration: 3600, Amplifier: 0}]}' }, "weight" : 2},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "extraalchemy:effect.return", Duration: 1, Amplifier: 0}]}' }, "weight" : 2},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:luck", Duration: 3600, Amplifier: 0}]}' }, "weight" : 3},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "rustic:feather", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "simpledifficulty:cold_resist", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "simpledifficulty:heat_resist", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 4
+		}
+	]
 }

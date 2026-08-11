@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "LUSH",
-    "WET",
     "DENSE",
+    "LUSH",
     "RARE",
-    "MAGICAL",
-    "FOREST"
+    "WET",
+    "FOREST",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -201,7 +201,7 @@
     },
     {
       "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
-      "Weight": 80,
+      "Weight": 60,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
@@ -397,10 +397,6 @@
       {
         "ID": "lakes",
         "Name": "poison_lakes"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "topaz"
       }
     ],
     "SHROOM Generators": [

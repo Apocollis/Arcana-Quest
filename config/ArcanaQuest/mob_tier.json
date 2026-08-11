@@ -73,7 +73,6 @@
     "grimoireofgaia:dryad",
     "grimoireofgaia:dullahan",
     "grimoireofgaia:ender_eye",
-    "grimoireofgaia:gelatinous_slime",
     "grimoireofgaia:gryphon",
     "grimoireofgaia:harpy",
     "grimoireofgaia:holstaurus",
@@ -135,20 +134,20 @@
 	"thaumcraft:brainyzombie",
 	"thaumcraft:pech",
 	"thaumcraft:cultistknight",
-	"thaumcraft:cultistcleric"
+	"thaumcraft:cultistcleric",
+	"crimsonrevelations:cultist_archer",
+	"embers:ancient_golem"
   ],
   "elite": [
     "grimoireofgaia:anubis",
     "grimoireofgaia:banshee",
     "grimoireofgaia:baphomet",
     "grimoireofgaia:beholder",
-    "grimoireofgaia:bone_knight",
     "grimoireofgaia:cobblestone_golem",
     "grimoireofgaia:dhampir",
     "grimoireofgaia:ender_dragon_girl",
-	"grimoireofgaia:flesh_lich",
+	"grimoireofgaia:gelatinous_slime",
     "grimoireofgaia:mermaid",
-    "grimoireofgaia:minotaur",
     "grimoireofgaia:minotaurus",
     "grimoireofgaia:naga",
 	"grimoireofgaia:nine_tails",
@@ -161,7 +160,6 @@
     "grimoireofgaia:witch",
     "grimoireofgaia:yeti",
     "grimoireofgaia:yuki-onna",
-    "lycanitesmobs:beholder",
     "lycanitesmobs:cephignis",
     "lycanitesmobs:cockatrice",
     "lycanitesmobs:crusk",
@@ -179,7 +177,6 @@
     "lycanitesmobs:roc",
 	"lycanitesmobs:vespidqueen",
     "lycanitesmobs:wendigo",
-    "lycanitesmobs:shade",
     "lycanitesmobs:sutiramu",
     "lycanitesmobs:thresher",
     "lycanitesmobs:treant",
@@ -190,6 +187,13 @@
     "lycanitesmobs:xaphan",
     "thebetweenlands:dark_druid",
     "thaumcraft:giantbrainyzombie"
+  ],
+  "deadly": [
+	"lycanitesmobs:beholder",
+	"lycanitesmobs:shade",
+	"grimoireofgaia:flesh_lich",
+	"grimoireofgaia:bone_knight",
+	"grimoireofgaia:minotaur"
   ],
   "boss": [
     "lycanitesmobs:amalgalich"

@@ -33,9 +33,9 @@
   "width": 3.9,
   "height": 3.9,
   "experience": 5,
-  "health": 80,
+  "health": 120,
   "defense": 4,
-  "armor": 6,
+  "armor": 8,
   "speed": 24,
   "damage": 2,
   "attackSpeed": 1,
@@ -43,7 +43,7 @@
   "effectDuration": 5,
   "effectAmplifier": 1,
   "pierce": 1,
-  "sight": 32,
+  "sight": 45,
   "knockbackResistance": 0.25,
   "bagSize": 5,
   "tamingReputation": 1000,
@@ -80,27 +80,27 @@
   ],
   "peaceful": false,
   "summonable": false,
-  "tameable": true,
-  "mountable": true,
+  "tameable": false,
+  "mountable": false,
   "summonCost": 8,
   "dungeonLevel": 2,
   "drops": [
     {
-      "item": "minecraft:ghast_tear",
+      "item": "botania:thirdeye",
       "minAmount": 1,
-      "maxAmount": 3,
+      "maxAmount": 1,
       "chance": 0.25
     },
     {
-      "item": "minecraft:gunpowder",
+      "item": "thaumcraft:curio:4",
       "minAmount": 1,
-      "maxAmount": 3,
+      "maxAmount": 1,
       "chance": 0.5
     },
     {
-      "item": "minecraft:glowstone_dust",
-      "minAmount": 4,
-      "maxAmount": 16,
+      "item": "thaumcraft:curio:3",
+      "minAmount": 1,
+      "maxAmount": 1,
       "chance": 0.25
     },
     {
@@ -110,9 +110,9 @@
       "chance": 0.25
     },
     {
-      "item": "lycanitesmobs:arcanelaserstormcharge",
-      "minAmount": 2,
-      "maxAmount": 3,
+      "item": "thaumcraft:curio",
+      "minAmount": 1,
+      "maxAmount": 1,
       "chance": 1
     }
   ],

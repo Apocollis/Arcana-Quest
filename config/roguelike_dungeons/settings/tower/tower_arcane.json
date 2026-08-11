@@ -7,22 +7,42 @@
 				"walls": {
 					"type": "WEIGHTED",
 					"data": [
-						{"type": "METABLOCK", "data": {"name": "astralsorcery:blockmarble", "meta": 0}, "weight": 5},
-						{"type": "METABLOCK", "data": {"name": "thaumcraft:stone_arcane", "meta": 0}, "weight": 5},
-						{"type": "METABLOCK", "data": {"name": "chisel:marble", "meta": 1}, "weight": 3}
+						{"type": "METABLOCK", "data": {"name": "minecraft:stonebrick", "meta": 0}, "weight": 15},
+						{"type": "METABLOCK", "data": {"name": "chisel:stonebrick", "meta": 1}, "weight": 8},
+						{"type": "METABLOCK", "data": {"name": "chisel:stonebrick", "meta": 2}, "weight": 3},
+						{"type": "METABLOCK", "data": {"name": "minecraft:stonebrick", "meta": 1}, "weight": 2}
 					]
 				},
 				"pillar": {
-					"type": "METABLOCK", "data": {"name": "thaumcraft:log_greatwood", "meta": 0}
+					"type": "METABLOCK",
+					"data": {"name": "minecraft:log", "meta": 0}
+				},
+				"floor": {
+					"type": "METABLOCK",
+					"data": {"name": "minecraft:planks", "meta": 0}
+				},
+				"roof": {
+					"type": "METABLOCK",
+					"data": {"name": "rustic:slate_roof", "meta": 0}
 				},
 				"stair": {
-					"type": "METABLOCK", "data": {"name": "thaumcraft:stairs_greatwood"}
+					"type": "METABLOCK",
+					"data": {"name": "rustic:stairs_slate_roof"}
 				}
 			},
 			"secondary": {
-				"walls": {"type": "METABLOCK", "data": {"name": "thaumcraft:plank_greatwood", "meta": 0}},
-				"pillar": {"type": "METABLOCK", "data": {"name": "thaumcraft:log_greatwood", "meta": 0}},
-				"stair": {"type": "METABLOCK", "data": {"name": "thaumcraft:stairs_greatwood"}}
+				"walls": {
+					"type": "METABLOCK",
+					"data": {"name": "rustic:slate_roof", "meta": 0}
+				},
+				"pillar": {
+					"type": "METABLOCK",
+					"data": {"name": "minecraft:log", "meta": 0}
+				},
+				"stair": {
+					"type": "METABLOCK",
+					"data": {"name": "rustic:stairs_slate_roof"}
+				}
 			}
 		}
 	}

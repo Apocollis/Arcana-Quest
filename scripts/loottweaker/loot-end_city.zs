@@ -164,7 +164,6 @@ treasure.addItemEntry(<astralsorcery:itemarchitectwand>, 1, 0);
 treasure.addItemEntry(<astralsorcery:itemexchangewand>, 1, 0);
 treasure.addItemEntry(<astralsorcery:itemgrapplewand>, 1, 0);
 
-treasure.addItemEntry(<artifacts:shiny_red_balloon>, 1, 0);
 treasure.addItemEntry(<artifacts:obsidian_skull>, 1, 0);
 treasure.addItemEntry(<artifacts:shock_pendant>, 2, 0);
 treasure.addItemEntry(<artifacts:flame_pendant>, 1, 0);
@@ -176,6 +175,9 @@ treasure.addItemEntry(<artifacts:bottled_cloud>, 1, 0);
 treasure.addItemEntry(<artifacts:magma_stone>, 1, 0);
 treasure.addItemEntry(<artifacts:feral_claws>, 1, 0);
 treasure.addItemEntry(<artifacts:power_glove>, 1, 0);
-treasure.addItemEntry(<artifacts:drinking_hat>, 1, 0);
 treasure.addItemEntry(<artifacts:star_cloak>, 3, 0);
-treasure.addItemEntry(<artifacts:night_vision_goggles>, 2, 0);
+
+treasure.addItemEntry(<msmlegacy:glacial_blade>, 2, 0);
+treasure.addItemEntry(<msmlegacy:eye_end_blade>, 2, 0);
+treasure.addItemEntry(<msmlegacy:aethers_guard>, 2, 0);
+treasure.addItemEntry(<msmlegacy:draconic_blade>, 2, 0);

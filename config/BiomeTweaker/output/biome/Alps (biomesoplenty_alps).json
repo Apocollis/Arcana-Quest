@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
-    "DRY",
+    "SNOWY",
     "MOUNTAIN",
-    "SNOWY"
+    "COLD",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -127,7 +127,7 @@
     },
     {
       "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
-      "Weight": 80,
+      "Weight": 60,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
@@ -210,8 +210,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "ICE_CAP": 5,
-    "TUNDRA": 3
+    "TUNDRA": 3,
+    "ICE_CAP": 5
   },
   "BOP Climate Weights": {
     "ICE_CAP": [

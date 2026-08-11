@@ -105,7 +105,15 @@ key_key.dss.toggleat.desc:80
 key_key.dss.skills_gui.desc:25:ALT
 key_key.dss.togglehud.desc:47
 key_Open Baubles' Sidebar:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -124,14 +132,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_arcanearchives.gui.keybinds.socket:0
 key_key.betterquesting.quests:0
@@ -253,8 +253,8 @@ key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_Open Skill GUI:21
-soundCategory_master:0.7086093
-soundCategory_music:0.75352114
+soundCategory_master:0.5033113
+soundCategory_music:0.6056338
 soundCategory_record:1.0
 soundCategory_weather:0.90140843
 soundCategory_block:0.80985916

@@ -1,0 +1,157 @@
+{
+    "populate": {
+        "nether_quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {"name": "minecraft:quartz_ore"},
+				"material": "minecraft:netherrack",
+				"cluster-size": 21
+			},
+			"cluster-count": 6,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [-1]
+			}
+		},
+		"ceruclase_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:ceruclase_ore"},
+                "material": ["minecraft:netherrack"],
+                "cluster-size": 15,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 10,
+            "min-height": 10,
+            "max-height": 115,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "ignatius_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:ignatius_ore"},
+                "material": ["minecraft:netherrack"],
+                "cluster-size": 20,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 4,
+            "min-height": 10,
+            "max-height": 120,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "kalendrite_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:kalendrite_ore"},
+                "material": ["minecraft:netherrack"],
+                "cluster-size": 10,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 8,
+            "min-height": 27,
+            "max-height": 115,
+            "retrogen": "true",
+            "ceiling": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "sanguinite_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:sanguinite_ore"},
+                "material": ["minecraft:netherrack"],
+                "cluster-size": 8,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 15,
+            "min-height": 80,
+            "max-height": 120,
+            "retrogen": "true",
+            "ceiling": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "vulcanite_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:vulcanite_ore"},
+                "material": ["minecraft:netherrack"],
+                "cluster-size": 10,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 10,
+            "min-height": 15,
+            "max-height": 115,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "vyroxeres_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:vyroxeres_ore"},
+                "material": ["minecraft:netherrack"],
+                "cluster-size": 10,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 10,
+            "min-height": 15,
+            "max-height": 115,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        }
+    }
+}

@@ -1,5 +1,26 @@
-# Gitignore for Arcana Quest
+# Arcana Quest — track only pack-synced content in this CurseForge instance.
+# Ignore everything at the instance root by default.
+/*
 
-# Exclude MusicTriggers songs contents
-config/MusicTriggers/songs/*
-!config/MusicTriggers/songs/.gitkeep
+# Keep tracked pack directories
+!/config/
+!/scripts/
+!/minemenu/
+!/resources/
+!/structures/
+!/resourcepacks/
+
+# Within resourcepacks, only sync Stoneborn-Vanilla-HUD.zip
+/resourcepacks/*
+!/resourcepacks/Stoneborn-Vanilla-HUD.zip
+
+# Keep tracked root files
+!/.gitignore
+!/manifest.json
+!/modlist.html
+!/knownkeys.txt
+!/options.txt
+!/user-prefs.json
+
+# Ignored
+.curseclient

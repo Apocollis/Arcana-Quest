@@ -191,7 +191,7 @@
     },
     {
       "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
-      "Weight": 80,
+      "Weight": 60,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
@@ -313,10 +313,6 @@
       {
         "ID": "splotches",
         "Name": "stone_patches"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "peridot"
       }
     ],
     "SAND_PASS2 Generators": [

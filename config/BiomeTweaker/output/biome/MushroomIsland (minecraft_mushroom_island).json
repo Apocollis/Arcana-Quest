@@ -69,12 +69,6 @@
         "Name": "roots"
       }
     ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "sapphire"
-      }
-    ],
     "SHROOM Generators": [
       {
         "ID": "flora",

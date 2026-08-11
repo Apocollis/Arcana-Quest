@@ -1,0 +1,814 @@
+{
+	"populate": {
+	
+		"coal_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": {"name": "minecraft:coal_ore"},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 28,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 8,
+			"chunk-chance": 1,	
+			"min-height": 15,
+			"max-height": 150,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		"coal_diamond_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "minecraft:coal_ore", "weight": 12}, {"name": "minecraft:diamond_ore", "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+				"cluster-size": 18,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 3,
+			"chunk-chance": 10,	
+			"min-height": -20,
+			"max-height": 20,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		"diamond_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "minecraft:diamond_ore"}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+				"cluster-size": 6,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 3,
+			"chunk-chance": 8,	
+			"min-height": -55,
+			"max-height": 10,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+	
+
+		"salt_cluster": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": {
+					"name": "saltmod:salt_ore",
+					"metadata": 0
+				},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 6
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,	
+			"min-height": 40,
+			"max-height": 75,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+	
+
+		"iron_lead_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "minecraft:iron_ore", "weight": 6}, {"name": "embers:ore_lead", "weight": 4}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+				"cluster-size": 20,
+				"sparse": false,
+				"spindly": true
+			},
+			"cluster-count": 2,
+			"chunk-chance": 4,	
+			"min-height": -20,
+			"max-height": 30,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}, 
+		
+
+		"iron_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": {"name": "minecraft:iron_ore"},
+				"material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+				"cluster-size": 18,
+				"sparse": false,
+				"spindly": true
+			},
+			"cluster-count": 4,
+			"chunk-chance": 2,	
+			"min-height": -20,
+			"max-height": 30,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+
+		"iron_nickel_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "minecraft:iron_ore", "weight": 6}, {"name": "embers:ore_nickel", "weight": 4}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+				"cluster-size": 20,
+				"sparse": false,
+				"spindly": true
+			},
+			"cluster-count": 2,
+			"chunk-chance": 4,	
+			"min-height": -20,
+			"max-height": 30,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+
+		
+		"copper_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": {"name": "embers:ore_copper"},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 20,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 3,
+			"chunk-chance": 2,	
+			"min-height": 35,
+			"max-height": 160,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},	
+
+		"tin_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": {"name": "embers:ore_tin"},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 16,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 3,	
+			"min-height": 40,
+			"max-height": 160,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},	
+
+
+		"copper_amber_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "embers:ore_copper", "weight": 3}, {"name": "thaumcraft:ore_amber", "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 8,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 3,	
+			"min-height": 35,
+			"max-height": 120,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+
+		
+
+		"silver_lead_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "embers:ore_silver", "weight": 15}, {"name": "embers:ore_lead", "weight": 9}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+				"cluster-size": 20,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 6,	
+			"min-height": -25,
+			"max-height": 20,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+
+		"gold_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "minecraft:gold_ore", "weight": 12}, {"name": "thaumcraft:ore_amber", "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 12,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 12,	
+			"min-height": -20,
+			"max-height": 30,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+
+		"aluminum_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "embers:ore_aluminum", "weight": 12}, {"name": "embers:ore_tin", "weight": 2}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+				"cluster-size": 18,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 9,	
+			"min-height": -25,
+			"max-height": 30,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+
+		"quartz_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": {"name": "embers:ore_quartz"},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 18,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 10,	
+			"min-height": 25,
+			"max-height": 70,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+
+		"emerald_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": {"name": "minecraft:emerald_ore", "metadata": 0},
+				"material": ["minecraft:stone",  "quark:biome_cobblestone"],
+				"cluster-size": 12,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 7,	
+			"min-height": 70,
+			"max-height": 200,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+
+		"redstone_cinnabar_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "thaumcraft:ore_cinnabar", "weight": 1}, {"name": "minecraft:redstone_ore", "weight": 5}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+				"cluster-size": 24,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 4,	
+			"min-height": -25,
+			"max-height": 20,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+
+		"diamond_emerald_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "minecraft:diamond_ore", "weight": 6}, {"name": "minecraft:emerald_ore", "weight": 2}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+				"cluster-size": 12,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 18,	
+			"min-height": -40,
+			"max-height": 25,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+
+		"bewitchment_garnet": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": {"name": "bewitchment:garnet_ore", "metadata": 0},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,	
+			"min-height": 0,
+			"max-height": 45,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+
+
+		"bewitchment_opal": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": {"name": "bewitchment:opal_ore", "metadata": 0},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,	
+			"min-height": 0,
+			"max-height": 45,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+
+
+		"bewitchment_amethyst": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": {"name": "bewitchment:amethyst_ore", "metadata": 0},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,	
+			"min-height": 0,
+			"max-height": 45,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		"bop_ruby": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": {"name": "biomesoplenty:gem_ore", "metadata": 1},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,	
+			"min-height": 0,
+			"max-height": 45,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		"bop_sapphire": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": {"name": "biomesoplenty:gem_ore", "metadata": 6},
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,	
+			"min-height": 0,
+			"max-height": 45,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		"atlarus_ore_vein": {
+            "distribution": "cave",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:atlarus_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+                "cluster-size": 4,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 15,
+            "min-height": -56,
+            "max-height": -40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "deep_iron_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:deep_iron_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone"],
+                "cluster-size": 6,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 4,
+            "min-height": 20,
+            "max-height": 45,
+            "retrogen": "true",
+            "biome": ["minecraft:ocean", "minecraft:deep_ocean"],
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "infuscolium_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:infuscolium_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone"],
+                "cluster-size": 8,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 2,
+            "chunk-chance": 6,
+            "min-height": 10,
+            "max-height": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "manganese_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:manganese_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone"],
+                "cluster-size": 10,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 3,
+            "chunk-chance": 6,
+            "min-height": 4,
+            "max-height": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "mithril_ore_vein": {
+            "distribution": "cave",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:mithril_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+                "cluster-size": 4,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 10,
+            "min-height": -56,
+            "max-height": -20,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "orichalcum_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:orichalcum_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+                "cluster-size": 8,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 8,
+            "min-height": -15,
+            "max-height": 25,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "phosphorite_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:phosphorite_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone"],
+                "cluster-size": 10,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 10,
+            "min-height": 40,
+            "max-height": 140,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "platinum_ore_vein": {
+            "distribution": "cave",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:platinum_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone", "depthsupdate:deepslate"],
+                "cluster-size": 4,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 15,
+            "min-height": -56,
+            "max-height": -30,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "potash_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:potash_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone"],
+                "cluster-size": 14,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 5,
+            "min-height": 40,
+            "max-height": 100,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "prometheum_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:prometheum_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone"],
+                "cluster-size": 6,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 2,
+            "chunk-chance": 4,
+            "min-height": 45,
+            "max-height": 120,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+		
+		
+        "zinc_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:zinc_ore"},
+                "material": ["minecraft:stone", "quark:biome_cobblestone"],
+                "cluster-size": 12,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 2,
+            "chunk-chance": 4,
+            "min-height": 35,
+            "max-height": 160,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        }
+	}
+}

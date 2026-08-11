@@ -1,6 +1,6 @@
 {
 	"name" : "arcanaquest:main",
-	"exclusive" : false,
+	"exclusive" : true,
 	"criteria" : {
 		"dimensionWL" : 0,
 		"weight" : 1

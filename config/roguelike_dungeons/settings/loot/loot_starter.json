@@ -1,33 +1,67 @@
 {
-  "name": "loot:starter",
-  "lootRules": [
-    {
-      "level": [0,1,2,3,4], "type": "STARTER", "each": true, "quantity": 1,
-      "loot": [
-        {"data": {"type": "specialty", "equipment": "helmet", "level": 1}, "weight": 1},
-        {"data": {"type": "specialty", "equipment": "chest", "level": 1}, "weight": 1},
-        {"data": {"type": "specialty", "equipment": "legs", "level": 1}, "weight": 1},
-        {"data": {"type": "specialty", "equipment": "feet", "level": 1}, "weight": 1}
-      ]
-    },
-
-    {"level": [0, 1, 2, 3, 4], "type": "STARTER", "loot": [{"data": {"name": "minecraft:torch", "min": 16, "max": 64}, "weight": 1}], "each": true, "quantity": 2},
-    {"level": [0, 1, 2, 3, 4], "type": "STARTER", "loot": [{"data": {"type": "mixture", "name": "coffee"}, "weight": 1}], "each": true, "quantity": 1},
-    {"level": [0, 1, 2, 3, 4], "type": "STARTER", "loot": [{"data": {"name": "minecraft:flint_and_steel" }, "weight": 1}], "each": true, "quantity": 1},
-
-    {"level": 0, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 1}}], "each": true, "quantity": 2},
-    {"level": 0, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 1}}], "each": true, "quantity": 2},
-
-    {"level": 1, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 2}}], "each": true, "quantity": 1},
-    {"level": 1, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 2}}], "each": true, "quantity": 1},
-
-    {"level": 2, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 2}}], "each": true, "quantity": 1},
-    {"level": 2, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 2}}], "each": true, "quantity": 1},
-
-    {"level": 3, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 3}}], "each": true, "quantity": 1},
-    {"level": 3, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 3}}], "each": true, "quantity": 1},
-
-    {"level": 4, "type": "STARTER", "loot": [{"data": {"type": "tool", "level": 4}}], "each": true, "quantity": 1},
-    {"level": 4, "type": "STARTER", "loot": [{"data": {"type": "weapon", "level": 4}}], "each": true, "quantity": 1}
-  ]
+	"name" : "arcanaquest:loot_starter",
+	"lootRules" : [
+		{
+			"level" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"type" : "specialty", "equipment" : "legs", "quality" : "wood", "level" : 1}, "weight" : 1}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"name" : "minecraft:leather", "meta" : 0}, "weight" : 2},
+				{"data" : {"name" : "minecraft:bread", "meta" : 0}, "weight" : 1},
+				{"data" : {"name" : "minecraft:apple", "meta" : 0}, "weight" : 1},
+				{"data" : {"name" : "minecraft:torch", "min" : 5, "max" : 20}, "weight" : 3}
+			],
+			"each" : true,
+			"quantity" : 4
+		},
+		{
+			"level" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"name" : "minecraft:wooden_pickaxe"}, "weight" : 4},
+				{"data" : {"name" : "minecraft:wooden_axe"}, "weight" : 4},
+				{"data" : {"name" : "minecraft:wooden_shovel"}, "weight" : 4}
+			],
+			"each" : true,
+			"quantity" : 2
+		},
+		{
+			"level" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"name" : "minecraft:wooden_sword"}, "weight" : 4}
+			],
+			"each" : true,
+			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"each" : "STARTER",
+			"table" : "minecraft:chests/nether_bridge"
+		},
+		{
+			"level" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"type" : "STARTER",
+			"loot" : [
+				{"data" : {"name" : "antiqueatlas:antique_atlas", "meta" : 0}, "weight" : 2},
+				{"data" : {"name" : "antiqueatlas:empty_antique_atlas", "meta" : 0}, "weight" : 3},
+				{"data" : {"name" : "minecraft:compass", "meta" : 0}, "weight" : 1},
+				{"data" : {"name" : "minecraft:clock", "meta" : 0}, "weight" : 1},
+				{"data" : {"name" : "toughasnails:canteen", "meta" : 0}, "weight" : 1},
+				{"data" : {"name" : "minecraft:fishing_rod", "meta" : 0}, "weight" : 1},
+				{"data" : {"name" : "toughasnails:thermometer", "meta" : 0}, "weight" : 1},
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}' }, "weight" : 2}
+			],
+			"each" : true,
+			"quantity" : 2
+		}
+	]
 }

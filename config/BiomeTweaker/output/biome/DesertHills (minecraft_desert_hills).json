@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
-    "SANDY",
     "HOT",
-    "HILLS"
+    "HILLS",
+    "SANDY",
+    "DRY"
   ],
   "BiomeManager Entries": {
     "DESERT Weights": [
@@ -143,7 +143,7 @@
     },
     {
       "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
-      "Weight": 80,
+      "Weight": 60,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
@@ -213,12 +213,6 @@
       {
         "ID": "flora",
         "Name": "roots"
-      }
-    ],
-    "SAND Generators": [
-      {
-        "ID": "ore_single",
-        "Name": "ruby"
       }
     ]
   },

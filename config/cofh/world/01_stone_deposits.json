@@ -340,18 +340,11 @@
 				"height": {"min": 4, "max": 8}
 			},
 			"cluster-count": 1,
-			"chunk-chance": 12,	
+			"chunk-chance": 16,	
 			"min-height": 24,
 			"max-height": 90,
 			"retrogen": "false",
 			"ceiling": true,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{"type": "dictionary", "entry": "SNOWY"},
-					{"type": "dictionary", "entry": "PLAINS"}
-					]
-				},
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [

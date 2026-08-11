@@ -1,14 +1,5 @@
 [
   {
-    "mob": "quark:wraith",
-    "remove": "quark:soul_bead"
-  },
-  {
-    "mob": "quark:wraith",
-    "random": "0.1",
-    "item": "quark:soul_bead"
-  },
-  {
     "mob": "quark:ashen",
     "player": true,
     "random": "0.12",
@@ -29,7 +20,7 @@
 	"itemcount": "0-1/0-1/0-2/1-2/1-3"
   },
   {
-    "mob": ["minecraft:creeper", "minecraft:stray", "minecraft:husk", "minecraft:blaze", "minecraft:guardian", "minecraft:zombie_pigman", "minecraft:vex", "minecraft:shulker", "minecraft:wither_skeleton", "minecraft:endermite", "quark:ashen", "quark:dweller", "quark:wraith", "thaumcraft:brainyzombie", "thaumcraft:firebat", "netherex:coolmar_spider", "netherex:brute", "netherex:ghastling", "netherex:nethermite", "netherex:salamander", "netherex:wight", "netherex:spore_creeper", "netherex:spinout"],
+    "mob": ["minecraft:creeper", "minecraft:stray", "minecraft:husk", "minecraft:blaze", "minecraft:guardian", "minecraft:zombie_pigman", "minecraft:vex", "minecraft:shulker", "minecraft:wither_skeleton", "minecraft:endermite", "quark:ashen", "quark:dweller", "thaumcraft:brainyzombie", "thaumcraft:firebat", "netherex:coolmar_spider", "netherex:brute", "netherex:ghastling", "netherex:nethermite", "netherex:salamander", "netherex:wight", "netherex:spore_creeper", "netherex:spinout"],
     "player": true,
     "item": "ordinarycoins:coinbronze@0",
 	"itemcount": "1-2/1-2/1-3/1-3/1-4"

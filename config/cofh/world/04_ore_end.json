@@ -1,0 +1,46 @@
+{
+    "populate": {
+        "eximite_ore_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:eximite_ore"},
+                "material": ["minecraft:end_stone"],
+                "cluster-size": 14,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 5,
+            "min-height": 45,
+            "max-height": 75,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+		"meutoite_vein": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "large-vein",
+                "block": {"name": "metallurgy:meutoite_ore"},
+                "material": ["minecraft:end_stone"],
+                "cluster-size": 14,
+                "sparse": false,
+                "spindly": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 5,
+            "min-height": 45,
+            "max-height": 75,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        }
+    }
+}

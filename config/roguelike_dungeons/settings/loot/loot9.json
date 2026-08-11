@@ -1,0 +1,375 @@
+{
+  "name": "arcanaquest:loot9",
+  "lootRules": [
+    {
+      "level": 9,
+      "type": "TOOLS",
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:diamond_pickaxe",
+            "ench": 30
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_axe",
+            "ench": 30
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_shovel",
+            "ench": 30
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "thaumcraft:void_seed",
+            "min": 4,
+            "max": 8
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "thaumcraft:primal_pearl"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:accessory_trinket_levitation"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    },
+    {
+      "level": 9,
+      "type": "TOOLS",
+      "loot": [
+        {
+          "data": {
+            "name": "thaumcraft:stone_ancient",
+            "meta": 1,
+            "min": 16,
+            "max": 32
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "thaumcraft:stone_ancient",
+            "meta": 3,
+            "min": 16,
+            "max": 32
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_block",
+            "min": 1,
+            "max": 2
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:emerald_block",
+            "min": 2,
+            "max": 4
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "rustic:elixir",
+            "nbt": "{ElixirEffects: [{Effect: \"minecraft:regeneration\", Duration: 3600, Amplifier: 1}]}"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "rustic:elixir",
+            "nbt": "{ElixirEffects: [{Effect: \"minecraft:resistance\", Duration: 3600, Amplifier: 1}]}"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:accessory_trinket_levitation"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 3
+    },
+    {
+      "level": 9,
+      "type": "WEAPONS",
+      "loot": [
+        {
+          "data": {
+            "name": "thaumcraft:void_sword",
+            "ench": 30
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:greatsword_diamond",
+            "ench": 30
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:katana_diamond",
+            "ench": 30
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_sword",
+            "ench": 30
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:accessory_trinket_levitation"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    },
+    {
+      "level": 9,
+      "type": "ARMOUR",
+      "loot": [
+        {
+          "data": {
+            "name": "thaumcraft:void_helm",
+            "ench": 30
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "thaumcraft:void_chest",
+            "ench": 30
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "thaumcraft:void_legs",
+            "ench": 30
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "thaumcraft:void_boots",
+            "ench": 30
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_chestplate",
+            "ench": 30
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:accessory_trinket_levitation"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    },
+    {
+      "level": 9,
+      "type": "ENCHANTING",
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:enchanted_book",
+            "ench": 30
+          },
+          "weight": 12
+        },
+        {
+          "data": {
+            "name": "thaumcraft:curio",
+            "meta": 5,
+            "min": 1,
+            "max": 3
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "minecraft:totem_of_undying"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:accessory_trinket_levitation"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    },
+    {
+      "level": 9,
+      "type": "REWARD",
+      "loot": [
+        {
+          "data": {
+            "name": "thaumcraft:ingot",
+            "meta": 1,
+            "min": 4,
+            "max": 8
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond",
+            "min": 8,
+            "max": 16
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:emerald",
+            "min": 12,
+            "max": 24
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:golden_apple",
+            "meta": 1,
+            "min": 1,
+            "max": 2
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "minecraft:nether_star"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:accessory_trinket_levitation"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    }
+  ]
+}

@@ -52,9 +52,6 @@ elenaidodge2:strong_feeble
 elenaidodge2:replenishment
 elenaidodge2:long_replenishment
 elenaidodge2:strong_replenishment
-quark:resilience
-quark:long_resilience
-quark:strong_resilience
 quark:haste
 quark:long_haste
 quark:strong_haste
@@ -66,6 +63,9 @@ quark:long_resistance
 quark:strong_resistance
 quark:danger_sight
 quark:long_danger_sight
+quark:resilience
+quark:long_resilience
+quark:strong_resilience
 dynamicstealth:soulsight
 dynamicstealth:blindness
 dynamicstealth:glowing

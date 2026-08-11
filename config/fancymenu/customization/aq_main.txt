@@ -44,8 +44,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/minecraft/textures/unrolled_blueprint_triangular_64x64.png
-  backgroundnormal = resources/minecraft/textures/unrolled_blueprint_triangular_32x32.png
+  backgroundhovered = resources/minecraft/textures/multiplayer-selected.png
+  backgroundnormal = resources/minecraft/textures/multiplayer.png
 }
 
 customization {
@@ -74,8 +74,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/minecraft/textures/unrolled_manuscript_brown_runes_64x64.png
-  backgroundnormal = resources/minecraft/textures/unrolled_manuscript_brown_runes_32x32.png
+  backgroundhovered = resources/minecraft/textures/options-selected.png
+  backgroundnormal = resources/minecraft/textures/options.png
 }
 
 customization {
@@ -104,8 +104,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/minecraft/textures/unrolled_scroll_exit_64x64.png
-  backgroundnormal = resources/minecraft/textures/unrolled_scroll_exit_32x32.png
+  backgroundhovered = resources/minecraft/textures/exit-selected.png
+  backgroundnormal = resources/minecraft/textures/exit.png
 }
 
 customization {
@@ -139,8 +139,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/minecraft/textures/unrolled_blueprint_64x64.png
-  backgroundnormal = resources/minecraft/textures/unrolled_blueprint_32x32.png
+  backgroundhovered = resources/minecraft/textures/singleplayer-selected.png
+  backgroundnormal = resources/minecraft/textures/singleplayer.png
 }
 
 customization {

@@ -23,7 +23,7 @@
 			"level" : 3,
 			"potentials" : [
 				{"name" : "thaumcraft:wisp", "weight" : 10},
-				{"name" : "thaumcraft:brainy_zombie", "weight" : 12},
+				{"name" : "thaumcraft:brainyzombie", "weight" : 12},
 				{"name" : "minecraft:witch", "weight" : 8},
 				{"name" : "grimoireofgaia:harpy", "weight" : 5}
 			]
@@ -49,7 +49,7 @@
 		{
 			"level" : [8, 9],
 			"potentials" : [
-				{"name" : "thaumcraft:brainy_zombie", "weight" : 15},
+				{"name" : "thaumcraft:brainyzombie", "weight" : 15},
 				{"name" : "minecraft:husk", "weight" : 15},
 				{"name" : "thaumcraft:eldritchguardian", "weight" : 10},
 				{"name" : "grimoireofgaia:flesh_lich", "weight" : 4}
@@ -59,7 +59,7 @@
 			"level" : [8, 9],
 			"potentials" : [
 				{"name" : "thaumcraft:cultistknight", "weight" : 8},
-				{"name" : "crimsonrevelations:crimson_archer", "weight" : 6},
+				{"name" : "crimsonrevelations:cultist_archer", "weight" : 6},
 				{"name" : "thaumcraft:cultistcleric", "weight" : 6}
 			]
 		},
@@ -67,9 +67,9 @@
 			"level" : [8, 9],
 			"potentials" : [
 				{"name" : "thaumcraft:firebat", "weight" : 4},
-				{"name" : "thaumcraft:thaumic_slime", "weight" : 4},
-				{"name" : "thaumcraft:taint_swarm", "weight" : 4},
-				{"name" : "thaumcraft:mind_spider", "weight" : 4}
+				{"name" : "thaumcraft:thaumslime", "weight" : 4},
+				{"name" : "thaumcraft:taintswarm", "weight" : 4},
+				{"name" : "thaumcraft:mindspider", "weight" : 4}
 			]
 		}
 	]

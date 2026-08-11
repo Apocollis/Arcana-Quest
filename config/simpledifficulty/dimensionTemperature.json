@@ -1,5 +1,8 @@
 {
   "0": {
     "temperature": 0.0
+  },
+  "-1": {
+    "temperature": 6.0
   }
 }

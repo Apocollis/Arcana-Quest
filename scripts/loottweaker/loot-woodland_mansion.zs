@@ -202,7 +202,6 @@ treasure.addItemEntry(<astralsorcery:itemarchitectwand>, 1, 0);
 treasure.addItemEntry(<astralsorcery:itemexchangewand>, 1, 0);
 treasure.addItemEntry(<astralsorcery:itemgrapplewand>, 1, 0);
 
-treasure.addItemEntry(<artifacts:shiny_red_balloon>, 3, 0);
 treasure.addItemEntry(<artifacts:obsidian_skull>, 1, 0);
 treasure.addItemEntry(<artifacts:shock_pendant>, 2, 0);
 treasure.addItemEntry(<artifacts:flame_pendant>, 2, 0);
@@ -214,7 +213,22 @@ treasure.addItemEntry(<artifacts:bottled_cloud>, 1, 0);
 treasure.addItemEntry(<artifacts:magma_stone>, 1, 0);
 treasure.addItemEntry(<artifacts:feral_claws>, 1, 0);
 treasure.addItemEntry(<artifacts:power_glove>, 1, 0);
-treasure.addItemEntry(<artifacts:drinking_hat>, 2, 0);
 treasure.addItemEntry(<artifacts:star_cloak>, 1, 0);
 treasure.addItemEntry(<artifacts:pocket_piston>, 2, 0);
-treasure.addItemEntry(<artifacts:night_vision_goggles>, 1, 0);
+
+// Grimoire of Gaia Loot
+treasure.addItemEntry(<grimoireofgaia:box_hat>, 5, 0);
+treasure.addItemEntry(<grimoireofgaia:accessory_trinket_water_breathing>, 3, 0);
+treasure.addItemEntry(<grimoireofgaia:accessory_trinket_poison>, 3, 0);
+treasure.addItemEntry(<grimoireofgaia:accessory_charm_damage_iron>, 3, 0);
+treasure.addItemEntry(<grimoireofgaia:weapon_fan_ice>, 3, 0);
+treasure.addItemEntry(<grimoireofgaia:box_iron>, 5, 0);
+
+treasure.addItemEntry(<grimoireofgaia:doll_creeper_girl>, 2, 0);
+treasure.addItemEntry(<grimoireofgaia:doll_ender_girl>, 2, 0);
+treasure.addItemEntry(<grimoireofgaia:doll_slime_girl>, 2, 0);
+treasure.addItemEntry(<grimoireofgaia:doll_dullahan>, 2, 0);
+treasure.addItemEntry(<grimoireofgaia:doll_mermaid>, 2, 0);
+treasure.addItemEntry(<grimoireofgaia:doll_nine_tails>, 2, 0);
+treasure.addItemEntry(<grimoireofgaia:doll_dryad>, 2, 0);
+treasure.addItemEntry(<grimoireofgaia:deco_garden_gnome>, 2, 0);

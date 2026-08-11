@@ -1,5 +1,9 @@
 {
-  "dinosaur": [],
+  "cultist": [
+	"thaumcraft:cultistknight",
+	"thaumcraft:cultistcleric",
+	"crimsonrevelations:cultist_archer"
+  ],
   "gaia_egg": [
     "grimoireofgaia:creeper_girl",
     "grimoireofgaia:ender_dragon_girl",

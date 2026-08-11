@@ -1,0 +1,25 @@
+{
+	"name" : "arcanaquest:loot_music",
+	"lootRules" : [
+		{
+			"level" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"type" : "MUSIC",
+			"loot" : [
+				{"data" : {"name" : "record_13"}},
+				{"data" : {"name" : "record_cat"}},
+				{"data" : {"name" : "record_blocks"}},
+				{"data" : {"name" : "record_chirp"}},
+				{"data" : {"name" : "record_far"}},
+				{"data" : {"name" : "record_mall"}},
+				{"data" : {"name" : "record_mellohi"}},
+				{"data" : {"name" : "record_stal"}},
+				{"data" : {"name" : "record_strad"}},
+				{"data" : {"name" : "record_ward"}},
+				{"data" : {"name" : "record_wait"}},
+				{"data" : {"name" : "record_11"}}
+			],
+			"each" : true,
+			"quantity" : 2
+		}
+	]
+}

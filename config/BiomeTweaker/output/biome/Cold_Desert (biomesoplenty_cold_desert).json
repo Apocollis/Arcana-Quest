@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SNOWY",
     "COLD",
-    "DRY",
-    "SNOWY"
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -102,7 +102,7 @@
     },
     {
       "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
-      "Weight": 80,
+      "Weight": 60,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
@@ -184,10 +184,6 @@
       {
         "ID": "splotches",
         "Name": "stone_patches"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "tanzanite"
       }
     ],
     "SAND_PASS2 Generators": [

@@ -75,3 +75,6 @@ treasure.addItemEntry(<quark:rune:16>, 5, 0);
 
 treasure.addItemEntry(<thaumcraft:baubles:3>, 5, 0);
 treasure.addItemEntry(<astralsorcery:itemenchantmentamulet>, 15, 0);
+
+treasure.addItemEntry(<msmlegacy:gladiolus>, 3, 0);
+treasure.addItemEntry(<msmlegacy:crystaline_blade>, 3, 0);

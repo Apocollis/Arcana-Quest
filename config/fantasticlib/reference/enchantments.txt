@@ -31,7 +31,6 @@ minecraft:vanishing_curse
 bewitchment:magic_protection
 bibliocraft:bibliocraft.deathcompassench
 bibliocraft:bibliocraft.readingench
-capsule:recall
 crossbows:quick_charge
 crossbows:multishot
 crossbows:piercing

@@ -5,10 +5,10 @@ import mods.thaumcraft.ArcaneWorkbench;
 // Remove default Elevator block recipe
 recipes.remove(<elevatorid:elevator_white>);
 
-// Arcane Workbench Recipe for Elevator Block (Option A)
+// Arcane Workbench Recipe for Elevator Block
 ArcaneWorkbench.registerShapedRecipe(
     "aq_elevator_white",
-    "",
+    "AQ_ELEVATOR",
     25,
     [<aspect:aer> * 5, <aspect:ordo> * 5],
     <elevatorid:elevator_white> * 2,

@@ -1,0 +1,449 @@
+{
+  "name": "arcanaquest:loot6",
+  "lootRules": [
+    {
+      "level": 6,
+      "type": "TOOLS",
+      "loot": [
+        {
+          "data": {
+            "name": "netherex:withered_amedian_pickaxe",
+            "ench": 26
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "netherex:withered_amedian_axe",
+            "ench": 26
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "netherex:withered_amedian_shovel",
+            "ench": 26
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "embers:crystal_ember",
+            "min": 4,
+            "max": 8
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "embers:shard_ember",
+            "min": 8,
+            "max": 16
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_diamond"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_gold"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:chest"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    },
+    {
+      "level": 6,
+      "type": "TOOLS",
+      "loot": [
+        {
+          "data": {
+            "name": "embers:caminite_brick",
+            "meta": 0,
+            "min": 16,
+            "max": 32
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "embers:caminite_tile",
+            "meta": 0,
+            "min": 16,
+            "max": 32
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:obsidian",
+            "min": 8,
+            "max": 16
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "quark:magma_bricks",
+            "min": 12,
+            "max": 24
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:lava_bucket"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "rustic:elixir",
+            "nbt": "{ElixirEffects: [{Effect: \"minecraft:fire_resistance\", Duration: 3600, Amplifier: 0}]}"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "rustic:elixir",
+            "nbt": "{ElixirEffects: [{Effect: \"minecraft:haste\", Duration: 3600, Amplifier: 1}]}"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_diamond"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_gold"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:chest"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 3
+    },
+    {
+      "level": 6,
+      "type": "WEAPONS",
+      "loot": [
+        {
+          "data": {
+            "name": "netherex:withered_amedian_sword",
+            "ench": 28
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:greatsword_steel",
+            "ench": 26
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:battleaxe_steel",
+            "ench": 26
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:warhammer_steel",
+            "ench": 26
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_sword",
+            "ench": 26
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_diamond"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_gold"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:chest"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    },
+    {
+      "level": 6,
+      "type": "ARMOUR",
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:diamond_helmet",
+            "ench": 26
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_chestplate",
+            "ench": 26
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_leggings",
+            "ench": 26
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond_boots",
+            "ench": 26
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_diamond"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_gold"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:chest"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    },
+    {
+      "level": 6,
+      "type": "ENCHANTING",
+      "loot": [
+        {
+          "data": {
+            "name": "minecraft:enchanted_book",
+            "ench": 28
+          },
+          "weight": 10
+        },
+        {
+          "data": {
+            "name": "minecraft:blaze_rod",
+            "min": 4,
+            "max": 8
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:magma_cream",
+            "min": 4,
+            "max": 8
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_diamond"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_gold"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:chest"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    },
+    {
+      "level": 6,
+      "type": "REWARD",
+      "loot": [
+        {
+          "data": {
+            "name": "embers:ingot_dawnstone",
+            "min": 4,
+            "max": 8
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:diamond",
+            "min": 4,
+            "max": 8
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:emerald",
+            "min": 6,
+            "max": 12
+          },
+          "weight": 8
+        },
+        {
+          "data": {
+            "name": "minecraft:golden_apple",
+            "meta": 0,
+            "min": 2,
+            "max": 4
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "name": "arcanearchives:raw_quartz"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_diamond"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:misc_experience",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:box_gold"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "grimoireofgaia:chest"
+          },
+          "weight": 2
+        }
+      ],
+      "each": true,
+      "quantity": 2
+    }
+  ]
+}

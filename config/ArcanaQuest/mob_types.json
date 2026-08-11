@@ -49,18 +49,23 @@
     "grimoireofgaia:satyress"
   ],
   "construct": [
-    "grimoireofgaia:deathword"
+    "grimoireofgaia:deathword",
+	"embers:ancient_golem"
   ],
   "creeper": [
 	"minecraft:creeper",
     "grimoireofgaia:creep"
+  ],
+  "cultist": [
+	"thaumcraft:cultistknight",
+	"thaumcraft:cultistcleric",
+	"crimsonrevelations:cultist_archer"
   ],
   "demon": [
     "grimoireofgaia:baphomet",
     "grimoireofgaia:oni",
     "grimoireofgaia:succubus"
   ],
-  "dinosaur": [],
   "dragon": [
     "lycanitesmobs:ignibus",
     "lycanitesmobs:morock",
@@ -99,7 +104,7 @@
     "grimoireofgaia:valkyrie",
     "thebetweenlands:dark_druid",
 	"minecraft:witch",
-	"minecraft:enderman",
+	"minecraft:enderman"
   ],
   "illager": [
     "grimoireofgaia:illager_fire",

@@ -96,6 +96,7 @@ goodies.addItemEntry(<minecraft:diamond>, 16, 0);
 goodies.addItemEntry(<botania:keepivy>, 5, 0);
 goodies.addItemEntry(<botania:blacklotus>, 8, 0);    
 goodies.addItemEntry(<botania:overgrowthseed>, 5, 0);
+goodies.addItemEntry(<grimoireofgaia:box_hat>, 5, 0);
 
 // 1-2 equipments
 

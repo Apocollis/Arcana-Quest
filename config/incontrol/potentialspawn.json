@@ -437,7 +437,7 @@
       "minecraft:swampland"
     ],
     "maxcount": {
-      "amount": 3,
+      "amount": 1,
       "mob": "grimoireofgaia:gelatinous_slime",
       "perplayer": true
     },
@@ -2794,27 +2794,15 @@
     "dimension": 0,
     "biomereg": [
       "biomesoplenty:bamboo_forest",
-      "biomesoplenty:bayou",
-      "biomesoplenty:bog",
-      "biomesoplenty:dead_swamp",
-      "biomesoplenty:fen",
-      "biomesoplenty:lush_swamp",
-      "biomesoplenty:mangrove",
-      "biomesoplenty:marsh",
-      "biomesoplenty:moor",
       "biomesoplenty:overgrown_cliffs",
-      "biomesoplenty:quagmire",
       "biomesoplenty:rainforest",
       "biomesoplenty:tropical_island",
       "biomesoplenty:tropical_rainforest",
-      "biomesoplenty:wetland",
       "minecraft:jungle",
       "minecraft:jungle_edge",
       "minecraft:jungle_hills",
       "minecraft:mutated_jungle",
-      "minecraft:mutated_jungle_edge",
-      "minecraft:mutated_swampland",
-      "minecraft:swampland"
+      "minecraft:mutated_jungle_edge"
     ],
     "maxcount": {
       "amount": 3,
@@ -3098,30 +3086,6 @@
   {
     "dimension": 0,
     "biomereg": [
-      "biomesoplenty:fungi_forest",
-      "biomesoplenty:mystic_grove",
-      "biomesoplenty:sacred_springs",
-      "minecraft:mushroom_island",
-      "minecraft:mushroom_island_shore",
-      "thaumcraft:magical_forest"
-    ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "minecraft:evocation_illager",
-      "perplayer": true
-    },
-    "mobs": [
-      {
-        "mob": "minecraft:evocation_illager",
-        "weight": 25,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  {
-    "dimension": 0,
-    "biomereg": [
       "biomesoplenty:desert",
       "biomesoplenty:lush_desert",
       "biomesoplenty:oasis",
@@ -3148,35 +3112,6 @@
         "weight": 100,
         "groupcountmin": 2,
         "groupcountmax": 4
-      }
-    ]
-  },
-  {
-    "dimension": 0,
-    "biomereg": [
-      "biomesoplenty:dead_forest",
-      "biomesoplenty:fungi_forest",
-      "biomesoplenty:mystic_grove",
-      "biomesoplenty:ominous_woods",
-      "biomesoplenty:sacred_springs",
-      "biomesoplenty:wasteland",
-      "minecraft:mushroom_island",
-      "minecraft:mushroom_island_shore",
-      "minecraft:roofed_forest",
-      "thaumcraft:eerie",
-      "thaumcraft:magical_forest"
-    ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "minecraft:illusion_illager",
-      "perplayer": true
-    },
-    "mobs": [
-      {
-        "mob": "minecraft:illusion_illager",
-        "weight": 25,
-        "groupcountmin": 1,
-        "groupcountmax": 1
       }
     ]
   },
@@ -3250,108 +3185,6 @@
         "weight": 100,
         "groupcountmin": 2,
         "groupcountmax": 4
-      }
-    ]
-  },
-  {
-    "dimension": 0,
-    "biomereg": [
-      "biomesoplenty:boreal_forest",
-      "biomesoplenty:cherry_blossom_grove",
-      "biomesoplenty:coniferous_forest",
-      "biomesoplenty:dead_forest",
-      "biomesoplenty:eucalyptus_forest",
-      "biomesoplenty:grove",
-      "biomesoplenty:land_of_lakes",
-      "biomesoplenty:maple_woods",
-      "biomesoplenty:mystic_grove",
-      "biomesoplenty:ominous_woods",
-      "biomesoplenty:redwood_forest",
-      "biomesoplenty:redwood_forest_edge",
-      "biomesoplenty:sacred_springs",
-      "biomesoplenty:seasonal_forest",
-      "biomesoplenty:temperate_rainforest",
-      "biomesoplenty:wasteland",
-      "biomesoplenty:woodland",
-      "minecraft:birch_forest",
-      "minecraft:birch_forest_hills",
-      "minecraft:forest",
-      "minecraft:forest_hills",
-      "minecraft:mutated_birch_forest",
-      "minecraft:mutated_birch_forest_hills",
-      "minecraft:mutated_forest",
-      "minecraft:mutated_roofed_forest",
-      "minecraft:roofed_forest",
-      "thaumcraft:eerie"
-    ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "minecraft:vindication_illager",
-      "perplayer": true
-    },
-    "mobs": [
-      {
-        "mob": "minecraft:vindication_illager",
-        "weight": 25,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ]
-  },
-  {
-    "dimension": 0,
-    "biomereg": [
-      "biomesoplenty:bayou",
-      "biomesoplenty:bog",
-      "biomesoplenty:boreal_forest",
-      "biomesoplenty:cherry_blossom_grove",
-      "biomesoplenty:coniferous_forest",
-      "biomesoplenty:dead_forest",
-      "biomesoplenty:dead_swamp",
-      "biomesoplenty:eucalyptus_forest",
-      "biomesoplenty:fen",
-      "biomesoplenty:grove",
-      "biomesoplenty:land_of_lakes",
-      "biomesoplenty:lush_swamp",
-      "biomesoplenty:mangrove",
-      "biomesoplenty:maple_woods",
-      "biomesoplenty:marsh",
-      "biomesoplenty:moor",
-      "biomesoplenty:mystic_grove",
-      "biomesoplenty:ominous_woods",
-      "biomesoplenty:quagmire",
-      "biomesoplenty:redwood_forest",
-      "biomesoplenty:redwood_forest_edge",
-      "biomesoplenty:sacred_springs",
-      "biomesoplenty:seasonal_forest",
-      "biomesoplenty:temperate_rainforest",
-      "biomesoplenty:wasteland",
-      "biomesoplenty:wetland",
-      "biomesoplenty:woodland",
-      "minecraft:birch_forest",
-      "minecraft:birch_forest_hills",
-      "minecraft:forest",
-      "minecraft:forest_hills",
-      "minecraft:mutated_birch_forest",
-      "minecraft:mutated_birch_forest_hills",
-      "minecraft:mutated_forest",
-      "minecraft:mutated_roofed_forest",
-      "minecraft:mutated_swampland",
-      "minecraft:roofed_forest",
-      "minecraft:swampland",
-      "thaumcraft:eerie"
-    ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "minecraft:witch",
-      "perplayer": true
-    },
-    "mobs": [
-      {
-        "mob": "minecraft:witch",
-        "weight": 25,
-        "groupcountmin": 1,
-        "groupcountmax": 1
       }
     ]
   },
@@ -3892,6 +3725,38 @@
     "mobs": [
       {
         "mob": "lycanitesmobs:shade",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxcount": {
+      "amount": 3,
+      "mob": "crimsonrevelations:cultist_archer",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "crimsonrevelations:cultist_archer",
+        "weight": 25,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  },
+  {
+    "dimension": 0,
+    "maxcount": {
+      "amount": 3,
+      "mob": "embers:ancient_golem",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "embers:ancient_golem",
         "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 1

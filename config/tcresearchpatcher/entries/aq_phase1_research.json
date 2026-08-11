@@ -1,0 +1,110 @@
+{
+  "entries": [
+    {
+      "key": "AQ_ANIMAL_NETS",
+      "name": "Containment Nets",
+      "category": "INFUSION",
+      "icons": [
+        "animalnet:mob_net_big"
+      ],
+      "location": [
+        3,
+        -2
+      ],
+      "parents": [
+        "INFUSION"
+      ],
+      "stages": [
+        {
+          "text": "By infusing disjunction cloth and pure filaments with binding, assault, and human essentia, you have devised single-use nets capable of snaring living entities and NPCs.",
+          "recipes": [
+            "aq_mob_net",
+            "aq_npc_net"
+          ],
+          "required_knowledge": [
+            "OBSERVATION;INFUSION;1"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "AQ_OZZY_LINERS",
+      "name": "Thermal Liners",
+      "category": "INFUSION",
+      "icons": [
+        "armorunder:auto_chestplate_liner"
+      ],
+      "location": [
+        4,
+        -1
+      ],
+      "parents": [
+        "INFUSION"
+      ],
+      "stages": [
+        {
+          "text": "Infusing enchanted fabrics with elementally charged ashen cloth, ice, and fire essentia yields self-regulating thermal clothing liners that adapt to environmental extremes.",
+          "recipes": [
+            "aq_ozzy_chestplate_liner",
+            "aq_ozzy_leggings_liner"
+          ],
+          "required_knowledge": [
+            "THEORY;INFUSION;1"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "AQ_POTION_RINGS",
+      "name": "Alchemical Potion Rings",
+      "category": "ARTIFICE",
+      "icons": [
+        "extraalchemy:empty_ring"
+      ],
+      "location": [
+        2,
+        3
+      ],
+      "parents": [
+        "FIRSTSTEPS"
+      ],
+      "stages": [
+        {
+          "text": "Shaping alchemical brass in the Arcane Workbench allows the creation of empty potion bands, which can subsequently be infused with potion brews.",
+          "recipes": [
+            "aq_empty_potion_ring"
+          ],
+          "required_knowledge": [
+            "OBSERVATION;ALCHEMY;1"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "AQ_ELEVATOR",
+      "name": "Arcane Elevator",
+      "category": "ARTIFICE",
+      "icons": [
+        "elevatorid:elevator_white"
+      ],
+      "location": [
+        1,
+        3
+      ],
+      "parents": [
+        "FIRSTSTEPS"
+      ],
+      "stages": [
+        {
+          "text": "Channeling air and order aspect crystals through arcane stone and ender pearls allows the construction of vertical teleportation pads.",
+          "recipes": [
+            "aq_elevator_white"
+          ],
+          "required_knowledge": [
+            "OBSERVATION;ARTIFICE;1"
+          ]
+        }
+      ]
+    }
+  ]
+}

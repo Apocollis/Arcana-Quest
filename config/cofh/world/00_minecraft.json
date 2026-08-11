@@ -162,6 +162,35 @@
 					0
 				]
 			}
+		},
+		
+		"surface_clay_plates": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "plate",
+				"radius": 6,
+				"height": {"min": 1, "max": 2},
+				"block": [
+					{ "name": "minecraft:clay" }
+				],
+				"material": [
+					{ "name": "minecraft:dirt" },
+					{ "name": "minecraft:sand" },
+					{ "name": "minecraft:gravel" }
+				]
+			},
+			"cluster-count": 2,
+			"chunkChance": 5,
+			"min-height": 50,
+			"max-height": 62,
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": 
+				[
+					0
+				]
+			}
 		}
 		
 		

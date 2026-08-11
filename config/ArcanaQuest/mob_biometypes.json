@@ -204,6 +204,8 @@
 	"thaumcraft:brainyzombie",
 	"thaumcraft:giantbrainyzombie",
 	"thaumcraft:cultistknight",
-	"thaumcraft:cultistcleric"
+	"thaumcraft:cultistcleric",
+	"crimsonrevelations:cultist_archer",
+	"embers:ancient_golem"
   ]
 }

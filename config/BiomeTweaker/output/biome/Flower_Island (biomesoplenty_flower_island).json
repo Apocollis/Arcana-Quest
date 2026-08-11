@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "PLAINS",
+    "DENSE",
     "LUSH",
     "WATER",
-    "DENSE",
+    "PLAINS",
     "MAGICAL"
   ],
   "BiomeManager Entries": {},
@@ -260,10 +260,6 @@
       {
         "ID": "splatter",
         "Name": "grass_splatter"
-      },
-      {
-        "ID": "ore_single",
-        "Name": "topaz"
       }
     ],
     "TREE Generators": [
