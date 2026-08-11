@@ -1,8 +1,8 @@
 {
   "name": "water",
   "type": "spawner",
-  "enabled": false,
-  "loadDefault": false,
+  "enabled": true,
+  "loadDefault": true,
   "mobCountMin": 4,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,

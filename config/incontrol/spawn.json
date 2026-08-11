@@ -38,7 +38,17 @@
     "result": "deny",
     "onjoin": true
   },
-
+// Prevent squid spawning outside of ocean
+    {
+      "biomereg": [
+        "minecraft:ocean",
+        "minecraft:deep_ocean"
+      ],
+      "mob": "minecraft:squid",
+      "onjoin": true,
+      "dimension": 0,
+      "result": "default"
+    },
 // Give Beneath dimension mobs the same buff as Tier 3 Deadlier Underground
   {
       "passive": false,
@@ -1044,30 +1054,6 @@
       },
       "result": "deny"
     },
-// Restrict lycanitesmobs:ioray spawning to 5 active per player on Overworld surface high (Uncommon)
-  {
-      "mob": "lycanitesmobs:ioray",
-      "dimension": 0,
-      "minheight": 61,
-      "mincount": {
-        "amount": 5,
-        "mob": "lycanitesmobs:ioray",
-        "perplayer": true
-      },
-      "result": "deny"
-    },
-// Restrict lycanitesmobs:ioray spawning to 5 active per player on Overworld surface low (Uncommon)
-  {
-      "mob": "lycanitesmobs:ioray",
-      "dimension": 0,
-      "seesky": true,
-      "mincount": {
-        "amount": 5,
-        "mob": "lycanitesmobs:ioray",
-        "perplayer": true
-      },
-      "result": "deny"
-    },
 // Restrict lycanitesmobs:kobold spawning to 5 active per player on Overworld surface high (Uncommon)
   {
       "mob": "lycanitesmobs:kobold",
@@ -1208,30 +1194,6 @@
       "mincount": {
         "amount": 5,
         "mob": "lycanitesmobs:reaper",
-        "perplayer": true
-      },
-      "result": "deny"
-    },
-// Restrict lycanitesmobs:roa spawning to 5 active per player on Overworld surface high (Uncommon)
-  {
-      "mob": "lycanitesmobs:roa",
-      "dimension": 0,
-      "minheight": 61,
-      "mincount": {
-        "amount": 5,
-        "mob": "lycanitesmobs:roa",
-        "perplayer": true
-      },
-      "result": "deny"
-    },
-// Restrict lycanitesmobs:roa spawning to 5 active per player on Overworld surface low (Uncommon)
-  {
-      "mob": "lycanitesmobs:roa",
-      "dimension": 0,
-      "seesky": true,
-      "mincount": {
-        "amount": 5,
-        "mob": "lycanitesmobs:roa",
         "perplayer": true
       },
       "result": "deny"
@@ -2868,6 +2830,30 @@
       },
       "result": "deny"
     },
+// Restrict lycanitesmobs:ioray spawning to 3 active per player on Overworld surface high (Rare)
+  {
+      "mob": "lycanitesmobs:ioray",
+      "dimension": 0,
+      "minheight": 61,
+      "mincount": {
+        "amount": 3,
+        "mob": "lycanitesmobs:ioray",
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+// Restrict lycanitesmobs:ioray spawning to 3 active per player on Overworld surface low (Rare)
+  {
+      "mob": "lycanitesmobs:ioray",
+      "dimension": 0,
+      "seesky": true,
+      "mincount": {
+        "amount": 3,
+        "mob": "lycanitesmobs:ioray",
+        "perplayer": true
+      },
+      "result": "deny"
+    },
 // Restrict lycanitesmobs:krake spawning to 3 active per player on Overworld surface high (Rare)
   {
       "mob": "lycanitesmobs:krake",
@@ -2988,6 +2974,30 @@
       },
       "result": "deny"
     },
+// Restrict lycanitesmobs:roa spawning to 3 active per player on Overworld surface high (Rare)
+  {
+      "mob": "lycanitesmobs:roa",
+      "dimension": 0,
+      "minheight": 61,
+      "mincount": {
+        "amount": 3,
+        "mob": "lycanitesmobs:roa",
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+// Restrict lycanitesmobs:roa spawning to 3 active per player on Overworld surface low (Rare)
+  {
+      "mob": "lycanitesmobs:roa",
+      "dimension": 0,
+      "seesky": true,
+      "mincount": {
+        "amount": 3,
+        "mob": "lycanitesmobs:roa",
+        "perplayer": true
+      },
+      "result": "deny"
+    },
 // Restrict lycanitesmobs:salamander spawning to 3 active per player on Overworld surface high (Rare)
   {
       "mob": "lycanitesmobs:salamander",
@@ -3104,30 +3114,6 @@
       "mincount": {
         "amount": 3,
         "mob": "lycanitesmobs:spectre",
-        "perplayer": true
-      },
-      "result": "deny"
-    },
-// Restrict lycanitesmobs:strider spawning to 3 active per player on Overworld surface high (Rare)
-  {
-      "mob": "lycanitesmobs:strider",
-      "dimension": 0,
-      "minheight": 61,
-      "mincount": {
-        "amount": 3,
-        "mob": "lycanitesmobs:strider",
-        "perplayer": true
-      },
-      "result": "deny"
-    },
-// Restrict lycanitesmobs:strider spawning to 3 active per player on Overworld surface low (Rare)
-  {
-      "mob": "lycanitesmobs:strider",
-      "dimension": 0,
-      "seesky": true,
-      "mincount": {
-        "amount": 3,
-        "mob": "lycanitesmobs:strider",
         "perplayer": true
       },
       "result": "deny"
@@ -5066,18 +5052,7 @@
       "speedmultiply": 1.3,
       "onjoin": true
     },
-// Prevent squid spawning outside of ocean
-    {
-      "biomereg": [
-        "minecraft:ocean",
-        "minecraft:deep_ocean"
-      ],
-      "mob": "minecraft:squid",
-      "onjoin": true,
-      "dimension": 0,
-      "result": "default"
-    },
-   {
+{
       "mob": "minecraft:squid",
       "onjoin": true,
       "dimension": 0,

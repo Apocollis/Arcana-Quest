@@ -6,11 +6,13 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityIka",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelIka",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+      "wateranimal"
+    ],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
@@ -22,7 +24,7 @@
       "ocean",
       "beach"
     ],
-    "spawnWeight": 20,
+    "spawnWeight": 8,
     "dungeonWeight": 0,
     "spawnAreaLimit": 2,
     "spawnGroupMin": 1,

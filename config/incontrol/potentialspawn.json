@@ -17,11 +17,6 @@
       "minecraft:mutated_mesa_clear_rock",
       "minecraft:mutated_mesa_rock"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:anubis",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:anubis",
@@ -58,11 +53,6 @@
       "minecraft:mutated_roofed_forest",
       "minecraft:roofed_forest"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:arachne",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:arachne",
@@ -103,11 +93,6 @@
       "minecraft:smaller_extreme_hills",
       "minecraft:sunflower_plains"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:banshee",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:banshee",
@@ -125,11 +110,6 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:cecaelia",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:cecaelia",
@@ -158,11 +138,6 @@
       "minecraft:plains",
       "minecraft:sunflower_plains"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:centaur",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:centaur",
@@ -198,11 +173,6 @@
       "minecraft:mutated_jungle_edge",
       "minecraft:smaller_extreme_hills"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:cobble_golem",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:cobble_golem",
@@ -238,11 +208,6 @@
       "minecraft:mutated_jungle_edge",
       "minecraft:smaller_extreme_hills"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:cobblestone_golem",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:cobblestone_golem",
@@ -268,11 +233,6 @@
       "minecraft:mutated_extreme_hills_with_trees",
       "minecraft:smaller_extreme_hills"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:cyclops",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:cyclops",
@@ -292,11 +252,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:deathword",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:deathword",
@@ -315,11 +270,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:dhampir",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:dhampir",
@@ -360,11 +310,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:dryad",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:dryad",
@@ -383,11 +328,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:dullahan",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:dullahan",
@@ -406,11 +346,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:flesh_lich",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:flesh_lich",
@@ -436,11 +371,6 @@
       "minecraft:mutated_swampland",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:gelatinous_slime",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:gelatinous_slime",
@@ -466,11 +396,6 @@
       "minecraft:mutated_extreme_hills_with_trees",
       "minecraft:smaller_extreme_hills"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:gryphon",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:gryphon",
@@ -499,11 +424,6 @@
       "minecraft:plains",
       "minecraft:sunflower_plains"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:harpy",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:harpy",
@@ -527,11 +447,6 @@
       "minecraft:mutated_jungle",
       "minecraft:mutated_jungle_edge"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:hunter",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:hunter",
@@ -551,11 +466,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:matango",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:matango",
@@ -573,11 +483,6 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:mermaid",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:mermaid",
@@ -606,11 +511,6 @@
       "minecraft:plains",
       "minecraft:sunflower_plains"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:minotaur",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:minotaur",
@@ -639,11 +539,6 @@
       "minecraft:plains",
       "minecraft:sunflower_plains"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:minotaurus",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:minotaurus",
@@ -671,11 +566,6 @@
       "minecraft:mutated_mesa_clear_rock",
       "minecraft:mutated_mesa_rock"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:mummy",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:mummy",
@@ -711,11 +601,6 @@
       "minecraft:mutated_swampland",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:naga",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:naga",
@@ -735,11 +620,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:nine_tails",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:nine_tails",
@@ -768,11 +648,6 @@
       "minecraft:plains",
       "minecraft:sunflower_plains"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:satyress",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:satyress",
@@ -811,11 +686,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:selkie",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:selkie",
@@ -839,11 +709,6 @@
       "minecraft:mutated_jungle",
       "minecraft:mutated_jungle_edge"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:shaman",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:shaman",
@@ -861,11 +726,6 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:sharko",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:sharko",
@@ -891,11 +751,6 @@
       "minecraft:mutated_swampland",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:siren",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:siren",
@@ -921,11 +776,6 @@
       "minecraft:mutated_swampland",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:sludge_girl",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:sludge_girl",
@@ -953,11 +803,6 @@
       "minecraft:mutated_mesa_clear_rock",
       "minecraft:mutated_mesa_rock"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:sphinx",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:sphinx",
@@ -977,11 +822,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "grimoireofgaia:sporeling",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:sporeling",
@@ -1022,11 +862,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:spriggan",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:spriggan",
@@ -1052,11 +887,6 @@
       "minecraft:mutated_swampland",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:toad",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:toad",
@@ -1082,11 +912,6 @@
       "minecraft:mutated_extreme_hills_with_trees",
       "minecraft:smaller_extreme_hills"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:valkyrie",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:valkyrie",
@@ -1105,11 +930,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:vampire",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:vampire",
@@ -1138,11 +958,6 @@
       "minecraft:plains",
       "minecraft:sunflower_plains"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:werecat",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:werecat",
@@ -1162,11 +977,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:witch",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:witch",
@@ -1205,11 +1015,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:yeti",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:yeti",
@@ -1248,11 +1053,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:yuki-onna",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:yuki-onna",
@@ -1283,11 +1083,6 @@
       "minecraft:river",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:abaia",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:abaia",
@@ -1296,7 +1091,6 @@
         "groupcountmax": 3
       }
     ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -1309,11 +1103,6 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:abtu",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:abtu",
@@ -1322,7 +1111,6 @@
         "groupcountmax": 3
       }
     ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -1343,11 +1131,6 @@
       "minecraft:mutated_swampland",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:aglebemu",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:aglebemu",
@@ -1386,11 +1169,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:arix",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:arix",
@@ -1418,11 +1196,6 @@
       "minecraft:mutated_mesa_clear_rock",
       "minecraft:mutated_mesa_rock"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:balayang",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:balayang",
@@ -1448,11 +1221,6 @@
       "minecraft:mutated_extreme_hills_with_trees",
       "minecraft:smaller_extreme_hills"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:barghest",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:barghest",
@@ -1471,11 +1239,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:beholder",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:beholder",
@@ -1514,11 +1277,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:bobeko",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:bobeko",
@@ -1539,11 +1297,6 @@
       "minecraft:savanna",
       "minecraft:savanna_rock"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:chupacabra",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:chupacabra",
@@ -1571,11 +1324,6 @@
       "minecraft:mutated_mesa_clear_rock",
       "minecraft:mutated_mesa_rock"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:clink",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:clink",
@@ -1604,11 +1352,6 @@
       "minecraft:plains",
       "minecraft:sunflower_plains"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:cockatrice",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:cockatrice",
@@ -1632,11 +1375,6 @@
       "minecraft:mutated_jungle",
       "minecraft:mutated_jungle_edge"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:conba",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:conba",
@@ -1664,11 +1402,6 @@
       "minecraft:mutated_mesa_clear_rock",
       "minecraft:mutated_mesa_rock"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:crusk",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:crusk",
@@ -1696,11 +1429,6 @@
       "minecraft:mutated_mesa_clear_rock",
       "minecraft:mutated_mesa_rock"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:cryptkeeper",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:cryptkeeper",
@@ -1719,11 +1447,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:darkling",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:darkling",
@@ -1747,11 +1470,6 @@
       "minecraft:mutated_jungle",
       "minecraft:mutated_jungle_edge"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:dawon",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:dawon",
@@ -1777,11 +1495,6 @@
       "minecraft:mutated_swampland",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:dweller",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:dweller",
@@ -1818,11 +1531,6 @@
       "minecraft:mutated_roofed_forest",
       "minecraft:roofed_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:ent",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:ent",
@@ -1889,11 +1597,6 @@
       "minecraft:sunflower_plains",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:ettin",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:ettin",
@@ -1914,11 +1617,6 @@
       "minecraft:savanna",
       "minecraft:savanna_rock"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:feradon",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:feradon",
@@ -1957,11 +1655,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:frostweaver",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:frostweaver",
@@ -1987,11 +1680,6 @@
       "minecraft:mutated_swampland",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:geken",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:geken",
@@ -2010,11 +1698,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:ghoul",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:ghoul",
@@ -2042,11 +1725,6 @@
       "minecraft:mutated_mesa_clear_rock",
       "minecraft:mutated_mesa_rock"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:gorgomite",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:gorgomite",
@@ -2064,11 +1742,6 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:herma",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:herma",
@@ -2077,7 +1750,6 @@
         "groupcountmax": 3
       }
     ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -2091,11 +1763,6 @@
       "minecraft:ocean",
       "minecraft:river"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:ika",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:ika",
@@ -2104,7 +1771,6 @@
         "groupcountmax": 3
       }
     ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -2117,20 +1783,14 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:ioray",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:ioray",
-        "weight": 65,
+        "weight": 25,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 1
       }
     ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -2162,11 +1822,6 @@
       "minecraft:mutated_roofed_forest",
       "minecraft:roofed_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:jabberwock",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:jabberwock",
@@ -2195,11 +1850,6 @@
       "minecraft:plains",
       "minecraft:sunflower_plains"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:kobold",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:kobold",
@@ -2217,11 +1867,6 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:lacedon",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:lacedon",
@@ -2230,7 +1875,6 @@
         "groupcountmax": 3
       }
     ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -2264,11 +1908,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:maug",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:maug",
@@ -2287,11 +1926,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:necrovore",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:necrovore",
@@ -2311,11 +1945,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:nymph",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:nymph",
@@ -2335,11 +1964,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:pixen",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:pixen",
@@ -2357,11 +1981,6 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:quetzodracl",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:quetzodracl",
@@ -2382,11 +2001,6 @@
       "minecraft:savanna",
       "minecraft:savanna_rock"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:quillbeast",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:quillbeast",
@@ -2404,11 +2018,6 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:raiko",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:raiko",
@@ -2427,11 +2036,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:remobra",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:remobra",
@@ -2449,20 +2053,14 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:roa",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:roa",
-        "weight": 65,
+        "weight": 25,
         "groupcountmin": 1,
-        "groupcountmax": 3
+        "groupcountmax": 1
       }
     ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -2478,11 +2076,6 @@
       "minecraft:savanna",
       "minecraft:savanna_rock"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:roc",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:roc",
@@ -2521,11 +2114,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:serpix",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:serpix",
@@ -2544,11 +2132,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:shade",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:shade",
@@ -2585,11 +2168,6 @@
       "minecraft:mutated_roofed_forest",
       "minecraft:roofed_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:shambler",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:shambler",
@@ -2604,11 +2182,6 @@
     "biomereg": [
       "minecraft:river"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:silex",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:silex",
@@ -2617,7 +2190,6 @@
         "groupcountmax": 3
       }
     ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -2630,11 +2202,6 @@
       "minecraft:deep_ocean",
       "minecraft:ocean"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:skylus",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:skylus",
@@ -2643,33 +2210,6 @@
         "groupcountmax": 1
       }
     ],
-    "type": "waterCreature",
-    "block": [
-      "minecraft:water"
-    ]
-  },
-  {
-    "dimension": 0,
-    "biomereg": [
-      "biomesoplenty:coral_reef",
-      "biomesoplenty:kelp_forest",
-      "minecraft:deep_ocean",
-      "minecraft:ocean"
-    ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:strider",
-      "perplayer": true
-    },
-    "mobs": [
-      {
-        "mob": "lycanitesmobs:strider",
-        "weight": 25,
-        "groupcountmin": 1,
-        "groupcountmax": 1
-      }
-    ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
@@ -2684,11 +2224,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:sylph",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:sylph",
@@ -2712,11 +2247,6 @@
       "minecraft:mutated_jungle",
       "minecraft:mutated_jungle_edge"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:tarantula",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:tarantula",
@@ -2735,11 +2265,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:eerie"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:tpumpkyn",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:tpumpkyn",
@@ -2776,11 +2301,6 @@
       "minecraft:mutated_roofed_forest",
       "minecraft:roofed_forest"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:treant",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:treant",
@@ -2804,11 +2324,6 @@
       "minecraft:mutated_jungle",
       "minecraft:mutated_jungle_edge"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:triffid",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:triffid",
@@ -2834,11 +2349,6 @@
       "minecraft:mutated_extreme_hills_with_trees",
       "minecraft:smaller_extreme_hills"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:troll",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:troll",
@@ -2862,11 +2372,6 @@
       "minecraft:mutated_jungle",
       "minecraft:mutated_jungle_edge"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:vespid",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:vespid",
@@ -2890,11 +2395,6 @@
       "minecraft:mutated_jungle",
       "minecraft:mutated_jungle_edge"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:vespidqueen",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:vespidqueen",
@@ -2931,11 +2431,6 @@
       "minecraft:mutated_roofed_forest",
       "minecraft:roofed_forest"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:warg",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:warg",
@@ -2974,11 +2469,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:wendigo",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:wendigo",
@@ -3015,11 +2505,6 @@
       "minecraft:mutated_roofed_forest",
       "minecraft:roofed_forest"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:wildkin",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:wildkin",
@@ -3039,11 +2524,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:wisp",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:wisp",
@@ -3069,11 +2549,6 @@
       "minecraft:mutated_extreme_hills_with_trees",
       "minecraft:smaller_extreme_hills"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:zoataur",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:zoataur",
@@ -3101,11 +2576,6 @@
       "minecraft:mutated_mesa_clear_rock",
       "minecraft:mutated_mesa_rock"
     ],
-    "maxcount": {
-      "amount": 8,
-      "mob": "minecraft:husk",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:husk",
@@ -3131,11 +2601,6 @@
       "minecraft:mutated_swampland",
       "minecraft:swampland"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "minecraft:slime",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:slime",
@@ -3174,11 +2639,6 @@
       "minecraft:taiga_cold_hills",
       "minecraft:taiga_hills"
     ],
-    "maxcount": {
-      "amount": 8,
-      "mob": "minecraft:stray",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:stray",
@@ -3219,11 +2679,6 @@
       "minecraft:roofed_forest",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 3,
-      "mob": "thaumcraft:pech",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "thaumcraft:pech",
@@ -3243,11 +2698,6 @@
       "minecraft:mushroom_island_shore",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "thaumcraft:thaumslime",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "thaumcraft:thaumslime",
@@ -3272,11 +2722,6 @@
       "thaumcraft:eerie",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 5,
-      "mob": "thaumcraft:wisp",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "thaumcraft:wisp",
@@ -3333,11 +2778,6 @@
       "thaumcraft:eerie",
       "thaumcraft:magical_forest"
     ],
-    "maxcount": {
-      "amount": 1,
-      "mob": "thebetweenlands:dark_druid",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "thebetweenlands:dark_druid",
@@ -3349,11 +2789,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:baphomet",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:baphomet",
@@ -3365,11 +2800,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:oni",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:oni",
@@ -3381,11 +2811,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:succubus",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:succubus",
@@ -3397,11 +2822,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:wither_cow",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:wither_cow",
@@ -3413,11 +2833,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:afrit",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:afrit",
@@ -3429,11 +2844,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:gnekk",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:gnekk",
@@ -3445,11 +2855,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:grell",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:grell",
@@ -3461,11 +2866,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:grigori",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:grigori",
@@ -3477,11 +2877,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:ignibus",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:ignibus",
@@ -3493,11 +2888,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:salamander",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:salamander",
@@ -3509,11 +2899,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:wraith",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:wraith",
@@ -3525,11 +2910,6 @@
   },
   {
     "dimension": -1,
-    "maxcount": {
-      "amount": 5,
-      "mob": "thaumcraft:firebat",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "thaumcraft:firebat",
@@ -3541,11 +2921,6 @@
   },
   {
     "dimension": 1,
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:beholder",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:beholder",
@@ -3557,11 +2932,6 @@
   },
   {
     "dimension": 1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:creep",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:creep",
@@ -3573,11 +2943,6 @@
   },
   {
     "dimension": 1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:ender_eye",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:ender_eye",
@@ -3589,11 +2954,6 @@
   },
   {
     "dimension": 1,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:spectre",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:spectre",
@@ -3605,11 +2965,6 @@
   },
   {
     "dimension": 10,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:banshee",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:banshee",
@@ -3621,11 +2976,6 @@
   },
   {
     "dimension": 10,
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:beholder",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:beholder",
@@ -3637,11 +2987,6 @@
   },
   {
     "dimension": 10,
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:darkling",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:darkling",
@@ -3653,11 +2998,6 @@
   },
   {
     "dimension": 10,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:epion",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:epion",
@@ -3669,11 +3009,6 @@
   },
   {
     "dimension": 10,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:eyewig",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:eyewig",
@@ -3685,11 +3020,6 @@
   },
   {
     "dimension": 10,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:geist",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:geist",
@@ -3701,11 +3031,6 @@
   },
   {
     "dimension": 10,
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:grue",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:grue",
@@ -3717,11 +3042,6 @@
   },
   {
     "dimension": 10,
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:shade",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:shade",
@@ -3733,11 +3053,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "crimsonrevelations:cultist_archer",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "crimsonrevelations:cultist_archer",
@@ -3749,11 +3064,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "embers:ancient_golem",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "embers:ancient_golem",
@@ -3765,11 +3075,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 1,
-      "mob": "grimoireofgaia:bone_knight",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:bone_knight",
@@ -3781,11 +3086,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "grimoireofgaia:dwarf",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:dwarf",
@@ -3797,11 +3097,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 5,
-      "mob": "grimoireofgaia:goblin",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:goblin",
@@ -3813,11 +3108,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 5,
-      "mob": "grimoireofgaia:goblin_feral",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:goblin_feral",
@@ -3829,11 +3119,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 5,
-      "mob": "grimoireofgaia:orc",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "grimoireofgaia:orc",
@@ -3845,11 +3130,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:beholder",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:beholder",
@@ -3861,11 +3141,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "lycanitesmobs:krake",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:krake",
@@ -3877,11 +3152,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 1,
-      "mob": "lycanitesmobs:morock",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:morock",
@@ -3893,11 +3163,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 5,
-      "mob": "lycanitesmobs:silex",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "lycanitesmobs:silex",
@@ -3906,18 +3171,12 @@
         "groupcountmax": 3
       }
     ],
-    "type": "waterCreature",
     "block": [
       "minecraft:water"
     ]
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 5,
-      "mob": "minecraft:cave_spider",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:cave_spider",
@@ -3929,11 +3188,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 5,
-      "mob": "minecraft:creeper",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:creeper",
@@ -3945,11 +3199,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "minecraft:enderman",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:enderman",
@@ -3961,11 +3210,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 8,
-      "mob": "minecraft:skeleton",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:skeleton",
@@ -3977,11 +3221,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 8,
-      "mob": "minecraft:spider",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:spider",
@@ -3993,11 +3232,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 8,
-      "mob": "minecraft:zombie",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:zombie",
@@ -4009,11 +3243,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "minecraft:zombie_villager",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "minecraft:zombie_villager",
@@ -4025,11 +3254,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "thaumcraft:brainyzombie",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "thaumcraft:brainyzombie",
@@ -4041,11 +3265,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "thaumcraft:cultistcleric",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "thaumcraft:cultistcleric",
@@ -4057,11 +3276,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 3,
-      "mob": "thaumcraft:cultistknight",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "thaumcraft:cultistknight",
@@ -4073,11 +3287,6 @@
   },
   {
     "dimension": 0,
-    "maxcount": {
-      "amount": 1,
-      "mob": "thaumcraft:giantbrainyzombie",
-      "perplayer": true
-    },
     "mobs": [
       {
         "mob": "thaumcraft:giantbrainyzombie",

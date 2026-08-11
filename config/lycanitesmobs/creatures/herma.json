@@ -6,11 +6,15 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityHerma",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelHerma",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+      "monster",
+      "beast",
+      "waterfloor"
+    ],
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
@@ -22,7 +26,7 @@
       "ocean",
       "beach"
     ],
-    "spawnWeight": 20,
+    "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
