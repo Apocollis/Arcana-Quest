@@ -26,3 +26,8 @@
 .curseclient
 /config/BiomeTweaker/output/
 /config/packcompanion/output/
+/config/fantasticlib/reference
+/config/cleanroom_load_timings.dat
+config/splash.properties
+config/InvTweaks/InvTweaks.cfg
+config/thaumicjei_itemstack_aspects.json
