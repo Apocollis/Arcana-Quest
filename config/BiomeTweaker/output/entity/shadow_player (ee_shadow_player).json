@@ -1,6 +1,0 @@
-
-{
-  "Name": "shadow_player",
-  "Registry ID": "ee:shadow_player",
-  "Class": "com.example.structure.entity.shadowPlayer.EntityShadowPlayer"
-}

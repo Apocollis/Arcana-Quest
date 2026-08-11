@@ -1,6 +1,0 @@
-
-{
-  "Name": "heal_aura",
-  "Registry ID": "ee:heal_aura",
-  "Class": "com.example.structure.entity.knighthouse.EntityHealAura"
-}
