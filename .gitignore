@@ -24,3 +24,5 @@
 
 # Ignored
 .curseclient
+/config/BiomeTweaker/output/
+/config/packcompanion/output/

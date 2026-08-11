@@ -21,10 +21,10 @@
   "Enable Snow": true,
   "Dictionary Types": [
     "DENSE",
-    "CONIFEROUS",
+    "COLD",
     "SNOWY",
-    "FOREST",
-    "COLD"
+    "CONIFEROUS",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
