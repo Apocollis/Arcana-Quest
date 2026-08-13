@@ -188,7 +188,7 @@
     "berry_bushes": {
       "with": {
         "block": "rustic:wildberry_bush",
-        "properties": {}
+        "meta": 1
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.1,

@@ -119,3 +119,8 @@ rails.addItemEntry(<minecraft:detector_rail>, 5, 0, [Functions.setCount(1, 4)], 
 rails.addItemEntry(<minecraft:activator_rail>, 5, 0, [Functions.setCount(1, 4)], []);
 rails.addItemEntry(<minecraft:torch>, 15, 0, [Functions.setCount(4, 16)], []);
 rails.addItemEntry(<minecraft:minecart>, 5, 0, [Functions.setCount(1, 1)], []);
+
+// Dynamic Sword Skills Loot
+goodies.addItemEntry(<dynamicswordskills:skillorb_swordbasic>, 3, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb_dodge>, 3, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb_dash>, 3, 0);

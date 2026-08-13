@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:true
-resourcePacks:["Sonomagy TC6 v1.7.zip","Better_Enderdragon.zip","Lycanites Redux 1.12.2-v8.2.1.zip","STONEBORN Gear-HIGH_EYES-1.12 - V1.1.zip","STONEBORN-1.12.2-V3.1.zip","Stoneborn RL Edition.zip","Itsme64\u0027s_no_potion_particles.zip","Stoneborn-Vanilla-HUD.zip"]
+resourcePacks:["Better_Enderdragon.zip","Lycanites Redux 1.12.2-v8.2.1.zip","STONEBORN Gear-HIGH_EYES-1.12 - V1.1.zip","STONEBORN-1.12.2-V3.1.zip","Stoneborn RL Edition.zip","Itsme64\u0027s_no_potion_particles.zip","Stoneborn-Vanilla-HUD.zip","Sonomagy TC6 v1.8.zip","GrappleRetextured_1.12_v1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -105,8 +105,6 @@ key_key.dss.toggleat.desc:80
 key_key.dss.skills_gui.desc:25:ALT
 key_key.dss.togglehud.desc:47
 key_Open Baubles' Sidebar:0
-key_quark.keybind.toggleAutojump:0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -114,24 +112,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.emote.no:0
-key_quark.emote.yes:0
-key_quark.emote.wave:0
-key_quark.emote.salute:0
-key_quark.emote.cheer:0
-key_quark.emote.clap:0
-key_quark.emote.think:0
-key_quark.emote.point:0
-key_quark.emote.shrug:0
-key_quark.emote.headbang:0
-key_quark.emote.weep:0
-key_quark.emote.facepalm:0
-key_quark.emote.dance:0
-key_quark.emote.tpose:0
-key_quark.emote.dab:0
-key_quark.emote.jet:0
-key_quark.emote.exorcist:0
-key_quark.emote.zombie:0
+key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_arcanearchives.gui.keybinds.socket:0
 key_key.betterquesting.quests:0
@@ -175,9 +157,12 @@ key_key.hei.previousCategory:201:SHIFT
 key_key.hei.nextCategory:209:SHIFT
 key_key.jei.bookmark:30
 key_key.hei.bookmarkToTop:30:SHIFT
-key_key.hei.recipeBookmark:30:CONTROL
+key_key.hei.bookmarkNewGroup:30:CONTROL
+key_key.hei.bookmarkNewGroupToTop:0
 key_key.hei.toggleBookmarkOverlay:0
 key_key.hei.crafting:46:SHIFT
+key_key.hei.moveGroupUp:200:SHIFT
+key_key.hei.moveGroupDown:208:SHIFT
 key_nei.options.keys.gui.botania_corporea_request:46:CONTROL
 key_key.elenaidodge2.dodge:56
 key_bqutweaker.key.pageback:14

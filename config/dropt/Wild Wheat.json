@@ -19,19 +19,7 @@
               "fixed": 1
             }
           }
-        }
-      ]
-    },
-    {
-      "match": {
-        "blocks": {
-          "blocks": [
-            "biomesoplenty:plant_1:11"
-          ]
-        }
-      },
-      "replaceStrategy": "ADD",
-      "drops": [
+        },
         {
           "selector": {
             "weight": {

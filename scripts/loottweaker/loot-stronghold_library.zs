@@ -78,3 +78,9 @@ treasure.addItemEntry(<astralsorcery:itemenchantmentamulet>, 15, 0);
 
 treasure.addItemEntry(<msmlegacy:gladiolus>, 3, 0);
 treasure.addItemEntry(<msmlegacy:crystaline_blade>, 3, 0);
+
+// Dynamic Sword Skills Loot
+goodies.addItemEntry(<dynamicswordskills:skillorb_armorbreak>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb_swordbreak>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb_mortaldraw>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb_endingblow>, 2, 0);

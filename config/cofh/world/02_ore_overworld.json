@@ -664,7 +664,7 @@
             "cluster-count": 1,
             "chunk-chance": 10,
             "min-height": -55,
-            "max-height": -20,
+            "max-height": -30,
             "retrogen": "true",
             "biome": "all",
             "dimension": {

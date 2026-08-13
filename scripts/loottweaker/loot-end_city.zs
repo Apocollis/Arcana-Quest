@@ -181,3 +181,7 @@ treasure.addItemEntry(<msmlegacy:glacial_blade>, 2, 0);
 treasure.addItemEntry(<msmlegacy:eye_end_blade>, 2, 0);
 treasure.addItemEntry(<msmlegacy:aethers_guard>, 2, 0);
 treasure.addItemEntry(<msmlegacy:draconic_blade>, 2, 0);
+
+// Dynamic Sword Skills Loot
+goodies.addItemEntry(<dynamicswordskills:skillorb_superspinattack>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb_swordbeam>, 2, 0);

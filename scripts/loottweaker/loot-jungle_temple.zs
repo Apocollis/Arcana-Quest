@@ -221,3 +221,9 @@ treasure.addItemEntry(<grimoireofgaia:doll_mermaid>, 2, 0);
 treasure.addItemEntry(<grimoireofgaia:doll_nine_tails>, 2, 0);
 treasure.addItemEntry(<grimoireofgaia:doll_dryad>, 2, 0);
 treasure.addItemEntry(<grimoireofgaia:deco_garden_gnome>, 2, 0);
+
+// Dynamic Sword Skills Loot
+goodies.addItemEntry(<dynamicswordskills:skillorb_risingcut>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb_backslice>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb_spinattack>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb_leapingblow>, 2, 0);

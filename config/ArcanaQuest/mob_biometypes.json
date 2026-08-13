@@ -28,7 +28,6 @@
     "lycanitesmobs:spectre"
   ],
   "forest": [
-    "grimoireofgaia:arachne",
     "grimoireofgaia:dryad",
 	"grimoireofgaia:spriggan",
     "lycanitesmobs:ent",
@@ -185,6 +184,7 @@
     "lycanitesmobs:abaia"
   ],
   "any": [
+    "grimoireofgaia:arachne",
     "grimoireofgaia:bone_knight",
 	"grimoireofgaia:dwarf",
     "grimoireofgaia:goblin",

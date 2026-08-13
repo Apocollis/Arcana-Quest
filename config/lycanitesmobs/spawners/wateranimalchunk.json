@@ -2,7 +2,7 @@
   "name": "wateranimalchunk",
   "sharedName": "wateranimal",
   "type": "spawner",
-  "enabled": true,
+  "enabled": false,
   "loadDefault": false,
   "mobCountMin": 4,
   "ignoreBiomes": false,
