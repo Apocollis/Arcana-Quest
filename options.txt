@@ -215,7 +215,7 @@ key_gnetum.config.keyMapping:0
 key_key.boththrow.desc:-99
 key_key.leftthrow.desc:0
 key_key.rightthrow.desc:0
-key_key.motoronoff.desc:42
+key_key.motoronoff.desc:29
 key_key.jumpanddetach.desc:57
 key_key.slow.desc:42
 key_key.climb.desc:42

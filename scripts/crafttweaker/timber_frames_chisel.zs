@@ -59,16 +59,27 @@ for block in plasterBlocks {
 }
 
 // 3. Structurize Timber Frame Chisel Groups
-val structurizeWoodTypes = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] as string[];
+val structurizeWoods = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] as string[];
+val structurizeShapes = [
+    "plain",
+    "framed",
+    "sideframed",
+    "doublecrossed",
+    "onecrossedlr",
+    "onecrossedrl",
+    "gateframed",
+    "downgated",
+    "horizontalplain",
+    "horizontalnocap"
+] as string[];
 
-for wood in structurizeWoodTypes {
+for wood in structurizeWoods {
     val groupName = "structurize_timber_frame_" + wood;
     Carving.addGroup(groupName);
     
-    // Register metadata variants (0 through 15) for timber frames of this wood type
-    for meta in 0 .. 16 {
-        val itemId = "structurize:timber_frame_" + wood;
-        val block = itemUtils.getItem(itemId, meta);
+    for shape in structurizeShapes {
+        val itemId = "structurize:blocktimberframe_" + wood + "_" + shape;
+        val block = itemUtils.getItem(itemId);
         if (!isNull(block)) {
             Carving.addVariation(groupName, block);
             val oreKey = "timberFrame" + wood;

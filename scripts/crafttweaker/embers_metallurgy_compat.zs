@@ -48,7 +48,7 @@ for dust in dusts
 // mods.embers.Stamper.add(<metallurgy:adamantine_nugget>, <liquid:alduorite> * 16, <soot:stamp_nugget>);
 
 #Astral Silver
-mods.embers.Melter.add(<liquid:astral_silver> * 288, <ore:oreAstralSilver>);
+// mods.embers.Melter.add(<liquid:astral_silver> * 288, <ore:oreAstralSilver>);
 mods.embers.Melter.add(<liquid:astral_silver> * 144, <ore:ingotAstralSilver>);
 mods.embers.Melter.add(<liquid:astral_silver> * 144, <ore:dustAstralSilver>);
 mods.embers.Melter.add(<liquid:astral_silver> * 16, <ore:nuggetAstralSilver>);
@@ -367,7 +367,7 @@ mods.embers.Stamper.add(<metallurgy:quicksilver_nugget>, <liquid:quicksilver> * 
 mods.embers.Melter.add(<liquid:shadow_steel> * 144, <ore:ingotShadowSteel>);
 mods.embers.Melter.add(<liquid:shadow_steel> * 144, <ore:dustShadowSteel>);
 mods.embers.Melter.add(<liquid:shadow_steel> * 16, <ore:nuggetShadowSteel>);
-mods.embers.Mixer.add(<liquid:shadow_steel> * 6, [<liquid:shadow_iron> * 4, <liquid:lemurite> * 2]);
+mods.embers.Mixer.add(<liquid:shadow_steel> * 6, [<liquid:shadow_iron> * 4, <liquid:damascus_steel> * 2]);
 mods.embers.Stamper.add(<metallurgy:shadow_steel_ingot>, <liquid:shadow_steel> * 144, <embers:stamp_bar>);
 mods.embers.Stamper.add(<metallurgy:shadow_steel_nugget>, <liquid:shadow_steel> * 16, <soot:stamp_nugget>);
 
@@ -384,7 +384,7 @@ mods.embers.Stamper.add(<metallurgy:steel_nugget>, <liquid:steel> * 16, <soot:st
 mods.embers.Melter.add(<liquid:tartarite> * 144, <ore:ingotTartarite>);
 mods.embers.Melter.add(<liquid:tartarite> * 144, <ore:dustTartarite>);
 mods.embers.Melter.add(<liquid:tartarite> * 16, <ore:nuggetTartarite>);
-mods.embers.Mixer.add(<liquid:tartarite> * 8, [<liquid:adamantine> * 8, <liquid:atlarus> * 8, <liquid:shadow_steel> * 8]);
+mods.embers.Mixer.add(<liquid:tartarite> * 8, [<liquid:celenegil> * 8, <liquid:atlarus> * 8, <liquid:shadow_steel> * 8]);
 mods.embers.Stamper.add(<metallurgy:tartarite_ingot>, <liquid:tartarite> * 144, <embers:stamp_bar>);
 mods.embers.Stamper.add(<metallurgy:tartarite_nugget>, <liquid:tartarite> * 16, <soot:stamp_nugget>);
 

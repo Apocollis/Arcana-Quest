@@ -197,6 +197,6 @@ treasure.addItemEntry(<msmlegacy:vampiric_blade>, 3, 0);
 treasure.addItemEntry(<msmlegacy:wither_bane>, 3, 0);
 
 // Dynamic Sword Skills Loot
-goodies.addItemEntry(<dynamicswordskills:skillorb_superspinattack>, 2, 0);
-goodies.addItemEntry(<dynamicswordskills:skillorb_swordbeam>, 2, 0);
-goodies.addItemEntry(<dynamicswordskills:skillorb_mortaldraw>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:7>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:13>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:8>, 2, 0);

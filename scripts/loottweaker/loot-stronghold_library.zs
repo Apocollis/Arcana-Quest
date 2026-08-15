@@ -80,7 +80,7 @@ treasure.addItemEntry(<msmlegacy:gladiolus>, 3, 0);
 treasure.addItemEntry(<msmlegacy:crystaline_blade>, 3, 0);
 
 // Dynamic Sword Skills Loot
-goodies.addItemEntry(<dynamicswordskills:skillorb_armorbreak>, 2, 0);
-goodies.addItemEntry(<dynamicswordskills:skillorb_swordbreak>, 2, 0);
-goodies.addItemEntry(<dynamicswordskills:skillorb_mortaldraw>, 2, 0);
-goodies.addItemEntry(<dynamicswordskills:skillorb_endingblow>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:1>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:9>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:8>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:11>, 2, 0);

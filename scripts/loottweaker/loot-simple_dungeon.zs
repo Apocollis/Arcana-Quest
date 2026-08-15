@@ -267,7 +267,7 @@ treasure.addItemEntry(<artifacts:pocket_piston>, 1, 0);
 treasure.addItemEntry(<grimoireofgaia:box_hat>, 5, 0);
 
 // Dynamic Sword Skills Loot
-goodies.addItemEntry(<dynamicswordskills:skillorb_swordbasic>, 3, 0);
-goodies.addItemEntry(<dynamicswordskills:skillorb_dodge>, 3, 0);
-goodies.addItemEntry(<dynamicswordskills:skillorb_dash>, 3, 0);
-goodies.addItemEntry(<dynamicswordskills:skillorb_parry>, 2, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:0>, 3, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:2>, 3, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:5>, 3, 0);
+goodies.addItemEntry(<dynamicswordskills:skillorb:4>, 2, 0);
