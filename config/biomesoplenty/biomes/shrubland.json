@@ -147,11 +147,11 @@
     "berry_bushes": {
       "with": {
         "block": "rustic:wildberry_bush",
-        "meta": 1
+        "properties": {}
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.1,
-      "enable": true
+      "enable": false
     },
     "grass": {
       "amountPerChunk": 1.5,
@@ -180,6 +180,27 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.3,
       "enable": true
+    },
+    "ruby": {
+      "enable": false
+    },
+    "topaz": {
+      "enable": false
+    },
+    "tanzanite": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "sapphire": {
+      "enable": false
+    },
+    "amber": {
+      "enable": false
+    },
+    "amethyst": {
+      "enable": false
     }
   },
   "weights": {

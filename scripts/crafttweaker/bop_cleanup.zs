@@ -21,3 +21,15 @@ for item in disabledBopGems {
 
 // Remove standard craft recipe for Terrestrial Artifact
 recipes.remove(<biomesoplenty:terrestrial_artifact>);
+
+// Remove and hide BOP Berry Bushes and Berries
+val bopBerriesToHide = [
+    <biomesoplenty:plant_0:5>, // Berry Bush
+    <biomesoplenty:berries>     // BOP Berries
+] as IItemStack[];
+
+for item in bopBerriesToHide {
+    recipes.remove(item);
+    JEI.hide(item);
+}
+

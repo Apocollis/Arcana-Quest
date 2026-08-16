@@ -57,3 +57,9 @@ for metal in metalsToDisable {
         Alloyer.removeRecipe(ingot);
     }
 }
+
+// Astral Silver Ore cleanup (Hide ore from JEI, remove furnace smelting to ingot; keep dust & dust smelting intact)
+val astralSilverOre = <metallurgy:astral_silver_ore>;
+furnace.remove(<metallurgy:astral_silver_ingot>, astralSilverOre);
+JEI.hide(astralSilverOre);
+

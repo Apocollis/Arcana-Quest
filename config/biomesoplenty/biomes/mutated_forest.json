@@ -105,11 +105,11 @@
     "berry_bushes": {
       "with": {
         "block": "rustic:wildberry_bush",
-        "meta": 1
+        "properties": {}
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.1,
-      "enable": true
+      "enable": false
     },
     "blue_milk_caps": {
       "with": {
@@ -132,6 +132,27 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.2,
       "enable": true
+    },
+    "ruby": {
+      "enable": false
+    },
+    "peridot": {
+      "enable": false
+    },
+    "topaz": {
+      "enable": false
+    },
+    "tanzanite": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "sapphire": {
+      "enable": false
+    },
+    "amethyst": {
+      "enable": false
     }
   }
 }

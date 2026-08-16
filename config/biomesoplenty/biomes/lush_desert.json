@@ -239,6 +239,27 @@
       "generationAttempts": 8,
       "amountPerChunk": 1.8,
       "enable": true
+    },
+    "peridot": {
+      "enable": false
+    },
+    "topaz": {
+      "enable": false
+    },
+    "tanzanite": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "sapphire": {
+      "enable": false
+    },
+    "amber": {
+      "enable": false
+    },
+    "amethyst": {
+      "enable": false
     }
   },
   "weights": {

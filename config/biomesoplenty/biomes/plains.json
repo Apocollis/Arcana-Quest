@@ -55,6 +55,27 @@
       "generationAttempts": 32,
       "amountPerChunk": 4.0,
       "enable": true
+    },
+    "ruby": {
+      "enable": false
+    },
+    "topaz": {
+      "enable": false
+    },
+    "tanzanite": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "sapphire": {
+      "enable": false
+    },
+    "amber": {
+      "enable": false
+    },
+    "amethyst": {
+      "enable": false
     }
   }
 }

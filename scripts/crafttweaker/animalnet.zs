@@ -3,13 +3,17 @@ import crafttweaker.item.IItemStack;
 import mods.thaumcraft.Infusion;
 import mods.jei.JEI;
 
-// 1. Remove Small Mob Net recipe & hide from JEI
+// 1. Remove Small Mob Net & Mob Core recipes & hide from JEI
 recipes.remove(<animalnet:mob_net_small>);
 JEI.hide(<animalnet:mob_net_small>);
+
+recipes.remove(<animalnet:mob_core>);
+JEI.hide(<animalnet:mob_core>);
 
 // Remove default recipes for Big Mob Net and NPC Net
 recipes.remove(<animalnet:mob_net_big>);
 recipes.remove(<animalnet:npc_net>);
+
 
 // 2. Rename & Single-Use Configuration
 <animalnet:mob_net_big>.displayName = "Mob Net";

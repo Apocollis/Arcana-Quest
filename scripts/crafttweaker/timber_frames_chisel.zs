@@ -58,32 +58,3 @@ for block in plasterBlocks {
     Carving.addVariation("earthworks_lath_plaster", block);
 }
 
-// 3. Structurize Timber Frame Chisel Groups
-val structurizeWoods = ["oak", "spruce", "birch", "jungle", "acacia", "dark_oak"] as string[];
-val structurizeShapes = [
-    "plain",
-    "framed",
-    "sideframed",
-    "doublecrossed",
-    "onecrossedlr",
-    "onecrossedrl",
-    "gateframed",
-    "downgated",
-    "horizontalplain",
-    "horizontalnocap"
-] as string[];
-
-for wood in structurizeWoods {
-    val groupName = "structurize_timber_frame_" + wood;
-    Carving.addGroup(groupName);
-    
-    for shape in structurizeShapes {
-        val itemId = "structurize:blocktimberframe_" + wood + "_" + shape;
-        val block = itemUtils.getItem(itemId);
-        if (!isNull(block)) {
-            Carving.addVariation(groupName, block);
-            val oreKey = "timberFrame" + wood;
-            oreDict[oreKey].add(block);
-        }
-    }
-}

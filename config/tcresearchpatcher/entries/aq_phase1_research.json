@@ -105,6 +105,58 @@
           ]
         }
       ]
+    },
+    {
+      "key": "AQ_LONGFALL_BOOTS",
+      "name": "Long Fall Boots",
+      "category": "ARTIFICE",
+      "icons": [
+        "grapplemod:longfallboots"
+      ],
+      "location": [
+        3,
+        3
+      ],
+      "parents": [
+        "CLOUDRING"
+      ],
+      "stages": [
+        {
+          "text": "By binding the levitation powers of flying ointment and a cloudstepper ring to resilient diamond boots, you have crafted footwear that completely absorbs kinetic impact from falls.",
+          "recipes": [
+            "aq_longfall_boots"
+          ],
+          "required_knowledge": [
+            "OBSERVATION;ARTIFICE;1"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "AQ_MAGNETIC_FORCEFIELD",
+      "name": "Magnetic Forcefield",
+      "category": "ARTIFICE",
+      "icons": [
+        "grapplemod:repeller"
+      ],
+      "location": [
+        -3,
+        2
+      ],
+      "parents": [
+        "PAULDRONREPULSION"
+      ],
+      "stages": [
+        {
+          "text": "Infusing a ring of magnetization with the warding frequencies of interdiction torches and barrier paving stones yields a wearable kinetic repulsive field emitter.",
+          "recipes": [
+            "aq_repeller"
+          ],
+          "required_knowledge": [
+            "THEORY;ARTIFICE;1"
+          ]
+        }
+      ]
     }
   ]
 }

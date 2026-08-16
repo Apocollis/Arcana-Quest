@@ -124,6 +124,27 @@
       "amountPerChunk": 1.0,
       "enable": true,
       "generators": {}
+    },
+    "ruby": {
+      "enable": false
+    },
+    "peridot": {
+      "enable": false
+    },
+    "tanzanite": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "sapphire": {
+      "enable": false
+    },
+    "amber": {
+      "enable": false
+    },
+    "amethyst": {
+      "enable": false
     }
   },
   "weights": {}

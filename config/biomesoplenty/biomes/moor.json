@@ -177,6 +177,27 @@
       "maxRadius": 7,
       "amountPerChunk": 1.0,
       "enable": true
+    },
+    "ruby": {
+      "enable": false
+    },
+    "peridot": {
+      "enable": false
+    },
+    "topaz": {
+      "enable": false
+    },
+    "tanzanite": {
+      "enable": false
+    },
+    "sapphire": {
+      "enable": false
+    },
+    "amber": {
+      "enable": false
+    },
+    "amethyst": {
+      "enable": false
     }
   },
   "weights": {

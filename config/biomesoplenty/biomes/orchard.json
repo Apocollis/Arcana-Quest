@@ -96,11 +96,11 @@
     "berry_bushes": {
       "with": {
         "block": "rustic:wildberry_bush",
-        "meta": 1
+        "properties": {}
       },
       "generationAttempts": 8,
       "amountPerChunk": 0.4,
-      "enable": true
+      "enable": false
     },
     "peridot": {
       "minHeight": 4,
@@ -140,6 +140,27 @@
       "generationAttempts": 32,
       "amountPerChunk": 1.0,
       "enable": true
+    },
+    "ruby": {
+      "enable": false
+    },
+    "topaz": {
+      "enable": false
+    },
+    "tanzanite": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "sapphire": {
+      "enable": false
+    },
+    "amber": {
+      "enable": false
+    },
+    "amethyst": {
+      "enable": false
     }
   },
   "weights": {

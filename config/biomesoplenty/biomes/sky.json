@@ -66,6 +66,27 @@
       "amountPerChunk": 24.0,
       "maxHeight": 32,
       "enable": true
+    },
+    "ruby": {
+      "enable": false
+    },
+    "peridot": {
+      "enable": false
+    },
+    "topaz": {
+      "enable": false
+    },
+    "tanzanite": {
+      "enable": false
+    },
+    "malachite": {
+      "enable": false
+    },
+    "sapphire": {
+      "enable": false
+    },
+    "amber": {
+      "enable": false
     }
   }
 }

@@ -261,7 +261,7 @@
 
   // Lycanits Mobs cleanup
   {
-    "mob": "lycanitesmobs:*",
+    "mod": "lycanitesmobs",
     "remove": [
       "lycanitesmobs:acidglobcharge",
       "lycanitesmobs:acidsplashcharge",
@@ -365,10 +365,116 @@
       "lycanitesmobs:woodenhilt",
       "lycanitesmobs:woodenpaxel",
       "lycanitesmobs:woodenrod",
-      "lycanitesmobs:wraithskull",
-      "lycanitesmobs:xaphanspine",
-      "lycanitesmobs:zephyrcloud",
-	  "lycanitesmobs:frostyfur"
+      "lycanitesmobs:wraithskull"
     ]
+  },
+
+  // Dynamic Sword Skills - 5% Drop Chance from Elite & Deadly Mobs
+  {
+    "mob": [
+      "grimoireofgaia:naga",
+      "grimoireofgaia:nine_tails",
+      "grimoireofgaia:shaman",
+      "grimoireofgaia:sharko",
+      "grimoireofgaia:sphinx",
+      "grimoireofgaia:spriggan",
+      "grimoireofgaia:valkyrie",
+      "grimoireofgaia:vampire",
+      "grimoireofgaia:witch",
+      "grimoireofgaia:yeti",
+      "grimoireofgaia:yuki-onna",
+      "grimoireofgaia:flesh_lich",
+      "grimoireofgaia:bone_knight",
+      "grimoireofgaia:minotaur",
+      "grimoireofgaia:dullahan",
+      "lycanitesmobs:cephignis",
+      "lycanitesmobs:cockatrice",
+      "lycanitesmobs:crusk",
+      "lycanitesmobs:eechetik",
+      "lycanitesmobs:gorger",
+      "lycanitesmobs:grigori",
+      "lycanitesmobs:grue",
+      "lycanitesmobs:lobber",
+      "lycanitesmobs:quetzodracl",
+      "lycanitesmobs:roc",
+      "lycanitesmobs:vespidqueen",
+      "lycanitesmobs:wendigo",
+      "lycanitesmobs:treant",
+      "lycanitesmobs:tremor",
+      "lycanitesmobs:volcan",
+      "lycanitesmobs:xaphan",
+      "lycanitesmobs:beholder",
+      "lycanitesmobs:shade",
+      "thebetweenlands:dark_druid",
+      "thaumcraft:giantbrainyzombie",
+      "thaumcraft:cultistknight",
+      "thaumcraft:cultistcleric",
+      "thaumcraft:eldritchguardian",
+      "thaumcraft:eldritchwarden",
+      "netherex:brute",
+      "netherex:ghastling",
+      "netherex:spinout",
+      "twilightforest:minotaur",
+      "twilightforest:death_tome",
+      "twilightforest:fire_beetle",
+      "twilightforest:slime_beetle",
+      "twilightforest:pinch_beetle",
+      "twilightforest:redcap_sapper",
+      "twilightforest:skeleton_druid",
+      "twilightforest:yeti",
+      "twilightforest:winter_wolf",
+      "twilightforest:tower_golem",
+      "twilightforest:ur_ghast",
+      "twilightforest:snow_queen",
+      "twilightforest:minoshroom",
+      "twilightforest:knight_phantom",
+      "twilightforest:lich",
+      "twilightforest:naga"
+    ],
+    "player": true,
+    "random": "0.05",
+    "item": "dynamicswordskills:skillorb@0",
+    "itemcount": "1"
+  },
+
+  // Dynamic Sword Skills - Boss Drops
+  {
+    "mob": "minecraft:wither",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@7",
+    "itemcount": "1"
+  },
+  {
+    "mob": "minecraft:wither",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@8",
+    "itemcount": "1"
+  },
+  {
+    "mob": "minecraft:ender_dragon",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@11",
+    "itemcount": "1"
+  },
+  {
+    "mob": "minecraft:ender_dragon",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@13",
+    "itemcount": "1"
+  },
+  {
+    "mob": ["netherex:ghast_queen", "botania:doppleganger"],
+    "player": true,
+    "random": "0.5",
+    "item": "dynamicswordskills:skillorb@8",
+    "itemcount": "1"
+  },
+  {
+    "mob": ["netherex:ghast_queen", "botania:doppleganger"],
+    "player": true,
+    "random": "0.5",
+    "item": "dynamicswordskills:skillorb@1",
+    "itemcount": "1"
   }
+
 ]

@@ -23,3 +23,17 @@ oreSeedChili.add(<rustic:chili_pepper_seeds>);
 // 4. Amethyst unification
 val oreAmethyst = <ore:gemAmethyst>;
 oreAmethyst.add(<bewitchment:amethyst>);
+
+// 5. Canonical Salt Unification (<bewitchment:salt>)
+val saltOres = [
+    <ore:dustSalt>,
+    <ore:foodSalt>,
+    <ore:itemSalt>,
+    <ore:salt>,
+    <ore:allSalt>
+] as IOreDictEntry[];
+
+for ore in saltOres {
+    ore.add(<bewitchment:salt>);
+}
+
