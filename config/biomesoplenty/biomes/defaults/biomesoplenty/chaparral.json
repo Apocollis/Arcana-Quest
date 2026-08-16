@@ -86,6 +86,7 @@
       "amountPerChunk": 0.5,
       "enable": true
     },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -97,6 +98,8 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
+    "malachite": {},
     "trees": {
       "amountPerChunk": 7.0,
       "enable": true,
@@ -125,6 +128,8 @@
       "enable": true,
       "splotchSize": 15
     },
+    "ruby": {},
+    "tanzanite": {},
     "sand": {
       "with": {
         "block": "minecraft:sand",
@@ -142,14 +147,6 @@
       "generators": {}
     },
     "berry_bushes": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "berrybush"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
       "enable": true
     },
     "peridot": {
@@ -165,7 +162,9 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.75,
       "enable": true
-    }
+    },
+    "topaz": {},
+    "sapphire": {}
   },
   "weights": {
     "mediteranean": 10

@@ -18,10 +18,10 @@ val teaStoryPrunedItems = [
     <teastory:cold_water_pot_iron>,
     <teastory:cold_water_pot_porcelain>,
     <teastory:cold_water_pot_zisha>,
-    <teastory:hw_pot_stone>,
-    <teastory:hw_pot_iron>,
-    <teastory:hw_pot_porcelain>,
-    <teastory:hw_pot_zisha>,
+    <teastory:boiled_water_pot_stone>,
+    <teastory:boiled_water_pot_iron>,
+    <teastory:boiled_water_pot_porcelain>,
+    <teastory:boiled_water_pot_zisha>,
 
     // Empty cups (0=wood, 2=stone, 3=glass, 4=porcelain, 5=zisha)
     <teastory:cup:0>,
@@ -120,7 +120,7 @@ val teaStoryPrunedItems = [
 
     // Rice items (Unified under Farmer's Delight)
     <teastory:xian_rice_seeds>,
-    <teastory:xian_rice_seedlings>,
+    <teastory:item_xian_rice_seedling>,
     <teastory:xian_rice>,
     <teastory:washed_rice>,
     <teastory:rice_ball>,

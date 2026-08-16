@@ -64,6 +64,8 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
+    "malachite": {},
     "toadstools": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -86,6 +88,8 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
+    "ruby": {},
+    "tanzanite": {},
     "flax": {
       "with": {
         "block": "biomesoplenty:double_plant",
@@ -111,16 +115,10 @@
       "generators": {}
     },
     "berry_bushes": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "berrybush"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
       "enable": true
     },
+    "peridot": {},
+    "topaz": {},
     "blue_milk_caps": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -142,6 +140,7 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.2,
       "enable": true
-    }
+    },
+    "sapphire": {}
   }
 }

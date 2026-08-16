@@ -85,6 +85,7 @@
       "amountPerChunk": 5.0,
       "enable": true
     },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -96,9 +97,12 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
     "malachite": {
       "enable": true
     },
+    "ruby": {},
+    "tanzanite": {},
     "flax": {
       "with": {
         "block": "biomesoplenty:double_plant",
@@ -134,6 +138,8 @@
       "enable": true,
       "generators": {}
     },
+    "peridot": {},
+    "topaz": {},
     "lakes": {
       "liquid": {
         "block": "minecraft:water",
@@ -174,7 +180,8 @@
       "maxRadius": 7,
       "amountPerChunk": 1.0,
       "enable": true
-    }
+    },
+    "sapphire": {}
   },
   "weights": {
     "cold_swamp": 5

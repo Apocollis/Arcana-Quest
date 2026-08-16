@@ -64,6 +64,49 @@
       "enable": true,
       "generators": {}
     },
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "amber": {},
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "amethyst": {},
+    "malachite": {},
+    "trees": {
+      "amountPerChunk": 3.5,
+      "enable": true,
+      "generators": {}
+    },
+    "water_reeds": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "reed"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 1.0,
+      "enable": true
+    },
+    "ruby": {},
+    "tanzanite": {},
     "flax": {
       "with": {
         "block": "biomesoplenty:double_plant",
@@ -83,63 +126,19 @@
         }
       }
     },
-    "miners_delight": {
-      "with": {
-        "block": "biomesoplenty:flower_1",
-        "properties": {
-          "variant": "miners_delight"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 0.25,
-      "enable": true
-    },
     "grass": {
       "amountPerChunk": 1.5,
       "enable": true,
       "generators": {}
     },
     "berry_bushes": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "berrybush"
-        }
-      },
-      "generationAttempts": 8,
-      "amountPerChunk": 0.4,
       "enable": true
     },
     "peridot": {
       "enable": true
     },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "trees": {
-      "amountPerChunk": 3.5,
-      "enable": true,
-      "generators": {}
-    },
-    "water_reeds": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "reed"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 1.0,
-      "enable": true
-    }
+    "topaz": {},
+    "sapphire": {}
   },
   "weights": {
     "warm_temperate": 3

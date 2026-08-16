@@ -34,6 +34,7 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -57,6 +58,12 @@
       "amountPerChunk": 24.0,
       "maxHeight": 32,
       "enable": true
-    }
+    },
+    "malachite": {},
+    "ruby": {},
+    "tanzanite": {},
+    "peridot": {},
+    "topaz": {},
+    "sapphire": {}
   }
 }

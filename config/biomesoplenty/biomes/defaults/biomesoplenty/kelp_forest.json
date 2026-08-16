@@ -71,6 +71,7 @@
       "amountPerChunk": 3.0,
       "enable": true
     },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -82,6 +83,7 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
     "kelp": {
       "minHeight": 2,
       "with": {
@@ -98,6 +100,7 @@
       "enable": true,
       "randomDirection": false
     },
+    "malachite": {},
     "kelp_tall": {
       "minHeight": 6,
       "with": {
@@ -114,6 +117,10 @@
       "enable": true,
       "randomDirection": false
     },
+    "ruby": {},
+    "tanzanite": {},
+    "peridot": {},
+    "topaz": {},
     "sapphire": {
       "enable": true
     }

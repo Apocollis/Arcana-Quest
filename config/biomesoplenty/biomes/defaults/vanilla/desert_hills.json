@@ -34,6 +34,9 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "peridot": {},
+    "topaz": {},
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -45,8 +48,12 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
+    "malachite": {},
     "ruby": {
       "enable": true
-    }
+    },
+    "tanzanite": {},
+    "sapphire": {}
   }
 }

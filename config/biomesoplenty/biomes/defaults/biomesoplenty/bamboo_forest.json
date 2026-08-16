@@ -76,6 +76,39 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "algae": {
+      "with": {
+        "block": "biomesoplenty:coral",
+        "properties": {
+          "level": "15",
+          "variant": "algae"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "amber": {},
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "amethyst": {},
+    "malachite": {},
+    "trees": {
+      "amountPerChunk": 30.0,
+      "enable": true,
+      "generators": {}
+    },
+    "ruby": {},
+    "tanzanite": {},
     "ferns": {
       "with": {
         "block": "minecraft:tallgrass",
@@ -92,6 +125,7 @@
       "enable": true,
       "generators": {}
     },
+    "peridot": {},
     "bushes": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -106,34 +140,6 @@
     "topaz": {
       "enable": true
     },
-    "algae": {
-      "with": {
-        "block": "biomesoplenty:coral",
-        "properties": {
-          "level": "15",
-          "variant": "algae"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "trees": {
-      "amountPerChunk": 30.0,
-      "enable": true,
-      "generators": {}
-    },
     "river_cane": {
       "minHeight": 1,
       "with": {
@@ -147,7 +153,8 @@
       "maxHeight": 3,
       "enable": true,
       "randomDirection": false
-    }
+    },
+    "sapphire": {}
   },
   "weights": {
     "tropical": 3

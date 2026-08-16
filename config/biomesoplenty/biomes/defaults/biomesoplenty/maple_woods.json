@@ -48,26 +48,6 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
-    "gravel": {
-      "with": {
-        "block": "minecraft:gravel",
-        "properties": {}
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 6.0,
-      "enable": true
-    },
-    "sand": {
-      "with": {
-        "block": "minecraft:sand",
-        "properties": {
-          "variant": "sand"
-        }
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 3.0,
-      "enable": true
-    },
     "flowers": {
       "amountPerChunk": 0.1,
       "enable": true,
@@ -95,11 +75,7 @@
       "amountPerChunk": 8.0,
       "enable": true
     },
-    "grass": {
-      "amountPerChunk": 1.2,
-      "enable": true,
-      "generators": {}
-    },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -111,6 +87,8 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
+    "malachite": {},
     "trees": {
       "amountPerChunk": 15.0,
       "enable": true,
@@ -129,7 +107,36 @@
     },
     "tanzanite": {
       "enable": true
-    }
+    },
+    "ruby": {},
+    "gravel": {
+      "with": {
+        "block": "minecraft:gravel",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 6.0,
+      "enable": true
+    },
+    "sand": {
+      "with": {
+        "block": "minecraft:sand",
+        "properties": {
+          "variant": "sand"
+        }
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 3.0,
+      "enable": true
+    },
+    "grass": {
+      "amountPerChunk": 1.2,
+      "enable": true,
+      "generators": {}
+    },
+    "peridot": {},
+    "topaz": {},
+    "sapphire": {}
   },
   "weights": {
     "boreal": 10

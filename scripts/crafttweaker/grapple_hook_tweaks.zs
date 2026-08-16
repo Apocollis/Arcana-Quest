@@ -4,7 +4,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;
 import mods.jei.JEI;
 import mods.thaumcraft.ArcaneWorkbench;
-import mods.thaumcraft.InfusionCrafting;
+import mods.thaumcraft.Infusion;
 
 // 1. Remove Default Recipes & Hide Unwanted Items
 val itemsToHide = [
@@ -19,9 +19,6 @@ val itemsToHide = [
     <grapplemod:limitsupgradeitem>,
     <grapplemod:staffupgradeitem>,
     <grapplemod:magnetupgradeitem>,
-    <grapplemod:smartupgradeitem>,
-    <grapplemod:pitchupgradeitem>,
-    <grapplemod:tapeupgradeitem>,
     <grapplemod:rocketupgradeitem>,
     <grapplemod:smarthook>,
     <grapplemod:magnethook>,
@@ -135,8 +132,13 @@ recipes.addShapeless("aq_upgrade_rope_hook", <grapplemod:grapplinghook>, [
         return null;
     }
     var newTag = tag + {maxlen: 60.0};
-    var baseOutput = ins.hook.definition.makeItemStack(ins.hook.damage);
-    return baseOutput.withTag(newTag);
+    if (ins.hook.definition.id == "grapplemod:motorhook") {
+        return <grapplemod:motorhook>.withTag(newTag).withDamage(ins.hook.damage);
+    } else if (ins.hook.definition.id == "grapplemod:enderhook") {
+        return <grapplemod:enderhook>.withTag(newTag).withDamage(ins.hook.damage);
+    } else {
+        return <grapplemod:grapplinghook>.withTag(newTag).withDamage(ins.hook.damage);
+    }
 }, null);
 
 // Upgrade 3: Motor Upgrade (Hook + Complex Mechanism -> Motor Hook)
@@ -179,7 +181,7 @@ ArcaneWorkbench.registerShapelessRecipe(
 
 // 7. Magnetic Repeller Hook (Infusion)
 // Gated behind "Magnetic Forcefield" research requiring Pauldron of Repulsion
-InfusionCrafting.registerRecipe(
+Infusion.registerRecipe(
     "aq_repeller",
     "AQ_MAGNETIC_FORCEFIELD",
     <grapplemod:repeller>,

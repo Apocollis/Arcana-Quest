@@ -69,6 +69,29 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "amber": {},
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "amethyst": {},
+    "malachite": {},
+    "trees": {
+      "amountPerChunk": 1.0,
+      "enable": true,
+      "generators": {}
+    },
+    "ruby": {
+      "enable": true
+    },
+    "tanzanite": {},
     "dead_bushes": {
       "with": {
         "block": "minecraft:deadbush",
@@ -83,6 +106,7 @@
       "enable": true,
       "generators": {}
     },
+    "peridot": {},
     "desert_sprouts": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -94,6 +118,7 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "topaz": {},
     "bromeliad": {
       "with": {
         "block": "biomesoplenty:flower_0",
@@ -103,17 +128,6 @@
       },
       "generationAttempts": 8,
       "amountPerChunk": 0.2,
-      "enable": true
-    },
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
       "enable": true
     },
     "desertgrass": {
@@ -127,14 +141,7 @@
       "amountPerChunk": 2.0,
       "enable": true
     },
-    "trees": {
-      "amountPerChunk": 1.0,
-      "enable": true,
-      "generators": {}
-    },
-    "ruby": {
-      "enable": true
-    }
+    "sapphire": {}
   },
   "weights": {
     "hot_desert": 3

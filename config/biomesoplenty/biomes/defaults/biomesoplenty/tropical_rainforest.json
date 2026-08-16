@@ -37,6 +37,130 @@
   "canSpawnInBiome": false,
   "enableSnow": false,
   "generators": {
+    "medium_lily": {
+      "with": {
+        "block": "biomesoplenty:waterlily",
+        "properties": {
+          "variant": "medium"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.3,
+      "enable": true
+    },
+    "brown_mushrooms": {
+      "with": {
+        "block": "minecraft:brown_mushroom",
+        "properties": {}
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.2,
+      "enable": true
+    },
+    "algae": {
+      "with": {
+        "block": "biomesoplenty:coral",
+        "properties": {
+          "level": "15",
+          "variant": "algae"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 3.0,
+      "enable": true
+    },
+    "amethyst": {},
+    "trees": {
+      "amountPerChunk": 15.0,
+      "enable": true,
+      "generators": {}
+    },
+    "small_lily": {
+      "with": {
+        "block": "biomesoplenty:waterlily",
+        "properties": {
+          "variant": "small"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.5,
+      "enable": true
+    },
+    "poison_ivy": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "poisonivy"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "tanzanite": {},
+    "flower_lily": {
+      "with": {
+        "block": "biomesoplenty:waterlily",
+        "properties": {
+          "variant": "flower"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "rafflesia": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "rafflesia"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "grass": {
+      "amountPerChunk": 3.5,
+      "enable": true,
+      "generators": {}
+    },
+    "peridot": {},
+    "topaz": {
+      "enable": true
+    },
+    "tiny_lily": {
+      "with": {
+        "block": "biomesoplenty:waterlily",
+        "properties": {
+          "variant": "tiny"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.5,
+      "enable": true
+    },
+    "sprouts": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "sprout"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.5,
+      "enable": true
+    },
+    "red_mushrooms": {
+      "with": {
+        "block": "minecraft:red_mushroom",
+        "properties": {}
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "sapphire": {},
     "glowshrooms": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -84,17 +208,6 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "medium_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "medium"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.3,
-      "enable": true
-    },
     "double_fern": {
       "with": {
         "block": "minecraft:double_plant",
@@ -116,15 +229,6 @@
         }
       }
     },
-    "brown_mushrooms": {
-      "with": {
-        "block": "minecraft:brown_mushroom",
-        "properties": {}
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.2,
-      "enable": true
-    },
     "quicksand": {
       "liquid": {
         "block": "biomesoplenty:sand",
@@ -141,18 +245,7 @@
         }
       }
     },
-    "algae": {
-      "with": {
-        "block": "biomesoplenty:coral",
-        "properties": {
-          "level": "15",
-          "variant": "algae"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 3.0,
-      "enable": true
-    },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -164,44 +257,8 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "trees": {
-      "amountPerChunk": 15.0,
-      "enable": true,
-      "generators": {}
-    },
-    "small_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "small"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "poison_ivy": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "poisonivy"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "flower_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "flower"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.25,
-      "enable": true
-    },
+    "malachite": {},
+    "ruby": {},
     "sand": {
       "with": {
         "block": "minecraft:sand",
@@ -213,22 +270,6 @@
       "amountPerChunk": 3.0,
       "enable": true
     },
-    "rafflesia": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "rafflesia"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "grass": {
-      "amountPerChunk": 3.5,
-      "enable": true,
-      "generators": {}
-    },
     "lily": {
       "with": {
         "block": "minecraft:waterlily",
@@ -236,40 +277,6 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "topaz": {
-      "enable": true
-    },
-    "tiny_lily": {
-      "with": {
-        "block": "biomesoplenty:waterlily",
-        "properties": {
-          "variant": "tiny"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "sprouts": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "sprout"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "red_mushrooms": {
-      "with": {
-        "block": "minecraft:red_mushroom",
-        "properties": {}
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.1,
       "enable": true
     }
   },

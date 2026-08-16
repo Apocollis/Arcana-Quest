@@ -130,6 +130,7 @@
       "minLength": 5,
       "maxLength": 15
     },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -141,6 +142,7 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
     "malachite": {
       "enable": true
     },
@@ -160,11 +162,15 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
+    "ruby": {},
+    "tanzanite": {},
     "grass": {
       "amountPerChunk": 3.0,
       "enable": true,
       "generators": {}
     },
+    "peridot": {},
+    "topaz": {},
     "red_mushrooms": {
       "with": {
         "block": "minecraft:red_mushroom",
@@ -173,7 +179,8 @@
       "generationAttempts": 16,
       "amountPerChunk": 0.3,
       "enable": true
-    }
+    },
+    "sapphire": {}
   },
   "weights": {
     "cold_swamp": 1

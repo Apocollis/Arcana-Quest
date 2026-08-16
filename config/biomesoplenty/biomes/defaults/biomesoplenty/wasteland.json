@@ -55,17 +55,6 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "dead_grass": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "deadgrass"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 1.0,
-      "enable": true
-    },
     "poison_lakes": {
       "liquid": {
         "block": "biomesoplenty:poison",
@@ -82,6 +71,7 @@
         }
       }
     },
+    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -93,6 +83,30 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "amethyst": {},
+    "malachite": {},
+    "trees": {
+      "amountPerChunk": 0.3,
+      "enable": true,
+      "generators": {}
+    },
+    "ruby": {
+      "enable": true
+    },
+    "tanzanite": {},
+    "dead_grass": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "deadgrass"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 1.0,
+      "enable": true
+    },
+    "peridot": {},
+    "topaz": {},
     "lakes": {
       "liquid": {
         "block": "minecraft:water",
@@ -122,14 +136,7 @@
       "amountPerChunk": 0.5,
       "enable": true
     },
-    "trees": {
-      "amountPerChunk": 0.3,
-      "enable": true,
-      "generators": {}
-    },
-    "ruby": {
-      "enable": true
-    }
+    "sapphire": {}
   },
   "weights": {
     "wasteland": 50

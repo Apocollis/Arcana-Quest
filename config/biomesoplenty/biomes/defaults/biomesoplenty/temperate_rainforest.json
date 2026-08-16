@@ -91,6 +91,7 @@
       "amountPerChunk": 3.0,
       "enable": true
     },
+    "amethyst": {},
     "trees": {
       "amountPerChunk": 30.0,
       "enable": true,
@@ -118,6 +119,7 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
+    "tanzanite": {},
     "flax": {
       "with": {
         "block": "biomesoplenty:double_plant",
@@ -142,6 +144,8 @@
       "enable": true,
       "generators": {}
     },
+    "peridot": {},
+    "topaz": {},
     "blue_milk_caps": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -203,6 +207,7 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
+    "sapphire": {},
     "glowshrooms": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -276,6 +281,7 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
+    "malachite": {},
     "water_reeds": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -298,6 +304,7 @@
       "amountPerChunk": 0.4,
       "enable": true
     },
+    "ruby": {},
     "gravel": {
       "with": {
         "block": "minecraft:gravel",

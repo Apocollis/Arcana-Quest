@@ -7,6 +7,9 @@ import mods.farmersdelight.CuttingBoard;
 
 // 1. High-Tier Feasts Gating (Cooking Pot with Raw Animania Prime Meats)
 
+val honeyBottle = <futuremc:honey_bottle> | <animania:honey_bottle>;
+val sweetBerries = <futuremc:sweet_berries>;
+
 // Roast Chicken: Gated behind Raw Prime Chicken
 CookingPot.removeRecipesByOutput(<farmersdelight:roast_chicken>);
 CookingPot.addRecipeWithContainer(
@@ -28,9 +31,9 @@ CookingPot.addRecipeWithContainer(
     "aq_honey_glazed_ham_prime_pork",
     [
         <animania:raw_prime_pork>,
-        <minecraft:honey_bottle>,
-        <minecraft:sweet_berries>,
-        <minecraft:sweet_berries>
+        honeyBottle,
+        sweetBerries,
+        sweetBerries
     ] as IIngredient[],
     <farmersdelight:honey_glazed_ham>,
     <minecraft:bowl>
@@ -39,9 +42,9 @@ CookingPot.addRecipeWithContainer(
     "aq_honey_glazed_ham_prime_bacon",
     [
         <animania:raw_prime_bacon>,
-        <minecraft:honey_bottle>,
-        <minecraft:sweet_berries>,
-        <minecraft:sweet_berries>
+        honeyBottle,
+        sweetBerries,
+        sweetBerries
     ] as IIngredient[],
     <farmersdelight:honey_glazed_ham>,
     <minecraft:bowl>
