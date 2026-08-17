@@ -28,5 +28,6 @@ game.setLocalization("item.botania.pestle_and_mortar","Floral Mortar and Pestle"
 <metallurgy:quicksilver_shovel>.displayName = "Mercurial Shovel";
 <metallurgy:quicksilver_hoe>.displayName = "Mercurial Hoe";
 
-# TARTARITE FLUID BUCKET
-<forge:bucketfilled>.withTag({FluidName: "tartarite"}).displayName = "Adamantine Bucket";
+# TARTARITE FLUID LOCALIZATION
+game.setLocalization("fluid.tartarite", "Molten Adamantine");
+game.setLocalization("tile.metallurgy.molten_tartarite.name", "Molten Adamantine");

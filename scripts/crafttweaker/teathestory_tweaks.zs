@@ -130,13 +130,32 @@ val teaStoryPrunedItems = [
     <teastory:potato_rice>,
     <teastory:rabbit_rice>,
 
-    // Miscellaneous Food, Tools & Materials
+    // Straw Items
+    <teastory:straw_rope>,
+    <teastory:item_straw_blanket>,
+    <teastory:straw_cushion>,
+
+    // Machinery, Stoves & Cooking Tools
+    <teastory:tea_drying_pan>,
+    <teastory:wooden_lid>,
+    <teastory:tea_stove>,
+    <teastory:tea_whisk>,
+    <teastory:wooden_mortar_and_pestle>,
+    <teastory:soil_detection_meter>,
+    <teastory:sickle>,
+
+    // Disabled Leaf Types, Powders & Unused Residues (Residues 0-3 remain enabled in JEI)
+    <teastory:matcha_leaf>,
+    <teastory:matcha_powder>,
+    <teastory:oolong_tea_leaf>,
+    <teastory:puer_tea_leaf>,
+    <teastory:tea_residue:4>,
+    <teastory:tea_residue:5>,
+
+    // Miscellaneous Food & Materials
     <teastory:zisha_clay>,
     <teastory:tea_egg>,
     <teastory:matcha_cookie>,
-    <teastory:tea_residue>,
-    <teastory:soil_detection_meter>,
-    <teastory:sickle>,
     <teastory:half_dried_leaf_block>
 ] as IItemStack[];
 
@@ -144,3 +163,7 @@ for item in teaStoryPrunedItems {
     recipes.remove(item);
     JEI.hide(item);
 }
+
+// Hide Straw & Lemon from JEI (Farmer's Delight Straw & Extra Delight Lemon are canonical)
+JEI.hide(<teastory:straw>);
+JEI.hide(<teastory:lemon>);

@@ -1,7 +1,10 @@
+#priority 80
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 import mods.jei.JEI;
 import mods.metallurgyreforged.Alloyer;
 import mods.metallurgyreforged.Crusher;
+import mods.rustichromia.Quern;
 
 // --- List of Metallurgy metals to disable ---
 val metalsToDisable = [
@@ -20,8 +23,7 @@ val metalsToDisable = [
     "hepatizon",
     "lemurite",
     "electrum",
-    "etherium",
-	"carmot"
+    "etherium"
 ] as string[];
 
 val subItems = [
@@ -56,10 +58,35 @@ for metal in metalsToDisable {
     if (!isNull(ingot)) {
         Alloyer.removeRecipe(ingot);
     }
+
+    // Hide Molten Fluids from JEI
+    val moltenFluid = game.getLiquid("molten_" + metal);
+    if (!isNull(moltenFluid)) {
+        JEI.hide(moltenFluid);
+    }
+    val metalFluid = game.getLiquid(metal);
+    if (!isNull(metalFluid)) {
+        JEI.hide(metalFluid);
+    }
 }
 
-// Astral Silver Ore cleanup (Hide ore from JEI, remove furnace smelting to ingot; keep dust & dust smelting intact)
+// Astral Silver Ore / Raw Astral Silver Cleanup
 val astralSilverOre = <metallurgy:astral_silver_ore>;
-furnace.remove(<metallurgy:astral_silver_ingot>, astralSilverOre);
+val astralSilverDust = <metallurgy:astral_silver_dust>;
+val astralSilverIngot = <metallurgy:astral_silver_ingot>;
+
+// Remove furnace smelting from Raw Astral Silver to Ingot
+furnace.remove(astralSilverIngot, astralSilverOre);
+
+// Hide Raw Astral Silver from JEI
 JEI.hide(astralSilverOre);
 
+// Remove Crusher recipe for Astral Silver Dust
+Crusher.removeRecipe(astralSilverDust);
+
+// Remove Quern milling recipes for Astral Silver Dust
+Quern.remove("rustichromia:auto_astralsilver");
+Quern.remove("rustichromia:auto_astral_silver");
+
+// Remove Astral Silver Ore from ore dictionary to prevent dynamic grinder matching
+<ore:oreAstralSilver>.remove(astralSilverOre);

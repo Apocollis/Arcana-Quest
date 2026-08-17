@@ -477,4 +477,174 @@
     "itemcount": "1"
   }
 
+
+,
+
+  // Livestock Slaughter Drops
+  // Cattle
+  {
+    "mob": ["minecraft:cow", "animania:cow_angus", "animania:cow_friesian", "animania:cow_hereford", "animania:cow_highland", "animania:cow_holstein", "animania:cow_jersey", "animania:cow_longhorn", "animania:cow_mooshroom", "animania:bull_angus", "animania:bull_friesian", "animania:bull_hereford", "animania:bull_highland", "animania:bull_holstein", "animania:bull_jersey", "animania:bull_longhorn", "animania:bull_mooshroom", "animania:calf_angus", "animania:calf_friesian", "animania:calf_hereford", "animania:calf_highland", "animania:calf_holstein", "animania:calf_jersey", "animania:calf_longhorn", "animania:calf_mooshroom"],
+    "removeall": true,
+    "item": "minecraft:beef",
+    "itemcount": "2-4"
+  },
+  {
+    "mob": ["minecraft:cow", "animania:cow_angus", "animania:cow_friesian", "animania:cow_hereford", "animania:cow_highland", "animania:cow_holstein", "animania:cow_jersey", "animania:cow_longhorn", "animania:cow_mooshroom", "animania:bull_angus", "animania:bull_friesian", "animania:bull_hereford", "animania:bull_highland", "animania:bull_holstein", "animania:bull_jersey", "animania:bull_longhorn", "animania:bull_mooshroom", "animania:calf_angus", "animania:calf_friesian", "animania:calf_hereford", "animania:calf_highland", "animania:calf_holstein", "animania:calf_jersey", "animania:calf_longhorn", "animania:calf_mooshroom"],
+    "item": "extradelightlegacy:beef_ribs",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["minecraft:cow", "animania:cow_angus", "animania:cow_friesian", "animania:cow_hereford", "animania:cow_highland", "animania:cow_holstein", "animania:cow_jersey", "animania:cow_longhorn", "animania:cow_mooshroom", "animania:bull_angus", "animania:bull_friesian", "animania:bull_hereford", "animania:bull_highland", "animania:bull_holstein", "animania:bull_jersey", "animania:bull_longhorn", "animania:bull_mooshroom", "animania:calf_angus", "animania:calf_friesian", "animania:calf_hereford", "animania:calf_highland", "animania:calf_holstein", "animania:calf_jersey", "animania:calf_longhorn", "animania:calf_mooshroom"],
+    "item": "extradelightlegacy:beef_roast",
+    "itemcount": "1"
+  },
+  {
+    "mob": ["minecraft:cow", "animania:cow_angus", "animania:cow_friesian", "animania:cow_hereford", "animania:cow_highland", "animania:cow_holstein", "animania:cow_jersey", "animania:cow_longhorn", "animania:cow_mooshroom", "animania:bull_angus", "animania:bull_friesian", "animania:bull_hereford", "animania:bull_highland", "animania:bull_holstein", "animania:bull_jersey", "animania:bull_longhorn", "animania:bull_mooshroom", "animania:calf_angus", "animania:calf_friesian", "animania:calf_hereford", "animania:calf_highland", "animania:calf_holstein", "animania:calf_jersey", "animania:calf_longhorn", "animania:calf_mooshroom"],
+    "item": "minecraft:leather",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["minecraft:cow", "animania:cow_angus", "animania:cow_friesian", "animania:cow_hereford", "animania:cow_highland", "animania:cow_holstein", "animania:cow_jersey", "animania:cow_longhorn", "animania:cow_mooshroom", "animania:bull_angus", "animania:bull_friesian", "animania:bull_hereford", "animania:bull_highland", "animania:bull_holstein", "animania:bull_jersey", "animania:bull_longhorn", "animania:bull_mooshroom", "animania:calf_angus", "animania:calf_friesian", "animania:calf_hereford", "animania:calf_highland", "animania:calf_holstein", "animania:calf_jersey", "animania:calf_longhorn", "animania:calf_mooshroom"],
+    "item": "minecraft:bone",
+    "itemcount": "1-2"
+  },
+  
+  // Sheep
+  {
+    "mob": ["minecraft:sheep", "animania:ram_dorper", "animania:ram_dorset", "animania:ram_friesian", "animania:ram_jacob", "animania:ram_merino", "animania:ram_suffolk", "animania:ewe_dorper", "animania:ewe_dorset", "animania:ewe_friesian", "animania:ewe_jacob", "animania:ewe_merino", "animania:ewe_suffolk", "animania:lamb_dorper", "animania:lamb_dorset", "animania:lamb_friesian", "animania:lamb_jacob", "animania:lamb_merino", "animania:lamb_suffolk"],
+    "removeall": true,
+    "item": "minecraft:mutton",
+    "itemcount": "2-4"
+  },
+  {
+    "mob": ["minecraft:sheep", "animania:ram_dorper", "animania:ram_dorset", "animania:ram_friesian", "animania:ram_jacob", "animania:ram_merino", "animania:ram_suffolk", "animania:ewe_dorper", "animania:ewe_dorset", "animania:ewe_friesian", "animania:ewe_jacob", "animania:ewe_merino", "animania:ewe_suffolk", "animania:lamb_dorper", "animania:lamb_dorset", "animania:lamb_friesian", "animania:lamb_jacob", "animania:lamb_merino", "animania:lamb_suffolk"],
+    "item": "extradelightlegacy:lamb_ribs",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["minecraft:sheep", "animania:ram_dorper", "animania:ram_dorset", "animania:ram_friesian", "animania:ram_jacob", "animania:ram_merino", "animania:ram_suffolk", "animania:ewe_dorper", "animania:ewe_dorset", "animania:ewe_friesian", "animania:ewe_jacob", "animania:ewe_merino", "animania:ewe_suffolk", "animania:lamb_dorper", "animania:lamb_dorset", "animania:lamb_friesian", "animania:lamb_jacob", "animania:lamb_merino", "animania:lamb_suffolk"],
+    "item": "extradelightlegacy:lamb_roast",
+    "itemcount": "1"
+  },
+  {
+    "mob": ["minecraft:sheep", "animania:ram_dorper", "animania:ram_dorset", "animania:ram_friesian", "animania:ram_jacob", "animania:ram_merino", "animania:ram_suffolk", "animania:ewe_dorper", "animania:ewe_dorset", "animania:ewe_friesian", "animania:ewe_jacob", "animania:ewe_merino", "animania:ewe_suffolk", "animania:lamb_dorper", "animania:lamb_dorset", "animania:lamb_friesian", "animania:lamb_jacob", "animania:lamb_merino", "animania:lamb_suffolk"],
+    "item": "minecraft:wool",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["minecraft:sheep", "animania:ram_dorper", "animania:ram_dorset", "animania:ram_friesian", "animania:ram_jacob", "animania:ram_merino", "animania:ram_suffolk", "animania:ewe_dorper", "animania:ewe_dorset", "animania:ewe_friesian", "animania:ewe_jacob", "animania:ewe_merino", "animania:ewe_suffolk", "animania:lamb_dorper", "animania:lamb_dorset", "animania:lamb_friesian", "animania:lamb_jacob", "animania:lamb_merino", "animania:lamb_suffolk"],
+    "item": "minecraft:bone",
+    "itemcount": "1-2"
+  },
+
+  // Goats
+  {
+    "mob": ["animania:buck_alpine", "animania:buck_angora", "animania:buck_fainting", "animania:buck_kiko", "animania:buck_kinder", "animania:buck_nigerian_dwarf", "animania:buck_pygmy", "animania:doe_alpine", "animania:doe_angora", "animania:doe_fainting", "animania:doe_kiko", "animania:doe_kinder", "animania:doe_nigerian_dwarf", "animania:doe_pygmy", "animania:kid_alpine", "animania:kid_angora", "animania:kid_fainting", "animania:kid_kiko", "animania:kid_kinder", "animania:kid_nigerian_dwarf", "animania:kid_pygmy"],
+    "removeall": true,
+    "item": "animania:raw_chevon",
+    "itemcount": "2-4"
+  },
+  {
+    "mob": ["animania:buck_alpine", "animania:buck_angora", "animania:buck_fainting", "animania:buck_kiko", "animania:buck_kinder", "animania:buck_nigerian_dwarf", "animania:buck_pygmy", "animania:doe_alpine", "animania:doe_angora", "animania:doe_fainting", "animania:doe_kiko", "animania:doe_kinder", "animania:doe_nigerian_dwarf", "animania:doe_pygmy", "animania:kid_alpine", "animania:kid_angora", "animania:kid_fainting", "animania:kid_kiko", "animania:kid_kinder", "animania:kid_nigerian_dwarf", "animania:kid_pygmy"],
+    "item": "extradelightlegacy:goat_ribs",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["animania:buck_alpine", "animania:buck_angora", "animania:buck_fainting", "animania:buck_kiko", "animania:buck_kinder", "animania:buck_nigerian_dwarf", "animania:buck_pygmy", "animania:doe_alpine", "animania:doe_angora", "animania:doe_fainting", "animania:doe_kiko", "animania:doe_kinder", "animania:doe_nigerian_dwarf", "animania:doe_pygmy", "animania:kid_alpine", "animania:kid_angora", "animania:kid_fainting", "animania:kid_kiko", "animania:kid_kinder", "animania:kid_nigerian_dwarf", "animania:kid_pygmy"],
+    "item": "extradelightlegacy:goat_roast",
+    "itemcount": "1"
+  },
+  {
+    "mob": ["animania:buck_alpine", "animania:buck_angora", "animania:buck_fainting", "animania:buck_kiko", "animania:buck_kinder", "animania:buck_nigerian_dwarf", "animania:buck_pygmy", "animania:doe_alpine", "animania:doe_angora", "animania:doe_fainting", "animania:doe_kiko", "animania:doe_kinder", "animania:doe_nigerian_dwarf", "animania:doe_pygmy", "animania:kid_alpine", "animania:kid_angora", "animania:kid_fainting", "animania:kid_kiko", "animania:kid_kinder", "animania:kid_nigerian_dwarf", "animania:kid_pygmy"],
+    "item": "minecraft:leather",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["animania:buck_alpine", "animania:buck_angora", "animania:buck_fainting", "animania:buck_kiko", "animania:buck_kinder", "animania:buck_nigerian_dwarf", "animania:buck_pygmy", "animania:doe_alpine", "animania:doe_angora", "animania:doe_fainting", "animania:doe_kiko", "animania:doe_kinder", "animania:doe_nigerian_dwarf", "animania:doe_pygmy", "animania:kid_alpine", "animania:kid_angora", "animania:kid_fainting", "animania:kid_kiko", "animania:kid_kinder", "animania:kid_nigerian_dwarf", "animania:kid_pygmy"],
+    "item": "minecraft:bone",
+    "itemcount": "1-2"
+  },
+
+  // Swine
+  {
+    "mob": ["minecraft:pig", "animania:hog_duroc", "animania:hog_hampshire", "animania:hog_large_black", "animania:hog_large_white", "animania:hog_old_spot", "animania:hog_yorkshire", "animania:sow_duroc", "animania:sow_hampshire", "animania:sow_large_black", "animania:sow_large_white", "animania:sow_old_spot", "animania:sow_yorkshire", "animania:piglet_duroc", "animania:piglet_hampshire", "animania:piglet_large_black", "animania:piglet_large_white", "animania:piglet_old_spot", "animania:piglet_yorkshire"],
+    "removeall": true,
+    "item": "minecraft:porkchop",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["minecraft:pig", "animania:hog_duroc", "animania:hog_hampshire", "animania:hog_large_black", "animania:hog_large_white", "animania:hog_old_spot", "animania:hog_yorkshire", "animania:sow_duroc", "animania:sow_hampshire", "animania:sow_large_black", "animania:sow_large_white", "animania:sow_old_spot", "animania:sow_yorkshire", "animania:piglet_duroc", "animania:piglet_hampshire", "animania:piglet_large_black", "animania:piglet_large_white", "animania:piglet_old_spot", "animania:piglet_yorkshire"],
+    "item": "extradelightlegacy:pork_ribs",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["minecraft:pig", "animania:hog_duroc", "animania:hog_hampshire", "animania:hog_large_black", "animania:hog_large_white", "animania:hog_old_spot", "animania:hog_yorkshire", "animania:sow_duroc", "animania:sow_hampshire", "animania:sow_large_black", "animania:sow_large_white", "animania:sow_old_spot", "animania:sow_yorkshire", "animania:piglet_duroc", "animania:piglet_hampshire", "animania:piglet_large_black", "animania:piglet_large_white", "animania:piglet_old_spot", "animania:piglet_yorkshire"],
+    "item": "extradelightlegacy:pork_roast",
+    "itemcount": "1"
+  },
+  {
+    "mob": ["minecraft:pig", "animania:hog_duroc", "animania:hog_hampshire", "animania:hog_large_black", "animania:hog_large_white", "animania:hog_old_spot", "animania:hog_yorkshire", "animania:sow_duroc", "animania:sow_hampshire", "animania:sow_large_black", "animania:sow_large_white", "animania:sow_old_spot", "animania:sow_yorkshire", "animania:piglet_duroc", "animania:piglet_hampshire", "animania:piglet_large_black", "animania:piglet_large_white", "animania:piglet_old_spot", "animania:piglet_yorkshire"],
+    "item": "farmersdelight:ham",
+    "itemcount": "1-2"
+  },
+
+  // Deer, Elk, Reindeer
+  {
+    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:wild_deer"],
+    "removeall": true,
+    "item": "twilightforest:raw_venison",
+    "itemcount": "2-4"
+  },
+  {
+    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:wild_deer"],
+    "item": "twilightdelight:raw_venison_rib",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:wild_deer"],
+    "item": "minecraft:leather",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:wild_deer"],
+    "item": "minecraft:bone",
+    "itemcount": "1-2"
+  },
+
+  // Rabbits
+  {
+    "mob": ["minecraft:rabbit", "animania:buck_cottontail", "animania:doe_cottontail", "animania:kit_cottontail", "animania:buck_chinchilla", "animania:doe_chinchilla", "animania:kit_chinchilla", "animania:buck_dutch", "animania:doe_dutch", "animania:kit_dutch", "animania:buck_havana", "animania:doe_havana", "animania:kit_havana", "animania:buck_jack", "animania:doe_jack", "animania:kit_jack", "animania:buck_new_zealand", "animania:doe_new_zealand", "animania:kit_new_zealand", "animania:buck_rex", "animania:doe_rex", "animania:kit_rex", "animania:buck_lop", "animania:doe_lop", "animania:kit_lop"],
+    "removeall": true,
+    "item": "minecraft:rabbit",
+    "itemcount": "1"
+  },
+  {
+    "mob": ["minecraft:rabbit", "animania:buck_cottontail", "animania:doe_cottontail", "animania:kit_cottontail", "animania:buck_chinchilla", "animania:doe_chinchilla", "animania:kit_chinchilla", "animania:buck_dutch", "animania:doe_dutch", "animania:kit_dutch", "animania:buck_havana", "animania:doe_havana", "animania:kit_havana", "animania:buck_jack", "animania:doe_jack", "animania:kit_jack", "animania:buck_new_zealand", "animania:doe_new_zealand", "animania:kit_new_zealand", "animania:buck_rex", "animania:doe_rex", "animania:kit_rex", "animania:buck_lop", "animania:doe_lop", "animania:kit_lop"],
+    "item": "minecraft:rabbit_hide",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["minecraft:rabbit", "animania:buck_cottontail", "animania:doe_cottontail", "animania:kit_cottontail", "animania:buck_chinchilla", "animania:doe_chinchilla", "animania:kit_chinchilla", "animania:buck_dutch", "animania:doe_dutch", "animania:kit_dutch", "animania:buck_havana", "animania:doe_havana", "animania:kit_havana", "animania:buck_jack", "animania:doe_jack", "animania:kit_jack", "animania:buck_new_zealand", "animania:doe_new_zealand", "animania:kit_new_zealand", "animania:buck_rex", "animania:doe_rex", "animania:kit_rex", "animania:buck_lop", "animania:doe_lop", "animania:kit_lop"],
+    "item": "minecraft:rabbit_foot",
+    "itemcount": "1-2"
+  },
+
+  // Poultry & Peafowl
+  {
+    "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte", "animania:peafowl_blue", "animania:peafowl_white", "animania:peafowl_charcoal", "animania:peafowl_opal", "animania:peafowl_peach", "animania:peafowl_purple", "animania:peafowl_silver_pied", "animania:peafowl_taupe"],
+    "removeall": true,
+    "item": "minecraft:chicken",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte", "animania:peafowl_blue", "animania:peafowl_white", "animania:peafowl_charcoal", "animania:peafowl_opal", "animania:peafowl_peach", "animania:peafowl_purple", "animania:peafowl_silver_pied", "animania:peafowl_taupe"],
+    "item": "minecraft:feather",
+    "itemcount": "1-2"
+  },
+  {
+    "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte", "animania:peafowl_blue", "animania:peafowl_white", "animania:peafowl_charcoal", "animania:peafowl_opal", "animania:peafowl_peach", "animania:peafowl_purple", "animania:peafowl_silver_pied", "animania:peafowl_taupe"],
+    "item": "minecraft:bone",
+    "itemcount": "1-2"
+  }
+
 ]

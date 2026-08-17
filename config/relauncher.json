@@ -1,6 +1,6 @@
 {
   "selectedVersion": "0.5.14-alpha",
-  "latestVersion": "0.6.10-alpha",
+  "latestVersion": "0.6.11-alpha",
   "targetJavaVersion": 0,
   "javaPath": "C:\\Program Files\\Zulu\\zulu-25\\bin\\javaw.exe",
   "args": "-XX:+UseCompactObjectHeaders ",

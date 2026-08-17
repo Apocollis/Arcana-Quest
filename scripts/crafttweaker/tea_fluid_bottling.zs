@@ -88,12 +88,9 @@ Cauldron.addFluidTransform(<liquid:green_tea>, <teastory:dried_tea>, <liquid:wat
 Cauldron.addFluidTransform(<liquid:black_tea>, <teastory:black_tea_leaf>, <liquid:water>, 3, true);
 Cauldron.addFluidTransform(<liquid:white_tea>, <teastory:white_tea_leaf>, <liquid:water>, 3, true);
 Cauldron.addFluidTransform(<liquid:yellow_tea>, <teastory:yellow_tea_leaf>, <liquid:water>, 3, true);
-Cauldron.addFluidTransform(<liquid:oolong_tea>, <teastory:oolong_tea_leaf>, <liquid:water>, 3, true);
-Cauldron.addFluidTransform(<liquid:puerh_tea>, <teastory:puer_tea_leaf>, <liquid:water>, 3, true);
-Cauldron.addFluidTransform(<liquid:matcha_tea>, <teastory:matcha_leaf>, <liquid:water>, 3, true);
-
 // Black Tea + Lemon (boiling cauldron) -> Lemon Tea
-Cauldron.addFluidTransform(<liquid:lemon_tea>, <teastory:lemon>, <liquid:black_tea>, 3, true);
+Cauldron.addFluidTransform(<liquid:lemon_tea>, <extradelightlegacy:lemon>, <liquid:black_tea>, 3, true);
+Cauldron.addFluidTransform(<liquid:lemon_tea>, <ore:cropLemon>, <liquid:black_tea>, 3, true);
 
 // Black Tea + Milk (boiling cauldron) -> Milk Tea
 Cauldron.addFluidTransform(<liquid:milk_tea>, <minecraft:milk_bucket>, <liquid:black_tea>, 3, true);
