@@ -95,21 +95,25 @@
 				"walls" : {
 					"type" : "WEIGHTED",
 					"data" : [
-						{"type" : "METABLOCK", "data" : {"name" : "embers:caminite_brick", "meta" : 0}, "weight" : 20},
-						{"type" : "METABLOCK", "data" : {"name" : "embers:caminite_brick", "meta" : 0}, "weight" : 5},
-						{"type" : "METABLOCK", "data" : {"name" : "embers:block_copper", "meta" : 0}, "weight" : 3}
+						{"type" : "METABLOCK", "data" : {"name" : "soot:archaic_big_bricks", "meta" : 0}, "weight" : 40},
+						{"type" : "METABLOCK", "data" : {"name" : "embers:archaic_tile", "meta" : 0}, "weight" : 10},
+						{"type" : "METABLOCK", "data" : {"name" : "quark:iron_plate", "meta" : 1}, "weight" : 10}
 					]
 				},
-				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "embers:caminite_brick", "meta" : 0}},
-				"floor" : {"type" : "METABLOCK", "data" : {"name" : "embers:caminite_tile", "meta" : 0}},
-				"stair" : {"type" : "METABLOCK", "data" : {"name" : "nether_brick_stairs"}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "embers:wall_ashen_stone", "meta" : 0}},
+				"floor" : {"type" : "METABLOCK", "data" : {"name" : "embers:ashen_tile", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "embers:stairs_ashen_tile"}},
+				"bars" : {"name" : "chisel:ironpane", "meta" : 4},
 				"liquid" : {"name" : "minecraft:lava"},
-				"lightblock" : {"name" : "minecraft:magma"}
+				"lightblock" : {"name" : "embers:archaic_light"}
 			},
 			"secondary" : {
-				"walls" : {"type" : "METABLOCK", "data" : {"name" : "embers:caminite_brick", "meta" : 0}},
-				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "embers:caminite_brick", "meta" : 0}},
-				"stair" : {"type" : "METABLOCK", "data" : {"name" : "nether_brick_stairs"}}
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "soot:archaic_big_bricks", "meta" : 0}},
+				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "embers:wall_ashen_stone", "meta" : 0}},
+				"floor" : {"type" : "METABLOCK", "data" : {"name" : "soot:wrought_platform", "meta" : 0}},
+				"stair" : {"type" : "METABLOCK", "data" : {"name" : "embers:stairs_ashen_tile"}},
+				"liquid" : {"name" : "minecraft:lava"},
+				"lightblock" : {"name" : "embers:archaic_light"}
 			}
 		},
 		{
@@ -128,6 +132,7 @@
 				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:log_greatwood", "meta" : 1}},
 				"floor" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:plank_greatwood", "meta" : 0}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:stairs_greatwood"}},
+				"bars" : {"name" : "thaumicaugmentation:bars", "meta" : 0},
 				"door" : {"name" : "minecraft:iron_door"},
 				"lightblock" : {"name" : "thaumicaugmentation:stone", "meta" : 11}
 			},

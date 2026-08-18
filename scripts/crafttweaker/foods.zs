@@ -1,15 +1,20 @@
 #priority 50
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
 import mods.jei.JEI;
 import mods.farmersdelight.CookingPot;
 import mods.farmersdelight.CuttingBoard;
+import mods.extradelightlegacy.Mortar;
+import mods.extradelightlegacy.MixingBowl;
+import mods.extradelightlegacy.Oven;
+import moretweaker.bewitchment.WitchesOven;
 
 // ==========================================
 // 1. High-Tier Feasts (Primal Cuts Gating)
 // ==========================================
 
-val honeyBottle = <animania:honey_bottle> | <rustic:honey>;
+val honeyBottle = <animania:honey_bottle> | <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}});
 val berries = <rustic:wildberries>;
 
 // Roast Chicken (Produces Placeable Feast Block)
@@ -85,7 +90,7 @@ CookingPot.addRecipeWithContainer(
     "aq_pasta_with_meatballs",
     [
         <extradelightlegacy:ground_beef>,
-        <farmersdelight:raw_pasta> | <extradelightlegacy:pasta>,
+        <farmersdelight:raw_pasta>,
         <farmersdelight:tomato_sauce>
     ] as IIngredient[],
     <farmersdelight:pasta_with_meatballs>,
@@ -142,9 +147,7 @@ val itemsToHide = [
     <animania:raw_prime_mutton>,
     <animania:cooked_prime_mutton>,
     <animania:raw_prime_chevon>,
-    <animania:cooked_prime_chevon>,
-    <animania:raw_prime_peacock>,
-    <animania:raw_prime_rabbit>
+    <animania:cooked_prime_chevon>
 ] as IItemStack[];
 
 for item in itemsToHide {
@@ -159,67 +162,64 @@ for item in itemsToHide {
 val knife = <ore:toolKnife>;
 
 // --- Cattle Butchery ---
-CuttingBoard.removeRecipesByInput(<minecraft:beef>);
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_beef",
-    [<minecraft:beef>],
-    [knife],
+    [<minecraft:beef>] as IIngredient[],
+    [knife] as IIngredient[],
     [
         <extradelightlegacy:ground_beef> * 2,
         <extradelightlegacy:ground_beef>,
         <extradelightlegacy:cubed_beef>,
         <extradelightlegacy:cubed_beef>,
         <extradelightlegacy:beef_scraps>
-    ],
-    [1.0, 0.5, 1.0, 0.5, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 0.5, 0.5] as float[]
 );
-CuttingBoard.removeRecipesByInput(<minecraft:cooked_beef>);
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_beef",
-    [<minecraft:cooked_beef>],
-    [knife],
+    [<minecraft:cooked_beef>] as IIngredient[],
+    [knife] as IIngredient[],
     [
         <extradelightlegacy:cooked_ground_beef> * 2,
         <extradelightlegacy:cooked_ground_beef>,
         <extradelightlegacy:cooked_cubed_beef>,
         <extradelightlegacy:cooked_cubed_beef>,
         <extradelightlegacy:cooked_beef_scraps>
-    ],
-    [1.0, 0.5, 1.0, 0.5, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 0.5, 0.5] as float[]
 );
 
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_beef_roast",
-    [<extradelightlegacy:beef_roast>],
-    [knife],
-    [<extradelightlegacy:beef_stewmeat> * 2, <extradelightlegacy:beef_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:beef_roast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:beef_stewmeat> * 2, <extradelightlegacy:beef_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_beef_roast",
-    [<extradelightlegacy:cooked_beef_roast>],
-    [knife],
-    [<extradelightlegacy:cooked_beef_stewmeat> * 2, <extradelightlegacy:cooked_beef_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:cooked_beef_roast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:cooked_beef_stewmeat> * 2, <extradelightlegacy:cooked_beef_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 
 CuttingBoard.addRecipe(
     "aq_cut_raw_beef_ribs",
-    [<extradelightlegacy:beef_ribs>],
-    [<minecraft:bone> * 2, <extradelightlegacy:beef_stewmeat>]
+    [<extradelightlegacy:beef_ribs>] as IIngredient[],
+    [<minecraft:bone> * 2, <extradelightlegacy:beef_stewmeat>] as IItemStack[]
 );
 CuttingBoard.addRecipe(
     "aq_cut_cooked_beef_ribs",
-    [<extradelightlegacy:cooked_beef_ribs>],
-    [<minecraft:bone> * 2, <extradelightlegacy:cooked_beef_stewmeat>]
+    [<extradelightlegacy:cooked_beef_ribs>] as IIngredient[],
+    [<minecraft:bone> * 2, <extradelightlegacy:cooked_beef_stewmeat>] as IItemStack[]
 );
 
 // --- Sheep & Lamb Butchery ---
-CuttingBoard.removeRecipesByInput(<minecraft:mutton>);
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_mutton",
-    [<minecraft:mutton>],
-    [knife],
+    [<minecraft:mutton>] as IIngredient[],
+    [knife] as IIngredient[],
     [
         <extradelightlegacy:ground_lamb>,
         <extradelightlegacy:ground_lamb>,
@@ -227,14 +227,13 @@ CuttingBoard.addRecipeAdvanced(
         <farmersdelight:mutton_chops>,
         <farmersdelight:mutton_chops>,
         <extradelightlegacy:lamb_scraps>
-    ],
-    [1.0, 0.5, 1.0, 1.0, 0.5, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 1.0, 0.5, 0.5] as float[]
 );
-CuttingBoard.removeRecipesByInput(<minecraft:cooked_mutton>);
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_mutton",
-    [<minecraft:cooked_mutton>],
-    [knife],
+    [<minecraft:cooked_mutton>] as IIngredient[],
+    [knife] as IIngredient[],
     [
         <extradelightlegacy:cooked_ground_lamb>,
         <extradelightlegacy:cooked_ground_lamb>,
@@ -242,298 +241,368 @@ CuttingBoard.addRecipeAdvanced(
         <farmersdelight:cooked_mutton_chops>,
         <farmersdelight:cooked_mutton_chops>,
         <extradelightlegacy:cooked_lamb_scraps>
-    ],
-    [1.0, 0.5, 1.0, 1.0, 0.5, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 1.0, 0.5, 0.5] as float[]
 );
 
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_lamb_roast",
-    [<extradelightlegacy:lamb_roast>],
-    [knife],
-    [<extradelightlegacy:lamb_stewmeat> * 2, <extradelightlegacy:lamb_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:lamb_roast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:lamb_stewmeat> * 2, <extradelightlegacy:lamb_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_lamb_roast",
-    [<extradelightlegacy:cooked_lamb_roast>],
-    [knife],
-    [<extradelightlegacy:cooked_lamb_stewmeat> * 2, <extradelightlegacy:cooked_lamb_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:cooked_lamb_roast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:cooked_lamb_stewmeat> * 2, <extradelightlegacy:cooked_lamb_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 
 CuttingBoard.addRecipe(
     "aq_cut_raw_lamb_ribs",
-    [<extradelightlegacy:lamb_ribs>],
-    [<minecraft:bone> * 2, <extradelightlegacy:lamb_stewmeat>]
+    [<extradelightlegacy:lamb_ribs>] as IIngredient[],
+    [<minecraft:bone> * 2, <extradelightlegacy:lamb_stewmeat>] as IItemStack[]
 );
 CuttingBoard.addRecipe(
     "aq_cut_cooked_lamb_ribs",
-    [<extradelightlegacy:cooked_lamb_ribs>],
-    [<minecraft:bone> * 2, <extradelightlegacy:cooked_lamb_stewmeat>]
+    [<extradelightlegacy:cooked_lamb_ribs>] as IIngredient[],
+    [<minecraft:bone> * 2, <extradelightlegacy:cooked_lamb_stewmeat>] as IItemStack[]
 );
 
 // --- Goat Butchery ---
-CuttingBoard.removeRecipesByInput(<animania:raw_chevon>);
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_chevon",
-    [<animania:raw_chevon>],
-    [knife],
+    [<animania:raw_chevon>] as IIngredient[],
+    [knife] as IIngredient[],
     [
         <extradelightlegacy:ground_goat> * 2,
         <extradelightlegacy:ground_goat>,
         <extradelightlegacy:cubed_goat>,
         <extradelightlegacy:cubed_goat>,
         <extradelightlegacy:goat_scraps>
-    ],
-    [1.0, 0.5, 1.0, 0.5, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 0.5, 0.5] as float[]
 );
-CuttingBoard.removeRecipesByInput(<animania:cooked_chevon>);
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_chevon",
-    [<animania:cooked_chevon>],
-    [knife],
+    [<animania:cooked_chevon>] as IIngredient[],
+    [knife] as IIngredient[],
     [
         <extradelightlegacy:cooked_ground_goat> * 2,
         <extradelightlegacy:cooked_ground_goat>,
         <extradelightlegacy:cooked_cubed_goat>,
         <extradelightlegacy:cooked_cubed_goat>,
         <extradelightlegacy:cooked_goat_scraps>
-    ],
-    [1.0, 0.5, 1.0, 0.5, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 0.5, 0.5] as float[]
 );
 
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_goat_roast",
-    [<extradelightlegacy:goat_roast>],
-    [knife],
-    [<extradelightlegacy:goat_stewmeat> * 2, <extradelightlegacy:goat_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:goat_roast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:goat_stewmeat> * 2, <extradelightlegacy:goat_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_goat_roast",
-    [<extradelightlegacy:cooked_goat_roast>],
-    [knife],
-    [<extradelightlegacy:cooked_goat_stewmeat> * 2, <extradelightlegacy:cooked_goat_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:cooked_goat_roast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:cooked_goat_stewmeat> * 2, <extradelightlegacy:cooked_goat_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 
 CuttingBoard.addRecipe(
     "aq_cut_raw_goat_ribs",
-    [<extradelightlegacy:goat_ribs>],
-    [<minecraft:bone> * 2, <extradelightlegacy:goat_stewmeat>]
+    [<extradelightlegacy:goat_ribs>] as IIngredient[],
+    [<minecraft:bone> * 2, <extradelightlegacy:goat_stewmeat>] as IItemStack[]
 );
 CuttingBoard.addRecipe(
     "aq_cut_cooked_goat_ribs",
-    [<extradelightlegacy:cooked_goat_ribs>],
-    [<minecraft:bone> * 2, <extradelightlegacy:cooked_goat_stewmeat>]
+    [<extradelightlegacy:cooked_goat_ribs>] as IIngredient[],
+    [<minecraft:bone> * 2, <extradelightlegacy:cooked_goat_stewmeat>] as IItemStack[]
 );
 
 // --- Swine Butchery ---
-CuttingBoard.removeRecipesByInput(<minecraft:porkchop>);
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_porkchop",
-    [<minecraft:porkchop>],
-    [knife],
+    [<minecraft:porkchop>] as IIngredient[],
+    [knife] as IIngredient[],
     [
-        <extradelightlegacy:bacon> * 2,
-        <extradelightlegacy:bacon>,
+        <farmersdelight:bacon> * 2,
+        <farmersdelight:bacon>,
         <extradelightlegacy:cubed_pork>,
         <extradelightlegacy:ground_pork>,
         <extradelightlegacy:pork_scraps>
-    ],
-    [1.0, 0.5, 1.0, 1.0, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 1.0, 0.5] as float[]
 );
-CuttingBoard.removeRecipesByInput(<minecraft:cooked_porkchop>);
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_porkchop",
-    [<minecraft:cooked_porkchop>],
-    [knife],
+    [<minecraft:cooked_porkchop>] as IIngredient[],
+    [knife] as IIngredient[],
     [
-        <extradelightlegacy:cooked_bacon> * 2,
-        <extradelightlegacy:cooked_bacon>,
+        <farmersdelight:cooked_bacon> * 2,
+        <farmersdelight:cooked_bacon>,
         <extradelightlegacy:cooked_cubed_pork>,
         <extradelightlegacy:cooked_ground_pork>,
         <extradelightlegacy:cooked_pork_scraps>
-    ],
-    [1.0, 0.5, 1.0, 1.0, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 1.0, 0.5] as float[]
 );
 
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_pork_roast",
-    [<extradelightlegacy:pork_roast>],
-    [knife],
-    [<extradelightlegacy:pork_stewmeat> * 2, <extradelightlegacy:pork_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:pork_roast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:pork_stewmeat> * 2, <extradelightlegacy:pork_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_pork_roast",
-    [<extradelightlegacy:cooked_pork_roast>],
-    [knife],
-    [<extradelightlegacy:cooked_pork_stewmeat> * 2, <extradelightlegacy:cooked_pork_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:cooked_pork_roast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:cooked_pork_stewmeat> * 2, <extradelightlegacy:cooked_pork_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 
 CuttingBoard.addRecipe(
     "aq_cut_raw_pork_ribs",
-    [<extradelightlegacy:pork_ribs>],
-    [<minecraft:bone> * 2, <extradelightlegacy:pork_stewmeat>]
+    [<extradelightlegacy:pork_ribs>] as IIngredient[],
+    [<minecraft:bone> * 2, <extradelightlegacy:pork_stewmeat>] as IItemStack[]
 );
 CuttingBoard.addRecipe(
     "aq_cut_cooked_pork_ribs",
-    [<extradelightlegacy:cooked_pork_ribs>],
-    [<minecraft:bone> * 2, <extradelightlegacy:cooked_pork_stewmeat>]
+    [<extradelightlegacy:cooked_pork_ribs>] as IIngredient[],
+    [<minecraft:bone> * 2, <extradelightlegacy:cooked_pork_stewmeat>] as IItemStack[]
 );
 
 CuttingBoard.addRecipe(
     "aq_cut_ham",
-    [<farmersdelight:ham>],
-    [<minecraft:porkchop> * 2, <minecraft:bone>]
+    [<farmersdelight:ham>] as IIngredient[],
+    [<minecraft:porkchop> * 2, <minecraft:bone>] as IItemStack[]
 );
 CuttingBoard.addRecipe(
     "aq_cut_smoked_ham",
-    [<farmersdelight:smoked_ham>],
-    [<minecraft:cooked_porkchop> * 2, <minecraft:bone>]
+    [<farmersdelight:smoked_ham>] as IIngredient[],
+    [<minecraft:cooked_porkchop> * 2, <minecraft:bone>] as IItemStack[]
 );
 
 // --- Venison Butchery ---
 CuttingBoard.addRecipe(
     "aq_cut_raw_venison_ribs",
-    [<twilightdelight:raw_venison_rib>],
-    [<minecraft:bone> * 2, <twilightforest:raw_venison>]
+    [<twilightdelight:raw_venison_rib>] as IIngredient[],
+    [<minecraft:bone> * 2, <twilightforest:raw_venison>] as IItemStack[]
 );
 CuttingBoard.addRecipe(
     "aq_cut_cooked_venison_ribs",
-    [<twilightdelight:cooked_venison_rib>],
-    [<minecraft:bone> * 2, <twilightforest:cooked_venison>]
+    [<twilightdelight:cooked_venison_rib>] as IIngredient[],
+    [<minecraft:bone> * 2, <twilightforest:cooked_venison>] as IItemStack[]
 );
 
 // --- Poultry Butchery Hierarchy ---
-CuttingBoard.removeRecipesByInput(<minecraft:chicken>);
 CuttingBoard.addRecipe(
     "aq_cut_raw_chicken",
-    [<minecraft:chicken>],
+    [<minecraft:chicken>] as IIngredient[],
     [
         <extradelightlegacy:chicken_breast> * 2,
         <extradelightlegacy:chicken_leg> * 2,
         <extradelightlegacy:chicken_thigh> * 2
-    ]
+    ] as IItemStack[]
 );
-CuttingBoard.removeRecipesByInput(<minecraft:cooked_chicken>);
 CuttingBoard.addRecipe(
     "aq_cut_cooked_chicken",
-    [<minecraft:cooked_chicken>],
+    [<minecraft:cooked_chicken>] as IIngredient[],
     [
         <extradelightlegacy:cooked_chicken_breast> * 2,
         <extradelightlegacy:cooked_chicken_leg> * 2,
         <extradelightlegacy:cooked_chicken_thigh> * 2
-    ]
+    ] as IItemStack[]
 );
 
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_chicken_breast",
-    [<extradelightlegacy:chicken_breast>],
-    [knife],
-    [<farmersdelight:chicken_cuts> * 2, <farmersdelight:chicken_cuts>],
-    [1.0, 0.5]
+    [<extradelightlegacy:chicken_breast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<farmersdelight:chicken_cuts> * 2, <farmersdelight:chicken_cuts>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_chicken_breast",
-    [<extradelightlegacy:cooked_chicken_breast>],
-    [knife],
-    [<farmersdelight:cooked_chicken_cuts> * 2, <farmersdelight:cooked_chicken_cuts>],
-    [1.0, 0.5]
+    [<extradelightlegacy:cooked_chicken_breast>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<farmersdelight:cooked_chicken_cuts> * 2, <farmersdelight:cooked_chicken_cuts>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_chicken_thigh",
-    [<extradelightlegacy:chicken_thigh>],
-    [knife],
-    [<extradelightlegacy:chicken_stewmeat>, <extradelightlegacy:chicken_stewmeat>, <extradelightlegacy:chicken_scraps>],
-    [1.0, 0.5, 0.5]
+    [<extradelightlegacy:chicken_thigh>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:chicken_stewmeat>, <extradelightlegacy:chicken_stewmeat>, <extradelightlegacy:chicken_scraps>] as IItemStack[],
+    [1.0, 0.5, 0.5] as float[]
 );
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_chicken_thigh",
-    [<extradelightlegacy:cooked_chicken_thigh>],
-    [knife],
-    [<extradelightlegacy:cooked_chicken_stewmeat>, <extradelightlegacy:cooked_chicken_stewmeat>, <extradelightlegacy:cooked_chicken_scraps>],
-    [1.0, 0.5, 0.5]
+    [<extradelightlegacy:cooked_chicken_thigh>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:cooked_chicken_stewmeat>, <extradelightlegacy:cooked_chicken_stewmeat>, <extradelightlegacy:cooked_chicken_scraps>] as IItemStack[],
+    [1.0, 0.5, 0.5] as float[]
 );
 
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_chicken_cuts",
-    [<farmersdelight:chicken_cuts>],
-    [knife],
-    [<extradelightlegacy:cubed_chicken>, <extradelightlegacy:cubed_chicken>, <extradelightlegacy:chicken_scraps>],
-    [1.0, 0.5, 0.5]
+    [<farmersdelight:chicken_cuts>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:cubed_chicken>, <extradelightlegacy:cubed_chicken>, <extradelightlegacy:chicken_scraps>] as IItemStack[],
+    [1.0, 0.5, 0.5] as float[]
 );
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_chicken_cuts",
-    [<farmersdelight:cooked_chicken_cuts>],
-    [knife],
-    [<extradelightlegacy:cooked_cubed_chicken>, <extradelightlegacy:cooked_cubed_chicken>, <extradelightlegacy:cooked_chicken_scraps>],
-    [1.0, 0.5, 0.5]
+    [<farmersdelight:cooked_chicken_cuts>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:cooked_cubed_chicken>, <extradelightlegacy:cooked_cubed_chicken>, <extradelightlegacy:cooked_chicken_scraps>] as IItemStack[],
+    [1.0, 0.5, 0.5] as float[]
 );
 
 // --- Rabbit Butchery Hierarchy ---
-CuttingBoard.removeRecipesByInput(<minecraft:rabbit>);
 CuttingBoard.addRecipe(
     "aq_cut_raw_rabbit",
-    [<minecraft:rabbit>],
+    [<minecraft:rabbit>] as IIngredient[],
     [
         <extradelightlegacy:rabbit_leg> * 2,
         <extradelightlegacy:rabbit_thigh> * 2,
         <extradelightlegacy:rabbit_saddle>
-    ]
+    ] as IItemStack[]
 );
-CuttingBoard.removeRecipesByInput(<minecraft:cooked_rabbit>);
 CuttingBoard.addRecipe(
     "aq_cut_cooked_rabbit",
-    [<minecraft:cooked_rabbit>],
+    [<minecraft:cooked_rabbit>] as IIngredient[],
     [
         <extradelightlegacy:cooked_rabbit_leg> * 2,
         <extradelightlegacy:cooked_rabbit_thigh> * 2,
         <extradelightlegacy:cooked_rabbit_saddle>
-    ]
+    ] as IItemStack[]
 );
 
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_rabbit_saddle",
-    [<extradelightlegacy:rabbit_saddle>],
-    [knife],
-    [<extradelightlegacy:rabbit_stewmeat> * 2, <extradelightlegacy:rabbit_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:rabbit_saddle>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:rabbit_stewmeat> * 2, <extradelightlegacy:rabbit_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_rabbit_saddle",
-    [<extradelightlegacy:cooked_rabbit_saddle>],
-    [knife],
-    [<extradelightlegacy:cooked_rabbit_stewmeat> * 2, <extradelightlegacy:cooked_rabbit_stewmeat>],
-    [1.0, 0.5]
+    [<extradelightlegacy:cooked_rabbit_saddle>] as IIngredient[],
+    [knife] as IIngredient[],
+    [<extradelightlegacy:cooked_rabbit_stewmeat> * 2, <extradelightlegacy:cooked_rabbit_stewmeat>] as IItemStack[],
+    [1.0, 0.5] as float[]
 );
 
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_raw_rabbit_thigh",
-    [<extradelightlegacy:rabbit_thigh>],
-    [knife],
+    [<extradelightlegacy:rabbit_thigh>] as IIngredient[],
+    [knife] as IIngredient[],
     [
         <extradelightlegacy:cubed_rabbit>,
         <extradelightlegacy:cubed_rabbit>,
         <extradelightlegacy:ground_rabbit>,
         <extradelightlegacy:ground_rabbit>,
         <extradelightlegacy:rabbit_scraps>
-    ],
-    [1.0, 0.5, 1.0, 0.5, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 0.5, 0.5] as float[]
 );
 CuttingBoard.addRecipeAdvanced(
     "aq_cut_cooked_rabbit_thigh",
-    [<extradelightlegacy:cooked_rabbit_thigh>],
-    [knife],
+    [<extradelightlegacy:cooked_rabbit_thigh>] as IIngredient[],
+    [knife] as IIngredient[],
     [
         <extradelightlegacy:cooked_cubed_rabbit>,
         <extradelightlegacy:cooked_cubed_rabbit>,
         <extradelightlegacy:cooked_ground_rabbit>,
         <extradelightlegacy:cooked_ground_rabbit>,
         <extradelightlegacy:cooked_rabbit_scraps>
-    ],
-    [1.0, 0.5, 1.0, 0.5, 0.5]
+    ] as IItemStack[],
+    [1.0, 0.5, 1.0, 0.5, 0.5] as float[]
 );
+
+// ==========================================
+// 5. Garlic & Garlic Bread Overhaul
+// ==========================================
+
+// Hide Extra Delight Garlic (Bewitchment Garlic is Canonical)
+JEI.hide(<extradelightlegacy:garlic>);
+recipes.remove(<extradelightlegacy:garlic>);
+
+// Bewitchment Garlic Bread (Oven Loaf Pan Baking)
+recipes.remove(<bewitchment:garlic_bread>);
+furnace.remove(<bewitchment:garlic_bread>);
+Oven.add(
+    "aq_bewitchment_garlic_bread",
+    [
+        <farmersdelight:wheat_dough> | <ore:dough>,
+        <bewitchment:garlic>,
+        <bewitchment:garlic>,
+        <ore:foodSalt> | <saltmod:salt_pinch>,
+        <extradelightlegacy:butter> | <ore:foodButter>
+    ] as IIngredient[],
+    <bewitchment:garlic_bread>,
+    <extradelightlegacy:loaf_pan>,
+    200,
+    true
+);
+
+// ==========================================
+// 6. Bread & Bread Roll Progression
+// ==========================================
+
+// Restrict Bread Loaves strictly to Extra Delight Oven Loaf Pan recipe
+recipes.remove(<minecraft:bread>);
+furnace.remove(<minecraft:bread>);
+WitchesOven.removeRecipe(<minecraft:bread>);
+
+// Bread Roll Baking (Furnace & Oven)
+furnace.addRecipe(<extradelightlegacy:roll>, <farmersdelight:wheat_dough>, 0.35);
+Oven.add(
+    "aq_oven_bread_roll",
+    [<farmersdelight:wheat_dough>] as IIngredient[],
+    <extradelightlegacy:roll>,
+    null,
+    200,
+    true
+);
+
+// ==========================================
+// 7. Extra Delight Mortar Seed Grinding
+// ==========================================
+
+// Remove oil fluid output from Mortar seed grinding
+Mortar.removeByFluidOutput(<liquid:oil>);
+Mortar.removeByFluidOutput(<liquid:cooking_oil_fluid>);
+
+// Dry grinding: Seeds to Flour only
+Mortar.add("aq_mortar_wheat_seeds", <minecraft:wheat_seeds>, <extradelightlegacy:flour>, 4);
+Mortar.add("aq_mortar_pumpkin_seeds", <minecraft:pumpkin_seeds>, <extradelightlegacy:flour>, 4);
+Mortar.add("aq_mortar_melon_seeds", <minecraft:melon_seeds>, <extradelightlegacy:flour>, 4);
+Mortar.add("aq_mortar_beetroot_seeds", <minecraft:beetroot_seeds>, <extradelightlegacy:flour>, 4);
+Mortar.add("aq_mortar_corn_seeds", <simplecorn:corncob> | <simplecorn:cornseed> | <ore:seedCorn>, <extradelightlegacy:flour>, 4);
+
+// ==========================================
+// 8. Extra Delight Mixing Bowl Butter Recipe
+// ==========================================
+
+// Whip Milk into Butter using a Spoon (toolSpoon) instead of a Whisk
+MixingBowl.removeByOutput(<extradelightlegacy:butter>);
+MixingBowl.add(
+    "aq_butter_from_milk",
+    [] as IIngredient[],
+    [<liquid:milk> * 250] as ILiquidStack[],
+    <farmersdelight:milk_bottle>,
+    "toolSpoon",
+    <extradelightlegacy:butter>,
+    200
+);
+

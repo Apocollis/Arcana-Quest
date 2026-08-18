@@ -5,7 +5,19 @@
 	
 		// MISC FOODS
 		
+				{
+			"name": "minecraft:bread",
+			"meta": 0,
+			"hunger": 7,
+			"saturationModifier": 0.5714
+		},
 		{
+			"name": "extradelightlegacy:roll",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.6
+		},
+{
 			"name": "minecraft:beetroot_soup",
 			"meta": 0,
 			"hunger": 4,

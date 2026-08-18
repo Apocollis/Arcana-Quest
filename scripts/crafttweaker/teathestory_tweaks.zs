@@ -1,6 +1,7 @@
 #priority 50
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
+import mods.extradelightlegacy.DryingRack;
 
 // Tea the Story: Comprehensive Pruning & JEI Hiding
 
@@ -167,3 +168,13 @@ for item in teaStoryPrunedItems {
 // Hide Straw & Lemon from JEI (Farmer's Delight Straw & Extra Delight Lemon are canonical)
 JEI.hide(<teastory:straw>);
 JEI.hide(<teastory:lemon>);
+
+// ==========================================
+// Extra Delight Drying Rack Tea Leaf Drying
+// ==========================================
+
+// Fresh Tea Leaf -> Half-Dried Tea Leaf (5 minutes = 6,000 ticks)
+DryingRack.add("aq_dry_fresh_tea_leaf", <teastory:tea_leaf>, <teastory:half_dried_tea>, 6000);
+
+// Half-Dried Tea Leaf -> Dried Tea Leaf (5 minutes = 6,000 ticks)
+DryingRack.add("aq_dry_half_dried_tea_leaf", <teastory:half_dried_tea>, <teastory:dried_tea>, 6000);
