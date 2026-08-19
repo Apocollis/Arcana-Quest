@@ -157,7 +157,8 @@ val teaStoryPrunedItems = [
     <teastory:zisha_clay>,
     <teastory:tea_egg>,
     <teastory:matcha_cookie>,
-    <teastory:half_dried_leaf_block>
+    <teastory:half_dried_leaf_block>,
+    <teastory:broken_tea>
 ] as IItemStack[];
 
 for item in teaStoryPrunedItems {
@@ -178,3 +179,10 @@ DryingRack.add("aq_dry_fresh_tea_leaf", <teastory:tea_leaf>, <teastory:half_drie
 
 // Half-Dried Tea Leaf -> Dried Tea Leaf (5 minutes = 6,000 ticks)
 DryingRack.add("aq_dry_half_dried_tea_leaf", <teastory:half_dried_tea>, <teastory:dried_tea>, 6000);
+
+// ==========================================
+// Furnace Smelting: White Tea Leaf
+// ==========================================
+
+// Half-Dried Tea Leaf -> White Tea Leaf
+furnace.addRecipe(<teastory:white_tea_leaf>, <teastory:half_dried_tea>, 0.1);

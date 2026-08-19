@@ -14,5 +14,6 @@ item.metallurgy.tartarite_axe.name=Adamantine Axe
 item.metallurgy.tartarite_shovel.name=Adamantine Shovel
 item.metallurgy.tartarite_hoe.name=Adamantine Hoe
 item.metallurgy.tartarite_nugget.name=Adamantine Nugget
+tile.metallurgy.molten_tartarite.name=Molten Adamantine
 fluid.tartarite=Molten Adamantine
-fluid.tartarite.name=Molten Adamantine
+fluid.tartarite.name=Molten Adamantine

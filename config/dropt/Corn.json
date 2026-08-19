@@ -1,0 +1,71 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "extradelightlegacy:corn_top_crop:3"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "extradelightlegacy:unshucked_corn"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "extradelightlegacy:corn_top_crop:0,1,2"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": []
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "extradelightlegacy:corn_crop:7"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": []
+    },
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "extradelightlegacy:corn_crop:0,1,2,3,4,5,6"
+          ]
+        }
+      },
+      "replaceStrategy": "REPLACE_ALL",
+      "drops": [
+        {
+          "item": {
+            "items": [
+              "extradelightlegacy:corn_seeds"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

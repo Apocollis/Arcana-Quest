@@ -170,8 +170,7 @@ print(<xreliquary:pedestal_passive>.displayName);
 <xreliquary:pedestal_passive>.displayName = "Pedestal";
 
 
-#ANIMALNET
-
+// SPAWNER
 recipes.remove(<minecraft:mob_spawner>);
 
 

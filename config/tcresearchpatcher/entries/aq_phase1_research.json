@@ -1,33 +1,6 @@
 {
   "entries": [
     {
-      "key": "AQ_ANIMAL_NETS",
-      "name": "Containment Nets",
-      "category": "INFUSION",
-      "icons": [
-        "animalnet:mob_net_big"
-      ],
-      "location": [
-        3,
-        -2
-      ],
-      "parents": [
-        "INFUSION"
-      ],
-      "stages": [
-        {
-          "text": "By infusing disjunction cloth and pure filaments with binding, assault, and human essentia, you have devised single-use nets capable of snaring living entities and NPCs.",
-          "recipes": [
-            "aq_mob_net",
-            "aq_npc_net"
-          ],
-          "required_knowledge": [
-            "OBSERVATION;INFUSION;1"
-          ]
-        }
-      ]
-    },
-    {
       "key": "AQ_OZZY_LINERS",
       "name": "Thermal Liners",
       "category": "INFUSION",

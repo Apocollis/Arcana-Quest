@@ -1,129 +1,113 @@
 import mods.inspirations.Cauldron;
 
+// ==========================================
+// --- Shapeless Bucket Bottling (1 Bucket + 4 Bottles -> 4 Bottled Teas) ---
+// ==========================================
+
 // --- Green Tea ---
 recipes.addShapeless("bottle_fluid_green_tea", 
-    <contenttweaker:bottled_green_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "green_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_green_tea> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "green_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // --- Black Tea ---
 recipes.addShapeless("bottle_fluid_black_tea", 
-    <contenttweaker:bottled_black_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "black_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_black_tea> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "black_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // --- White Tea ---
 recipes.addShapeless("bottle_fluid_white_tea", 
-    <contenttweaker:bottled_white_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "white_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_white_tea> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "white_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // --- Yellow Tea ---
 recipes.addShapeless("bottle_fluid_yellow_tea", 
-    <contenttweaker:bottled_yellow_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "yellow_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
-);
-
-// --- Oolong Tea ---
-recipes.addShapeless("bottle_fluid_oolong_tea", 
-    <contenttweaker:bottled_oolong_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "oolong_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
-);
-
-// --- Pu-erh Tea ---
-recipes.addShapeless("bottle_fluid_puerh_tea", 
-    <contenttweaker:bottled_puerh_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "puerh_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_yellow_tea> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "yellow_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // --- Milk Tea ---
 recipes.addShapeless("bottle_fluid_milk_tea", 
-    <contenttweaker:bottled_milk_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "milk_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
-);
-
-// --- Matcha Tea ---
-recipes.addShapeless("bottle_fluid_matcha_tea", 
-    <contenttweaker:bottled_matcha_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "matcha_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_milk_tea> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "milk_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // --- Lemon Tea ---
 recipes.addShapeless("bottle_fluid_lemon_tea", 
-    <contenttweaker:bottled_lemon_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "lemon_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_lemon_tea> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "lemon_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // --- White Infused Tea Base ---
 recipes.addShapeless("bottle_fluid_white_infused_tea_base", 
-    <contenttweaker:bottled_white_infused_tea_base> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "white_infused_tea_base"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_white_infused_tea_base> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "white_infused_tea_base"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // --- Black Infused Tea Base ---
 recipes.addShapeless("bottle_fluid_black_infused_tea_base", 
-    <contenttweaker:bottled_black_infused_tea_base> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "black_infused_tea_base"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_black_infused_tea_base> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "black_infused_tea_base"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // --- Green Infused Tea Base ---
 recipes.addShapeless("bottle_fluid_green_infused_tea_base", 
-    <contenttweaker:bottled_green_infused_tea_base> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "green_infused_tea_base"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_green_infused_tea_base> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "green_infused_tea_base"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // --- Purifying Tea ---
 recipes.addShapeless("bottle_fluid_purifying_tea", 
-    <contenttweaker:bottled_purifying_tea> * 3, 
-    [<forge:bucketfilled>.withTag({FluidName: "purifying_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
+    <contenttweaker:bottled_purifying_tea> * 4, 
+    [<forge:bucketfilled>.withTag({FluidName: "purifying_tea"}).transformReplace(<minecraft:bucket>), <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>]
 );
 
 // ==========================================
 // --- Inspirations Cauldron Recipes ---
 // ==========================================
 
-// --- Cauldron Brewing (Fluid Transform) ---
+// --- Cauldron Brewing (Fluid Transform on 4-Level Boiling Cauldron) ---
 // Water + Tea Leaf (boiling cauldron) -> Tea Fluid
-Cauldron.addFluidTransform(<liquid:green_tea>, <teastory:dried_tea>, <liquid:water>, 3, true);
-Cauldron.addFluidTransform(<liquid:black_tea>, <teastory:black_tea_leaf>, <liquid:water>, 3, true);
-Cauldron.addFluidTransform(<liquid:white_tea>, <teastory:white_tea_leaf>, <liquid:water>, 3, true);
-Cauldron.addFluidTransform(<liquid:yellow_tea>, <teastory:yellow_tea_leaf>, <liquid:water>, 3, true);
+Cauldron.addFluidTransform(<liquid:green_tea>, <teastory:dried_tea>, <liquid:water>, 4, true);
+Cauldron.addFluidTransform(<liquid:black_tea>, <teastory:black_tea_leaf>, <liquid:water>, 4, true);
+Cauldron.addFluidTransform(<liquid:white_tea>, <teastory:white_tea_leaf>, <liquid:water>, 4, true);
+Cauldron.addFluidTransform(<liquid:yellow_tea>, <teastory:yellow_tea_leaf>, <liquid:water>, 4, true);
+
 // Black Tea + Lemon (boiling cauldron) -> Lemon Tea
-Cauldron.addFluidTransform(<liquid:lemon_tea>, <extradelightlegacy:lemon>, <liquid:black_tea>, 3, true);
-Cauldron.addFluidTransform(<liquid:lemon_tea>, <ore:cropLemon>, <liquid:black_tea>, 3, true);
+Cauldron.addFluidTransform(<liquid:lemon_tea>, <extradelightlegacy:lemon>, <liquid:black_tea>, 4, true);
+Cauldron.addFluidTransform(<liquid:lemon_tea>, <ore:cropLemon>, <liquid:black_tea>, 4, true);
 
 // Black Tea + Milk (boiling cauldron) -> Milk Tea
-Cauldron.addFluidTransform(<liquid:milk_tea>, <minecraft:milk_bucket>, <liquid:black_tea>, 3, true);
-Cauldron.addFluidTransform(<liquid:milk_tea>, <animania:milk_bottle>, <liquid:black_tea>, 3, true);
-Cauldron.addFluidTransform(<liquid:milk_tea>, <farmersdelight:milk_bottle>, <liquid:black_tea>, 3, true);
+Cauldron.addFluidTransform(<liquid:milk_tea>, <minecraft:milk_bucket>, <liquid:black_tea>, 4, true);
+Cauldron.addFluidTransform(<liquid:milk_tea>, <animania:milk_bottle>, <liquid:black_tea>, 4, true);
+Cauldron.addFluidTransform(<liquid:milk_tea>, <farmersdelight:milk_bottle>, <liquid:black_tea>, 4, true);
 
 // --- Cauldron Infused & Purifying Tea Brewing ---
 // White Tea + White Sage (boiling cauldron) -> White Infused Tea Base
-Cauldron.addFluidTransform(<liquid:white_infused_tea_base>, <bewitchment:white_sage>, <liquid:white_tea>, 3, true);
+Cauldron.addFluidTransform(<liquid:white_infused_tea_base>, <bewitchment:white_sage>, <liquid:white_tea>, 4, true);
 
 // Black Tea + Charcoal (boiling cauldron) -> Black Infused Tea Base (Charcoal is metadata 1 of coal)
-Cauldron.addFluidTransform(<liquid:black_infused_tea_base>, <minecraft:coal:1>, <liquid:black_tea>, 3, true);
+Cauldron.addFluidTransform(<liquid:black_infused_tea_base>, <minecraft:coal:1>, <liquid:black_tea>, 4, true);
 
 // Green Tea + Wormwood Mixture (boiling cauldron) -> Green Infused Tea Base
-Cauldron.addFluidTransform(<liquid:green_infused_tea_base>, <rusticwitchcraft:wormwood_mixture>, <liquid:green_tea>, 3, true);
-Cauldron.addFluidTransform(<liquid:green_infused_tea_base>, <forge:bucketfilled>.withTag({FluidName: "wormwood_mixture"}), <liquid:green_tea>, 3, true);
+Cauldron.addFluidTransform(<liquid:green_infused_tea_base>, <rusticwitchcraft:wormwood_mixture>, <liquid:green_tea>, 4, true);
+Cauldron.addFluidTransform(<liquid:green_infused_tea_base>, <forge:bucketfilled>.withTag({FluidName: "wormwood_mixture"}), <liquid:green_tea>, 4, true);
 
 // White Infused Tea Base + Bath Salts (boiling cauldron) -> Purifying Tea
-Cauldron.addFluidTransform(<liquid:purifying_tea>, <thaumcraft:bath_salts>, <liquid:white_infused_tea_base>, 3, true);
+Cauldron.addFluidTransform(<liquid:purifying_tea>, <thaumcraft:bath_salts>, <liquid:white_infused_tea_base>, 4, true);
 
 // --- Cauldron Bottling (Fluid Recipe) ---
-// Bottling from Cauldron: Glass Bottle + 1 Level of Tea Fluid -> Bottled Tea Travel Flask
+// Bottling from Cauldron: Glass Bottle + 1 Level (250mB) of Tea Fluid -> Bottled Tea Travel Flask
 Cauldron.addFluidRecipe(<contenttweaker:bottled_green_tea>, <minecraft:glass_bottle>, <liquid:green_tea>, 1);
 Cauldron.addFluidRecipe(<contenttweaker:bottled_black_tea>, <minecraft:glass_bottle>, <liquid:black_tea>, 1);
 Cauldron.addFluidRecipe(<contenttweaker:bottled_white_tea>, <minecraft:glass_bottle>, <liquid:white_tea>, 1);
 Cauldron.addFluidRecipe(<contenttweaker:bottled_yellow_tea>, <minecraft:glass_bottle>, <liquid:yellow_tea>, 1);
-Cauldron.addFluidRecipe(<contenttweaker:bottled_oolong_tea>, <minecraft:glass_bottle>, <liquid:oolong_tea>, 1);
-Cauldron.addFluidRecipe(<contenttweaker:bottled_puerh_tea>, <minecraft:glass_bottle>, <liquid:puerh_tea>, 1);
 Cauldron.addFluidRecipe(<contenttweaker:bottled_milk_tea>, <minecraft:glass_bottle>, <liquid:milk_tea>, 1);
-Cauldron.addFluidRecipe(<contenttweaker:bottled_matcha_tea>, <minecraft:glass_bottle>, <liquid:matcha_tea>, 1);
 Cauldron.addFluidRecipe(<contenttweaker:bottled_lemon_tea>, <minecraft:glass_bottle>, <liquid:lemon_tea>, 1);
 
-// Cauldron Bottling for new infused/purifying teas
+// Cauldron Bottling for infused/purifying teas
 Cauldron.addFluidRecipe(<contenttweaker:bottled_white_infused_tea_base>, <minecraft:glass_bottle>, <liquid:white_infused_tea_base>, 1);
 Cauldron.addFluidRecipe(<contenttweaker:bottled_black_infused_tea_base>, <minecraft:glass_bottle>, <liquid:black_infused_tea_base>, 1);
 Cauldron.addFluidRecipe(<contenttweaker:bottled_green_infused_tea_base>, <minecraft:glass_bottle>, <liquid:green_infused_tea_base>, 1);

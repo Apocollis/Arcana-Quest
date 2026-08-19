@@ -39,23 +39,6 @@ yellow_tea.density = 1000;
 yellow_tea.colorize = true;
 yellow_tea.register();
 
-// --- Oolong Tea ---
-// Warm, amber-orange
-var oolong_tea = VanillaFactory.createFluid("oolong_tea", Color.fromHex("B86D29"));
-oolong_tea.temperature = 360;
-oolong_tea.viscosity = 1000;
-oolong_tea.density = 1000;
-oolong_tea.colorize = true;
-oolong_tea.register();
-
-// --- Pu-erh Tea ---
-// Dark, heavy mahogany/black-red
-var puerh_tea = VanillaFactory.createFluid("puerh_tea", Color.fromHex("3B1504"));
-puerh_tea.temperature = 360;
-puerh_tea.viscosity = 1000;
-puerh_tea.density = 1000;
-puerh_tea.colorize = true;
-puerh_tea.register();
 
 // --- Milk Tea ---
 // A creamy, light brownish-tan
@@ -65,15 +48,6 @@ milk_tea.viscosity = 1000;
 milk_tea.density = 1000;
 milk_tea.colorize = true;
 milk_tea.register();
-
-// --- Matcha Tea ---
-// A vibrant, frothy bright green
-var matcha_tea = VanillaFactory.createFluid("matcha_tea", Color.fromHex("8BBC50"));
-matcha_tea.temperature = 360;
-matcha_tea.viscosity = 1000;
-matcha_tea.density = 1000;
-matcha_tea.colorize = true;
-matcha_tea.register();
 
 // --- Lemon Tea ---
 // A bright, translucent yellow-amber

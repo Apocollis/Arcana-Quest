@@ -590,59 +590,59 @@
 
   // Deer, Elk, Reindeer
   {
-    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:wild_deer"],
+    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:deer"],
     "removeall": true,
     "item": "twilightforest:raw_venison",
     "itemcount": "1-3"
   },
   {
-    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:wild_deer"],
+    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:deer"],
     "item": "twilightdelight:raw_venison_rib",
     "itemcount": "1-2"
   },
   {
-    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:wild_deer"],
+    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:deer"],
     "item": "minecraft:leather",
     "itemcount": "1-2"
   },
   {
-    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:wild_deer"],
+    "mob": ["familiarfauna:familiarfauna.deer", "mysticalworld:entity_deer", "twilightforest:deer"],
     "item": "minecraft:bone",
     "itemcount": "1-2"
   },
 
   // Rabbits
   {
-    "mob": ["minecraft:rabbit", "animania:buck_cottontail", "animania:doe_cottontail", "animania:kit_cottontail", "animania:buck_chinchilla", "animania:doe_chinchilla", "animania:kit_chinchilla", "animania:buck_dutch", "animania:doe_dutch", "animania:kit_dutch", "animania:buck_havana", "animania:doe_havana", "animania:kit_havana", "animania:buck_jack", "animania:doe_jack", "animania:kit_jack", "animania:buck_new_zealand", "animania:doe_new_zealand", "animania:kit_new_zealand", "animania:buck_rex", "animania:doe_rex", "animania:kit_rex", "animania:buck_lop", "animania:doe_lop", "animania:kit_lop"],
+    "mob": ["minecraft:rabbit"],
     "removeall": true,
     "item": "minecraft:rabbit",
     "itemcount": "1"
   },
   {
-    "mob": ["minecraft:rabbit", "animania:buck_cottontail", "animania:doe_cottontail", "animania:kit_cottontail", "animania:buck_chinchilla", "animania:doe_chinchilla", "animania:kit_chinchilla", "animania:buck_dutch", "animania:doe_dutch", "animania:kit_dutch", "animania:buck_havana", "animania:doe_havana", "animania:kit_havana", "animania:buck_jack", "animania:doe_jack", "animania:kit_jack", "animania:buck_new_zealand", "animania:doe_new_zealand", "animania:kit_new_zealand", "animania:buck_rex", "animania:doe_rex", "animania:kit_rex", "animania:buck_lop", "animania:doe_lop", "animania:kit_lop"],
+    "mob": ["minecraft:rabbit"],
     "item": "minecraft:rabbit_hide",
     "itemcount": "1-2"
   },
   {
-    "mob": ["minecraft:rabbit", "animania:buck_cottontail", "animania:doe_cottontail", "animania:kit_cottontail", "animania:buck_chinchilla", "animania:doe_chinchilla", "animania:kit_chinchilla", "animania:buck_dutch", "animania:doe_dutch", "animania:kit_dutch", "animania:buck_havana", "animania:doe_havana", "animania:kit_havana", "animania:buck_jack", "animania:doe_jack", "animania:kit_jack", "animania:buck_new_zealand", "animania:doe_new_zealand", "animania:kit_new_zealand", "animania:buck_rex", "animania:doe_rex", "animania:kit_rex", "animania:buck_lop", "animania:doe_lop", "animania:kit_lop"],
+    "mob": ["minecraft:rabbit"],
     "item": "minecraft:rabbit_foot",
     "itemcount": "1-2"
   },
 
   // Poultry & Peafowl
   {
-    "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte", "animania:peafowl_blue", "animania:peafowl_white", "animania:peafowl_charcoal", "animania:peafowl_opal", "animania:peafowl_peach", "animania:peafowl_purple", "animania:peafowl_silver_pied", "animania:peafowl_taupe"],
+    "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte"],
     "removeall": true,
     "item": "minecraft:chicken",
     "itemcount": "1-2"
   },
   {
-    "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte", "animania:peafowl_blue", "animania:peafowl_white", "animania:peafowl_charcoal", "animania:peafowl_opal", "animania:peafowl_peach", "animania:peafowl_purple", "animania:peafowl_silver_pied", "animania:peafowl_taupe"],
+    "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte"],
     "item": "minecraft:feather",
     "itemcount": "1-2"
   },
   {
-    "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte", "animania:peafowl_blue", "animania:peafowl_white", "animania:peafowl_charcoal", "animania:peafowl_opal", "animania:peafowl_peach", "animania:peafowl_purple", "animania:peafowl_silver_pied", "animania:peafowl_taupe"],
+    "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte"],
     "item": "minecraft:bone",
     "itemcount": "1-2"
   }

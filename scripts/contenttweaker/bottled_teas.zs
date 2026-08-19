@@ -55,31 +55,6 @@ bottled_yellow_tea.onItemFoodEaten = function(stack, world, player) {
 };
 bottled_yellow_tea.register();
 
-// --- Oolong Tea Bottled Tea ---
-var bottled_oolong_tea = VanillaFactory.createItemFood("bottled_oolong_tea", 0);
-bottled_oolong_tea.alwaysEdible = true;
-bottled_oolong_tea.saturation = 0.0;
-bottled_oolong_tea.itemUseAction = "DRINK"; 
-bottled_oolong_tea.onItemFoodEaten = function(stack, world, player) {
-    if (!world.isRemote()) {
-        player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
-		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
-    }
-};
-bottled_oolong_tea.register();
-
-// --- Pu-erh Tea Bottled Tea ---
-var bottled_puerh_tea = VanillaFactory.createItemFood("bottled_puerh_tea", 0);
-bottled_puerh_tea.alwaysEdible = true;
-bottled_puerh_tea.saturation = 0.0;
-bottled_puerh_tea.itemUseAction = "DRINK"; 
-bottled_puerh_tea.onItemFoodEaten = function(stack, world, player) {
-    if (!world.isRemote()) {
-        player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
-		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
-    }
-};
-bottled_puerh_tea.register();
 
 // --- Milk Tea Bottled Tea ---
 var bottled_milk_tea = VanillaFactory.createItemFood("bottled_milk_tea", 0);
@@ -93,19 +68,6 @@ bottled_milk_tea.onItemFoodEaten = function(stack, world, player) {
     }
 };
 bottled_milk_tea.register();
-
-// --- Matcha Tea Bottled Tea ---
-var bottled_matcha_tea = VanillaFactory.createItemFood("bottled_matcha_tea", 0);
-bottled_matcha_tea.alwaysEdible = true;
-bottled_matcha_tea.saturation = 0.0;
-bottled_matcha_tea.itemUseAction = "DRINK"; 
-bottled_matcha_tea.onItemFoodEaten = function(stack, world, player) {
-    if (!world.isRemote()) {
-        player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
-		player.addPotionEffect(<potion:elenaidodge2:replenishment>.makePotionEffect(2400, 0));
-    }
-};
-bottled_matcha_tea.register();
 
 // --- Lemon Tea Bottled Tea ---
 var bottled_lemon_tea = VanillaFactory.createItemFood("bottled_lemon_tea", 0);
@@ -155,23 +117,6 @@ bottled_green_infused_tea_base.onItemFoodEaten = function(stack, world, player) 
     }
 };
 bottled_green_infused_tea_base.register();
-
-// --- Purifying Tea *OLD* ---
-// var bottled_purifying_tea = VanillaFactory.createItemFood("bottled_purifying_tea", 0);
-// bottled_purifying_tea.alwaysEdible = true;
-// bottled_purifying_tea.saturation = 0.0;
-// bottled_purifying_tea.itemUseAction = "DRINK"; 
-// bottled_purifying_tea.onItemFoodEaten = function(stack, world, player) {
-    // if (!world.isRemote()) {
-        // player.addPotionEffect(<potion:teastory:excitement>.makePotionEffect(6000, 0));
-        // player.addPotionEffect(<potion:thaumcraft:warpward>.makePotionEffect(6000, 0));
-    // }
-	// else {
-		// Commands.call("playsound thaumcraft:brain master @s", player, world, false, true);
-		// Commands.call("tc warp @s remove 1 PERM", player, world, false, true);
-	// }
-// };
-// bottled_purifying_tea.register();
 
 // --- Purifying Tea ---
 var bottled_purifying_tea = VanillaFactory.createItemFood("bottled_purifying_tea", 0);
