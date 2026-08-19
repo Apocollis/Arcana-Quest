@@ -1,23 +1,24 @@
 {
   "preRequisites:11": [
-    49
+    108,
+    1425373598
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Unlocks Chapter I.",
-      "frame:8": "NORMAL",
+      "desc:8": "Unlocks Chapter II.",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
           "customnpcs:itemscripteddata:10": {},
           "wizardryutils:summoneditemdata:10": {}
         },
-        "id:8": "minecraft:crafting_table"
+        "id:8": "embers:stamper"
       },
-      "ismain:1": 1,
-      "name:8": "Unlocking Stage I"
+      "name:8": "Unlocking Stage II",
+      "visibility:8": "ALWAYS"
     }
   },
-  "questID:3": 50,
+  "questID:3": 51,
   "tasks:9": {}
 }

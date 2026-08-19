@@ -5,7 +5,6 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Obtain canteen and charcoal filter.",
-      "frame:8": "NORMAL",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -14,7 +13,6 @@
         },
         "id:8": "simpledifficulty:canteen"
       },
-      "ismain:1": 0,
       "name:8": "Water and Heat"
     }
   },
@@ -30,7 +28,10 @@
             "customnpcs:itemscripteddata:10": {},
             "wizardryutils:summoneditemdata:10": {}
           },
-          "id:8": "simpledifficulty:canteen"
+          "id:8": "simpledifficulty:canteen",
+          "tag:10": {
+            "Doses:3": 0
+          }
         }
       },
       "taskID:8": "bq_standard:retrieval"

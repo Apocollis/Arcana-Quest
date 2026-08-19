@@ -1,9 +1,10 @@
 {
-  "preRequisites:11": [],
+  "preRequisites:11": [
+    54
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Begin void research.",
-      "frame:8": "NORMAL",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -12,10 +13,20 @@
         },
         "id:8": "thaumicaugmentation:eldritch_lock_key"
       },
-      "ismain:1": 0,
       "name:8": "Eldritch Revelations"
     }
   },
   "questID:3": 501,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "thaumcraft:void_seed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

@@ -1,9 +1,10 @@
 {
-  "preRequisites:11": [],
+  "preRequisites:11": [
+    52
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Enter other dimensions.",
-      "frame:8": "NORMAL",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -12,10 +13,17 @@
         },
         "id:8": "minecraft:ender_eye"
       },
-      "ismain:1": 0,
       "name:8": "Beyond the Overworld"
     }
   },
   "questID:3": 301,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "invert:1": 1,
+      "name:8": "Leave the Overworld",
+      "taskID:8": "bq_standard:location",
+      "visible:1": 1
+    }
+  }
 }

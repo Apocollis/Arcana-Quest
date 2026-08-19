@@ -6,7 +6,6 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Obtain Salis Mundus.",
-      "frame:8": "NORMAL",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -15,8 +14,7 @@
         },
         "id:8": "thaumcraft:salis_mundus"
       },
-      "ismain:1": 0,
-      "name:8": "Alchemist's Catalyst"
+      "name:8": "Alchemist\u0027s Catalyst"
     }
   },
   "questID:3": 104,

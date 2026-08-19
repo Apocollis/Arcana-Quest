@@ -6,7 +6,6 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Craft Crucible.",
-      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -15,7 +14,6 @@
         },
         "id:8": "thaumcraft:crucible"
       },
-      "ismain:1": 0,
       "name:8": "GATE: Crucible"
     }
   },

@@ -6,7 +6,6 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Craft Nitor or Brass.",
-      "frame:8": "NORMAL",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -15,7 +14,6 @@
         },
         "id:8": "thaumcraft:nitor_yellow"
       },
-      "ismain:1": 0,
       "name:8": "Crucible Essences"
     }
   },

@@ -1,11 +1,11 @@
 {
   "preRequisites:11": [
-    51
+    208
   ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Unlocks Chapter III.",
-      "frame:8": "NORMAL",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -15,7 +15,8 @@
         "id:8": "minecraft:obsidian"
       },
       "ismain:1": 1,
-      "name:8": "Unlocking Stage III"
+      "name:8": "Unlocking Stage III",
+      "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 52,

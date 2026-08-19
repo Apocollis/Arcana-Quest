@@ -5,7 +5,6 @@
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Travel to the Emptiness.",
-      "frame:8": "NORMAL",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -14,7 +13,6 @@
         },
         "id:8": "thaumicaugmentation:impetus_gate"
       },
-      "ismain:1": 0,
       "name:8": "The Emptiness"
     }
   },

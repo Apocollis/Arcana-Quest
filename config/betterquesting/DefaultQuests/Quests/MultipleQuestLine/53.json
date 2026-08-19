@@ -1,11 +1,11 @@
 {
   "preRequisites:11": [
-    52
+    310
   ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "Unlocks Chapter IV.",
-      "frame:8": "NORMAL",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
@@ -14,8 +14,8 @@
         },
         "id:8": "thebetweenlands:swamp_talisman"
       },
-      "ismain:1": 1,
-      "name:8": "Unlocking Stage IV"
+      "name:8": "Unlocking Stage IV",
+      "visibility:8": "ALWAYS"
     }
   },
   "questID:3": 53,
