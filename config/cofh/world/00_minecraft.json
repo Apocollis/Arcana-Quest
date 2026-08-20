@@ -182,7 +182,7 @@
 			"cluster-count": 2,
 			"chunkChance": 5,
 			"min-height": 50,
-			"max-height": 62,
+			"max-height": 60,
 			"retrogen": false,
 			"dimension": {
 				"restriction": "whitelist",
