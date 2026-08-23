@@ -3,7 +3,7 @@
   "latestVersion": "0.6.11-alpha",
   "targetJavaVersion": 0,
   "javaPath": "C:\\Program Files\\Zulu\\zulu-25\\bin\\javaw.exe",
-  "args": "-XX:+UseCompactObjectHeaders ",
+  "args": "-XX:-UseCompactObjectHeaders -XX:CompileCommand=exclude,thaumcraft.common.lib.crafting.ThaumcraftCraftingManager::generateTagsFromCraftingRecipes",
   "autoSetup": false,
   "enableRelauncher": true,
   "fetchUpdates": true,

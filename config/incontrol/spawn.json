@@ -375,6 +375,20 @@
       "result": "deny",
       "onjoin": true
     },
+// Allow Crimsoncult tier mobs inside Roguelike Dungeon structure regardless of stage (Tier 2 multipliers)
+  {
+      "mob": [
+        "crimsonrevelations:cultist_archer",
+        "thaumcraft:cultistcleric",
+        "thaumcraft:cultistknight"
+      ],
+      "structure": "RoguelikeDungeon",
+      "result": "default",
+      "healthmultiply": 2.0,
+      "damagemultiply": 1.75,
+      "potion": "minecraft:night_vision,999999,0",
+      "onjoin": true
+  },
 // Allow Crimsoncult tier mobs underground (Y <= 55) if player has 'crimsoncult' stage and count is under limit (5 per player)
   {
       "mob": [

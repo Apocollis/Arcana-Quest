@@ -105,6 +105,8 @@ key_key.dss.toggleat.desc:80
 key_key.dss.skills_gui.desc:25:ALT
 key_key.dss.togglehud.desc:47
 key_Open Baubles' Sidebar:0
+key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -112,8 +114,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:0
-key_quark.keybind.toggleAutojump:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_arcanearchives.gui.keybinds.socket:0
 key_key.betterquesting.quests:0
@@ -165,6 +165,18 @@ key_key.hei.moveGroupUp:200:SHIFT
 key_key.hei.moveGroupDown:208:SHIFT
 key_nei.options.keys.gui.botania_corporea_request:46:CONTROL
 key_key.elenaidodge2.dodge:56
+key_key.boththrow.desc:-99
+key_key.leftthrow.desc:0
+key_key.rightthrow.desc:0
+key_key.motoronoff.desc:29
+key_key.jumpanddetach.desc:57
+key_key.slow.desc:42
+key_key.climb.desc:42
+key_key.climbup.desc:0
+key_key.climbdown.desc:0
+key_key.enderlaunch.desc:-100
+key_key.rocket.desc:-100
+key_key.slide.desc:42
 key_bqutweaker.key.pageback:14
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
@@ -212,18 +224,6 @@ key_key.effortlessbuilding.altplacement.desc:29
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
 key_gnetum.config.keyMapping:0
-key_key.boththrow.desc:-99
-key_key.leftthrow.desc:0
-key_key.rightthrow.desc:0
-key_key.motoronoff.desc:29
-key_key.jumpanddetach.desc:57
-key_key.slow.desc:42
-key_key.climb.desc:42
-key_key.climbup.desc:0
-key_key.climbdown.desc:0
-key_key.enderlaunch.desc:-100
-key_key.rocket.desc:-100
-key_key.slide.desc:42
 key_waila.keybind.wailaconfig:0
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
