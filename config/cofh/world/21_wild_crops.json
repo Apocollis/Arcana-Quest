@@ -21,7 +21,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 10,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -39,7 +39,7 @@
 			"follow-terrain": false,
 			"generator": {
 				"type": "decoration",
-				"cluster-size": 4,
+				"cluster-size": 3,
 				"see-sky": false,
 				"check-stay": true,
 				"block": [
@@ -54,7 +54,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 10,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -72,7 +72,7 @@
 			"follow-terrain": false,
 			"generator": {
 				"type": "decoration",
-				"cluster-size": 1,
+				"cluster-size": 3,
 				"see-sky": false,
 				"check-stay": true,
 				"block": [
@@ -87,7 +87,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 10,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",

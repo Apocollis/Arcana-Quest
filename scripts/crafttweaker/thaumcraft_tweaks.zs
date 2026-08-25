@@ -58,15 +58,15 @@ ArcaneWorkbench.registerShapedRecipe(
     ]
 );
 
-// Glass Essentia Tube (Requires Vertical Mana Glass)
-// Research: TUBES, 5 Vis, 1 Aer, 1 Aqua
-recipes.remove(<thaumcraft:tube:4>);
+// Glass Essentia Tube (Thaumic Augmentation)
+// Research: GLASS_TUBE, 15 Vis, 1 Aer, 1 Aqua -> 8 Glass Tubes
+recipes.remove(<thaumicaugmentation:glass_tube>);
 ArcaneWorkbench.registerShapedRecipe(
     "aq_glass_essentia_tube",
-    "TUBES",
-    5,
+    "GLASS_TUBE",
+    15,
     [<aspect:aer> * 1, <aspect:aqua> * 1],
-    <thaumcraft:tube:4>,
+    <thaumicaugmentation:glass_tube> * 8,
     [
         [null, <botania:managlass>, null],
         [null, <thaumcraft:tube:0>, null],

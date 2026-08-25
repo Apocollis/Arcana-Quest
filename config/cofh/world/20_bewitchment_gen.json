@@ -21,7 +21,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 10,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -54,7 +54,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 10,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -87,7 +87,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 10,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -120,7 +120,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 5,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -153,7 +153,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 10,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -186,7 +186,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 12,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",
@@ -219,7 +219,7 @@
 				]
 			},
 			"cluster-count": 1,
-			"chunkChance": 35,
+			"chunk-chance": 12,
 			"retrogen": false,
 			"biome": "all",
 			"biomeRestriction": "blacklist",

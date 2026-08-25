@@ -29,13 +29,6 @@ recipes.addShaped("aq_mana_blaster", <botania:managun:0>, [
     [null, null, <ore:livingwood>]
 ]);
 
-// 4. Wand of the Forest (Requires Prometheum Ingot in addition to Petals & Twigs)
-recipes.remove(<botania:twigwand>);
-recipes.addShaped("aq_wand_of_the_forest", <botania:twigwand>, [
-    [null, <ore:petal>, <ore:livingwoodTwig>],
-    [<ore:ingotPrometheum>, <ore:livingwoodTwig>, <ore:petal>],
-    [<ore:livingwoodTwig>, null, null]
-]);
 
 // 5. Petal Apothecary (Requires Prometheum Ingot in Top-Center)
 recipes.remove(<botania:altar:0>);

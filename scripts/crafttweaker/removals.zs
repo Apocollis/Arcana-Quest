@@ -13,4 +13,7 @@ recipes.remove(<dynaores:raw_adamantine_block>);
 mods.jei.JEI.hide(<dynaores:raw_adamantine>);
 mods.jei.JEI.hide(<dynaores:raw_adamantine_block>);
 
+# --- Ceramics Fluid Removals ---
+mods.jei.JEI.hide(<ceramics:clay_bucket>.withTag({fluids: {FluidName: "adamantine", Amount: 1000}}));
+
 
