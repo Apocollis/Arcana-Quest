@@ -101,42 +101,6 @@
 			}
 		},
 		
-		"limestone_cluster": {
-			"distribution": "uniform",
-			"generator": {
-				"type": "plate",
-				"block": {
-					"name": "quark:limestone",
-					"metadata": 0
-				},
-				"material": ["minecraft:stone"],
-				"radius": 12,
-				"height": {"min": 4, "max": 8}
-			},
-			"cluster-count": 1,
-			"chunk-chance": 12,	
-			"min-height": 32,
-			"max-height": 90,
-			"retrogen": "false",
-			"ceiling": true,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{"type": "dictionary", "entry": "SWAMP"},
-					{"type": "dictionary", "entry": "JUNGLE"},
-					{"type": "dictionary", "entry": "OCEAN"},
-					{"type": "dictionary", "entry": "RIVER"},
-					{"type": "dictionary", "entry": "BEACH"}
-					]
-				},
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					0
-				]
-			}
-		},
-		
 		"slate_cluster": {
 			"distribution": "uniform",
 			"generator": {

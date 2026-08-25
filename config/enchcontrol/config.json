@@ -25,7 +25,7 @@
     "show_domain": true
   },
   "mod_support": {
-    "load_enchantment_descriptions_desc": true,
+    "load_enchantment_descriptions_desc": false,
     "upload_desc_to_enchantment_descriptions": false,
     "thermal_expansion": true
   }
