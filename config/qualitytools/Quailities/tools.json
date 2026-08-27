@@ -27,7 +27,7 @@
       {
         "name": "quality.worthless.name",
         "color": "dark_red",
-        "weight": 10,
+        "weight": 5,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -54,7 +54,7 @@
       {
         "name": "quality.broken.name",
         "color": "dark_gray",
-        "weight": 10,
+        "weight": 5,
         "attributes": [
           {
             "name": "generic.attackDamage",
@@ -66,7 +66,7 @@
       {
         "name": "quality.bulky.name",
         "color": "dark_gray",
-        "weight": 10,
+        "weight": 6,
         "attributes": [
           {
             "name": "generic.attackSpeed",
@@ -134,7 +134,7 @@
       {
         "name": "quality.short.name",
         "color": "red",
-        "weight": 10,
+        "weight": 8,
         "attributes": [
           {
             "name": "generic.reachDistance",
@@ -172,7 +172,7 @@
       {
         "name": "quality.thin.name",
         "color": "yellow",
-        "weight": 10,
+        "weight": 8,
         "attributes": [
           {
             "name": "generic.attackDamage",

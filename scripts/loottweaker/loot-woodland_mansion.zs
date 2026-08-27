@@ -233,6 +233,73 @@ treasure.addItemEntry(<grimoireofgaia:doll_nine_tails>, 2, 0);
 treasure.addItemEntry(<grimoireofgaia:doll_dryad>, 2, 0);
 treasure.addItemEntry(<grimoireofgaia:deco_garden_gnome>, 2, 0);
 
+val dormant_wither_bane = <msmlegacy:wither_bane>.withDisplayName("§7Dormant Wither's Bane").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+val dormant_vampiric_blade = <msmlegacy:vampiric_blade>.withDisplayName("§7Dormant Vampiric Blade").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+val dormant_gladiolus = <msmlegacy:gladiolus>.withDisplayName("§7Dormant Gladiolus").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+treasure.addItemEntry(dormant_wither_bane, 2, 0);
+treasure.addItemEntry(dormant_vampiric_blade, 2, 0);
+treasure.addItemEntry(dormant_gladiolus, 2, 0);
+
 // Dynamic Sword Skills Loot
 goodies.addItemEntry(<dynamicswordskills:skillorb:1>, 2, 0);
 goodies.addItemEntry(<dynamicswordskills:skillorb:9>, 2, 0);

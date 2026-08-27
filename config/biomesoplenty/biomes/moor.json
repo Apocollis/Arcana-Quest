@@ -198,6 +198,9 @@
     },
     "amethyst": {
       "enable": false
+    },
+    "berry_bushes": {
+      "enable": false
     }
   },
   "weights": {

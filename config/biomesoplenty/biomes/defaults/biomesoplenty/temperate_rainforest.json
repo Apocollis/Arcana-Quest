@@ -325,6 +325,7 @@
       "amountPerChunk": 3.0,
       "enable": true
     },
+    "berry_bushes": {},
     "lily": {
       "with": {
         "block": "minecraft:waterlily",

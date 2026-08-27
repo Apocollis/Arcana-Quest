@@ -479,10 +479,134 @@
     "random": "0.5",
     "item": "dynamicswordskills:skillorb@1",
     "itemcount": "1"
-  }
+  },
 
+  // Dynamic Sword Skills - Twilight Forest Boss Drops
+  // Naga: Dash & Spin Attack
+  {
+    "mob": "twilightforest:naga",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@5",
+    "itemcount": "1"
+  },
+  {
+    "mob": "twilightforest:naga",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@6",
+    "itemcount": "1"
+  },
 
-,
+  // Twilight Lich: Parry & Sword Beam
+  {
+    "mob": "twilightforest:lich",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@4",
+    "itemcount": "1"
+  },
+  {
+    "mob": "twilightforest:lich",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@13",
+    "itemcount": "1"
+  },
+
+  // Minoshroom: Armor Break & Dash
+  {
+    "mob": "twilightforest:minoshroom",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@1",
+    "itemcount": "1"
+  },
+  {
+    "mob": "twilightforest:minoshroom",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@5",
+    "itemcount": "1"
+  },
+
+  // Hydra: Super Spin Attack & Ending Blow
+  {
+    "mob": "twilightforest:hydra",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@7",
+    "itemcount": "1"
+  },
+  {
+    "mob": "twilightforest:hydra",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@11",
+    "itemcount": "1"
+  },
+
+  // Knight Phantom: Back Slice & Sword Break
+  {
+    "mob": "twilightforest:knight_phantom",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@12",
+    "itemcount": "1"
+  },
+  {
+    "mob": "twilightforest:knight_phantom",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@9",
+    "itemcount": "1"
+  },
+
+  // Ur-Ghast: Rising Cut & Sword Beam
+  {
+    "mob": "twilightforest:ur_ghast",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@10",
+    "itemcount": "1"
+  },
+  {
+    "mob": "twilightforest:ur_ghast",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@13",
+    "itemcount": "1"
+  },
+
+  // Alpha Yeti: Leaping Blow & Armor Break
+  {
+    "mob": "twilightforest:yeti_alpha",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@3",
+    "itemcount": "1"
+  },
+  {
+    "mob": "twilightforest:yeti_alpha",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@1",
+    "itemcount": "1"
+  },
+
+  // Snow Queen: Mortal Draw & Dodge
+  {
+    "mob": "twilightforest:snow_queen",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@8",
+    "itemcount": "1"
+  },
+  {
+    "mob": "twilightforest:snow_queen",
+    "player": true,
+    "item": "dynamicswordskills:skillorb@2",
+    "itemcount": "1"
+  },
+
+  // Cloud Giants: Armor Break & Sword Break
+  {
+    "mob": ["twilightforest:giant_miner", "twilightforest:armored_giant"],
+    "player": true,
+    "item": "dynamicswordskills:skillorb@1",
+    "itemcount": "1"
+  },
+  {
+    "mob": ["twilightforest:giant_miner", "twilightforest:armored_giant"],
+    "player": true,
+    "item": "dynamicswordskills:skillorb@9",
+    "itemcount": "1"
+  },
 
   // Livestock Slaughter Drops
   // Cattle

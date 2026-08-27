@@ -178,6 +178,7 @@
       "enable": true
     },
     "ruby": {},
+    "berry_bushes": {},
     "mud": {
       "with": {
         "block": "biomesoplenty:mud",

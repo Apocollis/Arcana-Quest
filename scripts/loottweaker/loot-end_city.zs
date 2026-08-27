@@ -177,10 +177,94 @@ treasure.addItemEntry(<artifacts:feral_claws>, 1, 0);
 treasure.addItemEntry(<artifacts:power_glove>, 1, 0);
 treasure.addItemEntry(<artifacts:star_cloak>, 3, 0);
 
-treasure.addItemEntry(<msmlegacy:glacial_blade>, 2, 0);
-treasure.addItemEntry(<msmlegacy:eye_end_blade>, 2, 0);
-treasure.addItemEntry(<msmlegacy:aethers_guard>, 2, 0);
-treasure.addItemEntry(<msmlegacy:draconic_blade>, 2, 0);
+val dormant_glacial_blade = <msmlegacy:glacial_blade>.withDisplayName("§7Dormant Glacial Blade").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+val dormant_eye_end_blade = <msmlegacy:eye_end_blade>.withDisplayName("§7Dormant Eye End Blade").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+val dormant_aethers_guard = <msmlegacy:aethers_guard>.withDisplayName("§7Dormant Aether's Guard").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+val dormant_draconic_blade = <msmlegacy:draconic_blade>.withDisplayName("§7Dormant Draconic Blade").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+treasure.addItemEntry(dormant_glacial_blade, 2, 0);
+treasure.addItemEntry(dormant_eye_end_blade, 2, 0);
+treasure.addItemEntry(dormant_aethers_guard, 2, 0);
+treasure.addItemEntry(dormant_draconic_blade, 2, 0);
 
 // Dynamic Sword Skills Loot
 goodies.addItemEntry(<dynamicswordskills:skillorb:7>, 2, 0);

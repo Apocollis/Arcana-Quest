@@ -118,6 +118,7 @@
       "randomDirection": false
     },
     "peridot": {},
+    "berry_bushes": {},
     "desert_sprouts": {
       "with": {
         "block": "biomesoplenty:plant_0",

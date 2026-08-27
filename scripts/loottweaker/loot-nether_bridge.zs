@@ -192,9 +192,72 @@ treasure.addItemEntry(<artifacts:power_glove>, 2, 0);
 treasure.addItemEntry(<artifacts:star_cloak>, 1, 0);
 treasure.addItemEntry(<artifacts:pocket_piston>, 1, 0);
 
-treasure.addItemEntry(<msmlegacy:dawn_star>, 3, 0);
-treasure.addItemEntry(<msmlegacy:vampiric_blade>, 3, 0);
-treasure.addItemEntry(<msmlegacy:wither_bane>, 3, 0);
+val dormant_dawn_star = <msmlegacy:dawn_star>.withDisplayName("§7Dormant Dawn Star").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+val dormant_vampiric_blade = <msmlegacy:vampiric_blade>.withDisplayName("§7Dormant Vampiric Blade").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+val dormant_wither_bane = <msmlegacy:wither_bane>.withDisplayName("§7Dormant Wither's Bane").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+treasure.addItemEntry(dormant_dawn_star, 3, 0);
+treasure.addItemEntry(dormant_vampiric_blade, 3, 0);
+treasure.addItemEntry(dormant_wither_bane, 3, 0);
 
 // Dynamic Sword Skills Loot
 goodies.addItemEntry(<dynamicswordskills:skillorb:7>, 2, 0);

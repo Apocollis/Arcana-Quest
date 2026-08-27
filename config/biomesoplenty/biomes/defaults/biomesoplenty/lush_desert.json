@@ -222,6 +222,7 @@
       "amountPerChunk": 5.0,
       "enable": true
     },
+    "berry_bushes": {},
     "bushes": {
       "with": {
         "block": "biomesoplenty:plant_0",

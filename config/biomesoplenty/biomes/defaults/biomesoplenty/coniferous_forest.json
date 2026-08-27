@@ -218,7 +218,8 @@
       "maxRadius": 7,
       "amountPerChunk": 4.0,
       "enable": true
-    }
+    },
+    "berry_bushes": {}
   },
   "weights": {
     "boreal": 10

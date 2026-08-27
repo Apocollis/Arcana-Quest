@@ -33,3 +33,8 @@ for item in bopBerriesToHide {
     JEI.hide(item);
 }
 
+// Remove and hide BOP Biome Finder
+recipes.remove(<biomesoplenty:biome_finder>);
+JEI.hide(<biomesoplenty:biome_finder>);
+
+

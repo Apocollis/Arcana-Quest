@@ -194,6 +194,7 @@
       "enable": true
     },
     "ruby": {},
+    "berry_bushes": {},
     "lily": {
       "with": {
         "block": "minecraft:waterlily",

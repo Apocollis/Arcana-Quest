@@ -35,16 +35,37 @@ Condenser.addRecipe(
     [<teastory:dried_tea>, <rustic:wind_thistle>]
 );
 
+// Extended Replenishment Elixir (Dried Tea + Wind Thistle + Horsetail) - 8:00
+Condenser.addRecipe(
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "elenaidodge2:replenishment", Duration: 9600, Amplifier: 0}]}),
+    [<teastory:dried_tea>, <rustic:wind_thistle>],
+    <rustic:horsetail>
+);
+
 // Feathers Elixir (Ginseng + Wind Thistle) - 3:00
 Condenser.addRecipe(
     <rustic:elixir>.withTag({ElixirEffects: [{Effect: "elenaidodge2:feathers", Duration: 3600, Amplifier: 0}]}),
     [<rustic:ginseng>, <rustic:wind_thistle>]
 );
 
+// Extended Feathers Elixir (Ginseng + Wind Thistle + Horsetail) - 8:00
+Condenser.addRecipe(
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "elenaidodge2:feathers", Duration: 9600, Amplifier: 0}]}),
+    [<rustic:ginseng>, <rustic:wind_thistle>],
+    <rustic:horsetail>
+);
+
 // Repair Elixir (Isolated Materia + Ironberries) - 3:00
 Condenser.addRecipe(
     <rustic:elixir>.withTag({ElixirEffects: [{Effect: "potioncore:repair", Duration: 3600, Amplifier: 0}]}),
     [<embers:isolated_materia>, <rustic:ironberries>]
+);
+
+// Extended Repair Elixir (Isolated Materia + Ironberries + Iron Ingot + Diamond) - 8:00
+Condenser.addRecipe(
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "potioncore:repair", Duration: 9600, Amplifier: 0}]}),
+    [<embers:isolated_materia>, <rustic:ironberries>, <ore:ingotIron>],
+    <minecraft:diamond>
 );
 
 // --- Wither & Blazing Trail Elixir Removals ---

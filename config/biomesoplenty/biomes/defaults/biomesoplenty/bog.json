@@ -269,6 +269,7 @@
       "enable": true
     },
     "ruby": {},
+    "berry_bushes": {},
     "bushes": {
       "with": {
         "block": "biomesoplenty:plant_0",

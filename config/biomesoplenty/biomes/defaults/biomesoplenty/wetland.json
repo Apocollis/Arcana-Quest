@@ -288,6 +288,7 @@
       "enable": true,
       "randomDirection": false
     },
+    "berry_bushes": {},
     "lily": {
       "with": {
         "block": "minecraft:waterlily",

@@ -148,6 +148,7 @@
       "generators": {}
     },
     "peridot": {},
+    "berry_bushes": {},
     "lily": {
       "with": {
         "block": "minecraft:waterlily",

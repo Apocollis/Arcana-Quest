@@ -219,7 +219,8 @@
       "maxRadius": 7,
       "amountPerChunk": 3.0,
       "enable": true
-    }
+    },
+    "berry_bushes": {}
   },
   "weights": {
     "cool_temperate": 7

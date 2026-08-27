@@ -131,6 +131,7 @@
       "generators": {}
     },
     "peridot": {},
+    "berry_bushes": {},
     "small_boulders": {
       "with": {
         "block": "minecraft:cobblestone",

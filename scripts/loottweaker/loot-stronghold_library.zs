@@ -76,8 +76,50 @@ treasure.addItemEntry(<quark:rune:16>, 5, 0);
 treasure.addItemEntry(<thaumcraft:baubles:3>, 5, 0);
 treasure.addItemEntry(<astralsorcery:itemenchantmentamulet>, 15, 0);
 
-treasure.addItemEntry(<msmlegacy:gladiolus>, 3, 0);
-treasure.addItemEntry(<msmlegacy:crystaline_blade>, 3, 0);
+val dormant_gladiolus = <msmlegacy:gladiolus>.withDisplayName("§7Dormant Gladiolus").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+val dormant_crystaline_blade = <msmlegacy:crystaline_blade>.withDisplayName("§7Dormant Crystaline Blade").withLore([
+    "§7§o\"A dormant relic of ancient era.\"",
+    "§eReforge to awaken its full potential."
+]).withTag({
+    Quality: {
+        Name: "quality.broken.name",
+        Color: "dark_gray",
+        Slots: ["mainhand"],
+        AttributeModifiers: [
+            {
+                Name: "generic.attackDamage",
+                AttributeName: "generic.attackDamage",
+                Operation: 2,
+                Amount: -0.15,
+                UUIDMost: 2471852924185794821 as long,
+                UUIDLeast: -5128741957291850124 as long
+            }
+        ]
+    }
+});
+
+treasure.addItemEntry(dormant_gladiolus, 3, 0);
+treasure.addItemEntry(dormant_crystaline_blade, 3, 0);
 
 // Dynamic Sword Skills Loot
 goodies.addItemEntry(<dynamicswordskills:skillorb:1>, 2, 0);
