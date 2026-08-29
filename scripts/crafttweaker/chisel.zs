@@ -1,9 +1,15 @@
 
+import crafttweaker.item.IItemStack;
+import mods.chisel.Carving;
+import mods.jei.JEI;
+
 # CHISEL
 print(<chisel:chisel_iron>.displayName);
 <chisel:chisel_iron>.displayName = "Iron Block Chisel";
 print(<chisel:chisel_diamond>.displayName);
 <chisel:chisel_diamond>.displayName = "Diamond Block Chisel";
+print(<chisel:chisel_hitech>.displayName);
+<chisel:chisel_hitech>.displayName = "Master Chisel";
  
 # STAINED PLANKS
 recipes.remove(<quark:vertical_planks:*>);
@@ -272,3 +278,23 @@ recipes.addShapedMirrored(<cathedral:cathedral_pillar_various:12>*8,
  [[<cathedral:dwemer_block_carved>, <cathedral:dwemer_block_carved>],
   [<cathedral:dwemer_block_carved>, <cathedral:dwemer_block_carved>],
   [<cathedral:dwemer_block_carved>, <cathedral:dwemer_block_carved>]]);
+
+# FACTORY BLOCK CLEANUP
+val factoryBlocksToRemove = [
+    <chisel:factory1:0>,
+    <chisel:factory:12>,
+    <chisel:factory:7>,
+    <chisel:factory:6>,
+    <chisel:factory:10>,
+    <chisel:factory:8>,
+    <chisel:factory1:1>,
+    <chisel:factory1:2>,
+    <chisel:factory:13>,
+    <chisel:factory1:3>,
+    <chisel:factory1:4>
+] as IItemStack[];
+
+for block in factoryBlocksToRemove {
+    recipes.remove(block);
+    JEI.hide(block);
+}

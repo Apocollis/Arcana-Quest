@@ -126,3 +126,7 @@ goodies.addItemEntry(<dynamicswordskills:skillorb:1>, 2, 0);
 goodies.addItemEntry(<dynamicswordskills:skillorb:9>, 2, 0);
 goodies.addItemEntry(<dynamicswordskills:skillorb:8>, 2, 0);
 goodies.addItemEntry(<dynamicswordskills:skillorb:11>, 2, 0);
+
+// Reliquary Provisions
+goodies.addItemEntry(<xreliquary:glowing_water>, 3, 0);
+treasure.addItemEntry(<xreliquary:angelheart_vial>, 2, 0);

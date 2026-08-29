@@ -5,7 +5,8 @@ import mods.embers.DawnstoneAnvil;
 
 // ==========================================
 // More Swords Legacy - Dawnstone Anvil Reforging
-// Dormant Relic Sword + Voidmetal Ingot -> Awakened Relic Sword
+// Voidmetal Ingot + Dormant Relic Sword -> Awakened Relic Sword
+// (Modifier / Extra first, then weapon)
 // ==========================================
 
 // Helper function to create Awakened Sword with Legendary quality & Max Signature Enchantments
@@ -73,7 +74,7 @@ val awakened_dawn_star = createAwakenedSword(
     <enchantment:msmlegacy:ignite>, 3, 
     <enchantment:msmlegacy:sparks>, 1
 );
-DawnstoneAnvil.add([awakened_dawn_star], <msmlegacy:dawn_star>, <ore:ingotVoid>);
+DawnstoneAnvil.add([awakened_dawn_star], <ore:ingotVoid>, <msmlegacy:dawn_star>);
 
 // 2. Vampiric Blade (Feast III + Vitality I)
 val awakened_vampiric_blade = createAwakenedSword(
@@ -82,7 +83,7 @@ val awakened_vampiric_blade = createAwakenedSword(
     <enchantment:msmlegacy:feast>, 3, 
     <enchantment:msmlegacy:vitality>, 1
 );
-DawnstoneAnvil.add([awakened_vampiric_blade], <msmlegacy:vampiric_blade>, <ore:ingotVoid>);
+DawnstoneAnvil.add([awakened_vampiric_blade], <ore:ingotVoid>, <msmlegacy:vampiric_blade>);
 
 // 3. Wither's Bane (Decay III + Consuming Shadows I)
 val awakened_wither_bane = createAwakenedSword(
@@ -91,7 +92,7 @@ val awakened_wither_bane = createAwakenedSword(
     <enchantment:msmlegacy:decay>, 3, 
     <enchantment:msmlegacy:consuming_shadows>, 1
 );
-DawnstoneAnvil.add([awakened_wither_bane], <msmlegacy:wither_bane>, <ore:ingotVoid>);
+DawnstoneAnvil.add([awakened_wither_bane], <ore:ingotVoid>, <msmlegacy:wither_bane>);
 
 // 4. Gladiolus (Venomous Aspect III + Absorb I)
 val awakened_gladiolus = createAwakenedSword(
@@ -100,7 +101,7 @@ val awakened_gladiolus = createAwakenedSword(
     <enchantment:msmlegacy:venomous_aspect>, 3, 
     <enchantment:msmlegacy:absorb>, 1
 );
-DawnstoneAnvil.add([awakened_gladiolus], <msmlegacy:gladiolus>, <ore:ingotVoid>);
+DawnstoneAnvil.add([awakened_gladiolus], <ore:ingotVoid>, <msmlegacy:gladiolus>);
 
 // 5. Crystaline Blade (Greed III + Wisdom I)
 val awakened_crystaline_blade = createAwakenedSword(
@@ -109,7 +110,7 @@ val awakened_crystaline_blade = createAwakenedSword(
     <enchantment:msmlegacy:greed>, 3, 
     <enchantment:msmlegacy:wisdom>, 1
 );
-DawnstoneAnvil.add([awakened_crystaline_blade], <msmlegacy:crystaline_blade>, <ore:ingotVoid>);
+DawnstoneAnvil.add([awakened_crystaline_blade], <ore:ingotVoid>, <msmlegacy:crystaline_blade>);
 
 // 6. Glacial Blade (Frozen Aspect III + Frost Wave I)
 val awakened_glacial_blade = createAwakenedSword(
@@ -118,7 +119,7 @@ val awakened_glacial_blade = createAwakenedSword(
     <enchantment:msmlegacy:frozen_aspect>, 3, 
     <enchantment:msmlegacy:frost_wave>, 1
 );
-DawnstoneAnvil.add([awakened_glacial_blade], <msmlegacy:glacial_blade>, <ore:ingotVoid>);
+DawnstoneAnvil.add([awakened_glacial_blade], <ore:ingotVoid>, <msmlegacy:glacial_blade>);
 
 // 7. Eye End Blade (Ender Pulse III + Ender Aura I)
 val awakened_eye_end_blade = createAwakenedSword(
@@ -127,7 +128,7 @@ val awakened_eye_end_blade = createAwakenedSword(
     <enchantment:msmlegacy:ender_pulse>, 3, 
     <enchantment:msmlegacy:ender_aura>, 1
 );
-DawnstoneAnvil.add([awakened_eye_end_blade], <msmlegacy:eye_end_blade>, <ore:ingotVoid>);
+DawnstoneAnvil.add([awakened_eye_end_blade], <ore:ingotVoid>, <msmlegacy:eye_end_blade>);
 
 // 8. Aether's Guard (Ascension III + Descension I)
 val awakened_aethers_guard = createAwakenedSword(
@@ -136,7 +137,7 @@ val awakened_aethers_guard = createAwakenedSword(
     <enchantment:msmlegacy:ascension>, 3, 
     <enchantment:msmlegacy:descension>, 1
 );
-DawnstoneAnvil.add([awakened_aethers_guard], <msmlegacy:aethers_guard>, <ore:ingotVoid>);
+DawnstoneAnvil.add([awakened_aethers_guard], <ore:ingotVoid>, <msmlegacy:aethers_guard>);
 
 // 9. Draconic Blade (Keen Edge III + Scorn I)
 val awakened_draconic_blade = createAwakenedSword(
@@ -145,4 +146,4 @@ val awakened_draconic_blade = createAwakenedSword(
     <enchantment:msmlegacy:keen_edge>, 3, 
     <enchantment:msmlegacy:scorn>, 1
 );
-DawnstoneAnvil.add([awakened_draconic_blade], <msmlegacy:draconic_blade>, <ore:ingotVoid>);
+DawnstoneAnvil.add([awakened_draconic_blade], <ore:ingotVoid>, <msmlegacy:draconic_blade>);

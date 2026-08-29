@@ -124,3 +124,7 @@ rails.addItemEntry(<minecraft:minecart>, 5, 0, [Functions.setCount(1, 1)], []);
 goodies.addItemEntry(<dynamicswordskills:skillorb:0>, 3, 0);
 goodies.addItemEntry(<dynamicswordskills:skillorb:2>, 3, 0);
 goodies.addItemEntry(<dynamicswordskills:skillorb:5>, 3, 0);
+
+// Reliquary Provisions
+goodies.addItemEntry(<xreliquary:glowing_water>, 4, 0);
+goodies.addItemEntry(<xreliquary:glowing_bread>, 4, 0);

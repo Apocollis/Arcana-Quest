@@ -73,3 +73,4 @@ criteria.setEntityType("zombie")
 
 criteria = addCriteria("zombie_villager", "minecraft:player_killed_entity")
 criteria.setEntityType("zombie_villager")
+setPos(64,54)

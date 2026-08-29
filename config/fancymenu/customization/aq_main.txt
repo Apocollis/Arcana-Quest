@@ -14,14 +14,14 @@ customization {
 }
 
 customization {
-  keepaspectratio = false
+  keepaspectratio = true
   action = backgroundoptions
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
-  x = 83
+  x = 82
   action = movebutton
   y = -78
 }
@@ -81,7 +81,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
-  x = 83
+  x = 82
   action = movebutton
   y = -2
 }
@@ -230,7 +230,7 @@ customization {
 }
 
 customization {
-  orientation = top-left
+  orientation = bottom-centered
   enable_scrolling = true
   shadow = false
   scale = 0.6
@@ -239,17 +239,17 @@ customization {
   case_mode = normal
   source_mode = local
   line_spacing = 1
-  x = 255
+  x = 11
   width = 135
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c1f5d24e-d590-4192-bbbc-d9999946c8dc1784757794200
-  y = 199
+  y = -69
   alignment = centered
   height = 28
 }
 
 customization {
-  orientation = top-left
+  orientation = element
   enable_scrolling = true
   shadow = true
   scale = 1.0
@@ -258,17 +258,18 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 256
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 0
   width = 64
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 557f3bca-7a43-48b2-9e43-74962a171f721784769195104
-  y = 43
+  y = -10
   alignment = left
   height = 15
 }
 
 customization {
-  orientation = top-left
+  orientation = element
   enable_scrolling = true
   shadow = true
   scale = 1.0
@@ -277,17 +278,18 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 328
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 3
   width = 56
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 2e1a996a-8654-4b91-a0d1-f6498433ae5a1784769239506
-  y = 43
+  y = -9
   alignment = left
   height = 15
 }
 
 customization {
-  orientation = top-left
+  orientation = element
   enable_scrolling = true
   shadow = true
   scale = 1.0
@@ -296,17 +298,18 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 268
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  x = 10
   width = 40
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c114327d-753b-446d-abf8-f7dcb6f70f741784769246306
-  y = 121
+  y = -10
   alignment = left
   height = 15
 }
 
 customization {
-  orientation = top-left
+  orientation = element
   enable_scrolling = true
   shadow = true
   scale = 1.0
@@ -315,11 +318,12 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 344
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_quit_button
+  x = 20
   width = 25
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = ffb301fd-b5d2-46da-961f-1c4d985e9d621784769251306
-  y = 121
+  y = -9
   alignment = left
   height = 13
 }
