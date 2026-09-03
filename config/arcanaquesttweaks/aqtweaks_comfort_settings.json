@@ -1,0 +1,53 @@
+{
+  "pet_comfort_value": 3.0,
+  "threshold_homestead_1": 15.0,
+  "threshold_homestead_2": 40.0,
+  "threshold_homestead_3": 60.0,
+  "promote_ticks": 1200,
+  "penalties": {
+    "enabled": true,
+    "temperature": {
+      "enabled": true,
+      "comfort_min": 11,
+      "comfort_max": 14,
+      "per_point_outside": 1.5,
+      "heat_ignore_potions": [
+        "simpledifficulty:heat_protection",
+        "simpledifficulty:heat_resist"
+      ],
+      "cold_ignore_potions": [
+        "simpledifficulty:cold_protection",
+        "simpledifficulty:cold_resist"
+      ]
+    },
+    "thirst": {
+      "enabled": true,
+      "per_missing_point": 0.75
+    },
+    "hunger": {
+      "enabled": true,
+      "per_missing_point": 0.5
+    },
+    "health": {
+      "enabled": true,
+      "per_missing_fraction": 15.0
+    },
+    "somnia": {
+      "enabled": true,
+      "sleepy_potion": "somnia:sleepy",
+      "sleepy": 10.0,
+      "exhausted_potion": "somnia:exhausted",
+      "exhausted": 25.0,
+      "fading_potion": "somnia:fading",
+      "fading": 40.0
+    }
+  },
+  "bonuses": {
+    "enabled": true,
+    "farmers_delight_comfort": {
+      "enabled": true,
+      "potion": "farmersdelight:comfort",
+      "amount": 10.0
+    }
+  }
+}

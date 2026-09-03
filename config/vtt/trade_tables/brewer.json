@@ -1,22 +1,44 @@
 { 
 	Profession:"vtt:brewer",
-	Career:"clothier",
+	Career:"brewer",
 
 	Offers:{
 		Recipes:[
 		
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:52,max:56}},sell:{id:"botania:baublebox",Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"botania:cosmetic",Damage:[0,1,2,3],Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"botania:cosmetic",Damage:[4,5,6,7],Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"botania:cosmetic",Damage:[8,9,10,11],Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"botania:cosmetic",Damage:[12,13,14],Count:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"botania:cosmetic",Damage:[15,16,17],Count:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"botania:cosmetic",Damage:[18,19,20],Count:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"botania:cosmetic",Damage:[21,22,23,24],Count:1}, CareerLevel:3},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"botania:cosmetic",Damage:[25,26,27,28],Count:1}, CareerLevel:3},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"botania:cosmetic",Damage:[29,30,31],Count:1}, CareerLevel:3}
+			{action:"clear"},
+		
+			// --- Level 1: Basic Ales, Ciders & Crops ---
+			{action:"add", buy:{id:"rustic:wildberries",Count:{min:14,max:16}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:apple",Count:{min:14,max:16}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:wheat",Count:{min:16,max:18}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:8,max:10}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"wildberrywine",Amount:1000}}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"cider",Amount:1000}}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"ale",Amount:1000}}}, CareerLevel:1},
 
+			// --- Level 2: Fine Wines, Mead & Orchard Crops ---
+			{action:"add", buy:{id:"rustic:grapes",Count:{min:14,max:16}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:2},
+			{action:"add", buy:{id:"rustic:honeycomb",Count:{min:4,max:6}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:2},
+			{action:"add", buy:{id:"rustic:ironberries",Count:{min:10,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"wine",Amount:1000}}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"mead",Amount:1000}}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"ironwine",Amount:1000}}}, CareerLevel:2},
+
+			// --- Level 3: Spirits, Witchcraft Wines & Occult Herbs ---
+			{action:"add", buy:{id:"bewitchment:elderberries",Count:{min:12,max:14}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:3},
+			{action:"add", buy:{id:"bewitchment:wormwood",Count:{min:10,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:18}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"gin",Amount:1000}}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:18}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"absinthe",Amount:1000}}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:20}},sell:{id:"congregamystica:viscous_brew",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:20}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"elderberry_wine",Amount:1000}}}, CareerLevel:3},
+
+			// --- Level 4: Master Liqueurs, Ambrosia & Mystical Spirits ---
+			{action:"add", buy:{id:"bewitchment:white_sage",Count:{min:10,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:20,max:24}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"sage_liqueur",Amount:1000}}}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:28}},sell:{id:"congregamystica:shimmerdew_spirits",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:32}},sell:{id:"rustic:fluid_bottle",Count:1,tag:{Fluid:{FluidName:"ambrosia",Amount:1000}}}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:28}},sell:{id:"congregamystica:cinderfire_whiskey",Count:1}, CareerLevel:4}
 
 		]
 	}
+
 }

@@ -1,56 +1,44 @@
 { 
-	Profession: "vtt:tinkerer", 
+	Profession:"vtt:tinkerer",
 	Career:"mason",
 
 	Offers:{
 		Recipes:[
 		
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:21},Damage:0},sell:{id:"minecraft:stonebrick",Count:{min:21,max:24}}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27},Damage:0},sell:{id:"minecraft:brick_block",Count:{min:21,max:24}}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27},Damage:0},sell:{id:"earthworks:block_adobe",Count:{min:21,max:24}}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27},Damage:0},sell:{id:"earthworks:block_cinder",Count:{min:21,max:24}}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27},Damage:0},sell:{id:"earthworks:block_cordwood",Count:{min:21,max:24}}, CareerLevel:1},
-			
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:32},Damage:0},sell:{id:"ceramics:clay_hard",Count:{min:21,max:24},Damage:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:32},Damage:0},sell:{id:"minecraft:stained_hardened_clay",Count:{min:21,max:24}}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:32},Damage:0},sell:{id:"quark:hardened_clay_tiles",Count:{min:21,max:24}}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:32},Damage:0},sell:{id:"quark:sandy_bricks",Count:{min:21,max:24}}, CareerLevel:2},
-			
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:33,max:37},Damage:0},sell:{id:"immersiveengineering:stone_decoration",Damage:5,Count:{min:21,max:24}}, CareerLevel:3},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:33,max:37},Damage:0},sell:{id:"immersivepetroleum:stone_decoration",Count:{min:21,max:24}}, CareerLevel:3},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:33,max:37},Damage:0},sell:{id:"minecraft:nether_brick",Count:{min:21,max:24}}, CareerLevel:3},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:33,max:37},Damage:0},sell:{id:"minecraft:red_nether_brick",Count:{min:21,max:24}}, CareerLevel:3},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:33,max:37},Damage:0},sell:{id:"ceramics:clay_hard",Count:{min:21,max:24},Damage:2}, CareerLevel:3},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:33,max:37},Damage:0},sell:{id:"ceramics:clay_hard",Count:{min:21,max:24},Damage:3}, CareerLevel:3},
-			
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:42,max:48},Damage:0},sell:{id:"ceramics:clay_hard",Count:{min:21,max:24},Damage:4}, CareerLevel:4},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:42,max:48},Damage:0},sell:{id:"ceramics:clay_hard",Count:{min:21,max:24},Damage:5}, CareerLevel:4},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:42,max:48},Damage:0},sell:{id:"ceramics:clay_hard",Count:{min:21,max:24},Damage:6}, CareerLevel:4},
-			
-			{
-				action: "add",
-				CareerLevel: 5,
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}},
-				buy:{id:"ordinarycoins:coingold",Count:8},
-				sell: {id:"effortlessbuilding:reach_upgrade1",Count:1}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 5,
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
-				buy:{id:"ordinarycoins:coingold",Count:12},
-				sell: {id:"astralsorcery:itemarchitectwand",Count:1}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 5,
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
-				buy:{id:"ordinarycoins:coingold",Count:12},
-				sell: {id:"astralsorcery:itemexchangewand",Count:1}
-			}
-			
+			// --- Level 1: Basic Clay, Stone & Earth Bricks ---
+			{action:"add", buy:{id:"minecraft:clay_ball",Count:{min:16,max:18}},sell:{id:"ordinarycoins:coinbronze",Count:{min:8,max:10}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"minecraft:clay_ball",Count:16}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:8,max:10}},sell:{id:"minecraft:clay",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}},sell:{id:"minecraft:stonebrick",Count:16}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}},sell:{id:"minecraft:brick_block",Count:16}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}},sell:{id:"earthworks:block_adobe",Count:16}, CareerLevel:1},
+
+			// --- Level 2: Ceramics, Tiles & Timber Bricks ---
+			{action:"add", buy:{id:"ceramics:unfired_clay",Count:{min:12,max:14}},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}},sell:{id:"earthworks:block_cinder",Count:16}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}},sell:{id:"earthworks:block_cordwood",Count:16}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}},sell:{id:"quark:hardened_clay_tiles",Count:16}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}},sell:{id:"quark:sandy_bricks",Count:16}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}},sell:{id:"ceramics:clay_hard",Damage:1,Count:16}, CareerLevel:2},
+
+			// --- Level 3: Nether Bricks & Colored Glazes ---
+			{action:"add", buy:{id:"minecraft:stonebrick",Count:{min:16,max:18}},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:20,max:24}},sell:{id:"minecraft:nether_brick",Count:16}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:20,max:24}},sell:{id:"minecraft:red_nether_brick",Count:16}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:22,max:26}},sell:{id:"quark:charred_nether_bricks",Count:16}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:20,max:24}},sell:{id:"ceramics:clay_hard",Damage:2,Count:16}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:20,max:24}},sell:{id:"ceramics:clay_hard",Damage:3,Count:16}, CareerLevel:3},
+
+			// --- Level 4: Master Masonry & Basalt Bricks ---
+			{action:"add", buy:{id:"quark:charred_nether_bricks",Count:{min:8,max:10}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:34}},sell:{id:"ceramics:clay_hard",Damage:4,Count:16}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:34}},sell:{id:"ceramics:clay_hard",Damage:5,Count:16}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:34}},sell:{id:"ceramics:clay_hard",Damage:6,Count:16}, CareerLevel:4},
+
+			// --- Level 5: Grand Relics & Architectural Artifacts ---
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:4},sell:{id:"effortlessbuilding:reach_upgrade1",Count:1}, CareerLevel:5},
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:5},sell:{id:"astralsorcery:itemarchitectwand",Count:1}, CareerLevel:5},
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:5},sell:{id:"astralsorcery:itemexchangewand",Count:1}, CareerLevel:5}
 
 		]
 	}

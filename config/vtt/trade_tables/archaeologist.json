@@ -1,0 +1,35 @@
+{ 
+	Profession:"vtt:archaeologist", 
+	Career:"archaeologist",
+
+	Offers:{
+		Recipes:[
+		
+			// --- Level 1: Field Digger (Dirty Coins, Gravel & Field Gear) ---
+			{action:"add", buy:{id:"atum:coin_dirty",Count:{min:12,max:16}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"atum:coin_gold",Count:{min:10,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
+			{action:"add", buy:{id:"atum:loot_dirty_idol",Count:{min:2,max:3}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"quark:archaeologist_hat",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"atum:limestone_gravel",Count:16}, CareerLevel:1},
+
+			// --- Level 2: Antiquarian (Silver & Gold Antiquities) ---
+			{action:"add", buy:{id:"atum:loot_silver_idol",Count:1},sell:{id:"ordinarycoins:coinbronze",Count:{min:18,max:22}}, CareerLevel:2},
+			{action:"add", buy:{id:"atum:loot_gold_idol",Count:1},sell:{id:"ordinarycoins:coingold",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:28}},sell:{id:"atum:scroll",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:2},sell:{id:"thaumcraft:curio",Damage:0,Count:1}, CareerLevel:2},
+
+			// --- Level 3: Museum Curator (Gem-Inlaid Relics & Disenchanting) ---
+			{action:"add", buy:{id:"atum:loot_sapphire_idol",Count:1},sell:{id:"ordinarycoins:coingold",Count:2}, CareerLevel:3},
+			{action:"add", buy:{id:"atum:loot_diamond_scepter",Count:1},sell:{id:"ordinarycoins:coingold",Count:4}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:2},sell:{id:"atum:disenchanting_scroll",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:1},buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},sell:{id:"atum:relic_ore",Count:1}, CareerLevel:3},
+
+			// --- Level 4: Master Egyptologist (Pharaoh Idols & Forgotten Lore) ---
+			{action:"add", buy:{id:"atum:idol_of_labor",Count:1},sell:{id:"ordinarycoins:coingold",Count:8}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:6},sell:{id:"atum:horuss_soaring",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:2},sell:{id:"thaumcraft:curio",Damage:3,Count:1}, CareerLevel:4}
+
+		]
+	}
+
+}

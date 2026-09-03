@@ -1,5 +1,5 @@
 { 
-	Profession:"minecraft:butcher", 
+	Profession:"minecraft:butcher",
 	Career:"butcher",
 
 	Offers:{
@@ -7,29 +7,43 @@
 		
 			{action:"clear"},
 		
-			{action:"add", buy:{id:"minecraft:porkchop",Count:12},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
-			{action:"add", buy:{id:"animania:raw_prime_pork",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:13,max:15}},sell:{id:"minecraft:cooked_porkchop",Count:5}, CareerLevel:1},
-		
-			{action:"add", buy:{id:"minecraft:beef",Count:12},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
-			{action:"add", buy:{id:"animania:raw_prime_beef",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:13,max:15}},sell:{id:"minecraft:cooked_beef",Count:5}, CareerLevel:1},	
-			
-			{action:"add", buy:{id:"minecraft:mutton",Count:12},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
-			{action:"add", buy:{id:"animania:raw_prime_mutton",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:2},sell:{id:"minecraft:cooked_mutton",Count:5}, CareerLevel:2},
-			
-			{action:"add", buy:{id:"animania:raw_chevon",Count:12},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
-			{action:"add", buy:{id:"animania:raw_prime_chevon",Count:6},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:2},sell:{id:"animania:cooked_chevon",Count:5}, CareerLevel:2},
-			
-			{action:"add", buy:{id:"minecraft:rabbit",Count:10},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:3},
-			{action:"add", buy:{id:"animania:raw_prime_rabbit",Count:5},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:3},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:2},sell:{id:"minecraft:cooked_rabbit",Count:4}, CareerLevel:3},
-			
-			{action:"add", buy:{id:"animania:raw_frog_legs",Count:8},sell:{id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}, CareerLevel:3},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}},sell:{id:"animania:cooked_frog_legs",Count:4}, CareerLevel:3}
-			
+			// --- Level 1: Basic Livestock & Minced Meats ---
+			{action:"add", buy:{id:"minecraft:beef",Count:{min:4,max:5}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:porkchop",Count:{min:4,max:5}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:chicken",Count:{min:4,max:5}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"extradelightlegacy:ground_beef",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"extradelightlegacy:ground_pork",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"extradelightlegacy:ground_chicken",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"minecraft:cooked_beef",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"minecraft:cooked_porkchop",Count:4}, CareerLevel:1},
+
+			// --- Level 2: Mutton, Chevon, Poultry & Sausages ---
+			{action:"add", buy:{id:"minecraft:mutton",Count:{min:4,max:5}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:2},
+			{action:"add", buy:{id:"animania:raw_chevon",Count:{min:4,max:5}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:8,max:10}},sell:{id:"extradelightlegacy:sausage_linked",Count:4}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:8,max:10}},sell:{id:"extradelightlegacy:chicken_breast",Count:3}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:8,max:10}},sell:{id:"extradelightlegacy:chicken_thigh",Count:3}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:8,max:10}},sell:{id:"extradelightlegacy:cubed_beef",Count:4}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:8,max:10}},sell:{id:"extradelightlegacy:cubed_pork",Count:4}, CareerLevel:2},
+
+			// --- Level 3: Rabbit, Rib Racks & Tenderloins ---
+			{action:"add", buy:{id:"minecraft:rabbit",Count:{min:3,max:4}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"extradelightlegacy:beef_ribs",Count:2}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"extradelightlegacy:pork_ribs",Count:2}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"extradelightlegacy:lamb_ribs",Count:2}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}},sell:{id:"extradelightlegacy:pork_tenderloin",Count:2}, CareerLevel:3},
+
+			// --- Level 4: Master Whole Roasts & Lamb Crown ---
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:22}},sell:{id:"extradelightlegacy:beef_roast",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:22}},sell:{id:"extradelightlegacy:pork_roast",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:22}},sell:{id:"extradelightlegacy:lamb_roast",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:20,max:24}},sell:{id:"extradelightlegacy:rack_lamb",Count:1}, CareerLevel:4},
+
+			// --- Level 5: Feasts & Chef Knife ---
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:28}},sell:{id:"extradelightlegacy:potroast",Count:1}, CareerLevel:5},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:20,max:24}},sell:{id:"extradelightlegacy:meat_pie",Count:1}, CareerLevel:5},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},sell:{id:"farmersdelight:iron_knife",Count:1,tag:{ench:"random"}}, CareerLevel:5}
+
 		]
 	}
 

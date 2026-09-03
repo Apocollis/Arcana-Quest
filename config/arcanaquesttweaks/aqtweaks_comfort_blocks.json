@@ -11,10 +11,6 @@
     "structure": 8,
     "pets": 2
   },
-  "pet_comfort_value": 3.0,
-  "threshold_homestead_1": 15.0,
-  "threshold_homestead_2": 40.0,
-  "threshold_homestead_3": 60.0,
   "categories": {
     "hearth": {
       "ends_delight:end_stove": 5.0,

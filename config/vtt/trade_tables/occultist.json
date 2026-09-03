@@ -5,147 +5,42 @@
 	Offers:{
 		Recipes:[
 		
-			{
-				action: "add",
-				CareerLevel: 1,
-				buy: {id:"minecraft:ender_pearl",Count:{min:6,max:7}},
-				sell: {id:"ordinarycoins:coinbronze",Count:{min:23,max:25}}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 1,
-				buy: {id:"quark:biotite",Count:{min:15,max:18}},
-				sell: {id:"ordinarycoins:coinbronze",Count:{min:13,max:15}}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 1,
-				buy: {id:"ordinarycoins:coinbronze",Count:{min:36,max:38}},
-				sell: {id:"minecraft:ender_pearl",Count:1}
-			},
-			
-			
-			{
-				action: "add",
-				CareerLevel: 1,
-				buy: {id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},
-				sell: {id:"contenttweaker:cracked_pearl",Count:5}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 1,
-				buy: {id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},
-				sell: {id:"minecraft:obsidian",Count:{min:5,max:6}}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 2,
-				buy: {id:"minecraft:chorus_fruit",Count:{min:16,max:18}},
-				sell: {id:"ordinarycoins:coinbronze",Count:{min:11,max:12}}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 2,
-				buy: {id:"minecraft:shulker_shell",Count:3},
-				sell: {id:"ordinarycoins:coinbronze",Count:{min:14,max:15}}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 2,
-				buy: {id:"ordinarycoins:coinbronze",Count:{min:36,max:38}},
-				sell: {id:"quark:arrow_ender",Count:12}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 3,
-				buy: {id:"xreliquary:mob_ingredient",Damage:11,Count:3},
-				sell: {id:"ordinarycoins:coinbronze",Count:{min:42,max:45}}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 3,
-				buy: {id:"ordinarycoins:coinbronze",Count:{min:48,max:52}},
-				sell: {id:"minecraft:dragon_breath",Count:2}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 3,
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},
-				buy:{id:"ordinarycoins:coingold",Count:1},
-				sell: {id:"thaumcraft:void_seed",Count:3}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 4,
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
-				buy:{id:"ordinarycoins:coingold",Count:3},
-				sell: {id:"botania:manaresource",Damage:15,Count:3}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 4,
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:5,max:6}},
-				buy:{id:"ordinarycoins:coingold",Count:5},
-				sell: {id:"botania:enderdagger",Count:1,tag:{ench:"30"}}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 4,
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
-				buy:{id:"ordinarycoins:coingold",Count:1},
-				sell: {id:"endercompass:ender_compass",Count:1}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 4,
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},
-				buy:{id:"ordinarycoins:coingold",Count:1},
-				sell: {id:"thaumcraft:curio",Damage:[0,3,4],Count:1}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 4,
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},
-				buy:{id:"ordinarycoins:coingold",Count:1},
-				sell: {id:"thaumcraft:curio",Damage:[1,2,5],Count:1}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 5,
-				buy: {id:"quark:enderdragon_scale",Count:1},
-				sell: {id:"ordinarycoins:coingold",Count:12}
-			},
-			
-			{
-				action: "add",
-				CareerLevel: 5,
-				buyB:{id:"ordinarycoins:coingold",Count:{min:5,max:7}},
-				buy:{id:"ordinarycoins:coinplatinum",Count:1},
-				sell: {id:"contenttweaker:cracked_pearl_2",Count:1}
-			},
-			
-			{
-				action:"add", 
-				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:2,max:2}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
-				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect:"extraalchemy:effect.dislocation"}}, 
-				CareerLevel:5
-			}
-		
+			// --- Level 1: Witch's Herb Gatherer ---
+			{action:"add", buy:{id:"bewitchment:belladonna",Count:{min:12,max:14}},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}, CareerLevel:1},
+			{action:"add", buy:{id:"bewitchment:mandrake_root",Count:{min:12,max:14}},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}, CareerLevel:1},
+			{action:"add", buy:{id:"botania:petal",Damage:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],Count:{min:8,max:10}},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:1,max:2}},sell:{id:"bewitchment:belladonna_seeds",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:1,max:2}},sell:{id:"bewitchment:mandrake_seeds",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:1,max:2}},sell:{id:"bewitchment:aconitum_seeds",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:1,max:2}},sell:{id:"bewitchment:white_sage_seeds",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}},sell:{id:"botania:flower",Damage:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:20}},sell:{id:"botania:flowerbag",Count:1}, CareerLevel:1},
+
+			// --- Level 2: Arcane Botanist ---
+			{action:"add", buy:{id:"thaumcraft:shimmerleaf",Count:{min:6,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:2},
+			{action:"add", buy:{id:"thaumcraft:cinderpearl",Count:{min:6,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:4,max:6}},sell:{id:"thaumcraft:sapling_greatwood",Count:2}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:4,max:6}},sell:{id:"bewitchment:elder_sapling",Count:2}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:4,max:6}},sell:{id:"bewitchment:cypress_sapling",Count:2}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:4,max:6}},sell:{id:"bewitchment:juniper_sapling",Count:2}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:22}},sell:{id:"thaumcraft:vishroom",Count:3}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:6,max:10}},sell:{id:"botania:grassseeds",Damage:[0,1,2,3,4,5,6,7,8],Count:4}, CareerLevel:2},
+
+			// --- Level 3: Mystic Grove Tender ---
+			{action:"add", buy:{id:"thaumcraft:sapling_silverwood",Count:1},sell:{id:"ordinarycoins:coingold",Count:{min:4,max:5}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:1},sell:{id:"thaumcraft:sapling_silverwood",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:6,max:10}},sell:{id:"bewitchment:dragons_blood_sapling",Count:2}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"botania:manaresource",Damage:15,Count:3}, CareerLevel:3},
+
+			// --- Level 4: Eldritch Herbalist ---
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:2},sell:{id:"thaumcraft:curio",Damage:[0,3,4],Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:2},sell:{id:"thaumcraft:curio",Damage:[1,2,5],Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:3},buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},sell:{id:"botania:shinyflower",Damage:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],Count:4}, CareerLevel:4},
+
+			// --- Level 5: Arch-Occultist ---
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:5},sell:{id:"botania:overgrowthseed",Count:1}, CareerLevel:5},
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:12},sell:{id:"thaumcraft:void_seed",Count:3}, CareerLevel:5}
+
 		]
 	}
 
