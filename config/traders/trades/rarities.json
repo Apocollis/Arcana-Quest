@@ -1,0 +1,219 @@
+{
+  "min": 1,
+  "max": 1,
+  "trades": [
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinplatinum",
+        "count": {
+          "min": 1,
+          "max": 2
+        }
+      },
+      "output": {
+        "item": "bewitchment:demon_heart",
+        "count": 1
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 3,
+          "max": 5
+        }
+      },
+      "output": {
+        "item": "bewitchment:otherworldly_tears",
+        "count": 2
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 3,
+          "max": 5
+        }
+      },
+      "output": {
+        "item": "astralsorcery:itemconstellationpaper",
+        "count": 1
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": 1
+      },
+      "output": {
+        "item": "embers:ancient_motive_core",
+        "count": 1
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinplatinum",
+        "count": {
+          "min": 1,
+          "max": 2
+        }
+      },
+      "output": {
+        "item": "thaumcraft:curio",
+        "count": 1,
+        "meta": {
+          "min": 0,
+          "max": 5
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 12,
+          "max": 16
+        }
+      },
+      "output": {
+        "item": "thaumcraft:pech_wand",
+        "count": 1
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 1,
+          "max": 2
+        }
+      },
+      "output": {
+        "item": "botania:blacklotus",
+        "count": 1,
+        "meta": 0
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 3,
+          "max": 4
+        }
+      },
+      "output": {
+        "item": "botania:blacklotus",
+        "count": 1,
+        "meta": 1
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 2,
+          "max": 4
+        }
+      },
+      "output": {
+        "item": "botania:keepivy",
+        "count": 1
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinplatinum",
+        "count": {
+          "min": 3,
+          "max": 5
+        }
+      },
+      "output": {
+        "item": "botania:overgrowthseed",
+        "count": 1
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 2,
+          "max": 4
+        }
+      },
+      "output": {
+        "item": "bewitchment:token_of_remedies",
+        "count": 1
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 1,
+          "max": 2
+        }
+      },
+      "output": {
+        "item": "bewitchment:dragons_blood_resin",
+        "count": 2
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 1,
+          "max": 2
+        }
+      },
+      "output": {
+        "item": "embers:archaic_circuit",
+        "count": 1
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 1,
+          "max": 2
+        }
+      },
+      "output": {
+        "item": "embers:isolated_materia",
+        "count": 1
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 2,
+          "max": 4
+        }
+      },
+      "output": {
+        "item": "embers:golems_eye",
+        "count": 1
+      },
+      "max_uses": 1
+    }
+  ]
+}

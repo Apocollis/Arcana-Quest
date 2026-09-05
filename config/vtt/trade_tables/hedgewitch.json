@@ -1,10 +1,12 @@
 { 
-	Profession:"vtt:occultist", 
-	Career:"occultist",
+	Profession:"bewitchment:hedge_witch", 
+	Career:"bewitchment.witch",
 
 	Offers:{
 		Recipes:[
 		
+			{action:"clear"},
+
 			// --- Level 1: Witch's Herb Gatherer ---
 			{action:"add", buy:{id:"bewitchment:belladonna",Count:{min:12,max:14}},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}, CareerLevel:1},
 			{action:"add", buy:{id:"bewitchment:mandrake_root",Count:{min:12,max:14}},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}, CareerLevel:1},
@@ -26,18 +28,21 @@
 			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:22}},sell:{id:"thaumcraft:vishroom",Count:3}, CareerLevel:2},
 			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:6,max:10}},sell:{id:"botania:grassseeds",Damage:[0,1,2,3,4,5,6,7,8],Count:4}, CareerLevel:2},
 
-			// --- Level 3: Mystic Grove Tender ---
+			// --- Level 3: Mystic Grove Tender & Frostfire ---
 			{action:"add", buy:{id:"thaumcraft:sapling_silverwood",Count:1},sell:{id:"ordinarycoins:coingold",Count:{min:4,max:5}}, CareerLevel:3},
 			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:1},sell:{id:"thaumcraft:sapling_silverwood",Count:1}, CareerLevel:3},
 			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:6,max:10}},sell:{id:"bewitchment:dragons_blood_sapling",Count:2}, CareerLevel:3},
 			{action:"add", buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"botania:manaresource",Damage:15,Count:3}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:2,max:3}},sell:{id:"bewitchment:bottled_frostfire",Count:1}, CareerLevel:3},
 
-			// --- Level 4: Eldritch Herbalist ---
+			// --- Level 4: Eldritch Herbalist, Balms & Demonic Brews ---
 			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:2},sell:{id:"thaumcraft:curio",Damage:[0,3,4],Count:1}, CareerLevel:4},
 			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:2},sell:{id:"thaumcraft:curio",Damage:[1,2,5],Count:1}, CareerLevel:4},
 			{action:"add", buy:{id:"ordinarycoins:coingold",Count:3},buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},sell:{id:"botania:shinyflower",Damage:[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],Count:4}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:3,max:5}},sell:{id:"bewitchment:cleansing_balm",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:4,max:6}},sell:{id:"bewitchment:demonic_elixir",Count:1}, CareerLevel:4},
 
-			// --- Level 5: Arch-Occultist ---
+			// --- Level 5: Arch-Witch & Void Botanical Relics ---
 			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:5},sell:{id:"botania:overgrowthseed",Count:1}, CareerLevel:5},
 			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:12},sell:{id:"thaumcraft:void_seed",Count:3}, CareerLevel:5}
 

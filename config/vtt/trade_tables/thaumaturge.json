@@ -1,0 +1,34 @@
+{ 
+	Profession:"thaumcraft:thaumaturge", 
+	Career:"thaumaturge",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+
+		
+			// --- Level 1 ---
+			{action:"add", buy:{id:"minecraft:paper",Count:{min:24,max:32}},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}, CareerLevel:1},
+			{action:"add", buy:{id:"thaumcraft:amber",Count:{min:4,max:6}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"thaumcraft:quicksilver",Count:{min:4,max:6}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:dye",Damage:0,Count:{min:8,max:10}},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:10,max:14}},sell:{id:"thaumcraft:alumentum",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:8,max:12}},sell:{id:"thaumcraft:nitor_yellow",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:1},sell:{id:"thaumcraft:scribing_tools",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"thaumcraft:thaumonomicon",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:8,max:12}},sell:{id:"thaumcraft:salis_mundus",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"thaumcraft:thaumometer",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:1},buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},sell:{id:"thaumcraft:amulet_vis",Damage:0,Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:1},buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},sell:{id:"crimsonrevelations:protection_ring",Count:1}, CareerLevel:1},
+
+			// --- Level 2 ---
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:2},sell:{id:"thaumcraft:baubles",Damage:3,Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:2},sell:{id:"thaumcraft:goggles",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:2},sell:{id:"thaumcraft:focus_1",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:8,max:12}},sell:{id:"thaumcraft:caster_basic",Count:1}, CareerLevel:2}
+
+		]
+	}
+
+}

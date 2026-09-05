@@ -1,0 +1,314 @@
+{
+  "min": 2,
+  "max": 3,
+  "trades": [
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "farmersdelight:cabbage_seeds",
+        "count": 1
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "farmersdelight:tomato_seeds",
+        "count": 1
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "farmersdelight:rice",
+        "count": 2
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "farmersdelight:onion",
+        "count": 2
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "extradelightlegacy:lemon",
+        "count": 2
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "extradelightlegacy:corn_seeds",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "extradelightlegacy:cucumber_seed",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "extradelightlegacy:ginger_cutting",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:grape_stem",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:wildberry_bush",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "rustic:chili_pepper_seeds",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "rustic:apple_seeds",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "teastory:tea_seeds",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:melon_seeds",
+        "count": 2
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:pumpkin_seeds",
+        "count": 2
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:beetroot_seeds",
+        "count": 2
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:aloe_vera",
+        "count": 2
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:chamomile",
+        "count": 2
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:ginseng",
+        "count": 2
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:marsh_mallow",
+        "count": 2
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:cloudsbluff",
+        "count": 2
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:core_root",
+        "count": 2
+      },
+      "max_uses": 6
+    }
+  ]
+}

@@ -1,4 +1,10 @@
-[// Deny Dark Druid spawning during the day (make it night-only)
+[
+  // Allow all mobs from mob spawners to always spawn regardless of other conditions
+  {
+      "spawner": true,
+      "result": "allow"
+    },
+// Deny Dark Druid spawning during the day (make it night-only)
   {
     "mob": "thebetweenlands:dark_druid",
     "mintime": 0,
@@ -375,20 +381,6 @@
       "result": "deny",
       "onjoin": true
     },
-// Allow Crimsoncult tier mobs inside Roguelike Dungeon structure regardless of stage (Tier 2 multipliers)
-  {
-      "mob": [
-        "crimsonrevelations:cultist_archer",
-        "thaumcraft:cultistcleric",
-        "thaumcraft:cultistknight"
-      ],
-      "structure": "RoguelikeDungeon",
-      "result": "default",
-      "healthmultiply": 2.0,
-      "damagemultiply": 1.75,
-      "potion": "minecraft:night_vision,999999,0",
-      "onjoin": true
-  },
 // Allow Crimsoncult tier mobs underground (Y <= 55) if player has 'crimsoncult' stage and count is under limit (5 per player)
   {
       "mob": [
@@ -517,8 +509,7 @@
       "dimension": 0,
       "maxheight": 60,
       "seesky": false,
-      "result": "deny",
-      "onjoin": true
+      "result": "deny"
     },
 // Restrict underground-only mobs to below Y 60
   {
@@ -535,8 +526,7 @@
       ],
       "dimension": 0,
       "minheight": 60,
-      "result": "deny",
-      "onjoin": true
+      "result": "deny"
     },
 // Hard cap total hostile mob spawning in Overworld to 250 per player
   {
@@ -548,18 +538,6 @@
       },
       "result": "deny"
     },
-// Limit Ghast to 5 per player
-  { 
-	"mob": "minecraft:ghast",
-	"spawner": true,
-	"onjoin": true,
-    "dimension": -1,
-	"mincount": {
-		"amount": 5,
-		"perplayer": true
-		},
-	"result": "deny" 
-  },
 // Prevent Silex from spawning on the surface
   {
       "mob": "lycanitesmobs:silex",
@@ -630,30 +608,6 @@
       "mincount": 100,
       "result": "deny"
     },
-// Hard cap mob spawner cages (dungeons / Roguelike Spawners) to 75 active in Overworld
-  {
-      "spawner": true,
-      "onjoin": true,
-      "dimension": 0,
-      "mincount": {
-        "amount": 75,
-        "hostile": true,
-        "perplayer": true
-      },
-      "result": "deny"
-    },
-// Hard cap mob spawner cages to 30 active in The Beneath
-  {
-      "spawner": true,
-      "onjoin": true,
-      "dimension": 10,
-      "mincount": {
-        "amount": 30,
-        "hostile": true,
-        "perplayer": true
-      },
-      "result": "deny"
-    },
 // Golem/Villager Changes  
   {
       "mob": "minecraft:villager_golem",
@@ -667,6 +621,20 @@
       "onjoin": true,
       "dimension": 0,
       "result": "deny"
+    },
+// Allow Crimsoncult tier mobs inside Roguelike Dungeon structure regardless of stage (Tier 2 multipliers)
+  {
+      "mob": [
+        "crimsonrevelations:cultist_archer",
+        "thaumcraft:cultistcleric",
+        "thaumcraft:cultistknight"
+      ],
+      "structure": "RoguelikeDungeon",
+      "result": "default",
+      "healthmultiply": 2.0,
+      "damagemultiply": 1.75,
+      "potion": "minecraft:night_vision,999999,0",
+      "onjoin": true
     },
 // Custom modifiers for artifacts:mimic
   {

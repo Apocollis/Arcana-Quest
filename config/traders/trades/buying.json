@@ -1,0 +1,184 @@
+{
+  "min": 2,
+  "max": 2,
+  "trades": [
+    {
+      "item_1": {
+        "item": "minecraft:wheat",
+        "count": {
+          "min": 16,
+          "max": 20
+        }
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "minecraft:hay_block",
+        "count": 1
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "max_uses": 3
+    },
+    {
+      "item_1": {
+        "item": "minecraft:baked_potato",
+        "count": {
+          "min": 12,
+          "max": 16
+        }
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "minecraft:bread",
+        "count": {
+          "min": 12,
+          "max": 16
+        }
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "minecraft:apple",
+        "count": {
+          "min": 12,
+          "max": 16
+        }
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "minecraft:milk_bucket",
+        "count": 1
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 12,
+          "max": 16
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "minecraft:water_bucket",
+        "count": 1
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "minecraft:leather",
+        "count": {
+          "min": 8,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 12,
+          "max": 16
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "minecraft:wool",
+        "count": {
+          "min": 8,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "minecraft:glass_bottle",
+        "count": {
+          "min": 8,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "minecraft:fermented_spider_eye",
+        "count": {
+          "min": 4,
+          "max": 6
+        }
+      },
+      "output": {
+        "item": "ordinarycoins:coinsilver",
+        "count": {
+          "min": 1,
+          "max": 2
+        }
+      },
+      "max_uses": 2
+    }
+  ]
+}

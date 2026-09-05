@@ -1,210 +1,632 @@
 [
   {
-    "content": "minecraft:dirt",
-    "amount": {
-      "min": 16,
-      "max": 128
-    },
-    "unitWorth": 5,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:stone",
-    "amount": {
-      "min": 16,
-      "max": 128
-    },
-    "unitWorth": 10,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:cobblestone",
-    "amount": {
-      "min": 16,
-      "max": 128
-    },
-    "unitWorth": 7,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:fish",
-    "amount": {
-      "min": 2,
-      "max": 32
-    },
-    "unitWorth": 80,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:apple",
-    "amount": {
-      "min": 2,
-      "max": 32
-    },
-    "unitWorth": 70,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:book",
-    "amount": {
-      "min": 2,
-      "max": 16
-    },
-    "unitWorth": 80,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:cactus",
-    "amount": {
-      "min": 2,
-      "max": 32
-    },
-    "unitWorth": 80,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:diamond",
+    "content": "entity:bewitchment:werewolf",
     "amount": {
       "min": 1,
-      "max": 8
+      "max": 1
     },
-    "unitWorth": 1600,
+    "unitWorth": 1280,
     "weight": 100
   },
   {
-    "content": "minecraft:dispenser",
+    "content": "entity:grimoireofgaia:goblin",
     "amount": {
-      "min": 1,
-      "max": 6
-    },
-    "unitWorth": 200,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:iron_ingot",
-    "amount": {
-      "min": 1,
-      "max": 32
-    },
-    "unitWorth": 200,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:bread",
-    "amount": {
-      "min": 1,
-      "max": 12
-    },
-    "unitWorth": 60,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:rotten_flesh",
-    "amount": {
-      "min": 1,
-      "max": 24
-    },
-    "unitWorth": 55,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:sign",
-    "amount": {
-      "min": 1,
-      "max": 16
-    },
-    "unitWorth": 65,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:slime_ball",
-    "amount": {
-      "min": 1,
-      "max": 32
-    },
-    "unitWorth": 60,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:spider_eye",
-    "amount": {
-      "min": 1,
-      "max": 16
-    },
-    "unitWorth": 75,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:string",
-    "amount": {
-      "min": 1,
-      "max": 24
-    },
-    "unitWorth": 35,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:sugar",
-    "amount": {
-      "min": 1,
-      "max": 64
-    },
-    "unitWorth": 55,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:tripwire_hook",
-    "amount": {
-      "min": 1,
-      "max": 8
-    },
-    "unitWorth": 70,
-    "weight": 100
-  },
-  {
-    "content": "minecraft:wheat",
-    "amount": {
-      "min": 1,
-      "max": 48
+      "min": 5,
+      "max": 9
     },
     "unitWorth": 20,
-    "weight": 100
+    "weight": 200
   },
   {
-    "content": "minecraft:leather",
+    "content": "entity:grimoireofgaia:goblin_feral",
     "amount": {
-      "min": 1,
-      "max": 12
+      "min": 4,
+      "max": 6
     },
-    "unitWorth": 90,
-    "weight": 100
+    "unitWorth": 30,
+    "weight": 200
+  },
+  {
+    "content": "entity:grimoireofgaia:kobold",
+    "amount": {
+      "min": 5,
+      "max": 8
+    },
+    "unitWorth": 20,
+    "weight": 200
+  },
+  {
+    "content": "entity:grimoireofgaia:orc",
+    "amount": {
+      "min": 3,
+      "max": 7
+    },
+    "unitWorth": 40,
+    "weight": 200
   },
   {
     "content": "entity:minecraft:zombie",
     "amount": {
-      "min": 1,
-      "max": 8
+      "min": 6,
+      "max": 14
     },
-    "unitWorth": 120,
+    "unitWorth": 15,
     "weight": 300
   },
   {
     "content": "entity:minecraft:skeleton",
     "amount": {
-      "min": 1,
+      "min": 5,
+      "max": 12
+    },
+    "unitWorth": 20,
+    "weight": 300
+  },
+  {
+    "content": "entity:grimoireofgaia:bone_knight",
+    "amount": {
+      "min": 2,
+      "max": 5
+    },
+    "unitWorth": 50,
+    "weight": 150
+  },
+  {
+    "content": "entity:thaumcraft:brainyzombie",
+    "amount": {
+      "min": 3,
       "max": 6
     },
-    "unitWorth": 140,
+    "unitWorth": 40,
+    "weight": 200
+  },
+  {
+    "content": "entity:grimoireofgaia:flesh_lich",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 80,
+    "weight": 150
+  },
+  {
+    "content": "entity:minecraft:spider",
+    "amount": {
+      "min": 5,
+      "max": 12
+    },
+    "unitWorth": 15,
     "weight": 250
   },
   {
-    "content": "minecraft:potion",
+    "content": "entity:minecraft:cave_spider",
+    "amount": {
+      "min": 4,
+      "max": 8
+    },
+    "unitWorth": 25,
+    "weight": 200
+  },
+  {
+    "content": "entity:bewitchment:black_dog",
+    "amount": {
+      "min": 2,
+      "max": 5
+    },
+    "unitWorth": 40,
+    "weight": 150
+  },
+  {
+    "content": "entity:bewitchment:hellhound",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 60,
+    "weight": 150
+  },
+  {
+    "content": "entity:minecraft:witch",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 80,
+    "weight": 150
+  },
+  {
+    "content": "entity:grimoireofgaia:witch",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 80,
+    "weight": 150
+  },
+  {
+    "content": "entity:raids:pillager",
+    "amount": {
+      "min": 3,
+      "max": 6
+    },
+    "unitWorth": 60,
+    "weight": 200
+  },
+  {
+    "content": "entity:minecraft:vindication_illager",
+    "amount": {
+      "min": 2,
+      "max": 5
+    },
+    "unitWorth": 80,
+    "weight": 150
+  },
+  {
+    "content": "entity:grimoireofgaia:illager_inquisitor",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 90,
+    "weight": 120
+  },
+  {
+    "content": "entity:grimoireofgaia:illager_fire",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 90,
+    "weight": 120
+  },
+  {
+    "content": "entity:minecraft:evocation_illager",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 320,
+    "weight": 80
+  },
+  {
+    "content": "entity:raids:ravager",
+    "amount": {
+      "min": 1,
+      "max": 1
+    },
+    "unitWorth": 640,
+    "weight": 60
+  },
+  {
+    "content": "entity:thaumcraft:cultistknight",
+    "amount": {
+      "min": 3,
+      "max": 6
+    },
+    "unitWorth": 70,
+    "weight": 150
+  },
+  {
+    "content": "entity:thaumcraft:cultistcleric",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 90,
+    "weight": 120
+  },
+  {
+    "content": "entity:crimsonrevelations:cultist_archer",
+    "amount": {
+      "min": 3,
+      "max": 6
+    },
+    "unitWorth": 70,
+    "weight": 150
+  },
+  {
+    "content": "entity:grimoireofgaia:vampire",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "entity:grimoireofgaia:banshee",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "entity:grimoireofgaia:minotaur",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 320,
+    "weight": 80
+  },
+  {
+    "content": "entity:grimoireofgaia:dullahan",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 320,
+    "weight": 80
+  },
+  {
+    "content": "farmersdelight:vegetable_soup",
+    "amount": {
+      "min": 2,
+      "max": 6
+    },
+    "unitWorth": 40,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:chicken_soup",
+    "amount": {
+      "min": 2,
+      "max": 6
+    },
+    "unitWorth": 50,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:pumpkin_soup",
+    "amount": {
+      "min": 2,
+      "max": 6
+    },
+    "unitWorth": 50,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:beef_stew",
+    "amount": {
+      "min": 2,
+      "max": 6
+    },
+    "unitWorth": 60,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:fish_stew",
+    "amount": {
+      "min": 2,
+      "max": 6
+    },
+    "unitWorth": 50,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:baked_cod_stew",
+    "amount": {
+      "min": 2,
+      "max": 6
+    },
+    "unitWorth": 50,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:noodle_soup",
+    "amount": {
+      "min": 2,
+      "max": 6
+    },
+    "unitWorth": 50,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:dumplings",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:cabbage_rolls",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:fried_rice",
+    "amount": {
+      "min": 3,
+      "max": 8
+    },
+    "unitWorth": 40,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:egg_sandwich",
+    "amount": {
+      "min": 3,
+      "max": 8
+    },
+    "unitWorth": 30,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:chicken_sandwich",
+    "amount": {
+      "min": 3,
+      "max": 8
+    },
+    "unitWorth": 40,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:hamburger",
+    "amount": {
+      "min": 3,
+      "max": 8
+    },
+    "unitWorth": 40,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:bacon_sandwich",
+    "amount": {
+      "min": 3,
+      "max": 8
+    },
+    "unitWorth": 40,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:mutton_wrap",
+    "amount": {
+      "min": 3,
+      "max": 8
+    },
+    "unitWorth": 40,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:steak_and_potatoes",
+    "amount": {
+      "min": 2,
+      "max": 5
+    },
+    "unitWorth": 70,
+    "weight": 120
+  },
+  {
+    "content": "farmersdelight:pasta_with_meatballs",
+    "amount": {
+      "min": 2,
+      "max": 5
+    },
+    "unitWorth": 70,
+    "weight": 120
+  },
+  {
+    "content": "farmersdelight:pasta_with_mutton_chop",
+    "amount": {
+      "min": 2,
+      "max": 5
+    },
+    "unitWorth": 70,
+    "weight": 120
+  },
+  {
+    "content": "farmersdelight:roast_chicken",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 80
+  },
+  {
+    "content": "farmersdelight:shepherds_pie",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 80
+  },
+  {
+    "content": "farmersdelight:apple_pie",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 140,
+    "weight": 90
+  },
+  {
+    "content": "farmersdelight:chocolate_pie",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 80
+  },
+  {
+    "content": "farmersdelight:sweet_berry_cheesecake",
+    "amount": {
+      "min": 1,
+      "max": 2
+    },
+    "unitWorth": 160,
+    "weight": 80
+  },
+  {
+    "content": "minecraft:leather",
+    "amount": {
+      "min": 6,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 150
+  },
+  {
+    "content": "minecraft:string",
+    "amount": {
+      "min": 8,
+      "max": 24
+    },
+    "unitWorth": 15,
+    "weight": 150
+  },
+  {
+    "content": "minecraft:slime_ball",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 150
+  },
+  {
+    "content": "minecraft:bone",
+    "amount": {
+      "min": 8,
+      "max": 24
+    },
+    "unitWorth": 15,
+    "weight": 150
+  },
+  {
+    "content": "minecraft:gunpowder",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 150
+  },
+  {
+    "content": "minecraft:spider_eye",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 25,
+    "weight": 150
+  },
+  {
+    "content": "minecraft:ender_pearl",
+    "amount": {
+      "min": 2,
+      "max": 4
+    },
+    "unitWorth": 120,
+    "weight": 100
+  },
+  {
+    "content": "farmersdelight:straw",
+    "amount": {
+      "min": 16,
+      "max": 48
+    },
+    "unitWorth": 5,
+    "weight": 150
+  },
+  {
+    "content": "farmersdelight:canvas",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 40,
+    "weight": 150
+  },
+  {
+    "content": "rustic:ironberries",
+    "amount": {
+      "min": 6,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 150
+  },
+  {
+    "content": "rustic:wildberries",
+    "amount": {
+      "min": 6,
+      "max": 16
+    },
+    "unitWorth": 20,
+    "weight": 150
+  },
+  {
+    "content": "bewitchment:aconitum",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 150
+  },
+  {
+    "content": "bewitchment:belladonna",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 150
+  },
+  {
+    "content": "bewitchment:mandrake_root",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 150
+  },
+  {
+    "content": "thaumcraft:amber",
+    "amount": {
+      "min": 3,
+      "max": 8
+    },
+    "unitWorth": 60,
+    "weight": 120
+  },
+  {
+    "content": "thaumcraft:quicksilver",
+    "amount": {
+      "min": 3,
+      "max": 8
+    },
+    "unitWorth": 60,
+    "weight": 120
+  },
+  {
+    "content": "thaumcraft:tallow",
+    "amount": {
+      "min": 4,
+      "max": 12
+    },
+    "unitWorth": 30,
+    "weight": 150
+  },
+  {
+    "content": "thaumcraft:salis_mundus",
     "amount": {
       "min": 1,
       "max": 3
     },
-    "unitWorth": 300,
-    "weight": 100,
-    "nbt_data": "{Potion: \"minecraft:healing\"}"
+    "unitWorth": 240,
+    "weight": 80
   }
 ]

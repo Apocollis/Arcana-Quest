@@ -1,0 +1,182 @@
+{
+  "min": 2,
+  "max": 2,
+  "trades": [
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": {
+          "min": 1,
+          "max": 2
+        }
+      },
+      "output": {
+        "item": "minecraft:lead",
+        "count": 1
+      },
+      "max_uses": 4
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": {
+          "min": 2,
+          "max": 3
+        }
+      },
+      "output": {
+        "item": "minecraft:name_tag",
+        "count": 1
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": {
+          "min": 3,
+          "max": 4
+        }
+      },
+      "output": {
+        "item": "minecraft:saddle",
+        "count": 1
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": 1
+      },
+      "item_2": {
+        "item": "ordinarycoins:coinbronze",
+        "count": 4
+      },
+      "output": {
+        "item": "minecraft:compass",
+        "count": 1
+      },
+      "max_uses": 4
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": 2
+      },
+      "output": {
+        "item": "minecraft:clock",
+        "count": 1
+      },
+      "max_uses": 4
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": 1
+      },
+      "item_2": {
+        "item": "ordinarycoins:coinbronze",
+        "count": 2
+      },
+      "output": {
+        "item": "minecraft:slime_ball",
+        "count": 2
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": 1
+      },
+      "output": {
+        "item": "minecraft:packed_ice",
+        "count": 4
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": 1
+      },
+      "item_2": {
+        "item": "ordinarycoins:coinbronze",
+        "count": 4
+      },
+      "output": {
+        "item": "minecraft:glowstone",
+        "count": 2
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": 1
+      },
+      "item_2": {
+        "item": "ordinarycoins:coinbronze",
+        "count": 2
+      },
+      "output": {
+        "item": "minecraft:gunpowder",
+        "count": 4
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": {
+          "min": 2,
+          "max": 3
+        }
+      },
+      "output": {
+        "item": "minecraft:potion",
+        "count": 1,
+        "nbt": "{Potion:\"minecraft:invisibility\"}"
+      },
+      "max_uses": 1
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": 2
+      },
+      "output": {
+        "item": "rustic:bee",
+        "count": 1
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": 1
+      },
+      "output": {
+        "item": "rustic:honeycomb",
+        "count": 2
+      },
+      "max_uses": 4
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinsilver",
+        "count": 1
+      },
+      "item_2": {
+        "item": "ordinarycoins:coinbronze",
+        "count": 4
+      },
+      "output": {
+        "item": "minecraft:experience_bottle",
+        "count": 4
+      },
+      "max_uses": 4
+    }
+  ]
+}

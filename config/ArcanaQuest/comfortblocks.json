@@ -4951,21 +4951,6 @@
         "mod": "thebetweenlands",
         "comfort_bonus": 1.5,
         "building_requirement": 1
-      },
-      "futuremc:cartography_table": {
-        "mod": "futuremc",
-        "comfort_bonus": 1.5,
-        "building_requirement": 1
-      },
-      "futuremc:smithing_table": {
-        "mod": "futuremc",
-        "comfort_bonus": 1.5,
-        "building_requirement": 1
-      },
-      "futuremc:fletching_table": {
-        "mod": "futuremc",
-        "comfort_bonus": 1.5,
-        "building_requirement": 1
       }
     },
     "tier_2": {

@@ -110,11 +110,6 @@
       "included_in_underarmor": true,
       "temp": 0.0
     },
-    "futuremc:netherite_helmet": {
-      "weight": 1.0,
-      "included_in_underarmor": true,
-      "temp": 0.0
-    },
     "thebetweenlands:spirit_tree_face_small_mask": {
       "weight": 1.0,
       "included_in_underarmor": true,
@@ -1087,11 +1082,6 @@
       "included_in_underarmor": true,
       "temp": 0.0
     },
-    "futuremc:netherite_leggings": {
-      "weight": 1.5,
-      "included_in_underarmor": true,
-      "temp": 0.0
-    },
     "da:flame_leggings": {
       "weight": 1.5,
       "included_in_underarmor": true,
@@ -1614,11 +1604,6 @@
       "included_in_underarmor": true,
       "temp": 0.0
     },
-    "futuremc:netherite_chestplate": {
-      "weight": 2.0,
-      "included_in_underarmor": true,
-      "temp": 0.0
-    },
     "da:enderphrite_chestplate": {
       "weight": 2.0,
       "included_in_underarmor": true,
@@ -2097,11 +2082,6 @@
       "temp": 0.0
     },
     "atum:desert_boots_iron": {
-      "weight": 1.0,
-      "included_in_underarmor": true,
-      "temp": 0.0
-    },
-    "futuremc:netherite_boots": {
       "weight": 1.0,
       "included_in_underarmor": true,
       "temp": 0.0

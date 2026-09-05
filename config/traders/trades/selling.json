@@ -1,0 +1,408 @@
+{
+  "min": 4,
+  "max": 5,
+  "trades": [
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:sapling",
+        "count": 1,
+        "meta": 0
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:sapling",
+        "count": 1,
+        "meta": 1
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:sapling",
+        "count": 1,
+        "meta": 2
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "minecraft:sapling",
+        "count": 1,
+        "meta": 3
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "minecraft:sapling",
+        "count": 1,
+        "meta": 4
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 8,
+          "max": 10
+        }
+      },
+      "output": {
+        "item": "minecraft:sapling",
+        "count": 1,
+        "meta": 5
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 14
+        }
+      },
+      "output": {
+        "item": "biomesoplenty:sapling_0",
+        "count": 1,
+        "meta": {
+          "min": 0,
+          "max": 7
+        }
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 14
+        }
+      },
+      "output": {
+        "item": "biomesoplenty:sapling_1",
+        "count": 1,
+        "meta": {
+          "min": 0,
+          "max": 7
+        }
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 14
+        }
+      },
+      "output": {
+        "item": "biomesoplenty:sapling_2",
+        "count": 1,
+        "meta": {
+          "min": 0,
+          "max": 7
+        }
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:sapling",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "rustic:sapling_apple",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "extradelightlegacy:lemon_sapling",
+        "count": 1
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 12,
+          "max": 14
+        }
+      },
+      "output": {
+        "item": "extradelightlegacy:cinnamon_sapling",
+        "count": 1
+      },
+      "max_uses": 4
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 2,
+          "max": 3
+        }
+      },
+      "output": {
+        "item": "thaumcraft:sapling_greatwood",
+        "count": 1
+      },
+      "max_uses": 4
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coingold",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "thaumcraft:sapling_silverwood",
+        "count": 1
+      },
+      "max_uses": 2
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 10,
+          "max": 12
+        }
+      },
+      "output": {
+        "item": "da:moss_block",
+        "count": 2
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:vine",
+        "count": 3
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:waterlily",
+        "count": 4
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:cactus",
+        "count": 1
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:reeds",
+        "count": 2
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:brown_mushroom",
+        "count": 3
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:red_mushroom",
+        "count": 3
+      },
+      "max_uses": 6
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 12,
+          "max": 14
+        }
+      },
+      "output": {
+        "item": "rustic:mooncap_mushroom",
+        "count": 1
+      },
+      "max_uses": 4
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 12,
+          "max": 14
+        }
+      },
+      "output": {
+        "item": "rustic:deathstalk_mushroom",
+        "count": 1
+      },
+      "max_uses": 4
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:dye",
+        "count": 3,
+        "meta": {
+          "min": 0,
+          "max": 15
+        }
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:sand",
+        "count": 8,
+        "meta": 0
+      },
+      "max_uses": 8
+    },
+    {
+      "item_1": {
+        "item": "ordinarycoins:coinbronze",
+        "count": {
+          "min": 6,
+          "max": 8
+        }
+      },
+      "output": {
+        "item": "minecraft:sand",
+        "count": 4,
+        "meta": 1
+      },
+      "max_uses": 8
+    }
+  ]
+}

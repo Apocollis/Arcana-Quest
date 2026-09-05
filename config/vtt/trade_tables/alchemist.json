@@ -1,0 +1,49 @@
+{ 
+	Profession:"bewitchment:alchemist", 
+	Career:"bewitchment.alchemist",
+
+	Offers:{
+		Recipes:[
+		
+			{action:"clear"},
+
+			// --- Level 1: Apprentice Herbalist & Glassware ---
+			{action:"add", buy:{id:"bewitchment:salt",Count:{min:12,max:16}},sell:{id:"ordinarycoins:coinbronze",Count:{min:8,max:10}}, CareerLevel:1},
+			{action:"add", buy:{id:"rustic:chamomile",Count:{min:8,max:10}},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}}, CareerLevel:1},
+			{action:"add", buy:{id:"rustic:horsetail",Count:{min:8,max:10}},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}}, CareerLevel:1},
+			{action:"add", buy:{id:"rustic:aloe_vera",Count:{min:8,max:10}},sell:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:4,max:6}},sell:{id:"minecraft:glass_bottle",Count:8}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:6,max:8}},sell:{id:"bewitchment:salt",Count:16}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:18}},sell:{id:"rustic:condenser",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"minecraft:instant_health",Duration:1,Amplifier:0}]}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"minecraft:speed",Duration:3600,Amplifier:0}]}}, CareerLevel:1},
+
+			// --- Level 2: Journeyman Brewer & Distillation ---
+			{action:"add", buy:{id:"rustic:blood_orchid",Count:{min:6,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}, CareerLevel:2},
+			{action:"add", buy:{id:"rustic:wind_thistle",Count:{min:6,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}, CareerLevel:2},
+			{action:"add", buy:{id:"rustic:marsh_mallow",Count:{min:6,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:18}},sell:{id:"rustic:retort",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:16}},sell:{id:"rustic:evaporating_basin",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:20}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"minecraft:regeneration",Duration:900,Amplifier:0}]}}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:20}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"minecraft:strength",Duration:3600,Amplifier:0}]}}, CareerLevel:2},
+
+			// --- Level 3: Master Apothecary & Advanced Alembics ---
+			{action:"add", buy:{id:"rustic:core_root",Count:{min:6,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:3},
+			{action:"add", buy:{id:"rustic:ginseng",Count:{min:6,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:3},
+			{action:"add", buy:{id:"rustic:cohosh",Count:{min:6,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:3},
+			{action:"add", buy:{id:"rustic:cloudsbluff",Count:{min:6,max:8}},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:1},buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},sell:{id:"rustic:condenser_advanced",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:1},buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},sell:{id:"rustic:retort_advanced",Count:1}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:22,max:26}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"rustic:iron_skin",Duration:3600,Amplifier:0}]}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:22,max:26}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"rustic:feather",Duration:3600,Amplifier:0}]}}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:22,max:26}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"rustic:blazing_trail",Duration:3600,Amplifier:0}]}}, CareerLevel:3},
+
+			// --- Level 4: Grand Alchemist (Master Elixirs) ---
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:34}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"minecraft:night_vision",Duration:3600,Amplifier:0}]}}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"minecraft:invisibility",Duration:3600,Amplifier:0}]}}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},sell:{id:"rustic:elixir",Count:1,tag:{ElixirEffects:[{Effect:"minecraft:fire_resistance",Duration:3600,Amplifier:0}]}}, CareerLevel:4}
+
+		]
+	}
+
+}

@@ -1,0 +1,21 @@
+{ 
+	Profession:"thaumcraft:thaumaturge", 
+	Career:"wellness_coach",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+
+		
+			// --- Level 1 ---
+			{action:"add", buy:{id:"thaumcraft:salis_mundus",Count:{min:3,max:4}},sell:{id:"ordinarycoins:coinsilver",Count:{min:6,max:8}}, CareerLevel:1},
+			{action:"add", buy:{id:"thaumcraft:vishroom",Count:{min:3,max:4}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:20}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:14,max:18}},sell:{id:"crimsonrevelations:thaumic_litmus_paper",Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:2,max:4}},sell:{id:"thaumcraft:bath_salts",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:1},sell:{id:"thaumcraft:sanity_soap",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:2},sell:{id:"thaumcraft:sanity_checker",Count:1}, CareerLevel:1}
+
+		]
+	}
+
+}

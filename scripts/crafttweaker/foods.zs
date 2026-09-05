@@ -35,6 +35,7 @@ CookingPot.addRecipeWithContainer(
 );
 
 // Honey Glazed Ham (Produces Placeable Feast Block)
+recipes.remove(<farmersdelight:honey_glazed_ham_block>);
 CookingPot.removeRecipesByOutput(<farmersdelight:honey_glazed_ham_block>);
 CookingPot.removeRecipesByOutput(<farmersdelight:honey_glazed_ham>);
 CookingPot.addRecipeWithContainer(

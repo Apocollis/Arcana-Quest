@@ -1,0 +1,13 @@
+{
+	profession: {
+		name: "thaumcraft:thaumaturge",
+		texture: "crimsonrevelations:textures/entity/villager/thaumaturge.png",
+		zombieTexture: "crimsonrevelations:textures/entity/villager/zombie/zombie_thaumaturge.png"
+	},
+	careers: [
+		"thaumaturge",
+		"astronomer",
+		"theorist",
+		"wellness_coach"
+	]
+}
