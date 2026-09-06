@@ -57,23 +57,23 @@ recipes.remove(<witherskelefix:blade2>);
   
 # EFFORTLESS BUILDING
 
-recipes.remove(<effortlessbuilding:reach_upgrade1>);
-recipes.addShaped(<effortlessbuilding:reach_upgrade1>,
- [[<ore:gemEmerald>, <minecraft:obsidian>, <ore:gemEmerald>],
-  [<minecraft:obsidian>, <ore:cobblestone>, <minecraft:obsidian>],
-  [<ore:gemEmerald>, <minecraft:obsidian>, <ore:gemEmerald>]]);
+// recipes.remove(<effortlessbuilding:reach_upgrade1>);
+// recipes.addShaped(<effortlessbuilding:reach_upgrade1>,
+ // [[<ore:gemEmerald>, <minecraft:obsidian>, <ore:gemEmerald>],
+  // [<minecraft:obsidian>, <ore:cobblestone>, <minecraft:obsidian>],
+  // [<ore:gemEmerald>, <minecraft:obsidian>, <ore:gemEmerald>]]);
   
-recipes.remove(<effortlessbuilding:reach_upgrade2>);
-recipes.addShaped(<effortlessbuilding:reach_upgrade2>,
- [[<ore:gemDiamond>, <minecraft:obsidian>, <ore:gemDiamond>],
-  [<minecraft:obsidian>, <effortlessbuilding:reach_upgrade1>, <minecraft:obsidian>],
-  [<ore:gemDiamond>, <minecraft:obsidian>, <ore:gemDiamond>]]);
+// recipes.remove(<effortlessbuilding:reach_upgrade2>);
+// recipes.addShaped(<effortlessbuilding:reach_upgrade2>,
+ // [[<ore:gemDiamond>, <minecraft:obsidian>, <ore:gemDiamond>],
+  // [<minecraft:obsidian>, <effortlessbuilding:reach_upgrade1>, <minecraft:obsidian>],
+  // [<ore:gemDiamond>, <minecraft:obsidian>, <ore:gemDiamond>]]);
   
-recipes.remove(<effortlessbuilding:reach_upgrade3>);
-recipes.addShaped(<effortlessbuilding:reach_upgrade3>,
- [[<ore:gemAmethyst>, <minecraft:obsidian>, <ore:gemAmethyst>],
-  [<minecraft:obsidian>, <effortlessbuilding:reach_upgrade2>, <minecraft:obsidian>],
-  [<ore:gemAmethyst>, <minecraft:obsidian>, <ore:gemAmethyst>]]);
+// recipes.remove(<effortlessbuilding:reach_upgrade3>);
+// recipes.addShaped(<effortlessbuilding:reach_upgrade3>,
+ // [[<ore:gemAmethyst>, <minecraft:obsidian>, <ore:gemAmethyst>],
+  // [<minecraft:obsidian>, <effortlessbuilding:reach_upgrade2>, <minecraft:obsidian>],
+  // [<ore:gemAmethyst>, <minecraft:obsidian>, <ore:gemAmethyst>]]);
 
   
 # ANTIQUE ATLAS
@@ -110,19 +110,7 @@ recipes.remove(<earthworks:tool_iron_hammer>);
 recipes.remove(<earthworks:tool_gold_hammer>);
 recipes.remove(<earthworks:tool_diamond_hammer>);
 
-  
-# FARMING FOR BLOCKHEADS
 
-recipes.remove(<farmingforblockheads:fertilizer:*>);
-
-recipes.addShapeless(<farmingforblockheads:fertilizer:0>,
- [<minecraft:dirt>, <ore:dyeRed>, <ore:bonemeal>, <ore:bonemeal>]);
- 
-recipes.addShapeless(<farmingforblockheads:fertilizer:1>,
- [<minecraft:dirt>, <ore:dyeGreen>, <ore:bonemeal>, <ore:bonemeal>]);
- 
-recipes.addShapeless(<farmingforblockheads:fertilizer:2>,
- [<minecraft:dirt>, <ore:dyeYellow>, <ore:bonemeal>, <ore:bonemeal>]);
  
 # NETHER EX
 
@@ -189,7 +177,6 @@ recipes.addShapeless(<metallurgy:quicksilver_ingot> * 9,
 # Gating Atum Scarab with Embers Stamper (stamping molten gold onto a diamond)
 recipes.remove(<atum:scarab>);
 mods.embers.Stamper.add(<atum:scarab>, <liquid:gold> * 144, <embers:stamp_bar>, <minecraft:diamond>);
-
 
 
 # TEA THE STORY

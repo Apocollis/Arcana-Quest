@@ -5,16 +5,58 @@
 	
 		// MISC FOODS
 		
-				{
+		{
 			"name": "minecraft:bread",
 			"meta": 0,
-			"hunger": 7,
-			"saturationModifier": 0.5714
+			"hunger": 8,
+			"saturationModifier": 0.5
 		},
 		{
 			"name": "extradelightlegacy:roll",
 			"meta": 0,
-			"hunger": 4,
+			"hunger": 3,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "extradelightlegacy:bread_slice",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "extradelightlegacy:fruit_bread",
+			"meta": 0,
+			"hunger": 9,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "extradelightlegacy:cornbread",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.65
+		},
+		{
+			"name": "extradelightlegacy:monkey_bread",
+			"meta": 0,
+			"hunger": 5,
+			"saturationModifier": 0.6
+		},
+		{
+			"name": "bewitchment:garlic_bread",
+			"meta": 0,
+			"hunger": 9,
+			"saturationModifier": 0.8
+		},
+		{
+			"name": "atum:emmer_bread",
+			"meta": 0,
+			"hunger": 8,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "da:dungeon_bread",
+			"meta": 0,
+			"hunger": 6,
 			"saturationModifier": 0.6
 		},
 {
@@ -175,6 +217,168 @@
 		},
 		{
 			"name": "contenttweaker:bottled_purifying_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "farmersdelight:melon_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "farmersdelight:apple_cider",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "farmersdelight:milk_bottle",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:apple_cider",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:cactus_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:glow_berry_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:grapefruit_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:lemon_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:lime_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:melon_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:orange_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:sweet_berry_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:tomato_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:soy_milk",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:chocolate_milk",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "ends_delight:bubble_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "ends_delight:chorus_flower_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "ends_delight:chorus_fruit_milk_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "ends_delight:chorus_fruit_wine",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "ends_delight:dragon_breath_soda",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "twilightdelight:phytochemical_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "twilightdelight:torchberry_juice",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "twilightdelight:glacier_ice_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "twilightdelight:thorn_rose_tea",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "twilightdelight:tear_drink",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "twilightdelight:milky_113",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "bewitchment:juniper_tea",
 			"meta": 0,
 			"hunger": 0,
 			"saturationModifier": 0.0

@@ -1,4 +1,244 @@
 {
+  "twilightdelight:thorn_rose_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_white_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 8.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:chocolate_milk": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 2.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "twilightdelight:glacier_ice_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_purifying_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 8.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:orange_juice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "twilightdelight:phytochemical_juice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "twilightdelight:torchberry_juice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_green_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 8.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_white_infused_tea_base": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 8.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:melon_juice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "farmersdelight:melon_juice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "bewitchment:juniper_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "minecraft:milk_bucket": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 4,
+      "saturation": 1.0,
+      "thirstyChance": 0.2
+    }
+  ],
+  "contenttweaker:bottled_black_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 8.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "twilightdelight:milky_113": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 2.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "animania:milk_bottle": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 2.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "ends_delight:dragon_breath_soda": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "ends_delight:chorus_fruit_milk_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "contenttweaker:bottled_milk_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 8.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "ends_delight:chorus_fruit_wine": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:apple_cider": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:soy_milk": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 2.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "farmersdelight:apple_cider": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
   "rustic:elixir": [
     {
       "identity": {
@@ -9,23 +249,23 @@
       "thirstyChance": 0.25
     }
   ],
-  "contenttweaker:bottled_white_tea": [
+  "twilightdelight:tear_drink": [
     {
       "identity": {
         "metadata": -1
       },
       "amount": 6,
-      "saturation": 5.0,
+      "saturation": 4.0,
       "thirstyChance": 0.0
     }
   ],
-  "contenttweaker:bottled_purifying_tea": [
+  "extradelightlegacy:sweet_berry_juice": [
     {
       "identity": {
         "metadata": -1
       },
-      "amount": 6,
-      "saturation": 5.0,
+      "amount": 8,
+      "saturation": 4.0,
       "thirstyChance": 0.0
     }
   ],
@@ -53,8 +293,8 @@
         "metadata": -1,
         "nbt": "{Fluid:{FluidName:\"wildberryjuice\"}}"
       },
-      "amount": 6,
-      "saturation": 5.0,
+      "amount": 8,
+      "saturation": 4.0,
       "thirstyChance": 0.0
     },
     {
@@ -62,8 +302,8 @@
         "metadata": -1,
         "nbt": "{Fluid:{FluidName:\"grapejuice\"}}"
       },
-      "amount": 6,
-      "saturation": 5.0,
+      "amount": 8,
+      "saturation": 4.0,
       "thirstyChance": 0.0
     },
     {
@@ -71,8 +311,8 @@
         "metadata": -1,
         "nbt": "{Fluid:{FluidName:\"applejuice\"}}"
       },
-      "amount": 6,
-      "saturation": 5.0,
+      "amount": 8,
+      "saturation": 4.0,
       "thirstyChance": 0.0
     },
     {
@@ -148,23 +388,13 @@
       "thirstyChance": 0.25
     }
   ],
-  "contenttweaker:bottled_green_tea": [
+  "extradelightlegacy:lemon_juice": [
     {
       "identity": {
         "metadata": -1
       },
-      "amount": 6,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "contenttweaker:bottled_white_infused_tea_base": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "amount": 6,
-      "saturation": 5.0,
+      "amount": 8,
+      "saturation": 4.0,
       "thirstyChance": 0.0
     }
   ],
@@ -174,7 +404,7 @@
         "metadata": -1
       },
       "amount": 6,
-      "saturation": 5.0,
+      "saturation": 8.0,
       "thirstyChance": 0.0
     }
   ],
@@ -184,18 +414,38 @@
         "metadata": -1
       },
       "amount": 6,
-      "saturation": 5.0,
+      "saturation": 8.0,
       "thirstyChance": 0.0
     }
   ],
-  "minecraft:milk_bucket": [
+  "ends_delight:bubble_tea": [
     {
       "identity": {
         "metadata": -1
       },
-      "amount": 4,
-      "saturation": 1.0,
-      "thirstyChance": 0.2
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "farmersdelight:milk_bottle": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 2.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "ends_delight:chorus_flower_tea": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
     }
   ],
   "contenttweaker:bottled_matcha_tea": [
@@ -204,17 +454,7 @@
         "metadata": -1
       },
       "amount": 6,
-      "saturation": 5.0,
-      "thirstyChance": 0.0
-    }
-  ],
-  "contenttweaker:bottled_black_tea": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "amount": 6,
-      "saturation": 5.0,
+      "saturation": 8.0,
       "thirstyChance": 0.0
     }
   ],
@@ -224,7 +464,7 @@
         "metadata": -1
       },
       "amount": 6,
-      "saturation": 5.0,
+      "saturation": 8.0,
       "thirstyChance": 0.0
     }
   ],
@@ -234,7 +474,7 @@
         "metadata": -1
       },
       "amount": 6,
-      "saturation": 5.0,
+      "saturation": 8.0,
       "thirstyChance": 0.0
     }
   ],
@@ -244,17 +484,47 @@
         "metadata": -1
       },
       "amount": 6,
-      "saturation": 5.0,
+      "saturation": 8.0,
       "thirstyChance": 0.0
     }
   ],
-  "contenttweaker:bottled_milk_tea": [
+  "extradelightlegacy:glow_berry_juice": [
     {
       "identity": {
         "metadata": -1
       },
-      "amount": 6,
-      "saturation": 5.0,
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:cactus_juice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:grapefruit_juice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:lime_juice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
       "thirstyChance": 0.0
     }
   ],
@@ -264,7 +534,27 @@
         "metadata": -1
       },
       "amount": 6,
-      "saturation": 5.0,
+      "saturation": 8.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "simpledifficulty:purified_water_bottle": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 10.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:tomato_juice": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
       "thirstyChance": 0.0
     }
   ]

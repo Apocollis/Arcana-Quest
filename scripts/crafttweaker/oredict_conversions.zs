@@ -8,7 +8,8 @@ oreRope.add(<farmersdelight:rope>);
 
 // 2. Canonical Tomato & Chili
 val oreTomato = <ore:cropTomato>;
-oreTomato.add(<farmersdelight:tomato>);
+oreTomato.add(<rustic:tomato>);
+<ore:tomato>.add(<rustic:tomato>);
 
 val oreChili = <ore:cropChili>;
 oreChili.add(<rustic:chili_pepper>);
