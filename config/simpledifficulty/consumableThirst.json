@@ -39,6 +39,16 @@
       "thirstyChance": 0.0
     }
   ],
+  "extradelightlegacy:punch": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
   "contenttweaker:bottled_purifying_tea": [
     {
       "identity": {
@@ -169,6 +179,16 @@
       "thirstyChance": 0.0
     }
   ],
+  "farmersdelight:hot_cocoa": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
   "ends_delight:dragon_breath_soda": [
     {
       "identity": {
@@ -176,6 +196,16 @@
       },
       "amount": 6,
       "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "extradelightlegacy:eggnog": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 5.0,
       "thirstyChance": 0.0
     }
   ],

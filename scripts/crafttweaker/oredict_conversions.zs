@@ -38,3 +38,15 @@ for ore in saltOres {
     ore.add(<bewitchment:salt>);
 }
 
+// 6. Glow Berry unification (Dungeon Additions)
+val oreGlowBerry = <ore:cropBerryGlow>;
+oreGlowBerry.add(<da:glow_berry>);
+
+// 7. Kelp unification (Biomes O Plenty)
+val oreKelp = <ore:cropKelp>;
+oreKelp.add(<biomesoplenty:seaweed>);
+<ore:kelp>.add(<biomesoplenty:seaweed>);
+<ore:foodKelpDried>.add(<biomesoplenty:seaweed>);
+<ore:mayBeKelp>.remove(<minecraft:reeds>);
+<ore:mayBeKelp>.add(<biomesoplenty:seaweed>);
+

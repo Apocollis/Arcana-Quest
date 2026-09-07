@@ -63,12 +63,6 @@
       "result": "allow",
       "onjoin": true
     },
-// Allow Dark Druid spawning during night (nighttime bypass rule)
-  {
-      "mob": "thebetweenlands:dark_druid",
-      "result": "allow",
-      "onjoin": true
-    },
 // Allow Dragon tier mobs underground (Y <= 55) if player has 'dragon' stage and count is under limit (1 per player)
   {
       "mob": [

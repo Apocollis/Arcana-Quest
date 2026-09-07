@@ -29,3 +29,8 @@ mods.jei.JEI.hide(<extradelightlegacy:cocoa_solids>);
 mods.jei.JEI.hide(<extradelightlegacy:roasted_cocoa_beans>);
 mods.jei.JEI.hide(<extradelightlegacy:chocolate_orange>);
 
+# Hide redundant sweet berry juice items in favor of Rustic Wildberry Juice
+mods.jei.JEI.hide(<extradelightlegacy:sweet_berry_juice>);
+mods.jei.JEI.hide(<extradelightlegacy:sweet_berry_juice_fluid_bucket>);
+
+

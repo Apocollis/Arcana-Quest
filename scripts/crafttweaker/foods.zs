@@ -678,10 +678,6 @@ Oven.add("aq_oven_grilled_grapefruit", [<ore:processedGrapefruit>, <ore:processe
 Oven.removeByOutput(<extradelightlegacy:stuffed_mushrooms>);
 Oven.add("aq_oven_stuffed_mushrooms", [<ore:foodMushroom>, <ore:cheese>, <ore:foodButter>, <ore:breadcrumbs>] as IIngredient[], <extradelightlegacy:tray>, <extradelightlegacy:stuffed_mushrooms> * 4, 200, false);
 
-// Chicken Kiev
-Oven.removeByOutput(<extradelightlegacy:chicken_kiev>);
-Oven.add("aq_oven_chicken_kiev", [<ore:foodChickenRaw>, <ore:foodButter>, <ore:processedGarlic>, <ore:breadcrumbs>] as IIngredient[], <extradelightlegacy:tray>, <extradelightlegacy:chicken_kiev> * 2, 200, false);
-
 // Egg in the Basket
 Oven.removeByOutput(<extradelightlegacy:egg_in_the_basket>);
 Oven.add("aq_oven_egg_in_the_basket", [<ore:breadSliced>, <ore:egg>, <ore:foodButter>] as IIngredient[], <extradelightlegacy:tray>, <extradelightlegacy:egg_in_the_basket>, 200, false);
@@ -897,6 +893,8 @@ Oven.add("aq_cheesecake_wildberry", [<rustic:wildberries>, <rustic:wildberries>,
 <extradelightlegacy:sweet_berry_custard>.displayName = "Wildberry Custard";
 <extradelightlegacy:sweet_berry_juice>.displayName = "Wildberry Juice";
 <extradelightlegacy:sweet_berry_juice_fluid_bucket>.displayName = "Wildberry Juice Bucket";
+<extradelightlegacy:dynamic_jam:11>.displayName = "Wildberry Jam";
+<extradelightlegacy:jam>.displayName = "Wildberry Jam";
 
 // Localizations (Active Items Only)
 game.setLocalization("en_us", "tile.farmersdelight.sweet_berry_cheesecake.name", "Wildberry Cheesecake");
@@ -910,8 +908,33 @@ game.setLocalization("en_us", "item.extradelightlegacy.sweet_berry_ice_cream.nam
 game.setLocalization("en_us", "item.extradelightlegacy.sweet_berry_custard.name", "Wildberry Custard");
 game.setLocalization("en_us", "item.extradelightlegacy.sweet_berry_juice.name", "Wildberry Juice");
 game.setLocalization("en_us", "item.extradelightlegacy.sweet_berry_juice_fluid_bucket.name", "Wildberry Juice Bucket");
+game.setLocalization("en_us", "item.extradelightlegacy.jam.name", "Wildberry Jam");
 game.setLocalization("en_us", "extradelightlegacy.jam.sweet_berries", "Wildberry Jam");
 game.setLocalization("en_us", "extradelightlegacy.dynamic_toast.topping.sweet_berries_jam", "Wildberry Jam");
+
+// Cooking Pot: Wildberry Jam
+CookingPot.removeRecipesByOutput(<extradelightlegacy:dynamic_jam:11>);
+CookingPot.addRecipeWithContainer(
+    "aq_jam_wildberry",
+    [
+        <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
+        <ore:edlSweetener> | <minecraft:sugar>,
+        <ore:edlSweetener> | <minecraft:sugar>
+    ] as IIngredient[],
+    <extradelightlegacy:dynamic_jam:11>,
+    <minecraft:glass_bottle>
+);
+CookingPot.addRecipeWithContainer(
+    "aq_jam_wildberry_fruit",
+    [
+        <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
+        <rustic:wildberries>,
+        <ore:edlSweetener> | <minecraft:sugar>,
+        <ore:edlSweetener> | <minecraft:sugar>
+    ] as IIngredient[],
+    <extradelightlegacy:dynamic_jam:11>,
+    <minecraft:glass_bottle>
+);
 
 // ==========================================
 // 18. Tomato Canonicalization (Rustic)
@@ -955,10 +978,31 @@ CrushingTub.removeRecipe(<rustic:honeycomb>);
 CrushingTub.addRecipe(<liquid:honey> * 250, <rustic:beeswax>, <rustic:honeycomb>);
 
 // Extra Delight Juicer Recipes
-Juicer.add("aq_juice_wildberry", <rustic:wildberries>, null, <liquid:sweet_berry_juice> * 250, 0);
+Juicer.remove("sweet_berries");
+Juicer.add("aq_juice_wildberry", <rustic:wildberries>, null, <liquid:wildberryjuice> * 250, 0);
 Juicer.add("aq_juice_grape", <rustic:grapes>, null, <liquid:grapejuice> * 250, 0);
-Juicer.add("aq_juice_tomato", <rustic:tomato>, <minecraft:dye:1>, <liquid:tomato_juice> * 250, 25);
 Juicer.add("aq_juice_honeycomb", <rustic:honeycomb>, <rustic:beeswax>, <liquid:honey> * 250, 100);
+
+// Juice Canonicalization & Conversions
+recipes.addShapeless("aq_edl_sweet_berry_to_wildberry_juice", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}), [<extradelightlegacy:sweet_berry_juice>]);
+
+// 4x Rustic Wildberry Juice Bottle -> 1x Wildberry Juice Bucket
+recipes.addShapeless("aq_wildberry_juice_bottles_to_bucket", <forge:bucketfilled>.withTag({FluidName: "wildberryjuice", Amount: 1000}), [
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
+    <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
+    <minecraft:bucket>
+]);
+
+// 1x Wildberry Juice Bucket -> 4x Rustic Wildberry Juice Bottle + Empty Bucket
+recipes.addShapeless("aq_wildberry_juice_bucket_to_bottles", <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}) * 4, [
+    <forge:bucketfilled>.withTag({FluidName: "wildberryjuice", Amount: 1000}),
+    <minecraft:glass_bottle>,
+    <minecraft:glass_bottle>,
+    <minecraft:glass_bottle>,
+    <minecraft:glass_bottle>
+]);
 
 // ==========================================
 // 20. Beeswax Smelting Removal
@@ -1137,5 +1181,45 @@ Chiller.add(
     <extradelightlegacy:mint_chip_ice_cream>,
     800,
     true
+);
+
+// ==========================================
+// 26. Cinnamon Rolls Feast (Frosting Replacement)
+// ==========================================
+
+// Extra Delight requires frosting_white enabled to register cinnamon_rolls_feast in Java.
+// We remove its recipe and hide it in JEI so players craft the feast with milk + sugar instead.
+recipes.remove(<extradelightlegacy:frosting_white>);
+JEI.hide(<extradelightlegacy:frosting_white>);
+
+Oven.removeByOutput(<extradelightlegacy:cinnamon_rolls_feast>);
+Oven.add(
+    "aq_cinnamon_rolls_feast",
+    [
+        <farmersdelight:wheat_dough> | <ore:dough>,
+        <ore:edlSweetener> | <minecraft:sugar>,
+        <ore:butter> | <extradelightlegacy:butter>,
+        <extradelightlegacy:ground_cinnamon> | <ore:cinnamonGround>,
+        <ore:listAllmilk> | <minecraft:milk_bucket>,
+        <minecraft:sugar> | <ore:edlSweetener>
+    ] as IIngredient[],
+    <extradelightlegacy:square_pan>,
+    <extradelightlegacy:cinnamon_rolls_feast>,
+    800,
+    false
+);
+
+// ==========================================
+// 27. Kelp Roll (BOP Seaweed)
+// ==========================================
+
+recipes.remove(<farmersdelight:kelp_roll>);
+recipes.addShaped(
+    "aq_kelp_roll",
+    <farmersdelight:kelp_roll>,
+    [
+        [<farmersdelight:cooked_rice>, <minecraft:carrot>, <farmersdelight:cooked_rice>],
+        [<biomesoplenty:seaweed>, <biomesoplenty:seaweed>, <biomesoplenty:seaweed>]
+    ]
 );
 

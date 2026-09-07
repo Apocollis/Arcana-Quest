@@ -382,6 +382,24 @@
 			"meta": 0,
 			"hunger": 0,
 			"saturationModifier": 0.0
+		},
+		{
+			"name": "farmersdelight:hot_cocoa",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:eggnog",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
+			"name": "extradelightlegacy:punch",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
 		}
 		
 	]
