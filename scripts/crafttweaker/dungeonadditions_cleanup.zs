@@ -8,7 +8,8 @@ val daItemsToHide = [
     <da:copper_coin>,
     <da:silver_coin>,
     <da:golden_coin>,
-    <da:trader_bag>
+    <da:trader_bag>,
+    <da:pistol_trinket>
 ] as IItemStack[];
 
 for item in daItemsToHide {

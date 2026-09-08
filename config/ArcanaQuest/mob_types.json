@@ -14,10 +14,8 @@
     "lycanitesmobs:shade"
   ],
   "aquatic": [
-    "grimoireofgaia:cecaelia",
     "grimoireofgaia:mermaid",
     "grimoireofgaia:selkie",
-    "grimoireofgaia:sharko",
     "grimoireofgaia:siren"
   ],
   "avian": [
@@ -103,15 +101,16 @@
     "grimoireofgaia:shaman",
     "grimoireofgaia:valkyrie",
     "thebetweenlands:dark_druid",
-	"minecraft:witch",
 	"minecraft:enderman"
   ],
   "illager": [
     "grimoireofgaia:illager_fire",
     "grimoireofgaia:illager_inquisitor",
+	"raids:pillager",
 	"minecraft:vindication_illager",
 	"minecraft:illusion_illager",
-	"minecraft:evocation_illager"
+	"minecraft:evocation_illager",
+	"minecraft:witch",
   ],
   "insect": [
     "lycanitesmobs:eyewig",
@@ -160,6 +159,7 @@
     "lycanitesmobs:spectre",
     "lycanitesmobs:wendigo",
     "lycanitesmobs:wraith",
+	"charm:spectre",
 	"minecraft:zombie",
 	"minecraft:skeleton",
 	"minecraft:zombie_villager",

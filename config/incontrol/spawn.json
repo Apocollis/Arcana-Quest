@@ -189,7 +189,6 @@
         "grimoireofgaia:gelatinous_slime",
         "grimoireofgaia:minotaurus",
         "grimoireofgaia:vampire",
-        "lycanitesmobs:cephignis",
         "lycanitesmobs:eechetik",
         "lycanitesmobs:gorger",
         "lycanitesmobs:grigori",
@@ -222,7 +221,6 @@
         "grimoireofgaia:gelatinous_slime",
         "grimoireofgaia:minotaurus",
         "grimoireofgaia:vampire",
-        "lycanitesmobs:cephignis",
         "lycanitesmobs:eechetik",
         "lycanitesmobs:gorger",
         "lycanitesmobs:grigori",
@@ -254,7 +252,6 @@
         "grimoireofgaia:gelatinous_slime",
         "grimoireofgaia:minotaurus",
         "grimoireofgaia:vampire",
-        "lycanitesmobs:cephignis",
         "lycanitesmobs:eechetik",
         "lycanitesmobs:gorger",
         "lycanitesmobs:grigori",
@@ -267,7 +264,7 @@
       ],
       "gamestage": "elite",
       "maxcount": {
-        "amount": 2,
+        "amount": 3,
         "perplayer": true
       },
       "dimension": 0,
@@ -294,7 +291,6 @@
         "grimoireofgaia:naga",
         "grimoireofgaia:nine_tails",
         "grimoireofgaia:shaman",
-        "grimoireofgaia:sharko",
         "grimoireofgaia:sphinx",
         "grimoireofgaia:spriggan",
         "grimoireofgaia:valkyrie",
@@ -302,7 +298,6 @@
         "grimoireofgaia:witch",
         "grimoireofgaia:yeti",
         "grimoireofgaia:yuki-onna",
-        "lycanitesmobs:cephignis",
         "lycanitesmobs:cockatrice",
         "lycanitesmobs:crusk",
         "lycanitesmobs:eechetik",
@@ -323,7 +318,7 @@
       ],
       "gamestage": "elite",
       "maxcount": {
-        "amount": 2,
+        "amount": 3,
         "perplayer": true
       },
       "result": "default",
@@ -345,7 +340,6 @@
         "grimoireofgaia:naga",
         "grimoireofgaia:nine_tails",
         "grimoireofgaia:shaman",
-        "grimoireofgaia:sharko",
         "grimoireofgaia:sphinx",
         "grimoireofgaia:spriggan",
         "grimoireofgaia:valkyrie",
@@ -353,7 +347,6 @@
         "grimoireofgaia:witch",
         "grimoireofgaia:yeti",
         "grimoireofgaia:yuki-onna",
-        "lycanitesmobs:cephignis",
         "lycanitesmobs:cockatrice",
         "lycanitesmobs:crusk",
         "lycanitesmobs:eechetik",
@@ -424,6 +417,21 @@
       "result": "deny",
       "onjoin": true
     },
+// Allow structure-specific mobs to spawn in 'Mineshaft'
+  {
+      "mob": [
+        "grimoireofgaia:illager_fire",
+        "grimoireofgaia:illager_inquisitor",
+        "minecraft:evocation_illager",
+        "minecraft:illusion_illager",
+        "minecraft:vindication_illager",
+        "minecraft:witch",
+        "raids:pillager"
+      ],
+      "dimension": 0,
+      "structure": "Mineshaft",
+      "result": "allow"
+    },
 // Restrict surface-only mobs to above Y 60 or where sky is visible
   {
       "mob": [
@@ -443,7 +451,6 @@
         "grimoireofgaia:satyress",
         "grimoireofgaia:selkie",
         "grimoireofgaia:shaman",
-        "grimoireofgaia:sharko",
         "grimoireofgaia:siren",
         "grimoireofgaia:sludge_girl",
         "grimoireofgaia:sphinx",
@@ -470,7 +477,6 @@
         "lycanitesmobs:geken",
         "lycanitesmobs:gorgomite",
         "lycanitesmobs:jabberwock",
-        "lycanitesmobs:kobold",
         "lycanitesmobs:maug",
         "lycanitesmobs:morock",
         "lycanitesmobs:necrovore",
@@ -508,12 +514,14 @@
 // Restrict underground-only mobs to below Y 60
   {
       "mob": [
+        "charm:spectre",
         "grimoireofgaia:arachne",
         "grimoireofgaia:dwarf",
         "lycanitesmobs:beholder",
         "lycanitesmobs:chupacabra",
         "lycanitesmobs:clink",
         "lycanitesmobs:darkling",
+        "lycanitesmobs:kobold",
         "lycanitesmobs:krake",
         "lycanitesmobs:shade",
         "minecraft:cave_spider"
@@ -561,10 +569,6 @@
         "lycanitesmobs:ent",
         "lycanitesmobs:reaper",
         "lycanitesmobs:cinder",
-        "lycanitesmobs:abaia",
-        "lycanitesmobs:abtu",
-        "lycanitesmobs:roa",
-        "lycanitesmobs:skylus",
         "lycanitesmobs:zephyr",
         "lycanitesmobs:xaphan",
         "lycanitesmobs:tremor",
@@ -583,10 +587,6 @@
         "lycanitesmobs:ent",
         "lycanitesmobs:reaper",
         "lycanitesmobs:cinder",
-        "lycanitesmobs:abaia",
-        "lycanitesmobs:abtu",
-        "lycanitesmobs:roa",
-        "lycanitesmobs:skylus",
         "lycanitesmobs:zephyr",
         "lycanitesmobs:xaphan",
         "lycanitesmobs:tremor",
@@ -615,6 +615,82 @@
       "onjoin": true,
       "dimension": 0,
       "result": "deny"
+    },
+// Allow hostile non-undead surface creatures to spawn during daytime
+  {
+      "mob": [
+        "grimoireofgaia:centaur",
+        "grimoireofgaia:dryad",
+        "grimoireofgaia:goblin_feral",
+        "grimoireofgaia:gryphon",
+        "grimoireofgaia:harpy",
+        "grimoireofgaia:hunter",
+        "grimoireofgaia:matango",
+        "grimoireofgaia:orc",
+        "grimoireofgaia:satyress",
+        "grimoireofgaia:sporeling",
+        "grimoireofgaia:toad",
+        "grimoireofgaia:werecat",
+        "lycanitesmobs:barghest",
+        "lycanitesmobs:bobeko",
+        "lycanitesmobs:conba",
+        "lycanitesmobs:dawon",
+        "lycanitesmobs:dweller",
+        "lycanitesmobs:ent",
+        "lycanitesmobs:ettin",
+        "lycanitesmobs:feradon",
+        "lycanitesmobs:frostweaver",
+        "lycanitesmobs:geken",
+        "lycanitesmobs:gorgomite",
+        "lycanitesmobs:jabberwock",
+        "lycanitesmobs:kobold",
+        "lycanitesmobs:maug",
+        "lycanitesmobs:quillbeast",
+        "lycanitesmobs:raiko",
+        "lycanitesmobs:shambler",
+        "lycanitesmobs:treant",
+        "lycanitesmobs:triffid",
+        "lycanitesmobs:troll",
+        "lycanitesmobs:warg",
+        "lycanitesmobs:wildkin",
+        "minecraft:spider"
+      ],
+      "dimension": 0,
+      "seesky": true,
+      "mintime": 0,
+      "maxtime": 13000,
+      "result": "allow"
+    },
+// Allow structure-specific mobs to spawn in 'Mineshaft'
+  {
+      "mob": [
+        "grimoireofgaia:illager_fire",
+        "grimoireofgaia:illager_inquisitor",
+        "minecraft:evocation_illager",
+        "minecraft:illusion_illager",
+        "minecraft:vindication_illager",
+        "minecraft:witch",
+        "raids:pillager"
+      ],
+      "dimension": 0,
+      "structure": "Mineshaft",
+      "result": "allow",
+      "onjoin": true
+    },
+// Allow structure-specific mobs to spawn in 'Mineshaft'
+  {
+      "mob": [
+        "grimoireofgaia:illager_fire",
+        "grimoireofgaia:illager_inquisitor",
+        "minecraft:evocation_illager",
+        "minecraft:illusion_illager",
+        "minecraft:vindication_illager",
+        "raids:pillager"
+      ],
+      "dimension": 0,
+      "structure": "Mineshaft",
+      "result": "allow",
+      "onjoin": true
     },
 // Allow Crimsoncult tier mobs inside Roguelike Dungeon structure regardless of stage (Tier 2 multipliers)
   {

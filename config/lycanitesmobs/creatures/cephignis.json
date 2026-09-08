@@ -6,11 +6,13 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCephignis",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelCephignis",
-  "loadDefault": false,
+  "loadDefault": true,
   "enabled": true,
   "spawning": {
     "enabled": true,
-    "spawners": [],
+    "spawners": [
+      "lava"
+    ],
     "disableSubspecies": false,
     "dimensionIds": [],
     "dimensionListType": "blacklist",

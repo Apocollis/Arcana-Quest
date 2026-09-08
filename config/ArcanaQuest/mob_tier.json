@@ -4,11 +4,11 @@
 	"minecraft:skeleton",
 	"minecraft:spider",
 	"minecraft:husk",
-	"minecraft:stray"
+	"minecraft:stray",
+	"grimoireofgaia:goblin_feral"
   ],
   "uncommon": [
     "grimoireofgaia:goblin",
-    "grimoireofgaia:goblin_feral",
     "grimoireofgaia:orc",
     "grimoireofgaia:sporeling",
 	"lycanitesmobs:aspid",
@@ -17,6 +17,7 @@
     "lycanitesmobs:aegis",
     "lycanitesmobs:aglebemu",
     "lycanitesmobs:arisaur",
+	"lycanitesmobs:cephignis",
     "lycanitesmobs:cinder",
     "lycanitesmobs:conba",
     "lycanitesmobs:dweller",
@@ -53,15 +54,16 @@
     "lycanitesmobs:vespid",
 	"minecraft:creeper",
 	"minecraft:cave_spider",
+	"raids:pillager",
 	"thaumcraft:firebat",
 	"thaumcraft:wisp",
-	"thaumcraft:thaumslime"
+	"thaumcraft:thaumslime",
+	"charm:spectre"
   ],
 
   "rare": [
 	"grimoireofgaia:dwarf",
     "grimoireofgaia:arachne",
-    "grimoireofgaia:cecaelia",
     "grimoireofgaia:centaur",
     "grimoireofgaia:cobble_golem",
 	"grimoireofgaia:creep",
@@ -152,7 +154,6 @@
     "grimoireofgaia:naga",
 	"grimoireofgaia:nine_tails",
     "grimoireofgaia:shaman",
-    "grimoireofgaia:sharko",
     "grimoireofgaia:sphinx",
     "grimoireofgaia:spriggan",
     "grimoireofgaia:valkyrie",
@@ -160,7 +161,6 @@
     "grimoireofgaia:witch",
     "grimoireofgaia:yeti",
     "grimoireofgaia:yuki-onna",
-    "lycanitesmobs:cephignis",
     "lycanitesmobs:cockatrice",
     "lycanitesmobs:crusk",
     "lycanitesmobs:eechetik",

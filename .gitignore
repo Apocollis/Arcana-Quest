@@ -9,6 +9,7 @@
 !/resources/
 !/structures/
 !/resourcepacks/
+!/Tools/
 
 # Within resourcepacks, only sync Stoneborn-Vanilla-HUD.zip
 /resourcepacks/*

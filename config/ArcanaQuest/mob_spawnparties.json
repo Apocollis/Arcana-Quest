@@ -1,0 +1,17 @@
+{
+  "parties": [
+    {
+      "id": "crimson_cult_hunters",
+      "leaders": ["thaumcraft:cultistcleric"],
+      "chance": 1.0,
+      "when": {
+        "dimension": [0],
+        "time": "both"
+      },
+      "companions": [
+        { "mob": "thaumcraft:cultistknight", "min": 2, "max": 3 },
+        { "mob": "crimsonrevelations:cultist_archer", "min": 2, "max": 3 }
+      ]
+    }
+  ]
+}

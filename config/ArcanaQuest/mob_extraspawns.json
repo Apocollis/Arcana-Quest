@@ -18,6 +18,7 @@
 	"minecraft:illusion_illager",
 	"minecraft:vindication_illager",
 	"minecraft:evocation_illager",
+	"raids:pillager",
 	"minecraft:witch"
   ],
   "lava": [

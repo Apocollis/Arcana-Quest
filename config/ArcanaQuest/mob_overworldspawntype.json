@@ -3,7 +3,6 @@
     "grimoireofgaia:anubis",
     "grimoireofgaia:banshee",
     "grimoireofgaia:bone_knight",
-    "grimoireofgaia:cecaelia",
     "grimoireofgaia:centaur",
     "grimoireofgaia:cobble_golem",
     "grimoireofgaia:cobblestone_golem",
@@ -30,7 +29,6 @@
     "grimoireofgaia:satyress",
     "grimoireofgaia:selkie",
     "grimoireofgaia:shaman",
-    "grimoireofgaia:sharko",
     "grimoireofgaia:siren",
     "grimoireofgaia:sludge_girl",
     "grimoireofgaia:sphinx",
@@ -66,7 +64,6 @@
     "lycanitesmobs:ika",
     "lycanitesmobs:ioray",
     "lycanitesmobs:jabberwock",
-    "lycanitesmobs:kobold",
     "lycanitesmobs:lacedon",
     "lycanitesmobs:maug",
     "lycanitesmobs:morock",
@@ -115,7 +112,6 @@
     "grimoireofgaia:arachne",
     "grimoireofgaia:banshee",
     "grimoireofgaia:bone_knight",
-    "grimoireofgaia:cecaelia",
     "grimoireofgaia:cobble_golem",
     "grimoireofgaia:cobblestone_golem",
     "grimoireofgaia:deathword",
@@ -137,6 +133,7 @@
     "lycanitesmobs:cryptkeeper",
     "lycanitesmobs:darkling",
 	"lycanitesmobs:ghoul",
+	"lycanitesmobs:kobold",
     "lycanitesmobs:krake",
     "lycanitesmobs:shade",
     "lycanitesmobs:silex",
@@ -151,6 +148,7 @@
 	"minecraft:enderman",
 	"minecraft:zombie_villager",
 	"minecraft:husk",
-	"minecraft:stray"
+	"minecraft:stray",
+	"charm:spectre"
   ]
 }

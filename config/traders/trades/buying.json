@@ -53,19 +53,16 @@
     {
       "item_1": {
         "item": "minecraft:bread",
-        "count": {
-          "min": 12,
-          "max": 16
-        }
+        "count": 1
       },
       "output": {
         "item": "ordinarycoins:coinbronze",
         "count": {
-          "min": 8,
-          "max": 10
+          "min": 4,
+          "max": 6
         }
       },
-      "max_uses": 2
+      "max_uses": 8
     },
     {
       "item_1": {
