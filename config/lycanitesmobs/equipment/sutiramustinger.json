@@ -2,7 +2,7 @@
   "itemName": "sutiramustinger",
   "loadDefault": false,
   "slotType": "pommel",
-  "dropMobId": "lycanitesmobs:sutiramu",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

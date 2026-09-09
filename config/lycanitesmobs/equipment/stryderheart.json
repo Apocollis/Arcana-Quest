@@ -2,7 +2,7 @@
   "itemName": "stryderheart",
   "loadDefault": false,
   "slotType": "jewel",
-  "dropMobId": "lycanitesmobs:strider",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

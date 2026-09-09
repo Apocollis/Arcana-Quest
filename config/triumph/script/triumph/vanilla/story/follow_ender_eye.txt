@@ -6,3 +6,4 @@ addParent("triumph:vanilla/story/enter_the_nether")
 
 criteria = addCriteria("in_stronghold", "minecraft:location")
 criteria.setFeature("Stronghold")
+setPos(224,67)

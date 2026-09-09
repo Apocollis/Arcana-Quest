@@ -106,12 +106,6 @@
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 0.01
-    },
-    {
-      "item": "lycanitesmobs:crystalshardcharge",
-      "minAmount": 3,
-      "maxAmount": 6,
-      "chance": 1
     }
   ],
   "sizeScale": 1,

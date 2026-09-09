@@ -4,6 +4,26 @@
       "spawner": true,
       "result": "allow"
     },
+// Deny hostile mob spawning in Village structures during daytime
+  {
+      "structure": "Village",
+      "dimension": 0,
+      "minheight": 60,
+      "mintime": 0,
+      "maxtime": 13000,
+      "hostile": true,
+      "result": "deny"
+    },
+// Deny hostile mob spawning in Village structures during daytime
+  {
+      "structure": "Village",
+      "dimension": 0,
+      "minheight": 60,
+      "mintime": 23000,
+      "maxtime": 24000,
+      "hostile": true,
+      "result": "deny"
+    },
 // Deny Dark Druid spawning during the day (make it night-only)
   {
     "mob": "thebetweenlands:dark_druid",

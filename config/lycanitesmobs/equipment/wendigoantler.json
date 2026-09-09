@@ -2,7 +2,7 @@
   "itemName": "wendigoantler",
   "loadDefault": false,
   "slotType": "base",
-  "dropMobId": "lycanitesmobs:wendigo",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

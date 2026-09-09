@@ -89,12 +89,6 @@
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:quillcharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
     }
   ],
   "sizeScale": 1,

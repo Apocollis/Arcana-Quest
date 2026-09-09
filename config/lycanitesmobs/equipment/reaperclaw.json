@@ -2,7 +2,7 @@
   "itemName": "reaperclaw",
   "loadDefault": false,
   "slotType": "axe",
-  "dropMobId": "lycanitesmobs:reaper",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

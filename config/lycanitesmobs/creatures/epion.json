@@ -100,12 +100,6 @@
       "chance": 0.5
     },
     {
-      "item": "lycanitesmobs:bloodleechcharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
-    },
-    {
       "item": "lycanitesmobs:soulstone_aberration",
       "minAmount": 1,
       "maxAmount": 1,

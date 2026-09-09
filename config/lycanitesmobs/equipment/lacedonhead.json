@@ -2,7 +2,7 @@
   "itemName": "lacedonhead",
   "loadDefault": false,
   "slotType": "pommel",
-  "dropMobId": "lycanitesmobs:lacedon",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

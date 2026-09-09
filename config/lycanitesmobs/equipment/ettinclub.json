@@ -2,7 +2,7 @@
   "itemName": "ettinclub",
   "loadDefault": false,
   "slotType": "pike",
-  "dropMobId": "lycanitesmobs:ettin",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

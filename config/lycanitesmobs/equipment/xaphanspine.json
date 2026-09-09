@@ -2,7 +2,7 @@
   "itemName": "xaphanspine",
   "loadDefault": false,
   "slotType": "base",
-  "dropMobId": "lycanitesmobs:xaphan",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

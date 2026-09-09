@@ -86,12 +86,6 @@
       "minAmount": 3,
       "maxAmount": 5,
       "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:hellfireballcharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
     }
   ],
   "sizeScale": 1,

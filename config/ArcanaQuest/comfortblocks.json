@@ -3020,11 +3020,6 @@
         "comfort_bonus": 1.5,
         "building_requirement": 12
       },
-      "bewitchment:scorned_brick": {
-        "mod": "bewitchment",
-        "comfort_bonus": 1.5,
-        "building_requirement": 12
-      },
       "blockcraftery:editable_block": {
         "mod": "blockcraftery",
         "comfort_bonus": 1.5,
@@ -3731,11 +3726,6 @@
         "building_requirement": 12
       },
       "chisel:factory1": {
-        "mod": "chisel",
-        "comfort_bonus": 1.5,
-        "building_requirement": 12
-      },
-      "chisel:laboratory": {
         "mod": "chisel",
         "comfort_bonus": 1.5,
         "building_requirement": 12
@@ -4956,11 +4946,6 @@
     "tier_2": {
       "storagedrawers:framingtable": {
         "mod": "storagedrawers",
-        "comfort_bonus": 2.0,
-        "building_requirement": 6
-      },
-      "bibliocraft:fancyworkbench": {
-        "mod": "bibliocraft",
         "comfort_bonus": 2.0,
         "building_requirement": 6
       },

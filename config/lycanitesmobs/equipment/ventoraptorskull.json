@@ -2,7 +2,7 @@
   "itemName": "ventoraptorskull",
   "loadDefault": false,
   "slotType": "head",
-  "dropMobId": "lycanitesmobs:ventoraptor",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

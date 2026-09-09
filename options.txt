@@ -102,8 +102,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.toggleAutojump:0
+key_quark.keybind.lockBuilding:0
 key_key.dss.activate.desc:45
 key_key.dss.next.desc:15
 key_key.dss.attack.desc:200
@@ -238,7 +238,7 @@ key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_Open Skill GUI:21
-soundCategory_master:0.5033113
+soundCategory_master:0.0
 soundCategory_music:0.6056338
 soundCategory_record:1.0
 soundCategory_weather:0.90140843

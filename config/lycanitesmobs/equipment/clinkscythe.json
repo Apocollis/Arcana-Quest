@@ -2,7 +2,7 @@
   "itemName": "clinkscythe",
   "loadDefault": false,
   "slotType": "axe",
-  "dropMobId": "lycanitesmobs:clink",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

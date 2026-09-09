@@ -2,7 +2,7 @@
   "itemName": "entarm",
   "loadDefault": false,
   "slotType": "base",
-  "dropMobId": "lycanitesmobs:ent",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

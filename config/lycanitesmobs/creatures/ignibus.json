@@ -107,12 +107,6 @@
       "minAmount": 10,
       "maxAmount": 40,
       "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:primeembercharge",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
     }
   ],
   "sizeScale": 1,

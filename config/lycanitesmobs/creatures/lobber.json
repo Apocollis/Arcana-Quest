@@ -102,12 +102,6 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:magmacharge",
-      "minAmount": 2,
-      "maxAmount": 5,
-      "chance": 1
-    },
-    {
       "item": "lycanitesmobs:soulstone_imp",
       "minAmount": 1,
       "maxAmount": 1,

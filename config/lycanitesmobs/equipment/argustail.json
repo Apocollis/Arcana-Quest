@@ -2,7 +2,7 @@
   "itemName": "argustail",
   "loadDefault": false,
   "slotType": "base",
-  "dropMobId": "lycanitesmobs:argus",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

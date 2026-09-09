@@ -90,12 +90,6 @@
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 0.05
-    },
-    {
-      "item": "lycanitesmobs:spectralboltcharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
     }
   ],
   "sizeScale": 1,

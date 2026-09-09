@@ -69,14 +69,7 @@
   "mountable": false,
   "summonCost": 2,
   "dungeonLevel": 1,
-  "drops": [
-    {
-      "item": "lycanitesmobs:aquapulsecharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
-    }
-  ],
+  "drops": [],
   "sizeScale": 1,
   "hitboxScale": 1
 }

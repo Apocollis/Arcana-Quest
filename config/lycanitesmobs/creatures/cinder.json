@@ -81,12 +81,6 @@
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 0.1
-    },
-    {
-      "item": "lycanitesmobs:embercharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
     }
   ],
   "sizeScale": 1,

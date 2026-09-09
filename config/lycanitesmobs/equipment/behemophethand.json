@@ -2,7 +2,7 @@
   "itemName": "behemophethand",
   "loadDefault": false,
   "slotType": "head",
-  "dropMobId": "lycanitesmobs:behemoth",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

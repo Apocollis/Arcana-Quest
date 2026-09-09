@@ -2,7 +2,7 @@
   "itemName": "wargskull",
   "loadDefault": false,
   "slotType": "head",
-  "dropMobId": "lycanitesmobs:warg",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

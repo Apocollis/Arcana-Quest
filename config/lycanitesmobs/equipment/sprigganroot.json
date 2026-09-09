@@ -2,7 +2,7 @@
   "itemName": "sprigganroot",
   "loadDefault": false,
   "slotType": "base",
-  "dropMobId": "lycanitesmobs:spriggan",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

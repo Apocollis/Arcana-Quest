@@ -2,7 +2,7 @@
   "itemName": "cinderblade",
   "loadDefault": false,
   "slotType": "blade",
-  "dropMobId": "lycanitesmobs:cinder",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

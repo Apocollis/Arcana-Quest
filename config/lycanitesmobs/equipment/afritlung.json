@@ -2,7 +2,7 @@
   "itemName": "afritlung",
   "loadDefault": false,
   "slotType": "jewel",
-  "dropMobId": "lycanitesmobs:afrit",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

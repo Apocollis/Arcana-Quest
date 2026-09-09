@@ -2,7 +2,7 @@
   "itemName": "naxiriseye",
   "loadDefault": false,
   "slotType": "jewel",
-  "dropMobId": "lycanitesmobs:beholder",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

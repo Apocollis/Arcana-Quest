@@ -497,6 +497,37 @@ spawner_allow_rules.append({
 
 exception_allow_rules = []
 time_rules = []
+
+# Deny hostile mob spawning in Village structures on surface during daytime and dawn transition
+village_day_rules = [
+    {
+        "structure": "Village",
+        "dimension": 0,
+        "minheight": 60,
+        "mintime": 0,
+        "maxtime": 13000,
+        "hostile": True,
+        "result": "deny"
+    },
+    {
+        "structure": "Village",
+        "dimension": 0,
+        "minheight": 60,
+        "mintime": 23000,
+        "maxtime": 24000,
+        "hostile": True,
+        "result": "deny"
+    }
+]
+print("Adding rules to deny hostile mob spawning in Village structures during daytime and dawn transition")
+for vr in village_day_rules:
+    vr_text = json.dumps(vr, indent=2)
+    vr_text = "\n".join("    " + line for line in vr_text.split("\n")).strip()
+    time_rules.append({
+        "preceding": ",\n\n  // Deny hostile mob spawning in Village structures during daytime\n  ",
+        "obj_text": vr_text
+    })
+
 restriction_rules = list(custom_rules)
 day_allow_rules = []
 entity_modifier_rules = []
@@ -597,8 +628,14 @@ for block in blocks:
         "Hard cap mob spawner cages" in preceding or
         "Allow all mobs from mob spawners" in preceding or
         "Allow hostile non-undead surface creatures to spawn during daytime" in preceding or
+        "Deny hostile mob spawning in Village structures" in preceding or
         "in other dimensions" in preceding):
         print("Removing old/user-cleaned rule block")
+        continue
+
+    # Discard old village daytime deny rules to cleanly regenerate
+    if rule_obj.get("structure") == "Village" and rule_obj.get("hostile") is True and rule_obj.get("result") == "deny":
+        print("Removing old village daytime deny rule to regenerate")
         continue
 
     # Discard old daytime allow rule block if present

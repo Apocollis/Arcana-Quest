@@ -2,7 +2,7 @@
   "itemName": "serpixmandible",
   "loadDefault": false,
   "slotType": "axe",
-  "dropMobId": "lycanitesmobs:serpix",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

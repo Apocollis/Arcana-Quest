@@ -2,7 +2,7 @@
   "itemName": "spectretendril",
   "loadDefault": false,
   "slotType": "base",
-  "dropMobId": "lycanitesmobs:spectre",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 1,
   "levelMax": 3,

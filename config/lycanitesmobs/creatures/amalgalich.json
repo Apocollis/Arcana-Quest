@@ -118,18 +118,6 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:spectralboltcharge",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:lobdarklingscharge",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
       "item": "lycanitesmobs:shadowstone",
       "minAmount": 64,
       "maxAmount": 128,

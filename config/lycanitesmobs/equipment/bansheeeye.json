@@ -2,7 +2,7 @@
   "itemName": "bansheeeye",
   "loadDefault": false,
   "slotType": "head",
-  "dropMobId": "lycanitesmobs:banshee",
+  "dropMobId": "",
   "dropChance": 0.0,
   "levelMin": 2,
   "levelMax": 3,

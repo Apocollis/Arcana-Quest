@@ -91,18 +91,6 @@
       "minAmount": 1,
       "maxAmount": 8,
       "chance": 0.25
-    },
-    {
-      "item": "lycanitesmobs:tundracharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:frostyfur",
-      "minAmount": 2,
-      "maxAmount": 5,
-      "chance": 1
     }
   ],
   "sizeScale": 1,
