@@ -84,7 +84,6 @@
       "amountPerChunk": 0.3,
       "enable": true
     },
-    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -96,8 +95,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "trees": {
       "amountPerChunk": 10.0,
       "enable": true,
@@ -114,8 +111,6 @@
       "amountPerChunk": 0.5,
       "enable": true
     },
-    "ruby": {},
-    "tanzanite": {},
     "rafflesia": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -132,8 +127,6 @@
       "enable": true,
       "generators": {}
     },
-    "peridot": {},
-    "berry_bushes": {},
     "bushes": {
       "enable": true
     },
@@ -170,8 +163,7 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.2,
       "enable": true
-    },
-    "sapphire": {}
+    }
   },
   "weights": {
     "tropical": 5

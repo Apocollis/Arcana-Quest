@@ -100,8 +100,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "trees": {
       "amountPerChunk": 10.0,
       "enable": true,
@@ -140,8 +138,6 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "ruby": {},
-    "tanzanite": {},
     "gravel": {
       "with": {
         "block": "minecraft:gravel",
@@ -189,8 +185,6 @@
     "berry_bushes": {
       "enable": true
     },
-    "peridot": {},
-    "topaz": {},
     "flat_mushroom": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -201,8 +195,7 @@
       "generationAttempts": 16,
       "amountPerChunk": 0.1,
       "enable": true
-    },
-    "sapphire": {}
+    }
   },
   "weights": {
     "warm_temperate": 10

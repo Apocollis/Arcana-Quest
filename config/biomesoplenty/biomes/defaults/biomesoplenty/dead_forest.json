@@ -49,6 +49,15 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
+    "gravel": {
+      "with": {
+        "block": "minecraft:gravel",
+        "properties": {}
+      },
+      "maxRadius": 7,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
     "miners_delight": {
       "with": {
         "block": "biomesoplenty:flower_1",
@@ -82,7 +91,11 @@
       "amountPerChunk": 3.5,
       "enable": true
     },
-    "amber": {},
+    "grass": {
+      "amountPerChunk": 1.0,
+      "enable": true,
+      "generators": {}
+    },
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -94,8 +107,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "trees": {
       "amountPerChunk": 2.5,
       "enable": true,
@@ -114,26 +125,7 @@
     },
     "tanzanite": {
       "enable": true
-    },
-    "ruby": {},
-    "gravel": {
-      "with": {
-        "block": "minecraft:gravel",
-        "properties": {}
-      },
-      "maxRadius": 7,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "grass": {
-      "amountPerChunk": 1.0,
-      "enable": true,
-      "generators": {}
-    },
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
-    "sapphire": {}
+    }
   },
   "weights": {
     "boreal": 3

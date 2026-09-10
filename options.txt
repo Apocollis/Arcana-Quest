@@ -75,7 +75,6 @@ key_key.spectatorOutlines:0
 key_key.swapHands:0
 key_key.saveToolbarActivator:0
 key_key.loadToolbarActivator:0
-key_key.advancements:0
 key_key.hotbar.1:2
 key_key.hotbar.2:3
 key_key.hotbar.3:4
@@ -238,7 +237,7 @@ key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_keybind.universaltweaks.clear_toasts:11:CONTROL
 key_Open Skill GUI:21
-soundCategory_master:0.0
+soundCategory_master:0.50993377
 soundCategory_music:0.6056338
 soundCategory_record:1.0
 soundCategory_weather:0.90140843

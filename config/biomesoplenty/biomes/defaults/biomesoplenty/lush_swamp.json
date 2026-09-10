@@ -95,7 +95,6 @@
       "amountPerChunk": 2.0,
       "enable": true
     },
-    "amethyst": {},
     "trees": {
       "amountPerChunk": 6.0,
       "enable": true,
@@ -112,7 +111,6 @@
       "amountPerChunk": 0.5,
       "enable": true
     },
-    "tanzanite": {},
     "flower_lily": {
       "with": {
         "block": "biomesoplenty:waterlily",
@@ -140,8 +138,6 @@
       "enable": true,
       "generators": {}
     },
-    "peridot": {},
-    "topaz": {},
     "blue_milk_caps": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -192,7 +188,6 @@
       "amountPerChunk": 0.3,
       "enable": true
     },
-    "sapphire": {},
     "glowshrooms": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -231,7 +226,6 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -268,7 +262,6 @@
       "amountPerChunk": 0.2,
       "enable": true
     },
-    "ruby": {},
     "sand": {
       "with": {
         "block": "minecraft:sand",
@@ -294,7 +287,6 @@
       "enable": true,
       "randomDirection": false
     },
-    "berry_bushes": {},
     "lily": {
       "with": {
         "block": "minecraft:waterlily",

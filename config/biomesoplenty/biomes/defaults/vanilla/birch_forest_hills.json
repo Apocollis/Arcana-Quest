@@ -23,6 +23,25 @@
       "amountPerChunk": 0.3,
       "enable": true
     },
+    "flax": {
+      "with": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "lower",
+          "variant": "flax"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
+      "enable": true,
+      "withTop": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "upper",
+          "variant": "flax"
+        }
+      }
+    },
     "flowers": {
       "amountPerChunk": 0.1,
       "enable": true,
@@ -61,6 +80,11 @@
       "amountPerChunk": 0.05,
       "enable": true
     },
+    "grass": {
+      "amountPerChunk": 0.5,
+      "enable": true,
+      "generators": {}
+    },
     "amber": {
       "enable": true
     },
@@ -75,8 +99,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "toadstools": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -98,36 +120,6 @@
       "generationAttempts": 16,
       "amountPerChunk": 0.1,
       "enable": true
-    },
-    "ruby": {},
-    "tanzanite": {},
-    "flax": {
-      "with": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "lower",
-          "variant": "flax"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "withTop": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "upper",
-          "variant": "flax"
-        }
-      }
-    },
-    "grass": {
-      "amountPerChunk": 0.5,
-      "enable": true,
-      "generators": {}
-    },
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
-    "sapphire": {}
+    }
   }
 }

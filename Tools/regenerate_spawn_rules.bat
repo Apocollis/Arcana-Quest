@@ -4,7 +4,7 @@ echo   Arcana Quest InControl Spawn Rules Regenerator
 echo ==================================================
 echo.
 
-echo [1/3] Regenerating potentialspawn.json...
+echo [1/4] Regenerating potentialspawn.json...
 python "%~dp0regenerate_potentialspawn.py"
 if %errorlevel% neq 0 (
     echo.
@@ -14,7 +14,7 @@ if %errorlevel% neq 0 (
 )
 
 echo.
-echo [2/3] Regenerating spawn.json...
+echo [2/4] Regenerating spawn.json...
 python "%~dp0regenerate_spawn_limits.py"
 if %errorlevel% neq 0 (
     echo.
@@ -24,7 +24,7 @@ if %errorlevel% neq 0 (
 )
 
 echo.
-echo [3/3] Running rules verification check...
+echo [3/4] Running rules verification check...
 python "%~dp0verify_current_rules_alignment.py"
 if %errorlevel% neq 0 (
     echo.
@@ -34,4 +34,15 @@ if %errorlevel% neq 0 (
 )
 
 echo.
+echo [4/4] Updating InControl rules reference document...
+python "%~dp0generate_incontrol_rules_reference.py"
+if %errorlevel% neq 0 (
+    echo.
+    echo WARNING: Failed to update rules reference document!
+) else (
+    echo SUCCESS: Rules reference document updated successfully!
+)
+
+echo.
 pause
+

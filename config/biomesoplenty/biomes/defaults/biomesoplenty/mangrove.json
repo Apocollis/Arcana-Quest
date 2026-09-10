@@ -72,7 +72,6 @@
         }
       }
     },
-    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -84,18 +83,11 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "trees": {
       "amountPerChunk": 5.0,
       "enable": true,
       "generators": {}
     },
-    "ruby": {},
-    "tanzanite": {},
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
     "sapphire": {
       "enable": true
     }

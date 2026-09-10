@@ -37,6 +37,28 @@
   "canSpawnInBiome": true,
   "enableSnow": false,
   "generators": {
+    "glowshrooms": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "glowshroom"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 1.5,
+      "enable": true
+    },
+    "leaf_piles": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "leafpile"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.2,
+      "enable": true
+    },
     "cattail": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -46,6 +68,17 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
       "enable": true
     },
     "dead_leaf_piles": {
@@ -84,11 +117,46 @@
         }
       }
     },
-    "amethyst": {},
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "malachite": {
+      "enable": true
+    },
     "trees": {
       "amountPerChunk": 2.0,
       "enable": true,
       "generators": {}
+    },
+    "water_reeds": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "reed"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.2,
+      "enable": true
+    },
+    "toadstools": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "toadstool"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.5,
+      "enable": true
     },
     "poison_ivy": {
       "with": {
@@ -101,7 +169,6 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "tanzanite": {},
     "big_brown_mushroom": {
       "minHeight": 4,
       "maxHeight": 5,
@@ -124,8 +191,9 @@
       "enable": true,
       "generators": {}
     },
-    "peridot": {},
-    "topaz": {},
+    "bushes": {
+      "enable": true
+    },
     "blue_milk_caps": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -186,93 +254,6 @@
       "amountPerChunk": 1.0,
       "enable": true
     },
-    "flat_mushroom": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "flat_mushroom"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 1.25,
-      "enable": true
-    },
-    "sapphire": {},
-    "glowshrooms": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "glowshroom"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 1.5,
-      "enable": true
-    },
-    "leaf_piles": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "leafpile"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.2,
-      "enable": true
-    },
-    "miners_delight": {
-      "with": {
-        "block": "biomesoplenty:flower_1",
-        "properties": {
-          "variant": "miners_delight"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 0.25,
-      "enable": true
-    },
-    "amber": {},
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "malachite": {
-      "enable": true
-    },
-    "water_reeds": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "reed"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.2,
-      "enable": true
-    },
-    "toadstools": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "toadstool"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "ruby": {},
-    "berry_bushes": {},
-    "bushes": {
-      "enable": true
-    },
     "mud": {
       "with": {
         "block": "biomesoplenty:mud",
@@ -282,6 +263,17 @@
       },
       "maxRadius": 7,
       "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "flat_mushroom": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "flat_mushroom"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 1.25,
       "enable": true
     }
   },

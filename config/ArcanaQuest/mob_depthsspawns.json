@@ -1,0 +1,9 @@
+{
+  "embers:ancient_golem": {
+    "weight": 100,
+    "groupcountmin": 1,
+    "groupcountmax": 2,
+    "maxcount": 8,
+    "maxheight": -30
+  }
+}

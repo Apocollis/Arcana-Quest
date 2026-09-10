@@ -23,6 +23,11 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "grass": {
+      "amountPerChunk": 0.3,
+      "enable": true,
+      "generators": {}
+    },
     "amber": {
       "enable": true
     },
@@ -37,8 +42,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "toadstools": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -49,17 +52,6 @@
       "generationAttempts": 16,
       "amountPerChunk": 0.1,
       "enable": true
-    },
-    "ruby": {},
-    "tanzanite": {},
-    "grass": {
-      "amountPerChunk": 0.3,
-      "enable": true,
-      "generators": {}
-    },
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
-    "sapphire": {}
+    }
   }
 }

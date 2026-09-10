@@ -43,6 +43,23 @@ if os.path.exists(dayspawns_path):
 else:
     dayspawn_mobs = []
 
+depths_path = os.path.join(aq_dir, "mob_depthsspawns.json")
+depths_entries = []
+if os.path.exists(depths_path):
+    depths_data = load_lenient_json(depths_path)
+    if isinstance(depths_data, dict):
+        for mob_id, cfg in depths_data.items():
+            if mob_id not in disabled:
+                cfg_copy = dict(cfg) if isinstance(cfg, dict) else {}
+                cfg_copy["mob"] = mob_id
+                depths_entries.append(cfg_copy)
+    elif isinstance(depths_data, list):
+        for entry in depths_data:
+            if isinstance(entry, dict) and entry.get("mob") and entry.get("mob") not in disabled:
+                depths_entries.append(entry)
+            elif isinstance(entry, str) and entry not in disabled:
+                depths_entries.append({"mob": entry})
+
 
 def sync_badmobs_config(disabled_mobs):
     badmobs_path = os.path.join(project_root, "config", "badmobs.cfg")
@@ -604,6 +621,53 @@ beneath_buff_rules.append({
     "obj_text": beneath_buff_text
 })
 
+# Early bypass rules for depths pool mobs (Y <= maxheight, default -30)
+# CheckSpawn allows natural spawning; OnJoin bypasses stage gating with Tier 3 underground multipliers
+depths_bypass_rules = []
+if depths_entries:
+    depths_by_height = {}
+    for d in depths_entries:
+        h = d.get("maxheight", -30)
+        if h not in depths_by_height:
+            depths_by_height[h] = []
+        depths_by_height[h].append(d["mob"])
+    
+    for h, m_list in sorted(depths_by_height.items()):
+        sorted_mobs = sorted(list(set(m_list)))
+        print(f"Adding early bypass rules for {len(sorted_mobs)} depths pool mobs at Y <= {h}")
+        # Rule 1: CheckSpawn allow/bypass rule (natural spawning - bypasses surface-only deny rules)
+        depths_checkspawn_rule = {
+            "mob": sorted_mobs,
+            "dimension": 0,
+            "maxheight": h,
+            "result": "default"
+        }
+        cs_text = json.dumps(depths_checkspawn_rule, indent=2)
+        cs_text = "\n".join("    " + line for line in cs_text.split("\n")).strip()
+        depths_bypass_rules.append({
+            "preceding": f",\n\n  // Allow Depths pool mobs underground (Y <= {h}) natural spawning (bypasses surface-only deny rules)\n  ",
+            "obj_text": cs_text
+        })
+
+        # Rule 2: EntityJoinWorldEvent allow/bypass rule with Tier 3 stat multipliers (bypasses stage gating)
+        depths_onjoin_rule = {
+            "mob": sorted_mobs,
+            "dimension": 0,
+            "maxheight": h,
+            "result": "default",
+            "healthmultiply": tier_limits.get("du_tier3_healthmultiply", 2.5),
+            "damagemultiply": tier_limits.get("du_tier3_damagemultiply", 2.5),
+            "armoradd": tier_limits.get("du_tier3_armoradd", 12.0),
+            "potion": tier_limits.get("du_tier3_potion", "minecraft:night_vision,999999,0"),
+            "onjoin": True
+        }
+        oj_text = json.dumps(depths_onjoin_rule, indent=2)
+        oj_text = "\n".join("    " + line for line in oj_text.split("\n")).strip()
+        depths_bypass_rules.append({
+            "preceding": f",\n\n  // Allow Depths pool mobs underground (Y <= {h}) regardless of stage (Tier 3 multipliers)\n  ",
+            "obj_text": oj_text
+        })
+
 for block in blocks:
     preceding = block["preceding"]
     obj_text = block["obj_text"]
@@ -663,6 +727,8 @@ for block in blocks:
         "Allow hostile non-undead surface creatures to spawn during daytime" in preceding or
         "Deny hostile mob spawning in Village structures" in preceding or
         "Deny surface daytime hostile spawns" in preceding or
+        "Allow Depths pool mobs" in preceding or
+        "Depths pool mobs" in preceding or
         "in other dimensions" in preceding):
         print("Removing old/user-cleaned rule block")
         continue
@@ -869,11 +935,12 @@ print("Per-mob spawn caps are managed via maxcount in potentialspawn.json")
 # Sync badmobs.cfg with disabled mobs list
 sync_badmobs_config(disabled)
 
-# Final ordered blocks: Strict execution order (Spawner allow -> Time rules -> Specific allows -> Stage gating -> Restrictions/Denies -> Modifiers -> Catch-all Buffs)
+# Final ordered blocks: Strict execution order (Spawner allow -> Time rules -> Specific allows -> Depths bypass -> Stage gating -> Restrictions/Denies -> Modifiers -> Catch-all Buffs)
 processed_blocks = []
 processed_blocks.extend(spawner_allow_rules)
 processed_blocks.extend(time_rules)
 processed_blocks.extend(exception_allow_rules)
+processed_blocks.extend(depths_bypass_rules)
 processed_blocks.extend(gating_list)
 processed_blocks.extend(restriction_rules)
 processed_blocks.extend(day_allow_rules)
@@ -915,3 +982,15 @@ with open(spawn_path, "w", encoding="utf-8") as f:
     f.write(final_text)
 
 print("Successfully regenerated and synchronized spawn limits and stage gating rules in spawn.json!")
+
+# Synchronize human-readable InControl rules reference document
+try:
+    ref_script_path = os.path.join(script_dir, "generate_incontrol_rules_reference.py")
+    if os.path.exists(ref_script_path):
+        import subprocess
+        import sys
+        sys.stdout.flush()
+        subprocess.run([sys.executable, ref_script_path], check=True)
+except Exception as e:
+    print(f"Warning: Could not update rules reference document: {e}")
+

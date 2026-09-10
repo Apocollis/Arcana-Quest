@@ -86,7 +86,6 @@
       "amountPerChunk": 0.5,
       "enable": true
     },
-    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -98,8 +97,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "trees": {
       "amountPerChunk": 7.0,
       "enable": true,
@@ -128,8 +125,6 @@
       "enable": true,
       "splotchSize": 15
     },
-    "ruby": {},
-    "tanzanite": {},
     "sand": {
       "with": {
         "block": "minecraft:sand",
@@ -154,9 +149,7 @@
     },
     "bushes": {
       "enable": true
-    },
-    "topaz": {},
-    "sapphire": {}
+    }
   },
   "weights": {
     "mediteranean": 10

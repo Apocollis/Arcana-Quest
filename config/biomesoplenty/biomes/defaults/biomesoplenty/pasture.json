@@ -60,6 +60,14 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "grass": {
+      "amountPerChunk": 0.5,
+      "enable": true,
+      "generators": {}
+    },
+    "peridot": {
+      "enable": true
+    },
     "barley": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -71,7 +79,6 @@
       "amountPerChunk": 45.0,
       "enable": true
     },
-    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -83,8 +90,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "water_reeds": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -95,20 +100,7 @@
       "generationAttempts": 32,
       "amountPerChunk": 1.0,
       "enable": true
-    },
-    "ruby": {},
-    "tanzanite": {},
-    "grass": {
-      "amountPerChunk": 0.5,
-      "enable": true,
-      "generators": {}
-    },
-    "peridot": {
-      "enable": true
-    },
-    "berry_bushes": {},
-    "topaz": {},
-    "sapphire": {}
+    }
   },
   "weights": {}
 }

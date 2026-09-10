@@ -4241,6 +4241,24 @@
     "creaturetype": "MONSTER"
   },
   {
+    "dimension": 0,
+    "maxheight": -30,
+    "maxcount": {
+      "amount": 8,
+      "mob": "embers:ancient_golem",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "embers:ancient_golem",
+        "weight": 100,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ],
+    "creaturetype": "MONSTER"
+  },
+  {
     "dimension": 10,
     "remove": [
       "minecraft:zombie",

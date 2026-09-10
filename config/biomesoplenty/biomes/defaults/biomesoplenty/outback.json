@@ -47,40 +47,6 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
-    "miners_delight": {
-      "with": {
-        "block": "biomesoplenty:flower_1",
-        "properties": {
-          "variant": "miners_delight"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 0.25,
-      "enable": true
-    },
-    "amber": {},
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "amethyst": {},
-    "malachite": {},
-    "trees": {
-      "amountPerChunk": 3.0,
-      "enable": true,
-      "generators": {}
-    },
-    "ruby": {
-      "enable": true
-    },
-    "tanzanite": {},
     "tiny_cacti": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -90,6 +56,17 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.5,
+      "enable": true
+    },
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
       "enable": true
     },
     "grass_splatter": {
@@ -118,9 +95,6 @@
       "enable": true,
       "generators": {}
     },
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
     "cacti": {
       "minHeight": 1,
       "with": {
@@ -135,6 +109,17 @@
       "enable": true,
       "randomDirection": false
     },
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
     "desertgrass": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -146,7 +131,14 @@
       "amountPerChunk": 10.0,
       "enable": true
     },
-    "sapphire": {}
+    "trees": {
+      "amountPerChunk": 3.0,
+      "enable": true,
+      "generators": {}
+    },
+    "ruby": {
+      "enable": true
+    }
   },
   "weights": {
     "hot_desert": 7

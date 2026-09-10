@@ -23,47 +23,6 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "amber": {},
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "amethyst": {},
-    "malachite": {},
-    "portobellos": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "portobello"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.3,
-      "enable": true
-    },
-    "toadstools": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "toadstool"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.5,
-      "enable": true
-    },
-    "ruby": {},
-    "tanzanite": {},
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
     "blue_milk_caps": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -86,6 +45,28 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
+    "portobellos": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "portobello"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.3,
+      "enable": true
+    },
     "flat_mushroom": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -95,6 +76,17 @@
       },
       "generationAttempts": 16,
       "amountPerChunk": 0.4,
+      "enable": true
+    },
+    "toadstools": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "toadstool"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.5,
       "enable": true
     },
     "sapphire": {

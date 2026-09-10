@@ -69,7 +69,6 @@
       "amountPerChunk": 2.5,
       "enable": true
     },
-    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -81,15 +80,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
-    "ruby": {
-      "enable": true
-    },
-    "tanzanite": {},
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
     "lava_flows": {
       "with": {
         "block": "minecraft:flowing_lava",
@@ -101,7 +91,9 @@
       "enable": true,
       "splotchSize": 12
     },
-    "sapphire": {}
+    "ruby": {
+      "enable": true
+    }
   },
   "weights": {}
 }

@@ -98,7 +98,6 @@
       "amountPerChunk": 0.4,
       "enable": true
     },
-    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -110,8 +109,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "trees": {
       "amountPerChunk": 3.0,
       "enable": true,
@@ -128,8 +125,6 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "ruby": {},
-    "tanzanite": {},
     "flower_lily": {
       "with": {
         "block": "biomesoplenty:waterlily",
@@ -165,8 +160,6 @@
       "enable": true,
       "generators": {}
     },
-    "peridot": {},
-    "berry_bushes": {},
     "lily": {
       "with": {
         "block": "minecraft:waterlily",
@@ -200,8 +193,7 @@
       "generationAttempts": 32,
       "amountPerChunk": 0.4,
       "enable": true
-    },
-    "sapphire": {}
+    }
   },
   "weights": {
     "cool_temperate": 2

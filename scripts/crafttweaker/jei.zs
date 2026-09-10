@@ -21,7 +21,7 @@ mods.jei.JEI.hide(<twilightdelight:phytochemical_milkshake>);
 mods.jei.JEI.hide(<twilightdelight:torchberry_milkshake>);
 
 # Hide redundant honey items in favor of Rustic Bottle of Honey
-mods.jei.JEI.hide(<animania:honey_bottle>);
+mods.jei.JEI.hide(<animania:honey_bottle>.withTag({Fluid: {FluidName: "animania_honey", Amount: 1000}}));
 mods.jei.JEI.hide(<biomesoplenty:jar_filled:0>);
 
 # Hide obsolete cocoa items

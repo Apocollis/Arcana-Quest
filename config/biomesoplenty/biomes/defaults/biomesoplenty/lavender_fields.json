@@ -60,7 +60,14 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "amber": {},
+    "grass": {
+      "amountPerChunk": 15.0,
+      "enable": true,
+      "generators": {}
+    },
+    "peridot": {
+      "enable": true
+    },
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -72,25 +79,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
-    "trees": {
-      "amountPerChunk": 1.0,
-      "enable": true,
-      "generators": {}
-    },
-    "ruby": {},
-    "tanzanite": {},
-    "grass": {
-      "amountPerChunk": 15.0,
-      "enable": true,
-      "generators": {}
-    },
-    "peridot": {
-      "enable": true
-    },
-    "berry_bushes": {},
-    "topaz": {},
     "lavender": {
       "with": {
         "block": "biomesoplenty:flower_1",
@@ -102,7 +90,11 @@
       "amountPerChunk": 50.0,
       "enable": true
     },
-    "sapphire": {}
+    "trees": {
+      "amountPerChunk": 1.0,
+      "enable": true,
+      "generators": {}
+    }
   },
   "weights": {
     "mediteranean": 3

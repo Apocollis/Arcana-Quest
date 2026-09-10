@@ -82,9 +82,3 @@ Condenser.removeRecipe(wither_enhanced);
 Condenser.removeRecipe(blazing_trail_standard);
 Condenser.removeRecipe(blazing_trail_extended);
 
-mods.jei.JEI.hide(wither_standard);
-mods.jei.JEI.hide(wither_extended);
-mods.jei.JEI.hide(wither_enhanced);
-mods.jei.JEI.hide(blazing_trail_standard);
-mods.jei.JEI.hide(blazing_trail_extended);
-

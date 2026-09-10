@@ -311,6 +311,58 @@ for struct_name, mob_list in sorted(structurespawns.items()):
             rule["creaturetype"] = "MONSTER"
         new_rules.append(rule)
 
+# Load depths spawns pool (e.g. bonus/override spawns below Y = -30)
+depths_path = os.path.join(aq_dir, "mob_depthsspawns.json")
+if os.path.exists(depths_path):
+    depths_data = load_lenient_json(depths_path)
+    depths_entries = []
+    if isinstance(depths_data, dict):
+        for mob_id, cfg in depths_data.items():
+            if mob_id not in disabled:
+                cfg_copy = dict(cfg) if isinstance(cfg, dict) else {}
+                cfg_copy["mob"] = mob_id
+                depths_entries.append(cfg_copy)
+    elif isinstance(depths_data, list):
+        for entry in depths_data:
+            if isinstance(entry, dict) and entry.get("mob") and entry.get("mob") not in disabled:
+                depths_entries.append(entry)
+            elif isinstance(entry, str) and entry not in disabled:
+                depths_entries.append({"mob": entry})
+
+    for d in depths_entries:
+        mob_id = d["mob"]
+        max_h = d.get("maxheight", -30)
+        params = get_mob_params(mob_id)
+        weight = d.get("weight", params.get("weight", 100))
+        gmin = d.get("groupcountmin", params.get("groupcountmin", 1))
+        gmax = d.get("groupcountmax", params.get("groupcountmax", 2))
+        maxcount_val = d.get("maxcount", params.get("limit", 16))
+
+        rule = {
+            "dimension": 0,
+            "maxheight": max_h,
+            "maxcount": {
+                "amount": maxcount_val,
+                "mob": mob_id,
+                "perplayer": True
+            },
+            "mobs": [
+                {
+                    "mob": mob_id,
+                    "weight": weight,
+                    "groupcountmin": gmin,
+                    "groupcountmax": gmax
+                }
+            ]
+        }
+        if mob_id in water_mobs:
+            rule["creaturetype"] = "WATER_CREATURE"
+            rule["block"] = ["minecraft:water"]
+        else:
+            rule["creaturetype"] = "MONSTER"
+        new_rules.append(rule)
+    print(f"Added {len(depths_entries)} depths pool spawn rules to potentialspawn.json")
+
 # Add rule to remove vanilla mobs from The Beneath
 vanilla_mobs_to_remove = [
     "minecraft:zombie",

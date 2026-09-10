@@ -37,102 +37,6 @@
   "canSpawnInBiome": true,
   "enableSnow": false,
   "generators": {
-    "dead_leaf_piles": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "deadleafpile"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 2.5,
-      "enable": true
-    },
-    "brown_mushrooms": {
-      "with": {
-        "block": "minecraft:brown_mushroom",
-        "properties": {}
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.2,
-      "enable": true
-    },
-    "amethyst": {},
-    "trees": {
-      "amountPerChunk": 10.0,
-      "enable": true,
-      "generators": {}
-    },
-    "poison_ivy": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "poisonivy"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "tanzanite": {},
-    "flax": {
-      "with": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "lower",
-          "variant": "flax"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "withTop": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "upper",
-          "variant": "flax"
-        }
-      }
-    },
-    "grass": {
-      "amountPerChunk": 1.4,
-      "enable": true,
-      "generators": {}
-    },
-    "peridot": {},
-    "topaz": {},
-    "blue_milk_caps": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "blue_milk_cap"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "red_mushrooms": {
-      "with": {
-        "block": "minecraft:red_mushroom",
-        "properties": {}
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "flat_mushroom": {
-      "with": {
-        "block": "biomesoplenty:mushroom",
-        "properties": {
-          "variant": "flat_mushroom"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.1,
-      "enable": true
-    },
-    "sapphire": {},
     "glowshrooms": {
       "with": {
         "block": "biomesoplenty:mushroom",
@@ -171,6 +75,26 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
+    "dead_leaf_piles": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "deadleafpile"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 2.5,
+      "enable": true
+    },
+    "brown_mushrooms": {
+      "with": {
+        "block": "minecraft:brown_mushroom",
+        "properties": {}
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.2,
+      "enable": true
+    },
     "amber": {
       "enable": true
     },
@@ -185,7 +109,11 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "malachite": {},
+    "trees": {
+      "amountPerChunk": 10.0,
+      "enable": true,
+      "generators": {}
+    },
     "water_reeds": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -208,7 +136,17 @@
       "amountPerChunk": 0.3,
       "enable": true
     },
-    "ruby": {},
+    "poison_ivy": {
+      "with": {
+        "block": "biomesoplenty:plant_0",
+        "properties": {
+          "variant": "poisonivy"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
     "sand": {
       "with": {
         "block": "minecraft:sand",
@@ -220,7 +158,61 @@
       "amountPerChunk": 3.0,
       "enable": true
     },
-    "berry_bushes": {}
+    "flax": {
+      "with": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "lower",
+          "variant": "flax"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 0.1,
+      "enable": true,
+      "withTop": {
+        "block": "biomesoplenty:double_plant",
+        "properties": {
+          "half": "upper",
+          "variant": "flax"
+        }
+      }
+    },
+    "grass": {
+      "amountPerChunk": 1.4,
+      "enable": true,
+      "generators": {}
+    },
+    "blue_milk_caps": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "blue_milk_cap"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "red_mushrooms": {
+      "with": {
+        "block": "minecraft:red_mushroom",
+        "properties": {}
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
+      "enable": true
+    },
+    "flat_mushroom": {
+      "with": {
+        "block": "biomesoplenty:mushroom",
+        "properties": {
+          "variant": "flat_mushroom"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.1,
+      "enable": true
+    }
   },
   "weights": {
     "cool_temperate": 7

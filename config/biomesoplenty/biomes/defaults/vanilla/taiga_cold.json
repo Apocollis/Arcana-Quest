@@ -28,7 +28,11 @@
       "amountPerChunk": 0.25,
       "enable": true
     },
-    "amber": {},
+    "grass": {
+      "amountPerChunk": 0.2,
+      "enable": true,
+      "generators": {}
+    },
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -40,20 +44,8 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "tanzanite": {
       "enable": true
-    },
-    "ruby": {},
-    "grass": {
-      "amountPerChunk": 0.2,
-      "enable": true,
-      "generators": {}
-    },
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
-    "sapphire": {}
+    }
   }
 }

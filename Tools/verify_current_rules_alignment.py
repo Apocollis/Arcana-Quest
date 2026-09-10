@@ -276,6 +276,9 @@ pot_rules = load_lenient_json(pot_path)
 
 pot_maxcounts = {}
 for rule in pot_rules:
+    # Skip depths pool rules when checking baseline tier limits
+    if "maxheight" in rule:
+        continue
     mc = rule.get("maxcount")
     if isinstance(mc, dict) and mc.get("perplayer") is True:
         mob = mc.get("mob")

@@ -12,6 +12,17 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
+    "tiny_cacti": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "tinycactus"
+        }
+      },
+      "generationAttempts": 16,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
     "miners_delight": {
       "with": {
         "block": "biomesoplenty:flower_1",
@@ -39,7 +50,6 @@
         }
       }
     },
-    "amber": {},
     "roots": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -51,26 +61,8 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "amethyst": {},
-    "malachite": {},
     "ruby": {
       "enable": true
-    },
-    "tanzanite": {},
-    "tiny_cacti": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "tinycactus"
-        }
-      },
-      "generationAttempts": 16,
-      "amountPerChunk": 0.25,
-      "enable": true
-    },
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
-    "sapphire": {}
+    }
   }
 }

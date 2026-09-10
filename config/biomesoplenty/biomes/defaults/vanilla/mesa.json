@@ -12,35 +12,6 @@
       "amountPerChunk": 1.5,
       "enable": true
     },
-    "miners_delight": {
-      "with": {
-        "block": "biomesoplenty:flower_1",
-        "properties": {
-          "variant": "miners_delight"
-        }
-      },
-      "generationAttempts": 64,
-      "amountPerChunk": 0.25,
-      "enable": true
-    },
-    "amber": {},
-    "roots": {
-      "with": {
-        "block": "biomesoplenty:plant_1",
-        "properties": {
-          "variant": "root"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 4.0,
-      "enable": true
-    },
-    "amethyst": {},
-    "malachite": {},
-    "ruby": {
-      "enable": true
-    },
-    "tanzanite": {},
     "tiny_cacti": {
       "with": {
         "block": "biomesoplenty:plant_1",
@@ -52,9 +23,28 @@
       "amountPerChunk": 0.1,
       "enable": true
     },
-    "peridot": {},
-    "berry_bushes": {},
-    "topaz": {},
+    "miners_delight": {
+      "with": {
+        "block": "biomesoplenty:flower_1",
+        "properties": {
+          "variant": "miners_delight"
+        }
+      },
+      "generationAttempts": 64,
+      "amountPerChunk": 0.25,
+      "enable": true
+    },
+    "roots": {
+      "with": {
+        "block": "biomesoplenty:plant_1",
+        "properties": {
+          "variant": "root"
+        }
+      },
+      "generationAttempts": 32,
+      "amountPerChunk": 4.0,
+      "enable": true
+    },
     "desertgrass": {
       "with": {
         "block": "biomesoplenty:plant_0",
@@ -66,6 +56,8 @@
       "amountPerChunk": 0.3,
       "enable": true
     },
-    "sapphire": {}
+    "ruby": {
+      "enable": true
+    }
   }
 }
