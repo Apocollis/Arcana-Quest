@@ -110,7 +110,7 @@
     "ruby": {},
     "tanzanite": {},
     "berry_bushes": {
-      "enable": false
+      "enable": true
     },
     "grass": {
       "amountPerChunk": 1.3,
@@ -119,15 +119,7 @@
     },
     "peridot": {},
     "bushes": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "bush"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.2,
-      "enable": false
+      "enable": true
     },
     "topaz": {},
     "sprouts": {

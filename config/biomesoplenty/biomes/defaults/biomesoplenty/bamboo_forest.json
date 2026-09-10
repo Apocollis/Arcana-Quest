@@ -128,15 +128,7 @@
     "peridot": {},
     "berry_bushes": {},
     "bushes": {
-      "with": {
-        "block": "biomesoplenty:plant_0",
-        "properties": {
-          "variant": "bush"
-        }
-      },
-      "generationAttempts": 32,
-      "amountPerChunk": 0.5,
-      "enable": false
+      "enable": true
     },
     "topaz": {
       "enable": true

@@ -132,7 +132,7 @@
       "generators": {}
     },
     "berry_bushes": {
-      "enable": false
+      "enable": true
     },
     "peridot": {
       "enable": true
