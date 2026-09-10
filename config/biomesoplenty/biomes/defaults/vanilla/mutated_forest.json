@@ -98,7 +98,7 @@
       "generators": {}
     },
     "berry_bushes": {
-      "enable": true
+      "enable": false
     },
     "peridot": {},
     "topaz": {},

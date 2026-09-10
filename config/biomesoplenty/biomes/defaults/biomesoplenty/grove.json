@@ -110,7 +110,7 @@
     "ruby": {},
     "tanzanite": {},
     "berry_bushes": {
-      "enable": true
+      "enable": false
     },
     "grass": {
       "amountPerChunk": 1.3,
@@ -127,7 +127,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.2,
-      "enable": true
+      "enable": false
     },
     "topaz": {},
     "sprouts": {

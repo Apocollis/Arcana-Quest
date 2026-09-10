@@ -6,13 +6,11 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySkylus",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSkylus",
-  "loadDefault": true,
-  "enabled": true,
+  "loadDefault": false,
+  "enabled": false,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
-      "water",
-      "waterfloor"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -78,7 +76,7 @@
     "insectivore"
   ],
   "peaceful": false,
-  "summonable": true,
+  "summonable": false,
   "tameable": false,
   "mountable": false,
   "summonCost": 3,

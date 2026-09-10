@@ -15,7 +15,7 @@
 			"name": "extradelightlegacy:roll",
 			"meta": 0,
 			"hunger": 3,
-			"saturationModifier": 0.5
+			"saturationModifier": 0.6667
 		},
 		{
 			"name": "extradelightlegacy:bread_slice",

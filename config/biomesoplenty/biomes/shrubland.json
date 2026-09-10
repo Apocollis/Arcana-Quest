@@ -179,7 +179,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.3,
-      "enable": true
+      "enable": false
     },
     "ruby": {
       "enable": false

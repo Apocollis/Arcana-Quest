@@ -90,7 +90,9 @@ def load_spawnrules_cfg(filepath):
         "deadly_mob_healthmultiply": 2.5,
         "deadly_mob_damagemultiply": 2.5,
         "deadly_mob_armoradd": 12.0,
-        "deadly_mob_potion": "dynamicstealth:soulsight,999999,0"
+        "deadly_mob_potion": "dynamicstealth:soulsight,999999,0",
+        "surface_day_limit": 20,
+        "surface_day": 20
     }
     if not os.path.exists(filepath):
         print("mob_spawnrules.cfg not found, using script defaults.")
@@ -108,6 +110,7 @@ def load_spawnrules_cfg(filepath):
                 if key.endswith("_limit"):
                     tier_name = key[:-6]
                     defaults[tier_name] = int(val.strip())
+                    defaults[key] = int(val.strip())
                 else:
                     defaults[key] = int(val.strip())
             elif line.startswith("D:") and "=" in line:
@@ -536,19 +539,50 @@ beneath_buff_rules = []
 seen_limit_mobs = set()
 
 if dayspawn_mobs:
-    print(f"Adding rule to allow {len(dayspawn_mobs)} hostile surface mobs during daytime")
-    day_allow_rule = {
+    day_limit = tier_limits.get("surface_day_limit", tier_limits.get("surface_day", 20))
+    print(f"Adding rule to allow {len(dayspawn_mobs)} hostile surface mobs during daytime (capped at {day_limit} per player)")
+    
+    # Deny rule when daytime surface cap is reached
+    day_deny_rule = {
         "mob": sorted(dayspawn_mobs),
         "dimension": 0,
+        "minheight": 60,
         "seesky": True,
         "mintime": 0,
         "maxtime": 13000,
+        "mincount": {
+            "amount": day_limit,
+            "perplayer": True,
+            "mob": sorted(dayspawn_mobs)
+        },
+        "result": "deny"
+    }
+    day_deny_text = json.dumps(day_deny_rule, indent=2)
+    day_deny_text = "\n".join("    " + line for line in day_deny_text.split("\n")).strip()
+    restriction_rules.append({
+        "preceding": f",\n\n  // Deny surface daytime hostile spawns once daytime cap ({day_limit} per player) is reached\n  ",
+        "obj_text": day_deny_text
+    })
+
+    # Allow rule with maxcount protection
+    day_allow_rule = {
+        "mob": sorted(dayspawn_mobs),
+        "dimension": 0,
+        "minheight": 60,
+        "seesky": True,
+        "mintime": 0,
+        "maxtime": 13000,
+        "maxcount": {
+            "amount": day_limit,
+            "perplayer": True,
+            "mob": sorted(dayspawn_mobs)
+        },
         "result": "allow"
     }
     day_allow_text = json.dumps(day_allow_rule, indent=2)
     day_allow_text = "\n".join("    " + line for line in day_allow_text.split("\n")).strip()
     day_allow_rules.append({
-        "preceding": ",\n\n  // Allow hostile non-undead surface creatures to spawn during daytime\n  ",
+        "preceding": f",\n\n  // Allow hostile non-undead surface creatures to spawn during daytime up to cap ({day_limit} per player)\n  ",
         "obj_text": day_allow_text
     })
 
@@ -626,9 +660,9 @@ for block in blocks:
         "Deadlier Underground" in preceding or
         "Hard cap total hostile mob spawning" in preceding or
         "Hard cap mob spawner cages" in preceding or
-        "Allow all mobs from mob spawners" in preceding or
         "Allow hostile non-undead surface creatures to spawn during daytime" in preceding or
         "Deny hostile mob spawning in Village structures" in preceding or
+        "Deny surface daytime hostile spawns" in preceding or
         "in other dimensions" in preceding):
         print("Removing old/user-cleaned rule block")
         continue
@@ -636,6 +670,11 @@ for block in blocks:
     # Discard old village daytime deny rules to cleanly regenerate
     if rule_obj.get("structure") == "Village" and rule_obj.get("hostile") is True and rule_obj.get("result") == "deny":
         print("Removing old village daytime deny rule to regenerate")
+        continue
+
+    # Discard old daytime deny rule block if present
+    if rule_obj.get("result") == "deny" and rule_obj.get("mintime") == 0 and rule_obj.get("seesky") is True and isinstance(rule_obj.get("mob"), list):
+        print("Removing old daytime deny rule block")
         continue
 
     # Discard old daytime allow rule block if present

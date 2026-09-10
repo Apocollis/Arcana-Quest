@@ -86,7 +86,13 @@ val saltmodItemsToHide = [
     "saltmod:tf_salt_meef_stroganoff",
     "saltmod:tf_salt_venison_cooked",
     "saltmod:tf_saltwort_meef_steak",
-    "saltmod:tf_saltwort_venison"
+    "saltmod:tf_saltwort_venison",
+
+    // Mud Armor
+    "saltmod:mud_helmet",
+    "saltmod:mud_chestplate",
+    "saltmod:mud_leggings",
+    "saltmod:mud_boots"
 ] as string[];
 
 for id in saltmodItemsToHide {

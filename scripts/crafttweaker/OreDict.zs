@@ -20,3 +20,13 @@ itemsalt.add(<saltmod:salt_pinch>);
 #Seperate Thaumcraft and Metallurgy Quicksilver
 val tcquicksilverdrop = <ore:nuggetQuicksilver>;
 tcquicksilverdrop.remove(<metallurgy:quicksilver_nugget>);
+
+#Flour Unification
+val foodFlour = <ore:foodFlour>;
+val flour = <ore:flour>;
+val dustWheat = <ore:dustWheat>;
+foodFlour.addAll(flour);
+flour.addAll(foodFlour);
+foodFlour.addAll(dustWheat);
+dustWheat.addAll(foodFlour);
+

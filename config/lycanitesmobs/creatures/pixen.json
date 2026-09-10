@@ -27,7 +27,7 @@
     "spawnGroupMin": 1,
     "spawnGroupMax": 3,
     "spawnsInLight": true,
-    "spawnsInDark": false,
+    "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": true,
     "despawnForced": false

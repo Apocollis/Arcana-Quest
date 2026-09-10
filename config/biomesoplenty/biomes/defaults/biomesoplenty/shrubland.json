@@ -156,7 +156,7 @@
       }
     },
     "berry_bushes": {
-      "enable": true
+      "enable": false
     },
     "grass": {
       "amountPerChunk": 1.5,
@@ -175,7 +175,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.3,
-      "enable": true
+      "enable": false
     },
     "topaz": {},
     "sapphire": {}

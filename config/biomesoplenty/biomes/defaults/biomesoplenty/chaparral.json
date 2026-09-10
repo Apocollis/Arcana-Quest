@@ -147,7 +147,7 @@
       "generators": {}
     },
     "berry_bushes": {
-      "enable": true
+      "enable": false
     },
     "peridot": {
       "enable": true
@@ -161,7 +161,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.75,
-      "enable": true
+      "enable": false
     },
     "topaz": {},
     "sapphire": {}

@@ -9,6 +9,10 @@ val sdItemsToHide = [
     <simpledifficulty:ice_chestplate>,
     <simpledifficulty:ice_leggings>,
     <simpledifficulty:ice_boots>,
+    <simpledifficulty:wool_helmet>,
+    <simpledifficulty:wool_chestplate>,
+    <simpledifficulty:wool_leggings>,
+    <simpledifficulty:wool_boots>,
     <simpledifficulty:ice_chunk>,
     <simpledifficulty:magma_chunk>
 ] as IItemStack[];

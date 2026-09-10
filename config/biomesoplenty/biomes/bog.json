@@ -203,7 +203,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 3.0,
-      "enable": true
+      "enable": false
     },
     "blue_milk_caps": {
       "with": {

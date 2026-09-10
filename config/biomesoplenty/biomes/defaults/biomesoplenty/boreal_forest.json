@@ -145,7 +145,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.75,
-      "enable": true
+      "enable": false
     },
     "topaz": {},
     "sapphire": {}

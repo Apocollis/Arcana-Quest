@@ -218,13 +218,6 @@
     "random": "0.005",
     "item": "thaumcraft:curio@2"
   },
-  // Maug Fur Drop
-  {
-    "mob": "lycanitesmobs:maug",
-    "player": true,
-    "item": "grimoireofgaia:misc_fur@0",
-    "itemcount": "1-2/1-3/1-4"
-  },
   // Rare Earths Drops
   {
     "mob": "grimoireofgaia:cobblestone_golem",
@@ -662,6 +655,28 @@
     "mob": ["minecraft:chicken", "animania:rooster_leghorn", "animania:rooster_orpington", "animania:rooster_plymouth_rock", "animania:rooster_rhode_island_red", "animania:rooster_wyandotte", "animania:hen_leghorn", "animania:hen_orpington", "animania:hen_plymouth_rock", "animania:hen_rhode_island_red", "animania:hen_wyandotte", "animania:chick_leghorn", "animania:chick_orpington", "animania:chick_plymouth_rock", "animania:chick_rhode_island_red", "animania:chick_wyandotte"],
     "item": "minecraft:bone",
     "itemcount": "1-2"
+  },
+
+  // Twilight Forest Arctic Fur from Bobeko & Maug
+  {
+    "mob": [
+      "lycanitesmobs:bobeko",
+      "lycanitesmobs:maug"
+    ],
+    "random": "0.75",
+    "item": "twilightforest:arctic_fur",
+    "itemcount": "1-2"
+  },
+
+  // Atum Cloth Scrap from Mummy & Cryptkeeper
+  {
+    "mob": [
+      "grimoireofgaia:mummy",
+      "lycanitesmobs:cryptkeeper"
+    ],
+    "random": "0.75",
+    "item": "atum:cloth_scrap",
+    "itemcount": "1-3"
   }
 
 ]

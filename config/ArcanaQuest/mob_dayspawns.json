@@ -19,12 +19,13 @@
   "lycanitesmobs:ent",
   "lycanitesmobs:ettin",
   "lycanitesmobs:feradon",
-  "lycanitesmobs:frostweaver",
   "lycanitesmobs:geken",
   "lycanitesmobs:gorgomite",
   "lycanitesmobs:jabberwock",
   "lycanitesmobs:kobold",
   "lycanitesmobs:maug",
+  "lycanitesmobs:nymph",
+  "lycanitesmobs:pixen",
   "lycanitesmobs:quillbeast",
   "lycanitesmobs:raiko",
   "lycanitesmobs:shambler",
@@ -33,5 +34,5 @@
   "lycanitesmobs:troll",
   "lycanitesmobs:warg",
   "lycanitesmobs:wildkin",
-  "minecraft:spider"
+  "lycanitesmobs:wisp"
 ]

@@ -50,3 +50,5 @@ oreKelp.add(<biomesoplenty:seaweed>);
 <ore:mayBeKelp>.remove(<minecraft:reeds>);
 <ore:mayBeKelp>.add(<biomesoplenty:seaweed>);
 
+// 8. BOP Berries to Rustic Wildberries Fallback
+recipes.addShapeless("aq_bop_berries_to_wildberries", <rustic:wildberries>, [<biomesoplenty:berries>]);

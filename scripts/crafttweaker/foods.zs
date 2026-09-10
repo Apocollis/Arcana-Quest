@@ -570,6 +570,16 @@ recipes.remove(<minecraft:bread>);
 furnace.remove(<minecraft:bread>);
 WitchesOven.removeRecipe(<minecraft:bread>);
 
+// Loaf of Bread Baking (1x Wheat Dough in Loaf Pan - Extra Delight Oven)
+Oven.add(
+    "aq_oven_bread_loaf",
+    [<farmersdelight:wheat_dough> | <ore:dough>] as IIngredient[],
+    <extradelightlegacy:loaf_pan>,
+    <minecraft:bread>,
+    400,
+    false
+);
+
 // Bread Roll Baking (Furnace & Oven - No Pan Required)
 furnace.addRecipe(<extradelightlegacy:roll>, <farmersdelight:wheat_dough>, 0.35);
 Oven.add(

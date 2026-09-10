@@ -232,7 +232,7 @@
       },
       "generationAttempts": 32,
       "amountPerChunk": 0.8,
-      "enable": true
+      "enable": false
     },
     "desertgrass": {
       "with": {

@@ -416,6 +416,78 @@
       "amount": 5,
       "saturation": 5.0,
       "thirstyChance": 0.25
+    },
+    {
+      "identity": {
+        "metadata": -1,
+        "nbt": "{Fluid:{FluidName:\"juniper_berry_juice\"}}"
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": -1,
+        "nbt": "{Fluid:{FluidName:\"elderberry_juice\"}}"
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": -1,
+        "nbt": "{Fluid:{FluidName:\"sage_juice\"}}"
+      },
+      "amount": 8,
+      "saturation": 4.0,
+      "thirstyChance": 0.0
+    },
+    {
+      "identity": {
+        "metadata": -1,
+        "nbt": "{Fluid:{FluidName:\"wormwood_mixture\"}}"
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.9
+    },
+    {
+      "identity": {
+        "metadata": -1,
+        "nbt": "{Fluid:{FluidName:\"gin\"}}"
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.6
+    },
+    {
+      "identity": {
+        "metadata": -1,
+        "nbt": "{Fluid:{FluidName:\"elderberyy_wine\"}}"
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.6
+    },
+    {
+      "identity": {
+        "metadata": -1,
+        "nbt": "{Fluid:{FluidName:\"absinthe\"}}"
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.6
+    },
+    {
+      "identity": {
+        "metadata": -1,
+        "nbt": "{Fluid:{FluidName:\"sage_liqueur\"}}"
+      },
+      "amount": 5,
+      "saturation": 5.0,
+      "thirstyChance": 0.6
     }
   ],
   "extradelightlegacy:lemon_juice": [
@@ -585,6 +657,16 @@
       },
       "amount": 8,
       "saturation": 4.0,
+      "thirstyChance": 0.0
+    }
+  ],
+  "thebetweenlands:drinkable_brew": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 3.0,
       "thirstyChance": 0.0
     }
   ]
