@@ -24,15 +24,7 @@
 			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},sell:{id:"minecraft:tipped_arrow",Count:16,tag:[{Potion:"minecraft:harming"},{Potion:"minecraft:long_poison"},{Potion:"minecraft:weakness"},{Potion:"minecraft:slowness"},{Potion:"potioncore:vulnerable"},{Potion:"potioncore:broken_armor"},{Potion:"potioncore:fire"}]}, CareerLevel:4},
 			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:45,max:48}},sell:{id:"minecraft:tipped_arrow",Count:16,tag:[{Potion:"extraalchemy:freezing"},{Potion:"potioncore:burst"},{Potion:"potioncore:teleport"},{Potion:"potioncore:lightning"},{Potion:"potioncore:levitation"},{Potion:"potioncore:wither"},{Potion:"potioncore:strong_launch"}]}, CareerLevel:4},
 			
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},sell:{id:"grimoireofgaia:bag_arrow",Count:1}, CareerLevel:5},
-			
-			{
-				action:"add", 
-				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
-				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "potioncore:archery"}}, 
-				CareerLevel:5
-			}
-			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},sell:{id:"grimoireofgaia:bag_arrow",Count:1}, CareerLevel:5}
 		]
 	}
 

@@ -428,11 +428,14 @@ custom_rules.append({
     "obj_text": spectre_text
 })
 
-# 1b. Allow Structure-Specific Mobs to Spawn in Structures (Bypasses Surface-Only Underground Deny)
+# 1b. Allow Structure-Specific Mobs to Spawn in Structures (Promoted to Top of spawn.json)
+structure_allow_rules = []
 structurespawns = load_lenient_json(os.path.join(aq_dir, "mob_structurespawns.json")) or {}
+all_struct_mobs = set()
 for struct_name, mob_list in sorted(structurespawns.items()):
     active_struct_mobs = sorted([m for m in mob_list if m not in disabled])
     if active_struct_mobs:
+        all_struct_mobs.update(active_struct_mobs)
         print(f"Adding structure spawn allow rule for {len(active_struct_mobs)} mobs in structure '{struct_name}'")
         struct_rule = {
             "mob": active_struct_mobs,
@@ -442,18 +445,19 @@ for struct_name, mob_list in sorted(structurespawns.items()):
         }
         struct_text = json.dumps(struct_rule, indent=2)
         struct_text = "\n".join("    " + line for line in struct_text.split("\n")).strip()
-        custom_rules.append({
+        structure_allow_rules.append({
             "preceding": f",\n\n  // Allow structure-specific mobs to spawn in '{struct_name}'\n  ",
             "obj_text": struct_text
         })
 
-# 2. Restrict Surface-Only Mobs to Surface (above Y 60)
-if surface_only:
-    print(f"Adding rule to restrict {len(surface_only)} surface-only mobs from spawning underground")
+# 2. Restrict Surface-Only and Structure Mobs to Surface (above Y 60 or where sky is visible)
+underground_denied_mobs = sorted(list(set(surface_only) | all_struct_mobs))
+if underground_denied_mobs:
+    print(f"Adding rule to restrict {len(underground_denied_mobs)} surface-only and structure mobs from spawning in regular caves")
     
     # Rule A: Deny if under Y 60 and seesky is False
     so_height_rule = {
-        "mob": surface_only,
+        "mob": underground_denied_mobs,
         "dimension": 0,
         "maxheight": 60,
         "seesky": False,
@@ -462,7 +466,7 @@ if surface_only:
     so_height_text = json.dumps(so_height_rule, indent=2)
     so_height_text = "\n".join("    " + line for line in so_height_text.split("\n")).strip()
     custom_rules.append({
-        "preceding": ",\n\n  // Restrict surface-only mobs to above Y 60 or where sky is visible\n  ",
+        "preceding": ",\n\n  // Restrict surface-only and structure mobs to above Y 60 or where sky is visible\n  ",
         "obj_text": so_height_text
     })
 
@@ -504,15 +508,31 @@ custom_rules.append({
 
 # Process blocks, updating limits and cleaning up old rules
 spawner_allow_rules = []
-spawner_rule = {
+
+# 1. Deny spawner mobs if they collide with blocks/walls
+spawner_deny_rule = {
     "spawner": True,
+    "notcolliding": False,
+    "result": "deny"
+}
+spawner_deny_text = json.dumps(spawner_deny_rule, indent=2)
+spawner_deny_text = "\n".join("    " + line for line in spawner_deny_text.split("\n")).strip()
+spawner_allow_rules.append({
+    "preceding": "\n  // Deny spawner mobs if they collide with blocks/walls\n  ",
+    "obj_text": spawner_deny_text
+})
+
+# 2. Allow spawner mobs in open air (skips light/path checks while preserving collision safety)
+spawner_allow_rule = {
+    "spawner": True,
+    "notcolliding": True,
     "result": "allow"
 }
-spawner_text = json.dumps(spawner_rule, indent=2)
-spawner_text = "\n".join("    " + line for line in spawner_text.split("\n")).strip()
+spawner_allow_text = json.dumps(spawner_allow_rule, indent=2)
+spawner_allow_text = "\n".join("    " + line for line in spawner_allow_text.split("\n")).strip()
 spawner_allow_rules.append({
-    "preceding": "\n  // Allow all mobs from mob spawners to always spawn regardless of other conditions\n  ",
-    "obj_text": spawner_text
+    "preceding": ",\n\n  // Allow spawner mobs in open air (skips light/path checks while preserving collision safety)\n  ",
+    "obj_text": spawner_allow_text
 })
 
 exception_allow_rules = []
@@ -727,10 +747,17 @@ for block in blocks:
         "Allow hostile non-undead surface creatures to spawn during daytime" in preceding or
         "Deny hostile mob spawning in Village structures" in preceding or
         "Deny surface daytime hostile spawns" in preceding or
+        "Allow structure-specific mobs" in preceding or
+        "structure-specific mobs" in preceding or
         "Allow Depths pool mobs" in preceding or
         "Depths pool mobs" in preceding or
         "in other dimensions" in preceding):
         print("Removing old/user-cleaned rule block")
+        continue
+
+    # Discard old structure allow rules to cleanly regenerate at top
+    if "structure" in rule_obj and rule_obj.get("result") == "allow":
+        print(f"Removing old structure allow rule to cleanly regenerate at top: {rule_obj.get('structure')}")
         continue
 
     # Discard old village daytime deny rules to cleanly regenerate
@@ -935,9 +962,10 @@ print("Per-mob spawn caps are managed via maxcount in potentialspawn.json")
 # Sync badmobs.cfg with disabled mobs list
 sync_badmobs_config(disabled)
 
-# Final ordered blocks: Strict execution order (Spawner allow -> Time rules -> Specific allows -> Depths bypass -> Stage gating -> Restrictions/Denies -> Modifiers -> Catch-all Buffs)
+# Final ordered blocks: Strict execution order (Spawner allow -> Structure allow -> Time rules -> Specific allows -> Depths bypass -> Stage gating -> Restrictions/Denies -> Modifiers -> Catch-all Buffs)
 processed_blocks = []
 processed_blocks.extend(spawner_allow_rules)
+processed_blocks.extend(structure_allow_rules)
 processed_blocks.extend(time_rules)
 processed_blocks.extend(exception_allow_rules)
 processed_blocks.extend(depths_bypass_rules)

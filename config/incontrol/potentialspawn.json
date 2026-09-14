@@ -4244,16 +4244,34 @@
     "dimension": 0,
     "maxheight": -30,
     "maxcount": {
-      "amount": 8,
+      "amount": 12,
       "mob": "embers:ancient_golem",
       "perplayer": true
     },
     "mobs": [
       {
         "mob": "embers:ancient_golem",
-        "weight": 100,
+        "weight": 600,
         "groupcountmin": 1,
         "groupcountmax": 2
+      }
+    ],
+    "creaturetype": "MONSTER"
+  },
+  {
+    "dimension": 0,
+    "maxheight": -30,
+    "maxcount": {
+      "amount": 1,
+      "mob": "lycanitesmobs:beholder",
+      "perplayer": true
+    },
+    "mobs": [
+      {
+        "mob": "lycanitesmobs:beholder",
+        "weight": 400,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       }
     ],
     "creaturetype": "MONSTER"

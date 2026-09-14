@@ -1,7 +1,22 @@
 [
-  // Allow all mobs from mob spawners to always spawn regardless of other conditions
+  // Allow all spawner mobs unconditionally (skips light, dimension, collision, and stage restrictions)
   {
       "spawner": true,
+      "result": "allow"
+    },
+// Allow structure-specific mobs to spawn in 'Mineshaft'
+  {
+      "mob": [
+        "grimoireofgaia:illager_fire",
+        "grimoireofgaia:illager_inquisitor",
+        "minecraft:evocation_illager",
+        "minecraft:illusion_illager",
+        "minecraft:vindication_illager",
+        "minecraft:witch",
+        "raids:pillager"
+      ],
+      "dimension": 0,
+      "structure": "Mineshaft",
       "result": "allow"
     },
 // Deny hostile mob spawning in Village structures during daytime
@@ -86,7 +101,8 @@
 // Allow Depths pool mobs underground (Y <= -30) natural spawning (bypasses surface-only deny rules)
   {
       "mob": [
-        "embers:ancient_golem"
+        "embers:ancient_golem",
+        "lycanitesmobs:beholder"
       ],
       "dimension": 0,
       "maxheight": -30,
@@ -95,7 +111,8 @@
 // Allow Depths pool mobs underground (Y <= -30) regardless of stage (Tier 3 multipliers)
   {
       "mob": [
-        "embers:ancient_golem"
+        "embers:ancient_golem",
+        "lycanitesmobs:beholder"
       ],
       "dimension": 0,
       "maxheight": -30,
@@ -460,22 +477,7 @@
       "result": "deny",
       "onjoin": true
     },
-// Allow structure-specific mobs to spawn in 'Mineshaft'
-  {
-      "mob": [
-        "grimoireofgaia:illager_fire",
-        "grimoireofgaia:illager_inquisitor",
-        "minecraft:evocation_illager",
-        "minecraft:illusion_illager",
-        "minecraft:vindication_illager",
-        "minecraft:witch",
-        "raids:pillager"
-      ],
-      "dimension": 0,
-      "structure": "Mineshaft",
-      "result": "allow"
-    },
-// Restrict surface-only mobs to above Y 60 or where sky is visible
+// Restrict surface-only and structure mobs to above Y 60 or where sky is visible
   {
       "mob": [
         "grimoireofgaia:anubis",
@@ -486,6 +488,8 @@
         "grimoireofgaia:gryphon",
         "grimoireofgaia:harpy",
         "grimoireofgaia:hunter",
+        "grimoireofgaia:illager_fire",
+        "grimoireofgaia:illager_inquisitor",
         "grimoireofgaia:matango",
         "grimoireofgaia:mermaid",
         "grimoireofgaia:mummy",
@@ -547,6 +551,7 @@
         "minecraft:illusion_illager",
         "minecraft:vindication_illager",
         "minecraft:witch",
+        "raids:pillager",
         "thebetweenlands:dark_druid"
       ],
       "dimension": 0,
@@ -557,6 +562,7 @@
 // Restrict underground-only mobs to below Y 60
   {
       "mob": [
+        "aqtweaks:deep_dwarf",
         "charm:spectre",
         "grimoireofgaia:arachne",
         "grimoireofgaia:dwarf",
@@ -837,49 +843,54 @@
       },
       "result": "allow"
     },
-// Allow structure-specific mobs to spawn in 'Mineshaft'
+// Equip and buff Crimson Cultist Archer on join
   {
-      "mob": [
-        "grimoireofgaia:illager_fire",
-        "grimoireofgaia:illager_inquisitor",
-        "minecraft:evocation_illager",
-        "minecraft:illusion_illager",
-        "minecraft:vindication_illager",
-        "minecraft:witch",
-        "raids:pillager"
-      ],
-      "dimension": 0,
-      "structure": "Mineshaft",
-      "result": "allow",
-      "onjoin": true
-    },
-// Allow structure-specific mobs to spawn in 'Mineshaft'
-  {
-      "mob": [
-        "grimoireofgaia:illager_fire",
-        "grimoireofgaia:illager_inquisitor",
-        "minecraft:evocation_illager",
-        "minecraft:illusion_illager",
-        "minecraft:vindication_illager",
-        "raids:pillager"
-      ],
-      "dimension": 0,
-      "structure": "Mineshaft",
-      "result": "allow",
-      "onjoin": true
-    },
-// Allow Crimsoncult tier mobs inside Roguelike Dungeon structure regardless of stage (Tier 2 multipliers)
-  {
-      "mob": [
-        "crimsonrevelations:cultist_archer",
-        "thaumcraft:cultistcleric",
-        "thaumcraft:cultistknight"
-      ],
-      "structure": "RoguelikeDungeon",
+      "mob": "crimsonrevelations:cultist_archer",
       "result": "default",
+      "helditem": "minecraft:bow",
+      "armorhelmet": "crimsonrevelations:crimson_archer_helmet",
+      "armorchest": "crimsonrevelations:crimson_archer_chestplate",
+      "armorlegs": "crimsonrevelations:crimson_archer_leggings",
+      "armorboots": "thaumcraft:crimson_boots",
       "healthmultiply": 2.0,
       "damagemultiply": 1.75,
-      "potion": "minecraft:night_vision,999999,0",
+      "potion": [
+        "dynamicstealth:soulsight,999999,0",
+        "minecraft:night_vision,999999,0"
+      ],
+      "onjoin": true
+    },
+// Equip and buff Crimson Cultist Knight on join
+  {
+      "mob": "thaumcraft:cultistknight",
+      "result": "default",
+      "helditem": "thaumcraft:crimson_blade",
+      "armorhelmet": "thaumcraft:crimson_plate_helm",
+      "armorchest": "thaumcraft:crimson_plate_chest",
+      "armorlegs": "thaumcraft:crimson_plate_legs",
+      "armorboots": "thaumcraft:crimson_boots",
+      "healthmultiply": 2.0,
+      "damagemultiply": 1.75,
+      "potion": [
+        "dynamicstealth:soulsight,999999,0",
+        "minecraft:night_vision,999999,0"
+      ],
+      "onjoin": true
+    },
+// Equip and buff Crimson Cultist Cleric on join
+  {
+      "mob": "thaumcraft:cultistcleric",
+      "result": "default",
+      "armorhelmet": "thaumcraft:crimson_robe_helm",
+      "armorchest": "thaumcraft:crimson_robe_chest",
+      "armorlegs": "thaumcraft:crimson_robe_legs",
+      "armorboots": "thaumcraft:crimson_boots",
+      "healthmultiply": 2.0,
+      "damagemultiply": 1.75,
+      "potion": [
+        "dynamicstealth:soulsight,999999,0",
+        "minecraft:night_vision,999999,0"
+      ],
       "onjoin": true
     },
 // Custom modifiers for artifacts:mimic

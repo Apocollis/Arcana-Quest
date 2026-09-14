@@ -159,23 +159,7 @@
       "enable": true
     },
     "flax": {
-      "with": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "lower",
-          "variant": "flax"
-        }
-      },
-      "generationAttempts": 6,
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "withTop": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "upper",
-          "variant": "flax"
-        }
-      }
+      "enable": true
     },
     "grass": {
       "amountPerChunk": 1.8,

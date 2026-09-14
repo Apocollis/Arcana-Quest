@@ -2,12 +2,23 @@ import crafttweaker.item.IItemStack;
 import mods.embers.Melter;
 import mods.embers.Stamper;
 import mods.embers.Mixer;
+import mods.jei.JEI;
 import mods.metallurgyreforged.Alloyer;
 import mods.metallurgyreforged.Crusher;
 
 #Remove Metallurgy 4 recipes
 recipes.remove(<metallurgy:alloyer>);
 recipes.remove(<metallurgy:crusher>);
+recipes.remove(<metallurgy:sublimation_chamber>);
+
+#Hide Metallurgy 4 machines and categories from JEI
+JEI.hide(<metallurgy:alloyer>);
+JEI.hide(<metallurgy:crusher>);
+JEI.hide(<metallurgy:sublimation_chamber>);
+
+JEI.hideCategory("metallurgy.alloyer");
+JEI.hideCategory("metallurgy.crusher");
+JEI.hideCategory("metallurgy.sublimation_chamber");
 
 
 ##Remove ingots from alloyer. Thanks to MetallurgyTweaks script for the code parts for this function.

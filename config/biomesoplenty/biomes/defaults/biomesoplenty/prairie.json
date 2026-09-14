@@ -66,23 +66,7 @@
       "generators": {}
     },
     "flax": {
-      "with": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "lower",
-          "variant": "flax"
-        }
-      },
-      "generationAttempts": 8,
-      "amountPerChunk": 0.2,
-      "enable": true,
-      "withTop": {
-        "block": "biomesoplenty:double_plant",
-        "properties": {
-          "half": "upper",
-          "variant": "flax"
-        }
-      }
+      "enable": true
     },
     "miners_delight": {
       "with": {

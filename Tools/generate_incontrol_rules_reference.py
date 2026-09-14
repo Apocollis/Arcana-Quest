@@ -122,6 +122,8 @@ def format_spawn_rules():
 
         # Conditions
         conds = []
+        if "notcolliding" in rule:
+            conds.append(f"NotColliding: {rule['notcolliding']}")
         if "dimension" in rule:
             conds.append(f"Dimension: {rule['dimension']}")
         if "structure" in rule:

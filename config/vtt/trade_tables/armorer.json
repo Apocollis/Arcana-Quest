@@ -26,15 +26,7 @@
 		
 			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}}, buy:{id:"ordinarycoins:coingold",Count:5},sell:{id:["minecraft:diamond_helmet","minecraft:diamond_boots"],Count:1,tag:{ench:"random"}}, CareerLevel:4},
 			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}}, buy:{id:"ordinarycoins:coingold",Count:6},sell:{id:["minecraft:diamond_chestplate","minecraft:diamond_leggings"],Count:1,tag:{ench:"random"}}, CareerLevel:4},
-			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}}, buy:{id:"ordinarycoins:coingold",Count:5},sell:{id:"spartanshields:shield_basic_diamond",Count:1,tag:{ench:"random"}}, CareerLevel:4},
-			
-			{
-				action:"add", 
-				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
-				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "minecraft:resistance"}}, 
-				CareerLevel:5
-			}
-			
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}}, buy:{id:"ordinarycoins:coingold",Count:5},sell:{id:"spartanshields:shield_basic_diamond",Count:1,tag:{ench:"random"}}, CareerLevel:4}
 		]
 	}
 }

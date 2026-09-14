@@ -26,14 +26,7 @@
 			
 			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:6}}, buy:{id:"ordinarycoins:coingold",Count:4},sell:{id:"minecraft:diamond_pickaxe",Count:1,tag:{ench:"random"}}, CareerLevel:4},
 			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:4},sell:{id:"minecraft:diamond_shovel",Count:1,tag:{ench:"random"}}, CareerLevel:4},
-			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:6}}, buy:{id:"ordinarycoins:coingold",Count:4},sell:{id:"minecraft:diamond_axe",Count:1,tag:{ench:"random"}}, CareerLevel:4},
-			
-			{
-				action:"add", 
-				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
-				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "minecraft:haste"}}, 
-				CareerLevel:5
-			}
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:6}}, buy:{id:"ordinarycoins:coingold",Count:4},sell:{id:"minecraft:diamond_axe",Count:1,tag:{ench:"random"}}, CareerLevel:4}
 		]
 	}
 

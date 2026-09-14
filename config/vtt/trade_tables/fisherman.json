@@ -21,15 +21,7 @@
 			{action:"add", buy:{id:"combustfish:bone_fish",Damage:0,Count:8},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:4},
 			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"combustfish:golden_rod",Count:1,tag:{ench:"random"}}, CareerLevel:4},
 			
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:42,max:48}},sell:{id:"combustfish:searing_swordfish",Count:1,tag:{ench:"random"}}, CareerLevel:5},
-			{
-				action:"add", 
-				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
-				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "minecraft:luck"}}, 
-				CareerLevel:5
-			}
-			
-			
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:42,max:48}},sell:{id:"combustfish:searing_swordfish",Count:1,tag:{ench:"random"}}, CareerLevel:5}
 		]
 	}
 

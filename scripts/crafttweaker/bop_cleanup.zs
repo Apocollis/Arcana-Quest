@@ -37,4 +37,13 @@ for item in bopBerriesToHide {
 recipes.remove(<biomesoplenty:biome_finder>);
 JEI.hide(<biomesoplenty:biome_finder>);
 
+// Remove and hide BOP Flax (<biomesoplenty:double_plant:0>) and Flax Terrarium (<biomesoplenty:terrarium:3>)
+recipes.remove(<biomesoplenty:double_plant:0>);
+recipes.remove(<biomesoplenty:terrarium:3>);
+recipes.removeByRecipeName("biomesoplenty:light_blue_dye_from_flax");
+recipes.removeByRecipeName("biomesoplenty:flax_terrarium");
 
+JEI.hide(<biomesoplenty:double_plant:0>);
+JEI.hide(<biomesoplenty:terrarium:3>);
+
+oreDict.plantFlax.remove(<biomesoplenty:double_plant:0>);

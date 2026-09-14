@@ -2,6 +2,9 @@
   "generators": {
     "topaz": {
       "enable": false
+    },
+    "flax": {
+      "enable": false
     }
   }
 }

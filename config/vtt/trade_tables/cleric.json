@@ -107,15 +107,7 @@
 				buyB:{id:"ordinarycoins:coingold",Count:{min:2,max:3}},
 				buy:{id:"ordinarycoins:coinplatinum",Count:2},
 				sell: {id:"contenttweaker:lifeblood_crystal",Count:1}
-			},
-			
-			{
-				action:"add", 
-				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
-				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "potioncore:purity"}}, 
-				CareerLevel:5
 			}
-		
 		]
 	}
 

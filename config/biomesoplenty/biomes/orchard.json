@@ -5,6 +5,9 @@
     },
     "peridot": {
       "enable": false
+    },
+    "flax": {
+      "enable": false
     }
   }
 }

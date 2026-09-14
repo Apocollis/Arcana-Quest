@@ -27,6 +27,13 @@
 		{"level": 4, "type" : "NETHERARCH", "arch" : true},
 		{"level": 4, "type" : "NETHERWART", "weight" : 1},
 		{"level": 4, "type" : "NETHERSTRIPE", "weight" : 2},
-		{"level": 4, "type" : "NETHERLAVA", "weight" : 2}
+		{"level": 4, "type" : "NETHERLAVA", "weight" : 2},
+		
+		{"level": [8, 9], "type" : "ARCH", "arch" : true},
+		{"level": [8, 9], "type" : "BOOKS", "weight" : 3},
+		{"level": [8, 9], "type" : "ANKH", "weight" : 2},
+		{"level": [8, 9], "type" : "DOOR", "weight" : 5},
+		{"level": [8, 9], "type" : "SPAWNER", "weight" : 2},
+		{"level": [8, 9], "type" : "CHEST", "weight" : 1}
 	]
 }

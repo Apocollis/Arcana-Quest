@@ -1,0 +1,13 @@
+{
+  "name": "thaumic_undead_spawners",
+  "spawners": [
+    {
+      "level": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "weight": 1,
+      "potentials": [
+        { "name": "thaumcraft:brainyzombie", "weight": 19 },
+        { "name": "thaumcraft:eldritchguardian", "weight": 1 }
+      ]
+    }
+  ]
+}

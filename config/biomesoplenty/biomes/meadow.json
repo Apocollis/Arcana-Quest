@@ -5,6 +5,9 @@
     },
     "bushes": {
       "enable": false
+    },
+    "flax": {
+      "enable": false
     }
   }
 }

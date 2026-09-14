@@ -8,7 +8,7 @@
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
     "tool": "any",
     "material": {
-        "item": "minecraft:nether_star"
+        "ore_dict": "reforgeUniversal"
     }
   },
   {

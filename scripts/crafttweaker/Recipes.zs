@@ -189,3 +189,13 @@ recipes.addShaped(<nb:chain_block> * 12,
   [<ore:ingotSteel>],
   [<ore:ingotSteel>]]);
 
+# QUALITY TOOLS REFORGING RUNE
+<ore:reforgeUniversal>.add(<contenttweaker:reforge_rune>);
+<ore:reforgeUniversal>.add(<minecraft:nether_star>);
+
+recipes.addShaped("reforge_rune", <contenttweaker:reforge_rune>, [
+    [<ore:ingotGold>, <ore:gemLapis>,   <ore:ingotGold>],
+    [<ore:gemLapis>,  <ore:gemEmerald>, <ore:gemLapis>],
+    [<ore:ingotGold>, <ore:gemLapis>,   <ore:ingotGold>]
+]);
+

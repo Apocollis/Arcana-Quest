@@ -119,15 +119,7 @@
 				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},
 				buy:{id:"ordinarycoins:coingold",Count:12},
 				sell: {id:"botania:overgrowthseed",Count:1}
-			},
-			
-			{
-				action:"add", 
-				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
-				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect:"extraalchemy:effect.photosynthesis"}}, 
-				CareerLevel:5
 			}
-			
 		]
 	}
 

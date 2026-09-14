@@ -24,15 +24,7 @@
 			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:6}}, buy:{id:"ordinarycoins:coingold",Count:5},sell:{id:"dynamicswordskills:skillsword_diamond",Damage:0,Count:1,tag:[{ItemSkillName: "superspinattack", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "backslice", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "endingblow", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "mortaldraw", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "swordbreak", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "risingcut", ItemSkillLevel: 4, grantsBasicSword: 1, ench:"random"}]}, CareerLevel:4},
 			
 			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:6}}, buy:{id:"ordinarycoins:coingold",Count:5},sell:{id:"dynamicswordskills:skillorb",Damage:[7,8,12],Count:1}, CareerLevel:5},
-			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:6},sell:{id:"dynamicswordskills:skillsword_diamond",Damage:0,Count:1,tag:[{ItemSkillName: "superspinattack", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "backslice", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "swordbeam", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "mortaldraw", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "swordbreak", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "risingcut", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"}]}, CareerLevel:5},
-			
-			{
-				action:"add", 
-				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
-				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "minecraft:strength"}}, 
-				CareerLevel:5
-			}
-			
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, buy:{id:"ordinarycoins:coingold",Count:6},sell:{id:"dynamicswordskills:skillsword_diamond",Damage:0,Count:1,tag:[{ItemSkillName: "superspinattack", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "backslice", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "swordbeam", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "mortaldraw", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "swordbreak", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"},{ItemSkillName: "risingcut", ItemSkillLevel: 5, grantsBasicSword: 1, ench:"random"}]}, CareerLevel:5}
 		]
 	}
 

@@ -2,6 +2,9 @@
   "generators": {
     "amber": {
       "enable": false
+    },
+    "flax": {
+      "enable": false
     }
   }
 }

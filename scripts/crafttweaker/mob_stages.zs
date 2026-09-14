@@ -24,6 +24,11 @@ mods.MobStages.addReplacement("thaumcraft:cultistknight", "thaumcraft:brainyzomb
 mods.MobStages.addReplacement("thaumcraft:cultistcleric", "thaumcraft:brainyzombie");
 mods.MobStages.addReplacement("crimsonrevelations:cultist_archer", "thaumcraft:brainyzombie");
 
+// Allow spawners to spawn cultists directly regardless of stage progression
+mods.MobStages.toggleSpawner("thaumcraft:cultistknight", true);
+mods.MobStages.toggleSpawner("thaumcraft:cultistcleric", true);
+mods.MobStages.toggleSpawner("crimsonrevelations:cultist_archer", true);
+
 // ------------------------------------------
 // 3. Elite Tier (Surface-Only) Gating & Replacements
 // Note: Underground-capable elites (banshee, cobblestone_golem, dhampir,
