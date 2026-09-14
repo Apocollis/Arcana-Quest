@@ -48,7 +48,6 @@
 			"level" : [6, 7],
 			"potentials" : [
 				{"name" : "thaumcraft:firebat", "weight" : 10},
-				{"name" : "grimoireofgaia:anubis", "weight" : 6},
 				{"name" : "minecraft:blaze", "weight" : 8},
 				{"name" : "minecraft:magma_cube", "weight" : 8}
 			]
@@ -77,9 +76,9 @@
 		{
 			"level" : 9,
 			"potentials" : [
-				{"name" : "thaumcraft:cultistknight", "weight" : 3},
-				{"name" : "crimsonrevelations:cultist_archer", "weight" : 3},
-				{"name" : "thaumcraft:cultistcleric", "weight" : 1}
+				{"name" : "thaumcraft:cultistknight", "weight" : 4},
+				{"name" : "crimsonrevelations:cultist_archer", "weight" : 4},
+				{"name" : "thaumcraft:cultistcleric", "weight" : 2}
 			]
 		}
 	]

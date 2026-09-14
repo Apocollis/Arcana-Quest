@@ -14,7 +14,7 @@
 		{"level" : [6, 7], "frequency" : "single", "type" : "NETHERFORT"},
 		{"level" : [6, 7], "frequency" : "single", "type" : "PLATFORMS_2"},
 		{"level" : [6, 7], "frequency" : "single", "type" : "SMALL_LIQUID_PIT"},
-		{"level" : [6, 7], "frequency" : "single", "type" : "FIRE"},
+		{"level" : [6, 7], "frequency" : "single", "type" : "FIRE", "spawnerId" : "firemobs"},
 		{"level" : [6, 7], "frequency" : "single", "type" : "SLIME"},
 		{"level" : [6, 7], "frequency" : "single", "type" : "SMITH"},
 		{"level" : [7, 9], "frequency" : "single", "type" : "REWARD"},

@@ -642,34 +642,27 @@ beneath_buff_rules.append({
 })
 
 # Early bypass rules for depths pool mobs (Y <= maxheight, default -30)
-# CheckSpawn allows natural spawning; OnJoin bypasses stage gating with Tier 3 underground multipliers
+# OnJoin bypasses stage gating with Tier 3 underground multipliers (excluding Dragon and Deadly tier mobs)
 depths_bypass_rules = []
 if depths_entries:
     depths_by_height = {}
     for d in depths_entries:
+        mob_id = d["mob"]
+        # Do not add to depths override rule group if mob already exists in Dragon or Deadly tiers
+        if mob_id in dragon_mobs or mob_id in deadly_mobs:
+            print(f"Skipping depths override rule for {mob_id} (already covered by Dragon/Deadly rules)")
+            continue
         h = d.get("maxheight", -30)
         if h not in depths_by_height:
             depths_by_height[h] = []
-        depths_by_height[h].append(d["mob"])
+        depths_by_height[h].append(mob_id)
     
     for h, m_list in sorted(depths_by_height.items()):
         sorted_mobs = sorted(list(set(m_list)))
-        print(f"Adding early bypass rules for {len(sorted_mobs)} depths pool mobs at Y <= {h}")
-        # Rule 1: CheckSpawn allow/bypass rule (natural spawning - bypasses surface-only deny rules)
-        depths_checkspawn_rule = {
-            "mob": sorted_mobs,
-            "dimension": 0,
-            "maxheight": h,
-            "result": "default"
-        }
-        cs_text = json.dumps(depths_checkspawn_rule, indent=2)
-        cs_text = "\n".join("    " + line for line in cs_text.split("\n")).strip()
-        depths_bypass_rules.append({
-            "preceding": f",\n\n  // Allow Depths pool mobs underground (Y <= {h}) natural spawning (bypasses surface-only deny rules)\n  ",
-            "obj_text": cs_text
-        })
-
-        # Rule 2: EntityJoinWorldEvent allow/bypass rule with Tier 3 stat multipliers (bypasses stage gating)
+        if not sorted_mobs:
+            continue
+        print(f"Adding early OnJoin bypass rule for {len(sorted_mobs)} depths pool mobs at Y <= {h}")
+        # EntityJoinWorldEvent allow/bypass rule with Tier 3 stat multipliers (bypasses stage gating)
         depths_onjoin_rule = {
             "mob": sorted_mobs,
             "dimension": 0,
@@ -747,12 +740,19 @@ for block in blocks:
         "Allow hostile non-undead surface creatures to spawn during daytime" in preceding or
         "Deny hostile mob spawning in Village structures" in preceding or
         "Deny surface daytime hostile spawns" in preceding or
+        "Deny Ghoul spawning on surface" in preceding or
+        "Prevent Ghoul spawning on surface during dawn transition" in preceding or
         "Allow structure-specific mobs" in preceding or
         "structure-specific mobs" in preceding or
         "Allow Depths pool mobs" in preceding or
         "Depths pool mobs" in preceding or
         "in other dimensions" in preceding):
         print("Removing old/user-cleaned rule block")
+        continue
+
+    # Discard old daytime and dawn transition deny rules for Ghoul
+    if rule_obj.get("mob") == "lycanitesmobs:ghoul" and rule_obj.get("result") == "deny":
+        print("Removing old daytime/dawn deny rule for lycanitesmobs:ghoul")
         continue
 
     # Discard old structure allow rules to cleanly regenerate at top

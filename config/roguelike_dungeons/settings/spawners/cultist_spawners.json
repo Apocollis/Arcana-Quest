@@ -5,9 +5,9 @@
       "level": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
       "weight": 1,
       "potentials": [
-        { "name": "thaumcraft:cultistknight", "weight": 3 },
-        { "name": "crimsonrevelations:cultist_archer", "weight": 3 },
-        { "name": "thaumcraft:cultistcleric", "weight": 1 }
+        { "name": "thaumcraft:cultistknight", "weight": 4 },
+        { "name": "crimsonrevelations:cultist_archer", "weight": 4 },
+        { "name": "thaumcraft:cultistcleric", "weight": 2 }
       ]
     }
   ]

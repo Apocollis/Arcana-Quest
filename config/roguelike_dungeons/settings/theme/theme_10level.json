@@ -170,7 +170,7 @@
 					]
 				},
 				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "nb:polished_black_stone", "meta" : 0}},
-				"floor" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:plank_greatwood", "meta" : 0}},
+				"floor" : {"type" : "METABLOCK", "data" : {"name" : "cathedral:basalt_block_checkered", "meta" : 3}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "nb:black_stone_brick_stairs"}},
 				"glass" : {"name" : "atum:crystal_red_stained_glass"},
 				"bars" : {"name" : "thaumicaugmentation:bars", "meta" : 0},

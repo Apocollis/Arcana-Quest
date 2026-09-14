@@ -1,7 +1,14 @@
 [
-  // Allow all spawner mobs unconditionally (skips light, dimension, collision, and stage restrictions)
+  // Deny spawner mobs if they collide with blocks/walls
   {
       "spawner": true,
+      "notcolliding": false,
+      "result": "deny"
+    },
+// Allow spawner mobs in open air (skips light/path checks while preserving collision safety)
+  {
+      "spawner": true,
+      "notcolliding": true,
       "result": "allow"
     },
 // Allow structure-specific mobs to spawn in 'Mineshaft'
@@ -63,24 +70,6 @@
       "result": "default",
       "onjoin": true
     },
-// Deny Ghoul spawning on surface during day
-  {
-    "mob": "lycanitesmobs:ghoul",
-    "seesky": true,
-    "mintime": 0,
-    "maxtime": 13000,
-    "result": "deny",
-    "onjoin": true
-  },
-// Prevent Ghoul spawning on surface during dawn transition
-  {
-    "mob": "lycanitesmobs:ghoul",
-    "seesky": true,
-    "mintime": 23000,
-    "maxtime": 24000,
-    "result": "deny",
-    "onjoin": true
-  },
 // Prevent squid spawning outside of ocean
     {
       "biomereg": [
@@ -98,21 +87,10 @@
       "result": "allow",
       "onjoin": true
     },
-// Allow Depths pool mobs underground (Y <= -30) natural spawning (bypasses surface-only deny rules)
-  {
-      "mob": [
-        "embers:ancient_golem",
-        "lycanitesmobs:beholder"
-      ],
-      "dimension": 0,
-      "maxheight": -30,
-      "result": "default"
-    },
 // Allow Depths pool mobs underground (Y <= -30) regardless of stage (Tier 3 multipliers)
   {
       "mob": [
-        "embers:ancient_golem",
-        "lycanitesmobs:beholder"
+        "embers:ancient_golem"
       ],
       "dimension": 0,
       "maxheight": -30,
