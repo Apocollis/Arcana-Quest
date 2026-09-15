@@ -112,7 +112,7 @@ treasure.addItemEntry(<minecraft:enchanted_book:0>.withTag({StoredEnchantments: 
 treasure.addItemEntry(<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 54 as short}]}), 2, 0, [], []); # NIGHT VISION
 treasure.addItemEntry(<minecraft:enchanted_book:0>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 29 as short}]}), 3, 0, [], []); # LIVING
 treasure.addItemEntry(<quark:ancient_tome>, 15, 0, [Functions.parse({"function": "quark:enchant_tome"})], []);
-treasure.addItemEntry(<contenttweaker:life_crystal>, 24, 0);
+treasure.addItemEntry(<contenttweaker:life_elixir>, 24, 0);
 treasure.addItemEntry(<botania:overgrowthseed>, 20, 0);
 
 treasure.addItemEntry(<xreliquary:angelheart_vial>, 6, 0);

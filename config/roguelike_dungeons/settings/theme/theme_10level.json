@@ -150,7 +150,7 @@
 				"lightblock" : {"name" : "thaumicaugmentation:stone", "meta" : 11}
 			},
 			"secondary" : {
-				"walls" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:plank_greatwood", "meta" : 0}},
+				"walls" : {"type" : "METABLOCK", "data" : {"name" : "chisel:tyrian", "meta" : 13}},
 				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:log_greatwood", "meta" : 1}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "thaumcraft:stairs_greatwood"}},
 				"liquid" : {"name" : "thaumcraft:liquid_death"}

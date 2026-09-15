@@ -1,8 +1,8 @@
 #Content Tweaker
-print(<contenttweaker:life_crystal>.displayName);
-<contenttweaker:life_crystal>.displayName = "Life Crystal";
-<contenttweaker:life_crystal>.addTooltip("Grants 1 heart container");
-<contenttweaker:life_crystal>.addTooltip("Maximum 20 hearts");
+print(<contenttweaker:life_elixir>.displayName);
+<contenttweaker:life_elixir>.displayName = "Elixir of Vitality";
+<contenttweaker:life_elixir>.addTooltip("A rare liquid containing the essence of vitality");
+<contenttweaker:life_elixir>.addTooltip("Adds 1 heart; Maximum 20 hearts");
 
 print(<contenttweaker:cracked_pearl>.displayName);
 <contenttweaker:cracked_pearl>.displayName = "Unstable Pearl";

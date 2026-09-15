@@ -145,7 +145,7 @@ recipes.addShapeless(<xreliquary:glowing_bread>,
 
 recipes.addShaped(<xreliquary:angelheart_vial>,
  [[<minecraft:glass_pane>, null, <minecraft:glass_pane>],
-  [<minecraft:glass_pane>, <contenttweaker:life_crystal>, <minecraft:glass_pane>],
+  [<minecraft:glass_pane>, <contenttweaker:life_elixir>, <minecraft:glass_pane>],
   [null, <minecraft:glass_pane>, null]]);
   
 print(<xreliquary:mob_ingredient:5>.displayName);

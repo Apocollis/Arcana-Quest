@@ -443,6 +443,9 @@ for struct_name, mob_list in sorted(structurespawns.items()):
             "structure": struct_name,
             "result": "allow"
         }
+        if struct_name.lower() == "mineshaft":
+            struct_rule["maxheight"] = 50
+            struct_rule["seesky"] = False
         struct_text = json.dumps(struct_rule, indent=2)
         struct_text = "\n".join("    " + line for line in struct_text.split("\n")).strip()
         structure_allow_rules.append({
@@ -543,20 +546,22 @@ village_day_rules = [
     {
         "structure": "Village",
         "dimension": 0,
-        "minheight": 60,
+        "minheight": 50,
         "mintime": 0,
         "maxtime": 13000,
         "hostile": True,
-        "result": "deny"
+        "result": "deny",
+        "onjoin": True
     },
     {
         "structure": "Village",
         "dimension": 0,
-        "minheight": 60,
+        "minheight": 50,
         "mintime": 23000,
         "maxtime": 24000,
         "hostile": True,
-        "result": "deny"
+        "result": "deny",
+        "onjoin": True
     }
 ]
 print("Adding rules to deny hostile mob spawning in Village structures during daytime and dawn transition")
@@ -962,11 +967,11 @@ print("Per-mob spawn caps are managed via maxcount in potentialspawn.json")
 # Sync badmobs.cfg with disabled mobs list
 sync_badmobs_config(disabled)
 
-# Final ordered blocks: Strict execution order (Spawner allow -> Structure allow -> Time rules -> Specific allows -> Depths bypass -> Stage gating -> Restrictions/Denies -> Modifiers -> Catch-all Buffs)
+# Final ordered blocks: Strict execution order (Spawner allow -> Time rules -> Structure allow -> Specific allows -> Depths bypass -> Stage gating -> Restrictions/Denies -> Modifiers -> Catch-all Buffs)
 processed_blocks = []
 processed_blocks.extend(spawner_allow_rules)
-processed_blocks.extend(structure_allow_rules)
 processed_blocks.extend(time_rules)
+processed_blocks.extend(structure_allow_rules)
 processed_blocks.extend(exception_allow_rules)
 processed_blocks.extend(depths_bypass_rules)
 processed_blocks.extend(gating_list)

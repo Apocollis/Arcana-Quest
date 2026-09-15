@@ -31,7 +31,7 @@ rare.addItemEntry(<botania:manaresource:7>, 10, 0);
 rare.addItemEntry(<botania:manaresource:4>, 3, 0);
 rare.addItemEntry(<botania:blacklotus:1>, 25, 0);
 rare.addItemEntry(<botania:overgrowthseed>, 20, 0);
-rare.addItemEntry(<contenttweaker:life_crystal>, 15, 0);
+rare.addItemEntry(<contenttweaker:life_elixir>, 15, 0);
 rare.addItemEntry(<xreliquary:holy_hand_grenade> * 3, 10, 0);
 rare.addItemEntry(<xreliquary:angelheart_vial>, 10, 0);
 rare.addItemEntry(<xreliquary:mob_ingredient:8>, 3, 0);

@@ -222,6 +222,12 @@
 			"saturationModifier": 0.0
 		},
 		{
+			"name": "contenttweaker:life_elixir",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0.0
+		},
+		{
 			"name": "farmersdelight:melon_juice",
 			"meta": 0,
 			"hunger": 0,

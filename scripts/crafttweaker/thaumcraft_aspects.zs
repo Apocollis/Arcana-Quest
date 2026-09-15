@@ -17,7 +17,7 @@
 <ordinarycoins:coingold>.setAspects(<aspect:permutatio>*128,<aspect:desiderium>*64);
 <ordinarycoins:coinplatinum>.setAspects(<aspect:permutatio>*512,<aspect:desiderium>*252);
 
-<contenttweaker:life_crystal>.setAspects(<aspect:victus>*30,<aspect:vitreus>*20,<aspect:humanus>*15);
+<contenttweaker:life_elixir>.setAspects(<aspect:victus>*30, <aspect:humanus>*15, <aspect:alkimia>*20);
 
 
 ##############

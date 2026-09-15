@@ -27,7 +27,7 @@ mythic.addItemEntry(<botania:storage:4>, 4, 0);
 mythic.addItemEntry(<botania:blacklotus:1> * 3, 25, 0);
 mythic.addItemEntry(<botania:overgrowthseed>, 25, 0);
 mythic.addItemEntry(<botania:overgrowthseed> * 2, 10, 0);
-mythic.addItemEntry(<contenttweaker:life_crystal>, 15, 0);
+mythic.addItemEntry(<contenttweaker:life_elixir>, 15, 0);
 mythic.addItemEntry(<xreliquary:holy_hand_grenade> * 5, 10, 0);
 mythic.addItemEntry(<xreliquary:angelheart_vial>, 10, 0);
 mythic.addItemEntry(<botania:starsword>, 2, 0, [Functions.enchantWithLevels(30, 40, false)], []);

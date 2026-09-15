@@ -777,7 +777,7 @@
       "loot": [
         {
           "data": {
-            "name": "contenttweaker:life_crystal",
+            "name": "contenttweaker:life_elixir",
             "meta": 0
           }
         }
@@ -802,7 +802,7 @@
       "loot": [
         {
           "data": {
-            "name": "contenttweaker:life_crystal",
+            "name": "contenttweaker:life_elixir",
             "meta": 0
           }
         }

@@ -1,6 +1,6 @@
 ================================================================================
 INCONTROL SPAWN RULES REFERENCE
-Generated: 2026-09-14 15:39:34
+Generated: 2026-09-15 15:00:24
 ================================================================================
 
 PIPELINE ARCHITECTURE NOTE:
@@ -21,40 +21,40 @@ TOTAL SPAWN.JSON RULES: 55
   Target Mob:   All mobs from Dungeon/Mob Spawners (spawner=true)
   Conditions:   NotColliding: True
 
-[Rule #2] -> ALLOW (CheckSpawn (Natural Spawning))
-  Description:  Allow structure-specific mobs to spawn in 'Mineshaft'
-  Target Mobs:  [7 mobs: grimoireofgaia:illager_fire, grimoireofgaia:illager_inquisitor, minecraft:evocation_illager, ... + 4 more]
-  Conditions:   Dimension: 0; Structure: 'Mineshaft'
-
-[Rule #3] -> DENY (CheckSpawn (Natural Spawning))
+[Rule #2] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Deny hostile mob spawning in Village structures during daytime
   Target Mob:   All hostile mobs (hostile=true)
-  Conditions:   Dimension: 0; Structure: 'Village'; Height: Y >= 60; Time: 0 - 13000
+  Conditions:   Dimension: 0; Structure: 'Village'; Height: Y >= 50; Time: 0 - 13000
 
-[Rule #4] -> DENY (CheckSpawn (Natural Spawning))
+[Rule #3] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Deny hostile mob spawning in Village structures during daytime
   Target Mob:   All hostile mobs (hostile=true)
-  Conditions:   Dimension: 0; Structure: 'Village'; Height: Y >= 60; Time: 23000 - 24000
+  Conditions:   Dimension: 0; Structure: 'Village'; Height: Y >= 50; Time: 23000 - 24000
 
-[Rule #5] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #4] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Deny Dark Druid spawning during the day (make it night-only)
   Target Mob:   thebetweenlands:dark_druid
   Conditions:   Time: 0 - 13000
 
-[Rule #6] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #5] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Prevent Dark Druid spawning during dawn transition
   Target Mob:   thebetweenlands:dark_druid
   Conditions:   Time: 23000 - 24000
 
-[Rule #7] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #6] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Ghoul to spawn in Ominous Woods any time of day
   Target Mob:   lycanitesmobs:ghoul
   Conditions:   SeeSky: True
 
-[Rule #8] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #7] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Prevent squid spawning outside of ocean
   Target Mob:   minecraft:squid
   Conditions:   Dimension: 0
+
+[Rule #8] -> ALLOW (CheckSpawn (Natural Spawning))
+  Description:  Allow structure-specific mobs to spawn in 'Mineshaft'
+  Target Mobs:  [7 mobs: grimoireofgaia:illager_fire, grimoireofgaia:illager_inquisitor, minecraft:evocation_illager, ... + 4 more]
+  Conditions:   Dimension: 0; Structure: 'Mineshaft'; Height: Y <= 50; SeeSky: False
 
 [Rule #9] -> ALLOW (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Grue spawning (e.g. from darkness event) without stage gating

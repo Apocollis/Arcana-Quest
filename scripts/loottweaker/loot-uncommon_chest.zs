@@ -41,7 +41,7 @@ uncommon.addItemEntry(<botania:manaresource:2>, 5, 0);
 uncommon.addItemEntry(<botania:blacklotus>, 10, 0);
 uncommon.addItemEntry(<botania:overgrowthseed>, 3, 0);
 uncommon.addItemEntry(<waystones:warp_scroll>, 10, 0);
-uncommon.addItemEntry(<contenttweaker:life_crystal>, 10, 0);
+uncommon.addItemEntry(<contenttweaker:life_elixir>, 10, 0);
 uncommon.addItemEntry(<xreliquary:glowing_water> * 3, 5, 0);
 uncommon.addItemEntry(<xreliquary:angelheart_vial>, 3, 0);
 uncommon.addItemEntry(<xreliquary:glowing_bread>, 10, 0);

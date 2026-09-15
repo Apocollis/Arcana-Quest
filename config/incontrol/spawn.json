@@ -11,40 +11,27 @@
       "notcolliding": true,
       "result": "allow"
     },
-// Allow structure-specific mobs to spawn in 'Mineshaft'
-  {
-      "mob": [
-        "grimoireofgaia:illager_fire",
-        "grimoireofgaia:illager_inquisitor",
-        "minecraft:evocation_illager",
-        "minecraft:illusion_illager",
-        "minecraft:vindication_illager",
-        "minecraft:witch",
-        "raids:pillager"
-      ],
-      "dimension": 0,
-      "structure": "Mineshaft",
-      "result": "allow"
-    },
 // Deny hostile mob spawning in Village structures during daytime
   {
       "structure": "Village",
       "dimension": 0,
-      "minheight": 60,
+      "minheight": 50,
       "mintime": 0,
       "maxtime": 13000,
       "hostile": true,
-      "result": "deny"
+      "result": "deny",
+      "onjoin": true
     },
 // Deny hostile mob spawning in Village structures during daytime
   {
       "structure": "Village",
       "dimension": 0,
-      "minheight": 60,
+      "minheight": 50,
       "mintime": 23000,
       "maxtime": 24000,
       "hostile": true,
-      "result": "deny"
+      "result": "deny",
+      "onjoin": true
     },
 // Deny Dark Druid spawning during the day (make it night-only)
   {
@@ -80,6 +67,23 @@
       "onjoin": true,
       "dimension": 0,
       "result": "default"
+    },
+// Allow structure-specific mobs to spawn in 'Mineshaft'
+  {
+      "mob": [
+        "grimoireofgaia:illager_fire",
+        "grimoireofgaia:illager_inquisitor",
+        "minecraft:evocation_illager",
+        "minecraft:illusion_illager",
+        "minecraft:vindication_illager",
+        "minecraft:witch",
+        "raids:pillager"
+      ],
+      "dimension": 0,
+      "structure": "Mineshaft",
+      "result": "allow",
+      "maxheight": 50,
+      "seesky": false
     },
 // Allow Grue spawning (e.g. from darkness event) without stage gating
   {

@@ -71,7 +71,7 @@ treasure.addItemEntry(<xreliquary:glowing_bread>, 20, 0);
 treasure.addItemEntry(<botania:worldseed>, 12, 0);
 treasure.addItemEntry(<minecraft:golden_apple>, 24, 0);
 treasure.addItemEntry(<minecraft:diamond>, 40, 0);
-treasure.addItemEntry(<contenttweaker:life_crystal>, 10, 0);
+treasure.addItemEntry(<contenttweaker:life_elixir>, 10, 0);
 treasure.addItemEntry(<xreliquary:angelheart_vial>, 6, 0);
 treasure.addItemEntry(<botania:starsword>, 3, 0, [], []);
 treasure.addItemEntry(<astralsorcery:itemenchantmentamulet>, 15, 0);
