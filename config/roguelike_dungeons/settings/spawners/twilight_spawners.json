@@ -1,0 +1,16 @@
+{
+  "name": "twilight_spawners",
+  "spawners": [
+    {
+      "level": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "weight": 1,
+      "potentials": [
+        { "name": "twilightforest:skeleton_druid", "weight": 6 },
+        { "name": "twilightforest:redcap", "weight": 5 },
+        { "name": "twilightforest:death_tome", "weight": 3 },
+        { "name": "twilightforest:fire_beetle", "weight": 3 },
+        { "name": "twilightforest:minotaur", "weight": 3 }
+      ]
+    }
+  ]
+}

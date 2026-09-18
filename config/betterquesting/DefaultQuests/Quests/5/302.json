@@ -7,11 +7,8 @@
       "desc:8": "Obtain Mana Diamond.",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "botania:manaresource:2",
-          "orig_meta:3": 0
-        }
+        "Damage:3": 2,
+        "id:8": "botania:manaresource"
       },
       "name:8": "Botanical Diamonds"
     }
@@ -24,11 +21,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "botania:manaresource:2",
-            "orig_meta:3": 0
-          }
+          "Damage:3": 2,
+          "id:8": "botania:manaresource"
         }
       },
       "taskID:8": "bq_standard:retrieval"

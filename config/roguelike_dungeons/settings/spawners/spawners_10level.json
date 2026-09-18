@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"level" : [4, 5],
+			"level" : 4,
 			"potentials" : [
 				{"name" : "astralsorcery:entityflare", "weight" : 8},
 				{"name" : "grimoireofgaia:valkyrie", "weight" : 6},
@@ -38,18 +38,26 @@
 			]
 		},
 		{
-			"level" : [6, 7],
+			"level" : [5, 7],
 			"potentials" : [
 				{"name" : "aqtweaks:deep_dwarf", "weight" : 3},
 				{"name" : "embers:ancient_golem", "weight" : 1}
 			]
 		},
 		{
-			"level" : [6, 7],
+			"level" : [5, 7],
 			"potentials" : [
 				{"name" : "thaumcraft:firebat", "weight" : 10},
 				{"name" : "minecraft:blaze", "weight" : 8},
 				{"name" : "minecraft:magma_cube", "weight" : 8}
+			]
+		},
+		{
+			"level" : 6,
+			"potentials" : [
+				{"name" : "eerieentities:cursed_armor", "weight" : 8},
+				{"name" : "grimoireofgaia:bone_knight", "weight" : 4},
+				{"name" : "grimoireofgaia:deathword", "weight" : 6}
 			]
 		},
 		{

@@ -99,9 +99,9 @@ def load_spawnrules_cfg(filepath):
         "du_tier2_damagemultiply": 1.75,
         "du_tier2_potion": "minecraft:night_vision,999999,0",
         "du_tier3_maxheight": 0,
-        "du_tier3_healthmultiply": 2.5,
+        "du_tier3_healthmultiply": 2.0,
         "du_tier3_damagemultiply": 2.5,
-        "du_tier3_armoradd": 12.0,
+        "du_tier3_armoradd": 10.0,
         "du_tier3_potion": "minecraft:night_vision,999999,0",
         "deadly_mob_maxheight": 0,
         "deadly_mob_healthmultiply": 2.5,
@@ -523,6 +523,23 @@ spawner_deny_text = "\n".join("    " + line for line in spawner_deny_text.split(
 spawner_allow_rules.append({
     "preceding": "\n  // Deny spawner mobs if they collide with blocks/walls\n  ",
     "obj_text": spawner_deny_text
+})
+
+# 1b. Limit Bone Knight spawners to 1 active entity per chunk
+bone_knight_spawner_rule = {
+    "mob": "grimoireofgaia:bone_knight",
+    "spawner": True,
+    "mincount": {
+        "amount": 1,
+        "perchunk": True
+    },
+    "result": "deny"
+}
+bone_knight_spawner_text = json.dumps(bone_knight_spawner_rule, indent=2)
+bone_knight_spawner_text = "\n".join("    " + line for line in bone_knight_spawner_text.split("\n")).strip()
+spawner_allow_rules.append({
+    "preceding": ",\n\n  // Limit Bone Knight spawners to 1 active entity per chunk\n  ",
+    "obj_text": bone_knight_spawner_text
 })
 
 # 2. Allow spawner mobs in open air (skips light/path checks while preserving collision safety)

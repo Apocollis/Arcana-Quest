@@ -7,40 +7,41 @@
       "loot": [
         {
           "data": {
-            "name": "netherex:withered_amedian_pickaxe",
-            "ench": 26
+            "name": "minecraft:diamond_pickaxe",
+            "ench": 24
           },
-          "weight": 5
+          "weight": 4
         },
         {
           "data": {
-            "name": "netherex:withered_amedian_axe",
-            "ench": 26
+            "name": "minecraft:diamond_axe",
+            "ench": 24
           },
-          "weight": 5
+          "weight": 4
         },
         {
           "data": {
-            "name": "netherex:withered_amedian_shovel",
-            "ench": 26
+            "name": "minecraft:diamond_shovel",
+            "ench": 24
           },
-          "weight": 5
+          "weight": 4
         },
         {
           "data": {
-            "name": "embers:crystal_ember",
+            "name": "astralsorcery:itemstarmetal",
+            "min": 2,
+            "max": 5
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "astralsorcery:itemcraftingcomponent",
+            "meta": 0,
             "min": 4,
             "max": 8
           },
           "weight": 8
-        },
-        {
-          "data": {
-            "name": "embers:shard_ember",
-            "min": 8,
-            "max": 16
-          },
-          "weight": 10
         },
         {
           "data": {
@@ -50,26 +51,13 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:box_diamond"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:misc_experience",
-            "meta": 2
-          },
-          "weight": 3
-        },
-        {
-          "data": {
             "name": "grimoireofgaia:box_gold"
           },
           "weight": 2
         },
         {
           "data": {
-            "name": "grimoireofgaia:chest"
+            "name": "arcanearchives:radiant_key"
           },
           "weight": 2
         }
@@ -83,7 +71,7 @@
       "loot": [
         {
           "data": {
-            "name": "embers:caminite_brick",
+            "name": "astralsorcery:blockmarble",
             "meta": 0,
             "min": 16,
             "max": 32
@@ -92,8 +80,8 @@
         },
         {
           "data": {
-            "name": "embers:caminite_tile",
-            "meta": 0,
+            "name": "astralsorcery:blockmarble",
+            "meta": 1,
             "min": 16,
             "max": 32
           },
@@ -101,39 +89,42 @@
         },
         {
           "data": {
-            "name": "minecraft:obsidian",
-            "min": 8,
-            "max": 16
+            "name": "minecraft:quartz_block",
+            "meta": 2,
+            "min": 16,
+            "max": 32
           },
           "weight": 8
         },
         {
           "data": {
-            "name": "quark:magma_bricks",
-            "min": 12,
-            "max": 24
+            "name": "minecraft:lapis_block",
+            "min": 4,
+            "max": 8
           },
-          "weight": 8
+          "weight": 6
         },
         {
           "data": {
-            "name": "minecraft:lava_bucket"
+            "name": "minecraft:sea_lantern",
+            "min": 4,
+            "max": 8
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "rustic:elixir",
+            "nbt": "{ElixirEffects: [{Effect: \"minecraft:speed\", Duration: 3600, Amplifier: 1}]}"
           },
           "weight": 4
         },
         {
           "data": {
             "name": "rustic:elixir",
-            "nbt": "{ElixirEffects: [{Effect: \"minecraft:fire_resistance\", Duration: 3600, Amplifier: 0}]}"
+            "nbt": "{ElixirEffects: [{Effect: \"minecraft:night_vision\", Duration: 3600, Amplifier: 0}]}"
           },
-          "weight": 5
-        },
-        {
-          "data": {
-            "name": "rustic:elixir",
-            "nbt": "{ElixirEffects: [{Effect: \"minecraft:haste\", Duration: 3600, Amplifier: 1}]}"
-          },
-          "weight": 5
+          "weight": 4
         },
         {
           "data": {
@@ -143,26 +134,13 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:box_diamond"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:misc_experience",
-            "meta": 2
-          },
-          "weight": 3
-        },
-        {
-          "data": {
             "name": "grimoireofgaia:box_gold"
           },
           "weight": 2
         },
         {
           "data": {
-            "name": "grimoireofgaia:chest"
+            "name": "arcanearchives:radiant_key"
           },
           "weight": 2
         }
@@ -176,36 +154,43 @@
       "loot": [
         {
           "data": {
-            "name": "netherex:withered_amedian_sword",
-            "ench": 28
+            "name": "spartanweaponry:greatsword_electrum",
+            "ench": 25
           },
-          "weight": 8
+          "weight": 3
         },
         {
           "data": {
-            "name": "spartanweaponry:greatsword_steel",
-            "ench": 26
+            "name": "spartanweaponry:longsword_electrum",
+            "ench": 25
           },
-          "weight": 4
+          "weight": 3
         },
         {
           "data": {
-            "name": "spartanweaponry:battleaxe_steel",
-            "ench": 26
+            "name": "spartanweaponry:katana_electrum",
+            "ench": 25
           },
-          "weight": 4
+          "weight": 3
         },
         {
           "data": {
-            "name": "spartanweaponry:warhammer_steel",
-            "ench": 26
+            "name": "spartanweaponry:crossbow_diamond",
+            "ench": 25
           },
-          "weight": 4
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:longbow_diamond",
+            "ench": 25
+          },
+          "weight": 3
         },
         {
           "data": {
             "name": "minecraft:diamond_sword",
-            "ench": 26
+            "ench": 25
           },
           "weight": 5
         },
@@ -217,26 +202,13 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:box_diamond"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:misc_experience",
-            "meta": 2
-          },
-          "weight": 3
-        },
-        {
-          "data": {
             "name": "grimoireofgaia:box_gold"
           },
           "weight": 2
         },
         {
           "data": {
-            "name": "grimoireofgaia:chest"
+            "name": "arcanearchives:radiant_key"
           },
           "weight": 2
         }
@@ -251,28 +223,28 @@
         {
           "data": {
             "name": "minecraft:diamond_helmet",
-            "ench": 26
+            "ench": 25
           },
           "weight": 3
         },
         {
           "data": {
             "name": "minecraft:diamond_chestplate",
-            "ench": 26
+            "ench": 25
           },
           "weight": 3
         },
         {
           "data": {
             "name": "minecraft:diamond_leggings",
-            "ench": 26
+            "ench": 25
           },
           "weight": 3
         },
         {
           "data": {
             "name": "minecraft:diamond_boots",
-            "ench": 26
+            "ench": 25
           },
           "weight": 3
         },
@@ -284,26 +256,13 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:box_diamond"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:misc_experience",
-            "meta": 2
-          },
-          "weight": 3
-        },
-        {
-          "data": {
             "name": "grimoireofgaia:box_gold"
           },
           "weight": 2
         },
         {
           "data": {
-            "name": "grimoireofgaia:chest"
+            "name": "arcanearchives:radiant_key"
           },
           "weight": 2
         }
@@ -318,25 +277,29 @@
         {
           "data": {
             "name": "minecraft:enchanted_book",
-            "ench": 28
+            "ench": 25
           },
           "weight": 10
         },
         {
           "data": {
-            "name": "minecraft:blaze_rod",
-            "min": 4,
-            "max": 8
+            "name": "minecraft:lapis_lazuli",
+            "min": 12,
+            "max": 24
           },
-          "weight": 8
+          "weight": 10
         },
         {
           "data": {
-            "name": "minecraft:magma_cream",
-            "min": 4,
-            "max": 8
+            "name": "astralsorcery:itemconstellationpaper"
           },
-          "weight": 8
+          "weight": 6
+        },
+        {
+          "data": {
+            "name": "astralsorcery:itemrockcrystalsimple"
+          },
+          "weight": 4
         },
         {
           "data": {
@@ -346,26 +309,13 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:box_diamond"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:misc_experience",
-            "meta": 2
-          },
-          "weight": 3
-        },
-        {
-          "data": {
             "name": "grimoireofgaia:box_gold"
           },
           "weight": 2
         },
         {
           "data": {
-            "name": "grimoireofgaia:chest"
+            "name": "arcanearchives:radiant_key"
           },
           "weight": 2
         }
@@ -379,15 +329,7 @@
       "loot": [
         {
           "data": {
-            "name": "embers:ingot_dawnstone",
-            "min": 4,
-            "max": 8
-          },
-          "weight": 8
-        },
-        {
-          "data": {
-            "name": "minecraft:diamond",
+            "name": "astralsorcery:itemstarmetal",
             "min": 4,
             "max": 8
           },
@@ -403,10 +345,18 @@
         },
         {
           "data": {
+            "name": "minecraft:diamond",
+            "min": 4,
+            "max": 8
+          },
+          "weight": 6
+        },
+        {
+          "data": {
             "name": "minecraft:golden_apple",
             "meta": 0,
-            "min": 2,
-            "max": 4
+            "min": 1,
+            "max": 3
           },
           "weight": 5
         },
@@ -418,26 +368,13 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:box_diamond"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:misc_experience",
-            "meta": 2
-          },
-          "weight": 3
-        },
-        {
-          "data": {
             "name": "grimoireofgaia:box_gold"
           },
           "weight": 2
         },
         {
           "data": {
-            "name": "grimoireofgaia:chest"
+            "name": "arcanearchives:radiant_key"
           },
           "weight": 2
         }

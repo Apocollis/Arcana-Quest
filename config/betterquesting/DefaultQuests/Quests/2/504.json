@@ -7,11 +7,8 @@
       "desc:8": "Craft Void Metal.",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "betterquesting:placeholder",
-        "tag:10": {
-          "orig_id:8": "thaumcraft:ingot:1",
-          "orig_meta:3": 0
-        }
+        "Damage:3": 1,
+        "id:8": "thaumcraft:ingot"
       },
       "name:8": "Void Metal Infusion"
     }
@@ -24,11 +21,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "betterquesting:placeholder",
-          "tag:10": {
-            "orig_id:8": "thaumcraft:ingot:1",
-            "orig_meta:3": 0
-          }
+          "Damage:3": 1,
+          "id:8": "thaumcraft:ingot"
         }
       },
       "taskID:8": "bq_standard:retrieval"

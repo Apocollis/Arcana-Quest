@@ -1,6 +1,6 @@
 ================================================================================
 INCONTROL SPAWN RULES REFERENCE
-Generated: 2026-09-15 15:00:24
+Generated: 2026-09-17 20:01:53
 ================================================================================
 
 PIPELINE ARCHITECTURE NOTE:
@@ -8,7 +8,7 @@ PIPELINE ARCHITECTURE NOTE:
 - Rules with [onjoin: true] execute ONLY during EntityJoinWorldEvent.
 - Rules WITHOUT [onjoin: true] execute ONLY during CheckSpawn (natural spawning).
 --------------------------------------------------------------------------------
-TOTAL SPAWN.JSON RULES: 55
+TOTAL SPAWN.JSON RULES: 57
 --------------------------------------------------------------------------------
 
 [Rule #0] -> DENY (CheckSpawn (Natural Spawning))
@@ -16,276 +16,285 @@ TOTAL SPAWN.JSON RULES: 55
   Target Mob:   All mobs from Dungeon/Mob Spawners (spawner=true)
   Conditions:   NotColliding: False
 
-[Rule #1] -> ALLOW (CheckSpawn (Natural Spawning))
+[Rule #1] -> DENY (CheckSpawn (Natural Spawning))
+  Description:  Limit Bone Knight spawners to 1 active entity per chunk
+  Target Mob:   grimoireofgaia:bone_knight
+  Conditions:   MinCount Check (if loaded >= 1 global [same mob])
+
+[Rule #2] -> ALLOW (CheckSpawn (Natural Spawning))
   Description:  Allow spawner mobs in open air (skips light/path checks while preserving collision safety)
   Target Mob:   All mobs from Dungeon/Mob Spawners (spawner=true)
   Conditions:   NotColliding: True
 
-[Rule #2] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #3] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Deny hostile mob spawning in Village structures during daytime
   Target Mob:   All hostile mobs (hostile=true)
   Conditions:   Dimension: 0; Structure: 'Village'; Height: Y >= 50; Time: 0 - 13000
 
-[Rule #3] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #4] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Deny hostile mob spawning in Village structures during daytime
   Target Mob:   All hostile mobs (hostile=true)
   Conditions:   Dimension: 0; Structure: 'Village'; Height: Y >= 50; Time: 23000 - 24000
 
-[Rule #4] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #5] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Deny Dark Druid spawning during the day (make it night-only)
   Target Mob:   thebetweenlands:dark_druid
   Conditions:   Time: 0 - 13000
 
-[Rule #5] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #6] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Prevent Dark Druid spawning during dawn transition
   Target Mob:   thebetweenlands:dark_druid
   Conditions:   Time: 23000 - 24000
 
-[Rule #6] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #7] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Ghoul to spawn in Ominous Woods any time of day
   Target Mob:   lycanitesmobs:ghoul
   Conditions:   SeeSky: True
 
-[Rule #7] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #8] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Prevent squid spawning outside of ocean
   Target Mob:   minecraft:squid
   Conditions:   Dimension: 0
 
-[Rule #8] -> ALLOW (CheckSpawn (Natural Spawning))
+[Rule #9] -> ALLOW (CheckSpawn (Natural Spawning))
   Description:  Allow structure-specific mobs to spawn in 'Mineshaft'
   Target Mobs:  [7 mobs: grimoireofgaia:illager_fire, grimoireofgaia:illager_inquisitor, minecraft:evocation_illager, ... + 4 more]
   Conditions:   Dimension: 0; Structure: 'Mineshaft'; Height: Y <= 50; SeeSky: False
 
-[Rule #9] -> ALLOW (EntityJoinWorldEvent (OnJoin))
+[Rule #10] -> ALLOW (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Grue spawning (e.g. from darkness event) without stage gating
   Target Mob:   lycanitesmobs:grue
 
-[Rule #10] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #11] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Depths pool mobs underground (Y <= -30) regardless of stage (Tier 3 multipliers)
   Target Mobs:  [embers:ancient_golem]
   Conditions:   Dimension: 0; Height: Y <= -30
-  Modifiers:    Health x2.5, Damage x2.5, Armor +12.0, Potion: minecraft:night_vision,999999,0
+  Modifiers:    Health x2.0, Damage x2.5, Armor +10.0, Potion: minecraft:night_vision,999999,0
 
-[Rule #11] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #12] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Dragon tier mobs underground (Y <= 55) if player has 'dragon' stage and count is under limit (1 per player)
   Target Mobs:  [lycanitesmobs:ignibus]
   Conditions:   Dimension: 0; Height: Y <= 55; SeeSky: False; Required GameStage: 'dragon'; MaxCount Cap (if loaded < 1 per player [same mob])
   Modifiers:    Health x1.5, Damage x1.5
 
-[Rule #12] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #13] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Dragon tier mobs generally if player has 'dragon' stage and count is under limit (1 per player)
   Target Mobs:  [lycanitesmobs:ignibus, lycanitesmobs:morock, lycanitesmobs:zoataur]
   Conditions:   Required GameStage: 'dragon'; MaxCount Cap (if loaded < 1 per player [same mob])
 
-[Rule #13] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #14] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Deny Dragon tier mobs if player does not have 'dragon' stage or count limit is reached
   Target Mobs:  [lycanitesmobs:ignibus, lycanitesmobs:morock, lycanitesmobs:zoataur]
 
-[Rule #14] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #15] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Deadly tier mobs underground (Y <= 0) regardless of stage (Tier 3 multipliers)
   Target Mobs:  [5 mobs: grimoireofgaia:bone_knight, grimoireofgaia:flesh_lich, grimoireofgaia:minotaur, ... + 2 more]
   Conditions:   Dimension: 0; Height: -60 <= Y <= 0; SeeSky: False
   Modifiers:    Health x2.5, Damage x2.5, Armor +12.0, Potion: dynamicstealth:soulsight,999999,0
 
-[Rule #15] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #16] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Deadly tier mobs underground (Y <= 55) if player has 'deadly' stage and count is under limit (1 per player)
   Target Mobs:  [5 mobs: grimoireofgaia:bone_knight, grimoireofgaia:flesh_lich, grimoireofgaia:minotaur, ... + 2 more]
   Conditions:   Dimension: 0; Height: Y <= 55; SeeSky: False; Required GameStage: 'deadly'; MaxCount Cap (if loaded < 1 per player [same mob])
   Modifiers:    Health x1.5, Damage x1.5
 
-[Rule #16] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #17] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Deadly tier mobs generally if player has 'deadly' stage and count is under limit (1 per player)
   Target Mobs:  [5 mobs: grimoireofgaia:bone_knight, grimoireofgaia:flesh_lich, grimoireofgaia:minotaur, ... + 2 more]
   Conditions:   Required GameStage: 'deadly'; MaxCount Cap (if loaded < 1 per player [same mob])
 
-[Rule #17] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #18] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Deny Deadly tier mobs if player does not have 'deadly' stage or count limit is reached
   Target Mobs:  [5 mobs: grimoireofgaia:bone_knight, grimoireofgaia:flesh_lich, grimoireofgaia:minotaur, ... + 2 more]
 
-[Rule #18] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #19] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Elite tier mobs underground (Y <= 0) regardless of stage (Tier 3 multipliers)
   Target Mobs:  [18 mobs: grimoireofgaia:banshee, grimoireofgaia:baphomet, grimoireofgaia:beholder, ... + 15 more]
   Conditions:   Dimension: 0; Height: Y <= 0; SeeSky: False
-  Modifiers:    Health x2.5, Damage x2.5, Armor +12.0, Potion: minecraft:night_vision,999999,0
+  Modifiers:    Health x2.0, Damage x2.5, Armor +10.0, Potion: minecraft:night_vision,999999,0
 
-[Rule #19] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #20] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Elite tier mobs underground (Y <= 30) regardless of stage (Tier 2 multipliers)
   Target Mobs:  [18 mobs: grimoireofgaia:banshee, grimoireofgaia:baphomet, grimoireofgaia:beholder, ... + 15 more]
   Conditions:   Dimension: 0; Height: Y <= 30; SeeSky: False
   Modifiers:    Health x2.0, Damage x1.75, Potion: minecraft:night_vision,999999,0
 
-[Rule #20] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #21] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Elite tier mobs underground (Y <= 55) if player has 'elite' stage (Tier 1 multipliers)
   Target Mobs:  [18 mobs: grimoireofgaia:banshee, grimoireofgaia:baphomet, grimoireofgaia:beholder, ... + 15 more]
   Conditions:   Dimension: 0; Height: Y <= 55; SeeSky: False; Required GameStage: 'elite'; MaxCount Cap (if loaded < 3 per player [same mob])
   Modifiers:    Health x1.5, Damage x1.5
 
-[Rule #21] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #22] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Allow Elite tier mobs generally if player has 'elite' stage
   Target Mobs:  [37 mobs: grimoireofgaia:anubis, grimoireofgaia:banshee, grimoireofgaia:baphomet, ... + 34 more]
   Conditions:   Required GameStage: 'elite'; MaxCount Cap (if loaded < 3 per player [same mob])
 
-[Rule #22] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #23] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Deny Elite tier mobs if player does not have 'elite' stage or count limit is reached
   Target Mobs:  [37 mobs: grimoireofgaia:anubis, grimoireofgaia:banshee, grimoireofgaia:baphomet, ... + 34 more]
 
-[Rule #23] -> DEFAULT (CheckSpawn (Natural Spawning))
+[Rule #24] -> DEFAULT (CheckSpawn (Natural Spawning))
   Description:  Allow Crimsoncult tier mobs underground (Y <= 55) if player has 'crimsoncult' stage and count is under limit (5 per player)
   Target Mobs:  [crimsonrevelations:cultist_archer, thaumcraft:cultistcleric, thaumcraft:cultistknight]
   Conditions:   Dimension: 0; Height: Y <= 55; SeeSky: False; Required GameStage: 'crimsoncult'; MaxCount Cap (if loaded < 5 per player [same mob])
   Modifiers:    Health x1.5, Damage x1.5
 
-[Rule #24] -> DEFAULT (CheckSpawn (Natural Spawning))
+[Rule #25] -> DEFAULT (CheckSpawn (Natural Spawning))
   Description:  Allow Crimsoncult tier mobs generally if player has 'crimsoncult' stage and count is under limit (5 per player)
   Target Mobs:  [crimsonrevelations:cultist_archer, thaumcraft:cultistcleric, thaumcraft:cultistknight]
   Conditions:   Required GameStage: 'crimsoncult'; MaxCount Cap (if loaded < 5 per player [same mob])
 
-[Rule #25] -> DENY (CheckSpawn (Natural Spawning))
+[Rule #26] -> DENY (CheckSpawn (Natural Spawning))
   Description:  Deny Crimsoncult tier mobs if player does not have 'crimsoncult' stage or count limit is reached
   Target Mobs:  [crimsonrevelations:cultist_archer, thaumcraft:cultistcleric, thaumcraft:cultistknight]
 
-[Rule #26] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #27] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Restrict lycanitesmobs:spectre spawning to non-Overworld dimensions only
   Target Mob:   lycanitesmobs:spectre
   Conditions:   Dimension: 0
 
-[Rule #27] -> DENY (CheckSpawn (Natural Spawning))
+[Rule #28] -> DENY (CheckSpawn (Natural Spawning))
   Description:  Restrict surface-only and structure mobs to above Y 60 or where sky is visible
   Target Mobs:  [73 mobs: grimoireofgaia:anubis, grimoireofgaia:centaur, grimoireofgaia:cyclops, ... + 70 more]
   Conditions:   Dimension: 0; Height: Y <= 60; SeeSky: False
 
-[Rule #28] -> DENY (CheckSpawn (Natural Spawning))
+[Rule #29] -> DENY (CheckSpawn (Natural Spawning))
   Description:  Restrict underground-only mobs to below Y 60
   Target Mobs:  [12 mobs: aqtweaks:deep_dwarf, charm:spectre, grimoireofgaia:arachne, ... + 9 more]
   Conditions:   Dimension: 0; Height: Y >= 60
 
-[Rule #29] -> DENY (CheckSpawn (Natural Spawning))
+[Rule #30] -> DENY (CheckSpawn (Natural Spawning))
   Description:  Hard cap total hostile mob spawning in Overworld to 250 per player
   Conditions:   Dimension: 0; MinCount Check (if loaded >= 250 per player [same mob])
 
-[Rule #30] -> DENY (CheckSpawn (Natural Spawning))
+[Rule #31] -> DENY (CheckSpawn (Natural Spawning))
   Description:  Deny surface daytime hostile spawns once daytime cap (20 per player) is reached
   Target Mobs:  [36 mobs: grimoireofgaia:centaur, grimoireofgaia:dryad, grimoireofgaia:goblin_feral, ... + 33 more]
   Conditions:   Dimension: 0; Height: Y >= 60; SeeSky: True; Time: 0 - 13000; MinCount Check (if loaded >= 20 per player [['grimoireofgaia:centaur', 'grimoireofgaia:dryad', 'grimoireofgaia:goblin_feral', 'grimoireofgaia:gryphon', 'grimoireofgaia:harpy', 'grimoireofgaia:hunter', 'grimoireofgaia:matango', 'grimoireofgaia:orc', 'grimoireofgaia:satyress', 'grimoireofgaia:sporeling', 'grimoireofgaia:toad', 'grimoireofgaia:werecat', 'lycanitesmobs:barghest', 'lycanitesmobs:bobeko', 'lycanitesmobs:conba', 'lycanitesmobs:dawon', 'lycanitesmobs:dweller', 'lycanitesmobs:ent', 'lycanitesmobs:ettin', 'lycanitesmobs:feradon', 'lycanitesmobs:geken', 'lycanitesmobs:gorgomite', 'lycanitesmobs:jabberwock', 'lycanitesmobs:kobold', 'lycanitesmobs:maug', 'lycanitesmobs:nymph', 'lycanitesmobs:pixen', 'lycanitesmobs:quillbeast', 'lycanitesmobs:raiko', 'lycanitesmobs:shambler', 'lycanitesmobs:treant', 'lycanitesmobs:triffid', 'lycanitesmobs:troll', 'lycanitesmobs:warg', 'lycanitesmobs:wildkin', 'lycanitesmobs:wisp']])
 
-[Rule #31] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #32] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Prevent Silex from spawning on the surface
   Target Mob:   lycanitesmobs:silex
   Conditions:   SeeSky: True
 
-[Rule #32] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #33] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Prevent shadow/underground mobs from spawning on the surface
   Target Mobs:  [5 mobs: lycanitesmobs:chupacabra, lycanitesmobs:darkling, lycanitesmobs:shade, ... + 2 more]
   Conditions:   SeeSky: True
 
-[Rule #33] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #34] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Gate Lycanites action-spawner mobs behind game stage 'lycanite_spawners'
   Target Mobs:  [10 mobs: lycanitesmobs:geonach, lycanitesmobs:vapula, lycanitesmobs:spriggan, ... + 7 more]
   Conditions:   Required GameStage: 'lycanite_spawners'
 
-[Rule #34] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #35] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Restrict Lycanites elemental/event mobs from natural spawning
   Target Mobs:  [10 mobs: lycanitesmobs:geonach, lycanitesmobs:vapula, lycanitesmobs:spriggan, ... + 7 more]
 
-[Rule #35] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #36] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Spawn Limiters
   Conditions:   Dimension: -2
 
-[Rule #36] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #37] -> DENY (EntityJoinWorldEvent (OnJoin))
   Description:  Golem/Villager Changes
   Target Mob:   minecraft:villager_golem
   Conditions:   Dimension: 0
 
-[Rule #37] -> DENY (EntityJoinWorldEvent (OnJoin))
+[Rule #38] -> DENY (EntityJoinWorldEvent (OnJoin))
   Target Mob:   minecraft:squid
   Conditions:   Dimension: 0
 
-[Rule #38] -> ALLOW (CheckSpawn (Natural Spawning))
+[Rule #39] -> ALLOW (CheckSpawn (Natural Spawning))
   Description:  Allow hostile non-undead surface creatures to spawn during daytime up to cap (20 per player)
   Target Mobs:  [36 mobs: grimoireofgaia:centaur, grimoireofgaia:dryad, grimoireofgaia:goblin_feral, ... + 33 more]
   Conditions:   Dimension: 0; Height: Y >= 60; SeeSky: True; Time: 0 - 13000; MaxCount Cap (if loaded < 20 per player [['grimoireofgaia:centaur', 'grimoireofgaia:dryad', 'grimoireofgaia:goblin_feral', 'grimoireofgaia:gryphon', 'grimoireofgaia:harpy', 'grimoireofgaia:hunter', 'grimoireofgaia:matango', 'grimoireofgaia:orc', 'grimoireofgaia:satyress', 'grimoireofgaia:sporeling', 'grimoireofgaia:toad', 'grimoireofgaia:werecat', 'lycanitesmobs:barghest', 'lycanitesmobs:bobeko', 'lycanitesmobs:conba', 'lycanitesmobs:dawon', 'lycanitesmobs:dweller', 'lycanitesmobs:ent', 'lycanitesmobs:ettin', 'lycanitesmobs:feradon', 'lycanitesmobs:geken', 'lycanitesmobs:gorgomite', 'lycanitesmobs:jabberwock', 'lycanitesmobs:kobold', 'lycanitesmobs:maug', 'lycanitesmobs:nymph', 'lycanitesmobs:pixen', 'lycanitesmobs:quillbeast', 'lycanitesmobs:raiko', 'lycanitesmobs:shambler', 'lycanitesmobs:treant', 'lycanitesmobs:triffid', 'lycanitesmobs:troll', 'lycanitesmobs:warg', 'lycanitesmobs:wildkin', 'lycanitesmobs:wisp']])
 
-[Rule #39] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
-  Description:  Equip and buff Crimson Cultist Archer on join
-  Target Mob:   crimsonrevelations:cultist_archer
-  Modifiers:    Health x2.0, Damage x1.75, Potion: ['dynamicstealth:soulsight,999999,0', 'minecraft:night_vision,999999,0']
-
 [Rule #40] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
-  Description:  Equip and buff Crimson Cultist Knight on join
-  Target Mob:   thaumcraft:cultistknight
-  Modifiers:    Health x2.0, Damage x1.75, Potion: ['dynamicstealth:soulsight,999999,0', 'minecraft:night_vision,999999,0']
+  Description:  Equip Deep Dwarves with Dawnstone Pickaxe on spawn
+  Target Mob:   aqtweaks:deep_dwarf
 
 [Rule #41] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
-  Description:  Equip and buff Crimson Cultist Cleric on join
-  Target Mob:   thaumcraft:cultistcleric
-  Modifiers:    Health x2.0, Damage x1.75, Potion: ['dynamicstealth:soulsight,999999,0', 'minecraft:night_vision,999999,0']
+  Description:  Equip and buff Crimson Cultist Archer on join
+  Target Mob:   crimsonrevelations:cultist_archer
+  Modifiers:    Health x2.0, Damage x2.5, Armor +8.0, Potion: minecraft:night_vision,999999,0
 
 [Rule #42] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+  Description:  Equip and buff Crimson Cultist Knight on join
+  Target Mob:   thaumcraft:cultistknight
+  Modifiers:    Health x2.0, Damage x2.5, Armor +8.0, Potion: minecraft:night_vision,999999,0
+
+[Rule #43] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+  Description:  Equip and buff Crimson Cultist Cleric on join
+  Target Mob:   thaumcraft:cultistcleric
+  Modifiers:    Health x2.0, Damage x2.5, Armor +8.0, Potion: minecraft:night_vision,999999,0
+
+[Rule #44] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Custom modifiers for artifacts:mimic
   Target Mob:   artifacts:mimic
   Conditions:   Dimension: 0
   Modifiers:    Health x0.75, Damage x1.25, Potion: minecraft:night_vision,999999,0
 
-[Rule #43] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #45] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Give Grimoire of Gaia Dryads permanent Fertile Feet effect on spawn
   Target Mob:   grimoireofgaia:dryad
   Modifiers:    Potion: rusticwitchcraft:fertile_feet,999999,0
 
-[Rule #44] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #46] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Charged Creepers during Storms
   Target Mob:   minecraft:creeper
   Conditions:   Dimension: 0; SeeSky: True; Weather: thunder
   Modifiers:    Health x2.0, Potion: potioncore:lightning,1,0
 
-[Rule #45] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #47] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Enderman Changes
   Target Mob:   minecraft:enderman
   Conditions:   Dimension: 0; Height: Y <= 32
 
-[Rule #46] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #48] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Spawn angry Endermen randomly in Outer End/Special dimensions
   Target Mob:   minecraft:enderman
   Conditions:   Dimension: -2
 
-[Rule #47] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #49] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Spawn angry Endermen randomly in The End
   Target Mob:   minecraft:enderman
   Conditions:   Dimension: 1
 
-[Rule #48] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #50] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Vex Nerf
   Target Mob:   minecraft:vex
   Conditions:   Dimension: 0
   Modifiers:    Health x0.25, Damage x0.5
 
-[Rule #49] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #51] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Buff Village Iron Golems (2.5x health, 2.0x damage, fire resistance, concentration)
   Target Mob:   minecraft:villager_golem
   Conditions:   Dimension: 0; Structure: 'Village'
   Modifiers:    Health x2.5, Damage x2.0, Potion: ['minecraft:fire_resistance,9999999,0', 'extraalchemy:effect.concentration,1,0']
 
-[Rule #50] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #52] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Buff Village Villagers (1.5x health, 1.3x speed)
   Target Mob:   minecraft:villager
   Conditions:   Dimension: 0
   Modifiers:    Health x1.5, Speed x1.3
 
-[Rule #51] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #53] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Give Beneath dimension mobs the same buff as Tier 3 Deadlier Underground
   Conditions:   Dimension: 10
   Modifiers:    Health x1.5, Damage x1.5, Potion: minecraft:night_vision,999999,0
 
-[Rule #52] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #54] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Deadlier Underground tier 3 (Y <= 0)
   Conditions:   Dimension: 0; Height: Y <= 0
-  Modifiers:    Health x2.5, Damage x2.5, Armor +12.0, Potion: minecraft:night_vision,999999,0
+  Modifiers:    Health x2.0, Damage x2.5, Armor +10.0, Potion: minecraft:night_vision,999999,0
 
-[Rule #53] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #55] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Deadlier Underground tier 2 (Y <= 30)
   Conditions:   Dimension: 0; Height: Y <= 30
   Modifiers:    Health x2.0, Damage x1.75, Potion: minecraft:night_vision,999999,0
 
-[Rule #54] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
+[Rule #56] -> DEFAULT (EntityJoinWorldEvent (OnJoin))
   Description:  Deadlier Underground tier 1 (Y <= 55)
   Conditions:   Dimension: 0; Height: Y <= 55
   Modifiers:    Health x1.5, Damage x1.5

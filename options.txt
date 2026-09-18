@@ -94,6 +94,7 @@ key_flare.key.start_client_sampling:0
 key_flare.key.stop_client_sampling:0
 key_flare.key.open_tick_tracking_menu:0
 key_Open Baubles' Sidebar:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -101,7 +102,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
 key_key.dss.activate.desc:45
 key_key.dss.next.desc:15

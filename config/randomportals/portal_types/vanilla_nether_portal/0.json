@@ -33,17 +33,22 @@
 		"doGeneratedFramesDrop": true
 	},
 	"activation": {
-		"canBeActivatedByFire": true,
-		"activators": [],
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "ore:elementalFume",
+				"meta": 32767
+			}
+		],
 		"activatorConsumeBehavior": "CONSUME",
-		"spawnFireBeforeActivating": true,
+		"spawnFireBeforeActivating": false,
 		"activationSounds": []
 	},
 	"color": {
 		"colors": [
 			"PURPLE"
 		],
-		"dyeBehavior": "ENABLE"
+		"dyeBehavior": "DISABLE"
 	},
 	"destination": {
 		"dimensionID": -1,

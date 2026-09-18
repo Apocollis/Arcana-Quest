@@ -1,0 +1,15 @@
+{
+  "name": "beneath_spawners",
+  "spawners": [
+    {
+      "level": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+      "weight": 1,
+      "potentials": [
+        { "name": "beneath:shadow", "weight": 5 },
+        { "name": "charm:spectre", "weight": 4 },
+        { "name": "lycanitesmobs:banshee", "weight": 4 },
+        { "name": "lycanitesmobs:eyewig", "weight": 3 }
+      ]
+    }
+  ]
+}

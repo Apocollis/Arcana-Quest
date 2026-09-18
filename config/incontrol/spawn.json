@@ -5,6 +5,16 @@
       "notcolliding": false,
       "result": "deny"
     },
+// Limit Bone Knight spawners to 1 active entity per chunk
+  {
+      "mob": "grimoireofgaia:bone_knight",
+      "spawner": true,
+      "mincount": {
+        "amount": 1,
+        "perchunk": true
+      },
+      "result": "deny"
+    },
 // Allow spawner mobs in open air (skips light/path checks while preserving collision safety)
   {
       "spawner": true,
@@ -99,9 +109,9 @@
       "dimension": 0,
       "maxheight": -30,
       "result": "default",
-      "healthmultiply": 2.5,
+      "healthmultiply": 2.0,
       "damagemultiply": 2.5,
-      "armoradd": 12.0,
+      "armoradd": 10.0,
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
@@ -245,9 +255,9 @@
       "maxheight": 0,
       "seesky": false,
       "result": "default",
-      "healthmultiply": 2.5,
+      "healthmultiply": 2.0,
       "damagemultiply": 2.5,
-      "armoradd": 12.0,
+      "armoradd": 10.0,
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
@@ -825,6 +835,12 @@
       },
       "result": "allow"
     },
+// Equip Deep Dwarves with Dawnstone Pickaxe on spawn
+  {
+      "mob": "aqtweaks:deep_dwarf",
+      "helditem": "embers:pickaxe_dawnstone",
+      "onjoin": true
+    },
 // Equip and buff Crimson Cultist Archer on join
   {
       "mob": "crimsonrevelations:cultist_archer",
@@ -835,11 +851,9 @@
       "armorlegs": "crimsonrevelations:crimson_archer_leggings",
       "armorboots": "thaumcraft:crimson_boots",
       "healthmultiply": 2.0,
-      "damagemultiply": 1.75,
-      "potion": [
-        "dynamicstealth:soulsight,999999,0",
-        "minecraft:night_vision,999999,0"
-      ],
+      "damagemultiply": 2.5,
+      "armoradd": 8.0,
+      "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
 // Equip and buff Crimson Cultist Knight on join
@@ -852,11 +866,9 @@
       "armorlegs": "thaumcraft:crimson_plate_legs",
       "armorboots": "thaumcraft:crimson_boots",
       "healthmultiply": 2.0,
-      "damagemultiply": 1.75,
-      "potion": [
-        "dynamicstealth:soulsight,999999,0",
-        "minecraft:night_vision,999999,0"
-      ],
+      "damagemultiply": 2.5,
+      "armoradd": 8.0,
+      "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
 // Equip and buff Crimson Cultist Cleric on join
@@ -868,11 +880,9 @@
       "armorlegs": "thaumcraft:crimson_robe_legs",
       "armorboots": "thaumcraft:crimson_boots",
       "healthmultiply": 2.0,
-      "damagemultiply": 1.75,
-      "potion": [
-        "dynamicstealth:soulsight,999999,0",
-        "minecraft:night_vision,999999,0"
-      ],
+      "damagemultiply": 2.5,
+      "armoradd": 8.0,
+      "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
 // Custom modifiers for artifacts:mimic
@@ -976,9 +986,9 @@
       "dimension": 0,
       "maxheight": 0,
       "result": "default",
-      "healthmultiply": 2.5,
+      "healthmultiply": 2.0,
       "damagemultiply": 2.5,
-      "armoradd": 12.0,
+      "armoradd": 10.0,
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
