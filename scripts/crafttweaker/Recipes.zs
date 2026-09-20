@@ -18,9 +18,9 @@ recipes.addShapeless(<grimoireofgaia:food_monster_feed_premium>, [<grimoireofgai
 # Waystones
 recipes.remove(<waystones:warp_stone>);
 recipes.addShaped(<waystones:warp_stone>,
- [[<quark:biotite>, <xreliquary:mob_ingredient:11>, <quark:biotite>],
+ [[<botania:quartz:0>, <xreliquary:mob_ingredient:11>, <botania:quartz:0>],
   [<xreliquary:mob_ingredient:11>, <minecraft:diamond>, <xreliquary:mob_ingredient:11>],
-  [<quark:biotite>, <xreliquary:mob_ingredient:11>, <quark:biotite>]]);
+  [<botania:quartz:0>, <xreliquary:mob_ingredient:11>, <botania:quartz:0>]]);
 
 recipes.remove(<waystones:waystone>);
 recipes.addShaped(<waystones:waystone>,
@@ -198,4 +198,20 @@ recipes.addShaped("reforge_rune", <contenttweaker:reforge_rune>, [
     [<ore:gemLapis>,  <ore:gemEmerald>, <ore:gemLapis>],
     [<ore:ingotGold>, <ore:gemLapis>,   <ore:ingotGold>]
 ]);
+
+# QUARK
+recipes.remove(<quark:redstone_randomizer>);
+recipes.addShaped(<quark:redstone_randomizer>, [
+    [null, <minecraft:redstone_torch>, null],
+    [<minecraft:redstone_torch>, <botania:quartz:0>, <minecraft:redstone_torch>],
+    [<ore:stone>, <ore:stone>, <ore:stone>]
+]);
+
+recipes.remove(<quark:rain_detector>);
+recipes.addShaped(<quark:rain_detector>, [
+    [<minecraft:glass>, <minecraft:glass>, <minecraft:glass>],
+    [<botania:quartz:0>, <botania:quartz:0>, <botania:quartz:0>],
+    [<minecraft:purpur_slab>, <minecraft:purpur_slab>, <minecraft:purpur_slab>]
+]);
+
 

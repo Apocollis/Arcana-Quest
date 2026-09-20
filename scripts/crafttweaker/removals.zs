@@ -46,4 +46,21 @@ for item in mysticalWorldArmor {
     mods.jei.JEI.hide(item);
 }
 
+# --- Biotite Removals & JEI Hiding ---
+recipes.remove(<quark:biotite_block:0>);
+recipes.remove(<quark:biotite_block:1>);
+recipes.remove(<quark:biotite_block:2>);
+recipes.remove(<quark:biotite_stairs>);
+recipes.remove(<quark:biotite_slab>);
+recipes.remove(<quark:biotite_wall>);
+furnace.remove(<quark:biotite>);
+
+mods.jei.JEI.hide(<quark:biotite>);
+mods.jei.JEI.hide(<quark:biotite_block:*>);
+mods.jei.JEI.hide(<quark:biotite_stairs>);
+mods.jei.JEI.hide(<quark:biotite_slab>);
+mods.jei.JEI.hide(<quark:biotite_wall>);
+mods.jei.JEI.hide(<quark:biotite_ore>);
+
+
 

@@ -3,6 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.rustichromia.Quern;
 import mods.rustichromia.HayCompactor;
+import mods.rustichromia.Assembler;
 import mods.atum.Quern as AtumQuern;
 import mods.jei.JEI;
 
@@ -13,6 +14,11 @@ import mods.jei.JEI;
 // Remove default Rustichromia wheat recipes
 Quern.remove("rustichromia:wheat_to_flour");
 Quern.remove("rustichromia:wheat_to_chaff");
+
+// Remove default Rustichromia sawdust recipes
+Quern.remove("rustichromia:slab_to_dust");
+Quern.remove("rustichromia:plank_to_dust");
+Quern.remove("rustichromia:log_to_dust");
 
 // Wheat -> 1 Wheat Seeds + 1 Farmer's Delight Straw (300.0 ticks)
 Quern.add(
@@ -58,9 +64,11 @@ Quern.add(
     300.0
 );
 
-// Hide redundant Rustichromia flour and chaff items
+// Hide redundant Rustichromia flour, chaff, sawdust, and plywood items
 JEI.hide(<rustichromia:dust_flour>);
 JEI.hide(<rustichromia:wheat_chaff>);
+JEI.hide(<rustichromia:dust_wood>);
+JEI.hide(<rustichromia:plate_wood>);
 
 // ==========================================
 // 2. Rustichromia Hay Compactor & Thatch Deprecation
@@ -77,7 +85,30 @@ recipes.remove(<rustichromia:thatch_block>);
 JEI.hide(<rustichromia:thatch_block>);
 
 // ==========================================
-// 3. Atum Recipes in Rustichromia Quern
+// 3. Rustichromia Assemblers & Plywood Deprecation
+// ==========================================
+
+// Remove all Assembler recipes across all tiers
+Assembler.removeAll();
+
+// Remove crafting recipes for Plywood and all Assemblers
+recipes.remove(<rustichromia:plate_wood>);
+recipes.remove(<rustichromia:assembler1>);
+recipes.remove(<rustichromia:assembler2>);
+recipes.remove(<rustichromia:assembler3>);
+
+// Hide all Assemblers from JEI
+JEI.hide(<rustichromia:assembler1>);
+JEI.hide(<rustichromia:assembler2>);
+JEI.hide(<rustichromia:assembler3>);
+
+// Hide all Assembler JEI recipe categories
+JEI.hideCategory("rustichromia.assembler.1");
+JEI.hideCategory("rustichromia.assembler.2");
+JEI.hideCategory("rustichromia.assembler.3");
+
+// ==========================================
+// 4. Atum Recipes in Rustichromia Quern
 // ==========================================
 
 // Emmer Wheat -> Emmer Flour (300.0 ticks)
@@ -152,7 +183,7 @@ Quern.add(
 
 
 // ==========================================
-// 4. Deprecate & Hide Atum Quern
+// 5. Deprecate & Hide Atum Quern
 // ==========================================
 
 recipes.remove(<atum:quern>);
