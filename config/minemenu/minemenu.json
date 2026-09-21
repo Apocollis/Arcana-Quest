@@ -66,19 +66,6 @@
         }
       }
     },
-    "7": {
-      "title": "Caster Glove",
-      "icon": {
-        "name": "minecraft:stone",
-        "damage": 0
-      },
-      "action": {
-        "key": {
-          "key": "Change Caster Focus",
-          "toggle": false
-        }
-      }
-    },
     "8": {
       "title": "Open Quests",
       "icon": {

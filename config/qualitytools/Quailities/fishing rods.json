@@ -1,47 +1,78 @@
 {
-    "comment": "These qualities will apply for all fishing rods! For more info
-                about how to edit this file and add more files, visit 
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    
-    "slot": [
-        "mainhand"
-    ],
-    "whitelist": [
-      {
-        "class": "ItemFishingRod"
-      }
-    ],
-    "blacklist": [
-    
-    ],
-    "qualities": [
-      {
-        "name": "quality.unlucky.name",
-        "color": "red",
-        "weight": 5,
-        "attributes": [
-          {
-            "name": "generic.luck",
-            "amount": -0.5,
-            "operation": 0
-          }
-        ]
-      },
-      {
-        "name": "normal",
-        "weight": 50
-      },
-      {
-        "name": "quality.lucky.name",
-        "color": "blue",
-        "weight": 5,
-        "attributes": [
-          {
-            "name": "generic.luck",
-            "amount": 0.5,
-            "operation": 0
-          }
-        ]
-      }
-    ]
+  "comment": "These qualities will apply for all fishing rods! For more info\n                about how to edit this file and add more files, visit \n                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+  "slot": [
+    "mainhand"
+  ],
+  "whitelist": [
+    {
+      "class": "ItemFishingRod"
+    }
+  ],
+  "blacklist": [],
+  "qualities": [
+    {
+      "name": "quality.broken.name",
+      "color": "dark_gray",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "generic.luck",
+          "amount": -3.0,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.worn.name",
+      "color": "gray",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "generic.luck",
+          "amount": -1.0,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.unlucky.name",
+      "color": "red",
+      "weight": 10,
+      "attributes": [
+        {
+          "name": "generic.luck",
+          "amount": -0.5,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "normal",
+      "weight": 50
+    },
+    {
+      "name": "quality.well_made.name",
+      "color": "yellow",
+      "weight": 15,
+      "attributes": [
+        {
+          "name": "generic.luck",
+          "amount": 0.5,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.lucky.name",
+      "color": "green",
+      "weight": 15,
+      "attributes": [
+        {
+          "name": "generic.luck",
+          "amount": 1.0,
+          "operation": 0
+        }
+      ]
+    }
+  ]
 }

@@ -1,6 +1,7 @@
 #priority 50
 
 import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.PlayerLoggedInEvent;
 
@@ -591,9 +592,17 @@ val apprenticeBuilderItems as IIngredient[] = [
     <thebetweenlands:polished_limestone_wall:*>
 ];
 
+val apprenticeTooltip = function(item as IItemStack) as string {
+    if (isNull(client) || isNull(client.player) || !client.player.hasGameStage("apprentice_builder")) {
+        return "§cCrafting Locked: Requires Apprentice Builder (Building Lv 6)";
+    }
+    return null;
+};
+
 for item in apprenticeBuilderItems {
     if (!isNull(item)) {
-        mods.recipestages.Recipes.setRecipeStage("Apprentice Builder", item);
+        mods.recipestages.Recipes.setRecipeStage("apprentice_builder", item);
+        item.addAdvancedTooltip(apprenticeTooltip);
     }
 }
 
@@ -984,9 +993,17 @@ val experiencedBuilderItems as IIngredient[] = [
     <twilightforest:underbrick:*>
 ];
 
+val experiencedTooltip = function(item as IItemStack) as string {
+    if (isNull(client) || isNull(client.player) || !client.player.hasGameStage("experienced_builder")) {
+        return "§cCrafting Locked: Requires Experienced Builder (Building Lv 12)";
+    }
+    return null;
+};
+
 for item in experiencedBuilderItems {
     if (!isNull(item)) {
-        mods.recipestages.Recipes.setRecipeStage("Experienced Builder", item);
+        mods.recipestages.Recipes.setRecipeStage("experienced_builder", item);
+        item.addAdvancedTooltip(experiencedTooltip);
     }
 }
 
@@ -1034,7 +1051,6 @@ val masterBuilderItems as IIngredient[] = [
     <embers:ashen_stone_slab:*>,
     <embers:ashen_tile:*>,
     <embers:ashen_tile_slab:*>,
-    <embers:dawnstone_anvil:*>,
     <embers:stairs_ashen_brick:*>,
     <embers:stairs_ashen_stone:*>,
     <embers:stairs_ashen_tile:*>,
@@ -1064,16 +1080,36 @@ val masterBuilderItems as IIngredient[] = [
     <twilightforest:trophy_pedestal:*>
 ];
 
+val masterTooltip = function(item as IItemStack) as string {
+    if (isNull(client) || isNull(client.player) || !client.player.hasGameStage("master_builder")) {
+        return "§cCrafting Locked: Requires Master Builder (Building Lv 20)";
+    }
+    return null;
+};
+
 for item in masterBuilderItems {
     if (!isNull(item)) {
-        mods.recipestages.Recipes.setRecipeStage("Master Builder", item);
+        mods.recipestages.Recipes.setRecipeStage("master_builder", item);
+        item.addAdvancedTooltip(masterTooltip);
     }
 }
 
 // ==========================================
 // Auto-Unlock Building Stages (Method 1)
 // ==========================================
-function checkBuildingStages(player as IPlayer) as void {
+function unlockStage(player as IPlayer, stage as string, stageDisplayName as string, notify as bool) as void {
+    if (!player.hasGameStage(stage)) {
+        player.addGameStage(stage);
+        if (notify) {
+            player.sendChat("§6[Building] §aYou unlocked the §e" + stageDisplayName + "§a stage!");
+            if (!isNull(server) && !isNull(server.commandManager)) {
+                server.commandManager.executeCommand(server, "playsound block.anvil.land master " + player.name);
+            }
+        }
+    }
+}
+
+function checkBuildingStages(player as IPlayer, notify as bool) as void {
     if (isNull(player)) return;
     val skillData = player.skillData;
     if (isNull(skillData)) return;
@@ -1081,29 +1117,29 @@ function checkBuildingStages(player as IPlayer) as void {
     if (isNull(buildingInfo)) return;
     val level as int = buildingInfo.level;
 
-    if (level >= 6 && !player.hasGameStage("Apprentice Builder")) {
-        player.addGameStage("Apprentice Builder");
+    if (level >= 6) {
+        unlockStage(player, "apprentice_builder", "Apprentice Builder", notify);
     }
-    if (level >= 12 && !player.hasGameStage("Experienced Builder")) {
-        player.addGameStage("Experienced Builder");
+    if (level >= 12) {
+        unlockStage(player, "experienced_builder", "Experienced Builder", notify);
     }
-    if (level >= 20 && !player.hasGameStage("Master Builder")) {
-        player.addGameStage("Master Builder");
+    if (level >= 20) {
+        unlockStage(player, "master_builder", "Master Builder", notify);
     }
 }
 
 mods.compatskills.SkillChange.addLevelUpHandler(<skill:reskillable:building>, 6, function(player as IPlayer) {
-    checkBuildingStages(player);
+    checkBuildingStages(player, true);
 });
 
 mods.compatskills.SkillChange.addLevelUpHandler(<skill:reskillable:building>, 12, function(player as IPlayer) {
-    checkBuildingStages(player);
+    checkBuildingStages(player, true);
 });
 
 mods.compatskills.SkillChange.addLevelUpHandler(<skill:reskillable:building>, 20, function(player as IPlayer) {
-    checkBuildingStages(player);
+    checkBuildingStages(player, true);
 });
 
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
-    checkBuildingStages(event.player);
+    checkBuildingStages(event.player, false);
 });

@@ -1,71 +1,99 @@
 {
-    "comment": "There aren't any magic weapons by default, but you can add
-                the items yourself here. For more info about how to edit 
-                this file and add more files, visit 
-                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    
-    "slot": [
-        "mainhand",
-        "offhand"
-    ],
-    "whitelist": [
-    
-    ],
-    "blacklist": [
-    
-    ],
-    "qualities": [
-      {
-        "name": "quality.inept.name",
-        "color": "dark_gray",
-        "weight": 5,
-        "attributes": [
-          {
-            "name": "potioncore.magicDamage",
-            "amount": -0.15,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.ineffective.name",
-        "color": "red",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "potioncore.magicDamage",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "normal",
-        "weight": 50
-      },
-      {
-        "name": "quality.enhancing.name",
-        "color": "blue",
-        "weight": 10,
-        "attributes": [
-          {
-            "name": "potioncore.magicDamage",
-            "amount": 0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.mystical.name",
-        "color": "aqua",
-        "weight": 5,
-        "attributes": [
-          {
-            "name": "potioncore.magicDamage",
-            "amount": 0.1,
-            "operation": 2
-          }
-        ]
-      }
-    ]
+  "comment": "There aren't any magic weapons by default, but you can add\n                the items yourself here. For more info about how to edit \n                this file and add more files, visit \n                https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
+  "slot": [
+    "mainhand",
+    "offhand"
+  ],
+  "whitelist": [],
+  "blacklist": [],
+  "qualities": [
+    {
+      "name": "quality.broken.name",
+      "color": "dark_gray",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "potioncore.magicDamage",
+          "amount": -0.15,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.worn.name",
+      "color": "gray",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "potioncore.magicDamage",
+          "amount": -0.1,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.drained.name",
+      "color": "red",
+      "weight": 10,
+      "attributes": [
+        {
+          "name": "potioncore.magicDamage",
+          "amount": -0.05,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "normal",
+      "weight": 50
+    },
+    {
+      "name": "quality.charged.name",
+      "color": "yellow",
+      "weight": 15,
+      "attributes": [
+        {
+          "name": "potioncore.magicDamage",
+          "amount": 0.02,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.enhancing.name",
+      "color": "green",
+      "weight": 10,
+      "attributes": [
+        {
+          "name": "potioncore.magicDamage",
+          "amount": 0.05,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.mystical.name",
+      "color": "blue",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "potioncore.magicDamage",
+          "amount": 0.1,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.legendary.name",
+      "color": "gold",
+      "weight": 0,
+      "attributes": [
+        {
+          "name": "potioncore.magicDamage",
+          "amount": 0.15,
+          "operation": 2
+        }
+      ]
+    }
+  ]
 }

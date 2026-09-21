@@ -1,0 +1,44 @@
+{
+  "tiers": [
+    {
+      "name": "Ruined",
+      "color": "dark_gray",
+      "rarity_percent": 5.0
+    },
+    {
+      "name": "Worn",
+      "color": "gray",
+      "rarity_percent": 5.0
+    },
+    {
+      "name": "Negative Trait",
+      "color": "red",
+      "rarity_percent": 10.0
+    },
+    {
+      "name": "Normal",
+      "color": "none",
+      "rarity_percent": 50.0
+    },
+    {
+      "name": "Common",
+      "color": "yellow",
+      "rarity_percent": 15.0
+    },
+    {
+      "name": "Uncommon",
+      "color": "green",
+      "rarity_percent": 10.0
+    },
+    {
+      "name": "Rare",
+      "color": "blue",
+      "rarity_percent": 5.0
+    },
+    {
+      "name": "Legendary / Masterwork",
+      "color": "gold",
+      "rarity_percent": 0.0
+    }
+  ]
+}
