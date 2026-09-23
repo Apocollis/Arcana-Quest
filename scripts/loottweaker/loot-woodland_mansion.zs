@@ -62,6 +62,7 @@ goodies.addItemEntry(<xreliquary:mob_ingredient:4>, 2, 0);
 goodies.addItemEntry(<xreliquary:mob_ingredient:5>, 2, 0);
 goodies.addItemEntry(<xreliquary:mob_ingredient:6>, 3, 0);
 goodies.addItemEntry(<quark:rune>, 12, 0, [Functions.setMetadata(0, 15)], []);
+goodies.addItemEntry(<sccraftingrunes:itemraremat>, 10, 0, [Functions.setCount(1, 2)], []);
 
 // 1-2 equipment
 
@@ -128,6 +129,8 @@ treasure.addItemEntry(<botania:overgrowthseed>, 20, 0);
 treasure.addItemEntry(<xreliquary:angelheart_vial>, 6, 0);
 treasure.addItemEntry(<botania:keepivy>, 20, 0);
 treasure.addItemEntry(<quark:rune:16>, 5, 0);
+treasure.addItemEntry(<sccraftingrunes:itemlegendarymat>, 5, 0, [Functions.setCount(1, 1)], []);
+treasure.addItemEntry(<sccraftingrunes:itemmatbag>, 6, 0, [Functions.setCount(1, 1)], []);
 
 treasure.addItemEntry(<thaumcraft:sanity_soap>, 8, 0);
 treasure.addItemEntry(<thaumcraft:bath_salts>, 5, 0);

@@ -62,5 +62,15 @@ mods.jei.JEI.hide(<quark:biotite_slab>);
 mods.jei.JEI.hide(<quark:biotite_wall>);
 mods.jei.JEI.hide(<quark:biotite_ore>);
 
+# --- Modern Treats & Popsicles Removals ---
+recipes.remove(<ends_delight:dragon_breath_soda>);
+recipes.remove(<farmersdelight:melon_popsicle>);
+recipes.remove(<ends_delight:chorus_fruit_popsicle>);
 
+mods.jei.JEI.hide(<ends_delight:dragon_breath_soda>);
+mods.jei.JEI.hide(<farmersdelight:melon_popsicle>);
+mods.jei.JEI.hide(<ends_delight:chorus_fruit_popsicle>);
 
+# --- Quality Tools Removals ---
+recipes.remove(<qualitytools:reforging_station>);
+mods.jei.JEI.hide(<qualitytools:reforging_station>);

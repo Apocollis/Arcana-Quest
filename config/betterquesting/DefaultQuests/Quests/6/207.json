@@ -1,20 +1,20 @@
 {
   "preRequisites:11": [
-    205,
     206
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Craft Nitor or Brass.",
+      "desc:8": "Craft Embers Stamper.",
+      "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
           "customnpcs:itemscripteddata:10": {},
           "wizardryutils:summoneditemdata:10": {}
         },
-        "id:8": "thaumcraft:nitor_yellow"
+        "id:8": "embers:stamper"
       },
-      "name:8": "Crucible Essences"
+      "name:8": "GATE: Stamper"
     }
   },
   "questID:3": 207,
@@ -29,7 +29,7 @@
             "customnpcs:itemscripteddata:10": {},
             "wizardryutils:summoneditemdata:10": {}
           },
-          "id:8": "thaumcraft:nitor_yellow"
+          "id:8": "embers:stamper"
         }
       },
       "taskID:8": "bq_standard:retrieval"

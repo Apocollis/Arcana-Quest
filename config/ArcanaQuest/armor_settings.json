@@ -679,11 +679,6 @@
       "weight": 1.0,
       "included_in_underarmor": true,
       "temp": 0.0
-    },
-    "artifacts:drinking_hat": {
-      "weight": 1.0,
-      "included_in_underarmor": true,
-      "temp": 0.0
     }
   },
   "legs": {

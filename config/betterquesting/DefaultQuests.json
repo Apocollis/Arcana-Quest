@@ -28,7 +28,7 @@
     },
     "52:10": {
       "preRequisites:11": [
-        208
+        207
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -442,45 +442,7 @@
     },
     "203:10": {
       "preRequisites:11": [
-        201
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "desc:8": "Craft a reforging station.",
-          "icon:10": {
-            "Count:3": 1,
-            "ForgeCaps:10": {
-              "customnpcs:itemscripteddata:10": {},
-              "wizardryutils:summoneditemdata:10": {}
-            },
-            "id:8": "qualitytools:reforging_station"
-          },
-          "name:8": "Reforging Station"
-        }
-      },
-      "questID:3": 203,
-      "tasks:9": {
-        "0:10": {
-          "ignoreNBT:1": 1,
-          "index:3": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "ForgeCaps:10": {
-                "customnpcs:itemscripteddata:10": {},
-                "wizardryutils:summoneditemdata:10": {}
-              },
-              "id:8": "qualitytools:reforging_station"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "204:10": {
-      "preRequisites:11": [
-        202,
-        203
+        202
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -496,7 +458,7 @@
           "name:8": "Raiding Roguelike Dungeons"
         }
       },
-      "questID:3": 204,
+      "questID:3": 203,
       "tasks:9": {
         "0:10": {
           "ignoreNBT:1": 1,
@@ -515,9 +477,9 @@
         }
       }
     },
-    "205:10": {
+    "204:10": {
       "preRequisites:11": [
-        204
+        203
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -533,7 +495,7 @@
           "name:8": "Bore into the Earth"
         }
       },
-      "questID:3": 205,
+      "questID:3": 204,
       "tasks:9": {
         "0:10": {
           "ignoreNBT:1": 1,
@@ -552,9 +514,9 @@
         }
       }
     },
-    "206:10": {
+    "205:10": {
       "preRequisites:11": [
-        204
+        203
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -570,7 +532,7 @@
           "name:8": "Celestial Almanac"
         }
       },
-      "questID:3": 206,
+      "questID:3": 205,
       "tasks:9": {
         "0:10": {
           "ignoreNBT:1": 1,
@@ -589,10 +551,10 @@
         }
       }
     },
-    "207:10": {
+    "206:10": {
       "preRequisites:11": [
-        205,
-        206
+        204,
+        205
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -608,7 +570,7 @@
           "name:8": "Crucible Essences"
         }
       },
-      "questID:3": 207,
+      "questID:3": 206,
       "tasks:9": {
         "0:10": {
           "ignoreNBT:1": 1,
@@ -627,9 +589,9 @@
         }
       }
     },
-    "208:10": {
+    "207:10": {
       "preRequisites:11": [
-        207
+        206
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -646,7 +608,7 @@
           "name:8": "GATE: Stamper"
         }
       },
-      "questID:3": 208,
+      "questID:3": 207,
       "tasks:9": {
         "0:10": {
           "ignoreNBT:1": 1,
@@ -1786,45 +1748,38 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 36,
-          "y:3": -18
+          "y:3": 0
         },
         "4:10": {
           "id:3": 203,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 18
+          "x:3": 72,
+          "y:3": 0
         },
         "5:10": {
           "id:3": 204,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 0
+          "x:3": 108,
+          "y:3": -18
         },
         "6:10": {
           "id:3": 205,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 108,
-          "y:3": -18
+          "y:3": 18
         },
         "7:10": {
           "id:3": 206,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": 18
-        },
-        "8:10": {
-          "id:3": 207,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
           "x:3": 144,
           "y:3": 0
         },
-        "9:10": {
-          "id:3": 208,
+        "8:10": {
+          "id:3": 207,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 180,

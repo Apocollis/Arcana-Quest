@@ -1,6 +1,12 @@
 {
   "block0": {
     "content": [
+	  "artifacts:power_glove",
+	  "artifacts:mechanical_glove",
+	  "artifacts:magma_stone",
+	  "artifacts:fire_gauntlet",
+	  "artifacts:pocket_piston",
+	  "artifacts:feral_claws",
       "aether_legacy:obsidian_gloves",
       "aether_legacy:zanite_gloves",
       "aether_legacy:valkyrie_gloves",
@@ -44,22 +50,17 @@
       "crimsonrevelations:protection_ring",
       "botania:lokiring",
       "da:arrow_trinket",
-      "artifacts:power_glove",
       "da:poison_trinket",
-      "artifacts:magma_stone",
       "aether_legacy:ice_ring",
       "qualitytools:emerald_ring",
       "botania:odinring",
-      "artifacts:mechanical_glove",
       "aether_legacy:golden_ring",
       "botania:manaringgreater",
       "grimoireofgaia:accessory_ring_haste",
-      "artifacts:pocket_piston",
       "aether_legacy:iron_ring",
       "crimsonrevelations:verdant_ring",
       "da:void_hand_trinket",
       "da:golden_mark_trinket",
-      "artifacts:fire_gauntlet",
       "botania:waterring",
       "thaumictinkerer:goliath_ring",
       "botania:manaring",
@@ -68,7 +69,6 @@
       "grimoireofgaia:accessory_ring_speed",
       "baubles:ring:*",
       "da:dagger_trinket",
-      "artifacts:feral_claws",
       "aether_legacy:zanite_ring",
       "botania:dodgering",
       "botania:magnetringgreater",
@@ -91,21 +91,27 @@
       "crimsonrevelations:runic_girdle_kinetic",
       "artifacts:antidote_vessel",
       "botania:knockbackbelt",
-      "buildersbag:builders_bag_tier_five",
+      "botania:supertravelbelt",
+	  "bewitchment:gluttons_sash",
+	  "bewitchment:girdle_of_the_dryads"
+      "botania:travelbelt",
+	  
+      "thaumcraft:focus_pouch",
+	  "kami:focus_pouch",
+	  "artifacts:bottled_cloud",
       "buildersbag:builders_bag_tier_one",
       "buildersbag:builders_bag_tier_two",
-      "botania:supertravelbelt",
-      "artifacts:bottled_cloud",
-      "botania:travelbelt",
-      "thaumcraft:focus_pouch",
-      "bewitchment:gluttons_sash",
-      "buildersbag:builders_bag_tier_three",
+	  "buildersbag:builders_bag_tier_three",
       "buildersbag:builders_bag_tier_four",
+	  "buildersbag:builders_bag_tier_five",
+	  
+	  
+      
+      
       "artifacts:bottled_fart",
-      "kami:focus_pouch",
       "artifacts:whoopie_cushion",
       "artifacts:bubble_wrap",
-      "bewitchment:girdle_of_the_dryads"
+      
     ],
     "types": [
       "baubles:belt"
@@ -113,21 +119,21 @@
   },
   "block3": {
     "content": [
+      
+    ],
+    "types": [
+      "baubles:pouch"
+    ]
+  },
+  "block4": {
+    "content": [
       "arcanearchives:gemsocket",
-      "wings:evil_wings",
       "botania:thirdeye",
       "spartanweaponry:quiver_arrow_moderate",
-      "wings:bat_wings",
-      "wings:slime_wings",
-      "wings:angel_wings",
-      "wings:dragon_wings",
       "grimoireofgaia:accessory_trinket_levitation",
-      "wings:monarch_butterfly_wings",
       "grimoireofgaia:accessory_trinket_poison",
       "spartanweaponry:quiver_arrow",
       "botania:invisibilitycloak",
-      "wings:fire_wings",
-      "wings:fairy_wings",
       "spartanweaponry:quiver_bolt",
       "colytra:elytra_bauble",
       "spartanweaponry:quiver_bolt_heavy",
@@ -140,19 +146,25 @@
       "thaumicperiphery:pauldron",
       "thaumicperiphery:magic_quiver",
       "botania:unholycloak",
-      "thaumicaugmentation:thaumostatic_harness:0",
       "grimoireofgaia:accessory_trinket_water_breathing:*",
       "embers:dawnstone_mail",
       "spartanweaponry:quiver_arrow_heavy",
       "botania:balancecloak",
-      "thaumicaugmentation:elytra_harness:0",
-      "artifacts:star_cloak"
+      "artifacts:star_cloak",
+	  "aether_legacy:blue_cape",
+      "aether_legacy:yellow_cape",
+      "aether_legacy:valkyrie_cape",
+      "aether_legacy:swet_cape",
+      "aether_legacy:agility_cape",
+      "aether_legacy:red_cape",
+      "aether_legacy:invisibility_cape",
+      "aether_legacy:white_cape"
     ],
     "types": [
       "baubles:body"
     ]
   },
-  "block4": {
+  "block5": {
     "content": [
       "bewitchment:hecates_visage",
       "aetherworks:item_crown",
@@ -175,7 +187,7 @@
       "baubles:head"
     ]
   },
-  "block5": {
+  "block6": {
     "content": [
       "twilightforest:charm_of_life_1",
       "twilightforest:charm_of_keeping_3",
@@ -189,20 +201,13 @@
       "twilightforest:charm_of_life_2",
       "twilightforest:charm_of_keeping_2",
       "grimoireofgaia:accessory_trinket_wither",
-      "embers:ember_bulb:*"
-    ],
-    "types": [
-      "baubles:trinket"
-    ]
-  },
-  "block6": {
-    "content": [
-      "aether_legacy:regeneration_stone",
+      "embers:ember_bulb:*",
+	  "aether_legacy:regeneration_stone",
       "aether_legacy:iron_bubble",
       "aether_legacy:golden_feather"
     ],
     "types": [
-      "baubles:misc"
+      "baubles:trinket"
     ]
   },
   "block7": {
@@ -244,7 +249,11 @@
       "da:heart_trinket",
       "atum:anubiss_mercy",
       "xreliquary:fortune_coin",
-      "crimsonrevelations:runic_amulet"
+      "crimsonrevelations:runic_amulet",
+	  "aether_legacy:zanite_pendant",
+      "aether_legacy:ice_pendant",
+      "aether_legacy:iron_pendant",
+      "aether_legacy:golden_pendant"
     ],
     "types": [
       "baubles:amulet"
@@ -260,10 +269,6 @@
   },
   "block9": {
     "content": [
-      "aether_legacy:zanite_pendant",
-      "aether_legacy:ice_pendant",
-      "aether_legacy:iron_pendant",
-      "aether_legacy:golden_pendant"
     ],
     "types": [
       "baubles:pendant"
@@ -310,25 +315,20 @@
   },
   "block11": {
     "content": [
+	  "wings:evil_wings",
+      "wings:bat_wings",
+      "wings:slime_wings",
+      "wings:angel_wings",
+      "wings:dragon_wings",
+	  "wings:monarch_butterfly_wings",
+	  "wings:fire_wings",
+      "wings:fairy_wings",
+	  "thaumicaugmentation:thaumostatic_harness:0",
+	  "thaumicaugmentation:elytra_harness:0",
       "minecraft:elytra"
     ],
     "types": [
       "baubles:elytra"
-    ]
-  },
-  "block12": {
-    "content": [
-      "aether_legacy:blue_cape",
-      "aether_legacy:yellow_cape",
-      "aether_legacy:valkyrie_cape",
-      "aether_legacy:swet_cape",
-      "aether_legacy:agility_cape",
-      "aether_legacy:red_cape",
-      "aether_legacy:invisibility_cape",
-      "aether_legacy:white_cape"
-    ],
-    "types": [
-      "baubles:cape"
     ]
   }
 }

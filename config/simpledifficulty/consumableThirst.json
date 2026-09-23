@@ -269,6 +269,16 @@
       "thirstyChance": 0.0
     }
   ],
+  "twilightdelight:twilight_spring": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "amount": 6,
+      "saturation": 0.6,
+      "thirstyChance": 0.0
+    }
+  ],
   "bewitchment:juniper_tea": [
     {
       "identity": {

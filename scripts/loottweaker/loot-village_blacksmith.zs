@@ -64,6 +64,8 @@ goodies.addItemEntry(<minecraft:book>, 35, 0, [Functions.enchantWithLevels(18, 2
 goodies.addItemEntry(<minecraft:book>, 25, 0, [Functions.enchantWithLevels(25, 35, true)], []);
 goodies.addItemEntry(<botania:keepivy>, 20, 0);
 goodies.addItemEntry(<quark:rune:16>, 5, 0);
+goodies.addItemEntry(<sccraftingrunes:itemcommonmat>, 12, 0, [Functions.setCount(1, 2)], []);
+goodies.addItemEntry(<sccraftingrunes:itemuncommonmat>, 6, 0, [Functions.setCount(1, 1)], []);
 
 
 // 2-3 equipment

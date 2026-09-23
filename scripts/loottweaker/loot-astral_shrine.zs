@@ -54,6 +54,8 @@ goodies.addItemEntry(<thaumcraft:curio:0>, 1, 0);
 goodies.addItemEntry(<thaumcraft:curio:2>, 2, 0);
 goodies.addItemEntry(<thaumcraft:curio:3>, 1, 0);
 goodies.addItemEntry(<thaumcraft:curio:4>, 2, 0);
+goodies.addItemEntry(<sccraftingrunes:itemcommonmat>, 10, 0, [Functions.setCount(1, 2)], []);
+goodies.addItemEntry(<sccraftingrunes:itemuncommonmat>, 6, 0, [Functions.setCount(1, 1)], []);
 
 ###############
 # 1-2 paper
@@ -83,3 +85,5 @@ treasure.addItemEntry(<botania:blacklotus:1>, 5, 0);
 treasure.addItemEntry(<botania:overgrowthseed>, 3, 0);
 treasure.addItemEntry(<thaumcraft:sanity_soap>, 8, 0);
 treasure.addItemEntry(<thaumcraft:bath_salts>, 5, 0);
+treasure.addItemEntry(<sccraftingrunes:itemraremat>, 3, 0, [Functions.setCount(1, 1)], []);
+treasure.addItemEntry(<sccraftingrunes:itemmatbag>, 2, 0, [Functions.setCount(1, 1)], []);

@@ -139,12 +139,6 @@
         },
         {
           "data": {
-            "name": "artifacts:night_vision_goggles"
-          },
-          "weight": 3
-        },
-        {
-          "data": {
             "name": "naturescompass:naturescompass",
             "meta": 0
           },

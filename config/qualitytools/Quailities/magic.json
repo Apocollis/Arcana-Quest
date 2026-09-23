@@ -4,7 +4,28 @@
     "mainhand",
     "offhand"
   ],
-  "whitelist": [],
+  "whitelist": [
+    {
+      "item": "thaumcraft:caster_basic"
+    },
+    {
+      "item": "thaumicaugmentation:gauntlet",
+      "meta": 0
+    },
+    {
+      "item": "thaumicaugmentation:gauntlet",
+      "meta": 1
+    },
+    {
+      "item": "congregamystica:caster_elementium"
+    },
+    {
+      "item": "congregamystica:caster_clockwork"
+    },
+    {
+      "item": "kami:ichorium_caster"
+    }
+  ],
   "blacklist": [],
   "qualities": [
     {

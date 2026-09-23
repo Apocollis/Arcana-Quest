@@ -20,7 +20,8 @@
 				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:luck", Duration: 3600, Amplifier: 0}]}' }, "weight" : 3},
 				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "rustic:feather", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1},
 				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "simpledifficulty:cold_resist", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1},
-				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "simpledifficulty:heat_resist", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1}
+				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "simpledifficulty:heat_resist", Duration: 3600, Amplifier: 0}]}' }, "weight" : 1},
+				{"data" : {"name" : "crimsonrevelations:thaumic_litmus_paper", "min" : 1, "max" : 4}, "weight" : 2}
 			],
 			"each" : true,
 			"quantity" : 4

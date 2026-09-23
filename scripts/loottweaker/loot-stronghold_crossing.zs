@@ -65,6 +65,8 @@ goodies.addItemEntry(<thaumcraft:curio:2>, 2, 0);
 goodies.addItemEntry(<thaumcraft:curio:3>, 1, 0);
 goodies.addItemEntry(<thaumcraft:curio:4>, 2, 0);
 goodies.addItemEntry(<quark:rune>, 12, 0, [Functions.setMetadata(0, 15)], []);
+goodies.addItemEntry(<sccraftingrunes:itemuncommonmat>, 10, 0, [Functions.setCount(1, 2)], []);
+goodies.addItemEntry(<sccraftingrunes:itemraremat>, 6, 0, [Functions.setCount(1, 1)], []);
 
 // 1-2 equipment
 
@@ -129,6 +131,8 @@ treasure.addItemEntry(<botania:overgrowthseed>, 20, 0);
 treasure.addItemEntry(<xreliquary:angelheart_vial>, 6, 0);
 treasure.addItemEntry(<botania:keepivy>, 20, 0);
 treasure.addItemEntry(<quark:rune:16>, 5, 0);
+treasure.addItemEntry(<sccraftingrunes:itemlegendarymat>, 2, 0, [Functions.setCount(1, 1)], []);
+treasure.addItemEntry(<sccraftingrunes:itemmatbag>, 4, 0, [Functions.setCount(1, 1)], []);
 
 treasure.addItemEntry(<thaumcraft:sanity_soap>, 8, 0);
 treasure.addItemEntry(<thaumcraft:bath_salts>, 5, 0);
@@ -200,7 +204,6 @@ treasure.addItemEntry(<thaumcraft:elemental_hoe>, 1, 0);
 treasure.addItemEntry(<thaumcraft:elemental_sword>, 1, 0);
 treasure.addItemEntry(<astralsorcery:itemenchantmentamulet>, 3, 0);
 
-treasure.addItemEntry(<artifacts:shiny_red_balloon>, 1, 0);
 treasure.addItemEntry(<artifacts:obsidian_skull>, 1, 0);
 treasure.addItemEntry(<artifacts:shock_pendant>, 1, 0);
 treasure.addItemEntry(<artifacts:flame_pendant>, 1, 0);
@@ -212,7 +215,5 @@ treasure.addItemEntry(<artifacts:bottled_cloud>, 1, 0);
 treasure.addItemEntry(<artifacts:magma_stone>, 1, 0);
 treasure.addItemEntry(<artifacts:feral_claws>, 1, 0);
 treasure.addItemEntry(<artifacts:power_glove>, 1, 0);
-treasure.addItemEntry(<artifacts:drinking_hat>, 1, 0);
 treasure.addItemEntry(<artifacts:star_cloak>, 1, 0);
 treasure.addItemEntry(<artifacts:pocket_piston>, 1, 0);
-treasure.addItemEntry(<artifacts:night_vision_goggles>, 1, 0);

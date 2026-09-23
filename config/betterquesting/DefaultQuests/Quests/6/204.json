@@ -1,20 +1,19 @@
 {
   "preRequisites:11": [
-    202,
     203
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Clear dungeons.",
+      "desc:8": "Craft Ember Bore.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
           "customnpcs:itemscripteddata:10": {},
           "wizardryutils:summoneditemdata:10": {}
         },
-        "id:8": "minecraft:chest"
+        "id:8": "embers:ember_bore"
       },
-      "name:8": "Raiding Roguelike Dungeons"
+      "name:8": "Bore into the Earth"
     }
   },
   "questID:3": 204,
@@ -29,7 +28,7 @@
             "customnpcs:itemscripteddata:10": {},
             "wizardryutils:summoneditemdata:10": {}
           },
-          "id:8": "ordinarycoins:coingold"
+          "id:8": "embers:ember_bore"
         }
       },
       "taskID:8": "bq_standard:retrieval"

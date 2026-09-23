@@ -58,6 +58,7 @@ goodies.addItemEntry(<thaumcraft:curio:3>, 7, 0);
 goodies.addItemEntry(<thaumcraft:curio:4>, 3, 0);
 goodies.addItemEntry(<minecraft:diamond>, 60, 0, [Functions.setCount(2, 3)], []);
 goodies.addItemEntry(<quark:rune>, 15, 0, [Functions.setMetadata(0, 15)], []);
+goodies.addItemEntry(<sccraftingrunes:itemraremat>, 10, 0, [Functions.setCount(1, 2)], []);
 
 // 1-2 equipments
 equipment.addItemEntry(<minecraft:diamond_pickaxe>, 4, 0);
@@ -105,6 +106,8 @@ treasure.addItemEntry(<biomesoplenty:terrestrial_artifact>, 2, 0);
 treasure.addItemEntry(<xreliquary:angelheart_vial>, 8, 0);
 treasure.addItemEntry(<quark:enderdragon_scale>, 7, 0);
 treasure.addItemEntry(<quark:rune:16>, 5, 0);
+treasure.addItemEntry(<sccraftingrunes:itemlegendarymat>, 8, 0, [Functions.setCount(1, 1)], []);
+treasure.addItemEntry(<sccraftingrunes:itemmatbag>, 8, 0, [Functions.setCount(1, 1)], []);
 
 treasure.addItemEntry(<botania:starsword>, 2, 0, [Functions.enchantWithLevels(30, 40, false)], []);
 treasure.addItemEntry(<botania:thundersword>, 2, 0, [Functions.enchantWithLevels(30, 40, false)], []);

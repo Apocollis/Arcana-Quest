@@ -104,7 +104,7 @@
 				"floor" : {"type" : "METABLOCK", "data" : {"name" : "embers:block_caminite_brick", "meta" : 0}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "embers:stairs_caminite_brick"}},
 				"bars" : {"name" : "chisel:ironpane", "meta" : 4},
-				"liquid" : {"name" : "minecraft:lava"},
+				"liquid" : {"name" : "minecraft:flowing_lava", "meta" : 0},
 				"lightblock" : {"name" : "cathedral:dwemer_light_normal"}
 			},
 			"secondary" : {
@@ -112,7 +112,7 @@
 				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "soot:caminite_large_tile", "meta" : 0}},
 				"floor" : {"type" : "METABLOCK", "data" : {"name" : "soot:wrought_platform", "meta" : 0}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "embers:stairs_caminite_brick"}},
-				"liquid" : {"name" : "minecraft:lava"},
+				"liquid" : {"name" : "minecraft:flowing_lava", "meta" : 0},
 				"lightblock" : {"name" : "cathedral:dwemer_light_normal"}
 			}
 		},
@@ -156,7 +156,7 @@
 				"floor" : {"type" : "METABLOCK", "data" : {"name" : "embers:ashen_tile", "meta" : 0}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "embers:stairs_ashen_tile"}},
 				"bars" : {"name" : "chisel:ironpane", "meta" : 4},
-				"liquid" : {"name" : "minecraft:lava"},
+				"liquid" : {"name" : "minecraft:flowing_lava", "meta" : 0},
 				"lightblock" : {"name" : "embers:archaic_light"}
 			},
 			"secondary" : {
@@ -164,7 +164,7 @@
 				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "embers:ashen_stone", "meta" : 0}},
 				"floor" : {"type" : "METABLOCK", "data" : {"name" : "soot:wrought_platform", "meta" : 0}},
 				"stair" : {"type" : "METABLOCK", "data" : {"name" : "embers:stairs_ashen_tile"}},
-				"liquid" : {"name" : "minecraft:lava"},
+				"liquid" : {"name" : "minecraft:flowing_lava", "meta" : 0},
 				"lightblock" : {"name" : "embers:archaic_light"}
 			}
 		},

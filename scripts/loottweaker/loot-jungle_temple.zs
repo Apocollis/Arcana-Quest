@@ -68,6 +68,8 @@ goodies.addItemEntry(<thaumcraft:curio:3>, 1, 0);
 goodies.addItemEntry(<thaumcraft:curio:4>, 2, 0);
 goodies.addItemEntry(<botania:keepivy>, 12, 0);
 goodies.addItemEntry(<quark:rune>, 12, 0, [Functions.setMetadata(0, 15)], []);
+goodies.addItemEntry(<sccraftingrunes:itemcommonmat>, 12, 0, [Functions.setCount(1, 2)], []);
+goodies.addItemEntry(<sccraftingrunes:itemuncommonmat>, 8, 0, [Functions.setCount(1, 2)], []);
 
 
 // 1-2 equipment
@@ -124,6 +126,8 @@ treasure.addItemEntry(<contenttweaker:life_elixir>, 24, 0);
 treasure.addItemEntry(<botania:overgrowthseed>, 30, 0);
 treasure.addItemEntry(<xreliquary:angelheart_vial>, 6, 0);
 treasure.addItemEntry(<quark:rune:16>, 5, 0);
+treasure.addItemEntry(<sccraftingrunes:itemraremat>, 4, 0, [Functions.setCount(1, 1)], []);
+treasure.addItemEntry(<sccraftingrunes:itemmatbag>, 3, 0, [Functions.setCount(1, 1)], []);
 treasure.addItemEntry(<botania:starsword>, 1, 0, [Functions.enchantWithLevels(30, 40, false)], []);
 treasure.addItemEntry(<botania:thundersword>, 1, 0, [Functions.enchantWithLevels(30, 40, false)], []);
 treasure.addItemEntry(<botania:auraring>, 1, 0);

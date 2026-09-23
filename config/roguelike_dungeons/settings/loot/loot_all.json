@@ -9,6 +9,7 @@
 		"arcanaquest:loot_starter",
 		"arcanaquest:loot_blocks",
 		"arcanaquest:loot_brewing",
-		"arcanaquest:loot_enchanting"
+		"arcanaquest:loot_enchanting",
+		"arcanaquest:loot_runes"
 	]
 }

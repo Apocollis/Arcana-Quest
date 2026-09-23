@@ -69,6 +69,8 @@ goodies.addItemEntry(<thaumcraft:curio:2>, 2, 0);
 goodies.addItemEntry(<thaumcraft:curio:3>, 1, 0);
 goodies.addItemEntry(<thaumcraft:curio:4>, 2, 0);
 goodies.addItemEntry(<quark:rune>, 12, 0, [Functions.setMetadata(0, 15)], []);
+goodies.addItemEntry(<sccraftingrunes:itemcommonmat>, 15, 0, [Functions.setCount(1, 2)], []);
+goodies.addItemEntry(<sccraftingrunes:itemuncommonmat>, 8, 0, [Functions.setCount(1, 1)], []);
 
 // 1-2 equipment
 

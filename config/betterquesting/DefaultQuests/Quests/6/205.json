@@ -1,19 +1,19 @@
 {
   "preRequisites:11": [
-    204
+    203
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "Craft Ember Bore.",
+      "desc:8": "Craft Astral Tome.",
       "icon:10": {
         "Count:3": 1,
         "ForgeCaps:10": {
           "customnpcs:itemscripteddata:10": {},
           "wizardryutils:summoneditemdata:10": {}
         },
-        "id:8": "embers:ember_bore"
+        "id:8": "astralsorcery:itemjournal"
       },
-      "name:8": "Bore into the Earth"
+      "name:8": "Celestial Almanac"
     }
   },
   "questID:3": 205,
@@ -28,7 +28,7 @@
             "customnpcs:itemscripteddata:10": {},
             "wizardryutils:summoneditemdata:10": {}
           },
-          "id:8": "embers:ember_bore"
+          "id:8": "astralsorcery:itemjournal"
         }
       },
       "taskID:8": "bq_standard:retrieval"

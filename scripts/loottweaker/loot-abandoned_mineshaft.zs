@@ -97,6 +97,8 @@ goodies.addItemEntry(<botania:keepivy>, 5, 0);
 goodies.addItemEntry(<botania:blacklotus>, 8, 0);    
 goodies.addItemEntry(<botania:overgrowthseed>, 5, 0);
 goodies.addItemEntry(<grimoireofgaia:box_hat>, 5, 0);
+goodies.addItemEntry(<sccraftingrunes:itemcommonmat>, 15, 0, [Functions.setCount(1, 2)], []);
+goodies.addItemEntry(<sccraftingrunes:itemuncommonmat>, 8, 0, [Functions.setCount(1, 1)], []);
 
 // 1-2 equipments
 

@@ -122,5 +122,55 @@
     "material": {
         "ore_dict": "gemEmerald"
     }
+  },
+  {
+    "tool": {
+      "item": "thaumcraft:caster_basic"
+    },
+    "material": {
+      "ore_dict": "ingotIron"
+    }
+  },
+  {
+    "tool": {
+      "item": "thaumicaugmentation:gauntlet",
+      "meta": 0
+    },
+    "material": {
+      "ore_dict": "ingotThaumium"
+    }
+  },
+  {
+    "tool": {
+      "item": "thaumicaugmentation:gauntlet",
+      "meta": 1
+    },
+    "material": {
+      "ore_dict": "ingotVoid"
+    }
+  },
+  {
+    "tool": {
+      "item": "congregamystica:caster_elementium"
+    },
+    "material": {
+      "ore_dict": "ingotElvenElementium"
+    }
+  },
+  {
+    "tool": {
+      "item": "congregamystica:caster_clockwork"
+    },
+    "material": {
+      "ore_dict": "ingotDawnstone"
+    }
+  },
+  {
+    "tool": {
+      "item": "kami:ichorium_caster"
+    },
+    "material": {
+      "ore_dict": "ingotIchorium"
+    }
   }
 ]

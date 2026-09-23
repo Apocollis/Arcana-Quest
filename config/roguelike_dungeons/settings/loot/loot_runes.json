@@ -1,0 +1,45 @@
+{
+	"name" : "arcanaquest:loot_runes",
+	"lootRules" : [
+		{
+			"level" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"loot" : [
+				{"data" : {"name" : "sccraftingrunes:itemcommonmat", "min" : 1, "max" : 2}, "weight" : 4}
+			],
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"level" : [1, 2, 3, 4, 5, 6, 7, 8, 9],
+			"loot" : [
+				{"data" : {"name" : "sccraftingrunes:itemuncommonmat", "min" : 1, "max" : 2}, "weight" : 3}
+			],
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"level" : [3, 4, 5, 6, 7, 8, 9],
+			"loot" : [
+				{"data" : {"name" : "sccraftingrunes:itemraremat", "min" : 1, "max" : 1}, "weight" : 2}
+			],
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"level" : [5, 6, 7, 8, 9],
+			"loot" : [
+				{"data" : {"name" : "sccraftingrunes:itemlegendarymat", "min" : 1, "max" : 1}, "weight" : 1}
+			],
+			"each" : false,
+			"quantity" : 1
+		},
+		{
+			"level" : [4, 5, 6, 7, 8, 9],
+			"loot" : [
+				{"data" : {"name" : "sccraftingrunes:itemmatbag", "min" : 1, "max" : 1}, "weight" : 1}
+			],
+			"each" : false,
+			"quantity" : 1
+		}
+	]
+}

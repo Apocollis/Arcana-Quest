@@ -68,6 +68,8 @@ goodies.addItemEntry(<thaumcraft:crystal_ordo>, 2, 0, [Functions.setCount(2, 4)]
 goodies.addItemEntry(<thaumcraft:crystal_perditio>, 5, 0, [Functions.setCount(2, 4)], []);
 goodies.addItemEntry(<minecraft:diamond>, 45, 0, [Functions.setCount(1, 2)], []);
 goodies.addItemEntry(<quark:rune>, 15, 0, [Functions.setMetadata(0, 15)], []);
+goodies.addItemEntry(<sccraftingrunes:itemuncommonmat>, 12, 0, [Functions.setCount(1, 2)], []);
+goodies.addItemEntry(<sccraftingrunes:itemraremat>, 8, 0, [Functions.setCount(1, 1)], []);
 
 // 1-2 equipments
 
@@ -118,6 +120,8 @@ treasure.addItemEntry(<botania:overgrowthseed>, 20, 0);
 treasure.addItemEntry(<xreliquary:angelheart_vial>, 6, 0);
 treasure.addItemEntry(<botania:keepivy>, 20, 0);
 treasure.addItemEntry(<quark:rune:16>, 5, 0);
+treasure.addItemEntry(<sccraftingrunes:itemlegendarymat>, 3, 0, [Functions.setCount(1, 1)], []);
+treasure.addItemEntry(<sccraftingrunes:itemmatbag>, 4, 0, [Functions.setCount(1, 1)], []);
 
 treasure.addItemEntry(<botania:starsword>, 1, 0, [Functions.enchantWithLevels(30, 40, false)], []);
 treasure.addItemEntry(<botania:thundersword>, 1, 0, [Functions.enchantWithLevels(30, 40, false)], []);
