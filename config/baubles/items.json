@@ -69,14 +69,18 @@
       "da:victory_trinket",
       "da:weakness_trinket",
       "da:void_trinket",
-      "da:charm_trinket",
       "da:death_trinket",
       "da:vampire_trinket",
       "da:gamble_trinket",
       "da:poison_trinket",
       "da:arrow_trinket",
       "da:void_hand_trinket",
-      "da:golden_mark_trinket"
+      "da:golden_mark_trinket",
+      "thaumcraft:baubles:1",
+      "thaumcraft:baubles:3",
+      "thaumcraft:baubles:5",
+      "da:blood_trinket",
+      "da:stun_trinket"
     ],
     "types": [
       "baubles:ring"
@@ -93,7 +97,17 @@
       "botania:travelbelt",
       "botania:supertravelbelt",
       "bewitchment:gluttons_sash",
-      "bewitchment:girdle_of_the_dryads"
+      "bewitchment:girdle_of_the_dryads",
+      "thaumcraft:baubles:2",
+      "thaumcraft:baubles:6",
+      "da:aspect_sword",
+      "da:aspect_shield",
+      "da:aspect_spear",
+      "da:aspect_mage",
+      "da:aspect_colossal",
+      "da:aspect_dagger",
+      "da:aspect_duelist",
+      "da:aspect_bow"
     ],
     "types": [
       "baubles:belt"
@@ -109,7 +123,8 @@
       "buildersbag:builders_bag_tier_two",
       "buildersbag:builders_bag_tier_three",
       "buildersbag:builders_bag_tier_four",
-      "buildersbag:builders_bag_tier_five"
+      "buildersbag:builders_bag_tier_five",
+      "extraalchemy:potion_bag"
     ],
     "types": [
       "baubles:pouch"
@@ -224,7 +239,6 @@
       "bewitchment:triskelion",
       "botania:supercloudpendant",
       "bewitchment:nazar",
-      "thaumcraft:baubles:*",
       "artifacts:flame_pendant",
       "thaumicperiphery:vis_phylactery",
       "artifacts:shock_pendant",
@@ -234,15 +248,16 @@
       "qualitytools:emerald_amulet",
       "astralsorcery:itemenchantmentamulet",
       "da:heart_trinket",
-      "da:blood_trinket",
-      "da:great_heal_trinket",
       "atum:anubiss_mercy",
       "xreliquary:fortune_coin",
       "crimsonrevelations:runic_amulet",
       "aether_legacy:zanite_pendant",
       "aether_legacy:ice_pendant",
       "aether_legacy:iron_pendant",
-      "aether_legacy:golden_pendant"
+      "aether_legacy:golden_pendant",
+      "thaumcraft:baubles:0",
+      "thaumcraft:baubles:4",
+      "da:goat_trinket"
     ],
     "types": [
       "baubles:amulet"
@@ -256,7 +271,6 @@
       "thaumictinkerer:escape_sigil",
       "embers:glimmer_charm",
       "embers:karma_charm",
-      "atum:thoths_bearings",
       "da:glass_cannon_trinket",
       "da:mace_trinket",
       "thaumcraft:charm_undying",
@@ -288,10 +302,13 @@
       "artifacts:lucky_horseshoe",
       "botania:monocle",
       "da:endure_trinket",
-      "da:goat_trinket",
-      "da:stun_trinket",
       "da:poison_mist_trinket",
-      "da:parry_trinket"
+      "da:parry_trinket",
+      "da:charm_trinket",
+      "da:great_heal_trinket",
+      "xreliquary:witherless_rose",
+      "xreliquary:angelheart_vial",
+      "xreliquary:phoenix_down"
     ],
     "types": [
       "baubles:charm"

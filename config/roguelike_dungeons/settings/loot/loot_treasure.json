@@ -106,6 +106,39 @@
             "name": "artifacts:lucky_horseshoe"
           },
           "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 0
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 1
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 2
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumcraft:curiosity_band"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:protection_ring"
+          },
+          "weight": 3
         }
       ],
       "level": [
@@ -155,6 +188,81 @@
             "name": "artifacts:pocket_piston"
           },
           "weight": 3
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:protection_ring"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 4
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 5
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 6
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:pauldron"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:magic_quiver"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "extraalchemy:potion_bag"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "botania:travelbelt"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "botania:magnetring"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "bewitchment:nazar"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "bewitchment:token_of_remedies"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "xreliquary:fortune_coin"
+          },
+          "weight": 2
         }
       ],
       "level": [
@@ -346,6 +454,110 @@
         {
           "data": {
             "name": "msmlegacy:gladiolus"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:protection_ring"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:vis_phylactery"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:amulet_vis",
+            "meta": 0
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:verdant_charm",
+            "meta": 0
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:charm_undying"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:runic_ring"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:runic_ring_regen"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:runic_amulet"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:runic_girdle"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:nutrition_ring"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumicwonders:cleansing_charm"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "embers:ember_ring"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "embers:ember_belt"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "embers:ashen_amulet"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "bewitchment:vampiric_amulet"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "bewitchment:girdle_of_the_dryads"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "botania:speedupbelt"
           },
           "weight": 2
         }
@@ -754,6 +966,62 @@
         {
           "data": {
             "name": "msmlegacy:draconic_blade"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:pauldron_repulsion"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "xreliquary:twilight_cloak"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "xreliquary:phoenix_down"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "xreliquary:witherless_rose"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:runic_ring_charged"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:runic_amulet_emergency"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:amulet_vis",
+            "meta": 1
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:verdant_charm",
+            "meta": 1
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:malignant_heart"
           },
           "weight": 2
         }

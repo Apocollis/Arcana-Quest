@@ -191,6 +191,36 @@
             "name": "grimoireofgaia:chest"
           },
           "weight": 2
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:quiver_arrow_moderate"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:quiver_bolt_moderate"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:quiver_arrow_heavy"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:quiver_bolt_heavy"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:magic_quiver"
+          },
+          "weight": 3
         }
       ],
       "each": true,
@@ -252,6 +282,12 @@
             "name": "grimoireofgaia:chest"
           },
           "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:pauldron"
+          },
+          "weight": 3
         }
       ],
       "each": true,
@@ -365,6 +401,46 @@
         {
           "data": {
             "name": "grimoireofgaia:chest"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 3
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 4
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 5
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 6
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:protection_ring"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "extraalchemy:potion_bag"
           },
           "weight": 2
         }

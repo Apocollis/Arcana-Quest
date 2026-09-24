@@ -28,14 +28,14 @@
       }
     },
     "2": {
-      "title": "Music Triggers GUI",
+      "title": "Dynamic Sword Skills",
       "icon": {
-        "name": "minecraft:record_13",
+        "name": "dynamicswordskills:skillorb",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "key.musictriggers.gui",
+          "key": "key.dss.skills_gui.desc",
           "toggle": false
         }
       }
@@ -63,6 +63,19 @@
         "key": {
           "key": "waila.keybind.wailaconfig",
           "toggle": true
+        }
+      }
+    },
+    "7": {
+      "title": "Baubles",
+      "icon": {
+        "name": "qualitytools:emerald_amulet",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Open Baubles\u0027 Sidebar",
+          "toggle": false
         }
       }
     },

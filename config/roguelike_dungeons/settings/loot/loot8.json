@@ -55,12 +55,6 @@
             "meta": 2
           },
           "weight": 3
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_levitation"
-          },
-          "weight": 2
         }
       ],
       "each": true,
@@ -132,12 +126,6 @@
             "meta": 2
           },
           "weight": 3
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_levitation"
-          },
-          "weight": 2
         }
       ],
       "each": true,
@@ -197,9 +185,21 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:accessory_trinket_levitation"
+            "name": "spartanweaponry:quiver_arrow_heavy"
           },
-          "weight": 2
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:quiver_bolt_heavy"
+          },
+          "weight": 4
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:magic_quiver"
+          },
+          "weight": 3
         }
       ],
       "each": true,
@@ -259,7 +259,13 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:accessory_trinket_levitation"
+            "name": "thaumicperiphery:pauldron"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:pauldron_repulsion"
           },
           "weight": 2
         }
@@ -308,12 +314,6 @@
             "meta": 2
           },
           "weight": 3
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_levitation"
-          },
-          "weight": 2
         }
       ],
       "each": true,
@@ -379,6 +379,39 @@
         {
           "data": {
             "name": "grimoireofgaia:accessory_trinket_levitation"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 4
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 5
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 6
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:protection_ring"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "extraalchemy:potion_bag"
           },
           "weight": 2
         }

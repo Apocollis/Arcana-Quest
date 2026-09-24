@@ -972,6 +972,33 @@
             "name": "grimoireofgaia:misc_experience"
           },
           "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 0
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 1
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 2
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:protection_ring"
+          },
+          "weight": 1
         }
       ],
       "each": true,

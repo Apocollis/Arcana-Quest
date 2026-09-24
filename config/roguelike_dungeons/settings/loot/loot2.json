@@ -545,6 +545,12 @@
             "name": "grimoireofgaia:misc_experience"
           },
           "weight": 3
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:quiver_bolt"
+          },
+          "weight": 5
         }
       ],
       "each": true,
@@ -630,6 +636,12 @@
             "name": "grimoireofgaia:misc_experience"
           },
           "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:pauldron"
+          },
+          "weight": 2
         }
       ],
       "each": true,
@@ -1255,6 +1267,67 @@
             "name": "grimoireofgaia:misc_experience"
           },
           "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 0
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 1
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 2
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 3
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 4
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 5
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 6
+          },
+          "weight": 1
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:protection_ring"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "extraalchemy:potion_bag"
+          },
+          "weight": 2
         }
       ],
       "each": true,

@@ -35,18 +35,6 @@
             "name": "grimoireofgaia:box_iron"
           },
           "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_poison"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_water_breathing"
-          },
-          "weight": 2
         }
       ],
       "each": true,
@@ -141,18 +129,6 @@
         {
           "data": {
             "name": "grimoireofgaia:box_iron"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_poison"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_water_breathing"
           },
           "weight": 2
         }
@@ -391,18 +367,6 @@
             "name": "grimoireofgaia:box_iron"
           },
           "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_poison"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_water_breathing"
-          },
-          "weight": 2
         }
       ],
       "each": true,
@@ -585,13 +549,25 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:accessory_trinket_poison"
+            "name": "spartanweaponry:quiver_bolt"
           },
-          "weight": 2
+          "weight": 5
         },
         {
           "data": {
-            "name": "grimoireofgaia:accessory_trinket_water_breathing"
+            "name": "spartanweaponry:quiver_arrow_moderate"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "spartanweaponry:quiver_bolt_moderate"
+          },
+          "weight": 3
+        },
+        {
+          "data": {
+            "name": "thaumicperiphery:magic_quiver"
           },
           "weight": 2
         }
@@ -661,15 +637,9 @@
         },
         {
           "data": {
-            "name": "grimoireofgaia:accessory_trinket_poison"
+            "name": "thaumicperiphery:pauldron"
           },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_water_breathing"
-          },
-          "weight": 2
+          "weight": 3
         }
       ],
       "each": true,
@@ -837,18 +807,6 @@
             "name": "grimoireofgaia:box_iron"
           },
           "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_poison"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_water_breathing"
-          },
-          "weight": 2
         }
       ],
       "each": true,
@@ -887,18 +845,6 @@
         {
           "data": {
             "name": "grimoireofgaia:box_iron"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_poison"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_water_breathing"
           },
           "weight": 2
         }
@@ -1012,18 +958,6 @@
         {
           "data": {
             "name": "grimoireofgaia:box_iron"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_poison"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_water_breathing"
           },
           "weight": 2
         }
@@ -1173,18 +1107,6 @@
         {
           "data": {
             "name": "grimoireofgaia:box_iron"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_poison"
-          },
-          "weight": 2
-        },
-        {
-          "data": {
-            "name": "grimoireofgaia:accessory_trinket_water_breathing"
           },
           "weight": 2
         }
@@ -1411,6 +1333,46 @@
         {
           "data": {
             "name": "grimoireofgaia:accessory_trinket_water_breathing"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 3
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 4
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 5
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "thaumcraft:baubles",
+            "meta": 6
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "crimsonrevelations:protection_ring"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "name": "extraalchemy:potion_bag"
           },
           "weight": 2
         }
