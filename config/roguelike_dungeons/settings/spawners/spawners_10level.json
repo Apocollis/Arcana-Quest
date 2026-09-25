@@ -2,74 +2,81 @@
 	"name" : "arcanaquest:spawners_10level",
 	"spawners" : [
 		{
-			"level" : [0, 1],
+			"level" : 0,
 			"potentials" : [
 				{"name" : "minecraft:zombie", "weight" : 10},
 				{"name" : "minecraft:skeleton", "weight" : 10},
-				{"name" : "minecraft:spider", "weight" : 8},
-				{"name" : "grimoireofgaia:mite", "weight" : 5}
+				{"name" : "minecraft:spider", "weight" : 8}
+			]
+		},
+		{
+			"level" : 1,
+			"potentials" : [
+				{"name" : "minecraft:stray", "weight" : 10},
+				{"name" : "thaumcraft:wisp", "weight" : 8},
+				{"name" : "grimoireofgaia:ender_eye", "weight" : 6},
+				{"name" : "minecraft:skeleton", "weight" : 6}
 			]
 		},
 		{
 			"level" : 2,
 			"potentials" : [
-				{"name" : "grimoireofgaia:spriggan", "weight" : 10},
-				{"name" : "grimoireofgaia:dryad", "weight" : 8},
-				{"name" : "minecraft:zombie", "weight" : 10},
-				{"name" : "minecraft:skeleton", "weight" : 10}
+				{"name" : "minecraft:cave_spider", "weight" : 10},
+				{"name" : "minecraft:spider", "weight" : 8},
+				{"name" : "minecraft:zombie", "weight" : 8}
 			]
 		},
 		{
 			"level" : 3,
 			"potentials" : [
-				{"name" : "thaumcraft:wisp", "weight" : 10},
-				{"name" : "thaumcraft:brainyzombie", "weight" : 12},
-				{"name" : "minecraft:witch", "weight" : 8},
-				{"name" : "grimoireofgaia:harpy", "weight" : 5}
+				{"name" : "grimoireofgaia:deathword", "weight" : 10},
+				{"name" : "eerieentities:cursed_armor", "weight" : 8},
+				{"name" : "thaumcraft:brainyzombie", "weight" : 6},
+				{"name" : "thaumcraft:wisp", "weight" : 6}
 			]
 		},
 		{
 			"level" : 4,
 			"potentials" : [
-				{"name" : "astralsorcery:entityflare", "weight" : 8},
-				{"name" : "grimoireofgaia:valkyrie", "weight" : 6},
-				{"name" : "grimoireofgaia:sphinx", "weight" : 4},
-				{"name" : "minecraft:enderman", "weight" : 8}
+				{"name" : "minecraft:vindication_illager", "weight" : 10},
+				{"name" : "raids:pillager", "weight" : 8},
+				{"name" : "grimoireofgaia:illager_fire", "weight" : 4},
+				{"name" : "minecraft:magma_cube", "weight" : 4}
 			]
 		},
 		{
-			"level" : [5, 7],
+			"level" : 5,
 			"potentials" : [
-				{"name" : "aqtweaks:deep_dwarf", "weight" : 3},
-				{"name" : "embers:ancient_golem", "weight" : 1}
-			]
-		},
-		{
-			"level" : [5, 7],
-			"potentials" : [
-				{"name" : "thaumcraft:firebat", "weight" : 10},
-				{"name" : "minecraft:blaze", "weight" : 8},
-				{"name" : "minecraft:magma_cube", "weight" : 8}
+				{"name" : "bewitchment:black_dog", "weight" : 10},
+				{"name" : "bewitchment:ghost", "weight" : 8},
+				{"name" : "minecraft:witch", "weight" : 8},
+				{"name" : "bewitchment:hellhound", "weight" : 6}
 			]
 		},
 		{
 			"level" : 6,
 			"potentials" : [
 				{"name" : "eerieentities:cursed_armor", "weight" : 8},
-				{"name" : "grimoireofgaia:bone_knight", "weight" : 4},
-				{"name" : "grimoireofgaia:deathword", "weight" : 6}
+				{"name" : "grimoireofgaia:bone_knight", "weight" : 6},
+				{"name" : "grimoireofgaia:deathword", "weight" : 6},
+				{"name" : "thaumcraft:wisp", "weight" : 4}
+			]
+		},
+		{
+			"level" : 7,
+			"potentials" : [
+				{"name" : "aqtweaks:deep_dwarf", "weight" : 6},
+				{"name" : "embers:ancient_golem", "weight" : 4},
+				{"name" : "thaumcraft:firebat", "weight" : 8},
+				{"name" : "minecraft:blaze", "weight" : 8},
+				{"name" : "minecraft:magma_cube", "weight" : 8}
 			]
 		},
 		{
 			"level" : 8,
 			"potentials" : [
 				{"name" : "thaumcraft:brainyzombie", "weight" : 19},
-				{"name" : "thaumcraft:eldritchguardian", "weight" : 1}
-			]
-		},
-		{
-			"level" : 8,
-			"potentials" : [
+				{"name" : "thaumcraft:eldritchguardian", "weight" : 1},
 				{"name" : "thaumcraft:thaumslime", "weight" : 4},
 				{"name" : "thaumcraft:taintswarm", "weight" : 4},
 				{"name" : "thaumcraft:mindspider", "weight" : 4}
@@ -78,15 +85,10 @@
 		{
 			"level" : 9,
 			"potentials" : [
+				{"name" : "thaumcraft:cultistknight", "weight" : 6},
+				{"name" : "crimsonrevelations:cultist_archer", "weight" : 6},
+				{"name" : "thaumcraft:cultistcleric", "weight" : 4},
 				{"name" : "thaumcraft:firebat", "weight" : 4}
-			]
-		},
-		{
-			"level" : 9,
-			"potentials" : [
-				{"name" : "thaumcraft:cultistknight", "weight" : 4},
-				{"name" : "crimsonrevelations:cultist_archer", "weight" : 4},
-				{"name" : "thaumcraft:cultistcleric", "weight" : 2}
 			]
 		}
 	]

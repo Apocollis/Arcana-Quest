@@ -189,12 +189,12 @@ Quern.add(
 recipes.remove(<atum:quern>);
 JEI.hide(<atum:quern>);
 
-AtumQuern.removeRecipe("emmer_wheat");
-AtumQuern.removeRecipe("rod_blaze");
-AtumQuern.removeRecipe("marl");
-AtumQuern.removeRecipe("gravel");
-AtumQuern.removeRecipe("sugarcane");
-AtumQuern.removeRecipe("black");
-AtumQuern.removeRecipe("brown_shrub");
-AtumQuern.removeRecipe("red");
-AtumQuern.removeRecipe("bone");
+AtumQuern.removeRecipe("atum:emmer_wheat");
+AtumQuern.removeRecipe("atum:rod_blaze");
+AtumQuern.removeRecipe("atum:marl");
+AtumQuern.removeRecipe("atum:gravel");
+AtumQuern.removeRecipe("atum:sugarcane");
+AtumQuern.removeRecipe("atum:black");
+AtumQuern.removeRecipe("atum:brown_shrub");
+AtumQuern.removeRecipe("atum:red");
+AtumQuern.removeRecipe("atum:bone");

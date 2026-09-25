@@ -109,7 +109,10 @@ def load_spawnrules_cfg(filepath):
         "deadly_mob_armoradd": 12.0,
         "deadly_mob_potion": "dynamicstealth:soulsight,999999,0",
         "surface_day_limit": 20,
-        "surface_day": 20
+        "surface_day": 20,
+        "atum_hostile_cap": 30,
+        "atum_day_bandit_cap": 12,
+        "atum_spawn_throttle": 0.40
     }
     if not os.path.exists(filepath):
         print("mob_spawnrules.cfg not found, using script defaults.")
@@ -509,6 +512,71 @@ custom_rules.append({
     "obj_text": hostile_cap_text
 })
 
+# 5. General per-player hostile mob cap in Atum
+atum_hostile_cap = tier_limits.get("atum_hostile_cap", 30)
+print(f"Adding rule to hard cap hostile mob spawning in Atum to {atum_hostile_cap} per player")
+atum_hostile_cap_rule = {
+    "dimension": 17,
+    "mincount": {
+        "amount": atum_hostile_cap,
+        "hostile": True,
+        "perplayer": True
+    },
+    "result": "deny"
+}
+atum_hostile_cap_text = json.dumps(atum_hostile_cap_rule, indent=2)
+atum_hostile_cap_text = "\n".join("    " + line for line in atum_hostile_cap_text.split("\n")).strip()
+custom_rules.append({
+    "preceding": f",\n\n  // Hard cap total hostile mob spawning in Atum to {atum_hostile_cap} per player\n  ",
+    "obj_text": atum_hostile_cap_text
+})
+
+# 6. Daytime surface bandit cap in Atum
+atum_day_bandit_cap = tier_limits.get("atum_day_bandit_cap", 12)
+print(f"Adding rule to cap daytime surface bandits in Atum to {atum_day_bandit_cap} per player")
+atum_bandits = [
+    "atum:assassin",
+    "atum:barbarian",
+    "atum:brigand",
+    "atum:nomad"
+]
+atum_day_bandit_rule = {
+    "mob": atum_bandits,
+    "dimension": 17,
+    "seesky": True,
+    "mintime": 0,
+    "maxtime": 13000,
+    "mincount": {
+        "amount": atum_day_bandit_cap,
+        "perplayer": True,
+        "mob": atum_bandits
+    },
+    "result": "deny"
+}
+atum_day_bandit_text = json.dumps(atum_day_bandit_rule, indent=2)
+atum_day_bandit_text = "\n".join("    " + line for line in atum_day_bandit_text.split("\n")).strip()
+custom_rules.append({
+    "preceding": f",\n\n  // Deny daytime surface bandit spawns in Atum once daytime cap ({atum_day_bandit_cap} per player) is reached\n  ",
+    "obj_text": atum_day_bandit_text
+})
+
+# 7. Spawn attempt throttle in Atum
+atum_throttle = tier_limits.get("atum_spawn_throttle", 0.40)
+if atum_throttle > 0:
+    print(f"Adding rule to throttle natural hostile spawns in Atum (reject {int(atum_throttle * 100)}%)")
+    atum_throttle_rule = {
+        "dimension": 17,
+        "hostile": True,
+        "random": atum_throttle,
+        "result": "deny"
+    }
+    atum_throttle_text = json.dumps(atum_throttle_rule, indent=2)
+    atum_throttle_text = "\n".join("    " + line for line in atum_throttle_text.split("\n")).strip()
+    custom_rules.append({
+        "preceding": ",\n\n  // Space out natural spawn cycles in Atum to prevent instant respawn swarming\n  ",
+        "obj_text": atum_throttle_text
+    })
+
 # Process blocks, updating limits and cleaning up old rules
 spawner_allow_rules = []
 
@@ -720,10 +788,15 @@ for block in blocks:
     
     # Check if this is a game stage gating rule to replace
     gamestage = rule_obj.get("gamestage")
-    if gamestage in ["!gaia_mobs", "!dragon", "!elite", "dragon", "elite", "crimsoncult", "cultist"]:
+    if gamestage in ["!gaia_mobs", "!dragon", "!elite", "dragon", "elite", "crimsoncult", "cultist", "lycanite_spawners"]:
         print(f"Removing old stage gating rule for: {gamestage}")
         continue
     
+    # Check if this is an obsolete Lycanites action-spawner rule
+    if isinstance(rule_obj.get("mob"), list) and "lycanitesmobs:geonach" in rule_obj.get("mob"):
+        print("Removing obsolete Lycanites action-spawner / elemental event rule")
+        continue
+
     # Check if this is a stage gating deny fallback (no gamestage field, matched by comment)
     if ("Deny Dragon tier mobs" in preceding or
         "Deny Elite tier mobs" in preceding or
@@ -732,6 +805,8 @@ for block in blocks:
         "Gate Dragon tier mobs" in preceding or
         "Gate Elite tier mobs" in preceding or
         "Gate Crimsoncult tier mobs" in preceding or
+        "Gate Lycanites action-spawner mobs" in preceding or
+        "Restrict Lycanites elemental/event mobs from natural spawning" in preceding or
         "Allow Elite tier mobs underground" in preceding or
         "Allow Deadly tier mobs underground" in preceding):
         print("Removing old stage gating deny fallback rule")
@@ -762,6 +837,8 @@ for block in blocks:
         "Allow hostile non-undead surface creatures to spawn during daytime" in preceding or
         "Deny hostile mob spawning in Village structures" in preceding or
         "Deny surface daytime hostile spawns" in preceding or
+        "Deny daytime surface bandit spawns in Atum" in preceding or
+        "Space out natural spawn cycles in Atum" in preceding or
         "Deny Ghoul spawning on surface" in preceding or
         "Prevent Ghoul spawning on surface during dawn transition" in preceding or
         "Allow structure-specific mobs" in preceding or
@@ -831,8 +908,7 @@ for block in blocks:
             comment_title = "// Prevent shadow/underground mobs from spawning on the surface"
         elif mobs_val == "lycanitesmobs:grue" and rule_obj.get("result") == "allow":
             comment_title = "// Allow Grue darkness/event spawning"
-        elif isinstance(mobs_val, list) and "lycanitesmobs:geonach" in mobs_val:
-            comment_title = "// Restrict Lycanites elemental/event mobs from natural spawning"
+
         elif mobs_val == "minecraft:enderman":
             if rule_obj.get("dimension") == -2:
                 comment_title = "// Spawn angry Endermen randomly in Outer End/Special dimensions"

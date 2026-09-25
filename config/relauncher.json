@@ -4,7 +4,7 @@
   "targetJavaVersion": 25,
   "targetVendor": "Azul Zulu",
   "javaPath": "C:\\Program Files\\Zulu\\zulu-25\\bin\\javaw.exe",
-  "args": "-XX:+UseCompactObjectHeaders ",
+  "args": "-Xms8192m -XX:+AlwaysPreTouch -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis\u003d100 -XX:+UseStringDeduplication -XX:-UseCompactObjectHeaders -XX:CompileCommand\u003dexclude,thaumcraft.common.lib.crafting.ThaumcraftCraftingManager::generateTagsFromCraftingRecipes",
   "autoSetup": true,
   "enableRelauncher": true,
   "fetchUpdates": true,

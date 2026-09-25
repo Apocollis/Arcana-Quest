@@ -53,10 +53,8 @@
       "crimsonrevelations:verdant_ring",
       "botania:waterring",
       "thaumictinkerer:goliath_ring",
-      "thaumictinkerer:black_hole_ring",
       "botania:manaring",
       "embers:ember_ring",
-      "embers:sigil_ring",
       "grimoireofgaia:accessory_ring_speed",
       "baubles:ring:*",
       "aether_legacy:zanite_ring",
@@ -89,7 +87,6 @@
   "Belt": {
     "content": [
       "embers:ember_belt",
-      "embers:climbers_belt",
       "botania:speedupbelt",
       "crimsonrevelations:runic_girdle",
       "crimsonrevelations:runic_girdle_kinetic",
@@ -200,12 +197,10 @@
       "bewitchment:poppet_hungerprotection",
       "bewitchment:poppet_flameprotection",
       "bewitchment:poppet_waterprotection",
-      "bewitchment:poppet_armor",
       "bewitchment:poppet_wasting",
       "bewitchment:poppet_clumsy",
       "bewitchment:poppet_spiritbane",
       "bewitchment:poppet_voodooprotection",
-      "bewitchment:poppet_judgement",
       "bewitchment:poppet_voodoo"
     ],
     "types": [
@@ -269,8 +264,6 @@
       "charm:totem_of_shielding",
       "charm:totem_of_returning",
       "thaumictinkerer:escape_sigil",
-      "embers:glimmer_charm",
-      "embers:karma_charm",
       "da:glass_cannon_trinket",
       "da:mace_trinket",
       "thaumcraft:charm_undying",
@@ -303,7 +296,6 @@
       "botania:monocle",
       "da:endure_trinket",
       "da:poison_mist_trinket",
-      "da:parry_trinket",
       "da:charm_trinket",
       "da:great_heal_trinket",
       "xreliquary:witherless_rose",

@@ -1,7 +1,11 @@
 {
 	"name" : "arcanaquest:filters",
 	"filters" : [
-		{"level" : 3, "name" : "mud"},
-		{"level" : 3, "name" : "vine"}
+		{"level" : 0, "name" : "cobweb"},
+		{"level" : 2, "name" : "vine"},
+		{"level" : 3, "name" : "cobweb"},
+		{"level" : 5, "name" : "cobweb"},
+		{"level" : 5, "name" : "vine"},
+		{"level" : 5, "name" : "mud"}
 	]
 }

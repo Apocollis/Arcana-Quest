@@ -155,6 +155,7 @@
         "lycanitesmobs:morock",
         "lycanitesmobs:zoataur"
       ],
+      "spawner": false,
       "result": "deny",
       "onjoin": true
     },
@@ -169,7 +170,7 @@
       ],
       "dimension": 0,
       "minheight": -60,
-      "maxheight": 0,
+      "maxheight": -15,
       "seesky": false,
       "result": "default",
       "healthmultiply": 2.5,
@@ -226,10 +227,11 @@
         "lycanitesmobs:beholder",
         "lycanitesmobs:shade"
       ],
+      "spawner": false,
       "result": "deny",
       "onjoin": true
     },
-// Allow Elite tier mobs underground (Y <= 0) regardless of stage (Tier 3 multipliers)
+// Allow Elite tier mobs underground (Y <= -15) regardless of stage (Tier 3 multipliers)
   {
       "mob": [
         "grimoireofgaia:banshee",
@@ -252,7 +254,7 @@
         "thaumcraft:giantbrainyzombie"
       ],
       "dimension": 0,
-      "maxheight": 0,
+      "maxheight": -15,
       "seesky": false,
       "result": "default",
       "healthmultiply": 2.0,
@@ -261,7 +263,7 @@
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
-// Allow Elite tier mobs underground (Y <= 30) regardless of stage (Tier 2 multipliers)
+// Allow Elite tier mobs underground (Y <= 15) regardless of stage (Tier 2 multipliers)
   {
       "mob": [
         "grimoireofgaia:banshee",
@@ -284,7 +286,7 @@
         "thaumcraft:giantbrainyzombie"
       ],
       "dimension": 0,
-      "maxheight": 30,
+      "maxheight": 15,
       "seesky": false,
       "result": "default",
       "healthmultiply": 2.0,
@@ -417,6 +419,7 @@
         "thaumcraft:giantbrainyzombie",
         "thebetweenlands:dark_druid"
       ],
+      "spawner": false,
       "result": "deny",
       "onjoin": true
     },
@@ -460,6 +463,7 @@
         "thaumcraft:cultistcleric",
         "thaumcraft:cultistknight"
       ],
+      "spawner": false,
       "result": "deny"
     },
 // Restrict lycanitesmobs:spectre spawning to non-Overworld dimensions only
@@ -546,6 +550,7 @@
         "raids:pillager",
         "thebetweenlands:dark_druid"
       ],
+      "spawner": false,
       "dimension": 0,
       "maxheight": 60,
       "seesky": false,
@@ -579,6 +584,47 @@
         "hostile": true,
         "perplayer": true
       },
+      "result": "deny"
+    },
+// Hard cap total hostile mob spawning in Atum to 30 per player
+  {
+      "dimension": 17,
+      "mincount": {
+        "amount": 30,
+        "hostile": true,
+        "perplayer": true
+      },
+      "result": "deny"
+    },
+// Deny daytime surface bandit spawns in Atum once daytime cap (12 per player) is reached
+  {
+      "mob": [
+        "atum:assassin",
+        "atum:barbarian",
+        "atum:brigand",
+        "atum:nomad"
+      ],
+      "dimension": 17,
+      "seesky": true,
+      "mintime": 0,
+      "maxtime": 13000,
+      "mincount": {
+        "amount": 12,
+        "perplayer": true,
+        "mob": [
+          "atum:assassin",
+          "atum:barbarian",
+          "atum:brigand",
+          "atum:nomad"
+        ]
+      },
+      "result": "deny"
+    },
+// Space out natural spawn cycles in Atum to prevent instant respawn swarming
+  {
+      "dimension": 17,
+      "hostile": true,
+      "random": 0.4,
       "result": "deny"
     },
 // Deny surface daytime hostile spawns once daytime cap (20 per player) is reached
@@ -687,41 +733,6 @@
         "lycanitesmobs:spectre"
       ],
       "seesky": true,
-      "result": "deny",
-      "onjoin": true
-    },
-// Gate Lycanites action-spawner mobs behind game stage 'lycanite_spawners'
-  {
-      "mob": [
-        "lycanitesmobs:geonach",
-        "lycanitesmobs:vapula",
-        "lycanitesmobs:spriggan",
-        "lycanitesmobs:ent",
-        "lycanitesmobs:reaper",
-        "lycanitesmobs:cinder",
-        "lycanitesmobs:zephyr",
-        "lycanitesmobs:xaphan",
-        "lycanitesmobs:tremor",
-        "lycanitesmobs:argus"
-      ],
-      "gamestage": "lycanite_spawners",
-      "result": "default",
-      "onjoin": true
-    },
-// Restrict Lycanites elemental/event mobs from natural spawning
-  {
-      "mob": [
-        "lycanitesmobs:geonach",
-        "lycanitesmobs:vapula",
-        "lycanitesmobs:spriggan",
-        "lycanitesmobs:ent",
-        "lycanitesmobs:reaper",
-        "lycanitesmobs:cinder",
-        "lycanitesmobs:zephyr",
-        "lycanitesmobs:xaphan",
-        "lycanitesmobs:tremor",
-        "lycanitesmobs:argus"
-      ],
       "result": "deny",
       "onjoin": true
     },
@@ -839,6 +850,28 @@
   {
       "mob": "aqtweaks:deep_dwarf",
       "helditem": "embers:pickaxe_dawnstone",
+      "onjoin": true
+    },
+// Equip Cursed Armor (Upper levels / Y > 15) with Iron Armor and Sword to prevent invisibility
+  {
+      "mob": "eerieentities:cursed_armor",
+      "minheight": 16,
+      "armorhelmet": "minecraft:iron_helmet",
+      "armorchest": "minecraft:iron_chestplate",
+      "armorlegs": "minecraft:iron_leggings",
+      "armorboots": "minecraft:iron_boots",
+      "helditem": "minecraft:iron_sword",
+      "onjoin": true
+    },
+// Equip Cursed Armor (Deep Nexus / Y <= 15) with Thaumium Sentinel Armor and Sword to prevent invisibility
+  {
+      "mob": "eerieentities:cursed_armor",
+      "maxheight": 15,
+      "armorhelmet": "thaumcraft:thaumium_helm",
+      "armorchest": "thaumcraft:thaumium_chest",
+      "armorlegs": "thaumcraft:thaumium_legs",
+      "armorboots": "thaumcraft:thaumium_boots",
+      "helditem": "thaumcraft:thaumium_sword",
       "onjoin": true
     },
 // Equip and buff Crimson Cultist Archer on join
@@ -981,25 +1014,24 @@
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
-// Deadlier Underground tier 3 (Y <= 0)
+// Deadlier Underground tier 3 (Y <= -15)
   {
       "dimension": 0,
-      "maxheight": 0,
+      "maxheight": -15,
       "result": "default",
-      "healthmultiply": 2.0,
-      "damagemultiply": 2.5,
-      "armoradd": 10.0,
+      "healthmultiply": 2.25,
+      "damagemultiply": 2.25,
+      "armoradd": 8.0,
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
-// Deadlier Underground tier 2 (Y <= 30)
+// Deadlier Underground tier 2 (Y <= 15)
   {
       "dimension": 0,
-      "maxheight": 30,
+      "maxheight": 15,
       "result": "default",
-      "healthmultiply": 2.0,
+      "healthmultiply": 1.75,
       "damagemultiply": 1.75,
-      "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
 // Deadlier Underground tier 1 (Y <= 55)
@@ -1007,7 +1039,7 @@
       "dimension": 0,
       "maxheight": 55,
       "result": "default",
-      "healthmultiply": 1.5,
-      "damagemultiply": 1.5,
+      "healthmultiply": 1.25,
+      "damagemultiply": 1.25,
       "onjoin": true
     }]

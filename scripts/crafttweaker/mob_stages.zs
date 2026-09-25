@@ -100,17 +100,3 @@ mods.MobStages.addStage("elite", "lycanitesmobs:wendigo");
 mods.MobStages.addReplacement("grimoireofgaia:yeti", "lycanitesmobs:frostweaver");
 mods.MobStages.addReplacement("grimoireofgaia:yuki-onna", "lycanitesmobs:frostweaver");
 mods.MobStages.addReplacement("lycanitesmobs:wendigo", "lycanitesmobs:frostweaver");
-
-// ------------------------------------------
-// 4. Lycanites Mobs Action Spawner Gating (No Replacements)
-// ------------------------------------------
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:geonach");
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:vapula");
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:spriggan");
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:ent");
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:reaper");
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:cinder");
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:zephyr");
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:xaphan");
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:tremor");
-mods.MobStages.addStage("lycanite_spawners", "lycanitesmobs:argus");
