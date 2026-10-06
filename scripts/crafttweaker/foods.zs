@@ -158,6 +158,7 @@ val itemsToHide = [
 
 for item in itemsToHide {
     recipes.remove(item);
+    Oven.removeByOutput(item);
     JEI.hide(item);
 }
 
@@ -680,6 +681,35 @@ recipes.addShapeless("aq_shuck_corn_table", <extradelightlegacy:corn_on_cob>, [<
 // 11. Baking Sheet to Baking Tray Oven Migration
 // ==========================================
 
+function addBulkBaking(name as string, input as IIngredient, output as IItemStack) {
+    Oven.removeByOutput(output);
+    Oven.add(name + "_1", [input] as IIngredient[], <extradelightlegacy:tray>, output * 1, 800, false);
+    Oven.add(name + "_2", [input, input] as IIngredient[], <extradelightlegacy:tray>, output * 2, 800, false);
+    Oven.add(name + "_3", [input, input, input] as IIngredient[], <extradelightlegacy:tray>, output * 3, 800, false);
+    Oven.add(name + "_4", [input, input, input, input] as IIngredient[], <extradelightlegacy:tray>, output * 4, 800, false);
+    Oven.add(name + "_5", [input, input, input, input, input] as IIngredient[], <extradelightlegacy:tray>, output * 5, 800, false);
+    Oven.add(name + "_6", [input, input, input, input, input, input] as IIngredient[], <extradelightlegacy:tray>, output * 6, 800, false);
+    Oven.add(name + "_7", [input, input, input, input, input, input, input] as IIngredient[], <extradelightlegacy:tray>, output * 7, 800, false);
+    Oven.add(name + "_8", [input, input, input, input, input, input, input, input] as IIngredient[], <extradelightlegacy:tray>, output * 8, 800, false);
+    Oven.add(name + "_9", [input, input, input, input, input, input, input, input, input] as IIngredient[], <extradelightlegacy:tray>, output * 9, 800, false);
+}
+
+// Smelting-Style Bulk Baking on Baking Tray (1-9 items, 800 ticks)
+addBulkBaking("aq_bulk_beef", <minecraft:beef>, <minecraft:cooked_beef>);
+addBulkBaking("aq_bulk_porkchop", <minecraft:porkchop>, <minecraft:cooked_porkchop>);
+addBulkBaking("aq_bulk_chicken", <minecraft:chicken>, <minecraft:cooked_chicken>);
+addBulkBaking("aq_bulk_mutton", <minecraft:mutton>, <minecraft:cooked_mutton>);
+addBulkBaking("aq_bulk_rabbit", <minecraft:rabbit>, <minecraft:cooked_rabbit>);
+addBulkBaking("aq_bulk_cod", <minecraft:fish:0>, <minecraft:cooked_fish:0>);
+addBulkBaking("aq_bulk_salmon", <minecraft:fish:1>, <minecraft:cooked_fish:1>);
+addBulkBaking("aq_bulk_potato", <minecraft:potato>, <minecraft:baked_potato>);
+addBulkBaking("aq_bulk_toast", <ore:breadSliced>, <extradelightlegacy:toast>);
+addBulkBaking("aq_bulk_cactus", <extradelightlegacy:cactus>, <extradelightlegacy:cooked_cactus>);
+addBulkBaking("aq_bulk_corn", <ore:cropCorn>, <extradelightlegacy:grilled_corn_on_cob>);
+addBulkBaking("aq_bulk_apple", <minecraft:apple>, <extradelightlegacy:roasted_apple>);
+addBulkBaking("aq_bulk_carrot", <minecraft:carrot>, <extradelightlegacy:roasted_carrot>);
+addBulkBaking("aq_bulk_garlic", <extradelightlegacy:garlic_clove>, <extradelightlegacy:roasted_garlic>);
+
 // Grilled Grapefruit
 Oven.removeByOutput(<extradelightlegacy:grilled_grapefruit>);
 Oven.add("aq_oven_grilled_grapefruit", [<ore:processedGrapefruit>, <ore:processedGrapefruit>, <ore:processedGrapefruit>] as IIngredient[], <extradelightlegacy:tray>, <extradelightlegacy:grilled_grapefruit> * 3, 200, false);
@@ -842,14 +872,36 @@ recipes.addShaped("aq_pie_crust", <farmersdelight:pie_crust>, [
 // 15. Wheat Dough & Milling Progression
 // ==========================================
 
-// Wheat Dough: Strict 3x Flour + 1x Egg recipe (no water recipe)
+// Wheat Dough Recipes
 recipes.removeByRecipeName("farmersdelight:wheat_dough_from_egg");
+recipes.removeByRecipeName("farmersdelight:wheat_dough_from_water");
+
+// Egg Dough Recipe (Crafting Table: 3x Flour + 1x Egg -> 3x Dough)
 recipes.addShapeless("aq_wheat_dough_from_egg", <farmersdelight:wheat_dough> * 3, [
     <ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>, <ore:listAllEgg>
 ]);
 
-// Remove water dough recipe from Extra Delight Mixing Bowl
+// Water Dough Recipes (Crafting Table: Lossy, 3x Flour + 1x Water -> 2x Dough)
+recipes.addShapeless("aq_wheat_dough_from_water_bucket", <farmersdelight:wheat_dough> * 2, [
+    <ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>,
+    <minecraft:water_bucket> | <ceramics:clay_bucket:0>.withTag({fluids: {FluidName: "water", Amount: 1000}}).transformReplace(<ceramics:clay_bucket:0>)
+]);
+recipes.addShapeless("aq_wheat_dough_from_water_bottle", <farmersdelight:wheat_dough> * 2, [
+    <ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>,
+    <minecraft:potion>.withTag({Potion: "minecraft:water"}).transformReplace(<minecraft:glass_bottle>) | <simpledifficulty:purified_water_bottle>.transformReplace(<minecraft:glass_bottle>)
+]);
+
+// Mixing Bowl Water Dough Recipe (3x Flour + 1x Water -> 3x Dough, 8 stirs with spoon)
 MixingBowl.remove("wheat_dough");
+MixingBowl.add(
+    "aq_wheat_dough_from_water",
+    [<ore:foodFlour>, <ore:foodFlour>, <ore:foodFlour>] as IIngredient[],
+    [<liquid:water> * 250] as ILiquidStack[],
+    null,
+    "toolSpoon",
+    <farmersdelight:wheat_dough> * 3,
+    8
+);
 
 // Early-Game Knife Wheat Threshing (Cutting Board: 1 Wheat -> 1 Wheat Seeds + 1 Straw)
 CuttingBoard.addRecipeWithTool("aq_cut_wheat", [<minecraft:wheat>] as IIngredient[], [<ore:toolKnife>] as IIngredient[], [<minecraft:wheat_seeds>, <farmersdelight:straw>] as IItemStack[]);
@@ -927,20 +979,12 @@ CookingPot.removeRecipesByOutput(<extradelightlegacy:dynamic_jam:11>);
 CookingPot.addRecipeWithContainer(
     "aq_jam_wildberry",
     [
-        <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
-        <ore:edlSweetener> | <minecraft:sugar>,
-        <ore:edlSweetener> | <minecraft:sugar>
-    ] as IIngredient[],
-    <extradelightlegacy:dynamic_jam:11>,
-    <minecraft:glass_bottle>
-);
-CookingPot.addRecipeWithContainer(
-    "aq_jam_wildberry_fruit",
-    [
-        <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}}),
         <rustic:wildberries>,
-        <ore:edlSweetener> | <minecraft:sugar>,
-        <ore:edlSweetener> | <minecraft:sugar>
+        <rustic:wildberries>,
+        <rustic:wildberries>,
+        <minecraft:sugar>,
+        <minecraft:sugar>,
+        <minecraft:sugar>
     ] as IIngredient[],
     <extradelightlegacy:dynamic_jam:11>,
     <minecraft:glass_bottle>

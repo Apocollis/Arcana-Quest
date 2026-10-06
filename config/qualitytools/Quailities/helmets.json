@@ -45,12 +45,29 @@
     {
       "name": "quality.heavy.name",
       "color": "red",
-      "weight": 12,
+      "weight": 6,
       "attributes": [
         {
           "name": "generic.movementSpeed",
           "amount": -0.1,
           "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.distracting.name",
+      "color": "red",
+      "weight": 6,
+      "attributes": [
+        {
+          "name": "generic.attackSpeed",
+          "amount": -0.1,
+          "operation": 2
+        },
+        {
+          "name": "generic.luck",
+          "amount": -0.5,
+          "operation": 0
         }
       ]
     },
@@ -78,7 +95,7 @@
     {
       "name": "quality.tough.name",
       "color": "green",
-      "weight": 4,
+      "weight": 3,
       "attributes": [
         {
           "name": "generic.armorToughness",
@@ -90,7 +107,7 @@
     {
       "name": "quality.protective.name",
       "color": "green",
-      "weight": 4,
+      "weight": 3,
       "attributes": [
         {
           "name": "generic.armor",
@@ -102,7 +119,7 @@
     {
       "name": "quality.arcane.name",
       "color": "green",
-      "weight": 4,
+      "weight": 3,
       "attributes": [
         {
           "name": "potioncore.magicShielding",
@@ -112,13 +129,30 @@
       ]
     },
     {
-      "name": "quality.lucky.name",
-      "color": "blue",
+      "name": "quality.keen.name",
+      "color": "green",
       "weight": 3,
       "attributes": [
         {
           "name": "generic.luck",
           "amount": 0.5,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.mindful.name",
+      "color": "blue",
+      "weight": 3,
+      "attributes": [
+        {
+          "name": "generic.armor",
+          "amount": 0.5,
+          "operation": 0
+        },
+        {
+          "name": "potioncore.magicShielding",
+          "amount": 1.0,
           "operation": 0
         }
       ]
@@ -152,6 +186,33 @@
         },
         {
           "name": "generic.armorToughness",
+          "amount": 1.0,
+          "operation": 0
+        },
+        {
+          "name": "generic.luck",
+          "amount": 0.5,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.majestic.name",
+      "color": "gold",
+      "weight": 0,
+      "attributes": [
+        {
+          "name": "generic.armor",
+          "amount": 0.5,
+          "operation": 0
+        },
+        {
+          "name": "generic.armorToughness",
+          "amount": 1.0,
+          "operation": 0
+        },
+        {
+          "name": "potioncore.magicShielding",
           "amount": 1.0,
           "operation": 0
         },

@@ -6,7 +6,7 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.event.PlayerLoggedInEvent;
 
 // ==========================================
-// Tier 2: Apprentice Builder (675 items)
+// Tier 2: Apprentice Builder (488 items)
 // ==========================================
 val apprenticeBuilderItems as IIngredient[] = [
     <aether_legacy:skyroot_bed_item:*>,
@@ -21,9 +21,6 @@ val apprenticeBuilderItems as IIngredient[] = [
     <atum:limestone_brick_small:*>,
     <atum:limestone_brick_small_door:*>,
     <atum:limestone_carved_slab:*>,
-    <bewitchment:black_candle:*>,
-    <bewitchment:blue_candle:*>,
-    <bewitchment:brown_candle:*>,
     <bewitchment:chiseled_coquina:*>,
     <bewitchment:coquina:*>,
     <bewitchment:coquina_brick_fence:*>,
@@ -37,33 +34,6 @@ val apprenticeBuilderItems as IIngredient[] = [
     <bewitchment:coquina_smooth:*>,
     <bewitchment:coquina_stairs:*>,
     <bewitchment:coquina_wall:*>,
-    <bewitchment:cyan_candle:*>,
-    <bewitchment:cypress_planks:*>,
-    <bewitchment:dragons_blood_planks:*>,
-    <bewitchment:elder_planks:*>,
-    <bewitchment:gray_candle:*>,
-    <bewitchment:green_candle:*>,
-    <bewitchment:juniper_planks:*>,
-    <bewitchment:light_blue_candle:*>,
-    <bewitchment:light_gray_candle:*>,
-    <bewitchment:lime_candle:*>,
-    <bewitchment:magenta_candle:*>,
-    <bewitchment:orange_candle:*>,
-    <bewitchment:pink_candle:*>,
-    <bewitchment:poppet_shelf_acacia:*>,
-    <bewitchment:poppet_shelf_birch:*>,
-    <bewitchment:poppet_shelf_cypress:*>,
-    <bewitchment:poppet_shelf_dark_oak:*>,
-    <bewitchment:poppet_shelf_dragons_blood:*>,
-    <bewitchment:poppet_shelf_elder:*>,
-    <bewitchment:poppet_shelf_jungle:*>,
-    <bewitchment:poppet_shelf_juniper:*>,
-    <bewitchment:poppet_shelf_oak:*>,
-    <bewitchment:poppet_shelf_spruce:*>,
-    <bewitchment:purple_candle:*>,
-    <bewitchment:red_candle:*>,
-    <bewitchment:white_candle:*>,
-    <bewitchment:yellow_candle:*>,
     <bibliocraft:armorstand:*>,
     <bibliocraft:bookcase:*>,
     <bibliocraft:clock:*>,
@@ -79,7 +49,6 @@ val apprenticeBuilderItems as IIngredient[] = [
     <bibliocraft:table:*>,
     <biomesoplenty:mud_brick_block:*>,
     <biomesoplenty:white_sandstone:*>,
-    <botania:altar:*>,
     <botania:biomestonea:*>,
     <botania:biomestonea0slab:*>,
     <botania:biomestonea0stairs:*>,
@@ -132,18 +101,6 @@ val apprenticeBuilderItems as IIngredient[] = [
     <botania:biomestoneb7slab:*>,
     <botania:biomestoneb7stairs:*>,
     <botania:custombrick:*>,
-    <botania:livingrock:*>,
-    <botania:livingrock0slab:*>,
-    <botania:livingrock0stairs:*>,
-    <botania:livingrock0wall:*>,
-    <botania:livingrock1slab:*>,
-    <botania:livingrock1stairs:*>,
-    <botania:livingwood:*>,
-    <botania:livingwood0slab:*>,
-    <botania:livingwood0stairs:*>,
-    <botania:livingwood0wall:*>,
-    <botania:livingwood1slab:*>,
-    <botania:livingwood1stairs:*>,
     <botania:pavement:*>,
     <botania:pavement0slab:*>,
     <botania:pavement0stairs:*>,
@@ -317,8 +274,6 @@ val apprenticeBuilderItems as IIngredient[] = [
     <earthworks:wall_wood_shingle_jungle:*>,
     <earthworks:wall_wood_shingle_oak:*>,
     <earthworks:wall_wood_shingle_spruce:*>,
-    <embers:block_caminite_brick:*>,
-    <embers:block_caminite_brick_slab:*>,
     <embers:block_caminite_large_brick:*>,
     <embers:stairs_caminite_brick:*>,
     <embers:wall_caminite_brick:*>,
@@ -465,40 +420,6 @@ val apprenticeBuilderItems as IIngredient[] = [
     <thaumcraft:banner_silver:*>,
     <thaumcraft:banner_white:*>,
     <thaumcraft:banner_yellow:*>,
-    <thaumcraft:candle_black:*>,
-    <thaumcraft:candle_blue:*>,
-    <thaumcraft:candle_brown:*>,
-    <thaumcraft:candle_cyan:*>,
-    <thaumcraft:candle_gray:*>,
-    <thaumcraft:candle_green:*>,
-    <thaumcraft:candle_lightblue:*>,
-    <thaumcraft:candle_lime:*>,
-    <thaumcraft:candle_magenta:*>,
-    <thaumcraft:candle_orange:*>,
-    <thaumcraft:candle_pink:*>,
-    <thaumcraft:candle_purple:*>,
-    <thaumcraft:candle_red:*>,
-    <thaumcraft:candle_silver:*>,
-    <thaumcraft:candle_white:*>,
-    <thaumcraft:candle_yellow:*>,
-    <thaumcraft:jar_void:*>,
-    <thaumcraft:nitor_black:*>,
-    <thaumcraft:nitor_blue:*>,
-    <thaumcraft:nitor_brown:*>,
-    <thaumcraft:nitor_cyan:*>,
-    <thaumcraft:nitor_gray:*>,
-    <thaumcraft:nitor_green:*>,
-    <thaumcraft:nitor_lightblue:*>,
-    <thaumcraft:nitor_lime:*>,
-    <thaumcraft:nitor_magenta:*>,
-    <thaumcraft:nitor_orange:*>,
-    <thaumcraft:nitor_pink:*>,
-    <thaumcraft:nitor_purple:*>,
-    <thaumcraft:nitor_red:*>,
-    <thaumcraft:nitor_silver:*>,
-    <thaumcraft:nitor_white:*>,
-    <thaumcraft:nitor_yellow:*>,
-    <thaumictinkerer:energetic_nitor:*>,
     <thebetweenlands:betweenstone_brick_slab:*>,
     <thebetweenlands:betweenstone_brick_stairs:*>,
     <thebetweenlands:betweenstone_brick_wall:*>,
@@ -580,7 +501,7 @@ val apprenticeBuilderItems as IIngredient[] = [
 
 val apprenticeTooltip = function(item as IItemStack) as string {
     if (isNull(client) || isNull(client.player) || !client.player.hasGameStage("apprentice_builder")) {
-        return "§cCrafting Locked: Requires Apprentice Builder (Building Lv 6)";
+        return "§cCrafting Locked: Requires Apprentice Builder (Building Lv 8)";
     }
     return null;
 };
@@ -593,7 +514,7 @@ for item in apprenticeBuilderItems {
 }
 
 // ==========================================
-// Tier 3: Experienced Builder (409 items)
+// Tier 3: Experienced Builder (385 items)
 // ==========================================
 val experiencedBuilderItems as IIngredient[] = [
     <atum:alabaster:*>,
@@ -656,9 +577,6 @@ val experiencedBuilderItems as IIngredient[] = [
     <atum:porphyry_tiled_wall:*>,
     <bewitchment:alchemists_carpet:*>,
     <bewitchment:besmirched_carpet:*>,
-    <bewitchment:candelabra_gold:*>,
-    <bewitchment:candelabra_iron:*>,
-    <bewitchment:candelabra_silver:*>,
     <bewitchment:hedgewitches_carpet:*>,
     <bibliocraft:seat:*>,
     <blockcraftery:editable_block:*>,
@@ -691,14 +609,6 @@ val experiencedBuilderItems as IIngredient[] = [
     <blockcraftery:editable_wall_reinforced:*>,
     <botania:bifrostperm:*>,
     <botania:bifrostpermpane:*>,
-    <botania:dreamwood:*>,
-    <botania:dreamwood0slab:*>,
-    <botania:dreamwood0stairs:*>,
-    <botania:dreamwood0wall:*>,
-    <botania:dreamwood1slab:*>,
-    <botania:dreamwood1stairs:*>,
-    <botania:managlass:*>,
-    <botania:managlasspane:*>,
     <botania:quartzslabblazehalf:*>,
     <botania:quartzslabdarkhalf:*>,
     <botania:quartzslabelfhalf:*>,
@@ -962,12 +872,41 @@ val experiencedBuilderItems as IIngredient[] = [
     <twilightforest:nagastone_stairs_mossy:*>,
     <twilightforest:nagastone_stairs_weathered:*>,
     <twilightforest:tower_wood:*>,
-    <twilightforest:underbrick:*>
+    <twilightforest:underbrick:*>,
+    <botania:shimmerwoodplanks:*>,
+    <botania:shimmerwoodplanks0slab:*>,
+    <botania:shimmerwoodplanks0stairs:*>,
+    <embers:archaic_bricks:*>,
+    <embers:archaic_edge:*>,
+    <embers:archaic_light:*>,
+    <embers:archaic_tile:*>,
+    <embers:ashen_brick:*>,
+    <embers:ashen_brick_slab:*>,
+    <embers:ashen_stone:*>,
+    <embers:ashen_stone_slab:*>,
+    <embers:ashen_tile:*>,
+    <embers:ashen_tile_slab:*>,
+    <embers:stairs_ashen_brick:*>,
+    <embers:stairs_ashen_stone:*>,
+    <embers:stairs_ashen_tile:*>,
+    <embers:wall_ashen_brick:*>,
+    <embers:wall_ashen_stone:*>,
+    <embers:wall_ashen_tile:*>,
+    <thaumcraft:banner_crimson_cult:*>,
+    <thaumcraft:slab_ancient:*>,
+    <thaumcraft:slab_eldritch:*>,
+    <thaumcraft:stairs_ancient:*>,
+    <thaumcraft:stone_ancient:*>,
+    <thaumcraft:stone_ancient_doorway:*>,
+    <thaumcraft:stone_ancient_glyphed:*>,
+    <thaumcraft:stone_ancient_rock:*>,
+    <thaumcraft:stone_ancient_tile:*>,
+    <thaumcraft:stone_eldritch_tile:*>,
 ];
 
 val experiencedTooltip = function(item as IItemStack) as string {
     if (isNull(client) || isNull(client.player) || !client.player.hasGameStage("experienced_builder")) {
-        return "§cCrafting Locked: Requires Experienced Builder (Building Lv 12)";
+        return "§cCrafting Locked: Requires Experienced Builder (Building Lv 16)";
     }
     return null;
 };
@@ -980,12 +919,9 @@ for item in experiencedBuilderItems {
 }
 
 // ==========================================
-// Tier 4: Master Builder (76 items)
+// Tier 4: Master Builder (24 items)
 // ==========================================
 val masterBuilderItems as IIngredient[] = [
-    <botania:shimmerwoodplanks:*>,
-    <botania:shimmerwoodplanks0slab:*>,
-    <botania:shimmerwoodplanks0stairs:*>,
     <cathedral:basalt_block_carved:*>,
     <cathedral:basalt_block_checkered:*>,
     <cathedral:basalt_slab_carved:*>,
@@ -1008,39 +944,13 @@ val masterBuilderItems as IIngredient[] = [
     <cathedral:dwemer_glass_normal:*>,
     <congregamystica:chair_greatwood:*>,
     <congregamystica:chair_silverwood:*>,
-    <embers:archaic_bricks:*>,
-    <embers:archaic_edge:*>,
-    <embers:archaic_light:*>,
-    <embers:archaic_tile:*>,
-    <embers:ashen_brick:*>,
-    <embers:ashen_brick_slab:*>,
-    <embers:ashen_stone:*>,
-    <embers:ashen_stone_slab:*>,
-    <embers:ashen_tile:*>,
-    <embers:ashen_tile_slab:*>,
-    <embers:stairs_ashen_brick:*>,
-    <embers:stairs_ashen_stone:*>,
-    <embers:stairs_ashen_tile:*>,
-    <embers:wall_ashen_brick:*>,
-    <embers:wall_ashen_stone:*>,
-    <embers:wall_ashen_tile:*>,
     <ends_delight:end_stove:*>,
-    <thaumcraft:banner_crimson_cult:*>,
-    <thaumcraft:slab_ancient:*>,
-    <thaumcraft:slab_eldritch:*>,
-    <thaumcraft:stairs_ancient:*>,
-    <thaumcraft:stone_ancient:*>,
-    <thaumcraft:stone_ancient_doorway:*>,
-    <thaumcraft:stone_ancient_glyphed:*>,
-    <thaumcraft:stone_ancient_rock:*>,
-    <thaumcraft:stone_ancient_tile:*>,
-    <thaumcraft:stone_eldritch_tile:*>,
     <twilightforest:aurora_block:*>
 ];
 
 val masterTooltip = function(item as IItemStack) as string {
     if (isNull(client) || isNull(client.player) || !client.player.hasGameStage("master_builder")) {
-        return "§cCrafting Locked: Requires Master Builder (Building Lv 20)";
+        return "§cCrafting Locked: Requires Master Builder (Building Lv 24)";
     }
     return null;
 };
@@ -1075,26 +985,26 @@ function checkBuildingStages(player as IPlayer, notify as bool) as void {
     if (isNull(buildingInfo)) return;
     val level as int = buildingInfo.level;
 
-    if (level >= 6) {
+    if (level >= 8) {
         unlockStage(player, "apprentice_builder", "Apprentice Builder", notify);
     }
-    if (level >= 12) {
+    if (level >= 16) {
         unlockStage(player, "experienced_builder", "Experienced Builder", notify);
     }
-    if (level >= 20) {
+    if (level >= 24) {
         unlockStage(player, "master_builder", "Master Builder", notify);
     }
 }
 
-mods.compatskills.SkillChange.addLevelUpHandler(<skill:reskillable:building>, 6, function(player as IPlayer) {
+mods.compatskills.SkillChange.addLevelUpHandler(<skill:reskillable:building>, 8, function(player as IPlayer) {
     checkBuildingStages(player, true);
 });
 
-mods.compatskills.SkillChange.addLevelUpHandler(<skill:reskillable:building>, 12, function(player as IPlayer) {
+mods.compatskills.SkillChange.addLevelUpHandler(<skill:reskillable:building>, 16, function(player as IPlayer) {
     checkBuildingStages(player, true);
 });
 
-mods.compatskills.SkillChange.addLevelUpHandler(<skill:reskillable:building>, 20, function(player as IPlayer) {
+mods.compatskills.SkillChange.addLevelUpHandler(<skill:reskillable:building>, 24, function(player as IPlayer) {
     checkBuildingStages(player, true);
 });
 

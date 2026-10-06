@@ -5,7 +5,8 @@
 		{"level" : [0, 2, 3, 4, 5, 6, 7, 8], "frequency" : "random", "type" : "ENIKO", "weight" : 6},
 		{"level" : 1, "frequency" : "random", "type" : "ENIKO", "weight" : 8},
 		{"level" : 9, "frequency" : "random", "type" : "ENIKO", "weight" : 6, "spawnerId" : "cultist_spawners"},
-		{"level" : [4, 7], "frequency" : "random", "type" : "FIRE", "weight" : 4, "spawnerId" : "firemobs"},
+		{"level" : 4, "frequency" : "random", "type" : "FIRE", "weight" : 4},
+		{"level" : 7, "frequency" : "random", "type" : "FIRE", "weight" : 4, "spawnerId" : "firemobs"},
 		{"level" : [4, 7], "frequency" : "random", "type" : "SLIME", "weight" : 4},
 
 		{"level" : 0, "frequency" : "single", "type" : "CREEPER", "spawnerId" : "creeper_spawners"},
@@ -56,7 +57,7 @@
 		{"level" : [0, 1, 2, 4, 5, 6, 7, 8], "frequency" : "single", "type" : "STORAGE"},
 		{"level" : [8, 9], "frequency" : "single", "type" : "PLATFORMS_2", "spawnerId" : "wisp_spawners"},
 		{"level" : [8, 9], "frequency" : "single", "type" : "BLAZE", "spawnerId" : "wisp_spawners"},
-		{"level" : [8, 9], "frequency" : "single", "type" : "OBSIDIAN"},
+		{"level" : [4, 8, 9], "frequency" : "single", "type" : "OBSIDIAN"},
 
 		{"level" : [0, 1, 2, 3, 4, 5, 6, 8], "frequency" : "secret", "type" : "REWARD", "count" : 1},
 		{"level" : [3, 8], "frequency" : "secret", "type" : "STUDY", "count" : 1}

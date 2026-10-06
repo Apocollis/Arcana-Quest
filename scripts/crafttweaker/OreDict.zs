@@ -30,3 +30,6 @@ flour.addAll(foodFlour);
 foodFlour.addAll(dustWheat);
 dustWheat.addAll(foodFlour);
 
+# Prometheum Gravel Ore
+<ore:orePrometheum>.add(<gravelores:extra_gravel_ore_oreprometheum>);
+

@@ -110,6 +110,7 @@ def load_spawnrules_cfg(filepath):
         "deadly_mob_potion": "dynamicstealth:soulsight,999999,0",
         "surface_day_limit": 20,
         "surface_day": 20,
+        "surface_day_min_dist": 30.0,
         "atum_hostile_cap": 30,
         "atum_day_bandit_cap": 12,
         "atum_spawn_throttle": 0.40
@@ -667,8 +668,27 @@ seen_limit_mobs = set()
 
 if dayspawn_mobs:
     day_limit = tier_limits.get("surface_day_limit", tier_limits.get("surface_day", 20))
-    print(f"Adding rule to allow {len(dayspawn_mobs)} hostile surface mobs during daytime (capped at {day_limit} per player)")
-    
+    day_min_dist = tier_limits.get("surface_day_min_dist", 30.0)
+    print(f"Adding rule to allow {len(dayspawn_mobs)} hostile surface mobs during daytime (capped at {day_limit} per player, min player distance {day_min_dist})")
+
+    # Deny rule when within minimum player distance
+    day_dist_deny_rule = {
+        "mob": sorted(dayspawn_mobs),
+        "dimension": 0,
+        "minheight": 60,
+        "seesky": True,
+        "mintime": 0,
+        "maxtime": 13000,
+        "maxplayerdist": day_min_dist,
+        "result": "deny"
+    }
+    day_dist_deny_text = json.dumps(day_dist_deny_rule, indent=2)
+    day_dist_deny_text = "\n".join("    " + line for line in day_dist_deny_text.split("\n")).strip()
+    restriction_rules.append({
+        "preceding": f",\n\n  // Deny surface daytime hostile spawns within minimum player distance ({day_min_dist} blocks)\n  ",
+        "obj_text": day_dist_deny_text
+    })
+
     # Deny rule when daytime surface cap is reached
     day_deny_rule = {
         "mob": sorted(dayspawn_mobs),
@@ -691,7 +711,7 @@ if dayspawn_mobs:
         "obj_text": day_deny_text
     })
 
-    # Allow rule with maxcount protection
+    # Allow rule with maxcount protection and minplayerdist
     day_allow_rule = {
         "mob": sorted(dayspawn_mobs),
         "dimension": 0,
@@ -699,6 +719,7 @@ if dayspawn_mobs:
         "seesky": True,
         "mintime": 0,
         "maxtime": 13000,
+        "minplayerdist": day_min_dist,
         "maxcount": {
             "amount": day_limit,
             "perplayer": True,

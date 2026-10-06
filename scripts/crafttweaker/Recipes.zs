@@ -214,4 +214,12 @@ recipes.addShaped(<quark:rain_detector>, [
     [<minecraft:purpur_slab>, <minecraft:purpur_slab>, <minecraft:purpur_slab>]
 ]);
 
+# BRONZE
+recipes.addShapeless("aq_early_game_bronze_dust", <metallurgy:bronze_dust> * 3, [
+    <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotTin>
+]);
+furnace.remove(<metallurgy:bronze_ingot>, <metallurgy:bronze_dust>);
+furnace.addRecipe(<embers:ingot_bronze>, <metallurgy:bronze_dust>);
+
+
 

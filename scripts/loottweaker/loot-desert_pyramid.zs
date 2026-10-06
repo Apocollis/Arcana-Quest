@@ -275,3 +275,8 @@ goodies.addItemEntry(<dynamicswordskills:skillorb:10>, 2, 0);
 goodies.addItemEntry(<dynamicswordskills:skillorb:12>, 2, 0);
 goodies.addItemEntry(<dynamicswordskills:skillorb:6>, 2, 0);
 goodies.addItemEntry(<dynamicswordskills:skillorb:3>, 2, 0);
+
+// Farmer's Delight Seed Replacements
+val fdDesertSupplies = table.getPool("farmersdelight:fd_desert_pyramid_supplies");
+fdDesertSupplies.removeEntry("farmersdelight:tomato_seeds_loot");
+fdDesertSupplies.addItemEntry(<rustic:tomato_seeds>, 4, 0, [Functions.setCount(2, 4)], []);

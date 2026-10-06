@@ -157,6 +157,11 @@ def format_spawn_rules():
                 target = mc.get("mob", "same mob")
                 conds.append(f"MaxCount Cap (if loaded < {amt} {pp} [{target}])")
 
+        if "minplayerdist" in rule:
+            conds.append(f"MinPlayerDist: >= {rule['minplayerdist']} blocks")
+        if "maxplayerdist" in rule:
+            conds.append(f"MaxPlayerDist: <= {rule['maxplayerdist']} blocks")
+
         if conds:
             output.append(f"  Conditions:   {'; '.join(conds)}")
 

@@ -130,3 +130,9 @@ goodies.addItemEntry(<dynamicswordskills:skillorb:5>, 3, 0);
 // Reliquary Provisions
 goodies.addItemEntry(<xreliquary:glowing_water>, 4, 0);
 goodies.addItemEntry(<xreliquary:glowing_bread>, 4, 0);
+
+// Farmer's Delight Seed Replacements
+val fdMineshaftSeeds = table.getPool("farmersdelight:fd_abandoned_mineshaft_seeds");
+fdMineshaftSeeds.removeEntry("farmersdelight:tomato_seeds_loot");
+fdMineshaftSeeds.addItemEntry(<rustic:tomato_seeds>, 1, 0, [Functions.setCount(2, 4)], []);
+

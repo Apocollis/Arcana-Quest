@@ -45,10 +45,27 @@
     {
       "name": "quality.heavy.name",
       "color": "red",
-      "weight": 12,
+      "weight": 6,
       "attributes": [
         {
           "name": "generic.movementSpeed",
+          "amount": -0.1,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.cumbersome.name",
+      "color": "red",
+      "weight": 6,
+      "attributes": [
+        {
+          "name": "generic.attackSpeed",
+          "amount": -0.1,
+          "operation": 2
+        },
+        {
+          "name": "potioncore.digSpeed",
           "amount": -0.1,
           "operation": 2
         }
@@ -124,9 +141,21 @@
       ]
     },
     {
+      "name": "quality.speedy.name",
+      "color": "green",
+      "weight": 3,
+      "attributes": [
+        {
+          "name": "generic.movementSpeed",
+          "amount": 0.05,
+          "operation": 2
+        }
+      ]
+    },
+    {
       "name": "quality.elite.name",
       "color": "blue",
-      "weight": 6,
+      "weight": 3,
       "attributes": [
         {
           "name": "generic.armor",
@@ -136,6 +165,23 @@
         {
           "name": "potioncore.jumpHeight",
           "amount": 0.5,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.stalwart.name",
+      "color": "blue",
+      "weight": 3,
+      "attributes": [
+        {
+          "name": "generic.armor",
+          "amount": 0.5,
+          "operation": 0
+        },
+        {
+          "name": "potioncore.magicShielding",
+          "amount": 1.0,
           "operation": 0
         }
       ]
@@ -154,6 +200,28 @@
           "name": "generic.armorToughness",
           "amount": 1.0,
           "operation": 0
+        },
+        {
+          "name": "potioncore.jumpHeight",
+          "amount": 0.5,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.windwalker.name",
+      "color": "gold",
+      "weight": 0,
+      "attributes": [
+        {
+          "name": "generic.armor",
+          "amount": 0.5,
+          "operation": 0
+        },
+        {
+          "name": "generic.movementSpeed",
+          "amount": 0.1,
+          "operation": 2
         },
         {
           "name": "potioncore.jumpHeight",

@@ -40,12 +40,29 @@
     {
       "name": "quality.heavy.name",
       "color": "red",
-      "weight": 12,
+      "weight": 6,
       "attributes": [
         {
           "name": "generic.movementSpeed",
           "amount": -0.1,
           "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.cumbersome.name",
+      "color": "red",
+      "weight": 6,
+      "attributes": [
+        {
+          "name": "generic.movementSpeed",
+          "amount": -0.05,
+          "operation": 2
+        },
+        {
+          "name": "potioncore.magicShielding",
+          "amount": -1.0,
+          "operation": 0
         }
       ]
     },
@@ -109,7 +126,7 @@
     {
       "name": "quality.elite.name",
       "color": "blue",
-      "weight": 6,
+      "weight": 3,
       "attributes": [
         {
           "name": "generic.armor",
@@ -120,6 +137,23 @@
           "name": "generic.movementSpeed",
           "amount": 0.05,
           "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.bastion.name",
+      "color": "blue",
+      "weight": 3,
+      "attributes": [
+        {
+          "name": "generic.armor",
+          "amount": 2.0,
+          "operation": 0
+        },
+        {
+          "name": "potioncore.magicShielding",
+          "amount": 1.0,
+          "operation": 0
         }
       ]
     },
@@ -136,6 +170,23 @@
         {
           "name": "generic.movementSpeed",
           "amount": 0.1,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.pegasus.name",
+      "color": "gold",
+      "weight": 0,
+      "attributes": [
+        {
+          "name": "generic.armor",
+          "amount": 1.0,
+          "operation": 0
+        },
+        {
+          "name": "generic.movementSpeed",
+          "amount": 0.2,
           "operation": 2
         }
       ]

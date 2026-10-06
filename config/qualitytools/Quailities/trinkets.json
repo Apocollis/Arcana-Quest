@@ -67,12 +67,36 @@
     {
       "name": "quality.unlucky.name",
       "color": "red",
-      "weight": 44,
+      "weight": 14,
       "attributes": [
         {
           "name": "generic.luck",
           "amount": -0.2,
           "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.frail.name",
+      "color": "red",
+      "weight": 15,
+      "attributes": [
+        {
+          "name": "generic.maxHealth",
+          "amount": -2.0,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.sluggish.name",
+      "color": "red",
+      "weight": 15,
+      "attributes": [
+        {
+          "name": "generic.movementSpeed",
+          "amount": -0.05,
+          "operation": 2
         }
       ]
     },
@@ -227,7 +251,7 @@
     {
       "name": "quality.graceful.name",
       "color": "blue",
-      "weight": 11,
+      "weight": 5,
       "attributes": [
         {
           "name": "generic.attackSpeed",
@@ -244,7 +268,7 @@
     {
       "name": "quality.athletic.name",
       "color": "blue",
-      "weight": 11,
+      "weight": 5,
       "attributes": [
         {
           "name": "generic.movementSpeed",
@@ -254,6 +278,40 @@
         {
           "name": "potioncore.jumpHeight",
           "amount": 0.5,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.warlike.name",
+      "color": "blue",
+      "weight": 6,
+      "attributes": [
+        {
+          "name": "generic.attackDamage",
+          "amount": 0.03,
+          "operation": 2
+        },
+        {
+          "name": "generic.attackSpeed",
+          "amount": 0.03,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.enlightened.name",
+      "color": "blue",
+      "weight": 6,
+      "attributes": [
+        {
+          "name": "potioncore.magicDamage",
+          "amount": 0.03,
+          "operation": 2
+        },
+        {
+          "name": "potioncore.magicShielding",
+          "amount": 1.0,
           "operation": 0
         }
       ]
@@ -294,6 +352,33 @@
           "name": "potioncore.damageResistance",
           "amount": 0.03,
           "operation": 2
+        },
+        {
+          "name": "potioncore.magicShielding",
+          "amount": 1.0,
+          "operation": 0
+        }
+      ]
+    },
+    {
+      "name": "quality.celestial.name",
+      "color": "gold",
+      "weight": 0,
+      "attributes": [
+        {
+          "name": "generic.maxHealth",
+          "amount": 2.0,
+          "operation": 0
+        },
+        {
+          "name": "generic.movementSpeed",
+          "amount": 0.05,
+          "operation": 2
+        },
+        {
+          "name": "generic.luck",
+          "amount": 0.3,
+          "operation": 0
         },
         {
           "name": "potioncore.magicShielding",

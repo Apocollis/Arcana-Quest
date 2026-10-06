@@ -17,7 +17,8 @@
       "aether_legacy:chain_gloves",
       "aether_legacy:diamond_gloves",
       "aether_legacy:golden_gloves",
-      "aether_legacy:phoenix_gloves"
+      "aether_legacy:phoenix_gloves",
+      "bewitchment:fortunes_favor"
     ],
     "types": [
       "baubles:glove"
@@ -271,7 +272,6 @@
       "thaumicperiphery:malignant_heart",
       "embers:explosion_charm",
       "botania:goddesscharm",
-      "bewitchment:fortunes_favor",
       "da:sigil_trinket",
       "thaumcraft:verdant_charm",
       "da:blue_trinket",

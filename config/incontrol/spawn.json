@@ -155,7 +155,6 @@
         "lycanitesmobs:morock",
         "lycanitesmobs:zoataur"
       ],
-      "spawner": false,
       "result": "deny",
       "onjoin": true
     },
@@ -170,7 +169,7 @@
       ],
       "dimension": 0,
       "minheight": -60,
-      "maxheight": -15,
+      "maxheight": 0,
       "seesky": false,
       "result": "default",
       "healthmultiply": 2.5,
@@ -227,11 +226,10 @@
         "lycanitesmobs:beholder",
         "lycanitesmobs:shade"
       ],
-      "spawner": false,
       "result": "deny",
       "onjoin": true
     },
-// Allow Elite tier mobs underground (Y <= -15) regardless of stage (Tier 3 multipliers)
+// Allow Elite tier mobs underground (Y <= 0) regardless of stage (Tier 3 multipliers)
   {
       "mob": [
         "grimoireofgaia:banshee",
@@ -254,7 +252,7 @@
         "thaumcraft:giantbrainyzombie"
       ],
       "dimension": 0,
-      "maxheight": -15,
+      "maxheight": 0,
       "seesky": false,
       "result": "default",
       "healthmultiply": 2.0,
@@ -263,7 +261,7 @@
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
-// Allow Elite tier mobs underground (Y <= 15) regardless of stage (Tier 2 multipliers)
+// Allow Elite tier mobs underground (Y <= 30) regardless of stage (Tier 2 multipliers)
   {
       "mob": [
         "grimoireofgaia:banshee",
@@ -286,7 +284,7 @@
         "thaumcraft:giantbrainyzombie"
       ],
       "dimension": 0,
-      "maxheight": 15,
+      "maxheight": 30,
       "seesky": false,
       "result": "default",
       "healthmultiply": 2.0,
@@ -419,7 +417,6 @@
         "thaumcraft:giantbrainyzombie",
         "thebetweenlands:dark_druid"
       ],
-      "spawner": false,
       "result": "deny",
       "onjoin": true
     },
@@ -463,7 +460,6 @@
         "thaumcraft:cultistcleric",
         "thaumcraft:cultistknight"
       ],
-      "spawner": false,
       "result": "deny"
     },
 // Restrict lycanitesmobs:spectre spawning to non-Overworld dimensions only
@@ -550,7 +546,6 @@
         "raids:pillager",
         "thebetweenlands:dark_druid"
       ],
-      "spawner": false,
       "dimension": 0,
       "maxheight": 60,
       "seesky": false,
@@ -625,6 +620,54 @@
       "dimension": 17,
       "hostile": true,
       "random": 0.4,
+      "result": "deny"
+    },
+// Deny surface daytime hostile spawns within minimum player distance (30.0 blocks)
+  {
+      "mob": [
+        "grimoireofgaia:centaur",
+        "grimoireofgaia:dryad",
+        "grimoireofgaia:goblin_feral",
+        "grimoireofgaia:gryphon",
+        "grimoireofgaia:harpy",
+        "grimoireofgaia:hunter",
+        "grimoireofgaia:matango",
+        "grimoireofgaia:orc",
+        "grimoireofgaia:satyress",
+        "grimoireofgaia:sporeling",
+        "grimoireofgaia:toad",
+        "grimoireofgaia:werecat",
+        "lycanitesmobs:barghest",
+        "lycanitesmobs:bobeko",
+        "lycanitesmobs:conba",
+        "lycanitesmobs:dawon",
+        "lycanitesmobs:dweller",
+        "lycanitesmobs:ent",
+        "lycanitesmobs:ettin",
+        "lycanitesmobs:feradon",
+        "lycanitesmobs:geken",
+        "lycanitesmobs:gorgomite",
+        "lycanitesmobs:jabberwock",
+        "lycanitesmobs:kobold",
+        "lycanitesmobs:maug",
+        "lycanitesmobs:nymph",
+        "lycanitesmobs:pixen",
+        "lycanitesmobs:quillbeast",
+        "lycanitesmobs:raiko",
+        "lycanitesmobs:shambler",
+        "lycanitesmobs:treant",
+        "lycanitesmobs:triffid",
+        "lycanitesmobs:troll",
+        "lycanitesmobs:warg",
+        "lycanitesmobs:wildkin",
+        "lycanitesmobs:wisp"
+      ],
+      "dimension": 0,
+      "minheight": 60,
+      "seesky": true,
+      "mintime": 0,
+      "maxtime": 13000,
+      "maxplayerdist": 30.0,
       "result": "deny"
     },
 // Deny surface daytime hostile spawns once daytime cap (20 per player) is reached
@@ -716,6 +759,102 @@
       },
       "result": "deny"
     },
+// Deny Deadly tier mobs if player does not have 'deadly' stage or count limit is reached
+  {
+      "mob": [
+        "grimoireofgaia:bone_knight",
+        "grimoireofgaia:flesh_lich",
+        "grimoireofgaia:minotaur",
+        "lycanitesmobs:beholder",
+        "lycanitesmobs:shade"
+      ],
+      "spawner": false,
+      "result": "deny",
+      "onjoin": true
+    },
+// Restrict surface-only and structure mobs to above Y 60 or where sky is visible
+  {
+      "mob": [
+        "grimoireofgaia:anubis",
+        "grimoireofgaia:centaur",
+        "grimoireofgaia:cyclops",
+        "grimoireofgaia:dryad",
+        "grimoireofgaia:dullahan",
+        "grimoireofgaia:gryphon",
+        "grimoireofgaia:harpy",
+        "grimoireofgaia:hunter",
+        "grimoireofgaia:illager_fire",
+        "grimoireofgaia:illager_inquisitor",
+        "grimoireofgaia:matango",
+        "grimoireofgaia:mermaid",
+        "grimoireofgaia:mummy",
+        "grimoireofgaia:naga",
+        "grimoireofgaia:nine_tails",
+        "grimoireofgaia:satyress",
+        "grimoireofgaia:selkie",
+        "grimoireofgaia:shaman",
+        "grimoireofgaia:siren",
+        "grimoireofgaia:sludge_girl",
+        "grimoireofgaia:sphinx",
+        "grimoireofgaia:sporeling",
+        "grimoireofgaia:spriggan",
+        "grimoireofgaia:toad",
+        "grimoireofgaia:valkyrie",
+        "grimoireofgaia:witch",
+        "grimoireofgaia:yeti",
+        "grimoireofgaia:yuki-onna",
+        "lycanitesmobs:aglebemu",
+        "lycanitesmobs:arix",
+        "lycanitesmobs:barghest",
+        "lycanitesmobs:bobeko",
+        "lycanitesmobs:cockatrice",
+        "lycanitesmobs:conba",
+        "lycanitesmobs:crusk",
+        "lycanitesmobs:dawon",
+        "lycanitesmobs:dweller",
+        "lycanitesmobs:ent",
+        "lycanitesmobs:ettin",
+        "lycanitesmobs:feradon",
+        "lycanitesmobs:frostweaver",
+        "lycanitesmobs:geken",
+        "lycanitesmobs:gorgomite",
+        "lycanitesmobs:jabberwock",
+        "lycanitesmobs:maug",
+        "lycanitesmobs:morock",
+        "lycanitesmobs:necrovore",
+        "lycanitesmobs:nymph",
+        "lycanitesmobs:pixen",
+        "lycanitesmobs:quetzodracl",
+        "lycanitesmobs:quillbeast",
+        "lycanitesmobs:raiko",
+        "lycanitesmobs:remobra",
+        "lycanitesmobs:roc",
+        "lycanitesmobs:serpix",
+        "lycanitesmobs:shambler",
+        "lycanitesmobs:sylph",
+        "lycanitesmobs:tpumpkyn",
+        "lycanitesmobs:treant",
+        "lycanitesmobs:triffid",
+        "lycanitesmobs:vespid",
+        "lycanitesmobs:vespidqueen",
+        "lycanitesmobs:warg",
+        "lycanitesmobs:wendigo",
+        "lycanitesmobs:wildkin",
+        "lycanitesmobs:wisp",
+        "lycanitesmobs:zoataur",
+        "minecraft:evocation_illager",
+        "minecraft:illusion_illager",
+        "minecraft:vindication_illager",
+        "minecraft:witch",
+        "raids:pillager",
+        "thebetweenlands:dark_druid"
+      ],
+      "spawner": false,
+      "dimension": 0,
+      "maxheight": 60,
+      "seesky": false,
+      "result": "deny"
+    },
 // Prevent Silex from spawning on the surface
   {
       "mob": "lycanitesmobs:silex",
@@ -802,6 +941,7 @@
       "seesky": true,
       "mintime": 0,
       "maxtime": 13000,
+      "minplayerdist": 30.0,
       "maxcount": {
         "amount": 20,
         "perplayer": true,
@@ -846,6 +986,12 @@
       },
       "result": "allow"
     },
+// Equip Vindicator Illagers with Iron Axe on spawn
+  {
+      "mob": "minecraft:vindication_illager",
+      "helditem": "minecraft:iron_axe",
+      "onjoin": true
+    },
 // Equip Deep Dwarves with Dawnstone Pickaxe on spawn
   {
       "mob": "aqtweaks:deep_dwarf",
@@ -886,7 +1032,10 @@
       "healthmultiply": 2.0,
       "damagemultiply": 2.5,
       "armoradd": 8.0,
-      "potion": "minecraft:night_vision,999999,0",
+      "potion": [
+        "minecraft:night_vision,999999,0",
+        "potioncore:archery,999999,1"
+      ],
       "onjoin": true
     },
 // Equip and buff Crimson Cultist Knight on join
@@ -915,7 +1064,10 @@
       "healthmultiply": 2.0,
       "damagemultiply": 2.5,
       "armoradd": 8.0,
-      "potion": "minecraft:night_vision,999999,0",
+      "potion": [
+        "minecraft:night_vision,999999,0",
+        "potioncore:magic_focus,999999,1"
+      ],
       "onjoin": true
     },
 // Custom modifiers for artifacts:mimic
@@ -932,6 +1084,21 @@
   {
       "mob": "grimoireofgaia:dryad",
       "potion": "rusticwitchcraft:fertile_feet,999999,0",
+      "onjoin": true
+    },
+// Equip Skeleton Druids with Golden Hoe and Magic Focus I on join
+  {
+      "mob": "twilightforest:skeleton_druid",
+      "helditem": "minecraft:golden_hoe",
+      "potion": "potioncore:magic_focus,999999,0",
+      "healthmultiply": 1.5,
+      "onjoin": true
+    },
+// Buff Strays with Archery I on join
+  {
+      "mob": "minecraft:stray",
+      "potion": "potioncore:archery,999999,0",
+      "healthmultiply": 1.5,
       "onjoin": true
     },
 // Charged Creepers during Storms
@@ -1014,24 +1181,25 @@
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
-// Deadlier Underground tier 3 (Y <= -15)
+// Deadlier Underground tier 3 (Y <= 0)
   {
       "dimension": 0,
-      "maxheight": -15,
+      "maxheight": 0,
       "result": "default",
-      "healthmultiply": 2.25,
-      "damagemultiply": 2.25,
-      "armoradd": 8.0,
+      "healthmultiply": 2.0,
+      "damagemultiply": 2.5,
+      "armoradd": 10.0,
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
-// Deadlier Underground tier 2 (Y <= 15)
+// Deadlier Underground tier 2 (Y <= 30)
   {
       "dimension": 0,
-      "maxheight": 15,
+      "maxheight": 30,
       "result": "default",
-      "healthmultiply": 1.75,
+      "healthmultiply": 2.0,
       "damagemultiply": 1.75,
+      "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
 // Deadlier Underground tier 1 (Y <= 55)
@@ -1039,7 +1207,7 @@
       "dimension": 0,
       "maxheight": 55,
       "result": "default",
-      "healthmultiply": 1.25,
-      "damagemultiply": 1.25,
+      "healthmultiply": 1.5,
+      "damagemultiply": 1.5,
       "onjoin": true
     }]

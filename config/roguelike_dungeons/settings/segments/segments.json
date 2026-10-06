@@ -38,7 +38,7 @@
 		{"level": 4, "type" : "FIREARCH", "weight" : 3},
 		{"level": 4, "type" : "FIREPLACE", "weight" : 3},
 		{"level": 4, "type" : "WALL", "weight" : 3},
-		{"level": 4, "type" : "SPAWNER", "weight" : 2},
+		{"level": 4, "type" : "INSET", "weight" : 2},
 		{"level": 4, "type" : "CHEST", "weight" : 1},
 
 		{"level": 5, "type" : "WHEAT", "weight" : 4},

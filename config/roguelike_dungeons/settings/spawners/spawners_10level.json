@@ -13,17 +13,19 @@
 			"level" : 1,
 			"potentials" : [
 				{"name" : "minecraft:stray", "weight" : 10},
-				{"name" : "thaumcraft:wisp", "weight" : 8},
-				{"name" : "grimoireofgaia:ender_eye", "weight" : 6},
-				{"name" : "minecraft:skeleton", "weight" : 6}
+				{"name" : "lycanitesmobs:sylph", "weight" : 8},
+				{"name" : "lycanitesmobs:djinn", "weight" : 6},
+				{"name" : "grimoireofgaia:ender_eye", "weight" : 6}
 			]
 		},
 		{
 			"level" : 2,
 			"potentials" : [
-				{"name" : "minecraft:cave_spider", "weight" : 10},
-				{"name" : "minecraft:spider", "weight" : 8},
-				{"name" : "minecraft:zombie", "weight" : 8}
+				{"name" : "lycanitesmobs:spriggan", "weight" : 8},
+				{"name" : "eerieentities:pumpkin_slime", "weight" : 8},
+				{"name" : "twilightforest:skeleton_druid", "weight" : 6},
+				{"name" : "minecraft:cave_spider", "weight" : 6},
+				{"name" : "minecraft:witch", "weight" : 2}
 			]
 		},
 		{
@@ -38,10 +40,11 @@
 		{
 			"level" : 4,
 			"potentials" : [
-				{"name" : "minecraft:vindication_illager", "weight" : 10},
-				{"name" : "raids:pillager", "weight" : 8},
-				{"name" : "grimoireofgaia:illager_fire", "weight" : 4},
-				{"name" : "minecraft:magma_cube", "weight" : 4}
+				{"name" : "raids:pillager", "weight" : 10},
+				{"name" : "minecraft:vindication_illager", "weight" : 7},
+				{"name" : "minecraft:evocation_illager", "weight" : 2},
+				{"name" : "minecraft:illusion_illager", "weight" : 2},
+				{"name" : "grimoireofgaia:illager_fire", "weight" : 1}
 			]
 		},
 		{

@@ -74,3 +74,18 @@ mods.jei.JEI.hide(<ends_delight:chorus_fruit_popsicle>);
 # --- Quality Tools Removals ---
 recipes.remove(<qualitytools:reforging_station>);
 mods.jei.JEI.hide(<qualitytools:reforging_station>);
+
+# --- Metallurgy Bronze Tools Removals (Embers Bronze Tools Canon) ---
+val metallurgyBronzeTools = [
+    <metallurgy:bronze_axe>,
+    <metallurgy:bronze_hoe>,
+    <metallurgy:bronze_pickaxe>,
+    <metallurgy:bronze_shovel>,
+    <metallurgy:bronze_sword>
+] as crafttweaker.item.IItemStack[];
+
+for item in metallurgyBronzeTools {
+    recipes.remove(item);
+    mods.jei.JEI.hide(item);
+}
+

@@ -38,11 +38,28 @@
     {
       "name": "quality.clumsy.name",
       "color": "red",
-      "weight": 10,
+      "weight": 5,
       "attributes": [
         {
           "name": "potioncore.projectileDamage",
           "amount": -0.05,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.heavy.name",
+      "color": "red",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": -0.05,
+          "operation": 2
+        },
+        {
+          "name": "generic.movementSpeed",
+          "amount": -0.1,
           "operation": 2
         }
       ]
@@ -66,7 +83,7 @@
     {
       "name": "quality.powerful.name",
       "color": "green",
-      "weight": 10,
+      "weight": 5,
       "attributes": [
         {
           "name": "potioncore.projectileDamage",
@@ -76,14 +93,65 @@
       ]
     },
     {
+      "name": "quality.nimble.name",
+      "color": "green",
+      "weight": 5,
+      "attributes": [
+        {
+          "name": "generic.movementSpeed",
+          "amount": 0.05,
+          "operation": 2
+        },
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": 0.02,
+          "operation": 2
+        }
+      ]
+    },
+    {
       "name": "quality.mighty.name",
       "color": "blue",
-      "weight": 5,
+      "weight": 3,
       "attributes": [
         {
           "name": "potioncore.projectileDamage",
           "amount": 0.1,
           "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.deadly.name",
+      "color": "blue",
+      "weight": 3,
+      "attributes": [
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": 0.1,
+          "operation": 2
+        },
+        {
+          "name": "generic.movementSpeed",
+          "amount": 0.05,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.keen.name",
+      "color": "blue",
+      "weight": 3,
+      "attributes": [
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": 0.05,
+          "operation": 2
+        },
+        {
+          "name": "generic.luck",
+          "amount": 0.5,
+          "operation": 0
         }
       ]
     },
@@ -95,6 +163,23 @@
         {
           "name": "potioncore.projectileDamage",
           "amount": 0.15,
+          "operation": 2
+        }
+      ]
+    },
+    {
+      "name": "quality.sovereign.name",
+      "color": "gold",
+      "weight": 0,
+      "attributes": [
+        {
+          "name": "potioncore.projectileDamage",
+          "amount": 0.2,
+          "operation": 2
+        },
+        {
+          "name": "generic.movementSpeed",
+          "amount": 0.1,
           "operation": 2
         }
       ]
