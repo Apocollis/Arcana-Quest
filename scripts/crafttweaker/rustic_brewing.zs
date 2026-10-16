@@ -2,16 +2,16 @@
 import crafttweaker.item.IItemStack;
 import mods.rustic.Condenser;
 
-// Cold Resistance Elixir (Cohosh + Belladonna)
+// Short Cold Resistance Elixir (Belladonna + Ginseng) - 1:30
 Condenser.addRecipe(
-    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "simpledifficulty:cold_resist", Duration: 3600, Amplifier: 0}]}),
-    [<rustic:cohosh>, <bewitchment:belladonna>]
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "simpledifficulty:cold_resist", Duration: 1800, Amplifier: 0}]}),
+    [<bewitchment:belladonna>, <rustic:ginseng>]
 );
 
-// Extended Cold Resistance Elixir (Cohosh + Belladonna + Horsetail)
+// Extended Short Cold Resistance Elixir (Belladonna + Ginseng + Horsetail) - 3:00
 Condenser.addRecipe(
-    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "simpledifficulty:cold_resist", Duration: 9600, Amplifier: 0}]}),
-    [<rustic:cohosh>, <bewitchment:belladonna>],
+    <rustic:elixir>.withTag({ElixirEffects: [{Effect: "simpledifficulty:cold_resist", Duration: 3600, Amplifier: 0}]}),
+    [<bewitchment:belladonna>, <rustic:ginseng>],
     <rustic:horsetail>
 );
 

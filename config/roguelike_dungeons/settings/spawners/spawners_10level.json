@@ -23,9 +23,9 @@
 			"potentials" : [
 				{"name" : "lycanitesmobs:spriggan", "weight" : 8},
 				{"name" : "eerieentities:pumpkin_slime", "weight" : 8},
-				{"name" : "twilightforest:skeleton_druid", "weight" : 6},
-				{"name" : "minecraft:cave_spider", "weight" : 6},
-				{"name" : "minecraft:witch", "weight" : 2}
+				{"name" : "lycanitesmobs:ent", "weight" : 6},
+				{"name" : "lycanitesmobs:triffid", "weight" : 4},
+				{"name" : "grimoireofgaia:matango", "weight" : 4}
 			]
 		},
 		{
@@ -51,8 +51,8 @@
 			"level" : 5,
 			"potentials" : [
 				{"name" : "bewitchment:black_dog", "weight" : 10},
+				{"name" : "minecraft:witch", "weight" : 12},
 				{"name" : "bewitchment:ghost", "weight" : 8},
-				{"name" : "minecraft:witch", "weight" : 8},
 				{"name" : "bewitchment:hellhound", "weight" : 6}
 			]
 		},

@@ -7,7 +7,7 @@
   "height": 2.0,
   "scale": 1.0,
   "damage": 8,
-  "pierce": 2,
+  "pierce": 1,
   "knockbackChance": 0.5,
   "effectDuration": 5,
   "effectAmplifier": 1,

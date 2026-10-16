@@ -1,10 +1,10 @@
 {
   "name": "aquapulse",
-  "loadDefault": true,
+  "loadDefault": false,
   "width": 2.0,
   "height": 2.0,
   "scale": 2.0,
-  "damage": 6,
+  "damage": 8,
   "pierce": 1,
   "knockbackChance": 0.5,
   "effectDuration": 5,

@@ -1,0 +1,72 @@
+{
+    "populate": {
+        "aurorian_ceruclase_boulder": {
+            "distribution": "surface",
+            "follow-terrain": true,
+            "generator": {
+                "type": "sequential",
+                "generators": [
+                    {
+                        "type": "boulder",
+                        "diameter": 4,
+                        "size-variance": 1,
+                        "count": 1,
+                        "block": {
+                            "name": "minecraft:obsidian"
+                        },
+                        "material": [
+                            "theaurorian:auroriangrass",
+                            "theaurorian:auroriangrasslight",
+                            "theaurorian:auroriandirt",
+                            "theaurorian:aurorianstone",
+                            "theaurorian:auroriancobblestone",
+                            "theaurorian:moonsand",
+                            "minecraft:grass",
+                            "minecraft:dirt",
+                            "minecraft:stone"
+                        ]
+                    },
+                    {
+                        "type": "boulder",
+                        "diameter": 2,
+                        "count": 1,
+                        "block": [
+                            {
+                                "name": "minecraft:netherrack",
+                                "weight": 65
+                            },
+                            {
+                                "name": "metallurgy:ceruclase_ore",
+                                "weight": 35
+                            }
+                        ],
+                        "material": [
+                            "minecraft:obsidian"
+                        ]
+                    }
+                ]
+            },
+            "material": [
+                "theaurorian:auroriangrass",
+                "theaurorian:auroriangrasslight",
+                "theaurorian:auroriandirt",
+                "theaurorian:aurorianstone",
+                "theaurorian:auroriancobblestone",
+                "theaurorian:moonsand",
+                "minecraft:grass",
+                "minecraft:dirt",
+                "minecraft:stone"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    424
+                ]
+            }
+        }
+    }
+}

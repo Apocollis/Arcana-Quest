@@ -7,7 +7,7 @@
   "args": "-Xms8192m -XX:+AlwaysPreTouch -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis\u003d100 -XX:+UseStringDeduplication -XX:-UseCompactObjectHeaders -XX:CompileCommand\u003dexclude,thaumcraft.common.lib.crafting.ThaumcraftCraftingManager::generateTagsFromCraftingRecipes",
   "autoSetup": true,
   "enableRelauncher": true,
-  "fetchUpdates": true,
+  "fetchUpdates": false,
   "clearCleanroomFolder": false,
   "clearJavaProvisionFolder": false,
   "darkMode": false

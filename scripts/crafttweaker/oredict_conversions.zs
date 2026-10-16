@@ -21,9 +21,18 @@ oreSeedTomato.add(<rustic:tomato_seeds>);
 val oreSeedChili = <ore:seedChili>;
 oreSeedChili.add(<rustic:chili_pepper_seeds>);
 
-// 4. Amethyst unification
-val oreAmethyst = <ore:gemAmethyst>;
-oreAmethyst.add(<bewitchment:amethyst>);
+// 4. Amethyst unification (Bewitchment Canonical)
+val oreGemAmethyst = <ore:gemAmethyst>;
+oreGemAmethyst.remove(<mysticalworld:amethyst_gem>);
+oreGemAmethyst.add(<bewitchment:amethyst>);
+
+val oreBlockAmethyst = <ore:blockAmethyst>;
+oreBlockAmethyst.remove(<mysticalworld:amethyst_block>);
+oreBlockAmethyst.add(<bewitchment:block_of_amethyst>);
+
+val oreOreAmethyst = <ore:oreAmethyst>;
+oreOreAmethyst.remove(<mysticalworld:amethyst_ore>);
+oreOreAmethyst.add(<bewitchment:amethyst_ore>);
 
 // 5. Canonical Salt Unification (<bewitchment:salt>)
 val saltOres = [

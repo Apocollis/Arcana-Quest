@@ -89,3 +89,15 @@ for item in metallurgyBronzeTools {
     mods.jei.JEI.hide(item);
 }
 
+# --- Mystical World Amethyst Removals (Bewitchment Amethyst Canon) ---
+recipes.remove(<mysticalworld:amethyst_ore>);
+recipes.remove(<mysticalworld:amethyst_gem>);
+recipes.remove(<mysticalworld:amethyst_block>);
+furnace.remove(<mysticalworld:amethyst_gem>);
+
+mods.jei.JEI.hide(<mysticalworld:amethyst_ore>);
+mods.jei.JEI.hide(<mysticalworld:amethyst_gem>);
+
+# --- Elemental Ender Eyes Default Recipe Removals ---
+recipes.remove(<elementalend:aether_eye>);
+recipes.remove(<elementalend:nether_eye>);

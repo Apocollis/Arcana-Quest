@@ -119,6 +119,7 @@ recipes.remove(<rustic:painted_wood_black>);
 
 # AMETHYST
 mods.chisel.Carving.addGroup("amethyst_block"); 
+mods.chisel.Carving.addVariation("amethyst_block", <bewitchment:block_of_amethyst>);
 mods.chisel.Carving.addVariation("amethyst_block", <mysticalworld:amethyst_block>);
 mods.chisel.Carving.addVariation("amethyst_block", <netherex:amethyst_block>);
 recipes.remove(<netherex:amethyst_block>);

@@ -1,10 +1,10 @@
 {
   "name": "lifedrain",
-  "loadDefault": true,
+  "loadDefault": false,
   "width": 0.5,
   "height": 0.5,
   "scale": 0.5,
-  "damage": 1,
+  "damage": 3,
   "pierce": 1,
   "knockbackChance": 0,
   "effectDuration": 3,

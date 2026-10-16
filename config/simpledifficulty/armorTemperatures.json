@@ -1,10 +1,42 @@
 {
+  "theaurorian:ceruleanchestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
+    }
+  ],
+  "theaurorian:knightboots": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
+    }
+  ],
   "simpledifficulty:ice_chestplate": [
     {
       "identity": {
         "metadata": -1
       },
       "temperature": -2.0
+    }
+  ],
+  "theaurorian:spectralboots": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
+    }
+  ],
+  "theaurorian:ceruleanleggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
     }
   ],
   "simpledifficulty:ice_helmet": [
@@ -23,20 +55,20 @@
       "temperature": -2.0
     }
   ],
-  "simpledifficulty:wool_helmet": [
+  "theaurorian:knightchestplate": [
     {
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
+      "temperature": 1.5
     }
   ],
-  "simpledifficulty:wool_leggings": [
+  "theaurorian:ceruleanhelmet": [
     {
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
+      "temperature": 1.5
     }
   ],
   "simpledifficulty:wool_chestplate": [
@@ -47,12 +79,20 @@
       "temperature": 2.0
     }
   ],
-  "simpledifficulty:ice_leggings": [
+  "theaurorian:auroriansteelboots": [
     {
       "identity": {
         "metadata": -1
       },
-      "temperature": -2.0
+      "temperature": 2.0
+    }
+  ],
+  "theaurorian:spectralhelmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
     }
   ],
   "twilightforest:arctic_leggings": [
@@ -79,6 +119,94 @@
       "temperature": -2.0
     }
   ],
+  "theaurorian:auroriansteelchestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "theaurorian:ceruleanboots": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
+    }
+  ],
+  "simpledifficulty:wool_boots": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "theaurorian:knighthelmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
+    }
+  ],
+  "theaurorian:spectralchestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
+    }
+  ],
+  "theaurorian:spectralleggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
+    }
+  ],
+  "simpledifficulty:wool_helmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "theaurorian:knightleggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.5
+    }
+  ],
+  "simpledifficulty:wool_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:ice_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
+    }
+  ],
+  "theaurorian:auroriansteelleggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
   "twilightforest:arctic_helmet": [
     {
       "identity": {
@@ -93,14 +221,6 @@
         "metadata": -1
       },
       "temperature": -2.0
-    }
-  ],
-  "simpledifficulty:wool_boots": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "temperature": 2.0
     }
   ],
   "baubles:ring": [
@@ -125,6 +245,14 @@
         "metadata": -1
       },
       "temperature": 2.5
+    }
+  ],
+  "theaurorian:auroriansteelhelmet": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
     }
   ],
   "bewitchment:cold_iron_boots": [

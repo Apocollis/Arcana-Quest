@@ -109,9 +109,9 @@
       "dimension": 0,
       "maxheight": -30,
       "result": "default",
-      "healthmultiply": 2.0,
-      "damagemultiply": 2.5,
-      "armoradd": 10.0,
+      "healthmultiply": 2.25,
+      "damagemultiply": 2.25,
+      "armoradd": 8.0,
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
@@ -129,8 +129,8 @@
       "maxheight": 55,
       "seesky": false,
       "result": "default",
-      "healthmultiply": 1.5,
-      "damagemultiply": 1.5,
+      "healthmultiply": 1.25,
+      "damagemultiply": 1.25,
       "onjoin": true
     },
 // Allow Dragon tier mobs generally if player has 'dragon' stage and count is under limit (1 per player)
@@ -196,8 +196,8 @@
       "maxheight": 55,
       "seesky": false,
       "result": "default",
-      "healthmultiply": 1.5,
-      "damagemultiply": 1.5,
+      "healthmultiply": 1.25,
+      "damagemultiply": 1.25,
       "onjoin": true
     },
 // Allow Deadly tier mobs generally if player has 'deadly' stage and count is under limit (1 per player)
@@ -229,7 +229,7 @@
       "result": "deny",
       "onjoin": true
     },
-// Allow Elite tier mobs underground (Y <= 0) regardless of stage (Tier 3 multipliers)
+// Allow Elite tier mobs underground (Y <= -15) regardless of stage (Tier 3 multipliers)
   {
       "mob": [
         "grimoireofgaia:banshee",
@@ -252,16 +252,16 @@
         "thaumcraft:giantbrainyzombie"
       ],
       "dimension": 0,
-      "maxheight": 0,
+      "maxheight": -15,
       "seesky": false,
       "result": "default",
-      "healthmultiply": 2.0,
-      "damagemultiply": 2.5,
-      "armoradd": 10.0,
+      "healthmultiply": 2.25,
+      "damagemultiply": 2.25,
+      "armoradd": 8.0,
       "potion": "minecraft:night_vision,999999,0",
       "onjoin": true
     },
-// Allow Elite tier mobs underground (Y <= 30) regardless of stage (Tier 2 multipliers)
+// Allow Elite tier mobs underground (Y <= 15) regardless of stage (Tier 2 multipliers)
   {
       "mob": [
         "grimoireofgaia:banshee",
@@ -284,12 +284,12 @@
         "thaumcraft:giantbrainyzombie"
       ],
       "dimension": 0,
-      "maxheight": 30,
+      "maxheight": 15,
       "seesky": false,
       "result": "default",
-      "healthmultiply": 2.0,
+      "healthmultiply": 1.75,
       "damagemultiply": 1.75,
-      "potion": "minecraft:night_vision,999999,0",
+      "potion": "none",
       "onjoin": true
     },
 // Allow Elite tier mobs underground (Y <= 55) if player has 'elite' stage (Tier 1 multipliers)
@@ -323,8 +323,8 @@
       "maxheight": 55,
       "seesky": false,
       "result": "default",
-      "healthmultiply": 1.5,
-      "damagemultiply": 1.5,
+      "healthmultiply": 1.25,
+      "damagemultiply": 1.25,
       "onjoin": true
     },
 // Allow Elite tier mobs generally if player has 'elite' stage
@@ -436,8 +436,8 @@
       "maxheight": 55,
       "seesky": false,
       "result": "default",
-      "healthmultiply": 1.5,
-      "damagemultiply": 1.5
+      "healthmultiply": 1.25,
+      "damagemultiply": 1.25
     },
 // Allow Crimsoncult tier mobs generally if player has 'crimsoncult' stage and count is under limit (5 per player)
   {
@@ -906,7 +906,6 @@
         "grimoireofgaia:harpy",
         "grimoireofgaia:hunter",
         "grimoireofgaia:matango",
-        "grimoireofgaia:orc",
         "grimoireofgaia:satyress",
         "grimoireofgaia:sporeling",
         "grimoireofgaia:toad",
@@ -985,6 +984,74 @@
         ]
       },
       "result": "allow"
+    },
+// Allow staged hostile surface creatures to spawn during daytime if player has 'elite' stage up to cap (20 per player)
+  {
+      "mob": [
+        "grimoireofgaia:orc"
+      ],
+      "dimension": 0,
+      "minheight": 60,
+      "seesky": true,
+      "mintime": 0,
+      "maxtime": 13000,
+      "gamestage": "elite",
+      "minplayerdist": 30.0,
+      "maxcount": {
+        "amount": 20,
+        "perplayer": true,
+        "mob": [
+          "grimoireofgaia:centaur",
+          "grimoireofgaia:dryad",
+          "grimoireofgaia:goblin_feral",
+          "grimoireofgaia:gryphon",
+          "grimoireofgaia:harpy",
+          "grimoireofgaia:hunter",
+          "grimoireofgaia:matango",
+          "grimoireofgaia:orc",
+          "grimoireofgaia:satyress",
+          "grimoireofgaia:sporeling",
+          "grimoireofgaia:toad",
+          "grimoireofgaia:werecat",
+          "lycanitesmobs:barghest",
+          "lycanitesmobs:bobeko",
+          "lycanitesmobs:conba",
+          "lycanitesmobs:dawon",
+          "lycanitesmobs:dweller",
+          "lycanitesmobs:ent",
+          "lycanitesmobs:ettin",
+          "lycanitesmobs:feradon",
+          "lycanitesmobs:geken",
+          "lycanitesmobs:gorgomite",
+          "lycanitesmobs:jabberwock",
+          "lycanitesmobs:kobold",
+          "lycanitesmobs:maug",
+          "lycanitesmobs:nymph",
+          "lycanitesmobs:pixen",
+          "lycanitesmobs:quillbeast",
+          "lycanitesmobs:raiko",
+          "lycanitesmobs:shambler",
+          "lycanitesmobs:treant",
+          "lycanitesmobs:triffid",
+          "lycanitesmobs:troll",
+          "lycanitesmobs:warg",
+          "lycanitesmobs:wildkin",
+          "lycanitesmobs:wisp"
+        ]
+      },
+      "result": "allow"
+    },
+// Deny staged surface daytime hostile spawns if player lacks required stage
+  {
+      "mob": [
+        "grimoireofgaia:orc"
+      ],
+      "dimension": 0,
+      "minheight": 60,
+      "seesky": true,
+      "mintime": 0,
+      "maxtime": 13000,
+      "result": "deny"
     },
 // Equip Vindicator Illagers with Iron Axe on spawn
   {
@@ -1094,9 +1161,10 @@
       "healthmultiply": 1.5,
       "onjoin": true
     },
-// Buff Strays with Archery I on join
+// Buff Strays with Archery I and Bow on join
   {
       "mob": "minecraft:stray",
+      "helditem": "minecraft:bow",
       "potion": "potioncore:archery,999999,0",
       "healthmultiply": 1.5,
       "onjoin": true
@@ -1172,34 +1240,111 @@
       "speedmultiply": 1.3,
       "onjoin": true
     },
-// Give Beneath dimension mobs the same buff as Tier 3 Deadlier Underground
+// Give Nether dimension hostile mobs difficulty buff (1.75x health, 1.75x damage, minecraft:night_vision)
+  {
+      "dimension": -1,
+      "hostile": true,
+      "result": "default",
+      "healthmultiply": 1.75,
+      "damagemultiply": 1.75,
+      "onjoin": true,
+      "potion": "minecraft:night_vision,999999,0"
+    },
+// Give The End dimension hostile mobs difficulty buff (2.25x health, 2.25x damage, +8.0 armor, minecraft:night_vision)
+  {
+      "dimension": 1,
+      "hostile": true,
+      "result": "default",
+      "healthmultiply": 2.25,
+      "damagemultiply": 2.25,
+      "onjoin": true,
+      "armoradd": 8.0,
+      "potion": "minecraft:night_vision,999999,0"
+    },
+// Give Aether dimension hostile mobs difficulty buff (1.75x health, 1.75x damage)
+  {
+      "dimension": 4,
+      "hostile": true,
+      "result": "default",
+      "healthmultiply": 1.75,
+      "damagemultiply": 1.75,
+      "onjoin": true
+    },
+// Give Twilight Forest dimension hostile mobs difficulty buff (1.75x health, 1.75x damage)
+  {
+      "dimension": 7,
+      "hostile": true,
+      "result": "default",
+      "healthmultiply": 1.75,
+      "damagemultiply": 1.75,
+      "onjoin": true
+    },
+// Give The Beneath dimension hostile mobs difficulty buff (1.75x health, 1.75x damage, minecraft:night_vision)
   {
       "dimension": 10,
+      "hostile": true,
       "result": "default",
-      "healthmultiply": 1.5,
-      "damagemultiply": 1.5,
-      "potion": "minecraft:night_vision,999999,0",
-      "onjoin": true
-    },
-// Deadlier Underground tier 3 (Y <= 0)
-  {
-      "dimension": 0,
-      "maxheight": 0,
-      "result": "default",
-      "healthmultiply": 2.0,
-      "damagemultiply": 2.5,
-      "armoradd": 10.0,
-      "potion": "minecraft:night_vision,999999,0",
-      "onjoin": true
-    },
-// Deadlier Underground tier 2 (Y <= 30)
-  {
-      "dimension": 0,
-      "maxheight": 30,
-      "result": "default",
-      "healthmultiply": 2.0,
+      "healthmultiply": 1.75,
       "damagemultiply": 1.75,
-      "potion": "minecraft:night_vision,999999,0",
+      "onjoin": true,
+      "potion": "minecraft:night_vision,999999,0"
+    },
+// Give Atum dimension hostile mobs difficulty buff (1.75x health, 1.75x damage)
+  {
+      "dimension": 17,
+      "hostile": true,
+      "result": "default",
+      "healthmultiply": 1.75,
+      "damagemultiply": 1.75,
+      "onjoin": true
+    },
+// Give The Betweenlands dimension hostile mobs difficulty buff (1.75x health, 1.75x damage)
+  {
+      "dimension": 20,
+      "hostile": true,
+      "result": "default",
+      "healthmultiply": 1.75,
+      "damagemultiply": 1.75,
+      "onjoin": true
+    },
+// Give The Aurorian dimension hostile mobs difficulty buff (1.75x health, 1.75x damage)
+  {
+      "dimension": 424,
+      "hostile": true,
+      "result": "default",
+      "healthmultiply": 1.75,
+      "damagemultiply": 1.75,
+      "onjoin": true
+    },
+// Give The Emptiness dimension hostile mobs difficulty buff (2.25x health, 2.25x damage, +8.0 armor, minecraft:night_vision)
+  {
+      "dimension": 14676,
+      "hostile": true,
+      "result": "default",
+      "healthmultiply": 2.25,
+      "damagemultiply": 2.25,
+      "onjoin": true,
+      "armoradd": 8.0,
+      "potion": "minecraft:night_vision,999999,0"
+    },
+// Deadlier Underground tier 3 (Y <= -15)
+  {
+      "dimension": 0,
+      "maxheight": -15,
+      "result": "default",
+      "healthmultiply": 2.25,
+      "damagemultiply": 2.25,
+      "armoradd": 8.0,
+      "onjoin": true,
+      "potion": "minecraft:night_vision,999999,0"
+    },
+// Deadlier Underground tier 2 (Y <= 15)
+  {
+      "dimension": 0,
+      "maxheight": 15,
+      "result": "default",
+      "healthmultiply": 1.75,
+      "damagemultiply": 1.75,
       "onjoin": true
     },
 // Deadlier Underground tier 1 (Y <= 55)
@@ -1207,7 +1352,7 @@
       "dimension": 0,
       "maxheight": 55,
       "result": "default",
-      "healthmultiply": 1.5,
-      "damagemultiply": 1.5,
+      "healthmultiply": 1.25,
+      "damagemultiply": 1.25,
       "onjoin": true
     }]

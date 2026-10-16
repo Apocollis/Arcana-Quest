@@ -679,6 +679,26 @@
       "weight": 1.0,
       "included_in_underarmor": true,
       "temp": 0.0
+    },
+    "theaurorian:auroriansteelhelmet": {
+      "weight": 1.8,
+      "included_in_underarmor": true,
+      "temp": 2.0
+    },
+    "theaurorian:ceruleanhelmet": {
+      "weight": 1.2,
+      "included_in_underarmor": true,
+      "temp": 1.5
+    },
+    "theaurorian:knighthelmet": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 1.5
+    },
+    "theaurorian:spectralhelmet": {
+      "weight": 0.6,
+      "included_in_underarmor": true,
+      "temp": 1.5
     }
   },
   "legs": {
@@ -1206,6 +1226,26 @@
       "weight": 1.5,
       "included_in_underarmor": true,
       "temp": 0.0
+    },
+    "theaurorian:auroriansteelleggings": {
+      "weight": 1.8,
+      "included_in_underarmor": true,
+      "temp": 2.0
+    },
+    "theaurorian:ceruleanleggings": {
+      "weight": 1.2,
+      "included_in_underarmor": true,
+      "temp": 1.5
+    },
+    "theaurorian:knightleggings": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 1.5
+    },
+    "theaurorian:spectralleggings": {
+      "weight": 0.6,
+      "included_in_underarmor": true,
+      "temp": 1.5
     }
   },
   "chest": {
@@ -1773,6 +1813,26 @@
       "weight": 2.0,
       "included_in_underarmor": true,
       "temp": 0.0
+    },
+    "theaurorian:auroriansteelchestplate": {
+      "weight": 1.8,
+      "included_in_underarmor": true,
+      "temp": 2.0
+    },
+    "theaurorian:ceruleanchestplate": {
+      "weight": 1.2,
+      "included_in_underarmor": true,
+      "temp": 1.5
+    },
+    "theaurorian:knightchestplate": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 1.5
+    },
+    "theaurorian:spectralchestplate": {
+      "weight": 0.6,
+      "included_in_underarmor": true,
+      "temp": 1.5
     }
   },
   "boots": {
@@ -2270,6 +2330,26 @@
       "weight": 2.5,
       "included_in_underarmor": true,
       "temp": 0.0
+    },
+    "theaurorian:auroriansteelboots": {
+      "weight": 1.8,
+      "included_in_underarmor": true,
+      "temp": 2.0
+    },
+    "theaurorian:ceruleanboots": {
+      "weight": 1.2,
+      "included_in_underarmor": true,
+      "temp": 1.5
+    },
+    "theaurorian:knightboots": {
+      "weight": 1.5,
+      "included_in_underarmor": true,
+      "temp": 1.5
+    },
+    "theaurorian:spectralboots": {
+      "weight": 0.6,
+      "included_in_underarmor": true,
+      "temp": 1.5
     }
   }
 }

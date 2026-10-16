@@ -20,6 +20,171 @@
                 "restriction": "whitelist",
                 "value": [10]
             }
+        },
+        "beneath_stalagmite_heavy_metal": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "stalagmite",
+                "block": [
+                    {"name": "minecraft:stone", "weight": 55},
+                    {"name": "minecraft:iron_ore", "weight": 12},
+                    {"name": "embers:ore_copper", "weight": 6},
+                    {"name": "embers:ore_tin", "weight": 6},
+                    {"name": "embers:ore_lead", "weight": 6},
+                    {"name": "embers:ore_nickel", "weight": 5},
+                    {"name": "metallurgy:manganese_ore", "weight": 6},
+                    {"name": "metallurgy:zinc_ore", "weight": 4}
+                ],
+                "material": ["minecraft:stone", "quark:biome_cobblestone", "minecraft:dirt", "minecraft:gravel"],
+                "gen-body": ["minecraft:air"],
+                "min-height": 12,
+                "height-variance": 12,
+                "height-mod": 4,
+                "size-variance": 1,
+                "smooth": true,
+                "fat": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 8,
+            "min-height": 15,
+            "max-height": 220,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [10]
+            }
+        },
+        "beneath_stalagmite_shadow": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "stalagmite",
+                "block": [
+                    {"name": "minecraft:stone", "weight": 55},
+                    {"name": "quark:biome_cobblestone", "weight": 10},
+                    {"name": "metallurgy:shadow_iron_ore", "weight": 15},
+                    {"name": "metallurgy:deep_iron_ore", "weight": 12},
+                    {"name": "metallurgy:infuscolium_ore", "weight": 8}
+                ],
+                "material": ["minecraft:stone", "quark:biome_cobblestone", "minecraft:dirt", "minecraft:gravel"],
+                "gen-body": ["minecraft:air"],
+                "min-height": 12,
+                "height-variance": 12,
+                "height-mod": 4,
+                "size-variance": 1,
+                "smooth": true,
+                "fat": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 10,
+            "min-height": 15,
+            "max-height": 220,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [10]
+            }
+        },
+        "beneath_stalagmite_arcane": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "stalagmite",
+                "block": [
+                    {"name": "minecraft:stone", "weight": 60},
+                    {"name": "thaumcraft:ore_amber", "weight": 11},
+                    {"name": "thaumcraft:ore_cinnabar", "weight": 11},
+                    {"name": "embers:ore_quartz", "weight": 9},
+                    {"name": "metallurgy:orichalcum_ore", "weight": 5},
+                    {"name": "astralsorcery:blockcustomore", "metadata": 0, "weight": 4}
+                ],
+                "material": ["minecraft:stone", "quark:biome_cobblestone", "minecraft:dirt", "minecraft:gravel"],
+                "gen-body": ["minecraft:air"],
+                "min-height": 12,
+                "height-variance": 12,
+                "height-mod": 4,
+                "size-variance": 1,
+                "smooth": true,
+                "fat": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 10,
+            "min-height": 15,
+            "max-height": 220,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [10]
+            }
+        },
+        "beneath_stalagmite_volatile": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "stalagmite",
+                "block": [
+                    {"name": "minecraft:stone", "weight": 55},
+                    {"name": "minecraft:coal_ore", "weight": 18},
+                    {"name": "minecraft:redstone_ore", "weight": 12},
+                    {"name": "metallurgy:potash_ore", "weight": 5},
+                    {"name": "metallurgy:phosphorite_ore", "weight": 5},
+                    {"name": "saltmod:salt_ore", "weight": 5}
+                ],
+                "material": ["minecraft:stone", "quark:biome_cobblestone", "minecraft:dirt", "minecraft:gravel"],
+                "gen-body": ["minecraft:air"],
+                "min-height": 12,
+                "height-variance": 12,
+                "height-mod": 4,
+                "size-variance": 1,
+                "smooth": true,
+                "fat": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 10,
+            "min-height": 15,
+            "max-height": 220,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [10]
+            }
+        },
+        "beneath_stalagmite_precious": {
+            "distribution": "uniform",
+            "generator": {
+                "type": "stalagmite",
+                "block": [
+                    {"name": "minecraft:stone", "weight": 65},
+                    {"name": "minecraft:gold_ore", "weight": 10},
+                    {"name": "embers:ore_silver", "weight": 9},
+                    {"name": "minecraft:diamond_ore", "weight": 4},
+                    {"name": "minecraft:emerald_ore", "weight": 2},
+                    {"name": "bewitchment:garnet_ore", "weight": 2},
+                    {"name": "bewitchment:opal_ore", "weight": 2},
+                    {"name": "bewitchment:amethyst_ore", "weight": 2},
+                    {"name": "biomesoplenty:gem_ore", "metadata": 1, "weight": 2},
+                    {"name": "biomesoplenty:gem_ore", "metadata": 6, "weight": 2}
+                ],
+                "material": ["minecraft:stone", "quark:biome_cobblestone", "minecraft:dirt", "minecraft:gravel"],
+                "gen-body": ["minecraft:air"],
+                "min-height": 12,
+                "height-variance": 12,
+                "height-mod": 4,
+                "size-variance": 1,
+                "smooth": true,
+                "fat": true
+            },
+            "cluster-count": 1,
+            "chunk-chance": 16,
+            "min-height": 15,
+            "max-height": 220,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [10]
+            }
         }
     }
 }

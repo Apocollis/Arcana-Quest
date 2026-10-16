@@ -43,6 +43,15 @@ if os.path.exists(dayspawns_path):
 else:
     dayspawn_mobs = []
 
+staged_dayspawns_path = os.path.join(aq_dir, "mob_staged_dayspawns.json")
+staged_dayspawn_mobs = {}
+if os.path.exists(staged_dayspawns_path):
+    staged_dayspawn_data = load_lenient_json(staged_dayspawns_path)
+    if isinstance(staged_dayspawn_data, dict):
+        for m, stg in staged_dayspawn_data.items():
+            if m not in disabled:
+                staged_dayspawn_mobs[m] = stg
+
 depths_path = os.path.join(aq_dir, "mob_depthsspawns.json")
 depths_entries = []
 if os.path.exists(depths_path):
@@ -92,16 +101,16 @@ def load_spawnrules_cfg(filepath):
         "dragon": 1,
         "boss": 1,
         "du_tier1_maxheight": 55,
-        "du_tier1_healthmultiply": 1.5,
-        "du_tier1_damagemultiply": 1.5,
-        "du_tier2_maxheight": 30,
-        "du_tier2_healthmultiply": 2.0,
+        "du_tier1_healthmultiply": 1.25,
+        "du_tier1_damagemultiply": 1.25,
+        "du_tier2_maxheight": 15,
+        "du_tier2_healthmultiply": 1.75,
         "du_tier2_damagemultiply": 1.75,
-        "du_tier2_potion": "minecraft:night_vision,999999,0",
-        "du_tier3_maxheight": 0,
-        "du_tier3_healthmultiply": 2.0,
-        "du_tier3_damagemultiply": 2.5,
-        "du_tier3_armoradd": 10.0,
+        "du_tier2_potion": "none",
+        "du_tier3_maxheight": -15,
+        "du_tier3_healthmultiply": 2.25,
+        "du_tier3_damagemultiply": 2.25,
+        "du_tier3_armoradd": 8.0,
         "du_tier3_potion": "minecraft:night_vision,999999,0",
         "deadly_mob_maxheight": 0,
         "deadly_mob_healthmultiply": 2.5,
@@ -113,7 +122,43 @@ def load_spawnrules_cfg(filepath):
         "surface_day_min_dist": 30.0,
         "atum_hostile_cap": 30,
         "atum_day_bandit_cap": 12,
-        "atum_spawn_throttle": 0.40
+        "atum_spawn_throttle": 0.40,
+        "dim_nether_healthmultiply": 1.75,
+        "dim_nether_damagemultiply": 1.75,
+        "dim_nether_armoradd": 0.0,
+        "dim_nether_potion": "minecraft:night_vision,999999,0",
+        "dim_end_healthmultiply": 2.25,
+        "dim_end_damagemultiply": 2.25,
+        "dim_end_armoradd": 8.0,
+        "dim_end_potion": "minecraft:night_vision,999999,0",
+        "dim_aether_healthmultiply": 1.75,
+        "dim_aether_damagemultiply": 1.75,
+        "dim_aether_armoradd": 0.0,
+        "dim_aether_potion": "none",
+        "dim_twilight_healthmultiply": 1.75,
+        "dim_twilight_damagemultiply": 1.75,
+        "dim_twilight_armoradd": 0.0,
+        "dim_twilight_potion": "none",
+        "dim_beneath_healthmultiply": 1.75,
+        "dim_beneath_damagemultiply": 1.75,
+        "dim_beneath_armoradd": 0.0,
+        "dim_beneath_potion": "minecraft:night_vision,999999,0",
+        "dim_atum_healthmultiply": 1.75,
+        "dim_atum_damagemultiply": 1.75,
+        "dim_atum_armoradd": 0.0,
+        "dim_atum_potion": "none",
+        "dim_betweenlands_healthmultiply": 1.75,
+        "dim_betweenlands_damagemultiply": 1.75,
+        "dim_betweenlands_armoradd": 0.0,
+        "dim_betweenlands_potion": "none",
+        "dim_aurorian_healthmultiply": 1.75,
+        "dim_aurorian_damagemultiply": 1.75,
+        "dim_aurorian_armoradd": 0.0,
+        "dim_aurorian_potion": "none",
+        "dim_emptiness_healthmultiply": 2.25,
+        "dim_emptiness_damagemultiply": 2.25,
+        "dim_emptiness_armoradd": 8.0,
+        "dim_emptiness_potion": "minecraft:night_vision,999999,0"
     }
     if not os.path.exists(filepath):
         print("mob_spawnrules.cfg not found, using script defaults.")
@@ -663,17 +708,19 @@ restriction_rules = list(custom_rules)
 day_allow_rules = []
 entity_modifier_rules = []
 underground_buff_rules = []
-beneath_buff_rules = []
+dimension_buff_rules = []
 seen_limit_mobs = set()
 
-if dayspawn_mobs:
+all_dayspawn_mobs = sorted(list(set(dayspawn_mobs) | set(staged_dayspawn_mobs.keys())))
+
+if all_dayspawn_mobs:
     day_limit = tier_limits.get("surface_day_limit", tier_limits.get("surface_day", 20))
     day_min_dist = tier_limits.get("surface_day_min_dist", 30.0)
-    print(f"Adding rule to allow {len(dayspawn_mobs)} hostile surface mobs during daytime (capped at {day_limit} per player, min player distance {day_min_dist})")
+    print(f"Adding rule to allow {len(all_dayspawn_mobs)} hostile surface mobs during daytime ({len(dayspawn_mobs)} unstaged, {len(staged_dayspawn_mobs)} staged, capped at {day_limit} per player, min player distance {day_min_dist})")
 
     # Deny rule when within minimum player distance
     day_dist_deny_rule = {
-        "mob": sorted(dayspawn_mobs),
+        "mob": all_dayspawn_mobs,
         "dimension": 0,
         "minheight": 60,
         "seesky": True,
@@ -691,7 +738,7 @@ if dayspawn_mobs:
 
     # Deny rule when daytime surface cap is reached
     day_deny_rule = {
-        "mob": sorted(dayspawn_mobs),
+        "mob": all_dayspawn_mobs,
         "dimension": 0,
         "minheight": 60,
         "seesky": True,
@@ -700,7 +747,7 @@ if dayspawn_mobs:
         "mincount": {
             "amount": day_limit,
             "perplayer": True,
-            "mob": sorted(dayspawn_mobs)
+            "mob": all_dayspawn_mobs
         },
         "result": "deny"
     }
@@ -711,46 +758,121 @@ if dayspawn_mobs:
         "obj_text": day_deny_text
     })
 
-    # Allow rule with maxcount protection and minplayerdist
-    day_allow_rule = {
-        "mob": sorted(dayspawn_mobs),
-        "dimension": 0,
-        "minheight": 60,
-        "seesky": True,
-        "mintime": 0,
-        "maxtime": 13000,
-        "minplayerdist": day_min_dist,
-        "maxcount": {
-            "amount": day_limit,
-            "perplayer": True,
-            "mob": sorted(dayspawn_mobs)
-        },
-        "result": "allow"
+    # Allow rule for unstaged daytime surface mobs
+    if dayspawn_mobs:
+        day_allow_rule = {
+            "mob": sorted(dayspawn_mobs),
+            "dimension": 0,
+            "minheight": 60,
+            "seesky": True,
+            "mintime": 0,
+            "maxtime": 13000,
+            "minplayerdist": day_min_dist,
+            "maxcount": {
+                "amount": day_limit,
+                "perplayer": True,
+                "mob": all_dayspawn_mobs
+            },
+            "result": "allow"
+        }
+        day_allow_text = json.dumps(day_allow_rule, indent=2)
+        day_allow_text = "\n".join("    " + line for line in day_allow_text.split("\n")).strip()
+        day_allow_rules.append({
+            "preceding": f",\n\n  // Allow hostile non-undead surface creatures to spawn during daytime up to cap ({day_limit} per player)\n  ",
+            "obj_text": day_allow_text
+        })
+
+    # Group staged daytime surface mobs by stage
+    stages_to_mobs = {}
+    for m, stg in staged_dayspawn_mobs.items():
+        stages_to_mobs.setdefault(stg, []).append(m)
+
+    for stg, s_mobs in sorted(stages_to_mobs.items()):
+        staged_allow_rule = {
+            "mob": sorted(s_mobs),
+            "dimension": 0,
+            "minheight": 60,
+            "seesky": True,
+            "mintime": 0,
+            "maxtime": 13000,
+            "gamestage": stg,
+            "minplayerdist": day_min_dist,
+            "maxcount": {
+                "amount": day_limit,
+                "perplayer": True,
+                "mob": all_dayspawn_mobs
+            },
+            "result": "allow"
+        }
+        staged_allow_text = json.dumps(staged_allow_rule, indent=2)
+        staged_allow_text = "\n".join("    " + line for line in staged_allow_text.split("\n")).strip()
+        day_allow_rules.append({
+            "preceding": f",\n\n  // Allow staged hostile surface creatures to spawn during daytime if player has '{stg}' stage up to cap ({day_limit} per player)\n  ",
+            "obj_text": staged_allow_text
+        })
+
+    # Fallback deny rule for all staged daytime mobs if stage check failed
+    if staged_dayspawn_mobs:
+        staged_fallback_deny = {
+            "mob": sorted(list(staged_dayspawn_mobs.keys())),
+            "dimension": 0,
+            "minheight": 60,
+            "seesky": True,
+            "mintime": 0,
+            "maxtime": 13000,
+            "result": "deny"
+        }
+        staged_deny_text = json.dumps(staged_fallback_deny, indent=2)
+        staged_deny_text = "\n".join("    " + line for line in staged_deny_text.split("\n")).strip()
+        day_allow_rules.append({
+            "preceding": f",\n\n  // Deny staged surface daytime hostile spawns if player lacks required stage\n  ",
+            "obj_text": staged_deny_text
+        })
+
+
+# Give other dimension hostile mobs configurable difficulty buffs
+print("Adding rules to buff other dimension hostile mobs")
+dims_to_buff = [
+    (-1, "Nether", "nether"),
+    (1, "The End", "end"),
+    (4, "Aether", "aether"),
+    (7, "Twilight Forest", "twilight"),
+    (10, "The Beneath", "beneath"),
+    (17, "Atum", "atum"),
+    (20, "The Betweenlands", "betweenlands"),
+    (424, "The Aurorian", "aurorian"),
+    (14676, "The Emptiness", "emptiness")
+]
+
+for dim_id, dim_name, dim_key in dims_to_buff:
+    dim_health = tier_limits.get(f"dim_{dim_key}_healthmultiply", 1.75)
+    dim_damage = tier_limits.get(f"dim_{dim_key}_damagemultiply", 1.75)
+    dim_armor = tier_limits.get(f"dim_{dim_key}_armoradd", 0.0)
+    potion_setting = tier_limits.get(f"dim_{dim_key}_potion", "none")
+    
+    dim_rule = {
+        "dimension": dim_id,
+        "hostile": True,
+        "result": "default",
+        "healthmultiply": dim_health,
+        "damagemultiply": dim_damage,
+        "onjoin": True
     }
-    day_allow_text = json.dumps(day_allow_rule, indent=2)
-    day_allow_text = "\n".join("    " + line for line in day_allow_text.split("\n")).strip()
-    day_allow_rules.append({
-        "preceding": f",\n\n  // Allow hostile non-undead surface creatures to spawn during daytime up to cap ({day_limit} per player)\n  ",
-        "obj_text": day_allow_text
+    comment_extras = []
+    if dim_armor > 0.0:
+        dim_rule["armoradd"] = dim_armor
+        comment_extras.append(f"+{dim_armor} armor")
+    if potion_setting and str(potion_setting).lower() != "none":
+        dim_rule["potion"] = potion_setting
+        comment_extras.append(potion_setting.split(',')[0])
+    
+    comment_suffix = f", {', '.join(comment_extras)}" if comment_extras else ""
+    dim_text = json.dumps(dim_rule, indent=2)
+    dim_text = "\n".join("    " + line for line in dim_text.split("\n")).strip()
+    dimension_buff_rules.append({
+        "preceding": f",\n\n  // Give {dim_name} dimension hostile mobs difficulty buff ({dim_health}x health, {dim_damage}x damage{comment_suffix})\n  ",
+        "obj_text": dim_text
     })
-
-
-# Give Beneath dimension mobs general buff (1.5x health/damage, night_vision)
-print("Adding rule to buff Beneath dimension mobs")
-beneath_buff_rule = {
-    "dimension": 10,
-    "result": "default",
-    "healthmultiply": 1.5,
-    "damagemultiply": 1.5,
-    "potion": "minecraft:night_vision,999999,0",
-    "onjoin": True
-}
-beneath_buff_text = json.dumps(beneath_buff_rule, indent=2)
-beneath_buff_text = "\n".join("    " + line for line in beneath_buff_text.split("\n")).strip()
-beneath_buff_rules.append({
-    "preceding": ",\n\n  // Give Beneath dimension mobs the same buff as Tier 3 Deadlier Underground\n  ",
-    "obj_text": beneath_buff_text
-})
 
 # Early bypass rules for depths pool mobs (Y <= maxheight, default -30)
 # OnJoin bypasses stage gating with Tier 3 underground multipliers (excluding Dragon and Deadly tier mobs)
@@ -856,6 +978,8 @@ for block in blocks:
         "Hard cap total hostile mob spawning" in preceding or
         "Hard cap mob spawner cages" in preceding or
         "Allow hostile non-undead surface creatures to spawn during daytime" in preceding or
+        "Allow staged hostile surface creatures to spawn during daytime" in preceding or
+        "Deny staged surface daytime hostile spawns" in preceding or
         "Deny hostile mob spawning in Village structures" in preceding or
         "Deny surface daytime hostile spawns" in preceding or
         "Deny daytime surface bandit spawns in Atum" in preceding or
@@ -866,6 +990,10 @@ for block in blocks:
         "structure-specific mobs" in preceding or
         "Allow Depths pool mobs" in preceding or
         "Depths pool mobs" in preceding or
+        "dimension hostile mobs Tier 2 difficulty buff" in preceding or
+        "dimension hostile mobs difficulty buff" in preceding or
+        "Give Beneath dimension mobs" in preceding or
+        "dimension mobs the same buff as Tier" in preceding or
         "in other dimensions" in preceding):
         print("Removing old/user-cleaned rule block")
         continue
@@ -885,13 +1013,13 @@ for block in blocks:
         print("Removing old village daytime deny rule to regenerate")
         continue
 
-    # Discard old daytime deny rule block if present
-    if rule_obj.get("result") == "deny" and rule_obj.get("mintime") == 0 and rule_obj.get("seesky") is True and isinstance(rule_obj.get("mob"), list):
+    # Discard old daytime deny rule blocks if present
+    if rule_obj.get("result") == "deny" and rule_obj.get("mintime") == 0 and rule_obj.get("seesky") is True:
         print("Removing old daytime deny rule block")
         continue
 
-    # Discard old daytime allow rule block if present
-    if rule_obj.get("result") == "allow" and rule_obj.get("mintime") == 0 and rule_obj.get("seesky") is True and isinstance(rule_obj.get("mob"), list):
+    # Discard old daytime allow rule blocks if present
+    if rule_obj.get("result") == "allow" and rule_obj.get("mintime") == 0 and rule_obj.get("seesky") is True:
         print("Removing old daytime allow rule block")
         continue
 
@@ -1026,20 +1154,23 @@ for block in blocks:
         entity_modifier_rules.append(block_entry)
 
 # Generate fresh Deadlier Underground tier rules
-t3_height = tier_limits.get("du_tier3_maxheight", 0)
-t2_height = tier_limits.get("du_tier2_maxheight", 30)
+t3_height = tier_limits.get("du_tier3_maxheight", -15)
+t2_height = tier_limits.get("du_tier2_maxheight", 15)
 t1_height = tier_limits.get("du_tier1_maxheight", 55)
 
 du_t3_rule = {
     "dimension": 0,
     "maxheight": t3_height,
     "result": "default",
-    "healthmultiply": tier_limits.get("du_tier3_healthmultiply", 2.5),
-    "damagemultiply": tier_limits.get("du_tier3_damagemultiply", 2.5),
-    "armoradd": tier_limits.get("du_tier3_armoradd", 12.0),
-    "potion": tier_limits.get("du_tier3_potion", "minecraft:night_vision,999999,0"),
+    "healthmultiply": tier_limits.get("du_tier3_healthmultiply", 2.25),
+    "damagemultiply": tier_limits.get("du_tier3_damagemultiply", 2.25),
+    "armoradd": tier_limits.get("du_tier3_armoradd", 8.0),
     "onjoin": True
 }
+du_t3_potion = tier_limits.get("du_tier3_potion", "minecraft:night_vision,999999,0")
+if du_t3_potion and str(du_t3_potion).lower() != "none":
+    du_t3_rule["potion"] = du_t3_potion
+
 du_t3_text = "\n".join("    " + line for line in json.dumps(du_t3_rule, indent=2).split("\n")).strip()
 underground_buff_rules.append({
     "preceding": f",\n\n  // Deadlier Underground tier 3 (Y <= {t3_height})\n  ",
@@ -1050,11 +1181,14 @@ du_t2_rule = {
     "dimension": 0,
     "maxheight": t2_height,
     "result": "default",
-    "healthmultiply": tier_limits.get("du_tier2_healthmultiply", 2.0),
+    "healthmultiply": tier_limits.get("du_tier2_healthmultiply", 1.75),
     "damagemultiply": tier_limits.get("du_tier2_damagemultiply", 1.75),
-    "potion": tier_limits.get("du_tier2_potion", "minecraft:night_vision,999999,0"),
     "onjoin": True
 }
+du_t2_potion = tier_limits.get("du_tier2_potion", "none")
+if du_t2_potion and str(du_t2_potion).lower() != "none":
+    du_t2_rule["potion"] = du_t2_potion
+
 du_t2_text = "\n".join("    " + line for line in json.dumps(du_t2_rule, indent=2).split("\n")).strip()
 underground_buff_rules.append({
     "preceding": f",\n\n  // Deadlier Underground tier 2 (Y <= {t2_height})\n  ",
@@ -1065,8 +1199,8 @@ du_t1_rule = {
     "dimension": 0,
     "maxheight": t1_height,
     "result": "default",
-    "healthmultiply": tier_limits.get("du_tier1_healthmultiply", 1.5),
-    "damagemultiply": tier_limits.get("du_tier1_damagemultiply", 1.5),
+    "healthmultiply": tier_limits.get("du_tier1_healthmultiply", 1.25),
+    "damagemultiply": tier_limits.get("du_tier1_damagemultiply", 1.25),
     "onjoin": True
 }
 du_t1_text = "\n".join("    " + line for line in json.dumps(du_t1_rule, indent=2).split("\n")).strip()
@@ -1092,7 +1226,7 @@ processed_blocks.extend(gating_list)
 processed_blocks.extend(restriction_rules)
 processed_blocks.extend(day_allow_rules)
 processed_blocks.extend(entity_modifier_rules)
-processed_blocks.extend(beneath_buff_rules)
+processed_blocks.extend(dimension_buff_rules)
 processed_blocks.extend(underground_buff_rules)
 
 # Deduplicate blocks by normalized obj_text
