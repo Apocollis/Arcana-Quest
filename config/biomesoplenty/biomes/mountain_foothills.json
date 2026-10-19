@@ -1,5 +1,11 @@
 {
   "generators": {
+    "berry_bushes": {
+      "enable": false
+    },
+    "bushes": {
+      "enable": false
+    },
     "flax": {
       "enable": false
     }

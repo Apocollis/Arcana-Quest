@@ -7,11 +7,24 @@
 			{action:"clear"},
 
 		
-			// --- Level 1: Sun, Moon, Stars ---
+			// --- Level 1: Sun, Moon, Stars & Starlight Basics ---
 			{action:"add", buy:{id:"thaumcraft:celestial_notes",Damage:[5,6,7,8,9,10,11,12],Count:1},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:20}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:18}},sell:{id:"astralsorcery:itemjournal",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:20}},sell:{id:"astralsorcery:itemcraftingcomponent",Damage:0,Count:4}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:16}},sell:{id:"astralsorcery:blockmarble",Damage:0,Count:16}, CareerLevel:1},
 
-			// --- Level 2: Planets & Constellations ---
-			{action:"add", buy:{id:"thaumcraft:celestial_notes",Damage:[0,1,2,3,4],Count:1},sell:{id:"ordinarycoins:coinsilver",Count:1}, CareerLevel:2}
+			// --- Level 2: Planets, Constellations & Sky Observation ---
+			{action:"add", buy:{id:"thaumcraft:celestial_notes",Damage:[0,1,2,3,4],Count:1},sell:{id:"ordinarycoins:coinsilver",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},sell:{id:"astralsorcery:itemhandtelescope",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}},sell:{id:"astralsorcery:itemusabledust",Damage:0,Count:4}, CareerLevel:2},
+
+			// --- Level 3: Optical Mastery & Night Manipulation ---
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}},sell:{id:"astralsorcery:itemusabledust",Damage:1,Count:2}, CareerLevel:3},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}},sell:{id:"astralsorcery:itemcraftingcomponent",Damage:4,Count:2}, CareerLevel:3},
+
+			// --- Level 4: Master of the Heavens ---
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:2,max:3}},sell:{id:"astralsorcery:itemconstellationpaper",Count:1}, CareerLevel:4},
+			{action:"add", buy:{id:"ordinarycoins:coingold",Count:{min:5,max:6}},sell:{id:"astralsorcery:itemenchantmentamulet",Count:1}, CareerLevel:4}
 
 		]
 	}

@@ -14,7 +14,7 @@
 		{"level" : 0, "frequency" : "single", "type" : "PRISON", "spawnerId" : "undead_basic_spawners"},
 		{"level" : 0, "frequency" : "single", "type" : "CAKE"},
 
-		{"level" : 1, "frequency" : "single", "type" : "ENDER"},
+		{"level" : 1, "frequency" : "single", "type" : "ENDER", "spawnerId" : "ender_spawners"},
 
 		{"level" : 2, "frequency" : "single", "type" : "BOTANIA_GROVE"},
 
@@ -27,7 +27,7 @@
 		{"level" : 5, "frequency" : "single", "type" : "CRYPT"},
 		{"level" : 5, "frequency" : "single", "type" : "PRISON"},
 
-		{"level" : 6, "frequency" : "single", "type" : "ENDER"},
+		{"level" : 6, "frequency" : "single", "type" : "ENDER", "spawnerId" : "ender_spawners"},
 		{"level" : 6, "frequency" : "single", "type" : "AETHER_PORTAL", "spawnerId" : "aether_spawners"},
 		{"level" : 6, "frequency" : "single", "type" : "ATUM_PORTAL", "spawnerId" : "atum_spawners"},
 		{"level" : 6, "frequency" : "single", "type" : "BENEATH_PORTAL", "spawnerId" : "beneath_spawners"},

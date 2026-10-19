@@ -15,22 +15,22 @@
 			{
 				action: "add",
 				CareerLevel: 1,
-				sell: {id:"farmingforblockheads:fertilizer",Damage:0,Count:8},
-				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}
+				sell: {id:"farmersdelight:organic_compost",Count:8},
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:16,max:20}}
 			},
 			
 			{
 				action: "add",
 				CareerLevel: 1,
-				sell: {id:"farmingforblockheads:fertilizer",Damage:1,Count:8},
-				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}
+				sell: {id:"farmersdelight:rich_soil",Count:4},
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:20,max:24}}
 			},
 			
 			{
 				action: "add",
 				CareerLevel: 1,
-				sell: {id:"farmingforblockheads:fertilizer",Damage:2,Count:8},
-				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:24}}
+				sell: {id:"rustic:fertile_soil",Count:4},
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:22,max:26}}
 			},
 			
 			{

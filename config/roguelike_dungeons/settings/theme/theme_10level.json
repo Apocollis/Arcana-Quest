@@ -32,7 +32,7 @@
 					"data" : [
 						{"type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarble", "meta" : 0}, "weight" : 17},
 						{"type" : "METABLOCK", "data" : {"name" : "astralsorcery:blockmarble", "meta" : 1}, "weight" : 10},
-						{"type" : "BLOCK", "data" : {"name" : "charm:smooth_glowstone"}, "weight" : 3}
+						{"type" : "METABLOCK", "data" : {"name" : "charm:smooth_glowstone", "meta" : 0}, "weight" : 3}
 					]
 				},
 				"pillar" : {"type" : "METABLOCK", "data" : {"name" : "minecraft:quartz_block", "meta" : 2}},

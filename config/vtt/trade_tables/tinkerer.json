@@ -36,7 +36,6 @@
 			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:28,max:34}},sell:{id:"ceramics:clay_hard",Damage:6,Count:16}, CareerLevel:4},
 
 			// --- Level 5: Grand Relics & Architectural Artifacts ---
-			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:4},sell:{id:"effortlessbuilding:reach_upgrade1",Count:1}, CareerLevel:5},
 			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:5},sell:{id:"astralsorcery:itemarchitectwand",Count:1}, CareerLevel:5},
 			{action:"add", buy:{id:"ordinarycoins:coinplatinum",Count:5},sell:{id:"astralsorcery:itemexchangewand",Count:1}, CareerLevel:5}
 

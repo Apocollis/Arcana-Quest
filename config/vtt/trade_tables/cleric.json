@@ -106,7 +106,7 @@
 				CareerLevel: 5,
 				buyB:{id:"ordinarycoins:coingold",Count:{min:2,max:3}},
 				buy:{id:"ordinarycoins:coinplatinum",Count:2},
-				sell: {id:"contenttweaker:lifeblood_crystal",Count:1}
+				sell: {id:"contenttweaker:life_elixir",Count:1}
 			}
 		]
 	}

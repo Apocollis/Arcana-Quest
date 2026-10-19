@@ -13,8 +13,7 @@
 			"level" : 1,
 			"potentials" : [
 				{"name" : "minecraft:stray", "weight" : 10},
-				{"name" : "lycanitesmobs:sylph", "weight" : 8},
-				{"name" : "lycanitesmobs:djinn", "weight" : 6},
+				{"name" : "lycanitesmobs:djinn", "weight" : 8},
 				{"name" : "grimoireofgaia:ender_eye", "weight" : 6}
 			]
 		},

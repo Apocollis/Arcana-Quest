@@ -9,13 +9,15 @@
 			
 			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:13,max:14}},sell:{id:"ordinarycoins:coinbronze",Count:{min:17,max:18}}, CareerLevel:1},
 			{action:"add", buy:{id:"embers:ingot_copper",Damage:0,Count:{min:14,max:15}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:17}}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}},sell:{id:"minecraft:iron_pickaxe",Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:14}},sell:{id:"minecraft:iron_shovel",Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}},sell:{id:"minecraft:iron_axe",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:10,max:12}},sell:{id:"embers:shovel_copper",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}},sell:{id:"embers:pickaxe_copper",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:14,max:16}},sell:{id:"embers:axe_copper",Count:1}, CareerLevel:1},
 			
 			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:15,max:18}},sell:{id:"minecraft:bucket",Count:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:25,max:29}},sell:{id:"thermalfoundation:tool.hammer_iron",Count:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},sell:{id:"chiselsandbits:chisel_iron",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:3,max:4}},sell:{id:"minecraft:iron_shovel",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:5,max:6}},sell:{id:"minecraft:iron_pickaxe",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:5,max:6}},sell:{id:"minecraft:iron_axe",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinsilver",Count:{min:1,max:2}},sell:{id:"chiselsandbits:chisel_iron",Count:1}, CareerLevel:2},
 			{action:"add", buy:{id:"embers:ingot_bronze",Damage:0,Count:{min:9,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
 			{action:"add", buy:{id:"embers:ingot_lead",Damage:0,Count:{min:9,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:16,max:18}}, CareerLevel:2},
 			
