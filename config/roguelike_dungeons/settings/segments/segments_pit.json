@@ -1,0 +1,32 @@
+{
+  "name": "arcanaquest:segments_pit",
+  "segments": [
+    {"level": 0, "type": "CAVE", "weight": 6},
+    {"level": 0, "type": "DOOR", "weight": 6},
+    {"level": 0, "type": "WALL", "weight": 4},
+    {"level": 0, "type": "MINESHAFT", "weight": 4},
+    {"level": 0, "type": "SHELF", "weight": 3},
+    {"level": 0, "type": "SPAWNER", "weight": 2},
+    {"level": 0, "type": "CHEST", "weight": 1},
+
+    {"level": 1, "type": "MOSSYARCH", "weight": 6},
+    {"level": 1, "type": "DOOR", "weight": 6},
+    {"level": 1, "type": "PLANT", "weight": 4},
+    {"level": 1, "type": "MUSHROOM", "weight": 3},
+    {"level": 1, "type": "TOMB", "weight": 3},
+    {"level": 1, "type": "SHELF", "weight": 3},
+    {"level": 1, "type": "INSET", "weight": 2},
+    {"level": 1, "type": "SPAWNER", "weight": 2},
+    {"level": 1, "type": "CHEST", "weight": 1},
+
+    {"level": 2, "type": "DOOR", "weight": 8},
+    {"level": 2, "type": "CELL", "weight": 5},
+    {"level": 2, "type": "SQUAREARCH", "weight": 4},
+    {"level": 2, "type": "WALL", "weight": 4},
+    {"level": 2, "type": "INSET", "weight": 3},
+    {"level": 2, "type": "SHELF", "weight": 3},
+    {"level": 2, "type": "ARROW", "weight": 2},
+    {"level": 2, "type": "SPAWNER", "weight": 2},
+    {"level": 2, "type": "CHEST", "weight": 1}
+  ]
+}

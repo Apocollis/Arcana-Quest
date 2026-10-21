@@ -1,0 +1,9 @@
+{
+  "name": "arcanaquest:layout_pit",
+  "numLevels": 3,
+  "layouts": [
+    {"level": [0, 1, 2], "type": "classic"}
+  ],
+  "numRooms": [12, 16, 20],
+  "scatter": [14, 16, 16]
+}

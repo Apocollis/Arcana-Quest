@@ -1,0 +1,10 @@
+{
+  "name": "arcanaquest:loot_pit",
+  "inherit": [
+    "arcanaquest:loot0",
+    "arcanaquest:loot1",
+    "arcanaquest:loot2",
+    "arcanaquest:loot_all",
+    "arcanaquest:loot_treasure"
+  ]
+}

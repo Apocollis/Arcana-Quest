@@ -25,6 +25,9 @@
 
 # Ignored
 .curseclient
+/.plans/
+/docs/
+/reference/
 /config/BiomeTweaker/output/
 /config/packcompanion/output/
 /config/fantasticlib/reference

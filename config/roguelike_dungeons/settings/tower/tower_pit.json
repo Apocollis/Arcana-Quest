@@ -1,0 +1,19 @@
+{
+  "name": "arcanaquest:tower_pit",
+  "tower": {
+    "type": "HOLE",
+    "theme": {
+      "primary": {
+        "walls": {
+          "type": "WEIGHTED",
+          "data": [
+            {"type": "METABLOCK", "data": {"name": "stone", "meta": 0}, "weight": 60},
+            {"type": "METABLOCK", "data": {"name": "cobblestone", "meta": 0}, "weight": 25},
+            {"type": "METABLOCK", "data": {"name": "dirt", "meta": 1}, "weight": 10},
+            {"type": "METABLOCK", "data": {"name": "gravel", "meta": 0}, "weight": 10}
+          ]
+        }
+      }
+    }
+  }
+}

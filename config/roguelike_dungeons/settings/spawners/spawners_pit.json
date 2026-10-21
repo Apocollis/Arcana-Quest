@@ -1,0 +1,31 @@
+{
+  "name": "arcanaquest:spawners_pit",
+  "spawners": [
+    {
+      "level": 0,
+      "potentials": [
+        {"name": "minecraft:zombie", "weight": 10},
+        {"name": "minecraft:skeleton", "weight": 8},
+        {"name": "minecraft:spider", "weight": 6}
+      ]
+    },
+    {
+      "level": 1,
+      "potentials": [
+        {"name": "minecraft:skeleton", "weight": 10},
+        {"name": "minecraft:cave_spider", "weight": 8},
+        {"name": "minecraft:zombie", "weight": 6},
+        {"name": "minecraft:creeper", "weight": 4}
+      ]
+    },
+    {
+      "level": 2,
+      "potentials": [
+        {"name": "minecraft:skeleton", "weight": 10},
+        {"name": "minecraft:zombie", "weight": 8},
+        {"name": "minecraft:creeper", "weight": 6},
+        {"name": "minecraft:cave_spider", "weight": 6}
+      ]
+    }
+  ]
+}

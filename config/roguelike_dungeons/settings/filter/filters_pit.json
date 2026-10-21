@@ -1,0 +1,8 @@
+{
+  "name": "arcanaquest:filters_pit",
+  "filters": [
+    {"level": 0, "name": "vine"},
+    {"level": 0, "name": "mud"},
+    {"level": 1, "name": "cobweb"}
+  ]
+}
